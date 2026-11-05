@@ -12,6 +12,5 @@ briefing_writer:
 briefing_fallback:
   model: gpt-4o-mini
   temperature: 0.3
-news_picker:
-  model: gpt-4o-mini
-  temperature: 0
+news_picker:                # gpt-4o-mini kept picking the same event several times
+  model: gpt-5.5
