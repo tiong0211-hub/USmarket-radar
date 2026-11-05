@@ -4,7 +4,7 @@
   "weekday_ko": "금",
   "us_session": "2026-11-05",
   "us_market_closed": false,
-  "generated_at": "2026-11-05T23:56:22Z",
+  "generated_at": "2026-11-05T23:59:52Z",
   "run_status": "OK",
   "banner": null,
   "indicators": [
@@ -283,116 +283,43 @@
   },
   "news": [
     {
-      "id": "n_4d8b28b4",
+      "id": "n_d376253b",
       "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "AI 주식 급락으로 월가 충격, S&P 500 4.4% 하락",
-      "preview_ko": "AI 주식의 급락이 월가를 강타했습니다.",
-      "published_at": "2026-11-05T22:04:00Z",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE43QWpUdHk2WE5qUmd4Z0hjYlBqQ3FGLUVoRlBTbmN4c1JJbWZpeUJmTXhpalZzaTNGMzVweE5wNDRJdnRSMzRENURHaGRIejdqbnVObV9KNEp6R0p0ZnAzT3Y5WGVYejV6VWc0dGZheFVWdG9IVDljNjMxVmVDVGpYZlpwN19nVzBibDdqVmRJOXV3Vk9YdFRiSQ?oc=5",
+      "title_ko": "기술주 대규모 매도, 2.5조 달러 손실",
+      "preview_ko": "기술주 매도로 2.5조 달러가 증발했다.",
+      "published_at": "2026-11-05T15:47:51Z",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNUYxQ2c5VUJvNkd2RExjdVJ1YU5UNmpYYzh2dzgzT2FOZFFaNmlpd0ZUSVViTzZkRG91RmRad3MxNXdncmt4aFFuR2U5di11dmlYSG9hODllU2RNZXFTUHR1UlhpYzhESlpfMS15OVdETTNP?oc=5",
       "summary_ko": [
-        "AI 주식의 대규모 매도가 월가를 강타했다.",
-        "S&P 500 지수는 4.4% 하락했다.",
-        "이로 인해 시장 전반에 부정적인 영향이 우려된다."
+        "기술주 매도로 인해 주식 시장에서 2.5조 달러가 사라졌다.",
+        "이는 투자자들에게 큰 충격을 주고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 IT 및 반도체 업종의 동반 약세 여부 확인"
+        "text": "국내 기술주가 미국 시장의 급락을 따라 약세로 출발하는지 확인."
       },
-      "us_tickers": [
-        "SPY"
-      ]
+      "us_tickers": []
     },
     {
-      "id": "n_fef30ad3",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "미국 증시, 2025년 이후 최악의 하루 기록",
-      "preview_ko": "미국 증시가 2025년 이후 최악의 하루를 기록했다.",
-      "published_at": "2026-11-05T21:41:42Z",
-      "source": "Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWpXOEpSbWNpWDRRLWNJRTlWNFRPX25idkI3alNPX21vNVduUC1mTjlXbF9hbmctM25kTUppNmdIRFhrazE3VXFTblVYV09TcnFDNDZmVkQwTldpYnVRZmdaaXQ1RmExdExMMTZMd0IxSUpxdlJLc3IwU2J5czkwLW1kLWs?oc=5",
-      "summary_ko": [
-        "미국 증시가 2025년 이후 최악의 하루를 기록했다.",
-        "기술주 중심의 매도세가 심화되며 지수가 급락했다.",
-        "투자자들은 안전 자산으로 이동하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 기술주가 미국 증시 급락에 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": [
-        "NVDA"
-      ]
-    },
-    {
-      "id": "n_39b4b763",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "다우 지수 1,800포인트 하락",
-      "preview_ko": "다우 지수가 1,800포인트 하락했다.",
-      "published_at": "2026-11-05T21:13:43Z",
-      "source": "6abc Philadelphia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjQyeEFvNkNJcjRrM0N3R1M0ckxXVUtpZmRxLU5tZ0UzX1Y2dlJwRk9iY3JFcG1leTA5aWVEZ3owVzJaTlRjSE1pVmtKZURqTWh4X3AyeE81cnRWcldoOTFieEFjYXAxbnhOYmNCcVdrUWhLVnFHTVlBQ2xIZGszVVpzWFVmUzhSbmdHT3M2S1pwTkZMaWtMeGVwQkU2Mk4zbUZ1Rzlmd2pVc0JjVk9tNlJ3?oc=5",
-      "summary_ko": [
-        "다우 지수가 1,800포인트 하락하며 중간 선거 결과 반등분을 모두 잃었다.",
-        "나스닥도 조정 구역에 진입했다.",
-        "AI 관련 주식과 기술주가 큰 타격을 받았다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 기술주가 미국 시장의 급락을 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": [
-        "DOW",
-        "NASDAQ"
-      ]
-    },
-    {
-      "id": "n_80f366b0",
-      "category": "theme_earnings",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥 5% 급락, 다우 1,600포인트 하락",
-      "preview_ko": "반도체 주식 하락으로 미국 증시가 급락했다.",
-      "published_at": "2026-11-05T13:09:52Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLWljZkY3WGlrek9nbEdBUVNtUTlXZ0w1MU9JSHBEU2J3WUwtN1ROQXg3cXNqal82a2ZvOUgwdEpWZEUwcEloMVUwSEpjdEVuS1lTRzVqbkxCRlhHeDFxWHJteVE0b25Uc2tIQ3hoUXVtR1J3YnNIbUVuVGZmSVdOSXpaYmtwU1RtMXhKaEwzck1BVnJ6akZQQUxJM0FFZw?oc=5",
-      "summary_ko": [
-        "미국 증시가 급락하며 나스닥은 5% 하락했다.",
-        "다우 지수는 1,600포인트 떨어져 선거 이후 상승분을 모두 잃었다.",
-        "반도체 주식의 급락이 주요 원인으로 지목되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 반도체 대형주가 미국 증시 급락에 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": [
-        "NVDA"
-      ]
-    },
-    {
-      "id": "n_41b9ede2",
+      "id": "n_8420a048",
       "category": "macro_rates",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥, AI 규제 우려로 큰 폭 하락",
-      "preview_ko": "AI 규제 우려로 나스닥이 큰 폭으로 하락했다.",
-      "published_at": "2026-11-05T21:30:09Z",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
+      "title_ko": "연준, 인플레이션 목표 초과 시 점진적 금리 인상 지지",
+      "preview_ko": "연준이 인플레이션 목표 초과 시 금리 인상을 지지하고 있다.",
+      "published_at": "2026-11-05T14:13:34Z",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
       "summary_ko": [
-        "AI 규제 우려로 나스닥이 큰 폭으로 하락했다.",
-        "투자자들은 기술주에 대한 불안감을 느끼고 있다.",
-        "이로 인해 기술주 중심의 매도세가 심화되고 있다."
+        "연준이 인플레이션이 목표를 초과할 경우 점진적인 금리 인상을 지지한다고 밝혔다.",
+        "이는 향후 금리 정책에 대한 시장의 우려를 불러일으킬 수 있다.",
+        "금리 인상이 지속될 경우 경제 전반에 미치는 영향이 주목된다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 AI 규제 우려에 따라 약세로 출발하는지 확인"
+        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
       },
       "us_tickers": []
     },
@@ -407,54 +334,121 @@
       "source": "Business Insider",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3djTEdjZGllLS1INXBfWlg5Nm1JX0VfU0JaYWMxT1p6STlNd015MUNleWowVmVLOExLSkdZTVpzSE5ZLW9qZ0NaTE9wYXlpNjk5ckZBeXlFMS1MNnA5d1JLRmxiRkh2MTFuMFdsbUVoaFBOVXFCbWRqN01LeW5lWDZ3SG5tdTBUV2QtT3pKLUxKMmpqUzc4?oc=5",
       "summary_ko": [
-        "S&P 500 지수가 경기 침체와 급락을 암시하는 신호를 보이고 있다.",
-        "이 신호는 투자자들에게 경계심을 불러일으키고 있다."
+        "S&P 500 지수가 경기 침체와 급락을 예고하는 신호를 보이고 있다.",
+        "이 신호는 투자자들에게 우려를 불러일으키고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 증시가 미국 경기 침체 우려에 따라 하락하는지 확인"
+        "text": "국내 증시가 S&P 500의 하락세를 따라 약세로 출발하는지 확인."
       },
       "us_tickers": []
     },
     {
-      "id": "n_63dc85eb",
+      "id": "n_76f8c762",
       "category": "macro_rates",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "연준 해막·바킨, 점진적 금리 인상 지지",
-      "preview_ko": "연준 인사들이 점진적 금리 인상을 지지하고 있다.",
-      "published_at": "2026-11-05T20:58:39Z",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDI4cDU1ODdtRUFrTlZiTjZUbUlKNjZicWpjOHp0YnhONENvNEhMemJ3bWNyR1Rpd0d5akp3Yk1FVElzaDlBenRLRkttdjFvOXFZaGt6dm05WWdZZXpqcU5vazJSY2p3UEx6dkFtM18tNU5nVFZEb0dFY3NHUkRGZlAxS2xJVHZPWWFYOWNUd1lsU2VnbEliTXZDYnp1Um5aX2M1a3Fn?oc=5",
+      "title_ko": "소매 투자자, 코로나 이후 가장 많은 주식 매도",
+      "preview_ko": "소매 투자자들이 코로나 이후 가장 많은 주식을 매도했다.",
+      "published_at": "2026-11-05T21:20:03Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXRrZWVpTXNZUEo1bC1FcktER1pUWWhHWi15b2QyeDd5aDZLR3RzYUNiY2hMNEtuamczaUI1OTZDNlZWY1ppZldQRTJVVkV2TXVQZlF5VF9iMVQ5cjdIdTZHVlN4VzRROXdoVWFscXJVSEtnN0NHWjQ5NUttZ28xZGRKMWRTeS1uS3pOblJ6NG44cTM0eUZGUE1DYU8tUS1Jend3VnRJLUJFWjDSAbABQVVfeXFMUHVGVWhzTUxabDdwS2RKRVdoUU9EclBnLUZpeXpVdFdabjNHUDRWM0p4ZGJLR3Q1VWUyeGF1VWZXVjBlS2RwcmZNTVB2V3FYaGRLdU05aTJHVnJOaTgzdU1QcHRPaTRkUHFrTHZhcUtjYjExT2FUQkdfczFwSXN6bFFqQkt6YzhnLUE3SW9EdUVMS0pNeGkyci1waG5qcnB4aFJ1MDF4czR6OWNfY1RlcEU?oc=5",
       "summary_ko": [
-        "연준의 해막과 바킨이 인플레이션을 낮추기 위해 점진적인 금리 인상을 지지하고 있다.",
-        "이들은 금리 인상이 경제에 미치는 영향을 고려해야 한다고 강조했다.",
-        "금리 정책에 대한 논의가 계속되고 있다."
+        "소매 투자자들이 코로나 이후 가장 많은 주식을 매도했다.",
+        "이로 인해 시장의 불안감이 더욱 커지고 있다.",
+        "투자자들은 향후 시장 회복 가능성에 대해 우려하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 소형주가 미국 소매 투자자 매도 영향을 받아 약세로 출발하는지 확인"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_c2ae7f48",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 버블 우려가 신용 시장으로 확산",
+      "preview_ko": "AI 버블 우려가 신용 시장에 영향을 미치고 있다.",
+      "published_at": "2026-11-05T20:40:35Z",
+      "source": "www.tokenpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jTTJ4djIzMXd2QTBlRmg3QzNWWVotVWctQVVvajc1VWlDY0VBWjI5NHRXNXA2SkxwdGxoYVRKZmtMOTRtS1ZwOVh5cTRMUFhuZ0l4aDFjVFlUZw?oc=5",
+      "summary_ko": [
+        "AI 버블 우려가 신용 시장으로 확산되고 있다.",
+        "국채 수익률이 성장 우려를 반영하고 있다.",
+        "이는 투자 심리에 부정적인 영향을 미칠 수 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금리 정책에 대한 직접적인 연결 고리 약함."
+        "text": "국내 신용 시장의 안정성 확인."
       },
       "us_tickers": []
     },
     {
-      "id": "n_8420a048",
+      "id": "n_619f869e",
       "category": "macro_rates",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "연준, 물가 목표 초과 지속에 점진적 금리 인상 지지",
-      "preview_ko": "연준이 점진적 금리 인상을 지지한다는 소식이다.",
-      "published_at": "2026-11-05T14:13:34Z",
-      "source": "Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 달러와 국채 수익률 하락으로 두 주 최고치 도달",
+      "preview_ko": "금 가격이 달러와 국채 수익률 하락으로 두 주 최고치에 도달했다.",
+      "published_at": "2026-11-05T04:18:00Z",
+      "source": "The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXdXOEVNTnQ5a0pVek5DVUxnR2RVZlA2bzYwOGlNZHlsckRGVnQyU1JHUlBlMUxFbUFBZEU5TE5xQzNQckdmS0JDNERVbGktZVN6Q3k5djZaOWw5WUl6bDJQb1BPWTlIdmRMLTRyNE5RRm9XbmFBSlF6N0lrOGZTRTVEbjZ1ZWlSU2Z2d3Y2R3BWMXZpWWRrcWxxcWZmYjdZeUZ6UGpaVThJS3Zaa0p0ZThPMEZDUGQxQU9wSUp6cmdxSjJpSDJXTk9saHE2VGhvTF95MWh2Y2N0eU9CeDVDbDNB?oc=5",
       "summary_ko": [
-        "연준이 물가가 목표를 초과하는 상황에서 점진적 금리 인상을 지지하고 있다.",
-        "이로 인해 금리 인상 지속 가능성이 높아졌다.",
-        "한국 시장에서는 금리 인상에 따른 영향이 주목된다."
+        "금 가격이 달러와 국채 수익률 하락으로 두 주 최고치에 도달했다.",
+        "정치적 불확실성이 금 가격에 긍정적인 영향을 미치고 있다.",
+        "안전자산 선호가 강화되고 있다."
       ],
       "kr_impact": {
-        "direction": "negative",
-        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
+        "direction": "positive",
+        "text": "국내 금 관련 주가가 상승세를 이어갈지 확인"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_8adf6a25",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "민주당 승리로 태양광 주식 상승",
+      "preview_ko": "민주당의 승리로 태양광 주식이 상승했다.",
+      "published_at": "2026-11-05T19:12:12Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/05/solar-stocks-democrats-congress.html",
+      "summary_ko": [
+        "민주당이 의회를 장악하면서 태양광 주식이 상승했다.",
+        "하지만 정책, 자금 조달, 데이터 센터 수요는 여전히 위험 요소로 남아 있다.",
+        "First Solar, Sunrun, Enphase가 포함된다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 태양광 업종의 동반 강세 여부 관찰"
+      },
+      "us_tickers": [
+        "FSLR",
+        "RUN",
+        "ENPH"
+      ]
+    },
+    {
+      "id": "n_5303a784",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "영국, 이란 전쟁 이후 첫 금리 인상",
+      "preview_ko": "영국 중앙은행이 금리를 인상했다는 소식이다.",
+      "published_at": "2026-11-05T16:01:47Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+      "summary_ko": [
+        "영국 중앙은행이 금리를 4.25%로 인상했다.",
+        "이는 이란 전쟁 이후 첫 금리 인상이다.",
+        "인플레이션이 5%에 근접할 것이라는 경고가 포함되었다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금리와의 직접적인 연결 고리 약함."
       },
       "us_tickers": []
     }
