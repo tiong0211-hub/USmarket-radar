@@ -748,3 +748,14 @@ def test_api_key_whitespace_is_stripped_and_bad_keys_fail_fast(monkeypatch):
         monkeypatch.setenv("OPENAI_API_KEY", bad)
         with pytest.raises(llm_client.LLMFatal):
             llm_client.LLMClient(budget)
+
+
+def test_number_guard_alone_does_not_degrade_the_run(tmp_path, monkeypatch, fast):
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+    api = FakeAPI(respond=lambda articles: {
+        "items": [good_item(a["id"], title="99% 급등") for a in articles], "calendar_actuals": [],
+    })
+    monkeypatch.setattr(run_daily, "LLMClient", lambda budget: llm_client.LLMClient(budget, api=api))
+    assert run_daily.run(args(), tmp_path) == ("OK", 0)
+    log = json.loads((tmp_path / "data/logs/2026-11-05.run.json").read_text(encoding="utf-8"))
+    assert any("numbers not in article" in note for note in log["modules"]["M6"]["notes"])

@@ -167,7 +167,8 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
         def analysis_status(a: NewsAnalysis) -> str:
             if a.total_batches and a.failed_batches == a.total_batches:
                 return "FAILED"
-            return "DEGRADED" if a.failed_batches or a.notes else "SUCCEEDED"
+            # Number-guard replacements are routine filtering (kept in notes), not a failed module.
+            return "DEGRADED" if a.failed_batches else "SUCCEEDED"
 
         analysis, modules["M6"] = _module(
             "M6", analyze, timeouts["M6"], raw_dir / "news_analysis.json", analysis_status
