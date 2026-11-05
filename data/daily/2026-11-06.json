@@ -4,12 +4,9 @@
   "weekday_ko": "금",
   "us_session": "2026-11-05",
   "us_market_closed": false,
-  "generated_at": "2026-11-05T21:04:55Z",
-  "run_status": "DEGRADED",
-  "banner": {
-    "level": "warn",
-    "text_ko": "일부 데이터를 가져오지 못했습니다: 뉴스 요약 일부 없음(제목만 표시)"
-  },
+  "generated_at": "2026-11-05T23:50:40Z",
+  "run_status": "OK",
+  "banner": null,
   "indicators": [
     {
       "key": "NDX",
@@ -44,10 +41,10 @@
       "symbol": "NQ=F",
       "group": "futures",
       "required": true,
-      "value": 26909.25,
+      "value": 26604.0,
       "unit": null,
-      "change": -1657.5,
-      "change_pct": -5.8,
+      "change": -1962.75,
+      "change_pct": -6.87,
       "change_bp": null,
       "contract": "2026-12",
       "spark": [
@@ -55,9 +52,9 @@
         28127.5,
         28305.75,
         28566.75,
-        26909.25
+        26604.0
       ],
-      "as_of": "2026-11-05T20:50:00Z",
+      "as_of": "2026-11-05T21:55:00Z",
       "source": "yfinance",
       "stale": false,
       "missing": false,
@@ -70,10 +67,10 @@
       "symbol": "^GSPC",
       "group": "index",
       "required": true,
-      "value": 7353.86,
+      "value": 7353.73,
       "unit": null,
-      "change": -334.76,
-      "change_pct": -4.35,
+      "change": -334.89,
+      "change_pct": -4.36,
       "change_bp": null,
       "contract": null,
       "spark": [
@@ -81,7 +78,7 @@
         7541.4,
         7568.92,
         7688.62,
-        7353.86
+        7353.73
       ],
       "as_of": "2026-11-05T21:00:00Z",
       "source": "yfinance",
@@ -96,10 +93,10 @@
       "symbol": "ES=F",
       "group": "futures",
       "required": true,
-      "value": 7410.75,
+      "value": 7353.0,
       "unit": null,
-      "change": -309.75,
-      "change_pct": -4.01,
+      "change": -367.5,
+      "change_pct": -4.76,
       "change_bp": null,
       "contract": "2026-12",
       "spark": [
@@ -107,9 +104,9 @@
         7574.5,
         7596.75,
         7720.5,
-        7410.75
+        7353.0
       ],
-      "as_of": "2026-11-05T20:50:00Z",
+      "as_of": "2026-11-05T21:55:00Z",
       "source": "yfinance",
       "stale": false,
       "missing": false,
@@ -122,10 +119,10 @@
       "symbol": "^VIX",
       "group": "volatility",
       "required": true,
-      "value": 26.69,
+      "value": 28.18,
       "unit": null,
-      "change": 10.08,
-      "change_pct": 60.69,
+      "change": 11.57,
+      "change_pct": 69.66,
       "change_bp": null,
       "contract": null,
       "spark": [
@@ -133,7 +130,7 @@
         21.15,
         20.83,
         16.61,
-        26.69
+        28.18
       ],
       "as_of": "2026-11-05T21:00:00Z",
       "source": "yfinance",
@@ -174,10 +171,10 @@
       "symbol": "KRW=X",
       "group": "fx",
       "required": true,
-      "value": 1356.26,
+      "value": 1357.88,
       "unit": "원",
-      "change": 13.36,
-      "change_pct": 0.99,
+      "change": 14.98,
+      "change_pct": 1.12,
       "change_bp": null,
       "contract": null,
       "spark": [
@@ -185,9 +182,9 @@
         1325.52,
         1344.81,
         1342.9,
-        1356.26
+        1357.88
       ],
-      "as_of": "2026-11-05T20:55:00Z",
+      "as_of": "2026-11-05T22:00:00Z",
       "source": "yfinance",
       "stale": false,
       "missing": false,
@@ -286,176 +283,179 @@
   },
   "news": [
     {
-      "id": "n_2789a856",
+      "id": "n_4d8b28b4",
       "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "다우지수 1,800포인트 하락",
-      "preview_ko": "기술주에서 방어주로 자금이 이동하고 있다.",
-      "published_at": "2026-11-05T21:00:58Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+      "title_ko": "AI 주식 급락으로 월가 충격",
+      "preview_ko": "AI 주식의 급락이 월가를 강타했다.",
+      "published_at": "2026-11-05T22:04:00Z",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE43QWpUdHk2WE5qUmd4Z0hjYlBqQ3FGLUVoRlBTbmN4c1JJbWZpeUJmTXhpalZzaTNGMzVweE5wNDRJdnRSMzRENURHaGRIejdqbnVObV9KNEp6R0p0ZnAzT3Y5WGVYejV6VWc0dGZheFVWdG9IVDljNjMxVmVDVGpYZlpwN19nVzBibDdqVmRJOXV3Vk9YdFRiSQ?oc=5",
       "summary_ko": [
-        "다우지수가 1,800포인트 하락하며 기술주가 큰 타격을 받았다.",
-        "투자자들은 기술주에서 방어주로 자금을 이동시키고 있다.",
-        "AI 관련 주식들이 특히 큰 폭으로 하락했다."
+        "AI 주식의 급락이 월가에 큰 충격을 주었다.",
+        "S&P 500 지수는 4.4% 하락했다.",
+        "이로 인해 시장 전반에 부정적인 영향을 미쳤다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "기술주 하락은 한국의 반도체 및 IT 업종에 부정적 영향을 미칠 수 있다."
+        "text": "국내 IT 및 반도체 업종의 동반 약세 여부 확인"
       },
       "us_tickers": [
         "NVDA"
       ]
     },
     {
-      "id": "n_38b8a8be",
-      "category": "theme_earnings",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "AI 관련 주식 폭락, 나스닥 조정 진입",
-      "preview_ko": "AI 관련 주식들이 큰 폭으로 하락하고 있다.",
-      "published_at": "2026-11-05T20:08:49Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-      "summary_ko": [
-        "AI 관련 기업들이 큰 폭으로 하락하며 나스닥이 조정에 들어갔다.",
-        "투자자들은 AI 성장 둔화 우려로 매도세를 보이고 있다.",
-        "이로 인해 기술주 전반에 부정적인 영향이 예상된다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "AI 관련 주식 하락은 한국의 반도체 및 IT 업종에 부정적 영향을 미칠 수 있다."
-      },
-      "us_tickers": [
-        "NVDA"
-      ]
-    },
-    {
-      "id": "n_2815d0d5",
+      "id": "n_fef30ad3",
       "category": "macro_rates",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "S&P 500 급락, 서부 고용 지표 우려",
-      "preview_ko": "S&P 500이 급락하며 고용 지표에 대한 우려가 커지고 있다.",
-      "published_at": "2026-11-05T18:05:21Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNGl3a3FuX0tzbHFEc2wyUEhfV2ppSGJVZFFORExoSlBBWFVCN2NadkIySVIwV3VIUnNBSFRLQm1KbTJWTkF3U2x5elZDS0g1M2JkaXdtZ1JlbFczMGhoNkM0WHEwbGdYQ2JzSzFoTjV5YV9UX3puVHlPdUZFNmRvMEFPRlFyY3VoRGd4UXlqQVBGSGd3?oc=5",
+      "title_ko": "미국 증시, 2025년 이후 최악의 하루 기록",
+      "preview_ko": "미국 증시가 2025년 이후 최악의 하루를 기록했다.",
+      "published_at": "2026-11-05T21:41:42Z",
+      "source": "Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWpXOEpSbWNpWDRRLWNJRTlWNFRPX25idkI3alNPX21vNVduUC1mTjlXbF9hbmctM25kTUppNmdIRFhrazE3VXFTblVYV09TcnFDNDZmVkQwTldpYnVRZmdaaXQ1RmExdExMMTZMd0IxSUpxdlJLc3IwU2J5czkwLW1kLWs?oc=5",
       "summary_ko": [
-        "S&P 500이 급락하며 투자자들은 고용 지표에 대한 우려를 표명하고 있다.",
-        "이러한 하락은 한국 시장에도 부정적인 영향을 미칠 수 있다.",
-        "특히 고용 관련 업종에 대한 우려가 커질 것으로 보인다."
+        "미국 증시가 2025년 이후 최악의 하루를 기록했다.",
+        "중간 선거 이후 시장의 불안감이 커지며 큰 하락세를 보였다.",
+        "특히 기술주와 반도체 주식이 큰 타격을 입었다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "고용 관련 업종에 부정적인 영향을 미칠 가능성이 있다."
+        "text": "국내 기술주가 미국 증시 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_25b8d06b",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "나스닥 1,421포인트 급락, 다우 1,833포인트 하락",
+      "preview_ko": "기술주 급락으로 미국 증시가 큰 폭으로 하락했다.",
+      "published_at": "2026-11-05T21:15:03Z",
+      "source": "Kiplinger",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc200UW9CZmxpNUo0R3hjV0FYak0tX2Itazl1VjJEMVkwS2gwMTR4S0hMZVpQc292SWVMNlZFdmh6bzNObFh4LUVxX2VhSThIOVUzX3IxTFo3X2Y1REpkTXlyRXpIdEYzd3lvdmZESk9tWEIzUk1sV1RJcTRUSkRUOFNlQWVaaFRRM3IxRmFLMXlGUGRFb2RYOXlZU2dmN1JQZVkwOTVUTVF3bmZlOTBF?oc=5",
+      "summary_ko": [
+        "나스닥이 1,421포인트 급락하며 다우는 1,833포인트 하락했다.",
+        "기술주가 급락하면서 시장 전체에 부정적인 영향을 미쳤다.",
+        "투자자들은 기술주에 대한 우려로 매도세를 보였다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 미국 증시 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA",
+        "TSLA",
+        "AMD"
+      ]
+    },
+    {
+      "id": "n_39b4b763",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "다우 1,800포인트 하락, 나스닥 조정 구간 진입",
+      "preview_ko": "미국 증시가 큰 폭으로 하락하며 조정 구간에 진입했다.",
+      "published_at": "2026-11-05T21:13:43Z",
+      "source": "6abc Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjQyeEFvNkNJcjRrM0N3R1M0ckxXVUtpZmRxLU5tZ0UzX1Y2dlJwRk9iY3JFcG1leTA5aWVEZ3owVzJaTlRjSE1pVmtKZURqTWh4X3AyeE81cnRWcldoOTFieEFjYXAxbnhOYmNCcVdrUWhLVnFHTVlBQ2xIZGszVVpzWFVmUzhSbmdHT3M2S1pwTkZMaWtMeGVwQkU2Mk4zbUZ1Rzlmd2pVc0JjVk9tNlJ3?oc=5",
+      "summary_ko": [
+        "다우 지수가 1,800포인트 하락하며 나스닥이 조정 구간에 진입했다.",
+        "중간 선거 결과로 인한 상승폭이 모두 소멸됐다.",
+        "투자자들은 향후 시장 방향에 대한 우려를 표명하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_10c48546",
+      "category": "macro_rates",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "S&P 500, AI 우려로 가장 큰 하락폭 기록",
+      "preview_ko": "S&P 500이 AI 우려로 큰 폭으로 하락했다.",
+      "published_at": "2026-11-05T20:53:39Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
+      "summary_ko": [
+        "S&P 500이 AI 우려로 가장 큰 하락폭을 기록했다.",
+        "투자자들은 AI 산업에 대한 불안감을 느끼고 있다.",
+        "이러한 하락은 시장 전반에 부정적인 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_9e922716",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아, AMD 주도 나스닥 하락",
+      "preview_ko": "기술주에 대한 투자자들의 회피가 나타났다.",
+      "published_at": "2026-11-05T18:03:00Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVU94cVpOQVZ4dlJRRGJvMXR5bnVmekpZYy1BRHhxTEZxLVFsaXgtQjFVTUk0dWlxajFneXBJd3FDczlIMllrNFRFcVE0REpUcEpsUXptUmczTlo1S2F0empXREwxYTZnUGJ6cG1WUFEyS3lzalJYeU5HdTBiZ2lmZDZQZUh0SGIwN1U1LVRLdmFKbjJaZWJrZmc0S0Q?oc=5",
+      "summary_ko": [
+        "미국 증시가 하락세를 보이고 있으며, 엔비디아와 AMD가 나스닥의 하락을 주도하고 있다.",
+        "투자자들이 기술주에 대한 우려로 매도세를 강화하고 있다.",
+        "이는 중간선거 결과에 따른 불안감이 반영된 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 미국 시장의 하락세를 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA",
+        "AMD"
+      ]
+    },
+    {
+      "id": "n_71ab58d8",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "투자자, 기술주에 대한 회피 심리 강화",
+      "preview_ko": "기술주에 대한 투자자들의 회피가 나타났다.",
+      "published_at": "2026-11-05T18:02:24Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcFU0M203aVJxc3FQSS1USXc3RXczSDEweUhzWm1ySmRCT2xTSGtLS3cyMjMyc1FhWGtYaFhGeE9uYlNaaWJuRm1iVmpoMk14SDRzVXdqV2FHejAxajZPeTFWTE1xcC0tUlltR3pfNXdVejY4RVVnVURZNDB0dGd1Vk5CclFzS1hyZGhnZFkzV1VLMGF3MnZwTWZOanB1ZnZEV1E?oc=5",
+      "summary_ko": [
+        "미국 증시가 하락세를 보이고 있으며, 엔비디아와 AMD가 나스닥의 하락을 주도하고 있다.",
+        "투자자들이 기술주에 대한 우려로 매도세를 강화하고 있다.",
+        "이는 중간선거 결과에 따른 불안감이 반영된 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 미국 시장의 하락세를 따라 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
       "id": "n_88f3be61",
-      "category": "macro_rates",
+      "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "주식 시장 폭락, 기술 및 AI에서 투자자 이탈",
-      "preview_ko": "기술 및 AI 주식에서 투자자들이 이탈하고 있다.",
+      "title_ko": "다우지수 1,800포인트 이상 하락",
+      "preview_ko": "투자자들이 기술주에서 이탈하고 있다.",
       "published_at": "2026-11-05T18:02:00Z",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnJFc2xjNFJEdElrOU1HcTR4S1VRWWdiTVFMUHFVNHl0YUtyUlhYZHhOV0hkS1dkSmFJODFKa2Iya2Z2UkpmckVlMFN6V1FsM25Zd1djUGhYX2NMNFlKTWs5dHhLQWNUX0hBU3k5UFZGMlNBLWlySTB6YlhZQjJpTXA4dHc1TWRkdDdvVUxB?oc=5",
       "summary_ko": [
-        "주식 시장이 폭락하며 기술 및 AI 주식에서 투자자들이 이탈하고 있다.",
-        "이러한 상황은 한국 시장에도 부정적인 영향을 미칠 수 있다.",
-        "특히 IT 및 반도체 업종에 대한 우려가 커지고 있다."
+        "다우지수가 1,800포인트 이상 하락하며, 기술주와 AI 관련 주식에서 투자자들이 이탈하고 있다.",
+        "중간선거 결과가 투자 심리에 부정적인 영향을 미치고 있다.",
+        "이는 기술주에 대한 우려가 커지고 있음을 나타낸다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "IT 및 반도체 업종에 부정적인 영향을 미칠 것으로 보인다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_fa8525c4",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "AI 우려로 나스닥 조정 진입, 전문가 의견",
-      "preview_ko": "전문가들은 AI 우려가 나스닥 조정에 과도하다고 평가한다.",
-      "published_at": "2026-11-05T17:48:18Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1HeFZ2OUI3cmVvNGlfSnYySldYeWZ1N21NdXhTTkJfOGl4c3lvWFprUWVIVDdEdGpIVlRLYkJOWUVyRjBmU1V3M2lLdnE2NF85QkNvTkl0VGNCWlBfYjI0RlBROXBXNWxaWmtXN0ZvZXJsSll3ZGhQbUpVbXBGamh6YVBBbXJCQWF1U2xzUjVDZ3EydGc?oc=5",
-      "summary_ko": [
-        "전문가들은 AI에 대한 우려가 나스닥 조정에 과도하다고 평가하고 있다.",
-        "이러한 의견은 한국 시장에도 긍정적인 영향을 미칠 수 있다.",
-        "특히 IT 및 반도체 업종에 대한 투자 심리가 개선될 가능성이 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "IT 및 반도체 업종에 긍정적인 영향을 미칠 수 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_d8db37d0",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "주식 시장, 민주당 중간선거 승리에 반응",
-      "preview_ko": "주식 시장이 민주당의 중간선거 승리에 반응하고 있다.",
-      "published_at": "2026-11-05T17:42:36Z",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPR1o3V3NTeDVFdlJmRVhjc2ZLQi1ULWY1cjJBYU1PRi05WDg3VzZYWkdUNnZqNHVKWnk0c0NNVUprNkpvZ25QMmktdmZCOVR6eFZ3Vi11dmJrcmR0MVJfQ0EtTGkwdmFXdXphLTQ2MGFTRFVUQmlTNzJ4Q012SFRNNkV3Z29IcE16VDFwM09fSmk?oc=5",
-      "summary_ko": [
-        "주식 시장이 민주당의 중간선거 승리에 반응하며 변동성이 커지고 있다.",
-        "이러한 상황은 한국 시장에도 부정적인 영향을 미칠 수 있다.",
-        "특히 정치적 불확실성이 커질 것으로 예상된다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "정치적 불확실성이 한국 시장에 부정적인 영향을 미칠 수 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_45bb9fe5",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "민주당 승리로 AI 지연 우려, 나스닥 1.8조 달러 손실 예상",
-      "preview_ko": "민주당의 승리로 AI 지연 우려가 커졌다.",
-      "published_at": "2026-11-05T17:02:52Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMTRQMGM0NU13VXI2ZTlIS2pYOE16cUo4dTc4eW5ONldtNzB1T1d3MHpjTlFKM1hzMl9pT0p3U1dEaEhvSGZTbW1zSGJRWjBkLTcwUFhGVG1fVnl4SEViUHpQQUxZOXBpWWNnSEsyRWRGWEpjem5LcVBTNFMyUlBCa1NIYXJ5d1JRbkFRcVlNa0NqcS1V?oc=5",
-      "summary_ko": [
-        "민주당의 승리로 AI 지연 우려가 커지며 나스닥이 큰 손실을 예상하고 있다.",
-        "이는 기술주에 대한 투자 심리를 악화시키고 있다.",
-        "한국 시장에도 부정적인 영향을 미칠 것으로 보인다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "기술주 중심의 한국 시장에 부정적 영향을 미칠 것으로 보인다."
-      },
-      "us_tickers": [
-        "NDX"
-      ]
-    },
-    {
-      "id": "n_b54dccee",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "미국 증시 폭락의 원인 3가지",
-      "preview_ko": "미국 증시가 2조 달러 폭락한 이유를 분석.",
-      "published_at": "2026-11-05T16:17:00Z",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vdnhEcGxtZGxXek5BMkZYeV9ZcWZVN09CY05VczM3NUQ4Skh1eHQ2SW5fX0VoUzJGOXk4RzdzS0wwQ25NTXVsRzhqaWEwcktUMU1NSnh4cjliYmNJWENoZnpZWkhLYW92NklRS0hwMA?oc=5",
-      "summary_ko": [
-        "미국 증시가 2조 달러 규모로 폭락했다.",
-        "주요 원인으로는 금리 인상 우려와 경기 둔화가 지목된다.",
-        "이로 인해 한국 증시에도 부정적인 영향이 예상된다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "미국 증시의 급락은 한국 증시에 부정적인 영향을 미칠 것으로 보인다."
+        "text": "국내 기술주가 미국 시장의 하락세를 따라 약세로 출발하는지 확인"
       },
       "us_tickers": []
     }
@@ -513,7 +513,5 @@
       ]
     }
   ],
-  "warnings": [
-    "뉴스 요약 일부 없음(제목만 표시)"
-  ]
+  "warnings": []
 }
