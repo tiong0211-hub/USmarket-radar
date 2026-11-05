@@ -3,6 +3,7 @@
 Error text from the API is never propagated: run logs are committed to a public repo.
 """
 import json
+import os
 import threading
 import time
 from pathlib import Path
@@ -48,10 +49,16 @@ class LLMClient:
     def __init__(self, budget: TokenBudget, retries: int = 1, api: openai.OpenAI | None = None):
         self.budget = budget
         self.retries = retries
-        try:
-            self.api = api or openai.OpenAI(max_retries=0, timeout=120)
-        except openai.OpenAIError:
-            raise LLMFatal("OPENAI_API_KEY is not set") from None
+        if api:
+            self.api = api
+            return
+        # Secrets pasted with a trailing newline break the auth header (httpx LocalProtocolError).
+        key = os.environ.get("OPENAI_API_KEY", "").strip()
+        if not key:
+            raise LLMFatal("OPENAI_API_KEY is not set")
+        if not key.isascii():
+            raise LLMFatal("OPENAI_API_KEY contains non-ASCII characters")
+        self.api = openai.OpenAI(api_key=key, max_retries=0, timeout=120)
 
     def _once(self, cfg: dict, name: str, system: str, user: str) -> dict:
         arguments = {"temperature": cfg["temperature"]} if "temperature" in cfg else {}
@@ -80,7 +87,8 @@ class LLMClient:
                 wait = float(exc.response.headers.get("retry-after", wait))
                 reason = "RateLimitError"
             except (openai.APITimeoutError, openai.APIConnectionError, openai.InternalServerError) as exc:
-                reason = type(exc).__name__
+                cause = exc.__cause__
+                reason = type(exc).__name__ + (f"({type(cause).__name__})" if cause else "")
             except openai.OpenAIError as exc:
                 raise LLMFatal(type(exc).__name__) from None
             except ValueError as exc:  # JSONDecodeError and pydantic ValidationError

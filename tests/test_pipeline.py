@@ -738,3 +738,13 @@ def test_run_before_us_close_is_timed_at_cutoff_not_close():
     early = datetime(2026, 11, 5, 5, 40, tzinfo=timezone(timedelta(hours=9)))  # US still open
     ndx = market.build_indicator(SPECS["NDX"], bars("^NDX", "1d"), [], SESSION, early, close_of)
     assert ndx.as_of == early
+
+
+def test_api_key_whitespace_is_stripped_and_bad_keys_fail_fast(monkeypatch):
+    budget = llm_client.TokenBudget(SETTINGS["llm_budget"])
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-test-key\n")
+    assert llm_client.LLMClient(budget).api.api_key == "sk-test-key"
+    for bad in ("  ", "sk-﻿test"):
+        monkeypatch.setenv("OPENAI_API_KEY", bad)
+        with pytest.raises(llm_client.LLMFatal):
+            llm_client.LLMClient(budget)
