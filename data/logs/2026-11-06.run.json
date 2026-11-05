@@ -1,38 +1,38 @@
 {
   "run_date": "2026-11-06",
   "us_session": "2026-11-05",
-  "started_at": "2026-11-05T20:43:25Z",
-  "finished_at": "2026-11-05T20:43:35Z",
+  "started_at": "2026-11-05T21:03:31Z",
+  "finished_at": "2026-11-05T21:04:55Z",
   "run_status": "DEGRADED",
   "modules": {
     "M1": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 2.7,
+      "duration_s": 2.3,
       "error": null,
       "notes": []
     },
     "M2": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 2.2,
+      "duration_s": 3.4,
       "error": null,
       "notes": []
     },
     "M3": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 0.2,
+      "duration_s": 0.3,
       "error": null,
       "notes": []
     },
     "M6": {
-      "status": "FAILED",
+      "status": "DEGRADED",
       "attempts": 1,
-      "duration_s": 6.2,
+      "duration_s": 78.3,
       "error": null,
       "notes": [
-        "batch failed: APIConnectionError"
+        "5 summaries replaced by titles: numbers not in article"
       ]
     },
     "M9": {
@@ -51,5 +51,7 @@
     }
   },
   "indicators_missing": [],
-  "llm_usage": {}
+  "llm_usage": {
+    "gpt-4o-mini": 51310
+  }
 }
