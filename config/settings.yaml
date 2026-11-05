@@ -1,0 +1,36 @@
+timezone_display: Asia/Seoul
+schedule:
+  start_kst: "07:10"
+  deadline_kst: "07:28"      # 초과 시 비필수 단계(M7 제안, M8) 건너뜀
+calendars:
+  kr: XKRX
+  us: XNYS
+color_convention: kr          # 상승 빨강 #c85543 / 하락 파랑 #3073bc (UI 시안 기준, 확정)
+ui:
+  reference_template: src/radar/render/templates/reference/morning-radar.html
+  min_font_px: {body: 12, label: 10}
+  themes_display_max: 6       # 등락률 절댓값 상위, 상승·하락 모두
+  og_image: site/static/og.png
+  robots: "noindex,nofollow"
+reading_note_ko:
+  title: "연결은 단서, 확인은 국내장에서."
+  text: "미국장의 강세가 국내 관련주의 상승을 보장하지는 않습니다. 환율, 국내 이슈와 개장 후 수급을 함께 확인하세요."
+llm_budget:                   # 일일 토큰 상한 (계정 TPD보다 충분히 낮게)
+  gpt-4o-mini: 2000000
+  gpt-5.5: 200000
+sentiment:
+  method: vix_percentile_252d_v0   # 임시: 100 - (VIX 252일 백분위). M12 협의 때 확정
+  bands:
+    - {max: 24, label: 극도의 공포}
+    - {max: 44, label: 공포}
+    - {max: 55, label: 중립}
+    - {max: 75, label: 탐욕}
+    - {max: 100, label: 극도의 탐욕}
+news:
+  top_n_display: 8
+  min_importance_display: 3
+  importance_labels: {5: 관찰 중요도 높음, 4: 관찰 중요도 높음, 3: 업종 확산 관찰}
+  filter_labels: {macro_rates: 매크로, theme_earnings: 테마·실적, geopolitics_commodities: 원자재·리스크}
+calendar:
+  upcoming_window_kst: ["18:00", "06:00"]   # 오늘 밤 체크포인트 범위
+disclaimer_ko: "본 페이지는 공개 데이터를 자동 요약한 참고 자료이며 투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다."

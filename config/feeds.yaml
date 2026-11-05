@@ -1,0 +1,38 @@
+# 뉴스 RSS 후보 — P2 착수 시 각 URL 유효성 확인 필수 (verified: true로 변경)
+time_window: since_last_us_close   # 직전 미장 마감(16:00 ET) 이후 ~ 실행 시각
+max_articles_to_llm: 150
+min_articles_warning: 20
+feeds:
+  - name: CNBC Top News
+    url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+    priority: 1
+    verified: false
+  - name: CNBC Markets
+    url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"
+    priority: 1
+    verified: false
+  - name: MarketWatch Top Stories
+    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    priority: 2
+    verified: false
+  - name: Yahoo Finance
+    url: "https://finance.yahoo.com/news/rssindex"
+    priority: 2
+    verified: false
+  - name: Google News - US stocks
+    url: "https://news.google.com/rss/search?q=stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
+    priority: 3
+    verified: false
+  - name: Google News - Fed / rates
+    url: "https://news.google.com/rss/search?q=Federal+Reserve+OR+Treasury+yields+when:1d&hl=en-US&gl=US&ceid=US:en"
+    priority: 3
+    verified: false
+
+# 경제 캘린더
+calendar:
+  primary:
+    name: Forex Factory weekly JSON
+    url: "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+    filter: {country: USD, impact: [High, Medium]}
+    verified: false   # actual 필드 포함 여부 확인 필요
+  actual_backfill: llm_news   # M6 calendar_actuals

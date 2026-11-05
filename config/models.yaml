@@ -1,0 +1,14 @@
+# OpenAI 모델 설정 — 모델 교체는 이 파일만 수정
+news_analyst:
+  model: gpt-4o-mini
+  temperature: 0.2
+  batch_size: 10
+  max_concurrency: 5
+theme_proposer:
+  model: gpt-4o-mini
+  temperature: 0.2
+briefing_writer:
+  model: gpt-5.5
+briefing_fallback:
+  model: gpt-4o-mini
+  temperature: 0.3

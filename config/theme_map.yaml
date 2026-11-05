@@ -1,0 +1,42 @@
+# 미국 종목 → 국내 수혜주 매핑 (사람만 수정. 파이프라인 자동 수정 금지)
+# 초기값은 UI 시안에서 가져온 시드 — 검토 후 verified: true 로 변경
+# 코드는 실행 시 KRX 상장 목록과 대조, 불일치 항목은 경고 후 화면에서 제외
+# link: supplier(직접 공급 관계) | same_theme(동일 업종·테마, 공급 관계 아님) | competitor
+# relation_ko: 화면 칩에 표시되는 짧은 관계 설명(8자 이내 권장)
+themes:
+  - us_ticker: NVDA
+    name: NVIDIA
+    logo: N
+    theme: AI 반도체 · HBM
+    verified: false
+    kr_stocks:
+      - {code: "000660", name: SK하이닉스, link: supplier, relation_ko: HBM 공급}
+      - {code: "042700", name: 한미반도체, link: same_theme, relation_ko: 장비 테마}
+      - {code: "000150", name: 두산, link: supplier, relation_ko: 기판 소재}
+  - us_ticker: TSM
+    name: TSMC ADR
+    logo: tsm
+    theme: 파운드리 · 첨단 공정
+    verified: false
+    kr_stocks:
+      - {code: "399720", name: 가온칩스, link: same_theme, relation_ko: 설계 생태계}
+      - {code: "200710", name: 에이디테크놀로지, link: same_theme, relation_ko: 설계 생태계}
+      - {code: "058470", name: 리노공업, link: same_theme, relation_ko: 테스트 테마}
+  - us_ticker: GEV
+    name: GE Vernova
+    logo: GE
+    theme: 데이터센터 · 전력 인프라
+    verified: false
+    kr_stocks:
+      - {code: "267260", name: HD현대일렉트릭, link: same_theme, relation_ko: 동일 업종}
+      - {code: "298040", name: 효성중공업, link: same_theme, relation_ko: 동일 업종}
+      - {code: "010120", name: LS ELECTRIC, link: same_theme, relation_ko: 동일 테마}
+  - us_ticker: LLY
+    name: Eli Lilly
+    logo: LLY
+    theme: 바이오 · 비만치료제
+    verified: false
+    kr_stocks:
+      - {code: "207940", name: 삼성바이오로직스, link: same_theme, relation_ko: 바이오 업종}
+      - {code: "068270", name: 셀트리온, link: same_theme, relation_ko: 바이오 업종}
+      - {code: "087010", name: 펩트론, link: same_theme, relation_ko: 비만치료제 테마}

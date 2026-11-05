@@ -1,0 +1,84 @@
+# 시장 지표 8카드 — required: true 7개 중 하나라도 missing이면 run_status = FAILED_INDICATORS
+# 표시 순서 = 이 목록 순서. description_ko는 카드 탭 시 dialog 설명문.
+spark_days: 5
+indicators:
+  - key: NDX
+    label: 나스닥100
+    kind: 현물
+    group: index
+    symbol: "^NDX"
+    source: yfinance
+    required: true
+    description_ko: "미국 대형 비금융 기업 100개의 흐름을 보는 지수입니다. 국내 기술주와의 연결을 살펴보는 관찰 지표입니다."
+  - key: NQ
+    label: 나스닥100
+    kind: 선물
+    group: futures
+    symbol: "NQ=F"
+    source: yfinance
+    required: true
+    description_ko: "나스닥100 근월물 선물입니다. 미국장 마감 이후 분위기 변화를 보여주며, 현물과 기준 시각이 다를 수 있습니다."
+  - key: SPX
+    label: S&P 500
+    kind: 현물
+    group: index
+    symbol: "^GSPC"
+    source: yfinance
+    required: true
+    description_ko: "미국 대형주 시장 전반의 흐름을 확인하는 지수입니다."
+  - key: ES
+    label: S&P 500
+    kind: 선물
+    group: futures
+    symbol: "ES=F"
+    source: yfinance
+    required: true
+    description_ko: "S&P 500 근월물 선물입니다. 미국장 마감 이후에도 달라지는 시장 분위기를 볼 수 있습니다."
+  - key: VIX
+    label: CBOE VIX
+    kind: 변동성
+    group: volatility
+    symbol: "^VIX"
+    source: yfinance
+    required: true
+    description_ko: "S&P 500 옵션 가격으로 계산한 시장의 예상 변동성입니다. 하락이 국내장 상승을 보장하지는 않습니다."
+  - key: US10Y
+    label: 미국 10년물
+    kind: 금리
+    group: rates
+    symbol: "^TNX"
+    source: yfinance
+    required: true
+    unit: "%"
+    change_display: bp
+    valid_range: [0.5, 10.0]      # ^TNX 표기 단위 변경 대비 이상값 체크
+    fallback: {source: fred, series: DGS10}   # 전일치 → stale: true
+    description_ko: "미국 10년 만기 국채 수익률입니다. 변화는 bp로 표시하며, 3bp는 0.03%포인트입니다."
+  - key: USDKRW
+    label: 원 / 달러
+    kind: 환율
+    group: fx
+    symbol: "KRW=X"
+    source: yfinance
+    required: true
+    unit: 원
+    valid_range: [900, 2000]
+    description_ko: "1달러당 원화 가격입니다. 값이 오르면 원화 약세를 뜻합니다. 역외 시세 기준이며 기준 시각을 함께 표시합니다."
+  - key: SOX
+    label: 필라델피아 반도체
+    kind: 업종
+    group: sector
+    symbol: "^SOX"
+    source: yfinance
+    required: false              # 참고 지표 — 누락돼도 FAILED_INDICATORS 아님
+    description_ko: "미국 반도체 업종 지수입니다. 국내 반도체 업종과의 연결을 관찰하는 데 초점을 둡니다."
+
+# M4 감시 목록: theme_map.yaml의 us_ticker 전체 + 아래 섹터 ETF
+sector_etfs:
+  - {symbol: SOXX, label: 반도체}
+  - {symbol: XLK, label: 기술}
+  - {symbol: XLU, label: 유틸리티}
+  - {symbol: XLE, label: 에너지}
+  - {symbol: XBI, label: 바이오}
+  - {symbol: URA, label: 우라늄/원전}
+  - {symbol: LIT, label: 2차전지}

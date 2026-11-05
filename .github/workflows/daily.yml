@@ -1,0 +1,69 @@
+name: daily-radar
+
+on:
+  schedule:
+    - cron: "10 22 * * 0-4"   # 07:10 KST, 월~금 (UTC 일~목)
+  workflow_dispatch:
+    inputs:
+      run_date: {description: "KST 날짜 YYYY-MM-DD (비우면 오늘)", required: false}
+      skip_llm: {type: boolean, default: false}
+      force: {description: "휴장일 무시", type: boolean, default: false}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: daily-radar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      run_status: ${{ steps.run.outputs.run_status }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - id: run
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          uv run python -m radar.run_daily \
+            ${{ inputs.run_date && format('--date {0}', inputs.run_date) || '' }} \
+            ${{ inputs.skip_llm && '--no-llm' || '' }} \
+            ${{ inputs.force && '--force' || '' }} \
+            --github-output "$GITHUB_OUTPUT"
+      - name: Commit data
+        if: steps.run.outputs.run_status != 'SKIPPED_HOLIDAY'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "data: ${{ steps.run.outputs.run_date }} (${{ steps.run.outputs.run_status }})" || echo "no changes"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.run.outputs.run_status != 'SKIPPED_HOLIDAY'
+        with: {path: site}
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.run_status != 'SKIPPED_HOLIDAY'
+    runs-on: ubuntu-latest
+    environment: {name: github-pages}
+    steps:
+      - uses: actions/deploy-pages@v4
+
+  flag-failure:
+    needs: [build, deploy]
+    if: always() && (needs.build.outputs.run_status == 'FAILED_INDICATORS' || needs.build.outputs.run_status == 'FAILED' || failure())
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "run_status=${{ needs.build.outputs.run_status }}"
+          exit 1   # 워크플로 실패 처리 → GitHub 기본 실패 알림 메일
