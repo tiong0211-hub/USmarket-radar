@@ -12,3 +12,6 @@ briefing_writer:
 briefing_fallback:
   model: gpt-4o-mini
   temperature: 0.3
+news_picker:
+  model: gpt-4o-mini
+  temperature: 0

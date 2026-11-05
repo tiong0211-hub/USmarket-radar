@@ -36,6 +36,9 @@ def _displayed_news(analysis: NewsAnalysis | None, settings: dict) -> list[NewsI
     if not analysis:
         return []
     cfg = settings["news"]
+    if analysis.picked:  # picker already applied the filter and the limit, one card per event
+        by_id = {n.id: n for n in analysis.news}
+        return [by_id[i] for i in analysis.picked if i in by_id][: cfg["top_n_display"]]
     eligible = [n for n in analysis.news if n.importance >= cfg["min_importance_display"]]
     eligible.sort(key=lambda n: (bool(n.summary_ko), n.importance, n.published_at), reverse=True)
     return eligible[: cfg["top_n_display"]]

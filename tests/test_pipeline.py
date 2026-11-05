@@ -55,8 +55,9 @@ def good_item(article_id, title="연준 동결", **overrides):
 class FakeAPI:
     """Stands in for openai.OpenAI. `script` maps the call index to an exception or a raw string."""
 
-    def __init__(self, respond=None, script=None):
+    def __init__(self, respond=None, script=None, pick=None):
         self.respond = respond or (lambda articles: {"items": [good_item(a["id"]) for a in articles], "calendar_actuals": []})
+        self.pick = pick or (lambda articles: {"ids": [a["id"] for a in articles]})
         self.script = script or {}
         self.calls = 0
         self.requests = []
@@ -70,7 +71,8 @@ class FakeAPI:
         if isinstance(scripted, Exception):
             raise scripted
         articles = json.loads(kwargs["messages"][1]["content"])["articles"]
-        content = scripted if scripted is not None else json.dumps(self.respond(articles), ensure_ascii=False)
+        handler = self.pick if kwargs["response_format"]["json_schema"]["name"] == "news_picker" else self.respond
+        content = scripted if scripted is not None else json.dumps(handler(articles), ensure_ascii=False)
         return SimpleNamespace(
             usage=SimpleNamespace(total_tokens=100),
             choices=[SimpleNamespace(message=SimpleNamespace(content=content))],
@@ -605,8 +607,9 @@ def schema_objects(node):
             yield from schema_objects(value)
 
 
-def test_schema_meets_openai_strict_rules():
-    for node in schema_objects(llm_client.load_schema("news_analyst")):
+@pytest.mark.parametrize("name", ["news_analyst", "news_picker"])
+def test_schema_meets_openai_strict_rules(name):
+    for node in schema_objects(llm_client.load_schema(name)):
         assert node["additionalProperties"] is False
         assert set(node["required"]) == set(node["properties"])
 
@@ -693,6 +696,28 @@ def test_calendar_actual_requires_known_event_and_number_in_evidence():
         "calendar_actuals": [{"event": "ISM Services PMI", "actual": "197K", "evidence_id": "n_0"}],
     }), calendar=cal)
     assert [a.actual for a in good.calendar_actuals] == ["197K"]
+
+
+def test_picker_keeps_known_unique_ids_and_m9_shows_them_in_order():
+    api = FakeAPI(pick=lambda articles: {"ids": ["n_5", "n_404", "n_5", "n_2"]})
+    client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=api)
+    result = news_analyst.analyze(collection(12), None, SESSION, {**MODELS["news_analyst"], "max_concurrency": 1},
+                                  SETTINGS, client, MODELS["news_picker"])
+    assert result.picked == ["n_5", "n_2"]
+    picker_request = api.requests[-1]
+    assert picker_request["messages"][0]["content"] == (config.ROOT / "prompts/news_picker.md").read_text(encoding="utf-8")
+    report = assemble(SYMBOLS, RUN_DATE, SESSION, False, MarketSnapshot(indicators=report_ok().indicators),
+                      {"M1": ModuleRun(status="SUCCEEDED")}, analysis=result)
+    assert [n.id for n in report.news] == ["n_5", "n_2"]
+
+
+def test_picker_failure_falls_back_to_importance_order():
+    api = FakeAPI(pick=lambda articles: {"wrong": []})
+    client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=api)
+    result = news_analyst.analyze(collection(12), None, SESSION, {**MODELS["news_analyst"], "max_concurrency": 1},
+                                  SETTINGS, client, MODELS["news_picker"])
+    assert result.picked == [] and result.failed_batches == 0
+    assert any(note.startswith("picker failed") for note in result.notes)
 
 
 # --- M9 with news -----------------------------------------------------------

@@ -150,6 +150,7 @@ class NewsAnalysis(BaseModel):
     calendar_actuals: list[CalendarActual] = []
     total_batches: int = 0
     failed_batches: int = 0
+    picked: list[str] = []  # display order chosen by the picker; empty means M9 sorts by importance
     notes: list[str] = []
     llm_usage: dict[str, int] = {}
 

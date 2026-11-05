@@ -37,6 +37,32 @@ class _Output(BaseModel):
     calendar_actuals: list[CalendarActual]
 
 
+class _Picks(BaseModel):
+    ids: list[str]
+
+
+def pick(news: list[NewsItem], cfg: dict, settings: dict, client: LLMClient) -> tuple[list[str], str | None]:
+    """One event per card: batches rate the same story independently, so dedupe across them.
+    Returns ([], note) when picking is unnecessary or fails; M9 then sorts by importance.
+    """
+    top_n = settings["news"]["top_n_display"]
+    candidates = [n for n in news if n.summary_ko and n.importance >= settings["news"]["min_importance_display"]]
+    if len(candidates) <= top_n:
+        return [], None
+    user = json.dumps({"top_n": top_n, "articles": [
+        {"id": n.id, "title_ko": n.title_ko, "preview_ko": n.preview_ko, "category": n.category,
+         "importance": n.importance, "us_tickers": n.us_tickers}
+        for n in candidates
+    ]}, ensure_ascii=False)
+    try:
+        ids = client.structured(cfg, "news_picker", load_prompt("news_picker"), user, _Picks.model_validate).ids
+    except (LLMFatal, LLMRetryExhausted) as exc:
+        return [], f"picker failed: {exc}"
+    known = {n.id for n in candidates}
+    picked = list(dict.fromkeys(i for i in ids if i in known))[:top_n]
+    return picked, None if picked else "picker returned no known ids"
+
+
 def numbers_in(text: str) -> set[str]:
     return {n.replace(",", "") for n in re.findall(r"\d+(?:[.,]\d+)*", text)}
 
@@ -74,7 +100,7 @@ def skipped(collection: NewsCollection, note: str) -> NewsAnalysis:
 
 def analyze(
     collection: NewsCollection, calendar: CalendarSnapshot | None, us_session: date,
-    cfg: dict, settings: dict, client: LLMClient,
+    cfg: dict, settings: dict, client: LLMClient, picker_cfg: dict | None = None,
 ) -> NewsAnalysis:
     articles = collection.articles
     size = cfg["batch_size"]
@@ -140,8 +166,12 @@ def analyze(
                 actuals.setdefault(actual.event, actual)
     if dropped:
         notes.append(f"{dropped} summaries replaced by titles: numbers not in article")
+    picked: list[str] = []
+    if picker_cfg and not fatal:
+        picked, note = pick(news, picker_cfg, settings, client)
+        notes += [note] if note else []
     return NewsAnalysis(
-        news=news, calendar_actuals=list(actuals.values()), total_batches=len(batches),
+        news=news, calendar_actuals=list(actuals.values()), total_batches=len(batches), picked=picked,
         failed_batches=sum(1 for output, _ in results if output is None), notes=notes,
         llm_usage=dict(client.budget.used),
     )

@@ -162,7 +162,9 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             except LLMFatal as exc:
                 failed = news_analyst.skipped(collection, str(exc))
                 return failed.model_copy(update={"total_batches": 1, "failed_batches": 1})
-            return news_analyst.analyze(collection, calendar, us_session, models["news_analyst"], settings, client)
+            return news_analyst.analyze(
+                collection, calendar, us_session, models["news_analyst"], settings, client, models["news_picker"]
+            )
 
         def analysis_status(a: NewsAnalysis) -> str:
             if a.total_batches and a.failed_batches == a.total_batches:
