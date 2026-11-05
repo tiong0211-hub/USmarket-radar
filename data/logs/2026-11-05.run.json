@@ -1,0 +1,32 @@
+{
+  "run_date": "2026-11-05",
+  "us_session": "2026-11-04",
+  "started_at": "2026-11-05T13:46:13Z",
+  "finished_at": "2026-11-05T13:46:17Z",
+  "run_status": "OK",
+  "modules": {
+    "M1": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 2.0,
+      "error": null,
+      "notes": []
+    },
+    "M9": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    },
+    "M10": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    }
+  },
+  "indicators_missing": [],
+  "llm_usage": {}
+}
