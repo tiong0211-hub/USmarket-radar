@@ -1,21 +1,21 @@
 {
   "run_date": "2026-11-06",
   "us_session": "2026-11-05",
-  "started_at": "2026-11-05T23:49:42Z",
-  "finished_at": "2026-11-05T23:50:40Z",
+  "started_at": "2026-11-05T23:55:27Z",
+  "finished_at": "2026-11-05T23:56:22Z",
   "run_status": "OK",
   "modules": {
     "M1": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 2.5,
+      "duration_s": 1.9,
       "error": null,
       "notes": []
     },
     "M2": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 1.8,
+      "duration_s": 1.4,
       "error": null,
       "notes": []
     },
@@ -29,10 +29,10 @@
     "M6": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 54.2,
+      "duration_s": 52.8,
       "error": null,
       "notes": [
-        "11 summaries replaced by titles: numbers not in article"
+        "14 summaries replaced by titles: numbers not in article"
       ]
     },
     "M9": {
@@ -52,6 +52,6 @@
   },
   "indicators_missing": [],
   "llm_usage": {
-    "gpt-4o-mini": 57135
+    "gpt-4o-mini": 60334
   }
 }
