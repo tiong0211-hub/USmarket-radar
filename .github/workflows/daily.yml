@@ -33,9 +33,10 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_DATE: ${{ inputs.run_date }}
         run: |
           uv run python -m radar.run_daily \
-            ${{ inputs.run_date && format('--date {0}', inputs.run_date) || '' }} \
+            ${RUN_DATE:+--date "$RUN_DATE"} \
             ${{ inputs.skip_llm && '--no-llm' || '' }} \
             ${{ inputs.force && '--force' || '' }} \
             --github-output "$GITHUB_OUTPUT"

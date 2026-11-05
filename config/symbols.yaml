@@ -52,7 +52,7 @@ indicators:
     unit: "%"
     change_display: bp
     valid_range: [0.5, 10.0]      # ^TNX 표기 단위 변경 대비 이상값 체크
-    fallback: {source: fred, series: DGS10}   # 전일치 → stale: true
+    fallback: {source: fred, series: DGS10, url: "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"}   # 전일치 → stale: true
     description_ko: "미국 10년 만기 국채 수익률입니다. 변화는 bp로 표시하며, 3bp는 0.03%포인트입니다."
   - key: USDKRW
     label: 원 / 달러

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="{{ settings.ui.robots }}">
+  <title>아카이브 · Morning Radar</title>
+  <style>{{ css | safe }}</style>
+</head>
+<body>
+  <main class="container">
+    <div class="section-heading"><div><p class="eyebrow">ARCHIVE</p><h2>날짜별 브리핑</h2></div><a class="section-note" href="../index.html">오늘로 돌아가기</a></div>
+    <ul class="archive-list">
+      {% for r in reports %}
+      <li><a href="../{{ r.run_date.isoformat() }}/index.html">{{ r.run_date.isoformat() }} ({{ r.weekday_ko }})<span>{{ r.run_status }}</span></a></li>
+      {% endfor %}
+    </ul>
+    <footer><p>{{ settings.disclaimer_ko }}</p></footer>
+  </main>
+</body>
+</html>

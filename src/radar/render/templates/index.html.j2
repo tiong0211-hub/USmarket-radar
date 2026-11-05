@@ -1,0 +1,255 @@
+{% set date_ko = r.run_date.month ~ "월 " ~ r.run_date.day ~ "일 (" ~ r.weekday_ko ~ ")" %}
+{% set status_ko = {"OK": "정상", "DEGRADED": "일부 누락", "FAILED_INDICATORS": "필수 지표 누락", "FAILED": "생성 실패"} %}
+{% set b = r.briefing %}
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#162b35">
+  <meta name="robots" content="{{ settings.ui.robots }}">
+  <title>{{ date_ko }} · Morning Radar</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ date_ko }} {{ b.headline_ko | join(' ') if b else 'Morning Radar 미국장 지표' }}">
+  <meta property="og:description" content="{{ b.points[0].text_ko if b and b.points else '밤사이 미국 시장 지표를 확인하세요.' }}">
+  <meta property="og:image" content="{{ og_image }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <style>{{ css | safe }}</style>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="#overview" aria-label="Morning Radar 처음으로"><span class="brand-icon" aria-hidden="true">↗</span><span>MORNING<span class="brand-light"> RADAR</span><small>미국장에서, 오늘의 국장으로.</small></span></a>
+      <nav class="desktop-nav" aria-label="주 메뉴"><a href="#overview" class="active">오늘 브리핑</a><a href="#markets">시장 지표</a><a href="#news">주요 뉴스</a><a href="#themes">테마 연결</a></nav>
+      <a class="icon-button" href="#data-status" data-open-status aria-label="데이터 상태 보기">ⓘ</a>
+    </div>
+  </header>
+  <main id="main" class="container">
+    {% if banner %}
+    <div class="status-banner {{ banner.level }}" role="status">{{ banner.text_ko }}</div>
+    {% endif %}
+    <section id="overview" class="overview section-anchor" aria-labelledby="page-heading">
+      <div class="page-heading">
+        <div>
+          <p class="eyebrow">YOUR DAILY MARKET COMPASS · {{ r.run_date.year }}</p>
+          <h1 id="page-heading">{{ date_ko }}</h1>
+          <p class="intro">미국장 기준일 {{ r.us_session.isoformat() }}</p>
+          <div class="heading-links">
+            {% if r.us_market_closed %}<span class="badge">미장 휴장</span>{% endif %}
+            {% if yesterday %}<a href="{{ prefix }}{{ yesterday }}/index.html">어제</a>{% endif %}
+            <a href="{{ prefix }}archive/index.html">아카이브</a>
+          </div>
+        </div>
+        <div class="edition"><span class="edition-dot"></span> MORNING EDITION<strong>{{ r.generated_at | kst("%H:%M") }} <small>KST</small></strong><span>{{ r.generated_at | kst("%m/%d") }} 생성</span></div>
+      </div>
+      <div class="top-grid">
+        <article class="hero">
+          <div class="hero-top"><span class="hero-kicker"><i></i> OVERNIGHT BRIEF</span>{% if b %}<span class="hero-tag">{{ b.label }}</span>{% endif %}</div>
+          {% if b %}
+          <h2>{% for line in b.headline_ko %}{% if b.headline_emphasis in line %}{% set parts = line.partition(b.headline_emphasis) %}{{ parts[0] }}<em>{{ parts[1] }}</em>{{ parts[2] }}{% else %}{{ line }}{% endif %}{% if not loop.last %}<br>{% endif %}{% endfor %}</h2>
+          <ol class="brief-list">
+            {% for point in b.points %}
+            <li><span>{{ "%02d" | format(loop.index) }}</span><p><strong>{{ point.title_ko }}</strong>{{ point.text_ko }}</p></li>
+            {% endfor %}
+          </ol>
+          <div class="hero-bottom"><span>먼저 볼 것</span>{% for chip in b.focus_chips %}<a href="{{ chip.anchor | safe_anchor }}">{{ chip.label }} <span>↗</span></a>{% endfor %}</div>
+          {% else %}
+          <h2>오늘의 요약은<br><em>아직 없습니다.</em></h2>
+          <p class="hero-description">요약 없음 · 아래 시장 지표는 실제 수집값입니다.</p>
+          <div class="hero-bottom" style="margin-top:23px"><span>먼저 볼 것</span><a href="#markets">시장 지표 <span>↗</span></a></div>
+          {% endif %}
+          <svg class="hero-watermark" viewBox="0 0 240 240" fill="none" aria-hidden="true"><circle cx="120" cy="120" r="100"/><circle cx="120" cy="120" r="70"/><circle cx="120" cy="120" r="40"/><path d="M120 20v200M20 120h200M120 120l72-72"/><circle class="radar-point" cx="165" cy="75" r="6"/></svg>
+        </article>
+        <aside class="sentiment card">
+          <div class="card-heading"><h2>시장 심리</h2>{% if r.sentiment %}<span class="muted small">VIX {{ r.sentiment.vix | number }}</span>{% endif %}</div>
+          {% if r.sentiment %}
+          {% set point = gauge_point(r.sentiment.score) %}
+          <div class="gauge" role="img" aria-label="심리 점수 {{ r.sentiment.score }}점, {{ r.sentiment.label }}. VIX 기반 자체 산출."><svg viewBox="0 0 240 140" aria-hidden="true"><path class="gauge-track" d="M28 118 A92 92 0 0 1 212 118"/><path class="gauge-fill" d="M28 118 A92 92 0 0 1 212 118" pathLength="100" style="stroke-dasharray:{{ r.sentiment.score }} 100"/><circle cx="{{ point[0] }}" cy="{{ point[1] }}" r="6" class="gauge-dot"/></svg><div class="gauge-value">{{ r.sentiment.score }}<span>{{ r.sentiment.label_en }} · {{ r.sentiment.label }}</span></div><div class="gauge-labels"><span>공포 0</span><span>50</span><span>100 탐욕</span></div></div>
+          <p class="sentiment-note">{{ r.sentiment.note_ko }}</p>
+          {% else %}
+          <p class="no-data small" style="margin-top:14px">산출 불가 · 데이터 없음</p>
+          {% endif %}
+          <div class="outlook"><div><span class="outlook-icon" aria-hidden="true">↗</span><h3>오늘 국장은?</h3><span class="pending">참고용</span></div>
+            {% if b %}<p>{{ b.direction_ko }}</p>{% else %}<p class="no-data">데이터 없음</p>{% endif %}
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="markets" class="section-anchor" aria-labelledby="markets-heading">
+      <div class="section-heading"><div><p class="eyebrow">MARKET SNAPSHOT</p><h2 id="markets-heading">밤사이, 숫자로 보기 <span>{{ "%02d" | format(r.indicators | length) }}</span></h2></div><span class="section-note">눌러서 상세 보기</span></div>
+      <div class="market-grid">
+        {% for i in r.indicators %}
+        {% set move = i.change_bp if i.group == "rates" else i.change_pct %}
+        <details class="market-card{{ ' is-missing' if i.missing }}" data-card data-title="{{ i.label }} · {{ i.kind }}">
+          <summary>
+            <h3>{{ i.label }}<span>{{ i.kind }}</span></h3>
+            <span class="ticker">{{ i.symbol }}{% if i.contract %} · 근월물 {{ i.contract }}{% endif %}</span>
+            {% if i.missing %}
+            <div class="market-value no-data">데이터 없음</div>
+            {% else %}
+            <div class="market-value">{{ i.value | number }}{% if i.unit %}<small>{{ i.unit }}</small>{% endif %}</div>
+            <div class="market-change {{ move | direction }}">
+              {% if i.group == "rates" %}
+              <span>{{ move | arrow }} {{ move | signed(0) }} bp</span>
+              {% else %}
+              <span>{{ move | arrow }} {{ move | signed }}%</span><span class="delta">{{ i.change | signed }}{{ i.unit or "" }}</span>
+              {% endif %}
+            </div>
+            <div class="market-bottom">
+              <span class="market-state">{% if i.stale %}<span class="badge stale">지연</span> {% endif %}{{ i.as_of | kst }} KST</span>
+              {% if i.spark | length > 1 %}<svg class="sparkline {{ move | direction }}" viewBox="0 0 86 24" aria-hidden="true"><path d="{{ i.spark | spark_path }}"/></svg>{% endif %}
+            </div>
+            {% endif %}
+          </summary>
+          <div class="market-detail">
+            <p>{{ i.description_ko }}</p>
+            <p><strong>출처</strong> {{ i.source }}{% if i.as_of %} · <strong>기준 시각</strong> {{ i.as_of | kst }} KST{% endif %}{% if i.contract %} · <strong>계약월</strong> {{ i.contract }}{% endif %}</p>
+            {% if i.stale %}<p>최신 거래일 값이 아닌 지연 데이터입니다.</p>{% endif %}
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+      <p class="data-note">현물은 전일 종가 대비, 선물·환율은 미국장 기준일 직전 종가 대비 변동입니다. 금리 변동은 bp로 표시합니다.</p>
+    </section>
+
+    <div class="content-grid">
+      <div class="main-column">
+        <section id="news" class="section-anchor" aria-labelledby="news-heading">
+          <div class="section-heading"><div><p class="eyebrow">WHAT MOVED THE MARKET</p><h2 id="news-heading">흐름을 만든 뉴스</h2></div><span id="news-count" class="section-note">{{ r.news | length }}개</span></div>
+          {% if r.calendar.released %}
+          <div class="card result-card">
+            <h3>어젯밤 지표 결과</h3>
+            {% for e in r.calendar.released %}
+            <div class="result-row"><span>{{ e.event_ko }}</span><strong{% if not e.actual %} class="no-data"{% endif %}>{{ e.actual or "데이터 없음" }}</strong><small>{{ e.time_utc | kst("%H:%M") }} KST · 예상 {{ e.forecast or "데이터 없음" }} · 이전 {{ e.previous or "데이터 없음" }}</small></div>
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if r.news %}
+          <div class="filter-row" role="group" aria-label="뉴스 분류" data-filters hidden>
+            <button class="filter active" data-filter="all" aria-pressed="true">전체 <span>{{ r.news | length }}</span></button>
+            {% for key, label in settings.news.filter_labels.items() %}
+            <button class="filter" data-filter="{{ key }}" aria-pressed="false">{{ label }} <span>{{ r.news | selectattr("category", "equalto", key) | list | length }}</span></button>
+            {% endfor %}
+          </div>
+          <div class="news-list">
+            {% for n in r.news %}
+            {% set style = {"macro_rates": "macro", "geopolitics_commodities": "risk"}.get(n.category, "") %}
+            <details class="news-card" data-category="{{ n.category }}"{{ " open" if loop.first }}>
+              <summary>
+                <div class="news-meta"><span class="news-category {{ style }}">{{ settings.news.filter_labels.get(n.category, "기타") }}</span><span class="news-impact">{{ n.importance_label_ko }}</span><span class="sample-time">{{ n.published_at | kst("%m/%d %H:%M") }} KST ({{ n.published_at | et }} ET)</span></div>
+                <div class="news-title"><h3>{{ n.title_ko }}</h3><span class="news-chevron" aria-hidden="true">⌄</span></div>
+                <p class="news-preview">{{ n.preview_ko }}</p>
+              </summary>
+              <div class="news-detail">
+                {% if n.summary_ko %}
+                <p class="summary-label">3-LINE BRIEF</p>
+                <ol>{% for line in n.summary_ko %}<li>{{ line }}</li>{% endfor %}</ol>
+                {% else %}
+                <p class="no-data">요약 없음</p>
+                {% endif %}
+                {% if n.kr_impact %}<div class="korea-impact"><strong>↳ 국내장 관찰 포인트</strong>{{ n.kr_impact.text }}</div>{% endif %}
+                <div class="news-source">{{ n.source }} · <a href="{{ n.url | safe_url }}" target="_blank" rel="noopener noreferrer">원문 보기 ↗</a></div>
+              </div>
+            </details>
+            {% endfor %}
+          </div>
+          {% else %}
+          <p class="empty-state">데이터 없음</p>
+          {% endif %}
+        </section>
+        <section id="themes" class="section-anchor" aria-labelledby="themes-heading">
+          <div class="section-heading"><div><p class="eyebrow">FROM WALL STREET TO SEOUL</p><h2 id="themes-heading">미국 주도주, 국내 연결</h2></div></div>
+          {% if r.themes %}
+          <div class="theme-list">
+            {% for t in r.themes %}
+            <details class="theme-card"{{ " open" if loop.first }}>
+              <summary><span class="stock-logo" aria-hidden="true">{{ t.us_ticker[:2] }}</span><div class="stock-name"><strong>{{ t.us_ticker }}</strong><small>{{ t.name }}</small><p>{{ t.theme }}</p></div><div class="stock-return {{ t.change_pct | direction }}">{{ t.change_pct | arrow }} {{ t.change_pct | signed }}%</div><span class="news-chevron" aria-hidden="true">⌄</span></summary>
+              <div class="theme-details">
+                {% if t.momentum_ko %}<p>{{ t.momentum_ko }}</p>{% endif %}
+                <div class="mapping-heading">↳ 국내 연결 포인트</div>
+                <div class="mapping-chips">{% for s in t.kr_stocks %}<span class="mapping-chip">{{ s.name }}<span>{{ s.relation_ko }}</span></span>{% endfor %}</div>
+              </div>
+            </details>
+            {% endfor %}
+          </div>
+          <p class="data-note">연결은 관찰용 테마 분류이며 직접 공급 관계를 뜻하지 않습니다.</p>
+          {% else %}
+          <p class="empty-state">데이터 없음</p>
+          {% endif %}
+        </section>
+      </div>
+      <aside class="side-column">
+        <section id="calendar" class="card calendar section-anchor" aria-labelledby="calendar-heading">
+          <p class="eyebrow">UP NEXT</p><div class="card-heading"><h2 id="calendar-heading">다음 체크포인트</h2><span class="muted small">KST</span></div><p class="calendar-intro">오늘 밤 발표 예정인 미국 지표입니다.</p>
+          {% if r.calendar.upcoming %}
+          <div class="timeline">
+            {% for e in r.calendar.upcoming %}
+            <article><time>{{ e.time_utc | kst("%H:%M") }}</time><div>
+              {% if e.importance == "high" %}<span class="event-importance">● ● ● <span>중요</span></span>{% else %}<span class="event-importance medium">● ● <span>관심</span></span>{% endif %}
+              <h3>{{ e.event_ko }}</h3><p>예상 {{ e.forecast or "데이터 없음" }} · 이전 {{ e.previous or "데이터 없음" }}</p>{% if e.tag_ko %}<span class="event-tag">{{ e.tag_ko }}</span>{% endif %}
+            </div></article>
+            {% endfor %}
+          </div>
+          {% else %}
+          <p class="no-data" style="margin-top:14px;font-size:12px">{{ "오늘 밤 예정 지표 없음" if r.calendar.status == "ok" else "미수집 · 데이터 없음" }}</p>
+          {% endif %}
+        </section>
+        <section class="reading-note"><span class="note-icon" aria-hidden="true">✳</span><h2>{{ settings.reading_note_ko.title }}</h2><p>{{ settings.reading_note_ko.text }}</p><div>RADAR NOTE</div></section>
+        <details id="data-status" class="about-card section-anchor" data-card data-title="데이터 상태">
+          <summary><span><strong>데이터 상태 · {{ status_ko.get(r.run_status, r.run_status) }}</strong><small>출처, 기준 시각, 누락·경고 목록</small></span><span aria-hidden="true">↗</span></summary>
+          <div class="about-detail">
+            <ul class="status-list">
+              <li>실행 상태<span>{{ r.run_status }}</span></li>
+              <li>미국장 기준일<span>{{ r.us_session.isoformat() }}</span></li>
+              <li>생성 시각<span>{{ r.generated_at | kst }} KST</span></li>
+              {% for s in r.sources %}<li>{{ s.name }}<span>{{ s.items | join(", ") }}</span></li>{% endfor %}
+            </ul>
+            {% if r.warnings %}<p><strong>누락·경고</strong></p><ul class="status-warnings">{% for w in r.warnings %}<li>{{ w }}</li>{% endfor %}</ul>{% else %}<p>누락·경고 없음</p>{% endif %}
+          </div>
+        </details>
+      </aside>
+    </div>
+    <footer><a class="footer-brand" href="#overview">MORNING RADAR<span>미국장에서, 오늘의 국장으로.</span></a><p>{{ settings.disclaimer_ko }}</p></footer>
+  </main>
+  <nav class="mobile-nav" aria-label="모바일 주 메뉴"><a href="#overview" class="active"><span aria-hidden="true">◈</span>브리핑</a><a href="#markets"><span aria-hidden="true">▥</span>지표</a><a href="#news"><span aria-hidden="true">▤</span>뉴스</a><a href="#themes"><span aria-hidden="true">⇄</span>테마</a><a href="#calendar"><span aria-hidden="true">▦</span>일정</a></nav>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">RADAR DETAIL</span><button id="close-dialog" class="icon-button" aria-label="닫기">✕</button></div><h2 id="dialog-title"></h2><div id="dialog-body"></div><button class="dialog-confirm" id="dialog-confirm">확인했어요</button></dialog>
+<script>
+const dialog=document.querySelector('#detail-dialog');
+function openCard(card){
+  document.querySelector('#dialog-title').textContent=card.dataset.title;
+  const summary=card.querySelector('summary').nextElementSibling.cloneNode(true);
+  const value=card.querySelector('.market-value');
+  const nodes=value?[value.cloneNode(true),card.querySelector('.market-change')?.cloneNode(true),summary]:[summary];
+  document.querySelector('#dialog-body').replaceChildren(...nodes.filter(Boolean));
+  dialog.showModal();
+}
+document.querySelectorAll('[data-card]').forEach(card=>card.querySelector('summary').addEventListener('click',event=>{event.preventDefault();openCard(card);}));
+document.querySelector('[data-open-status]').addEventListener('click',event=>{event.preventDefault();openCard(document.querySelector('#data-status'));});
+document.querySelector('#close-dialog').addEventListener('click',()=>dialog.close());
+document.querySelector('#dialog-confirm').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});
+const filters=document.querySelector('[data-filters]');
+if(filters){
+  filters.hidden=false;
+  filters.addEventListener('click',event=>{
+    const button=event.target.closest('[data-filter]');
+    if(!button)return;
+    let count=0;
+    document.querySelectorAll('.news-card').forEach(card=>{card.hidden=button.dataset.filter!=='all'&&card.dataset.category!==button.dataset.filter;if(!card.hidden)count++;});
+    filters.querySelectorAll('[data-filter]').forEach(other=>{const active=other===button;other.classList.toggle('active',active);other.setAttribute('aria-pressed',String(active));});
+    document.querySelector('#news-count').textContent=`${count}개`;
+  });
+}
+const navLinks=[...document.querySelectorAll('.desktop-nav a,.mobile-nav a')];
+const sections=[...document.querySelectorAll('section.section-anchor')];
+let queued=false;
+function updateNavigation(){let current=sections[0].id;for(const section of sections){if(innerWidth>760&&section.id==='calendar')continue;if(section.getBoundingClientRect().top<=160)current=section.id;}navLinks.forEach(link=>{const active=link.hash===`#${current}`;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');});queued=false;}
+addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(updateNavigation);}},{passive:true});
+addEventListener('resize',updateNavigation);
+updateNavigation();
+</script>
+</body>
+</html>
