@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-11-06",
+  "us_session": "2026-11-05",
+  "started_at": "2026-11-05T20:43:25Z",
+  "finished_at": "2026-11-05T20:43:35Z",
+  "run_status": "DEGRADED",
+  "modules": {
+    "M1": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 2.7,
+      "error": null,
+      "notes": []
+    },
+    "M2": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 2.2,
+      "error": null,
+      "notes": []
+    },
+    "M3": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.2,
+      "error": null,
+      "notes": []
+    },
+    "M6": {
+      "status": "FAILED",
+      "attempts": 1,
+      "duration_s": 6.2,
+      "error": null,
+      "notes": [
+        "batch failed: APIConnectionError"
+      ]
+    },
+    "M9": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    },
+    "M10": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    }
+  },
+  "indicators_missing": [],
+  "llm_usage": {}
+}

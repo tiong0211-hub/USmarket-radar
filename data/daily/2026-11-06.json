@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.1",
+  "run_date": "2026-11-06",
+  "weekday_ko": "금",
+  "us_session": "2026-11-05",
+  "us_market_closed": false,
+  "generated_at": "2026-11-05T20:43:35Z",
+  "run_status": "DEGRADED",
+  "banner": {
+    "level": "warn",
+    "text_ko": "일부 데이터를 가져오지 못했습니다: 뉴스 요약 일부 없음(제목만 표시)"
+  },
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "symbol": "^NDX",
+      "group": "index",
+      "required": true,
+      "value": 26737.14,
+      "unit": null,
+      "change": -1700.03,
+      "change_pct": -5.98,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        28384.85,
+        27989.82,
+        28180.26,
+        28437.17,
+        26737.14
+      ],
+      "as_of": "2026-11-05T20:43:26.807498Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 대형 비금융 기업 100개의 흐름을 보는 지수입니다. 국내 기술주와의 연결을 살펴보는 관찰 지표입니다."
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "symbol": "NQ=F",
+      "group": "futures",
+      "required": true,
+      "value": 26948.25,
+      "unit": null,
+      "change": -1618.5,
+      "change_pct": -5.67,
+      "change_bp": null,
+      "contract": "2026-12",
+      "spark": [
+        28534.0,
+        28127.5,
+        28305.75,
+        28566.75,
+        26948.25
+      ],
+      "as_of": "2026-11-05T20:30:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "나스닥100 근월물 선물입니다. 미국장 마감 이후 분위기 변화를 보여주며, 현물과 기준 시각이 다를 수 있습니다."
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "symbol": "^GSPC",
+      "group": "index",
+      "required": true,
+      "value": 7368.6,
+      "unit": null,
+      "change": -320.02,
+      "change_pct": -4.16,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        7580.07,
+        7541.4,
+        7568.92,
+        7688.62,
+        7368.6
+      ],
+      "as_of": "2026-11-05T20:43:26.807498Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 대형주 시장 전반의 흐름을 확인하는 지수입니다."
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "symbol": "ES=F",
+      "group": "futures",
+      "required": true,
+      "value": 7412.0,
+      "unit": null,
+      "change": -308.5,
+      "change_pct": -4.0,
+      "change_bp": null,
+      "contract": "2026-12",
+      "spark": [
+        7614.0,
+        7574.5,
+        7596.75,
+        7720.5,
+        7412.0
+      ],
+      "as_of": "2026-11-05T20:30:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "S&P 500 근월물 선물입니다. 미국장 마감 이후에도 달라지는 시장 분위기를 볼 수 있습니다."
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "symbol": "^VIX",
+      "group": "volatility",
+      "required": true,
+      "value": 25.89,
+      "unit": null,
+      "change": 9.28,
+      "change_pct": 55.87,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        19.42,
+        21.15,
+        20.83,
+        16.61,
+        25.89
+      ],
+      "as_of": "2026-11-05T20:43:26.807498Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "S&P 500 옵션 가격으로 계산한 시장의 예상 변동성입니다. 하락이 국내장 상승을 보장하지는 않습니다."
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "symbol": "^TNX",
+      "group": "rates",
+      "required": true,
+      "value": 4.84,
+      "unit": "%",
+      "change": -0.057,
+      "change_pct": null,
+      "change_bp": -6,
+      "contract": null,
+      "spark": [
+        4.93,
+        4.89,
+        4.95,
+        4.89,
+        4.84
+      ],
+      "as_of": "2026-11-05T20:43:26.807498Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 10년 만기 국채 수익률입니다. 변화는 bp로 표시하며, 3bp는 0.03%포인트입니다."
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "symbol": "KRW=X",
+      "group": "fx",
+      "required": true,
+      "value": 1356.05,
+      "unit": "원",
+      "change": 13.15,
+      "change_pct": 0.98,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        1337.98,
+        1325.52,
+        1344.81,
+        1342.9,
+        1356.05
+      ],
+      "as_of": "2026-11-05T20:40:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "1달러당 원화 가격입니다. 값이 오르면 원화 약세를 뜻합니다. 역외 시세 기준이며 기준 시각을 함께 표시합니다."
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "symbol": "^SOX",
+      "group": "sector",
+      "required": false,
+      "value": 9162.42,
+      "unit": null,
+      "change": -1106.23,
+      "change_pct": -10.77,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        10688.8,
+        10328.33,
+        10600.4,
+        10268.65,
+        9162.42
+      ],
+      "as_of": "2026-11-05T20:43:26.807498Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 반도체 업종 지수입니다. 국내 반도체 업종과의 연결을 관찰하는 데 초점을 둡니다."
+    }
+  ],
+  "sentiment": null,
+  "calendar": {
+    "released": [
+      {
+        "time_utc": "2026-11-05T13:30:00Z",
+        "event": "Unemployment Claims",
+        "event_ko": "신규 실업수당 청구건수",
+        "importance": "medium",
+        "forecast": "197K",
+        "previous": "194K",
+        "actual": null,
+        "actual_source": null,
+        "tag_ko": "고용"
+      }
+    ],
+    "upcoming": [
+      {
+        "time_utc": "2026-11-06T13:30:00Z",
+        "event": "Average Hourly Earnings m/m",
+        "event_ko": "평균 시간당 임금(전월비)",
+        "importance": "high",
+        "forecast": "0.3%",
+        "previous": "0.1%",
+        "tag_ko": "고용"
+      },
+      {
+        "time_utc": "2026-11-06T13:30:00Z",
+        "event": "Non-Farm Employment Change",
+        "event_ko": "비농업 고용 변화",
+        "importance": "high",
+        "forecast": "65K",
+        "previous": "29K",
+        "tag_ko": "고용"
+      },
+      {
+        "time_utc": "2026-11-06T13:30:00Z",
+        "event": "Unemployment Rate",
+        "event_ko": "실업률",
+        "importance": "high",
+        "forecast": "4.2%",
+        "previous": "4.2%",
+        "tag_ko": "고용"
+      },
+      {
+        "time_utc": "2026-11-06T15:00:00Z",
+        "event": "Prelim UoM Consumer Sentiment",
+        "event_ko": "미시간대 소비자심리(예비)",
+        "importance": "medium",
+        "forecast": "48.1",
+        "previous": "46.3",
+        "tag_ko": "소비"
+      },
+      {
+        "time_utc": "2026-11-06T15:00:00Z",
+        "event": "Prelim UoM Inflation Expectations",
+        "event_ko": "미시간대 기대인플레이션(예비)",
+        "importance": "medium",
+        "forecast": null,
+        "previous": "4.7%",
+        "tag_ko": "물가"
+      }
+    ],
+    "status": "ok"
+  },
+  "news": [
+    {
+      "id": "n_97a4eb0c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "IRS announces new federal income tax brackets for 2027",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:37:22Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_2789a856",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Dow tumbles 1,800 points, erasing its postelection rally; Nasdaq plummets 5%: Live updates",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:37:09Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_d76208c0",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Waiting for a Stock Market Crash Before You Invest? Here's What the Data Says It Can Cost You.",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:30:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWlBGUmt4aHk5aTc1R3liQy1wckhEQ05tbW9kQXZuV2hXQWJqWlhwZjBCRks0S0duQlRhMzUzNnBWSFVCUk1qTlNrb2RuSHJKamNUY25ZczZzV3dJOUpkNkxXMVRWSmNtXzg2UGVwUWhIUGZEel9ET0tXY2FfQUdKWjh5akNpeTd3NVh2QnhWMjNsTnlnZzB6Zw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_c40ff001",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:22:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_b1a86630",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Bitcoin, stocks crash in steepest selloff since Liberation Day",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:21:25Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTEFVeHdTVEY4a0ZzbFBwa3NFR0NCSkRlUk1YZVgxYWF3SXh6T19wUFJzVWcwTkstX2NSa19aNlRTeGVQaUlyRFlxajhOS3owNkNyRTlmNklRUWswc1pfcUhld294aWhhZi1oQTVhZ2JHVWVsWlRLY2VsS1MycUswVHZoS1YyeHNrZkNDUFRCMmNxSzdMbVpib2Y3XzZDR3ZKRzRESQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_39a095d0",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:21:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_b3174cef",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: The AI Sell-Off Is Exposing a Critical Difference Investors Shouldn't Ignore for 2027",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:20:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZXlHaVI1LXdNcnFQcERxZHByZVRVa0FkQkN6SmRFWmI5NW5JamVlVVRFemN0S0NMSzRub3NzTDNGMl9VZXFXZG45aGhCRVh3SGZRMDEtZ2ZYNDhHREVYTVlvMFZoUnZzOFRQLVgwbno1WUoyN3JVbkdacDRJNkQtQXEyNUp1TW9Dc3VXaWZCWDhOTVlBbnZZRXBGUkxXdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_4641a7b9",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Sunny Optical (SEHK:2382) Stock Could Be 19% Overvalued On Cash Flow",
+      "preview_ko": "",
+      "published_at": "2026-11-05T20:17:39Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnNhNFFiaHN5cXBSeTJ2eHlGQlNrcGF4QUNuZTJmUDRWVldrZWk2d2JtUTV1X2YxazN5cHc2Z0ktdl9xbzhDWnkwQzJ3eS1NNGNIZjJJdy1kYnZFVExpdnhjc3hfVEx5aHdmRWI1dDUyTXpmdWIwcGdKUzl6UHBzazZ1UnFDV3VWNk9oTnoyT2RFMWtVUm43cTF3?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    }
+  ],
+  "themes": [],
+  "briefing": null,
+  "sources": [
+    {
+      "name": "yfinance",
+      "items": [
+        "NDX",
+        "NQ",
+        "SPX",
+        "ES",
+        "VIX",
+        "US10Y",
+        "USDKRW",
+        "SOX"
+      ]
+    },
+    {
+      "name": "Forex Factory",
+      "items": [
+        "calendar"
+      ]
+    },
+    {
+      "name": "CNBC Top News RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "CNBC Markets RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "MarketWatch Top Stories RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "Google News - US stocks RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "Google News - Fed / rates RSS",
+      "items": [
+        "news"
+      ]
+    }
+  ],
+  "warnings": [
+    "뉴스 요약 일부 없음(제목만 표시)"
+  ]
+}
