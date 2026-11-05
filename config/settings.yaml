@@ -22,6 +22,7 @@ market:
   retry_backoff_s: [2, 4, 8]
   retry_jitter_s: 1
   intraday_max_age_days: 55   # Yahoo 5분봉 제공 범위 안에서만 요청
+module_timeouts_s: {M2: 120, M3: 120, M6: 300}
 llm_budget:                   # 일일 토큰 상한 (계정 TPD보다 충분히 낮게)
   gpt-4o-mini: 2000000
   gpt-5.5: 200000

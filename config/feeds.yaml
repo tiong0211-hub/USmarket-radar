@@ -1,20 +1,21 @@
-# 뉴스 RSS 후보 — P2 착수 시 각 URL 유효성 확인 필수 (verified: true로 변경)
-time_window: since_last_us_close   # 직전 미장 마감(16:00 ET) 이후 ~ 실행 시각
+# 뉴스 RSS — verified: true만 수집. 2026-11-05 확인 (Yahoo는 404)
+time_window: since_previous_us_close   # 기준 세션 직전 세션의 마감 ~ 실행 시각 (기준 세션 뉴스 포함)
+fetch_retry_backoff_s: [2, 2]
 max_articles_to_llm: 150
 min_articles_warning: 20
 feeds:
   - name: CNBC Top News
     url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
     priority: 1
-    verified: false
+    verified: true
   - name: CNBC Markets
     url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"
     priority: 1
-    verified: false
+    verified: true
   - name: MarketWatch Top Stories
     url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
     priority: 2
-    verified: false
+    verified: true
   - name: Yahoo Finance
     url: "https://finance.yahoo.com/news/rssindex"
     priority: 2
@@ -22,11 +23,11 @@ feeds:
   - name: Google News - US stocks
     url: "https://news.google.com/rss/search?q=stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
     priority: 3
-    verified: false
+    verified: true
   - name: Google News - Fed / rates
     url: "https://news.google.com/rss/search?q=Federal+Reserve+OR+Treasury+yields+when:1d&hl=en-US&gl=US&ceid=US:en"
     priority: 3
-    verified: false
+    verified: true
 
 # 경제 캘린더
 calendar:
@@ -34,5 +35,47 @@ calendar:
     name: Forex Factory weekly JSON
     url: "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
     filter: {country: USD, impact: [High, Medium]}
-    verified: false   # actual 필드 포함 여부 확인 필요
+    verified: true   # actual 필드 없음. thisweek만 제공 (lastweek/nextweek 404)
   actual_backfill: llm_news   # M6 calendar_actuals
+  fetch_retry_backoff_s: [4, 4]
+  # 없는 제목은 영어 원문으로 표시
+  event_names:
+    Non-Farm Employment Change: {ko: 비농업 고용 변화, tag: 고용}
+    Unemployment Rate: {ko: 실업률, tag: 고용}
+    Average Hourly Earnings m/m: {ko: 평균 시간당 임금(전월비), tag: 고용}
+    Unemployment Claims: {ko: 신규 실업수당 청구건수, tag: 고용}
+    ADP Non-Farm Employment Change: {ko: ADP 민간 고용 변화, tag: 고용}
+    JOLTS Job Openings: {ko: JOLTS 구인건수, tag: 고용}
+    CPI m/m: {ko: 소비자물가(전월비), tag: 물가}
+    CPI y/y: {ko: 소비자물가(전년비), tag: 물가}
+    Core CPI m/m: {ko: 근원 소비자물가(전월비), tag: 물가}
+    PPI m/m: {ko: 생산자물가(전월비), tag: 물가}
+    Core PPI m/m: {ko: 근원 생산자물가(전월비), tag: 물가}
+    Core PCE Price Index m/m: {ko: 근원 PCE 물가(전월비), tag: 물가}
+    Prelim UoM Inflation Expectations: {ko: 미시간대 기대인플레이션(예비), tag: 물가}
+    Federal Funds Rate: {ko: 연방기금금리 결정, tag: 금리}
+    FOMC Statement: {ko: FOMC 성명, tag: 금리}
+    FOMC Press Conference: {ko: FOMC 기자회견, tag: 금리}
+    FOMC Meeting Minutes: {ko: FOMC 의사록, tag: 금리}
+    Fed Chair Speaks: {ko: 연준 의장 발언, tag: 금리}
+    Advance GDP q/q: {ko: GDP 속보치(전분기비), tag: 경기}
+    Prelim GDP q/q: {ko: GDP 잠정치(전분기비), tag: 경기}
+    Final GDP q/q: {ko: GDP 확정치(전분기비), tag: 경기}
+    ISM Manufacturing PMI: {ko: ISM 제조업 PMI, tag: 경기}
+    ISM Services PMI: {ko: ISM 서비스업 PMI, tag: 경기}
+    Flash Manufacturing PMI: {ko: 제조업 PMI 속보치, tag: 경기}
+    Flash Services PMI: {ko: 서비스업 PMI 속보치, tag: 경기}
+    Philly Fed Manufacturing Index: {ko: 필라델피아 연은 제조업지수, tag: 경기}
+    Empire State Manufacturing Index: {ko: 뉴욕 연은 제조업지수, tag: 경기}
+    Retail Sales m/m: {ko: 소매판매(전월비), tag: 소비}
+    Core Retail Sales m/m: {ko: 근원 소매판매(전월비), tag: 소비}
+    CB Consumer Confidence: {ko: 컨퍼런스보드 소비자신뢰지수, tag: 소비}
+    Prelim UoM Consumer Sentiment: {ko: 미시간대 소비자심리(예비), tag: 소비}
+    Revised UoM Consumer Sentiment: {ko: 미시간대 소비자심리(확정), tag: 소비}
+    Building Permits: {ko: 건축허가, tag: 주택}
+    Housing Starts: {ko: 주택착공, tag: 주택}
+    Existing Home Sales: {ko: 기존주택판매, tag: 주택}
+    New Home Sales: {ko: 신규주택판매, tag: 주택}
+    Durable Goods Orders m/m: {ko: 내구재 주문(전월비), tag: 경기}
+    Core Durable Goods Orders m/m: {ko: 근원 내구재 주문(전월비), tag: 경기}
+    Congressional Elections: {ko: 미국 의회 선거, tag: 정치}

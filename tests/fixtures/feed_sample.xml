@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Handwritten: same structure as the CNBC and Google News feeds, invented text. -->
+<rss version="2.0">
+  <channel>
+    <title>Sample</title>
+    <item>
+      <title>Fed holds rates steady at 4.25%</title>
+      <link>https://example.test/fed</link>
+      <description>Officials kept rates unchanged and pointed to &lt;b&gt;sticky&lt;/b&gt; inflation.</description>
+      <pubDate>Wed, 04 Nov 2026 19:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stocks rally on chip demand - WSJ</title>
+      <link>https://news.google.test/rss/articles/abc</link>
+      <description>&lt;a href="https://news.google.test/rss/articles/abc"&gt;Stocks rally on chip demand&lt;/a&gt; WSJ</description>
+      <pubDate>Wed, 04 Nov 2026 20:00:00 GMT</pubDate>
+      <source url="https://wsj.test">WSJ</source>
+    </item>
+    <item>
+      <title>Long summary story</title>
+      <link>https://example.test/long</link>
+      <description><![CDATA[<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>]]></description>
+      <pubDate>Wed, 04 Nov 2026 18:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Old story outside the window</title>
+      <link>https://example.test/old</link>
+      <description>Too old.</description>
+      <pubDate>Mon, 02 Nov 2026 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Story without a date</title>
+      <link>https://example.test/nodate</link>
+      <description>No date.</description>
+    </item>
+    <item>
+      <title>Bad link story</title>
+      <link>javascript:alert(1)</link>
+      <description>Unsafe link.</description>
+      <pubDate>Wed, 04 Nov 2026 18:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

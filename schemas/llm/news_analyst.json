@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items", "calendar_actuals"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "relevant", "category", "importance", "title_ko", "preview_ko", "summary_ko", "kr_impact", "us_tickers"],
+        "properties": {
+          "id": {"type": "string"},
+          "relevant": {"type": "boolean"},
+          "category": {"type": "string", "enum": ["macro_rates", "theme_earnings", "geopolitics_commodities", "other"]},
+          "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+          "title_ko": {"type": "string"},
+          "preview_ko": {"type": "string"},
+          "summary_ko": {"type": "array", "items": {"type": "string"}},
+          "kr_impact": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["direction", "text"],
+            "properties": {
+              "direction": {"type": "string", "enum": ["positive", "negative", "neutral"]},
+              "text": {"type": "string"}
+            }
+          },
+          "us_tickers": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "calendar_actuals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["event", "actual", "evidence_id"],
+        "properties": {
+          "event": {"type": "string"},
+          "actual": {"type": "string"},
+          "evidence_id": {"type": "string"}
+        }
+      }
+    }
+  }
+}

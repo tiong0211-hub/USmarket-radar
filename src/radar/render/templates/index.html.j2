@@ -123,7 +123,7 @@
           <div class="card result-card">
             <h3>어젯밤 지표 결과</h3>
             {% for e in r.calendar.released %}
-            <div class="result-row"><span>{{ e.event_ko }}</span><strong{% if not e.actual %} class="no-data"{% endif %}>{{ e.actual or "데이터 없음" }}</strong><small>{{ e.time_utc | kst("%H:%M") }} KST · 예상 {{ e.forecast or "데이터 없음" }} · 이전 {{ e.previous or "데이터 없음" }}</small></div>
+            <div class="result-row"><span>{{ e.event_ko }}</span><strong{% if not e.actual %} class="no-data"{% endif %}>{{ e.actual or "데이터 없음" }}</strong><small>{{ e.time_utc | kst("%H:%M") }} KST · 예상 {{ e.forecast or "데이터 없음" }} · 이전 {{ e.previous or "데이터 없음" }}{% if e.actual_source == "llm_news" %} · 실제치는 뉴스 기반{% endif %}</small></div>
             {% endfor %}
           </div>
           {% endif %}
@@ -141,7 +141,7 @@
               <summary>
                 <div class="news-meta"><span class="news-category {{ style }}">{{ settings.news.filter_labels.get(n.category, "기타") }}</span><span class="news-impact">{{ n.importance_label_ko }}</span><span class="sample-time">{{ n.published_at | kst("%m/%d %H:%M") }} KST ({{ n.published_at | et }} ET)</span></div>
                 <div class="news-title"><h3>{{ n.title_ko }}</h3><span class="news-chevron" aria-hidden="true">⌄</span></div>
-                <p class="news-preview">{{ n.preview_ko }}</p>
+                {% if n.preview_ko %}<p class="news-preview">{{ n.preview_ko }}</p>{% endif %}
               </summary>
               <div class="news-detail">
                 {% if n.summary_ko %}

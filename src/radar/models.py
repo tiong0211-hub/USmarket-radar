@@ -95,6 +95,11 @@ class Calendar(BaseModel):
     status: Literal["ok", "missing"] = "missing"
 
 
+class CalendarSnapshot(Calendar):
+    """M3 output (data/raw/<date>/calendar.json). events carries Friday's releases into Monday."""
+    events: list[UpcomingEvent] = []
+
+
 class KrImpact(BaseModel):
     direction: Literal["positive", "negative", "neutral"]
     text: str
@@ -113,6 +118,40 @@ class NewsItem(BaseModel):
     summary_ko: list[str] = []
     kr_impact: KrImpact | None = None
     us_tickers: list[str] = []
+
+
+class RawArticle(BaseModel):
+    """Title, link and RSS summary (<=300 chars) only: data/raw is public."""
+    id: str
+    title: str
+    link: str
+    summary: str = ""
+    source: str
+    feed: str
+    published_at: AwareDatetime
+
+
+class NewsCollection(BaseModel):
+    """M2 output (data/raw/<date>/news.json)."""
+    articles: list[RawArticle]
+    feeds_ok: list[str] = []
+    notes: list[str] = []
+
+
+class CalendarActual(BaseModel):
+    event: str
+    actual: str
+    evidence_id: str
+
+
+class NewsAnalysis(BaseModel):
+    """M6 output (data/raw/<date>/news_analysis.json)."""
+    news: list[NewsItem]
+    calendar_actuals: list[CalendarActual] = []
+    total_batches: int = 0
+    failed_batches: int = 0
+    notes: list[str] = []
+    llm_usage: dict[str, int] = {}
 
 
 class KrStock(BaseModel):

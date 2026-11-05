@@ -2,8 +2,6 @@
 import csv
 import io
 import logging
-import random
-import time
 from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, date, datetime, timedelta
@@ -12,6 +10,7 @@ import httpx
 import yfinance as yf
 
 from radar.models import Indicator, MarketSnapshot
+from radar.retry import with_retry
 
 log = logging.getLogger(__name__)
 
@@ -62,20 +61,6 @@ def front_month(day: date) -> str:
         year, month = (year + 1, 1) if month == 12 else (year, month + 1)
 
 
-def _with_retry(fn: Callable, backoff: list[float], jitter: float):
-    for delay in [*backoff, None]:
-        try:
-            return fn()
-        except httpx.HTTPStatusError as exc:
-            status = exc.response.status_code
-            if delay is None or (status < 500 and status != 429):
-                raise
-        except Exception:
-            if delay is None:
-                raise
-        time.sleep(delay + random.uniform(0, jitter))
-
-
 def _indicator(spec: dict, **values) -> Indicator:
     fields = {k: spec.get(k) for k in ("key", "label", "kind", "symbol", "group", "unit")}
     return Indicator(
@@ -122,7 +107,7 @@ def build_indicator(
         if quotes:
             as_of, value = quotes[-1][0].astimezone(UTC), quotes[-1][1]
         elif closes:
-            as_of, value = close_of(closes[-1][0]), closes[-1][1]
+            as_of, value = min(close_of(closes[-1][0]), cutoff), closes[-1][1]
         else:
             raise NoData(f"{spec['key']}: no quote before cutoff")
         if not before:
@@ -134,7 +119,7 @@ def build_indicator(
         if len(closes) < 2:
             raise NoData(f"{spec['key']}: fewer than 2 closes")
         (last_day, value), previous = closes[-1], closes[-2][1]
-        as_of = close_of(last_day)
+        as_of = min(close_of(last_day), cutoff)  # a run before the close sees a live price
         spark = [v for _, v in closes[-spark_days:]]
         stale = last_day != us_session
     _check_range(spec, value)
@@ -174,7 +159,7 @@ def collect(symbols: dict, settings: dict, us_session: date, cutoff: datetime, c
     intraday_ok = (datetime.now(UTC) - cutoff).days <= cfg["intraday_max_age_days"]
 
     def retry(fn):
-        return _with_retry(fn, cfg["retry_backoff_s"], cfg["retry_jitter_s"])
+        return with_retry(fn, cfg["retry_backoff_s"], cfg["retry_jitter_s"])
 
     def one(spec: dict) -> tuple[Indicator, list[str]]:
         notes: list[str] = []

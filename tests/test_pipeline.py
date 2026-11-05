@@ -4,16 +4,25 @@ import json
 import re
 from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
+from types import SimpleNamespace
+from zoneinfo import ZoneInfo
 
+import httpx
+import openai
 import pytest
 
 from radar import config, market_calendar, run_daily
 from radar.assemble.assembler import assemble
 from radar.assemble.validator import run_status
-from radar.collectors import market
+from radar.collectors import calendar as calendar_collector
+from radar.collectors import market, news
+from radar.llm import client as llm_client
+from radar.llm import news_analyst
+from radar.retry import with_retry
 from radar.models import (
-    Briefing, BriefingPoint, Calendar, DailyReport, FocusChip, Indicator, KrImpact, KrStock,
-    MarketSnapshot, ModuleRun, NewsItem, ReleasedEvent, Sentiment, Theme, UpcomingEvent,
+    Briefing, BriefingPoint, Calendar, CalendarActual, CalendarSnapshot, DailyReport, FocusChip, Indicator, KrImpact, KrStock,
+    MarketSnapshot, ModuleRun, NewsAnalysis, NewsCollection, NewsItem, RawArticle, ReleasedEvent,
+    Sentiment, Theme, UpcomingEvent,
 )
 from radar.render import renderer
 
@@ -25,6 +34,52 @@ SESSION = date(2026, 11, 4)
 RUN_DATE = date(2026, 11, 5)
 CUTOFF = datetime(2026, 11, 5, 7, 10, tzinfo=timezone(timedelta(hours=9)))
 RECORDED = json.loads((FIXTURES / "market_bars.json").read_text(encoding="utf-8"))
+
+
+RSS = (FIXTURES / "feed_sample.xml").read_bytes()
+FF_EVENTS = json.loads((FIXTURES / "ff_calendar.json").read_text(encoding="utf-8"))
+FEEDS = config.load("feeds")
+MODELS = config.load("models")
+FEED = {"name": "Test Feed"}
+NEWS_START = datetime(2026, 11, 3, 21, tzinfo=UTC)
+
+
+def good_item(article_id, title="연준 동결", **overrides):
+    return {
+        "id": article_id, "relevant": True, "category": "macro_rates", "importance": 5,
+        "title_ko": title, "preview_ko": "금리 경로 관찰", "summary_ko": ["첫째", "둘째", "셋째"],
+        "kr_impact": {"direction": "neutral", "text": "환율 민감 업종 관찰"}, "us_tickers": [], **overrides,
+    }
+
+
+class FakeAPI:
+    """Stands in for openai.OpenAI. `script` maps the call index to an exception or a raw string."""
+
+    def __init__(self, respond=None, script=None):
+        self.respond = respond or (lambda articles: {"items": [good_item(a["id"]) for a in articles], "calendar_actuals": []})
+        self.script = script or {}
+        self.calls = 0
+        self.requests = []
+        self.chat = SimpleNamespace(completions=SimpleNamespace(create=self.create))
+
+    def create(self, **kwargs):
+        index = self.calls
+        self.calls += 1
+        self.requests.append(kwargs)
+        scripted = self.script.get(index)
+        if isinstance(scripted, Exception):
+            raise scripted
+        articles = json.loads(kwargs["messages"][1]["content"])["articles"]
+        content = scripted if scripted is not None else json.dumps(self.respond(articles), ensure_ascii=False)
+        return SimpleNamespace(
+            usage=SimpleNamespace(total_tokens=100),
+            choices=[SimpleNamespace(message=SimpleNamespace(content=content))],
+        )
+
+
+def api_error(cls, status, headers=None):
+    response = httpx.Response(status, request=httpx.Request("POST", "https://api.test"), headers=headers or {})
+    return cls("secret-looking text sk-test", response=response, body=None)
 
 
 def close_of(day):
@@ -47,12 +102,16 @@ def fake_fetch(symbol, interval, start, end):
 def fast(monkeypatch):
     monkeypatch.setitem(SETTINGS["market"], "retry_backoff_s", [0, 0, 0])
     monkeypatch.setitem(SETTINGS["market"], "retry_jitter_s", 0)
-    monkeypatch.setattr(run_daily.config, "load", lambda name: {"settings": SETTINGS, "symbols": SYMBOLS}[name])
+    real_load = config.load
+    monkeypatch.setattr(config, "load", lambda name: {"settings": SETTINGS, "symbols": SYMBOLS, "feeds": {**FEEDS, "min_articles_warning": 1}}.get(name) or real_load(name))
     monkeypatch.setattr(market, "fetch_contract", lambda symbol: "2026-12")
+    monkeypatch.setattr(news, "fetch_feed", lambda url: RSS)
+    monkeypatch.setattr(calendar_collector, "fetch_events", lambda url: FF_EVENTS)
+    monkeypatch.setattr(run_daily, "LLMClient", lambda budget: llm_client.LLMClient(budget, api=FakeAPI()))
 
 
-def args(day=RUN_DATE, force=False):
-    return argparse.Namespace(date=day, dry_run=False, force=force)
+def args(day=RUN_DATE, force=False, no_llm=False):
+    return argparse.Namespace(date=day, dry_run=False, force=force, no_llm=no_llm)
 
 
 # --- calendar -------------------------------------------------------------
@@ -110,7 +169,6 @@ def test_front_month_rolls_after_third_friday():
 
 
 def test_retry_stops_on_client_error_and_retries_server_error():
-    import httpx
     calls = []
 
     def fail(status):
@@ -121,9 +179,9 @@ def test_retry_stops_on_client_error_and_retries_server_error():
         return fn
 
     with pytest.raises(httpx.HTTPStatusError):
-        market._with_retry(fail(403), [0, 0, 0], 0)
+        with_retry(fail(403), [0, 0, 0], 0)
     with pytest.raises(httpx.HTTPStatusError):
-        market._with_retry(fail(503), [0, 0, 0], 0)
+        with_retry(fail(503), [0, 0, 0], 0)
     assert calls.count(403) == 1 and calls.count(503) == 4
 
 
@@ -343,9 +401,340 @@ def test_render_failure_keeps_previous_page(tmp_path, monkeypatch, fast):
     assert "어제 내용을 표시합니다" in (tmp_path / "site/index.html").read_text(encoding="utf-8")
 
 
+def test_no_llm_shows_titles_and_is_degraded(tmp_path, monkeypatch, fast):
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+    assert run_daily.run(args(no_llm=True), tmp_path) == ("DEGRADED", 0)
+    report = DailyReport.model_validate_json((tmp_path / "data/daily/2026-11-05.json").read_text(encoding="utf-8"))
+    assert report.news and all(n.importance_label_ko == "요약 없음" and not n.summary_ko for n in report.news)
+    assert "뉴스 요약 일부 없음(제목만 표시)" in report.banner.text_ko
+
+
+def test_missing_api_key_never_fails_the_run(tmp_path, monkeypatch, fast):
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+
+    def no_key(budget):
+        raise llm_client.LLMFatal("OPENAI_API_KEY is not set")
+
+    monkeypatch.setattr(run_daily, "LLMClient", no_key)
+    assert run_daily.run(args(), tmp_path) == ("DEGRADED", 0)
+    log = json.loads((tmp_path / "data/logs/2026-11-05.run.json").read_text(encoding="utf-8"))
+    assert log["modules"]["M6"]["status"] == "FAILED"
+
+
+def test_news_and_calendar_failure_degrade_but_publish(tmp_path, monkeypatch, fast):
+    def down(*_):
+        raise OSError("down")
+
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+    monkeypatch.setattr(news, "fetch_feed", down)
+    monkeypatch.setattr(calendar_collector, "fetch_events", down)
+    assert run_daily.run(args(), tmp_path) == ("DEGRADED", 0)
+    report = DailyReport.model_validate_json((tmp_path / "data/daily/2026-11-05.json").read_text(encoding="utf-8"))
+    assert report.news == [] and report.calendar.status == "missing"
+    assert "캘린더 미수집" in report.warnings
+    html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
+    assert "미수집 · 데이터 없음" in html
+
+
+def test_run_log_has_usage_and_no_api_error_text(tmp_path, monkeypatch, fast):
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+    api = FakeAPI(script={0: api_error(openai.AuthenticationError, 401)})
+    monkeypatch.setattr(run_daily, "LLMClient", lambda budget: llm_client.LLMClient(budget, api=api))
+    run_daily.run(args(), tmp_path)
+    for path in (tmp_path / "data").rglob("*.json"):
+        assert "sk-test" not in path.read_text(encoding="utf-8")
+
+
 def test_github_output_is_written(tmp_path, monkeypatch, fast):
     monkeypatch.setattr(market, "fetch_bars", fake_fetch)
     monkeypatch.setattr(run_daily, "run", lambda a: ("OK", 0))
     output = tmp_path / "out"
     assert run_daily.main(["--date", "2026-11-05", "--no-llm", "--no-deploy", "--github-output", str(output)]) == 0
     assert output.read_text(encoding="utf-8") == "run_status=OK\nrun_date=2026-11-05\n"
+
+
+# --- M2 -------------------------------------------------------------------
+
+def test_feed_window_cleanup_and_summary_limit():
+    found = news.parse_feed(RSS, FEED, NEWS_START, CUTOFF)
+    titles = [a.title for a in found]
+    assert "Fed holds rates steady at 4.25%" in titles
+    assert "Old story outside the window" not in titles
+    assert "Story without a date" not in titles
+    assert "Bad link story" not in titles
+    google = next(a for a in found if a.title == "Stocks rally on chip demand")  # " - WSJ" removed
+    assert google.source == "WSJ" and google.summary == ""  # title echo dropped
+    long = next(a for a in found if a.title == "Long summary story")
+    assert len(long.summary) == 300 and "<" not in long.summary
+    assert re.fullmatch(r"n_[0-9a-f]{8}", long.id)
+
+
+def test_deduplicate_keeps_first_and_catches_near_duplicates():
+    def article(title, link):
+        return RawArticle(id="n", title=title, link=link, source="S", feed="F", published_at=NEWS_START)
+
+    kept = news.deduplicate([
+        article("Fed holds rates steady at 4.25%", "https://a.test/1"),
+        article("Fed holds rates steady at 4.25 %!", "https://b.test/2"),
+        article("Totally different", "https://a.test/1"),
+        article("Oil jumps on supply fears", "https://c.test/3"),
+    ])
+    assert [a.link for a in kept] == ["https://a.test/1", "https://c.test/3"]
+
+
+def test_collect_skips_unverified_and_survives_one_feed_failure(monkeypatch, fast):
+    urls = []
+
+    def fetch(url):
+        urls.append(url)
+        if "cnbc" in url:
+            raise OSError("down")
+        return RSS
+
+    monkeypatch.setattr(news, "fetch_feed", fetch)
+    cfg = {**FEEDS, "fetch_retry_backoff_s": []}
+    result = news.collect(cfg, NEWS_START, CUTOFF)
+    assert not any("yahoo" in url for url in urls)
+    assert result.articles and "CNBC Top News" not in result.feeds_ok
+    assert any("CNBC Top News" in note for note in result.notes)
+
+
+def test_collect_raises_when_every_feed_fails(monkeypatch):
+    def down(url):
+        raise OSError("down")
+
+    monkeypatch.setattr(news, "fetch_feed", down)
+    with pytest.raises(RuntimeError):
+        news.collect({**FEEDS, "fetch_retry_backoff_s": []}, NEWS_START, CUTOFF)
+
+
+# --- M3 -------------------------------------------------------------------
+
+KST = timezone(timedelta(hours=9))
+KST_ZONE = ZoneInfo("Asia/Seoul")
+WINDOW = SETTINGS["calendar"]["upcoming_window_kst"]
+
+
+def snapshot(history=(), run_date=RUN_DATE, session=SESSION, cutoff=CUTOFF):
+    return calendar_collector.split_events(
+        [*calendar_collector.parse_events(FF_EVENTS, FEEDS["calendar"]), *history],
+        run_date, session, cutoff, WINDOW, KST_ZONE,
+    )
+
+
+def test_calendar_filters_usd_high_medium_and_translates():
+    events = calendar_collector.parse_events(FF_EVENTS, FEEDS["calendar"])
+    assert events and all(e.importance in ("high", "medium") for e in events)
+    assert len(events) == sum(1 for e in FF_EVENTS if e["country"] == "USD" and e["impact"] in ("High", "Medium"))
+    ism = next(e for e in events if e.event == "ISM Services PMI")
+    assert ism.event_ko == "ISM 서비스업 PMI" and ism.tag_ko == "경기"
+    assert ism.time_utc == datetime(2026, 11, 4, 15, tzinfo=UTC)
+
+
+def test_calendar_splits_released_and_tonight():
+    result = snapshot()
+    assert [e.event for e in result.released] == ["ISM Services PMI"]
+    assert result.released[0].actual is None  # the feed has no actuals
+    assert [e.event for e in result.upcoming] == ["Unemployment Claims"]  # 22:30 KST tonight
+    assert result.status == "ok"
+
+
+def test_unknown_title_stays_in_english_and_blank_forecast_is_none():
+    raw = [{"title": "New Event", "country": "USD", "date": "2026-11-05T08:30:00-05:00",
+            "impact": "High", "forecast": "", "previous": ""}]
+    event = calendar_collector.parse_events(raw, FEEDS["calendar"])[0]
+    assert event.event_ko == "New Event" and event.forecast is None and event.tag_ko is None
+
+
+def test_monday_keeps_friday_releases_from_history(monkeypatch):
+    friday = UpcomingEvent(time_utc=datetime(2026, 11, 6, 13, 30, tzinfo=UTC), event="Unemployment Rate",
+                           event_ko="실업률", importance="high")
+    monkeypatch.setattr(calendar_collector, "fetch_events", lambda url: [])
+    monday = date(2026, 11, 9)
+    result = calendar_collector.collect(
+        {**FEEDS["calendar"], "fetch_retry_backoff_s": []}, monday, date(2026, 11, 6),
+        datetime(2026, 11, 9, 7, 10, tzinfo=KST), WINDOW, KST_ZONE, [friday],
+    )
+    assert [e.event for e in result.released] == ["Unemployment Rate"]
+
+
+def test_orchestrator_reads_only_earlier_calendar_history(tmp_path):
+    for day, name in (("2026-11-04", "old"), ("2026-11-05", "today")):
+        path = tmp_path / "raw" / day / "calendar.json"
+        path.parent.mkdir(parents=True)
+        event = UpcomingEvent(time_utc=NEWS_START, event=name, event_ko=name, importance="high")
+        path.write_text(CalendarSnapshot(events=[event]).model_dump_json(), encoding="utf-8")
+    assert [e.event for e in run_daily._previous_calendar_events(tmp_path, RUN_DATE)] == ["old"]
+
+
+# --- M6 -------------------------------------------------------------------
+
+def collection(count=3, summary="Rates at 4.25% and payrolls of 197K"):
+    return NewsCollection(articles=[
+        RawArticle(id=f"n_{i}", title=f"Story {i}", link=f"https://a.test/{i}", summary=summary,
+                   source="CNBC", feed="CNBC Top News", published_at=NEWS_START)
+        for i in range(count)
+    ])
+
+
+def analyze(api, articles=None, calendar=None, cfg=None):
+    client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=api)
+    return news_analyst.analyze(
+        articles or collection(), calendar, SESSION, cfg or {**MODELS["news_analyst"], "max_concurrency": 1},
+        SETTINGS, client,
+    )
+
+
+def test_request_uses_config_model_strict_schema_and_prompt_file():
+    api = FakeAPI()
+    analyze(api)
+    request = api.requests[0]
+    assert request["model"] == MODELS["news_analyst"]["model"]
+    assert request["response_format"]["json_schema"]["strict"] is True
+    assert request["messages"][0]["content"] == (config.ROOT / "prompts/news_analyst.md").read_text(encoding="utf-8")
+
+
+def schema_objects(node):
+    if isinstance(node, dict):
+        if node.get("type") == "object":
+            yield node
+        for value in node.values():
+            yield from schema_objects(value)
+    elif isinstance(node, list):
+        for value in node:
+            yield from schema_objects(value)
+
+
+def test_schema_meets_openai_strict_rules():
+    for node in schema_objects(llm_client.load_schema("news_analyst")):
+        assert node["additionalProperties"] is False
+        assert set(node["required"]) == set(node["properties"])
+
+
+def test_links_and_times_come_from_m2_not_the_model():
+    result = analyze(FakeAPI(respond=lambda articles: {
+        "items": [good_item(a["id"], url="https://evil.test", source="Fake", published_at="2000-01-01") for a in articles],
+        "calendar_actuals": [],
+    }))
+    assert all(n.url.startswith("https://a.test/") and n.source == "CNBC" and n.published_at == NEWS_START for n in result.news)
+    assert result.news[0].importance_label_ko == "관찰 중요도 높음"
+
+
+def test_irrelevant_dropped_unknown_ids_ignored_and_skipped_ids_get_titles():
+    def respond(articles):
+        return {"items": [
+            good_item("n_0", relevant=False),
+            good_item("n_1"),
+            good_item("n_999"),
+        ], "calendar_actuals": []}
+
+    result = analyze(FakeAPI(respond=respond))
+    assert {n.id for n in result.news} == {"n_1", "n_2"}
+    fallback = next(n for n in result.news if n.id == "n_2")
+    assert fallback.title_ko == "Story 2" and fallback.importance_label_ko == "요약 없음"
+
+
+def test_invented_number_falls_back_to_title():
+    result = analyze(FakeAPI(respond=lambda articles: {
+        "items": [good_item("n_0", title="금리 4.25% 유지"), good_item("n_1", title="엔비디아 12% 급등"),
+                  good_item("n_2")],
+        "calendar_actuals": [],
+    }))
+    by_id = {n.id: n for n in result.news}
+    assert by_id["n_0"].title_ko == "금리 4.25% 유지"
+    assert by_id["n_1"].title_ko == "Story 1" and not by_id["n_1"].summary_ko
+    assert any("numbers not in article" in note for note in result.notes)
+
+
+def test_invalid_output_retried_once_then_title_only():
+    api = FakeAPI(script={0: "not json", 1: '{"items": []}'})
+    result = analyze(api)
+    assert api.calls == 2 and result.failed_batches == 1
+    assert all(n.importance_label_ko == "요약 없음" for n in result.news)
+
+
+def test_rate_limit_retries_with_retry_after_and_server_error_retries(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(llm_client.time, "sleep", sleeps.append)
+    api = FakeAPI(script={0: api_error(openai.RateLimitError, 429, {"retry-after": "7"})})
+    assert analyze(api).failed_batches == 0 and api.calls == 2 and sleeps == [7.0]
+    api = FakeAPI(script={0: api_error(openai.InternalServerError, 500)})
+    assert analyze(api).failed_batches == 0 and api.calls == 2
+
+
+def test_auth_error_stops_remaining_batches_without_leaking_text():
+    api = FakeAPI(script={0: api_error(openai.AuthenticationError, 401)})
+    result = analyze(api, collection(25))
+    assert api.calls == 1 and result.failed_batches == result.total_batches == 3
+    assert "sk-test" not in result.model_dump_json()
+    assert len(result.news) == 25
+
+
+def test_budget_guard_stops_calls_before_spending():
+    api = FakeAPI()
+    client = llm_client.LLMClient(llm_client.TokenBudget({MODELS["news_analyst"]["model"]: 10}), api=api)
+    result = news_analyst.analyze(collection(), None, SESSION, MODELS["news_analyst"], SETTINGS, client)
+    assert api.calls == 0 and result.failed_batches == 1 and result.news
+
+
+def test_calendar_actual_requires_known_event_and_number_in_evidence():
+    cal = snapshot()
+    result = analyze(FakeAPI(respond=lambda articles: {
+        "items": [good_item(a["id"]) for a in articles],
+        "calendar_actuals": [
+            {"event": "ISM Services PMI", "actual": "54.1", "evidence_id": "n_0"},  # not in the article
+            {"event": "Unknown Event", "actual": "197K", "evidence_id": "n_0"},
+            {"event": "ISM Services PMI", "actual": "197K", "evidence_id": "n_404"},
+        ],
+    }), calendar=cal)
+    assert result.calendar_actuals == []
+    good = analyze(FakeAPI(respond=lambda articles: {
+        "items": [good_item(a["id"]) for a in articles],
+        "calendar_actuals": [{"event": "ISM Services PMI", "actual": "197K", "evidence_id": "n_0"}],
+    }), calendar=cal)
+    assert [a.actual for a in good.calendar_actuals] == ["197K"]
+
+
+# --- M9 with news -----------------------------------------------------------
+
+def news_item(i, importance, summary=True):
+    return NewsItem(
+        id=f"n_{i}", category="macro_rates", importance=importance, importance_label_ko="x",
+        title_ko=f"t{i}", preview_ko="", published_at=NEWS_START + timedelta(minutes=i),
+        source="S", url="https://a.test", summary_ko=["a", "b", "c"] if summary else [],
+    )
+
+
+def test_display_filter_limit_and_order():
+    items = [news_item(i, 3) for i in range(10)] + [news_item(20, 5), news_item(21, 2), news_item(22, 3, summary=False)]
+    report = assemble(SYMBOLS, RUN_DATE, SESSION, False, MarketSnapshot(indicators=report_ok().indicators),
+                      {"M1": ModuleRun(status="SUCCEEDED")}, analysis=NewsAnalysis(news=items))
+    assert len(report.news) == SETTINGS["news"]["top_n_display"]
+    assert report.news[0].id == "n_20"
+    assert all(n.importance >= 3 and n.summary_ko for n in report.news)
+
+
+def test_backfilled_actual_is_labeled_and_shown(tmp_path):
+    analysis = NewsAnalysis(news=[], calendar_actuals=[CalendarActual(event="ISM Services PMI", actual="54.1", evidence_id="n")])
+    report = assemble(SYMBOLS, RUN_DATE, SESSION, False, MarketSnapshot(indicators=report_ok().indicators),
+                      {"M1": ModuleRun(status="SUCCEEDED")}, calendar=snapshot(), analysis=analysis)
+    released = report.calendar.released[0]
+    assert released.actual == "54.1" and released.actual_source == "llm_news"
+    html = rendered(tmp_path, report)
+    assert "54.1" in html and "실제치는 뉴스 기반" in html
+    assert "신규 실업수당 청구건수" in html
+
+
+@pytest.mark.live
+def test_live_news_analyst():
+    """Needs OPENAI_API_KEY. Run with: pytest -m live"""
+    client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]))
+    articles = NewsCollection(articles=news.parse_feed(RSS, FEED, NEWS_START, CUTOFF)[:3])
+    result = news_analyst.analyze(articles, snapshot(), SESSION, MODELS["news_analyst"], SETTINGS, client)
+    assert result.failed_batches == 0 and result.llm_usage
+
+
+def test_run_before_us_close_is_timed_at_cutoff_not_close():
+    early = datetime(2026, 11, 5, 5, 40, tzinfo=timezone(timedelta(hours=9)))  # US still open
+    ndx = market.build_indicator(SPECS["NDX"], bars("^NDX", "1d"), [], SESSION, early, close_of)
+    assert ndx.as_of == early
