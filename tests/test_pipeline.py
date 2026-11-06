@@ -1090,7 +1090,7 @@ def test_number_guard_alone_does_not_degrade_the_run(tmp_path, monkeypatch, fast
 
 # --- M13 Kakao -------------------------------------------------------------
 
-def test_kakao_refreshes_token_and_sends_briefing_link():
+def test_kakao_refreshes_token_and_sends_briefing_link(tmp_path):
     from urllib.parse import parse_qs
     from radar.notify import kakao
     seen = []
@@ -1106,15 +1106,22 @@ def test_kakao_refreshes_token_and_sends_briefing_link():
     report = report_ok().model_copy(update={"briefing": Briefing(
         direction="gap_down", direction_ko="갭하락 우세", confidence="low", headline_ko=["나스닥 급락,", "반도체부터 확인."],
         headline_emphasis="반도체", points=[], source="m")})
-    env = {"KAKAO_REST_API_KEY": "K ", "KAKAO_REFRESH_TOKEN": "RT", "KAKAO_CLIENT_SECRET": "S"}
+    saved = tmp_path / "rt"
+    env = {"KAKAO_REST_API_KEY": "K ", "KAKAO_REFRESH_TOKEN": "RT", "KAKAO_CLIENT_SECRET": "S",
+           "KAKAO_ROTATED_TOKEN_FILE": str(saved)}
     with httpx.Client(transport=httpx.MockTransport(handler)) as client:
         kakao.send(report, RUN_DATE, "https://x.test/", env, client)
+    assert saved.read_text(encoding="utf-8") == "RT2"  # rotated token handed to the workflow
     token_form = seen[0][2]
     assert token_form == {"grant_type": "refresh_token", "client_id": "K", "refresh_token": "RT", "client_secret": "S"}
     assert seen[1][1] == "Bearer AT"
     template = json.loads(seen[1][2]["template_object"])
     assert "나스닥 급락, 반도체부터 확인." in template["text"] and "갭하락 우세" in template["text"]
-    assert "10일 후 만료" in template["text"] and template["link"]["mobile_web_url"] == "https://x.test/"
+    assert "토큰" not in template["text"] and template["link"]["mobile_web_url"] == "https://x.test/"
+    seen.clear()
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:  # no place to save: warn the owner
+        kakao.send(report, RUN_DATE, "https://x.test/", {**env, "KAKAO_ROTATED_TOKEN_FILE": ""}, client)
+    assert "자동 갱신 실패" in json.loads(seen[1][2]["template_object"])["text"]
 
 
 def test_kakao_error_keeps_only_status_and_code():

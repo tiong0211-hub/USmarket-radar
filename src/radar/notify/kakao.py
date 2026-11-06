@@ -1,7 +1,10 @@
 """M13: send today's page link to the owner's own KakaoTalk ("나에게 보내기").
 
 python -m radar.notify.kakao --date YYYY-MM-DD
-Env: KAKAO_REST_API_KEY, KAKAO_REFRESH_TOKEN, KAKAO_CLIENT_SECRET (optional).
+Env: KAKAO_REST_API_KEY, KAKAO_REFRESH_TOKEN, KAKAO_CLIENT_SECRET (optional),
+KAKAO_ROTATED_TOKEN_FILE (optional): when Kakao issues a new refresh token (it does so once the
+current one has a month or less left), it is written there and the workflow saves it as the
+KAKAO_REFRESH_TOKEN secret. Daily runs therefore keep the token alive indefinitely.
 Runs after deploy as its own job: a failure here never blocks the page.
 Errors log the type and Kakao error_code only (logs are public).
 """
@@ -23,7 +26,6 @@ TOKEN_URL = "https://kauth.kakao.com/oauth/token"
 MEMO_URL = "https://kapi.kakao.com/v2/api/talk/memo/default/send"
 STATUS_KO = {"OK": "", "DEGRADED": " · 일부 데이터 누락", "FAILED_INDICATORS": " · 필수 지표 누락",
              "FAILED": " · 생성 실패(어제 페이지 유지)"}
-RENEW_DAYS = 30  # Kakao rotates the refresh token only within its last month
 
 
 class KakaoError(Exception):
@@ -37,14 +39,14 @@ def _check(response: httpx.Response) -> dict:
     return body
 
 
-def access_token(client: httpx.Client, rest_key: str, refresh_token: str, secret: str) -> tuple[str, int | None]:
-    """Returns (access token, days the refresh token has left if Kakao rotated it)."""
+def access_token(client: httpx.Client, rest_key: str, refresh_token: str, secret: str) -> tuple[str, str | None, int | None]:
+    """Returns (access token, new refresh token if Kakao rotated it, its lifetime in days)."""
     data = {"grant_type": "refresh_token", "client_id": rest_key, "refresh_token": refresh_token}
     if secret:
         data["client_secret"] = secret
     body = _check(client.post(TOKEN_URL, data=data))
     left = body.get("refresh_token_expires_in")
-    return body["access_token"], (left // 86400 if left is not None else None)
+    return body["access_token"], body.get("refresh_token"), (left // 86400 if left is not None else None)
 
 
 def message(report: DailyReport | None, run_date: date, url: str, renew_days: int | None) -> dict:
@@ -57,16 +59,24 @@ def message(report: DailyReport | None, run_date: date, url: str, renew_days: in
         if report.briefing:
             lines.append(" ".join(report.briefing.headline_ko))
             lines.append(f"오늘 국장은? {report.briefing.direction_ko} (참고용)")
-    if renew_days is not None and renew_days <= RENEW_DAYS:
-        lines.append(f"⚠ 카카오 토큰 {renew_days}일 후 만료: 새 refresh token을 발급해 GitHub Secret을 갱신하세요.")
+    if renew_days is not None:
+        lines.append(f"⚠ 카카오 토큰 자동 갱신 실패: 기존 토큰은 곧 만료됩니다. refresh token을 새로 받아 Secret을 갱신하세요.")
     text = "\n".join(lines)[:200]  # Kakao text template limit
     return {"object_type": "text", "text": text, "link": {"web_url": url, "mobile_web_url": url},
             "button_title": "브리핑 보기"}
 
 
 def send(report: DailyReport | None, run_date: date, url: str, env: dict, client: httpx.Client) -> None:
-    token, renew_days = access_token(client, env["KAKAO_REST_API_KEY"].strip(), env["KAKAO_REFRESH_TOKEN"].strip(),
-                                     env.get("KAKAO_CLIENT_SECRET", "").strip())
+    token, rotated, days = access_token(client, env["KAKAO_REST_API_KEY"].strip(), env["KAKAO_REFRESH_TOKEN"].strip(),
+                                        env.get("KAKAO_CLIENT_SECRET", "").strip())
+    renew_days = None
+    if rotated:
+        target = env.get("KAKAO_ROTATED_TOKEN_FILE", "")
+        if target:
+            with open(target, "w", encoding="utf-8") as f:  # never logged; the next step stores it as a secret
+                f.write(rotated)
+        else:
+            renew_days = days  # nowhere to save it: tell the owner to renew by hand
     template = message(report, run_date, url, renew_days)
     _check(client.post(MEMO_URL, headers={"Authorization": f"Bearer {token}"},
                        data={"template_object": json.dumps(template, ensure_ascii=False)}))
