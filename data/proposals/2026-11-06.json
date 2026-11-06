@@ -1,29 +1,29 @@
 [
   {
-    "us_ticker": "INTC",
-    "name": "Intel",
-    "change_pct": -10.33,
+    "us_ticker": "MSFT",
+    "name": "Microsoft",
+    "change_pct": -3.58,
     "theme": "AI 반도체 · HBM",
     "is_new_theme": false,
     "kr_candidates": [
       {
         "name": "삼성전자",
         "code": "005930",
-        "link_type": "competitor",
-        "rationale_ko": "삼성전자는 AI 반도체 및 HBM 메모리 분야에서 인텔과 경쟁하고 있다.",
+        "link_type": "same_theme",
+        "rationale_ko": "삼성전자는 AI 반도체 분야에서 Microsoft와 협력하고 있으며, 관련 기술을 개발하고 있다.",
         "confidence": "high"
       },
       {
         "name": "LG전자",
         "code": "066570",
         "link_type": "supplier",
-        "rationale_ko": "LG전자는 데이터센터 및 AI 관련 솔루션을 제공하며 인텔의 고객이 될 수 있다.",
+        "rationale_ko": "LG전자는 데이터센터 및 전력 인프라 관련 제품을 Microsoft에 공급하고 있다.",
         "confidence": "medium"
       }
     ],
     "news_ids": [
-      "n_3d86b3d1",
-      "n_e7d05f6a"
+      "n_71ab58d8",
+      "n_88f3be61"
     ]
   }
 ]
