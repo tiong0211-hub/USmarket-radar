@@ -73,6 +73,7 @@
           {% endif %}
           <div class="outlook"><div><span class="outlook-icon" aria-hidden="true">↗</span><h3>오늘 국장은?</h3><span class="pending">참고용</span></div>
             {% if b %}<p>{{ b.direction_ko }}</p>{% else %}<p class="no-data">데이터 없음</p>{% endif %}
+            {% if b and b.risks_ko %}<p class="outlook-risk"><strong>주의할 변수</strong>{% for risk in b.risks_ko %}<span>{{ risk }}</span>{% endfor %}</p>{% endif %}
           </div>
         </aside>
       </div>

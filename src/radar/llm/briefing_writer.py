@@ -4,6 +4,7 @@ The model writes words; every number it uses must already be in the digest (M9 c
 When no model output survives, template() builds a plain briefing from collected data.
 """
 import json
+import re
 from typing import Literal
 from zoneinfo import ZoneInfo
 
@@ -62,6 +63,11 @@ def digest(draft: DailyReport) -> dict:
     }
 
 
+def _minus(text: str) -> str:
+    """Display rule: negative numbers use U+2212. Hyphens elsewhere (e.g. 2026-11-06) are kept."""
+    return re.sub(r"(?<![\w.])-(?=\d)", MINUS, text)
+
+
 def _chips(labels: list[str], draft: DailyReport) -> list[FocusChip]:
     themes = {t.theme for t in draft.themes}
     return [FocusChip(label=label, anchor="#themes" if label in themes else "#news") for label in labels[:2]]
@@ -81,9 +87,10 @@ def write(draft: DailyReport, digest_: dict, settings: dict, client: LLMClient, 
             continue
         return Briefing(
             direction=out.direction, direction_ko=settings["briefing"]["direction_ko"][out.direction],
-            confidence=out.confidence, headline_ko=out.headline_ko, headline_emphasis=out.headline_emphasis,
-            points=[BriefingPoint(**p.model_dump()) for p in out.points], focus_chips=_chips(out.focus_chips, draft),
-            risks_ko=out.risks_ko, source=cfg["model"],
+            confidence=out.confidence, headline_ko=[_minus(t) for t in out.headline_ko],
+            headline_emphasis=_minus(out.headline_emphasis),
+            points=[BriefingPoint(title_ko=_minus(p.title_ko), text_ko=_minus(p.text_ko)) for p in out.points],
+            focus_chips=_chips(out.focus_chips, draft), risks_ko=[_minus(t) for t in out.risks_ko], source=cfg["model"],
         )
     raise error
 

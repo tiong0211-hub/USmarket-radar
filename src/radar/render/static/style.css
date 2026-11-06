@@ -43,3 +43,4 @@
 .news-why{font-size:10px;color:#a97443;margin-top:6px;font-weight:600}
 .mobile-nav{transition:transform .25s ease}.mobile-nav.nav-hidden{transform:translateY(100%)}@media(prefers-reduced-motion:reduce){.mobile-nav{transition:none}}
 .about-card[hidden]{display:none}
+.outlook .outlook-risk{margin-top:8px;color:#9b6b4a}.outlook-risk strong{display:block;font-size:10px;color:#a97443}.outlook-risk span{display:block}

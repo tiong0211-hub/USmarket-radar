@@ -414,6 +414,7 @@ def test_briefing_from_model_is_shown(tmp_path, monkeypatch, fast):
     assert report.briefing.source == MODELS["briefing_writer"]["model"] and report.briefing.direction_ko == "갭하락 우세"
     html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
     assert "<em>반도체</em>" in html and "아직 없습니다" not in html
+    assert "주의할 변수" in html and "오늘 밤 고용 지표 확인." in html
     digest = json.loads((tmp_path / "data/raw/2026-11-05/briefing_digest.json").read_text(encoding="utf-8"))
     assert {i["key"] for i in digest["indicators"]} >= {"NDX", "SPX", "VIX"}
 
@@ -437,6 +438,10 @@ def test_briefing_fallback_model_when_primary_fails(tmp_path, monkeypatch, fast)
     result, report, log, _ = run_with_briefing(tmp_path, monkeypatch, brief=brief)
     assert report.briefing.source == MODELS["briefing_fallback"]["model"]
     assert log["modules"]["M8"]["status"] == "DEGRADED" and result[0] == "DEGRADED"
+
+
+def test_briefing_minus_sign_only_before_numbers():
+    assert briefing_writer._minus("나스닥100 -6.36%, 10년물 -6bp, 2026-11-06, A-B") == "나스닥100 −6.36%, 10년물 −6bp, 2026-11-06, A-B"
 
 
 def test_template_briefing_uses_collected_numbers_only():
