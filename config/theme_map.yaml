@@ -8,7 +8,7 @@ themes:
     name: NVIDIA
     logo: N
     theme: AI 반도체 · HBM
-    verified: false
+    verified: true
     kr_stocks:
       - {code: "000660", name: SK하이닉스, link: supplier, relation_ko: HBM 공급}
       - {code: "042700", name: 한미반도체, link: same_theme, relation_ko: 장비 테마}
@@ -17,7 +17,7 @@ themes:
     name: TSMC ADR
     logo: tsm
     theme: 파운드리 · 첨단 공정
-    verified: false
+    verified: true
     kr_stocks:
       - {code: "399720", name: 가온칩스, link: same_theme, relation_ko: 설계 생태계}
       - {code: "200710", name: 에이디테크놀로지, link: same_theme, relation_ko: 설계 생태계}
@@ -26,7 +26,7 @@ themes:
     name: GE Vernova
     logo: GE
     theme: 데이터센터 · 전력 인프라
-    verified: false
+    verified: true
     kr_stocks:
       - {code: "267260", name: HD현대일렉트릭, link: same_theme, relation_ko: 동일 업종}
       - {code: "298040", name: 효성중공업, link: same_theme, relation_ko: 동일 업종}
@@ -35,7 +35,7 @@ themes:
     name: Eli Lilly
     logo: LLY
     theme: 바이오 · 비만치료제
-    verified: false
+    verified: true
     kr_stocks:
       - {code: "207940", name: 삼성바이오로직스, link: same_theme, relation_ko: 바이오 업종}
       - {code: "068270", name: 셀트리온, link: same_theme, relation_ko: 바이오 업종}
