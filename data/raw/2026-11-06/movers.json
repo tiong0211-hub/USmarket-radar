@@ -36,53 +36,11 @@
       "change_pct": -1.53
     },
     {
-      "symbol": "MSFT",
-      "name": "Microsoft",
-      "kind": "stock",
-      "close": 535.93,
-      "change_pct": -3.58
-    },
-    {
-      "symbol": "AMZN",
-      "name": "Amazon",
-      "kind": "stock",
-      "close": 260.21,
-      "change_pct": -2.19
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet",
-      "kind": "stock",
-      "close": 282.57,
-      "change_pct": -2.2
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "kind": "stock",
-      "close": 605.08,
-      "change_pct": -3.96
-    },
-    {
       "symbol": "TSLA",
       "name": "Tesla",
       "kind": "stock",
       "close": 343.69,
       "change_pct": -10.77
-    },
-    {
-      "symbol": "AMD",
-      "name": "AMD",
-      "kind": "stock",
-      "close": 404.4,
-      "change_pct": -17.26
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "kind": "stock",
-      "close": 291.53,
-      "change_pct": -10.43
     },
     {
       "symbol": "MU",
@@ -92,32 +50,11 @@
       "change_pct": -17.46
     },
     {
-      "symbol": "ORCL",
-      "name": "Oracle",
+      "symbol": "AMD",
+      "name": "AMD",
       "kind": "stock",
-      "close": 115.16,
-      "change_pct": -6.93
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir",
-      "kind": "stock",
-      "close": 154.99,
-      "change_pct": -9.73
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel",
-      "kind": "stock",
-      "close": 52.25,
-      "change_pct": -10.33
-    },
-    {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
-      "kind": "stock",
-      "close": 156.75,
-      "change_pct": -9.49
+      "close": 404.4,
+      "change_pct": -17.26
     },
     {
       "symbol": "AMAT",
@@ -181,6 +118,69 @@
       "kind": "stock",
       "close": 172.5,
       "change_pct": -2.54
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "kind": "stock",
+      "close": 535.93,
+      "change_pct": -3.58
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "kind": "stock",
+      "close": 260.21,
+      "change_pct": -2.19
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "kind": "stock",
+      "close": 282.57,
+      "change_pct": -2.2
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "kind": "stock",
+      "close": 605.08,
+      "change_pct": -3.96
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "kind": "stock",
+      "close": 291.53,
+      "change_pct": -10.43
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "kind": "stock",
+      "close": 115.16,
+      "change_pct": -6.93
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "kind": "stock",
+      "close": 154.99,
+      "change_pct": -9.73
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "kind": "stock",
+      "close": 52.25,
+      "change_pct": -10.33
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "kind": "stock",
+      "close": 156.75,
+      "change_pct": -9.49
     },
     {
       "symbol": "SOXX",

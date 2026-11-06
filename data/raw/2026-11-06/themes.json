@@ -1,6 +1,32 @@
 {
-  "themes": [],
+  "themes": [
+    {
+      "us_ticker": "ALB",
+      "name": "Albemarle",
+      "change_pct": 3.58,
+      "theme": "리튬 · 2차전지 소재",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "003670",
+          "name": "포스코퓨처엠",
+          "link": "same_theme",
+          "relation_ko": "양극재"
+        },
+        {
+          "code": "247540",
+          "name": "에코프로비엠",
+          "link": "same_theme",
+          "relation_ko": "양극재"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    }
+  ],
   "proposals": [],
+  "auto": [],
   "listing_checked": true,
   "rule_ko": "S&P 500(−4.36%)보다 1%p 이상 오른 종목만",
   "excluded": [],

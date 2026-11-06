@@ -3,36 +3,36 @@
   "direction_ko": "갭하락 우세",
   "confidence": "high",
   "headline_ko": [
-    "미 증시 급락,",
-    "반도체부터 확인."
+    "나스닥 급락,",
+    "기술주부터 확인."
   ],
-  "headline_emphasis": "반도체",
+  "headline_emphasis": "기술주",
   "points": [
     {
-      "title_ko": "시장불안",
-      "text_ko": "나스닥100 −6.36%, VIX 28.18로 공포 확대."
+      "title_ko": "위험회피",
+      "text_ko": "나스닥100 −6.36%, 극도의 공포 심리."
     },
     {
       "title_ko": "금리환율",
-      "text_ko": "미국 10년물 −6bp, 원 / 달러 +1.12% 관찰."
+      "text_ko": "미국 10년물 −6bp, 원 / 달러 +1.12%."
     },
     {
       "title_ko": "국내연결",
-      "text_ko": "필라델피아 반도체 −12.25%로 부담."
+      "text_ko": "필라델피아 반도체 −12.25%, 기술주 확인."
     }
   ],
   "focus_chips": [
     {
-      "label": "고용 지표",
+      "label": "기술주",
       "anchor": "#news"
     },
     {
-      "label": "국채 시장",
-      "anchor": "#news"
+      "label": "리튬 · 2차전지 소재",
+      "anchor": "#themes"
     }
   ],
   "risks_ko": [
-    "오늘 밤 22:30 고용 지표 발표를 관찰."
+    "22:30 고용 지표 발표 전 변동성 확대를 관찰."
   ],
   "source": "gpt-5.5",
   "label": "참고용"

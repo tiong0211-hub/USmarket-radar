@@ -103,44 +103,32 @@
   ],
   "top_news": [
     {
-      "title_ko": "나스닥 1,421포인트, 다우 1,833포인트 급락",
-      "category": "theme_earnings",
-      "importance": 4,
+      "title_ko": "나스닥 1,421포인트 급락, 다우 1,833포인트 하락",
+      "category": "macro_rates",
+      "importance": 5,
       "moves_ko": [
         "나스닥100 −6.36%",
         "S&P 500 −4.36%"
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 증시가 미국 증시 급락을 반영해 하락 출발하는지 확인"
+        "text": "국내 기술주가 미국 시장의 급락을 따라 약세로 출발하는지 확인"
       }
     },
     {
-      "title_ko": "안전 추구로 국채 시장으로 몰리는 트레이더들",
-      "category": "theme_earnings",
-      "importance": 3,
-      "moves_ko": [
-        "미국 10년물 −6bp"
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 시장과의 직접적인 연결 고리가 약함"
-      }
-    },
-    {
-      "title_ko": "미국 국채, 민주당 승리로 공급 우려 완화",
+      "title_ko": "기술주 매도세로 안전자산 수요 증가, 국채 가격 상승",
       "category": "macro_rates",
-      "importance": 3,
+      "importance": 4,
       "moves_ko": [
         "미국 10년물 −6bp"
       ],
       "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 채권 시장의 반응을 주목해야 한다."
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응을 확인할 필요가 있다."
       }
     },
     {
-      "title_ko": "달러 강세, 유가 반등과 고용 지표 주목",
+      "title_ko": "달러 강세, 유가 반등",
       "category": "macro_rates",
       "importance": 3,
       "moves_ko": [
@@ -148,11 +136,23 @@
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 경제 지표와의 연관성을 확인할 필요가 있다."
+        "text": "국내 유가 변동성 확인 필요."
       }
     },
     {
-      "title_ko": "연준 해맥, 물가 안정 위해 금리 필요성 언급",
+      "title_ko": "금값 상승, 달러와 국채 수익률 하락",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [
+        "미국 10년물 −6bp"
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금 시장의 반응을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "연준 해막, 물가 안정 위해 제한적 금리 필요",
       "category": "macro_rates",
       "importance": 4,
       "moves_ko": [],
@@ -160,7 +160,43 @@
         "direction": "negative",
         "text": "국내 금리가 상승할 가능성을 확인해야 한다."
       }
+    },
+    {
+      "title_ko": "AI 버블 우려가 신용 시장으로 확산",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 신용 시장에 미치는 영향 확인 필요."
+      }
+    },
+    {
+      "title_ko": "금, 상승하는 실질 국채 수익률로 압박받아",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 주식의 약세 여부를 확인해야 한다."
+      }
+    },
+    {
+      "title_ko": "미국 국채, 3% 인플레이션 함정에 직면",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응을 주목해야 한다."
+      }
     }
   ],
-  "themes": []
+  "themes": [
+    {
+      "us_ticker": "ALB",
+      "change_pct": 3.58,
+      "theme": "리튬 · 2차전지 소재"
+    }
+  ]
 }
