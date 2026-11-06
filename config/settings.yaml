@@ -19,7 +19,10 @@ market:
   retry_backoff_s: [2, 4, 8]
   retry_jitter_s: 1
   intraday_max_age_days: 55   # Yahoo 5분봉 제공 범위 안에서만 요청
-module_timeouts_s: {M2: 120, M3: 120, M4: 120, M5: 30, M6: 300, M7: 120}
+module_timeouts_s: {M2: 120, M3: 120, M4: 120, M5: 30, M6: 300, M7: 120, M8: 180}
+briefing:
+  direction_ko: {gap_up: 갭상승 우세, flat: 보합 우세, gap_down: 갭하락 우세}
+  template_direction_ko: "판단 보류 · 자동 요약"   # LLM 요약이 없거나 숫자 검증에 실패한 날
 llm_budget:                   # 일일 토큰 상한 (계정 TPD보다 충분히 낮게)
   gpt-4o-mini: 2000000
   gpt-5.5: 200000

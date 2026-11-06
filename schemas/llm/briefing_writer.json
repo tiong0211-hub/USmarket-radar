@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["direction", "confidence", "headline_ko", "headline_emphasis", "points", "focus_chips", "risks_ko"],
+  "properties": {
+    "direction": {"type": "string", "enum": ["gap_up", "flat", "gap_down"]},
+    "confidence": {"type": "string", "enum": ["low", "medium", "high"]},
+    "headline_ko": {"type": "array", "items": {"type": "string"}},
+    "headline_emphasis": {"type": "string"},
+    "points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title_ko", "text_ko"],
+        "properties": {"title_ko": {"type": "string"}, "text_ko": {"type": "string"}}
+      }
+    },
+    "focus_chips": {"type": "array", "items": {"type": "string"}},
+    "risks_ko": {"type": "array", "items": {"type": "string"}}
+  }
+}

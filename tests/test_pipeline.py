@@ -13,12 +13,12 @@ import pytest
 
 from radar import config, market_calendar, run_daily
 from radar.assemble.assembler import assemble
-from radar.assemble.validator import run_status
+from radar.assemble.validator import briefing_problems, run_status
 from radar.collectors import calendar as calendar_collector
 from radar.analytics import sentiment
 from radar.collectors import market, movers, news
 from radar.llm import client as llm_client
-from radar.llm import news_analyst, theme_mapper
+from radar.llm import briefing_writer, news_analyst, theme_mapper
 from radar.retry import with_retry
 from radar.models import (
     Briefing, BriefingPoint, Calendar, CalendarActual, CalendarSnapshot, DailyReport, FocusChip, Indicator, KrImpact, KrStock,
@@ -59,13 +59,23 @@ def picked(id, moves=(), same=()):
     return {"id": id, "move_keys": list(moves), "same_event_ids": list(same)}
 
 
+def good_briefing(**changes):
+    return {"direction": "gap_down", "confidence": "medium", "headline_ko": ["기술주 급락 마감,", "아침의 초점은 반도체."],
+            "headline_emphasis": "반도체",
+            "points": [{"title_ko": "위험 회피", "text_ko": "지수 전반이 약세로 마감한 상황."},
+                       {"title_ko": "금리 하락", "text_ko": "국채 수익률이 내려간 점을 관찰."},
+                       {"title_ko": "국내 연결", "text_ko": "반도체 업종 수급 확인."}],
+            "focus_chips": ["반도체"], "risks_ko": ["오늘 밤 고용 지표 확인."], **changes}
+
+
 class FakeAPI:
     """Stands in for openai.OpenAI. `script` maps the call index to an exception or a raw string."""
 
-    def __init__(self, respond=None, script=None, pick=None, propose=None):
+    def __init__(self, respond=None, script=None, pick=None, propose=None, brief=None):
         self.respond = respond or (lambda articles: {"items": [good_item(a["id"]) for a in articles], "calendar_actuals": []})
         self.pick = pick or (lambda articles: {"picks": [picked(a["id"]) for a in articles if a["eligible"]]})
         self.propose = propose or (lambda payload: {"proposals": []})
+        self.brief = brief or (lambda digest: good_briefing())
         self.script = script or {}
         self.calls = 0
         self.requests = []
@@ -82,6 +92,8 @@ class FakeAPI:
         name = kwargs["response_format"]["json_schema"]["name"]
         if name == "theme_proposer":
             answer = self.propose(payload)
+        elif name == "briefing_writer":
+            answer = self.brief(payload)
         else:
             answer = (self.pick if name == "news_picker" else self.respond)(payload["articles"])
         content = scripted if scripted is not None else json.dumps(answer, ensure_ascii=False)
@@ -382,6 +394,70 @@ def test_end_to_end_ok(tmp_path, monkeypatch, fast):
     assert report.run_status == log["run_status"] == "OK" and log["us_session"] == "2026-11-04"
     assert (tmp_path / "data/raw/2026-11-05/market.json").exists()
     assert (tmp_path / "site/index.html").exists()
+
+
+# --- M8 briefing -----------------------------------------------------------
+
+def run_with_briefing(tmp_path, monkeypatch, **api):
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+    fake = FakeAPI(**api)
+    monkeypatch.setattr(run_daily, "LLMClient", lambda budget: llm_client.LLMClient(budget, api=fake))
+    result = run_daily.run(args(), tmp_path)
+    report = DailyReport.model_validate_json((tmp_path / "data/daily/2026-11-05.json").read_text(encoding="utf-8"))
+    log = json.loads((tmp_path / "data/logs/2026-11-05.run.json").read_text(encoding="utf-8"))
+    return result, report, log, fake
+
+
+def test_briefing_from_model_is_shown(tmp_path, monkeypatch, fast):
+    result, report, log, fake = run_with_briefing(tmp_path, monkeypatch)
+    assert result == ("OK", 0) and log["modules"]["M8"]["status"] == "SUCCEEDED"
+    assert report.briefing.source == MODELS["briefing_writer"]["model"] and report.briefing.direction_ko == "갭하락 우세"
+    html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
+    assert "<em>반도체</em>" in html and "아직 없습니다" not in html
+    digest = json.loads((tmp_path / "data/raw/2026-11-05/briefing_digest.json").read_text(encoding="utf-8"))
+    assert {i["key"] for i in digest["indicators"]} >= {"NDX", "SPX", "VIX"}
+
+
+def test_briefing_with_invented_number_falls_back_to_template(tmp_path, monkeypatch, fast):
+    invented = good_briefing(points=[{"title_ko": "갭 예측", "text_ko": "코스피 +0.87% 상승 예상."}])
+    result, report, log, _ = run_with_briefing(tmp_path, monkeypatch, brief=lambda digest: invented)
+    assert result == ("DEGRADED", 0) and report.briefing.source == "template"
+    assert any("numbers not in digest: 0.87" in n for n in log["modules"]["M8"]["notes"])
+    assert "요약 자동 작성 실패(기본 요약 표시)" in report.warnings
+
+
+def test_briefing_fallback_model_when_primary_fails(tmp_path, monkeypatch, fast):
+    calls = []
+
+    def brief(digest):
+        calls.append(1)
+        return {"broken": True} if len(calls) <= 2 else good_briefing()  # primary: first try + one retry
+
+    monkeypatch.setattr(llm_client.time, "sleep", lambda _: None)
+    result, report, log, _ = run_with_briefing(tmp_path, monkeypatch, brief=brief)
+    assert report.briefing.source == MODELS["briefing_fallback"]["model"]
+    assert log["modules"]["M8"]["status"] == "DEGRADED" and result[0] == "DEGRADED"
+
+
+def test_template_briefing_uses_collected_numbers_only():
+    draft = report_ok()
+    briefing = briefing_writer.template(draft, SETTINGS)
+    assert briefing.source == "template" and briefing.direction == "flat"
+    ndx = next(i for i in draft.indicators if i.key == "NDX")
+    assert f"{ndx.change_pct:+.2f}%".replace("-", "\u2212") in briefing.points[0].text_ko
+    assert briefing_problems(briefing, briefing_writer.digest(draft)) == []
+
+
+def test_briefing_problems_rules():
+    digest = {"run_date": "2026-11-06", "indicators": [{"label": "미국 10년물", "value": 21034.12, "change_bp": -6}], "time": "22:30"}
+
+    def brief(text, emphasis="초점"):
+        return Briefing(direction="flat", direction_ko="x", confidence="low", headline_ko=["a,", "초점 b"],
+                        headline_emphasis=emphasis, points=[BriefingPoint(title_ko="t", text_ko=text)], source="m")
+
+    assert briefing_problems(brief("11월 6일 22:30, 21,034.12 · 10년물 −6bp"), digest) == []
+    assert briefing_problems(brief("2배 상승"), digest) == ["numbers not in digest: 2"]
+    assert briefing_problems(brief("x", emphasis="없음"), digest) == ["headline_emphasis is not in headline_ko"]
 
 
 def test_all_sources_down_still_publishes_with_failed_indicators(tmp_path, monkeypatch, fast):

@@ -16,13 +16,13 @@ from pydantic import BaseModel
 from radar import config, market_calendar
 from radar.assemble.assembler import assemble
 from radar.analytics import sentiment as sentiment_module
-from radar.assemble.validator import missing_required
+from radar.assemble.validator import briefing_problems, missing_required
 from radar.collectors import calendar as calendar_collector
 from radar.collectors import market, movers as movers_collector, news
-from radar.llm import news_analyst, theme_mapper
+from radar.llm import briefing_writer, news_analyst, theme_mapper
 from radar.llm.client import LLMClient, LLMFatal, TokenBudget
 from radar.models import (
-    CalendarSnapshot, MarketSnapshot, ModuleRun, MoversSnapshot, NewsAnalysis, NewsCollection, RunLog,
+    Briefing, CalendarSnapshot, DailyReport, MarketSnapshot, ModuleRun, MoversSnapshot, NewsAnalysis, NewsCollection, RunLog,
     ThemeMapping, UpcomingEvent,
 )
 from radar.render.renderer import render_site
@@ -94,16 +94,18 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
     modules: dict[str, ModuleRun] = {}
     missing: list[str] = []
     llm_usage: dict[str, int] = {}
+    budget: TokenBudget | None = None
     us_session = None
 
     def finish(status: str, code: int) -> tuple[str, int]:
         log_path = data_dir / "logs" / f"{run_date}.run.json"
         log_path.parent.mkdir(parents=True, exist_ok=True)
+        usage = dict(budget.used) if budget else llm_usage
         log_path.write_text(
             RunLog(
                 run_date=run_date, us_session=us_session, started_at=started_at,
                 finished_at=datetime.now(UTC).replace(microsecond=0), run_status=status,
-                modules=modules, indicators_missing=missing, llm_usage=llm_usage,
+                modules=modules, indicators_missing=missing, llm_usage=usage,
             ).model_dump_json(indent=2),
             encoding="utf-8",
         )
@@ -167,7 +169,7 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             timeouts["M5"], raw_dir / "sentiment.json", lambda _: "SUCCEEDED",
         )
 
-    budget = TokenBudget(settings["llm_budget"])  # one daily budget across M6 and M7
+    budget = TokenBudget(settings["llm_budget"])  # one daily budget across M6, M7 and M8
 
     # News analysis. Without M2 there is nothing to analyze.
     analysis = None
@@ -227,11 +229,34 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(json.dumps([p.model_dump() for p in mapping.proposals], ensure_ascii=False, indent=2),
                             encoding="utf-8")
-    llm_usage = dict(budget.used)
+    def brief(draft: DailyReport) -> tuple[Briefing, ModuleRun]:
+        """S4: model briefing, number-checked by M9; the template replaces anything rejected."""
+        fallback = briefing_writer.template(draft, settings)
+        if args.no_llm:
+            return fallback, ModuleRun(status="SKIPPED", notes=["--no-llm: template briefing"])
+        facts = briefing_writer.digest(draft)
+        (raw_dir / "briefing_digest.json").write_text(json.dumps(facts, ensure_ascii=False, indent=2), encoding="utf-8")
+        primary = models["briefing_writer"]
+        written, run_ = _module(
+            "M8", lambda: briefing_writer.write(draft, facts, settings, LLMClient(budget), primary,
+                                                models["briefing_fallback"]),
+            timeouts["M8"], raw_dir / "briefing.json",
+            lambda b: "SUCCEEDED" if b.source == primary["model"] else "DEGRADED",
+        )
+        if written is None:
+            return fallback, run_
+        problems = briefing_problems(written, facts)
+        if problems:
+            return fallback, run_.model_copy(update={"status": "DEGRADED",
+                                                     "notes": [*run_.notes, *(f"rejected: {p}" for p in problems)]})
+        return written, run_
 
     try:
-        report = assemble(symbols, run_date, us_session, closed, snapshot, modules, collection, calendar, analysis,
-                          sentiment, mapping)
+        parts = (symbols, run_date, us_session, closed, snapshot, modules, collection, calendar, analysis,
+                 sentiment, mapping)
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        briefing, modules["M8"] = brief(assemble(*parts))
+        report = assemble(*parts, briefing=briefing)
         missing = missing_required(report.indicators)
         daily = data_dir / "daily" / f"{run_date}.json"
         daily.parent.mkdir(parents=True, exist_ok=True)

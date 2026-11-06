@@ -154,3 +154,4 @@ v1.1 변경: Codex UI 시안 반영 — `change_bp`, `spark`, `contract`, `requi
 - `calendar.upcoming`: run_date 당일 KST 18:00 ~ 익일 06:00에 발표되는 USD High/Medium 지표.
 - 원본(`data/raw/`)에는 기사 제목·링크·RSS 요약(≤300자)만 저장.
 - `news[]` 선별·순서(M6 picker): gpt-5.5가 같은 사건 기사를 묶고(`coverage` = 묶인 기사의 매체 수) 어젯밤 실제 움직임(M1 지표 + M4 등락률 상위, 선물 제외)과 연결한다(`moves_ko`, 문구는 코드가 M1/M4 숫자로 생성). 순위는 코드: 움직임 연결 여부 → `coverage` → `importance`. picker 실패 시 `importance` 순, `moves_ko=[]`, `coverage=0`.
+- `briefing`(M8): 입력은 `data/raw/<date>/briefing_digest.json`(M9 초안 보고서에서 생성). 모델 출력의 headline·points·risks·chip 숫자는 digest 숫자와 대조(정규화: 천 단위 쉼표·앞자리 0·소수 끝 0 무시), headline 2줄·강조어 포함·points 1~3개 검사. 하나라도 실패하면 `source: template`(수집 숫자만 쓰는 기본 요약, `direction: flat`, `direction_ko`: "판단 보류 · 자동 요약"). 모델 순서 gpt-5.5 → gpt-4o-mini → template.

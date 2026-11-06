@@ -13,7 +13,8 @@
   "sentiment": {"score": 62, "label": "탐욕", "vix": 14.82},
   "calendar_released": [{"event_ko": "ISM 서비스업 PMI", "actual": "54.1", "forecast": "52.5"}],
   "calendar_upcoming": [{"event_ko": "신규 실업수당 청구건수", "time_kst": "22:30"}],
-  "top_news": [{"title_ko": "...", "category": "...", "importance": 5, "kr_impact": {"direction": "positive", "text": "..."}}],
+  "top_news": [{"title_ko": "...", "category": "...", "importance": 5, "moves_ko": ["나스닥100 −5.12%"],
+                "kr_impact": {"direction": "positive", "text": "..."}}],
   "themes": [{"us_ticker": "GEV", "change_pct": 3.8, "theme": "데이터센터 · 전력 인프라"}]
 }
 ```
@@ -42,6 +43,8 @@
 - `points` 3개 권장 구성: ① 시장 전체 분위기(위험 선호/회피) ② 금리·환율·매크로 변수 ③ 국내 연결 포인트(업종 단위).
 - `focus_chips`는 입력 `themes[].theme` 또는 `top_news`에 나온 업종·테마에서만 선택(정확히 2개, 데이터가 부족하면 1개).
 - 숫자를 쓸 때는 입력 값을 **그대로**(같은 소수점 자릿수, 금리는 bp) 인용. 계산·반올림·추정 금지. 숫자 없이 써도 된다.
+  - "3가지", "2배", "1년 만에"처럼 입력에 없는 숫자도 쓰지 말 것(검증에서 걸려 출력 전체가 버려진다).
+- `top_news`는 이미 중요한 순서다. `moves_ko`가 있는 뉴스가 어젯밤 움직임의 직접 원인이다.
 - `us_market_closed: true`이면 미장 휴장 사실을 headline에 반영하고 `direction: flat`.
 - 누락 지표(`missing: true`)는 언급하지 않는다.
 - 톤: 단정하지 않고 "관찰", "확인" 중심. 시안 문체("~ 상황", "~를 관찰") 참고.
