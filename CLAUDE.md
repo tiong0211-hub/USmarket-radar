@@ -68,8 +68,7 @@
 | 미국 주도주, 국내 연결 | **S&P 500보다 1%p 이상 오른 상승 종목만**(하락 종목 제외, 없으면 "없음" 문구), 국내 종목 칩에 관계 라벨(`relation_ko`) | `themes`, `themes_rule_ko` |
 | 다음 체크포인트 | **오늘 밤(KST) 발표 예정** 미국 **고영향(high)** 지표 타임라인 | `calendar.upcoming` |
 | 어젯밤 지표 결과 | 실제치·예상치·이전치 비교 (뉴스 섹션 상단 또는 사이드) | `calendar.released` |
-| Reading note | 고정 문구(연결은 단서, 확인은 국내장에서) | 고정 |
-| 데이터 상태 (ⓘ dialog) | 출처, 기준 시각, run_status, 누락·경고 목록 | `run_status`, `sources`, `warnings` |
+| 데이터 상태 (헤더 ⓘ dialog만, 하단 카드 없음. JS 꺼지면 카드로 표시) | 출처, 기준 시각, run_status, 누락·경고 목록 | `run_status`, `sources`, `warnings` |
 | Footer | `settings.yaml`의 면책 문구 | 고정 |
 
 ### 5.4 표시 규칙

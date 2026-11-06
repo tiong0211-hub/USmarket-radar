@@ -200,7 +200,6 @@
           <p class="no-data" style="margin-top:14px;font-size:12px">{{ "오늘 밤 예정된 고영향 지표 없음" if r.calendar.status == "ok" else "미수집 · 데이터 없음" }}</p>
           {% endif %}
         </section>
-        <section class="reading-note"><span class="note-icon" aria-hidden="true">✳</span><h2>{{ settings.reading_note_ko.title }}</h2><p>{{ settings.reading_note_ko.text }}</p><div>RADAR NOTE</div></section>
         <details id="data-status" class="about-card section-anchor" data-card data-title="데이터 상태">
           <summary><span><strong>데이터 상태 · {{ status_ko.get(r.run_status, r.run_status) }}</strong><small>출처, 기준 시각, 누락·경고 목록</small></span><span aria-hidden="true">↗</span></summary>
           <div class="about-detail">
@@ -230,6 +229,7 @@ function openCard(card){
   dialog.showModal();
 }
 document.querySelectorAll('[data-card]').forEach(card=>card.querySelector('summary').addEventListener('click',event=>{event.preventDefault();openCard(card);}));
+document.querySelector('#data-status').hidden=true;  // with JS the header ⓘ opens it; without JS the card stays visible
 document.querySelector('[data-open-status]').addEventListener('click',event=>{event.preventDefault();openCard(document.querySelector('#data-status'));});
 document.querySelector('#close-dialog').addEventListener('click',()=>dialog.close());
 document.querySelector('#dialog-confirm').addEventListener('click',()=>dialog.close());

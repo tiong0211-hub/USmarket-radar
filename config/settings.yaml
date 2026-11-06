@@ -13,9 +13,6 @@ ui:
   themes_display_max: 6       # 지수 대비 강한 상승 종목만, 상승률 순
   og_image: site/static/og.png
   robots: "noindex,nofollow"
-reading_note_ko:
-  title: "연결은 단서, 확인은 국내장에서."
-  text: "미국장의 강세가 국내 관련주의 상승을 보장하지는 않습니다. 환율, 국내 이슈와 개장 후 수급을 함께 확인하세요."
 market:
   workers: 4
   timeout_s: 120

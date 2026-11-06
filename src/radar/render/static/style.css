@@ -42,3 +42,4 @@
 @media(max-width:760px){.sparkline{width:52px}}
 .news-why{font-size:10px;color:#a97443;margin-top:6px;font-weight:600}
 .mobile-nav{transition:transform .25s ease}.mobile-nav.nav-hidden{transform:translateY(100%)}@media(prefers-reduced-motion:reduce){.mobile-nav{transition:none}}
+.about-card[hidden]{display:none}
