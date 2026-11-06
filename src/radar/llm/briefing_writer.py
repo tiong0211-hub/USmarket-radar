@@ -90,7 +90,8 @@ def write(draft: DailyReport, digest_: dict, settings: dict, client: LLMClient, 
             confidence=out.confidence, headline_ko=[_minus(t) for t in out.headline_ko],
             headline_emphasis=_minus(out.headline_emphasis),
             points=[BriefingPoint(title_ko=_minus(p.title_ko), text_ko=_minus(p.text_ko)) for p in out.points],
-            focus_chips=_chips(out.focus_chips, draft), risks_ko=[_minus(t) for t in out.risks_ko], source=cfg["model"],
+            focus_chips=_chips([out.headline_emphasis, *(c for c in out.focus_chips if c != out.headline_emphasis)],
+                               draft), risks_ko=[_minus(t) for t in out.risks_ko], source=cfg["model"],
         )
     raise error
 

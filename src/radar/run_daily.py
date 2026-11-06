@@ -286,6 +286,13 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
         return finish("FAILED", 1)
 
 
+def already_published(data_dir: Path, run_date: date) -> bool:
+    log_path = data_dir / "logs" / f"{run_date}.run.json"
+    if not log_path.exists():
+        return False
+    return RunLog.model_validate_json(log_path.read_text(encoding="utf-8")).run_status in ("OK", "DEGRADED")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="radar.run_daily")
     parser.add_argument("--date", type=date.fromisoformat, help="KST date, default today")
@@ -293,12 +300,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-llm", action="store_true", help="skip LLM modules: news cards show titles only")
     parser.add_argument("--no-deploy", action="store_true", help="accepted for parity: deploy is a workflow job")
     parser.add_argument("--force", action="store_true", help="ignore the KRX holiday check")
+    parser.add_argument("--skip-if-done", action="store_true",
+                        help="scheduled retries: do nothing if this date already published (OK or DEGRADED)")
     parser.add_argument("--github-output", type=Path)
     args = parser.parse_args(argv)
     args.date = args.date or datetime.now(ZoneInfo(config.load("settings")["timezone_display"])).date()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
-    status, code = run(args)
+    if args.skip_if_done and already_published(config.ROOT / "data", args.date):
+        status, code = "SKIPPED_DONE", 0  # not a RunStatus: the earlier run's log stays as it is
+    else:
+        status, code = run(args)
     if args.github_output:
         with args.github_output.open("a", encoding="utf-8") as output:
             output.write(f"run_status={status}\nrun_date={args.date}\n")

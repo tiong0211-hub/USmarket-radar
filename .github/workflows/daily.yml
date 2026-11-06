@@ -2,7 +2,11 @@ name: daily-radar
 
 on:
   schedule:
-    - cron: "10 22 * * 0-4"   # 07:10 KST, 월~금 (UTC 일~목)
+    # GitHub schedule can start hours late (2026-11-06: the 07:10 slot ran at 11:21 KST).
+    # Three slots; once one publishes, the later ones skip (--skip-if-done).
+    - cron: "40 21 * * 0-4"   # 06:40 KST, 월~금 (UTC 일~목)
+    - cron: "10 22 * * 0-4"   # 07:10 KST
+    - cron: "40 22 * * 0-4"   # 07:40 KST
   workflow_dispatch:
     inputs:
       run_date: {description: "KST 날짜 YYYY-MM-DD (비우면 오늘)", required: false}
@@ -39,9 +43,10 @@ jobs:
             ${RUN_DATE:+--date "$RUN_DATE"} \
             ${{ inputs.skip_llm && '--no-llm' || '' }} \
             ${{ inputs.force && '--force' || '' }} \
+            ${{ github.event_name == 'schedule' && '--skip-if-done' || '' }} \
             --github-output "$GITHUB_OUTPUT"
       - name: Commit data
-        if: steps.run.outputs.run_status != 'SKIPPED_HOLIDAY'
+        if: ${{ !startsWith(steps.run.outputs.run_status, 'SKIPPED') }}
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
@@ -49,12 +54,12 @@ jobs:
           git commit -m "data: ${{ steps.run.outputs.run_date }} (${{ steps.run.outputs.run_status }})" || echo "no changes"
           git push
       - uses: actions/upload-pages-artifact@v3
-        if: steps.run.outputs.run_status != 'SKIPPED_HOLIDAY'
+        if: ${{ !startsWith(steps.run.outputs.run_status, 'SKIPPED') }}
         with: {path: site}
 
   deploy:
     needs: build
-    if: needs.build.outputs.run_status != 'SKIPPED_HOLIDAY'
+    if: ${{ !startsWith(needs.build.outputs.run_status, 'SKIPPED') }}
     runs-on: ubuntu-latest
     environment: {name: github-pages}
     steps:

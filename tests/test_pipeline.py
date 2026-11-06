@@ -415,6 +415,7 @@ def test_briefing_from_model_is_shown(tmp_path, monkeypatch, fast):
     html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
     assert "<em>반도체</em>" in html and "아직 없습니다" not in html
     assert "주의할 변수" in html and "오늘 밤 고용 지표 확인." in html
+    assert [c.label for c in report.briefing.focus_chips] == ["반도체"]  # emphasis first, no duplicate
     digest = json.loads((tmp_path / "data/raw/2026-11-05/briefing_digest.json").read_text(encoding="utf-8"))
     assert {i["key"] for i in digest["indicators"]} >= {"NDX", "SPX", "VIX"}
 
@@ -442,6 +443,33 @@ def test_briefing_fallback_model_when_primary_fails(tmp_path, monkeypatch, fast)
 
 def test_briefing_minus_sign_only_before_numbers():
     assert briefing_writer._minus("나스닥100 -6.36%, 10년물 -6bp, 2026-11-06, A-B") == "나스닥100 −6.36%, 10년물 −6bp, 2026-11-06, A-B"
+
+
+def test_skip_if_done_only_after_a_published_run(tmp_path):
+    assert not run_daily.already_published(tmp_path, RUN_DATE)
+    for status, done in (("FAILED", False), ("DEGRADED", True)):
+        write_log = tmp_path / "logs" / f"{RUN_DATE}.run.json"
+        write_log.parent.mkdir(parents=True, exist_ok=True)
+        write_log.write_text(json.dumps({"run_date": str(RUN_DATE), "started_at": "2026-11-04T22:10:00Z",
+                                         "finished_at": "2026-11-04T22:12:00Z", "run_status": status}),
+                             encoding="utf-8")
+        assert run_daily.already_published(tmp_path, RUN_DATE) is done
+
+
+def test_stats_counts_published_late_and_module_failures(tmp_path):
+    from radar import stats
+    logs = tmp_path / "logs"
+    logs.mkdir()
+    rows = [("2026-11-04", "2026-11-03T22:12:00Z", "OK", "SUCCEEDED"),     # 07:12 KST
+            ("2026-11-05", "2026-11-05T02:21:00Z", "DEGRADED", "FAILED"),  # 11:21 KST, late
+            ("2026-11-08", "2026-11-07T22:10:00Z", "SKIPPED_HOLIDAY", None)]
+    for day, start, status, m8 in rows:
+        modules = {"M8": {"status": m8}} if m8 else {}
+        (logs / f"{day}.run.json").write_text(json.dumps({"run_date": day, "started_at": start, "finished_at": start,
+                                                          "run_status": status, "modules": modules}), encoding="utf-8")
+    text = stats.report(stats.load(tmp_path))
+    assert "published (OK/DEGRADED): 2/2 = 100%" in text and "started late (>=08:00 KST or another day): 1/2" in text
+    assert "M8 1/2" in text and "2026-11-08" not in text
 
 
 def test_template_briefing_uses_collected_numbers_only():

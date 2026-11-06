@@ -1,7 +1,7 @@
 # CLAUDE.md — Daily US Market & Macro Radar
 
 ## 1. 프로젝트 개요
-매 국장 영업일 07:10 KST에 GitHub Actions가 파이프라인을 실행한다.
+매 국장 영업일 06:40·07:10·07:40 KST(3회 예약, 먼저 게시되면 나머지는 `--skip-if-done`으로 건너뜀)에 GitHub Actions가 파이프라인을 실행한다. GitHub 예약은 수 시간 늦을 수 있다(11/06: 07:10 슬롯이 11:21 시작). 운영 통계: `python -m radar.stats`.
 밤사이 미국 시장 데이터·뉴스·경제 캘린더를 무료 소스로 수집하고, OpenAI API로 뉴스를 분류·요약한다.
 미국 주도 종목을 국내 수혜주에 매핑한 뒤 **모바일 우선 정적 웹페이지 1장**으로 렌더링해 GitHub Pages(공개 repo)에 게시한다.
 
