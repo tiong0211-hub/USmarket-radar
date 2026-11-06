@@ -1,0 +1,189 @@
+{
+  "run_date": "2026-11-06",
+  "us_market_closed": false,
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "value": 26629.81,
+      "unit": null,
+      "change_pct": -6.36,
+      "change_bp": null
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "value": 26604.0,
+      "unit": null,
+      "change_pct": -6.87,
+      "change_bp": null
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "value": 7353.73,
+      "unit": null,
+      "change_pct": -4.36,
+      "change_bp": null
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "value": 7353.0,
+      "unit": null,
+      "change_pct": -4.76,
+      "change_bp": null
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "value": 28.18,
+      "unit": null,
+      "change_pct": 69.66,
+      "change_bp": null
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "value": 4.84,
+      "unit": "%",
+      "change_pct": null,
+      "change_bp": -6
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "value": 1357.88,
+      "unit": "원",
+      "change_pct": 1.12,
+      "change_bp": null
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "value": 9011.14,
+      "unit": null,
+      "change_pct": -12.25,
+      "change_bp": null
+    }
+  ],
+  "sentiment": {
+    "score": 1,
+    "label": "극도의 공포",
+    "vix": 28.18
+  },
+  "calendar_released": [],
+  "calendar_upcoming": [
+    {
+      "event_ko": "평균 시간당 임금(전월비)",
+      "time_kst": "22:30",
+      "forecast": "0.3%",
+      "previous": "0.1%"
+    },
+    {
+      "event_ko": "비농업 고용 변화",
+      "time_kst": "22:30",
+      "forecast": "65K",
+      "previous": "29K"
+    },
+    {
+      "event_ko": "실업률",
+      "time_kst": "22:30",
+      "forecast": "4.2%",
+      "previous": "4.2%"
+    }
+  ],
+  "top_news": [
+    {
+      "title_ko": "나스닥 1,421포인트 급락, 다우 1,833포인트 하락",
+      "category": "macro_rates",
+      "importance": 5,
+      "moves_ko": [
+        "나스닥100 −6.36%",
+        "S&P 500 −4.36%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국의 급락세를 반영해 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "기술주 매도세로 국채 수요 증가",
+      "category": "macro_rates",
+      "importance": 4,
+      "moves_ko": [
+        "미국 10년물 −6bp"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장이 미국의 국채 수요 증가를 반영해 영향을 받을지 확인"
+      }
+    },
+    {
+      "title_ko": "미국 중간선거 결과에 따른 금 가격 상승",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "moves_ko": [
+        "미국 10년물 −6bp"
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 금 관련 주식의 반응 여부를 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "칩주, 월가의 최악의 중간선거 이후 하락",
+      "category": "theme_earnings",
+      "importance": 4,
+      "moves_ko": [
+        "필라델피아 반도체 −12.25%",
+        "반도체 ETF −12.15%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종이 미국의 칩주 하락을 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "부채 한도 협상, 시장에 부정적 영향 우려",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [
+        "CBOE VIX +69.66%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 정치 상황에 따라 영향을 받을 수 있는지 확인."
+      }
+    },
+    {
+      "title_ko": "연준의 해막, 물가 안정 위해 제한적 금리 필요",
+      "category": "macro_rates",
+      "importance": 4,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리 인상 우려가 커질 가능성 확인."
+      }
+    },
+    {
+      "title_ko": "AI 버블 우려가 신용 시장으로 확산",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      }
+    }
+  ],
+  "themes": []
+}

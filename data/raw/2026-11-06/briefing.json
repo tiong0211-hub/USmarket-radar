@@ -1,0 +1,39 @@
+{
+  "direction": "gap_down",
+  "direction_ko": "갭하락 우세",
+  "confidence": "high",
+  "headline_ko": [
+    "미 기술주 급락,",
+    "국장 방어력 확인"
+  ],
+  "headline_emphasis": "방어력",
+  "points": [
+    {
+      "title_ko": "위험회피",
+      "text_ko": "나스닥100 -6.36%, 공포 심리 확대."
+    },
+    {
+      "title_ko": "금리·환율",
+      "text_ko": "미국 10년물 -6bp, 원/달러 1357.88원."
+    },
+    {
+      "title_ko": "국내연결",
+      "text_ko": "반도체 약세 연결 여부를 관찰."
+    }
+  ],
+  "focus_chips": [
+    {
+      "label": "반도체",
+      "anchor": "#news"
+    },
+    {
+      "label": "금 관련",
+      "anchor": "#news"
+    }
+  ],
+  "risks_ko": [
+    "오늘 밤 22:30 고용·임금 지표를 확인."
+  ],
+  "source": "gpt-5.5",
+  "label": "참고용"
+}
