@@ -49,6 +49,21 @@ class Indicator(BaseModel):
 class MarketSnapshot(BaseModel):
     """M1 output (data/raw/<date>/market.json)."""
     indicators: list[Indicator]
+    history: dict[str, list[float]] = {}  # closes up to us_session for specs with history_days (M5)
+    notes: list[str] = []
+
+
+class Mover(BaseModel):
+    symbol: str
+    name: str
+    kind: Literal["stock", "etf"]
+    close: float
+    change_pct: float
+
+
+class MoversSnapshot(BaseModel):
+    """M4 output (data/raw/<date>/movers.json)."""
+    movers: list[Mover]
     notes: list[str] = []
 
 
@@ -171,6 +186,34 @@ class Theme(BaseModel):
     related_news_ids: list[str] = []
     kr_stocks: list[KrStock] = []
     mapping_source: str = "theme_map.yaml"
+
+
+class KrCandidate(BaseModel):
+    name: str
+    code: str
+    link_type: Literal["supplier", "same_theme", "competitor"]
+    rationale_ko: str
+    confidence: Literal["low", "medium", "high"]
+
+
+class ThemeProposal(BaseModel):
+    """Suggestion for a human to review (data/proposals/<date>.json). Never displayed."""
+    us_ticker: str
+    name: str = ""
+    change_pct: float = 0.0
+    theme: str
+    is_new_theme: bool
+    kr_candidates: list[KrCandidate]
+    news_ids: list[str] = []
+
+
+class ThemeMapping(BaseModel):
+    """M7 output (data/raw/<date>/themes.json)."""
+    themes: list[Theme]
+    proposals: list[ThemeProposal] = []
+    listing_checked: bool = False
+    excluded: list[str] = []  # theme_map entries hidden because the KRX listing disagrees
+    notes: list[str] = []
 
 
 class BriefingPoint(BaseModel):

@@ -1,5 +1,6 @@
 """Orchestrator: python -m radar.run_daily --date YYYY-MM-DD [--dry-run] [--no-llm] [--no-deploy] [--force]"""
 import argparse
+import json
 import logging
 import sys
 import threading
@@ -14,13 +15,15 @@ from pydantic import BaseModel
 
 from radar import config, market_calendar
 from radar.assemble.assembler import assemble
+from radar.analytics import sentiment as sentiment_module
 from radar.assemble.validator import missing_required
 from radar.collectors import calendar as calendar_collector
-from radar.collectors import market, news
-from radar.llm import news_analyst
+from radar.collectors import market, movers as movers_collector, news
+from radar.llm import news_analyst, theme_mapper
 from radar.llm.client import LLMClient, LLMFatal, TokenBudget
 from radar.models import (
-    CalendarSnapshot, MarketSnapshot, ModuleRun, NewsAnalysis, NewsCollection, RunLog, UpcomingEvent,
+    CalendarSnapshot, MarketSnapshot, ModuleRun, MoversSnapshot, NewsAnalysis, NewsCollection, RunLog,
+    ThemeMapping, UpcomingEvent,
 )
 from radar.render.renderer import render_site
 
@@ -83,6 +86,7 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
     symbols = config.load("symbols")
     feeds = config.load("feeds")
     models = config.load("models")
+    theme_map = config.load("theme_map")
     base = root / ".dry-run" if args.dry_run else root
     data_dir, site_dir = base / "data", base / "site"
     started_at = datetime.now(UTC).replace(microsecond=0)
@@ -144,11 +148,27 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             ),
             timeouts["M3"], raw_dir / "calendar.json", lambda _: "SUCCEEDED",
         )
+        m4 = pool.submit(
+            _module, "M4", lambda: movers_collector.collect(theme_map, symbols, settings, us_session),
+            timeouts["M4"], raw_dir / "movers.json", lambda s: "DEGRADED" if s.notes else "SUCCEEDED",
+        )
         snapshot, modules["M1"] = m1.result()
         collection, modules["M2"] = m2.result()
         calendar, modules["M3"] = m3.result()
+        movers, modules["M4"] = m4.result()
 
-    # S2: news analysis. Without M2 there is nothing to analyze.
+    # S2: M5 is a rule on M1 data and takes microseconds, so it runs inline before M6.
+    if snapshot is None:
+        sentiment, modules["M5"] = None, ModuleRun(status="SKIPPED", notes=["M1 failed"])
+    else:
+        sentiment, modules["M5"] = _module(
+            "M5", lambda: sentiment_module.compute(snapshot, settings["sentiment"]),
+            timeouts["M5"], raw_dir / "sentiment.json", lambda _: "SUCCEEDED",
+        )
+
+    budget = TokenBudget(settings["llm_budget"])  # one daily budget across M6 and M7
+
+    # News analysis. Without M2 there is nothing to analyze.
     analysis = None
     if collection is None:
         modules["M6"] = ModuleRun(status="SKIPPED", notes=["no articles: M2 failed"])
@@ -158,7 +178,7 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
     else:
         def analyze() -> NewsAnalysis:
             try:
-                client = LLMClient(TokenBudget(settings["llm_budget"]))
+                client = LLMClient(budget)
             except LLMFatal as exc:
                 failed = news_analyst.skipped(collection, str(exc))
                 return failed.model_copy(update={"total_batches": 1, "failed_batches": 1})
@@ -177,10 +197,36 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
         )
         if analysis is None:  # timeout: still show titles
             analysis = news_analyst.skipped(collection, "M6 timed out")
-        llm_usage = analysis.llm_usage
+
+    # S3: theme mapping. Proposals need the LLM; the mapping itself is YAML only.
+    mapping = None
+    if movers is None:
+        modules["M7"] = ModuleRun(status="SKIPPED", notes=["no movers: M4 failed"])
+    else:
+        def map_themes() -> ThemeMapping:
+            client = None
+            if not args.no_llm:
+                try:
+                    client = LLMClient(budget)
+                except LLMFatal:  # M6 already records the missing key
+                    pass
+            return theme_mapper.run(theme_map, movers, analysis, run_date, settings, client,
+                                    models["theme_proposer"], file=not args.dry_run)
+
+        mapping, modules["M7"] = _module(
+            "M7", map_themes, timeouts["M7"], raw_dir / "themes.json",
+            lambda m: "DEGRADED" if m.excluded or not m.listing_checked else "SUCCEEDED",
+        )
+        if mapping and mapping.proposals:  # for human review only, see docs/orchestration_spec.md §8
+            path = data_dir / "proposals" / f"{run_date}.json"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps([p.model_dump() for p in mapping.proposals], ensure_ascii=False, indent=2),
+                            encoding="utf-8")
+    llm_usage = dict(budget.used)
 
     try:
-        report = assemble(symbols, run_date, us_session, closed, snapshot, modules, collection, calendar, analysis)
+        report = assemble(symbols, run_date, us_session, closed, snapshot, modules, collection, calendar, analysis,
+                          sentiment, mapping)
         missing = missing_required(report.indicators)
         daily = data_dir / "daily" / f"{run_date}.json"
         daily.parent.mkdir(parents=True, exist_ok=True)

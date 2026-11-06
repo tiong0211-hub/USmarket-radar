@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["proposals"],
+  "properties": {
+    "proposals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["us_ticker", "theme", "is_new_theme", "kr_candidates"],
+        "properties": {
+          "us_ticker": {"type": "string"},
+          "theme": {"type": "string"},
+          "is_new_theme": {"type": "boolean"},
+          "kr_candidates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "code", "link_type", "rationale_ko", "confidence"],
+              "properties": {
+                "name": {"type": "string"},
+                "code": {"type": "string"},
+                "link_type": {"type": "string", "enum": ["supplier", "same_theme", "competitor"]},
+                "rationale_ko": {"type": "string"},
+                "confidence": {"type": "string", "enum": ["low", "medium", "high"]}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

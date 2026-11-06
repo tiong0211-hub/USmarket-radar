@@ -5,7 +5,7 @@ from radar import config
 from radar.assemble.validator import check_report, run_status
 from radar.models import (
     Banner, Calendar, CalendarSnapshot, DailyReport, Indicator, MarketSnapshot, ModuleRun,
-    NewsAnalysis, NewsCollection, NewsItem, SourceInfo,
+    NewsAnalysis, NewsCollection, NewsItem, Sentiment, SourceInfo, ThemeMapping,
 )
 
 WEEKDAYS_KO = "월화수목금토일"
@@ -14,7 +14,10 @@ MODULE_WARNINGS = {
     "M1": "시장 지표 수집 오류",
     "M2": "일부 뉴스 소스 수집 실패 또는 기사 수 부족",
     "M3": "캘린더 미수집",
+    "M4": "미국 주도주 일부 미수집",
+    "M5": "시장 심리 산출 불가",
     "M6": "뉴스 요약 일부 없음(제목만 표시)",
+    "M7": "국내 연결 종목 검증 일부 실패",
 }
 
 
@@ -74,6 +77,8 @@ def assemble(
     news: NewsCollection | None = None,
     calendar: CalendarSnapshot | None = None,
     analysis: NewsAnalysis | None = None,
+    sentiment: Sentiment | None = None,
+    themes: ThemeMapping | None = None,
 ) -> DailyReport:
     indicators = _complete(symbols, market)
     warnings = [f"{i.label} {i.kind} 데이터 없음" for i in indicators if i.missing]
@@ -88,6 +93,10 @@ def assemble(
     for indicator in indicators:
         if not indicator.missing:
             sources.setdefault(SOURCE_NAMES.get(indicator.source, indicator.source), []).append(indicator.key)
+    if themes and themes.themes:
+        sources.setdefault("yfinance", []).append("themes")
+    if themes and themes.listing_checked:
+        sources["KRX 상장 목록(FinanceDataReader)"] = ["themes"]
     if calendar:
         sources["Forex Factory"] = ["calendar"]
     for feed in news.feeds_ok if news else []:
@@ -102,6 +111,8 @@ def assemble(
         run_status=status,
         banner=_banner(status, us_market_closed, warnings),
         indicators=indicators,
+        sentiment=sentiment,
+        themes=themes.themes if themes else [],
         calendar=_calendar(calendar, analysis),
         news=_displayed_news(analysis, config.load("settings")),
         sources=[SourceInfo(name=name, items=items) for name, items in sources.items()],

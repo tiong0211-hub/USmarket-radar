@@ -39,6 +39,7 @@ indicators:
     kind: 변동성
     group: volatility
     symbol: "^VIX"
+    history_days: 252            # M5 심리 점수용 1년 종가
     source: yfinance
     required: true
     description_ko: "S&P 500 옵션 가격으로 계산한 시장의 예상 변동성입니다. 하락이 국내장 상승을 보장하지는 않습니다."
@@ -82,3 +83,28 @@ sector_etfs:
   - {symbol: XBI, label: 바이오}
   - {symbol: URA, label: 우라늄/원전}
   - {symbol: LIT, label: 2차전지}
+
+# M4 추가 감시 종목: theme_map.yaml에 없는 대형주. 뉴스에 언급되고 크게 움직이면 M7이 매핑 제안 Issue를 만든다.
+watchlist:
+  - {symbol: AAPL, name: Apple}
+  - {symbol: MSFT, name: Microsoft}
+  - {symbol: AMZN, name: Amazon}
+  - {symbol: GOOGL, name: Alphabet}
+  - {symbol: META, name: Meta Platforms}
+  - {symbol: TSLA, name: Tesla}
+  - {symbol: AMD, name: AMD}
+  - {symbol: AVGO, name: Broadcom}
+  - {symbol: MU, name: Micron}
+  - {symbol: ORCL, name: Oracle}
+  - {symbol: PLTR, name: Palantir}
+  - {symbol: INTC, name: Intel}
+  - {symbol: QCOM, name: Qualcomm}
+  - {symbol: AMAT, name: Applied Materials}
+  - {symbol: ASML, name: ASML ADR}
+  - {symbol: VRT, name: Vertiv}
+  - {symbol: ETN, name: Eaton}
+  - {symbol: CEG, name: Constellation Energy}
+  - {symbol: VST, name: Vistra}
+  - {symbol: NVO, name: Novo Nordisk ADR}
+  - {symbol: ALB, name: Albemarle}
+  - {symbol: BA, name: Boeing}

@@ -15,18 +15,21 @@ from radar import config, market_calendar, run_daily
 from radar.assemble.assembler import assemble
 from radar.assemble.validator import run_status
 from radar.collectors import calendar as calendar_collector
-from radar.collectors import market, news
+from radar.analytics import sentiment
+from radar.collectors import market, movers, news
 from radar.llm import client as llm_client
-from radar.llm import news_analyst
+from radar.llm import news_analyst, theme_mapper
 from radar.retry import with_retry
 from radar.models import (
     Briefing, BriefingPoint, Calendar, CalendarActual, CalendarSnapshot, DailyReport, FocusChip, Indicator, KrImpact, KrStock,
     MarketSnapshot, ModuleRun, NewsAnalysis, NewsCollection, NewsItem, RawArticle, ReleasedEvent,
-    Sentiment, Theme, UpcomingEvent,
+    Mover, MoversSnapshot, Sentiment, Theme, UpcomingEvent,
 )
 from radar.render import renderer
 
 FIXTURES = Path(__file__).parent / "fixtures"
+THEME_MAP = config.load("theme_map")
+LISTING = {s["code"]: s["name"] for t in THEME_MAP["themes"] for s in t["kr_stocks"]}
 SYMBOLS = config.load("symbols")
 SETTINGS = config.load("settings")
 SPECS = {s["key"]: s for s in SYMBOLS["indicators"]}
@@ -55,9 +58,10 @@ def good_item(article_id, title="연준 동결", **overrides):
 class FakeAPI:
     """Stands in for openai.OpenAI. `script` maps the call index to an exception or a raw string."""
 
-    def __init__(self, respond=None, script=None, pick=None):
+    def __init__(self, respond=None, script=None, pick=None, propose=None):
         self.respond = respond or (lambda articles: {"items": [good_item(a["id"]) for a in articles], "calendar_actuals": []})
         self.pick = pick or (lambda articles: {"ids": [a["id"] for a in articles]})
+        self.propose = propose or (lambda payload: {"proposals": []})
         self.script = script or {}
         self.calls = 0
         self.requests = []
@@ -70,9 +74,13 @@ class FakeAPI:
         scripted = self.script.get(index)
         if isinstance(scripted, Exception):
             raise scripted
-        articles = json.loads(kwargs["messages"][1]["content"])["articles"]
-        handler = self.pick if kwargs["response_format"]["json_schema"]["name"] == "news_picker" else self.respond
-        content = scripted if scripted is not None else json.dumps(handler(articles), ensure_ascii=False)
+        payload = json.loads(kwargs["messages"][1]["content"])
+        name = kwargs["response_format"]["json_schema"]["name"]
+        if name == "theme_proposer":
+            answer = self.propose(payload)
+        else:
+            answer = (self.pick if name == "news_picker" else self.respond)(payload["articles"])
+        content = scripted if scripted is not None else json.dumps(answer, ensure_ascii=False)
         return SimpleNamespace(
             usage=SimpleNamespace(total_tokens=100),
             choices=[SimpleNamespace(message=SimpleNamespace(content=content))],
@@ -97,13 +105,17 @@ def report_ok() -> DailyReport:
 
 
 def fake_fetch(symbol, interval, start, end):
-    return bars(symbol, interval)
+    return bars(symbol if symbol in RECORDED else "^NDX", interval)  # movers reuse a recorded series
 
 
 @pytest.fixture
 def fast(monkeypatch):
     monkeypatch.setitem(SETTINGS["market"], "retry_backoff_s", [0, 0, 0])
     monkeypatch.setitem(SETTINGS["market"], "retry_jitter_s", 0)
+    monkeypatch.setitem(SETTINGS["movers"], "retry_backoff_s", [0, 0])
+    monkeypatch.setitem(SETTINGS["sentiment"], "min_history", 3)  # recorded VIX bars cover weeks, not a year
+    monkeypatch.setattr(theme_mapper, "krx_listing", lambda: dict(LISTING))
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
     real_load = config.load
     monkeypatch.setattr(config, "load", lambda name: {"settings": SETTINGS, "symbols": SYMBOLS, "feeds": {**FEEDS, "min_articles_warning": 1}}.get(name) or real_load(name))
     monkeypatch.setattr(market, "fetch_contract", lambda symbol: "2026-12")
@@ -455,6 +467,95 @@ def test_github_output_is_written(tmp_path, monkeypatch, fast):
     assert output.read_text(encoding="utf-8") == "run_status=OK\nrun_date=2026-11-05\n"
 
 
+def test_end_to_end_shows_verified_themes_and_sentiment(tmp_path, monkeypatch, fast):
+    monkeypatch.setattr(market, "fetch_bars", fake_fetch)
+    verified = {"themes": [{**t, "verified": True} for t in THEME_MAP["themes"]]}
+    loader = config.load
+    monkeypatch.setattr(config, "load", lambda name: verified if name == "theme_map" else loader(name))
+    assert run_daily.run(args(), tmp_path) == ("OK", 0)
+    report = DailyReport.model_validate_json((tmp_path / "data/daily/2026-11-05.json").read_text(encoding="utf-8"))
+    assert [t.us_ticker for t in report.themes] and report.sentiment is not None
+    html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
+    assert "SK하이닉스" in html and "HBM 공급" in html and "VIX 기반 자체 산출" in html
+
+
+# --- M4 / M5 / M7 ------------------------------------------------------------
+
+def day_bars(*closes, last=SESSION):
+    return [(datetime(last.year, last.month, last.day, 16, tzinfo=UTC) - timedelta(days=len(closes) - 1 - i), c)
+            for i, c in enumerate(closes)]
+
+
+def test_mover_change_and_stale_session():
+    entry = {"symbol": "NVDA", "name": "NVIDIA", "kind": "stock"}
+    assert movers.build_mover(entry, day_bars(100, 90), SESSION).change_pct == -10.0
+    with pytest.raises(market.NoData):
+        movers.build_mover(entry, day_bars(100, 90, last=SESSION - timedelta(days=1)), SESSION)
+    symbols = {"watchlist": [{"symbol": "NVDA", "name": "dup"}, {"symbol": "AMD", "name": "AMD"}],
+               "sector_etfs": [{"symbol": "SOXX", "label": "반도체"}]}
+    listed = movers.watch_list(THEME_MAP, symbols)
+    assert [e["symbol"] for e in listed][:len(THEME_MAP["themes"])] == [t["us_ticker"] for t in THEME_MAP["themes"]]
+    assert [e["symbol"] for e in listed].count("NVDA") == 1 and listed[-1]["kind"] == "etf"
+
+
+def test_sentiment_percentile_rule_and_bands():
+    assert sentiment.score(30, [10, 20, 30, 40]) == 25  # 3 of 4 closes at or below 30
+    snap = MarketSnapshot(indicators=report_ok().indicators, history={"VIX": [10.0] * 200})
+    result = sentiment.compute(snap, SETTINGS["sentiment"])  # fixture VIX is above every close
+    assert result.score == 0 and result.label == "극도의 공포" and result.label_en == "EXTREME FEAR"
+    with pytest.raises(ValueError):
+        sentiment.compute(snap.model_copy(update={"history": {"VIX": [10.0] * 5}}), SETTINGS["sentiment"])
+
+
+def mover(symbol, change):
+    return Mover(symbol=symbol, name=symbol, kind="stock", close=100, change_pct=change)
+
+
+def test_mapping_hides_unverified_and_unlisted_and_sorts_by_size():
+    theme_map = {"themes": [{**t, "verified": t["us_ticker"] != "LLY"} for t in THEME_MAP["themes"]]}
+    snap = MoversSnapshot(movers=[mover("NVDA", 2.0), mover("TSM", -5.0), mover("GEV", 1.0), mover("LLY", 9.0)])
+    item = news_item(1, 5).model_copy(update={"us_tickers": ["NVDA"], "preview_ko": "엔비디아 실적 호조"})
+    listing = {**LISTING, "000150": "다른회사"}
+    themes, excluded, notes = theme_mapper.map_themes(theme_map, snap, NewsAnalysis(news=[item]), listing, 6)
+    assert [t.us_ticker for t in themes] == ["TSM", "NVDA", "GEV"]
+    nvda = themes[1]
+    assert nvda.momentum_ko == "엔비디아 실적 호조" and nvda.related_news_ids == ["n_1"]
+    assert "000150" not in {s.code for s in nvda.kr_stocks} and excluded == ["NVDA → 000150 두산"]
+    assert notes == ["1 theme_map entries not verified: hidden"]
+
+
+def test_proposals_only_for_unmapped_news_movers_and_listed_names():
+    snap = MoversSnapshot(movers=[mover("VRT", -14.0), mover("NVDA", -9.0), mover("AAPL", -1.0), mover("MU", -17.0)])
+    news_items = [news_item(i, 5).model_copy(update={"us_tickers": [t]}) for i, t in enumerate(["VRT", "NVDA", "AAPL"])]
+    seen = []
+
+    def propose(payload):
+        seen.append(payload)
+        return {"proposals": [{"us_ticker": "VRT", "theme": "전력인프라", "is_new_theme": False, "kr_candidates": [
+            {"name": "LS ELECTRIC", "code": "999999", "link_type": "same_theme", "rationale_ko": "전력기기", "confidence": "medium"},
+            {"name": "없는회사", "code": "123456", "link_type": "supplier", "rationale_ko": "x", "confidence": "low"},
+        ]}, {"us_ticker": "ZZZ", "theme": "x", "is_new_theme": True, "kr_candidates": []}]}
+
+    client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=FakeAPI(propose=propose))
+    proposals = theme_mapper.propose(THEME_MAP, snap, NewsAnalysis(news=news_items), LISTING,
+                                     MODELS["theme_proposer"], SETTINGS, client)
+    assert [u["us_ticker"] for u in seen[0]["unmapped"]] == ["VRT"]  # NVDA mapped, AAPL small, MU not in news
+    assert len(proposals) == 1 and proposals[0].news_ids == ["n_0"]
+    assert [(c.name, c.code) for c in proposals[0].kr_candidates] == [("LS ELECTRIC", "010120")]
+
+
+def test_issue_body_and_no_token_skips_filing(monkeypatch):
+    from radar.models import KrCandidate, ThemeProposal
+    proposal = ThemeProposal(us_ticker="VRT", name="Vertiv", change_pct=-14.0, theme="전력인프라", is_new_theme=False,
+                             kr_candidates=[KrCandidate(name="LS ELECTRIC", code="010120", link_type="same_theme",
+                                                        rationale_ko="전력기기", confidence="medium")],
+                             news_ids=["n_1"])
+    body = theme_mapper.issue_body(proposal, RUN_DATE, {"n_1": "https://a.test/1"})
+    assert "VRT" in body and "010120" in body and "https://a.test/1" in body and "theme_map.yaml" in body
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    assert theme_mapper.file_issues([proposal], RUN_DATE, {}, "theme-proposal")[0].startswith("issues skipped")
+
+
 # --- M2 -------------------------------------------------------------------
 
 def test_feed_window_cleanup_and_summary_limit():
@@ -607,7 +708,7 @@ def schema_objects(node):
             yield from schema_objects(value)
 
 
-@pytest.mark.parametrize("name", ["news_analyst", "news_picker"])
+@pytest.mark.parametrize("name", ["news_analyst", "news_picker", "theme_proposer"])
 def test_schema_meets_openai_strict_rules(name):
     for node in schema_objects(llm_client.load_schema(name)):
         assert node["additionalProperties"] is False

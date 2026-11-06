@@ -22,18 +22,28 @@ market:
   retry_backoff_s: [2, 4, 8]
   retry_jitter_s: 1
   intraday_max_age_days: 55   # Yahoo 5분봉 제공 범위 안에서만 요청
-module_timeouts_s: {M2: 120, M3: 120, M6: 300}
+module_timeouts_s: {M2: 120, M3: 120, M4: 120, M5: 30, M6: 300, M7: 120}
 llm_budget:                   # 일일 토큰 상한 (계정 TPD보다 충분히 낮게)
   gpt-4o-mini: 2000000
   gpt-5.5: 200000
 sentiment:
   method: vix_percentile_252d_v0   # 임시: 100 - (VIX 252일 백분위). M12 협의 때 확정
   bands:
-    - {max: 24, label: 극도의 공포}
-    - {max: 44, label: 공포}
-    - {max: 55, label: 중립}
-    - {max: 75, label: 탐욕}
-    - {max: 100, label: 극도의 탐욕}
+  min_history: 200                 # VIX 종가가 이보다 적으면 산출 불가
+  note_ko: "VIX 기반 자체 산출 · CNN Fear & Greed 아님"
+  bands:
+    - {max: 24, label: 극도의 공포, label_en: EXTREME FEAR}
+    - {max: 44, label: 공포, label_en: FEAR}
+    - {max: 55, label: 중립, label_en: NEUTRAL}
+    - {max: 75, label: 탐욕, label_en: GREED}
+    - {max: 100, label: 극도의 탐욕, label_en: EXTREME GREED}
+movers:
+  workers: 6
+  retry_backoff_s: [2, 2]
+themes:
+  proposal_min_abs_change_pct: 3.0  # 미매핑 종목이 이만큼 움직이고 뉴스에 나와야 제안
+  proposal_max_tickers: 3
+  issue_label: theme-proposal
 news:
   top_n_display: 8
   min_importance_display: 3

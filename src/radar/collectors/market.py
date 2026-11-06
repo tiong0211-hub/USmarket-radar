@@ -161,11 +161,14 @@ def collect(symbols: dict, settings: dict, us_session: date, cutoff: datetime, c
     def retry(fn):
         return with_retry(fn, cfg["retry_backoff_s"], cfg["retry_jitter_s"])
 
-    def one(spec: dict) -> tuple[Indicator, list[str]]:
+    def one(spec: dict) -> tuple[Indicator, list[str], list[float]]:
         notes: list[str] = []
         symbol = spec["symbol"]
+        history_days = spec.get("history_days", 0)
+        first = min(start, us_session - timedelta(days=history_days * 3 // 2 + 10))
         try:
-            daily = retry(lambda: fetch_bars(symbol, "1d", start, end))
+            daily = retry(lambda: fetch_bars(symbol, "1d", first, end))
+            history = [v for ts, v in daily if ts.date() <= us_session][-history_days:] if history_days else []
             intraday: Bars = []
             if spec["group"] in INTRADAY_GROUPS and intraday_ok:
                 try:
@@ -180,21 +183,22 @@ def collect(symbols: dict, settings: dict, us_session: date, cutoff: datetime, c
                     log.warning("%s: contract lookup failed: %s", symbol, type(exc).__name__)
                 contract = contract or front_month(cutoff.date())
             indicator = build_indicator(spec, daily, intraday, us_session, cutoff, close_of, contract, spark_days)
-            return indicator, notes
+            return indicator, notes, history
         except Exception as exc:
             notes.append(f"{spec['key']}: {type(exc).__name__}: {exc}")
         if "fallback" in spec:
             try:
                 rows = retry(lambda: fetch_fred(spec["fallback"]["url"]))
                 notes.append(f"{spec['key']}: using fallback {spec['fallback']['source']}")
-                return build_from_fred(spec, rows, us_session, close_of, spark_days), notes
+                return build_from_fred(spec, rows, us_session, close_of, spark_days), notes, []
             except Exception as exc:
                 notes.append(f"{spec['key']}: fallback failed: {type(exc).__name__}: {exc}")
-        return _indicator(spec, missing=True), notes
+        return _indicator(spec, missing=True), notes, []
 
     with ThreadPoolExecutor(cfg["workers"]) as pool:
         results = list(pool.map(one, symbols["indicators"]))
     return MarketSnapshot(
-        indicators=[indicator for indicator, _ in results],
-        notes=[note for _, notes in results for note in notes],
+        indicators=[indicator for indicator, _, _ in results],
+        history={i.key: [round(v, 2) for v in h] for i, _, h in results if h},
+        notes=[note for _, notes, _ in results for note in notes],
     )
