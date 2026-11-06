@@ -37,15 +37,6 @@
       "published_at": "2026-11-05T19:37:28Z"
     },
     {
-      "id": "n_f3e570bc",
-      "title": "U.S. warns of 'ongoing cyber threat' to industrial refrigeration systems",
-      "link": "https://www.cnbc.com/2026/11/05/us-warns-of-ongoing-cyber-threat-to-industrial-refrigeration-systems.html",
-      "summary": "At least three waves of hacks have hit commercial fridges and freezers in the past few months.",
-      "source": "CNBC Top News",
-      "feed": "CNBC Top News",
-      "published_at": "2026-11-05T19:26:35Z"
-    },
-    {
       "id": "n_91ba4ca0",
       "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
       "link": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
@@ -82,24 +73,6 @@
       "published_at": "2026-11-05T17:42:29Z"
     },
     {
-      "id": "n_0b18ce32",
-      "title": "California’s billionaire tax faces defeat, but Democrats plan higher taxes on the wealthy",
-      "link": "https://www.cnbc.com/2026/11/05/as-california-billionaire-tax-fizzles-democrats-plan-taxes-on-wealthy.html",
-      "summary": "The likely defeat of the California billionaire tax may energize Democrats in Congress to propose federal tax hikes on high earners, according to tax experts.",
-      "source": "CNBC Top News",
-      "feed": "CNBC Top News",
-      "published_at": "2026-11-05T16:19:21Z"
-    },
-    {
-      "id": "n_18af17dc",
-      "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
-      "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
-      "summary": "Participants in the CNBC Voter Poll ranked the economy the most important issue facing the country, ahead of topics tied to democracy and immigration.",
-      "source": "CNBC Top News",
-      "feed": "CNBC Top News",
-      "published_at": "2026-11-05T16:07:59Z"
-    },
-    {
       "id": "n_4d9c1716",
       "title": "Here's what the Democratic election rout could mean for the U.S. economy",
       "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
@@ -107,15 +80,6 @@
       "source": "CNBC Top News",
       "feed": "CNBC Top News",
       "published_at": "2026-11-05T14:33:32Z"
-    },
-    {
-      "id": "n_eeed6c67",
-      "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
-      "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
-      "summary": "Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.",
-      "source": "CNBC Top News",
-      "feed": "CNBC Top News",
-      "published_at": "2026-11-05T13:44:27Z"
     },
     {
       "id": "n_66fec0a8",
@@ -154,6 +118,15 @@
       "published_at": "2026-11-04T23:23:03Z"
     },
     {
+      "id": "n_18af17dc",
+      "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
+      "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
+      "summary": "Participants in the CNBC Voter Poll ranked the economy the most important issue facing the country, ahead of topics tied to democracy and immigration.",
+      "source": "CNBC Markets",
+      "feed": "CNBC Markets",
+      "published_at": "2026-11-05T16:07:59Z"
+    },
+    {
       "id": "n_5303a784",
       "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
       "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
@@ -190,42 +163,6 @@
       "published_at": "2026-11-05T21:43:00Z"
     },
     {
-      "id": "n_9ac0ffad",
-      "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
-      "link": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
-      "summary": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
-      "source": "MarketWatch Top Stories",
-      "feed": "MarketWatch Top Stories",
-      "published_at": "2026-11-05T21:39:00Z"
-    },
-    {
-      "id": "n_3f14a414",
-      "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
-      "link": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
-      "summary": "A punishing selloff in the tech space caused carnage in the stock market Thursday, one day after equities saw a big bounce after the Democrats swept Tuesday’s midterm elections.",
-      "source": "MarketWatch Top Stories",
-      "feed": "MarketWatch Top Stories",
-      "published_at": "2026-11-05T21:37:00Z"
-    },
-    {
-      "id": "n_bca7b3a8",
-      "title": "Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQUFpaGFJZkRGZjdIRGlrOGQ5N2pnY0VxYWtQQ2hKaTNybkRlLWw0WGxkb01sVlhlOTBhX282OEZMSExXQTE2MnhiNmdPRm40STd5LVVBVGJUWk8xSlFZejFTRi0zeGgyQkFoNFNVa2ZaaGpqRzA4OWdLNzRXb0d6VzQzTlM5V1ZSb2JtVjZRd2dpcTZEaE4wU0J6OUQ4N2taWnJpN2xLcU5weG5RNjYtLVdzbzdVZ19peFFDWWF5ak03cjFRWVkwemhSVnRVcENuTlhtUnF5ekdZcUpYYVRFdUN2OFVFdTg?oc=5",
-      "summary": "",
-      "source": "The Motley Fool",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T22:09:02Z"
-    },
-    {
-      "id": "n_62eaf02a",
-      "title": "’Our phones are exploding’: Goldman Sachs dissects historic Wall Street crash",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQejdPQkNLTnFMN2I2VjIxbWQ1RzUwS3FvNWFWdHdjZE93aUpEWWhUVmowRWstVWNaMTZ3WkllSXhyWU1kX3h3TWpNYkpibjNMX0VqdW4tQTM2bzgzR29kU1dabldPdXBabHBiYUhyM2VYQ2syajZuWDgxSmd4Rm9xaS1HMzlYUTJwQzVxU2dhV3NiNzR0Q21ZbXNrQnlCdjFrRDNSLXE5RDVRRm9haXkzX2JtWXdpeVY2U0dFU05DUWJLU1ZTM1dLTjZpOA?oc=5",
-      "summary": "",
-      "source": "Investing.com",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T22:05:59Z"
-    },
-    {
       "id": "n_15fc82a9",
       "title": "Why the stock market tumbled after the midterm surge",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYWFTRUU1VkZtZWV1emczdzJrNDBXWUt4OC1mVm00YUNOY2xReHIwMlNoZF9xbDNTQmJtcUM0aHhsMm01S051UFl5M2Q5U1d6bDUzdDhvQ2hMMl9MdS1ObkhscXhrcWM5aGpWNkhsN1ZuZlltWXVrRkRzTk1SOXVfd2RGVGZnNmZfNVpn?oc=5",
@@ -233,15 +170,6 @@
       "source": "CBS News",
       "feed": "Google News - US stocks",
       "published_at": "2026-11-05T22:05:00Z"
-    },
-    {
-      "id": "n_4d8b28b4",
-      "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE43QWpUdHk2WE5qUmd4Z0hjYlBqQ3FGLUVoRlBTbmN4c1JJbWZpeUJmTXhpalZzaTNGMzVweE5wNDRJdnRSMzRENURHaGRIejdqbnVObV9KNEp6R0p0ZnAzT3Y5WGVYejV6VWc0dGZheFVWdG9IVDljNjMxVmVDVGpYZlpwN19nVzBibDdqVmRJOXV3Vk9YdFRiSQ?oc=5",
-      "summary": "",
-      "source": "AP News",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T22:04:00Z"
     },
     {
       "id": "n_e7d05f6a",
@@ -253,6 +181,15 @@
       "published_at": "2026-11-05T21:59:41Z"
     },
     {
+      "id": "n_4095b3f1",
+      "title": "Stock market correction is not over despite brief post-election rebound, financial advisor warns",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWmdZRDJ2dC0wdlExc21SUXFBTVJpcUpkQUdacE1jbUdzVEl6N1hnYUhzWHVEMFEzMnBiV2JZVERTV2tCX0FOTkVYU2xjMmJ5NENpcllCeHZfRkk0aUFTUlVObWdJNEktSFNqODk4Rzg4SzlLSm9KdkZ6ZWF1WjdoVnYwY0dZeHczcUZXNDFET1Y4UWVocERmMjlBV3pYVGxDRk82b3RwOEU1Unpac3dzcGp6XzM2NHhURzJ6UkVwenZ1bGVBSUg5VzJDS0JQZlZwb1hRWXYta2ttZEZv?oc=5",
+      "summary": "",
+      "source": "WDAY Radio",
+      "feed": "Google News - US stocks",
+      "published_at": "2026-11-05T21:57:12Z"
+    },
+    {
       "id": "n_ae5207c0",
       "title": "Stock Market Today, Nov. 5: Nasdaq Suffers Worst Day in 18 Months as AI Trade Comes Under Fire",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYjFhMXc4eER6ZHJ0QUFOTFRNT1ltUmpXLWFqdzh5Z1JlZnN0M1ZPVFN1SmdudlE4bGdNVndQUjhvTmRqaGJreWdiUGRCLWVLRjJReWZrR0tWN3E1VWJmR0k0bmM5blQ0M0k5TFdJRl9yWS1Ud2htX0tpSE1pZVdXQUhaRzJCMmFRQnJjdXFuLTZXQkRmYnVzTEtuc2JtekFPNTFucHlzUFBOb0ZvTF9vVGhHWEo3OEdqWWw4aFRtVTRKcHYydkozVmtRMzZSa1NCVGdueHc0RWVGU2daa2pibWxUYUdxa1U?oc=5",
@@ -262,22 +199,13 @@
       "published_at": "2026-11-05T21:55:00Z"
     },
     {
-      "id": "n_4095b3f1",
-      "title": "Stock market correction is not over despite brief post-election rebound, financial advisor warns",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWmdZRDJ2dC0wdlExc21SUXFBTVJpcUpkQUdacE1jbUdzVEl6N1hnYUhzWHVEMFEzMnBiV2JZVERTV2tCX0FOTkVYU2xjMmJ5NENpcllCeHZfRkk0aUFTUlVObWdJNEktSFNqODk4Rzg4SzlLSm9KdkZ6ZWF1WjdoVnYwY0dZeHczcUZXNDFET1Y4UWVocERmMjlBV3pYVGxDRk82b3RwOEU1Unpac3dzcGp6XzM2NHhURzJ6UkVwenZ1bGVBSUg5VzJDS0JQZlZwb1hRWXYta2ttZEZv?oc=5",
+      "id": "n_903383b6",
+      "title": "Dow plunges 1,800 points, wiping out gains from midterm results rally",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamlYMTRnTnVQT1JzN0doUmdpcFdPaEFLblFvUjd5V0FRQWlGWkFUOXhQYUwzenJRZXptY0RrX0UzOUNyUG5zZXAwNnRoMUpTU2M4Zml3M3U3djlRbXkxMndoazZMZlRaQnlwaUtXalJWZHl4VnBpV2FFUjJXYjhoQk03SUxyeXRPV2htUkZ4cGtmcllOZ190Z3BsOHlSWlFoZTVHcdIBqgFBVV95cUxOUlFBU1J4UktLenhRbmFhOEJPTUkzY2JBNkZTR0lpWURVNUUtT2FscU5BbWpPR0M4ekp5a2JuSG5BcWpGMElnMVQxNnFHUHB1Wk9GVTIzR1NaRzY1b1lCS0FwZ3UyQ2lRei1HREM0cURIQ0hSbzFFVGRmUmdVUWJwWTVFM0NtbVZHOThSZ0k4aXM2SUxxTHdWa3EwRkdTNFBfYU9CYnlJc0Zodw?oc=5",
       "summary": "",
-      "source": "WDAY Radio",
+      "source": "ABC News - Breaking News, Latest News and Videos",
       "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T21:52:33Z"
-    },
-    {
-      "id": "n_5559914b",
-      "title": "Stock Market Today, Nov. 5: Nvidia Slides on AI Chip Selloff as Election Uncertainty Weighs",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT1pnTjFIckVzNEFtOWRac1FSNC15TktITmxRVlJpTzdFMVdYN2xBOFRhNlRxMEd1dE1lRVptemo2TGFkU1E5VW4wZTFDQlJuVkJxMjNoaHR3Y2FTZ3ZRLWE4NUZxUy1PWlJBZkREeFhlOGdmNllzeXAyVks0eEtKZ0xlQnh3aE43VTdMd2sxM3NSU2d2QmRpQ1dvd3Z0Q1l5Z2FrYndlOFNtYnlNdEthN3V5RHZ6QlpORThnQXdoVDlORGpqMGhKb3BsQmMybHlpcU9NOS1kSUZlSnhkbF9tcnFUNA?oc=5",
-      "summary": "",
-      "source": "The Motley Fool",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T21:49:00Z"
+      "published_at": "2026-11-05T21:46:21Z"
     },
     {
       "id": "n_fef30ad3",
@@ -307,6 +235,24 @@
       "published_at": "2026-11-05T21:39:01Z"
     },
     {
+      "id": "n_dd548448",
+      "title": "US Stock Futures Diverge as Chip Selloff Extends Into Second Day",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGhDSzhCYkhQQlg2TDJ4OHFfREQ1bEFUWjlmUlYwLXNSS3dCbjh1YWJ3d21xcEJabjhkMWZyR05XQUItd2pFaEtzNDBrOFZ0eVhrb0xId2J6R2NSbjRFbUlKQ2ZTZWEwYzhZX2swQk5jOVV2LXptLXZab0tUVUNkZHliVFVJYnNreTBDTkw0b25fa3c4NFBZOThFQUYyOTN3MmprcURGSFZyNGswU3BxS0k0UC1aQQ?oc=5",
+      "summary": "",
+      "source": "Bloomberg.com",
+      "feed": "Google News - US stocks",
+      "published_at": "2026-11-05T21:38:39Z"
+    },
+    {
+      "id": "n_5b0c378f",
+      "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTlF2dlIwUlh6aW5SSWhrdV9aNFpoZDJTcFhLZHA0NTBZVU5hQUg5b2FyR2VPQUdoWTJzS2p0ZFRacjVldEMtQk9lREFHMlA2M0Q3WGwtOGpqT1VraHpqVEYyQVBwQVNHeF9ZZDJRcmVrSkhoN2pvTUhhMXBDcHRPME5BYjFtLTJHZUZ1RGNpODUwaklHTzhLd1pJd0hha0FBUTRSV3ZJYjE3S1VteEtMZnNRaFMtbklISjF3RW5Bbw?oc=5",
+      "summary": "",
+      "source": "MarketWatch",
+      "feed": "Google News - US stocks",
+      "published_at": "2026-11-05T21:37:00Z"
+    },
+    {
       "id": "n_55aa096e",
       "title": "Stock Market Today: Nasdaq Slammed By Big Tech Sell-Off; Nvidia Hits Bear Territory",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWxmSXZZZ3ZDSUdqS21kaTIzNmhjeW5qSjVSSFdHOE5kdW1uaFVMbXBSTFN4czlYOWFGSmx2UjZ0ZVpLbmZ5LUtUU3NkZWpQX04zOXZWZ2E3SG4tdVowenp6ZUhMTTZNZUhfS3VCQ2xiUmU5cWRfbTZyOU9DbWRIdVJBOVBSZV9CN0ZwS1dKVGtaQzhFamVmZDBBWXNOcEFaVXlnUlI0RlZYMG9ObWd4dUp3?oc=5",
@@ -325,6 +271,15 @@
       "published_at": "2026-11-05T21:32:04Z"
     },
     {
+      "id": "n_cc6f429e",
+      "title": "As Nvidia’s stock enters a bear market, bargain hunters see a golden buying opportunity",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXZ1U0FxTEdtZUJON2Rzczd0WkFWU05vYUIxd1lqdUxILWFQOEFhV1BzaDVGd01MMERHSHIzMGRhTlJ1QW8tWV9tZElvUkFjN3dydVgzekU2Ymc5ZklLRzJaRTF3THZSU183RmlqMDVtNmk2X0h1M1ktZWM4T0pRVFBqcTFua2R5X0VHdG9aTExacW5nV0ZLR0w2VTJJVi0wUWZLS1RDQmtINklMYWFBYy16cWRyOXU3OERQbjlUQ0Z6WmR4d0l6MGVpdw?oc=5",
+      "summary": "",
+      "source": "MarketWatch",
+      "feed": "Google News - US stocks",
+      "published_at": "2026-11-05T21:31:00Z"
+    },
+    {
       "id": "n_76f8c762",
       "title": "Retail traders dump the most stocks in a single day since Covid selloff",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXRrZWVpTXNZUEo1bC1FcktER1pUWWhHWi15b2QyeDd5aDZLR3RzYUNiY2hMNEtuamczaUI1OTZDNlZWY1ppZldQRTJVVkV2TXVQZlF5VF9iMVQ5cjdIdTZHVlN4VzRROXdoVWFscXJVSEtnN0NHWjQ5NUttZ28xZGRKMWRTeS1uS3pOblJ6NG44cTM0eUZGUE1DYU8tUS1Jend3VnRJLUJFWjDSAbABQVVfeXFMUHVGVWhzTUxabDdwS2RKRVdoUU9EclBnLUZpeXpVdFdabjNHUDRWM0p4ZGJLR3Q1VWUyeGF1VWZXVjBlS2RwcmZNTVB2V3FYaGRLdU05aTJHVnJOaTgzdU1QcHRPaTRkUHFrTHZhcUtjYjExT2FUQkdfczFwSXN6bFFqQkt6YzhnLUE3SW9EdUVMS0pNeGkyci1waG5qcnB4aFJ1MDF4czR6OWNfY1RlcEU?oc=5",
@@ -332,15 +287,6 @@
       "source": "CNBC",
       "feed": "Google News - US stocks",
       "published_at": "2026-11-05T21:20:03Z"
-    },
-    {
-      "id": "n_d26dc0b4",
-      "title": "Australian Stock Market Today: ASX Futures Edge Up On Strong Trade Surplus Support",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd05EclJ5LWd4X2c1U3BqY2prNDViVlFxU0U1NnhIUkk5NS1rQTVzVXVuNDlqY3g1eWlGNmZmNXRUdkJQWTdzRURmQU1MNDZ2dXg0VVhXWFY2NDNzM1FSMTVNc3pTbzRINHZFcTI4VDNEaXdRcHNfLXp0MEhWT3g3RUo2S0RKWDBxZmFJcXBHaUcwVnIzV2kxOXJrdlk5WEE?oc=5",
-      "summary": "",
-      "source": "Yahoo Finance",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T21:16:07Z"
     },
     {
       "id": "n_25b8d06b",
@@ -352,26 +298,8 @@
       "published_at": "2026-11-05T21:15:03Z"
     },
     {
-      "id": "n_1554ac14",
-      "title": "Stock Market Valuations: Why Credit Spreads Could Signal the Next Correction",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXhwdVZVTzBwRHVDNHJZdzctTk92amJoT0N3YTBhOWRfUC1lQ2ZIakVHeUFoMnZid1R4Qk85MEhhZGxNb0NxTjIweTBVTFF4VXFnVXlJLVhzNHp1cXpNd1l5VFgwYWs3Q1ZySk10ZWFUNjlJSmFNYVUzSlljLUN4M3lSSDBrVlFVQVJTZllVWUZPcHJVUUFCSXI0RVNBMkFON09KVDdVSjRXME1ya09tRFU2LTU?oc=5",
-      "summary": "",
-      "source": "The Acquirer's Multiple",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T21:14:42Z"
-    },
-    {
-      "id": "n_467f3966",
-      "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
-      "summary": "",
-      "source": "Yahoo Finance",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T21:07:41Z"
-    },
-    {
       "id": "n_2feebb94",
-      "title": "AI stocks are in free-fall as investors panic over the risk of a data center slowdown",
+      "title": "AI stocks crater as investors panic over the risk of a data center slowdown",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWEMycnVBc3MxVDFJNlJrNXpCakVwWTE2WjJBekgzb2F5ejNHb3c0eGZ0bld3aG1BVkR1ejJZTk1ZNnd4d2JXdGZfNTl1VUFqeVR4ek53ODhXdEpENjdrM1NscUNIbi1YdG9IaHR5YTZmaVB3SEtHcU9UMUt2YTBJRk9NTDRGaks0bXlVdi1WUnhqanFzR0QzNGQzVDYxRlpCdlhCMWlMaG0?oc=5",
       "summary": "",
       "source": "Business Insider",
@@ -379,13 +307,13 @@
       "published_at": "2026-11-05T21:06:00Z"
     },
     {
-      "id": "n_e7d42075",
-      "title": "Retail traders dump $358 million in stocks in biggest selling day since 2020",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3NWN3NZWlBmeDk4UEk4UlhfSF9ZZWZIcXZPV1RyZ0Z3Zms2eGlraEhTVnljWVJsZGk1RlpxajB4Rkw5N3FJTXF0a1Bub0NxVk9YLXk3eXdFdFBQWEw3a0dmdHFKX2ZfZl9pS2RqUHNuY3FLa05GWjMzOFk3bE9hYlVXaTdXN0MwdWJOR1NtZHg5RmZEdC1tZ1l0MXFOS2VFZmV1cXRhZE1lT0FDLU1TRTNwYm5BOGlEWEs4VUpvZlVISE4zV1hOYUh0Qjc?oc=5",
+      "id": "n_549ada8b",
+      "title": "Stocks plunge as Dem midterm sweep fuels AI regulatory concerns",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15QkdRc1NxV1JyTnFCUkVHQzZNUm9BZlA4NUI3Z2JZOHlmMDAwVmhvWU9lTDdxb19SU0dQMDNKMldYdndYR1FxSGtuaThxQ0lrNG9TYktLeHdUZ1l2eEVJWGdUa9IBaEFVX3lxTFBRVTJmNmFjajBDUk1leXdUNElhcHZsaUxnRU5kVHUyY2xfMGstWE04YkdYQnhlTjMwV0Ziakh6ZWZkZkNYa2lmLTNzeGhnRzdqVXF2SjFDMGhMZHZ1MGxadWNTa0xOT3NB?oc=5",
       "summary": "",
-      "source": "Yahoo Finance",
+      "source": "Fox Business",
       "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T20:59:24Z"
+      "published_at": "2026-11-05T20:52:46Z"
     },
     {
       "id": "n_d76208c0",
@@ -442,24 +370,6 @@
       "published_at": "2026-11-05T18:14:00Z"
     },
     {
-      "id": "n_85b25f23",
-      "title": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSExLTTdRNzVJeFp0eTV0ZUlrSy1fbERoSzdkWkN0STBSend4OHhIZ3RpQzUwS0ZZdlVKb0lNYmZyd0FrTUNubXltczB6SXQ0OGVKenFYbHc1NWhlM1RLRHNDVk8tb3ZuNDhSSGZvVktqVWQweWJaYk9yZ04tQ0JObWtJaHdheHJDbnFZS1lpakdaTHZCbFpvVEhWemJoQVVHY3ZFQnZMSUgzN2piM3FHeUIyMXR1c2k5Z3A4VmNKQ2plbjNiNS1jVlQxNA?oc=5",
-      "summary": "",
-      "source": "Benzinga",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T18:13:10Z"
-    },
-    {
-      "id": "n_9e922716",
-      "title": "Why Is the Stock Market Down Today? Nvidia, AMD Lead Nasdaq Slide",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVU94cVpOQVZ4dlJRRGJvMXR5bnVmekpZYy1BRHhxTEZxLVFsaXgtQjFVTUk0dWlxajFneXBJd3FDczlIMllrNFRFcVE0REpUcEpsUXptUmczTlo1S2F0empXREwxYTZnUGJ6cG1WUFEyS3lzalJYeU5HdTBiZ2lmZDZQZUh0SGIwN1U1LVRLdmFKbjJaZWJrZmc0S0Q?oc=5",
-      "summary": "",
-      "source": "Benzinga",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T18:03:00Z"
-    },
-    {
       "id": "n_71ab58d8",
       "title": "Stocks crater as investors recoil from tech companies",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcFU0M203aVJxc3FQSS1USXc3RXczSDEweUhzWm1ySmRCT2xTSGtLS3cyMjMyc1FhWGtYaFhGeE9uYlNaaWJuRm1iVmpoMk14SDRzVXdqV2FHejAxajZPeTFWTE1xcC0tUlltR3pfNXdVejY4RVVnVURZNDB0dGd1Vk5CclFzS1hyZGhnZFkzV1VLMGF3MnZwTWZOanB1ZnZEV1E?oc=5",
@@ -478,15 +388,6 @@
       "published_at": "2026-11-05T18:02:00Z"
     },
     {
-      "id": "n_fa8525c4",
-      "title": "El-Erian Says Stock Market Is ‘Overdoing It’ On AI Fears As Nasdaq Enters Correction Territory",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1HeFZ2OUI3cmVvNGlfSnYySldYeWZ1N21NdXhTTkJfOGl4c3lvWFprUWVIVDdEdGpIVlRLYkJOWUVyRjBmU1V3M2lLdnE2NF85QkNvTkl0VGNCWlBfYjI0RlBROXBXNWxaWmtXN0ZvZXJsSll3ZGhQbUpVbXBGamh6YVBBbXJCQWF1U2xzUjVDZ3EydGc?oc=5",
-      "summary": "",
-      "source": "Yahoo Finance",
-      "feed": "Google News - US stocks",
-      "published_at": "2026-11-05T17:48:18Z"
-    },
-    {
       "id": "n_7f005a31",
       "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMWdpd3MxX005Y1RwQUo5WkxPVzlNRGpxMGJPcWV4WHd6TWh4a1Y5YUdrLXhYTEplalpXSE03S0NqX0xLcHIwbzBOdjI1VEJGdVdmSDlhejNMd2lnb3lJQTBtT21yVkxSTGh3RFFGUXZ5UTRPa0tQSUZZRjJhbFBFTkJxWjkzaTFhanpScXU1Y0lYdElWNVJzMDB2UHVjSEZUZUJUdHpQSWd0c2IzX2ZhMGQ0dlluRU1OekpvOVVWN2g1aUxmTVZhUEVWLVA?oc=5",
@@ -503,6 +404,15 @@
       "source": "Yahoo Finance",
       "feed": "Google News - US stocks",
       "published_at": "2026-11-05T17:02:52Z"
+    },
+    {
+      "id": "n_0e5fda66",
+      "title": "India stocks draw biggest foreign inflow in nearly six years as oil falls, AI trade cools",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT2FNazA4NjVLU04wVlFLNTFIcGplRVJsWmVsakIyMUdZQzRVc0lkY1dHTXVTd0d3ZnR6MU95MDYzTWpJOEZ3MkFNaVlqOFZJMGxabG1Jd2lnZC1ReHNxS1U5ekd1UFhMUXBoSEdPLWNXTWNPdzBhSnYtTVY3MzVuZTQtNEk3SkFVSUxaMWFGM3ItWFRBLUwzYUMteG9oVFd4WURaSTZZSGlVaDM2UlNiMUJWaFNQT280dWRYYmVXRjNyZw?oc=5",
+      "summary": "",
+      "source": "Reuters",
+      "feed": "Google News - US stocks",
+      "published_at": "2026-11-05T16:05:00Z"
     },
     {
       "id": "n_d376253b",
@@ -664,7 +574,7 @@
       "summary": "",
       "source": "Finimize",
       "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T17:38:03Z"
+      "published_at": "2026-11-05T17:38:04Z"
     },
     {
       "id": "n_0d04cd4a",
@@ -820,24 +730,6 @@
       "published_at": "2026-11-05T12:30:00Z"
     },
     {
-      "id": "n_183cda5e",
-      "title": "Market Movers blog: US markets rise at the open as Congress turns blue",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "summary": "",
-      "source": "Investment Week",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T11:10:10Z"
-    },
-    {
-      "id": "n_b07e3273",
-      "title": "The Fed Needs a Better Way to Talk About Interest Rates",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSncyUnJBc25zajNQclpteVFGV3A0bGZtR3JwMEVnYUdOcXZ4eUkyZGNLdG1DcGlZeUJ2dV9ub3lFZDNjTkY3bjZCNkIxTDhtdTBLQTdOcDRQWFprbFp4aVQ3OU1JMWh5bENiMEk1d05DeG0yLWpSTHBSdUI1OW96UzRsekpIU09LVV9GX0tKWS01bWNicV9DYWhPVkZweWhBZWVETUFHbG9BQQ?oc=5",
-      "summary": "",
-      "source": "Bloomberg.com",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T11:00:21Z"
-    },
-    {
       "id": "n_6d286185",
       "title": "U.S. Treasury yields fell to 4.87%; how long can the adjustment in the U.S. Dollar Index persist?",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS19fOF8zNzF0UUkzUV9YSGJBZk5USUJrYkVTakJ0MThGLUxRWGk0dDZJVktDTXB2UGZTQ3ZrTndNbW9uZUJwOWY2UGo3YWFIbEsySGJXT3M4ZEZ2YnotTjZJdnBNOFhndDdpOEwzb0tpcmVpRGhuWjVwNUtqNjVUYXNkNnBSY0lrSGhCb2xIazlUZw?oc=5",
@@ -847,13 +739,13 @@
       "published_at": "2026-11-05T10:46:46Z"
     },
     {
-      "id": "n_8b4f82b5",
-      "title": "The Monthly Check From These 3 Treasury ETFs Moves With Interest Rates. Here’s What Retirees Should Expect",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOURKWGNuZzVNMUg0dk5YOGhaMDktbm5HLXVSUzQzVnZ6cG5YTHh6b0RkNDdfbU1yVXVaSDRQcUVLX2U4VWN0TF9YZF8zUWpyMGF5VTNidkFSQi1CSXlYRHg1Y3hnNi1sYUJucGZ1Sk9LeTI2ckJWMTdnTGNaNmFVMFR3Q0NBak1LQnBLQWpfU3JnQVlPV0ZQVTZ0dw?oc=5",
+      "id": "n_065e8bb9",
+      "title": "The Monthly Check From These 3 Treasury ETFs Moves With Interest Rates. Here's What Retirees Should Expect",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOU2xpam9qRC02ZDQyS3RodlhjTjktU3FtcE1DOU9oSm9qWm9YdnduYXlyQ0xfdi0tV0VCdzVMeGJYTUR3YTEyOGtVMjhPUG54TW1ucEFaNjQ0OE5QZ2dUNU53WmFGUF9YRmdvUTBKQjRZaFJhU2ZLZ1VRNTE4SlFOc3dtTXNrNXJYQlZ4NlBpRjhUS1hJMm1ZYnFEVklZRWhaTHpCcGNCeWlFYm10a3VabldwSWhzdEFsdlFtdjFBZ2tmNjhSWk53a0oxVDlnWTNBbGV0M2NxaGs2a2pqSGxFUG1qOXNtaWc?oc=5",
       "summary": "",
-      "source": "Yahoo Finance",
+      "source": "24/7 Wall St.",
       "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T10:41:40Z"
+      "published_at": "2026-11-05T10:41:00Z"
     },
     {
       "id": "n_580ece88",
@@ -883,6 +775,24 @@
       "published_at": "2026-11-05T10:37:14Z"
     },
     {
+      "id": "n_49f71e8d",
+      "title": "Treasury Yield 30 Years (^TYX) Charts, Data & News - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVOXJQbEVQWDRwanR4aHZhWDJjMk1MdmFJcmVTWDdWSm1NNC1yYmd6d1lualcyVVVkZnluSkpwY0dzRWNFdC1zTzY0dE5IdlJiUGIxUA?oc=5",
+      "summary": "",
+      "source": "Yahoo! Finance Canada",
+      "feed": "Google News - Fed / rates",
+      "published_at": "2026-11-05T10:08:49Z"
+    },
+    {
+      "id": "n_d645ab74",
+      "title": "Treasury Yield 30 Years (^TYX) charts, data and news",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42UlpSZnR0MGJKWlRpZy15YXFVYjJtRmpid1ZEdmtpT3dXLV8wTVVPN3JTbFdORFdaT0ttWU1PWW9BMHU2NERja1drZTdSOThXSFItUw?oc=5",
+      "summary": "",
+      "source": "Yahoo Finance UK",
+      "feed": "Google News - Fed / rates",
+      "published_at": "2026-11-05T10:00:24Z"
+    },
+    {
       "id": "n_8b5e7729",
       "title": "U.S. Treasury yields extend declines as investors weigh midterms, jobs data",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUk5LY3luaDZWX1B4b3pqQzg2eFplRERYa1VwNWVCV1dvWkRSSWVHYWhMdnB5VUhBSml1N1NuTFNiREk2MU1LcjNrcVY5VWhvTFh4aXJVZFh0anhqbDdxZXNJMlJMeTRqUDZaN2lHR2twT3hPQWlXd3VKSFB1cy1xZmRkYkktNlliLXkxbC1UQndwQUs2UzVaaEU3TQ?oc=5",
@@ -901,15 +811,6 @@
       "published_at": "2026-11-05T09:51:19Z"
     },
     {
-      "id": "n_d645ab74",
-      "title": "Treasury Yield 30 Years (^TYX) charts, data and news",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42UlpSZnR0MGJKWlRpZy15YXFVYjJtRmpid1ZEdmtpT3dXLV8wTVVPN3JTbFdORFdaT0ttWU1PWW9BMHU2NERja1drZTdSOThXSFItUw?oc=5",
-      "summary": "",
-      "source": "Yahoo Finance UK",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T09:39:42Z"
-    },
-    {
       "id": "n_ac56a736",
       "title": "U.S. Treasuries hover near 2-month lows on 20% weekly oil crash, midterm sweep",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeTJ4ZG9nOUJVNUpTSHpET3I1VE5NQzZNN0NhZ3ZGX3A5RW5qY1lSQlJEVEtMNkxVX2Rlb2R2U3gwUlpsOGM2dFJWdmdPVktCbGdWeWlUeVJIMW9IbnI3TWtqbHNaZWFmT1BfQXAtN3FCRDh1UEk2dklMTlFubUVpRUg3ZDNxM2M1UWhLWjd3VzhxWFJqQ0Itcg?oc=5",
@@ -926,6 +827,15 @@
       "source": "BigGo Finance",
       "feed": "Google News - Fed / rates",
       "published_at": "2026-11-05T09:25:00Z"
+    },
+    {
+      "id": "n_693c77a6",
+      "title": "Dollar slides as US election drives oil and Treasury yields lower; sterling gains",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WUkQydmhPckQydWlYUW9DaURtYk9acTd0NzhVYzdlU1VOVVdTendGZUdKZzF5aDMwT2NkT3Z0WnVfRjUwQTBnVU9ONENIZ2hlcDB5cDRkOVJVOG9uLWJ2c3lfa0V5enVLNHVoMg?oc=5",
+      "summary": "",
+      "source": "صحيفة مال",
+      "feed": "Google News - Fed / rates",
+      "published_at": "2026-11-05T09:19:55Z"
     },
     {
       "id": "n_e6ea277a",
@@ -962,78 +872,6 @@
       "source": "BusinessToday Malaysia",
       "feed": "Google News - Fed / rates",
       "published_at": "2026-11-05T08:32:37Z"
-    },
-    {
-      "id": "n_4d2526d3",
-      "title": "Yardeni finds 5% Treasury yields attractive amid market dynamics",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3gwd0pOVVpLUWpTNm1rZFpSMzRaMElfakVwUmktRUJFSzlpeXhLbVdqZlJoVWxwSTRmX1NpaTN2UTJjUmZaTjdCTmozQTUwS0JrdFVsUVdTczd0dnhQek4ya0t3dU41V210MGNFUVctaEVTS1dlbE5Kd0QybWF4cTRqenBBbVRpc0ZrcmNkNXJzekllaUE?oc=5",
-      "summary": "",
-      "source": "Crypto Briefing",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T06:58:46Z"
-    },
-    {
-      "id": "n_5d608891",
-      "title": "Dollar slides as US election drives oil and Treasury yields lower; sterling gains By Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY080X04wVnJ3WS1Zam41dm1MblRfeXh1a2k3eXZIUU5ZeDBnak5YNWUtUkFPclRLMjNnR1hkRnJZcGNkcGhyRDJVTnpVbmVpWG5DOGY2VVZPZmpKN0o0eGxubElWR2Rfam5ZZE1wNGpxNDhQYUt0bWFwNDVUaG5MZGhPU3NPTWFkQXpIaEVoQ3BZYV8zWmtoQzM5aUFJRUVfTENCRjNoMXpOd1drOVRpa1lxNnFyQ0VxLTg0OWlvYmJORmlNOVBzcg?oc=5",
-      "summary": "",
-      "source": "Investing.com Australia",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T06:48:11Z"
-    },
-    {
-      "id": "n_8946ce2f",
-      "title": "Gold climbs to $4,113 as dollar, Treasury yields slip",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZmFjaEZ1ZE02WTRzekZwbV9XaWlMandPX3VmN3hHNV9KZDRyWHJfOV96alRwZTk0aWt1UEt3V2VpWjRsY19icWFzejQyT3V3T3dPZy1NYXlzUkJ0WjBaeVlnVFZQaGlnMmxZZWcwNFFPMHY1TV9VZTNCMGtDRXpZLXlKZ0NST2VVRlRyTlJPTUpkV1Q4dWlmSXpR?oc=5",
-      "summary": "",
-      "source": "Investify",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T05:54:08Z"
-    },
-    {
-      "id": "n_df3805d0",
-      "title": "Silver Rises As A Weaker US Dollar And Falling Treasury Yields Support Sentiment By Kedia Advisory",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZmFuQUFudnVyWHV2ajdOVy1NM2l4bkVhLWZ5SlBvUDh3Q2sxMGZ1Z253ZmN2VzktMWdzbW1YeW5XYmxVeFhya2RoVEppb2NvN1FmUE5iN2F6ZlVkbHFfRjBoWmVVRlg2MmpwbXY1RldhQmNOd1lYbWwycFJhcnYzSHBoM2UxTFMxS2ktQ3pGWkV6MnBuYzVkTFJGcWduWU9wLU1IUkxhTWFZa1JUdFFpQkMwTWxIT2piOGlwUjdvNVFBakFWdVRfeEFlaEt5VXJQ?oc=5",
-      "summary": "",
-      "source": "Investing.com India",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T05:25:46Z"
-    },
-    {
-      "id": "n_8a58db71",
-      "title": "Gold Extends Rebound Above $4,100 as Dollar and Yields Decline",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnNUUXgzSjNLTjBDWnMweWFaa01OMzVqQV9MWHNaeVNMSVFqVlNsVW03RzZPOGFaZ1FlVV9fRXVfNzZGVkM2aWhZU2l0Ny1KMFR6eDdkam9TUEI4NXZneEF3YjU3WEJsWVhJd3NMdExBT0Z3QVRlVU85OE5zMEZCalJJc1NROGh0Uk9OamZkSkMwTUFvbW5aY0NDN0xySFJnM0o5YXZwb01uRUhJWDhoSF9OY1R1Ymc?oc=5",
-      "summary": "",
-      "source": "Energy Connects",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T05:16:14Z"
-    },
-    {
-      "id": "n_8dd4fd2b",
-      "title": "Gold at more than two-week high as dollar, yields weaken; U.S. payrolls data awaited",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0lNbWJsNm9BQkZObjdwTWNBbTQwd093S1c1dV9PTjZmNEQxVmtwNTZwQUROOXJTRFJndXVzVUJJMGloUGdsTjhfN3ctWTdrWFFvME1RbU10OU9MRjFsVElxd0djQTh6YzVKRVhURjA2U1haNEE3ZlVsSXo0VUxNS2F6cnNvQ2RVc0psX3dLck1iNklSLTdRLVE1ZWNSZ2x3MVHSAacBQVVfeXFMTUQta0lIa2tjODZlMzc5Y1hWN3Jpb2YzUVByM3dTNWFsNkdSVmVMT0tVck96cER4VW1jckVUX3VKTG9kVllod0VnTy1Vcy13MVoydnU3NWp1aVBEZjVSY3BVQTNOMUw0V0JmX3p0ZWFSVUNGZ3FZWC1ydW9uakQ4S3dUYTVCUkRPZ2pmWWJISzRZbmxRWEI1UXR1LVZtWVVTNVd2R0U5ZjQ?oc=5",
-      "summary": "",
-      "source": "CNBC",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T05:03:03Z"
-    },
-    {
-      "id": "n_619f869e",
-      "title": "Gold hits a two-week high as dollar, Treasury yields ease after US midterm elections",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXdXOEVNTnQ5a0pVek5DVUxnR2RVZlA2bzYwOGlNZHlsckRGVnQyU1JHUlBlMUxFbUFBZEU5TE5xQzNQckdmS0JDNERVbGktZVN6Q3k5djZaOWw5WUl6bDJQb1BPWTlIdmRMLTRyNE5RRm9XbmFBSlF6N0lrOGZTRTVEbjZ1ZWlSU2Z2d3Y2R3BWMXZpWWRrcWxxcWZmYjdZeUZ6UGpaVThJS3Zaa0p0ZThPMEZDUGQxQU9wSUp6cmdxSjJpSDJXTk9saHE2VGhvTF95MWh2Y2N0eU9CeDVDbDNB?oc=5",
-      "summary": "",
-      "source": "The Business Times",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T04:18:00Z"
-    },
-    {
-      "id": "n_075b703a",
-      "title": "Gold gains as dollar steadies, Treasury yields dip amid U.S. midterms fallout",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGVmVFZuV1VyZzZSenl0Mnc0TGNGbEFHOTk1dU8xY0N5QXc3T25HWXY2S01uUkZ5UVpSVkl4VXJwazNSS1BjVkJLVmFyLXBDaFBxR3p3c092aGJKSERHenhycUpMd0tIVVFhTDd1UTZLcTduNUY5RWs5dkJaSWFDbktyczVua0ZuZVA3NkxQVVdsbXZ2a0FVa2xhajc?oc=5",
-      "summary": "",
-      "source": "Yahoo Finance",
-      "feed": "Google News - Fed / rates",
-      "published_at": "2026-11-05T02:45:07Z"
     }
   ],
   "feeds_ok": [

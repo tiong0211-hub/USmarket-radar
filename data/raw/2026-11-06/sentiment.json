@@ -1,0 +1,9 @@
+{
+  "source": "VIX",
+  "vix": 28.18,
+  "score": 1,
+  "label": "극도의 공포",
+  "label_en": "EXTREME FEAR",
+  "method": "vix_percentile_252d_v0",
+  "note_ko": "VIX 기반 자체 산출 · CNN Fear & Greed 아님"
+}

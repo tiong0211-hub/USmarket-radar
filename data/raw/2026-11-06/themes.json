@@ -1,0 +1,38 @@
+{
+  "themes": [],
+  "proposals": [
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "change_pct": -10.33,
+      "theme": "AI 반도체 · HBM",
+      "is_new_theme": false,
+      "kr_candidates": [
+        {
+          "name": "삼성전자",
+          "code": "005930",
+          "link_type": "competitor",
+          "rationale_ko": "삼성전자는 AI 반도체 및 HBM 메모리 분야에서 인텔과 경쟁하고 있다.",
+          "confidence": "high"
+        },
+        {
+          "name": "LG전자",
+          "code": "066570",
+          "link_type": "supplier",
+          "rationale_ko": "LG전자는 데이터센터 및 AI 관련 솔루션을 제공하며 인텔의 고객이 될 수 있다.",
+          "confidence": "medium"
+        }
+      ],
+      "news_ids": [
+        "n_3d86b3d1",
+        "n_e7d05f6a"
+      ]
+    }
+  ],
+  "listing_checked": true,
+  "excluded": [],
+  "notes": [
+    "4 theme_map entries not verified: hidden",
+    "INTC: opened #1"
+  ]
+}
