@@ -161,7 +161,7 @@
           {% endif %}
         </section>
         <section id="themes" class="section-anchor" aria-labelledby="themes-heading">
-          <div class="section-heading"><div><p class="eyebrow">FROM WALL STREET TO SEOUL</p><h2 id="themes-heading">미국 주도주, 국내 연결</h2></div></div>
+          <div class="section-heading"><div><p class="eyebrow">FROM WALL STREET TO SEOUL</p><h2 id="themes-heading">미국 주도주, 국내 연결</h2></div>{% if r.themes_rule_ko %}<span class="section-note">{{ r.themes_rule_ko }}</span>{% endif %}</div>
           {% if r.themes %}
           <div class="theme-list">
             {% for t in r.themes %}
@@ -177,13 +177,13 @@
           </div>
           <p class="data-note">연결은 관찰용 테마 분류이며 직접 공급 관계를 뜻하지 않습니다.</p>
           {% else %}
-          <p class="empty-state">데이터 없음</p>
+          <p class="empty-state">{{ "오늘은 지수보다 강하게 오른 주도주가 없습니다." if r.themes_rule_ko else "데이터 없음" }}</p>
           {% endif %}
         </section>
       </div>
       <aside class="side-column">
         <section id="calendar" class="card calendar section-anchor" aria-labelledby="calendar-heading">
-          <p class="eyebrow">UP NEXT</p><div class="card-heading"><h2 id="calendar-heading">다음 체크포인트</h2><span class="muted small">KST</span></div><p class="calendar-intro">오늘 밤 발표 예정인 미국 지표입니다.</p>
+          <p class="eyebrow">UP NEXT</p><div class="card-heading"><h2 id="calendar-heading">다음 체크포인트</h2><span class="muted small">KST</span></div><p class="calendar-intro">오늘 밤 발표 예정인 미국 고영향 지표만 모았습니다.</p>
           {% if r.calendar.upcoming %}
           <div class="timeline">
             {% for e in r.calendar.upcoming %}
@@ -194,7 +194,7 @@
             {% endfor %}
           </div>
           {% else %}
-          <p class="no-data" style="margin-top:14px;font-size:12px">{{ "오늘 밤 예정 지표 없음" if r.calendar.status == "ok" else "미수집 · 데이터 없음" }}</p>
+          <p class="no-data" style="margin-top:14px;font-size:12px">{{ "오늘 밤 예정된 고영향 지표 없음" if r.calendar.status == "ok" else "미수집 · 데이터 없음" }}</p>
           {% endif %}
         </section>
         <section class="reading-note"><span class="note-icon" aria-hidden="true">✳</span><h2>{{ settings.reading_note_ko.title }}</h2><p>{{ settings.reading_note_ko.text }}</p><div>RADAR NOTE</div></section>

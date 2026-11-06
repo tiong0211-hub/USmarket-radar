@@ -10,7 +10,7 @@ color_convention: kr          # 상승 빨강 #c85543 / 하락 파랑 #3073bc (U
 ui:
   reference_template: src/radar/render/templates/reference/morning-radar.html
   min_font_px: {body: 12, label: 10}
-  themes_display_max: 6       # 등락률 절댓값 상위, 상승·하락 모두
+  themes_display_max: 6       # 지수 대비 강한 상승 종목만, 상승률 순
   og_image: site/static/og.png
   robots: "noindex,nofollow"
 reading_note_ko:
@@ -41,7 +41,9 @@ movers:
   workers: 6
   retry_backoff_s: [2, 2]
 themes:
-  proposal_min_abs_change_pct: 3.0  # 미매핑 종목이 이만큼 움직이고 뉴스에 나와야 제안
+  benchmark_key: SPX          # symbols.yaml 지표 key. 이 지수보다 강하게 오른 종목만 표시·제안
+  min_excess_pct: 1.0         # 상승률 − 지수 등락률 ≥ 이 값(%p), 그리고 상승률 > 0
+  proposal_min_change_pct: 3.0  # 미매핑 종목이 이만큼 오르고 뉴스에 나와야 제안
   proposal_max_tickers: 3
   issue_label: theme-proposal
 news:
@@ -51,4 +53,5 @@ news:
   filter_labels: {macro_rates: 매크로, theme_earnings: 테마·실적, geopolitics_commodities: 원자재·리스크}
 calendar:
   upcoming_window_kst: ["18:00", "06:00"]   # 오늘 밤 체크포인트 범위
+  upcoming_importance: [high]   # 체크포인트는 지수를 움직이는 고영향 지표만(medium 제외). 어젯밤 결과는 그대로
 disclaimer_ko: "본 페이지는 공개 데이터를 자동 요약한 참고 자료이며 투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다."

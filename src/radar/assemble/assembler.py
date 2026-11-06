@@ -113,6 +113,7 @@ def assemble(
         indicators=indicators,
         sentiment=sentiment,
         themes=themes.themes if themes else [],
+        themes_rule_ko=themes.rule_ko if themes else "",
         calendar=_calendar(calendar, analysis),
         news=_displayed_news(analysis, config.load("settings")),
         sources=[SourceInfo(name=name, items=items) for name, items in sources.items()],

@@ -145,6 +145,7 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             lambda: calendar_collector.collect(
                 feeds["calendar"], run_date, us_session, cutoff,
                 settings["calendar"]["upcoming_window_kst"], tz, history,
+                settings["calendar"]["upcoming_importance"],
             ),
             timeouts["M3"], raw_dir / "calendar.json", lambda _: "SUCCEEDED",
         )
@@ -203,6 +204,9 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
     if movers is None:
         modules["M7"] = ModuleRun(status="SKIPPED", notes=["no movers: M4 failed"])
     else:
+        key = settings["themes"]["benchmark_key"]
+        benchmark = next((i for i in snapshot.indicators if i.key == key), None) if snapshot else None
+
         def map_themes() -> ThemeMapping:
             client = None
             if not args.no_llm:
@@ -211,11 +215,11 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
                 except LLMFatal:  # M6 already records the missing key
                     pass
             return theme_mapper.run(theme_map, movers, analysis, run_date, settings, client,
-                                    models["theme_proposer"], file=not args.dry_run)
+                                    models["theme_proposer"], file=not args.dry_run, benchmark=benchmark)
 
         mapping, modules["M7"] = _module(
             "M7", map_themes, timeouts["M7"], raw_dir / "themes.json",
-            lambda m: "DEGRADED" if m.excluded or not m.listing_checked else "SUCCEEDED",
+            lambda m: "DEGRADED" if m.excluded or not m.listing_checked or not m.rule_ko else "SUCCEEDED",
         )
         if mapping and mapping.proposals:  # for human review only, see docs/orchestration_spec.md §8
             path = data_dir / "proposals" / f"{run_date}.json"

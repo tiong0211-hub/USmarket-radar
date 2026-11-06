@@ -65,8 +65,8 @@
 | 시장 심리 | VIX 기반 자체 점수 게이지 + VIX 값 + "VIX 기반 자체 산출" 주석 / "오늘 국장은?" 방향성 + `참고용` 라벨 | `sentiment`, `briefing.direction` |
 | 시장 지표 (8카드) | 필수 7값 + 참고 SOX. 카드 탭 → dialog(설명·출처·기준 시각) | `indicators` |
 | 흐름을 만든 뉴스 | 필터(전체/매크로/테마·실적/원자재·리스크, 건수 동적), 카드 펼침 → 3줄 요약 + 국내장 관찰 포인트 + 출처·원문 링크·KST 시각 | `news` |
-| 미국 주도주, 국내 연결 | 상승·하락 모두 표시, 국내 종목 칩에 관계 라벨(`relation_ko`) | `themes` |
-| 다음 체크포인트 | **오늘 밤(KST) 발표 예정** 미국 지표 타임라인 | `calendar.upcoming` |
+| 미국 주도주, 국내 연결 | **S&P 500보다 1%p 이상 오른 상승 종목만**(하락 종목 제외, 없으면 "없음" 문구), 국내 종목 칩에 관계 라벨(`relation_ko`) | `themes`, `themes_rule_ko` |
+| 다음 체크포인트 | **오늘 밤(KST) 발표 예정** 미국 **고영향(high)** 지표 타임라인 | `calendar.upcoming` |
 | 어젯밤 지표 결과 | 실제치·예상치·이전치 비교 (뉴스 섹션 상단 또는 사이드) | `calendar.released` |
 | Reading note | 고정 문구(연결은 단서, 확인은 국내장에서) | 고정 |
 | 데이터 상태 (ⓘ dialog) | 출처, 기준 시각, run_status, 누락·경고 목록 | `run_status`, `sources`, `warnings` |

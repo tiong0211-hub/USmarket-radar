@@ -4,9 +4,8 @@ news_analyst:
   temperature: 0.2
   batch_size: 10
   max_concurrency: 5
-theme_proposer:
-  model: gpt-4o-mini
-  temperature: 0.2
+theme_proposer:             # gpt-4o-mini invented supply ties (e.g. LG전자 → MSFT); at most 3 calls a day
+  model: gpt-5.5
 briefing_writer:
   model: gpt-5.5
 briefing_fallback:

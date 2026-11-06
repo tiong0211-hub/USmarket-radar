@@ -212,6 +212,7 @@ class ThemeMapping(BaseModel):
     themes: list[Theme]
     proposals: list[ThemeProposal] = []
     listing_checked: bool = False
+    rule_ko: str = ""  # display rule, e.g. "S&P 500(−4.52%)보다 1%p 이상 오른 종목만"; empty without a benchmark
     excluded: list[str] = []  # theme_map entries hidden because the KRX listing disagrees
     notes: list[str] = []
 
@@ -258,6 +259,7 @@ class DailyReport(BaseModel):
     calendar: Calendar = Calendar()
     news: list[NewsItem] = []
     themes: list[Theme] = []
+    themes_rule_ko: str = ""  # set when M7 ran with a benchmark: an empty list then means "no leader today"
     briefing: Briefing | None = None
     sources: list[SourceInfo] = []
     warnings: list[str] = []

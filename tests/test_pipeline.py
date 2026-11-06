@@ -472,9 +472,11 @@ def test_end_to_end_shows_verified_themes_and_sentiment(tmp_path, monkeypatch, f
     verified = {"themes": [{**t, "verified": True} for t in THEME_MAP["themes"]]}
     loader = config.load
     monkeypatch.setattr(config, "load", lambda name: verified if name == "theme_map" else loader(name))
+    monkeypatch.setattr(theme_mapper, "leads", lambda *_: True)  # recorded bars are one series; rule tested below
     assert run_daily.run(args(), tmp_path) == ("OK", 0)
     report = DailyReport.model_validate_json((tmp_path / "data/daily/2026-11-05.json").read_text(encoding="utf-8"))
     assert [t.us_ticker for t in report.themes] and report.sentiment is not None
+    assert report.themes_rule_ko.startswith("S&P 500(")
     html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
     assert "SK하이닉스" in html and "HBM 공급" in html and "VIX 기반 자체 산출" in html
 
@@ -511,35 +513,44 @@ def mover(symbol, change):
     return Mover(symbol=symbol, name=symbol, kind="stock", close=100, change_pct=change)
 
 
-def test_mapping_hides_unverified_and_unlisted_and_sorts_by_size():
+def test_mapping_shows_only_verified_listed_leaders():
     theme_map = {"themes": [{**t, "verified": t["us_ticker"] != "LLY"} for t in THEME_MAP["themes"]]}
-    snap = MoversSnapshot(movers=[mover("NVDA", 2.0), mover("TSM", -5.0), mover("GEV", 1.0), mover("LLY", 9.0)])
-    item = news_item(1, 5).model_copy(update={"us_tickers": ["NVDA"], "preview_ko": "엔비디아 실적 호조"})
+    # index −3%: TSM beats it but still fell, so it is not a leader
+    snap = MoversSnapshot(movers=[mover("NVDA", 2.0), mover("TSM", -1.0), mover("GEV", 4.0), mover("LLY", 9.0)])
+    item = news_item(1, 3).model_copy(update={"us_tickers": ["NVDA"], "title_ko": "NVIDIA 실적", "preview_ko": "엔비디아 실적 호조"})
+    market_wide = news_item(2, 5).model_copy(update={"us_tickers": ["NVDA"], "preview_ko": "나스닥 급락"})
     listing = {**LISTING, "000150": "다른회사"}
-    themes, excluded, notes = theme_mapper.map_themes(theme_map, snap, NewsAnalysis(news=[item]), listing, 6)
-    assert [t.us_ticker for t in themes] == ["TSM", "NVDA", "GEV"]
+    themes, excluded, notes = theme_mapper.map_themes(theme_map, snap, NewsAnalysis(news=[market_wide, item]), listing, 6,
+                                                      -3.0, 1.0)
+    assert [t.us_ticker for t in themes] == ["GEV", "NVDA"]
     nvda = themes[1]
-    assert nvda.momentum_ko == "엔비디아 실적 호조" and nvda.related_news_ids == ["n_1"]
+    assert nvda.momentum_ko == "엔비디아 실적 호조" and nvda.related_news_ids == ["n_1", "n_2"]  # named first
     assert "000150" not in {s.code for s in nvda.kr_stocks} and excluded == ["NVDA → 000150 두산"]
     assert notes == ["1 theme_map entries not verified: hidden"]
+    assert theme_mapper.map_themes(theme_map, snap, None, listing, 6, None, 1.0)[0] == []  # no index, no leaders
+    assert not theme_mapper.leads(1.5, 1.0, 1.0) and theme_mapper.leads(2.0, 1.0, 1.0)
 
 
 def test_proposals_only_for_unmapped_news_movers_and_listed_names():
-    snap = MoversSnapshot(movers=[mover("VRT", -14.0), mover("NVDA", -9.0), mover("AAPL", -1.0), mover("MU", -17.0)])
-    news_items = [news_item(i, 5).model_copy(update={"us_tickers": [t]}) for i, t in enumerate(["VRT", "NVDA", "AAPL"])]
+    snap = MoversSnapshot(movers=[mover("VRT", 14.0), mover("NVDA", 9.0), mover("AAPL", 1.0), mover("MU", 17.0),
+                                  mover("AMD", -14.0)])
+    news_items = [news_item(i, 5).model_copy(update={"us_tickers": [t]})
+                  for i, t in enumerate(["VRT", "NVDA", "AAPL", "AMD"])]
     seen = []
 
     def propose(payload):
         seen.append(payload)
         return {"proposals": [{"us_ticker": "VRT", "theme": "전력인프라", "is_new_theme": False, "kr_candidates": [
             {"name": "LS ELECTRIC", "code": "999999", "link_type": "same_theme", "rationale_ko": "전력기기", "confidence": "medium"},
-            {"name": "없는회사", "code": "123456", "link_type": "supplier", "rationale_ko": "x", "confidence": "low"},
+            {"name": "없는회사", "code": "123456", "link_type": "supplier", "rationale_ko": "x", "confidence": "medium"},
+            {"name": "SK하이닉스", "code": "000660", "link_type": "supplier", "rationale_ko": "x", "confidence": "low"},
         ]}, {"us_ticker": "ZZZ", "theme": "x", "is_new_theme": True, "kr_candidates": []}]}
 
     client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=FakeAPI(propose=propose))
     proposals = theme_mapper.propose(THEME_MAP, snap, NewsAnalysis(news=news_items), LISTING,
-                                     MODELS["theme_proposer"], SETTINGS, client)
-    assert [u["us_ticker"] for u in seen[0]["unmapped"]] == ["VRT"]  # NVDA mapped, AAPL small, MU not in news
+                                     MODELS["theme_proposer"], SETTINGS, client, 0.0)
+    # NVDA mapped, AAPL small, MU not in news, AMD fell
+    assert [u["us_ticker"] for u in seen[0]["unmapped"]] == ["VRT"]
     assert len(proposals) == 1 and proposals[0].news_ids == ["n_0"]
     assert [(c.name, c.code) for c in proposals[0].kr_candidates] == [("LS ELECTRIC", "010120")]
 
@@ -618,10 +629,10 @@ KST_ZONE = ZoneInfo("Asia/Seoul")
 WINDOW = SETTINGS["calendar"]["upcoming_window_kst"]
 
 
-def snapshot(history=(), run_date=RUN_DATE, session=SESSION, cutoff=CUTOFF):
+def snapshot(history=(), run_date=RUN_DATE, session=SESSION, cutoff=CUTOFF, importance=("high", "medium")):
     return calendar_collector.split_events(
         [*calendar_collector.parse_events(FF_EVENTS, FEEDS["calendar"]), *history],
-        run_date, session, cutoff, WINDOW, KST_ZONE,
+        run_date, session, cutoff, WINDOW, KST_ZONE, importance,
     )
 
 
@@ -640,6 +651,8 @@ def test_calendar_splits_released_and_tonight():
     assert result.released[0].actual is None  # the feed has no actuals
     assert [e.event for e in result.upcoming] == ["Unemployment Claims"]  # 22:30 KST tonight
     assert result.status == "ok"
+    high_only = snapshot(importance=tuple(SETTINGS["calendar"]["upcoming_importance"]))
+    assert high_only.upcoming == [] and high_only.released == result.released  # Claims is medium
 
 
 def test_unknown_title_stays_in_english_and_blank_forecast_is_none():
@@ -656,7 +669,7 @@ def test_monday_keeps_friday_releases_from_history(monkeypatch):
     monday = date(2026, 11, 9)
     result = calendar_collector.collect(
         {**FEEDS["calendar"], "fetch_retry_backoff_s": []}, monday, date(2026, 11, 6),
-        datetime(2026, 11, 9, 7, 10, tzinfo=KST), WINDOW, KST_ZONE, [friday],
+        datetime(2026, 11, 9, 7, 10, tzinfo=KST), WINDOW, KST_ZONE, [friday], ["high"],
     )
     assert [e.event for e in result.released] == ["Unemployment Rate"]
 

@@ -146,7 +146,8 @@ v1.1 변경: Codex UI 시안 반영 — `change_bp`, `spark`, `contract`, `requi
   - 화면 필터 매핑: macro_rates → 매크로, theme_earnings → 테마·실적, geopolitics_commodities → 원자재·리스크, other → 전체에만.
 - `importance_label_ko`: 5·4 "관찰 중요도 높음", 3 "업종 확산 관찰". importance ≤ 2는 `news`에 넣지 않는다.
 - `kr_impact.direction`: `positive` | `negative` | `neutral`.
-- `themes[]`: 상승·하락 종목 모두 포함(등락률 절댓값 상위). `kr_stocks`는 `theme_map.yaml`에 있는 것만, 제안은 `data/proposals/`에만.
+- `themes[]`: `settings.themes.benchmark_key` 지수보다 `min_excess_pct`%p 이상 오른 상승 종목만(상승률 순). 지수 데이터가 없으면 빈 배열. `themes_rule_ko`는 적용 규칙 문구(M7 미실행 시 빈 문자열 → 화면 "데이터 없음").
+- `calendar.upcoming[]`: `settings.calendar.upcoming_importance`(기본 high)만. `released[]`는 high·medium 모두. `kr_stocks`는 `theme_map.yaml`에 있는 것만, 제안은 `data/proposals/`에만.
 - `briefing.headline_emphasis`는 `headline_ko` 안에 실제로 포함된 단어여야 한다(M9 검증).
 - `calendar.upcoming`: run_date 당일 KST 18:00 ~ 익일 06:00에 발표되는 USD High/Medium 지표.
 - 원본(`data/raw/`)에는 기사 제목·링크·RSS 요약(≤300자)만 저장.

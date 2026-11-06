@@ -47,8 +47,9 @@ def upcoming_window(run_date: date, window_kst: list[str], tz: ZoneInfo) -> tupl
 
 def split_events(
     events: list[UpcomingEvent], run_date: date, us_session: date, cutoff: datetime,
-    window_kst: list[str], tz: ZoneInfo,
+    window_kst: list[str], tz: ZoneInfo, upcoming_importance: tuple[str, ...] = ("high",),
 ) -> CalendarSnapshot:
+    """released keeps every event (actual backfill); upcoming keeps only index-moving ones."""
     start = datetime(us_session.year, us_session.month, us_session.day, tzinfo=ET)
     up_start, up_end = upcoming_window(run_date, window_kst, tz)
     ordered = sorted(events, key=lambda e: (e.time_utc, e.event))
@@ -56,13 +57,13 @@ def split_events(
         status="ok",
         events=ordered,
         released=[ReleasedEvent(**e.model_dump()) for e in ordered if start <= e.time_utc <= cutoff],
-        upcoming=[e for e in ordered if up_start <= e.time_utc < up_end],
+        upcoming=[e for e in ordered if up_start <= e.time_utc < up_end and e.importance in upcoming_importance],
     )
 
 
 def collect(
     cfg: dict, run_date: date, us_session: date, cutoff: datetime, window_kst: list[str], tz: ZoneInfo,
-    history: list[UpcomingEvent],
+    history: list[UpcomingEvent], upcoming_importance: list[str],
 ) -> CalendarSnapshot:
     """history: events saved by the previous run. The feed only covers this week,
     so on Monday it no longer holds Friday's releases.
@@ -71,4 +72,4 @@ def collect(
     current = parse_events(raw, cfg)
     known = {(e.event, e.time_utc) for e in current}
     merged = current + [e for e in history if (e.event, e.time_utc) not in known]
-    return split_events(merged, run_date, us_session, cutoff, window_kst, tz)
+    return split_events(merged, run_date, us_session, cutoff, window_kst, tz, tuple(upcoming_importance))
