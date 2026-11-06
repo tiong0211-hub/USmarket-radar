@@ -40,3 +40,109 @@ themes:
       - {code: "207940", name: 삼성바이오로직스, link: same_theme, relation_ko: 바이오 업종}
       - {code: "068270", name: 셀트리온, link: same_theme, relation_ko: 바이오 업종}
       - {code: "087010", name: 펩트론, link: same_theme, relation_ko: 비만치료제 테마}
+
+  # ---- Claude 초안 (2026-11-06), 사용자 일괄 승인 ----
+  # 종목코드는 2026-11-06 KRX 상장 목록으로 확인함. 관계 설명은 공개적으로 알려진 수준.
+  - us_ticker: AAPL
+    name: Apple
+    logo: A
+    theme: 스마트폰 부품
+    verified: true
+    kr_stocks:
+      - {code: "011070", name: LG이노텍, link: supplier, relation_ko: 카메라모듈}
+      - {code: "090460", name: 비에이치, link: supplier, relation_ko: FPCB}
+  - us_ticker: TSLA
+    name: Tesla
+    logo: T
+    theme: 전기차 · 2차전지
+    verified: true
+    kr_stocks:
+      - {code: "373220", name: LG에너지솔루션, link: supplier, relation_ko: 배터리 공급}
+      - {code: "066970", name: 엘앤에프, link: same_theme, relation_ko: 양극재 테마}
+  - us_ticker: MU
+    name: Micron
+    logo: MU
+    theme: 메모리 반도체
+    verified: true
+    kr_stocks:
+      - {code: "000660", name: SK하이닉스, link: competitor, relation_ko: 메모리 경쟁}
+      - {code: "005930", name: 삼성전자, link: competitor, relation_ko: 메모리 경쟁}
+  - us_ticker: AMD
+    name: AMD
+    logo: AMD
+    theme: AI 반도체 · HBM
+    verified: true
+    kr_stocks:
+      - {code: "005930", name: 삼성전자, link: supplier, relation_ko: HBM 공급}
+      - {code: "000660", name: SK하이닉스, link: same_theme, relation_ko: HBM 테마}
+  - us_ticker: AMAT
+    name: Applied Materials
+    logo: AM
+    theme: 반도체 장비
+    verified: true
+    kr_stocks:
+      - {code: "240810", name: 원익IPS, link: same_theme, relation_ko: 증착 장비}
+      - {code: "036930", name: 주성엔지니어링, link: same_theme, relation_ko: 증착 장비}
+  - us_ticker: ASML
+    name: ASML ADR
+    logo: AS
+    theme: EUV 노광
+    verified: true
+    kr_stocks:
+      - {code: "101490", name: 에스앤에스텍, link: same_theme, relation_ko: 블랭크마스크}
+      - {code: "036810", name: 에프에스티, link: same_theme, relation_ko: 펠리클}
+  - us_ticker: VRT
+    name: Vertiv
+    logo: V
+    theme: 데이터센터 · 전력 인프라
+    verified: true
+    kr_stocks:
+      - {code: "010120", name: LS ELECTRIC, link: same_theme, relation_ko: 전력기기}
+      - {code: "267260", name: HD현대일렉트릭, link: same_theme, relation_ko: 전력기기}
+  - us_ticker: ETN
+    name: Eaton
+    logo: E
+    theme: 데이터센터 · 전력 인프라
+    verified: true
+    kr_stocks:
+      - {code: "010120", name: LS ELECTRIC, link: same_theme, relation_ko: 배전기기}
+      - {code: "298040", name: 효성중공업, link: same_theme, relation_ko: 전력기기}
+  - us_ticker: CEG
+    name: Constellation Energy
+    logo: C
+    theme: 원전 · 전력
+    verified: true
+    kr_stocks:
+      - {code: "034020", name: 두산에너빌리티, link: same_theme, relation_ko: 원전 기자재}
+      - {code: "052690", name: 한전기술, link: same_theme, relation_ko: 원전 설계}
+  - us_ticker: VST
+    name: Vistra
+    logo: VS
+    theme: 원전 · 전력
+    verified: true
+    kr_stocks:
+      - {code: "034020", name: 두산에너빌리티, link: same_theme, relation_ko: 원전 기자재}
+  - us_ticker: NVO
+    name: Novo Nordisk ADR
+    logo: NV
+    theme: 바이오 · 비만치료제
+    verified: true
+    kr_stocks:
+      - {code: "128940", name: 한미약품, link: same_theme, relation_ko: 비만치료제 테마}
+      - {code: "087010", name: 펩트론, link: same_theme, relation_ko: 비만치료제 테마}
+  - us_ticker: ALB
+    name: Albemarle
+    logo: AL
+    theme: 리튬 · 2차전지 소재
+    verified: true
+    kr_stocks:
+      - {code: "003670", name: 포스코퓨처엠, link: same_theme, relation_ko: 양극재}
+      - {code: "247540", name: 에코프로비엠, link: same_theme, relation_ko: 양극재}
+  - us_ticker: BA
+    name: Boeing
+    logo: B
+    theme: 항공 · 방산
+    verified: true
+    kr_stocks:
+      - {code: "047810", name: 한국항공우주, link: supplier, relation_ko: 기체 부품}
+      - {code: "067390", name: 아스트, link: supplier, relation_ko: 동체 부품}

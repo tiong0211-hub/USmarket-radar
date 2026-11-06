@@ -21,6 +21,7 @@ from radar.llm import client as llm_client
 from radar.llm import briefing_writer, news_analyst, theme_mapper
 from radar.retry import with_retry
 from radar.models import (
+    KrCandidate, ThemeProposal,
     Briefing, BriefingPoint, Calendar, CalendarActual, CalendarSnapshot, DailyReport, FocusChip, Indicator, KrImpact, KrStock,
     MarketSnapshot, ModuleRun, NewsAnalysis, NewsCollection, NewsItem, RawArticle, ReleasedEvent,
     Mover, MoversSnapshot, Sentiment, Theme, UpcomingEvent,
@@ -660,12 +661,62 @@ def test_proposals_only_for_unmapped_news_movers_and_listed_names():
         ]}, {"us_ticker": "ZZZ", "theme": "x", "is_new_theme": True, "kr_candidates": []}]}
 
     client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=FakeAPI(propose=propose))
-    proposals = theme_mapper.propose(THEME_MAP, snap, NewsAnalysis(news=news_items), LISTING,
+    seeds = {"themes": [t for t in THEME_MAP["themes"] if t["us_ticker"] in ("NVDA", "TSM", "GEV", "LLY")]}
+    proposals = theme_mapper.propose(seeds, snap, NewsAnalysis(news=news_items), LISTING,
                                      MODELS["theme_proposer"], SETTINGS, client, 0.0)
     # NVDA mapped, AAPL small, MU not in news, AMD fell
     assert [u["us_ticker"] for u in seen[0]["unmapped"]] == ["VRT"]
     assert len(proposals) == 1 and proposals[0].news_ids == ["n_0"]
     assert [(c.name, c.code) for c in proposals[0].kr_candidates] == [("LS ELECTRIC", "010120")]
+
+
+def auto_entry(ticker, reviewed):
+    from radar.models import AutoMapping
+    return AutoMapping(us_ticker=ticker, name=ticker, theme="T", reviewed=reviewed,
+                       kr_stocks=[KrStock(code="010120", name="LS ELECTRIC", link="same_theme", relation_ko="전력기기")])
+
+
+def test_auto_mapping_is_shown_labeled_and_human_yaml_wins():
+    seeds = {"themes": [t for t in THEME_MAP["themes"] if t["us_ticker"] in ("NVDA", "TSM", "GEV", "LLY")]}
+    snap = MoversSnapshot(movers=[mover("ORCL", 6.0), mover("NVDA", 5.0)])
+    auto = [auto_entry("ORCL", RUN_DATE), auto_entry("NVDA", RUN_DATE)]
+    themes, _, _ = theme_mapper.map_themes(seeds, snap, None, LISTING, 6, 0.0, 1.0, auto)
+    assert [(t.us_ticker, t.mapping_source) for t in themes] == [("ORCL", "auto"), ("NVDA", "theme_map.yaml")]
+    assert themes[0].mapping_reviewed == RUN_DATE
+
+
+def test_stale_auto_mapping_is_rejudged_and_empty_review_removes_it():
+    seeds = {"themes": [t for t in THEME_MAP["themes"] if t["us_ticker"] in ("NVDA", "TSM", "GEV", "LLY")]}
+    snap = MoversSnapshot(movers=[mover("ORCL", 6.0), mover("PLTR", 7.0)])
+    items = [news_item(i, 5).model_copy(update={"us_tickers": [t]}) for i, t in enumerate(["ORCL", "PLTR"])]
+    old, fresh = RUN_DATE - timedelta(days=SETTINGS["themes"]["auto_review_days"]), RUN_DATE - timedelta(days=1)
+    auto = [auto_entry("ORCL", old), auto_entry("PLTR", fresh)]
+    seen = []
+
+    def propose(payload):
+        seen.append(payload)
+        return {"proposals": [{"us_ticker": "ORCL", "theme": "T", "is_new_theme": False, "kr_candidates": []}]}
+
+    client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=FakeAPI(propose=propose))
+    proposals = theme_mapper.propose(seeds, snap, NewsAnalysis(news=items), LISTING, MODELS["theme_proposer"],
+                                     SETTINGS, client, 0.0, auto, RUN_DATE)
+    assert [u["us_ticker"] for u in seen[0]["unmapped"]] == ["ORCL"]  # PLTR was judged yesterday
+    assert seen[0]["unmapped"][0]["current_mapping"]["kr_stocks"][0]["name"] == "LS ELECTRIC"
+    store = theme_mapper.apply_proposals(auto, proposals, RUN_DATE)
+    assert [a.us_ticker for a in store] == ["PLTR"]  # ORCL review found no link: removed
+    added = theme_mapper.apply_proposals([], [ThemeProposal(
+        us_ticker="VRT", name="Vertiv", theme="T", is_new_theme=False, kr_candidates=[KrCandidate(
+            name="LS ELECTRIC", code="010120", link_type="same_theme", relation_ko="전력기기", rationale_ko="x",
+            confidence="high")])], RUN_DATE)
+    assert added[0].kr_stocks[0].relation_ko == "전력기기" and added[0].reviewed == RUN_DATE
+
+
+def test_auto_label_renders(tmp_path):
+    theme = Theme(us_ticker="ORCL", name="Oracle", change_pct=6.0, theme="T", mapping_source="auto",
+                  mapping_reviewed=RUN_DATE, kr_stocks=[KrStock(code="010120", name="LS ELECTRIC", link="same_theme",
+                                                               relation_ko="전력기기")])
+    html = rendered(tmp_path, report_ok().model_copy(update={"themes": [theme]}))
+    assert f"자동 매핑 · {RUN_DATE:%m/%d} 판단" in html
 
 
 def test_issue_body_and_no_token_skips_filing(monkeypatch):

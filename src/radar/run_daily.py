@@ -22,7 +22,7 @@ from radar.collectors import market, movers as movers_collector, news
 from radar.llm import briefing_writer, news_analyst, theme_mapper
 from radar.llm.client import LLMClient, LLMFatal, TokenBudget
 from radar.models import (
-    Briefing, CalendarSnapshot, DailyReport, MarketSnapshot, ModuleRun, MoversSnapshot, NewsAnalysis, NewsCollection, RunLog,
+    AutoMapping, Briefing, CalendarSnapshot, DailyReport, MarketSnapshot, ModuleRun, MoversSnapshot, NewsAnalysis, NewsCollection, RunLog,
     ThemeMapping, UpcomingEvent,
 )
 from radar.render.renderer import render_site
@@ -207,6 +207,9 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
     if movers is None:
         modules["M7"] = ModuleRun(status="SKIPPED", notes=["no movers: M4 failed"])
     else:
+        auto_path = data_dir / "theme_auto.json"
+        auto = ([AutoMapping.model_validate(a) for a in json.loads(auto_path.read_text(encoding="utf-8"))]
+                if auto_path.exists() else [])
         key = settings["themes"]["benchmark_key"]
         benchmark = next((i for i in snapshot.indicators if i.key == key), None) if snapshot else None
 
@@ -218,13 +221,17 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
                 except LLMFatal:  # M6 already records the missing key
                     pass
             return theme_mapper.run(theme_map, movers, analysis, run_date, settings, client,
-                                    models["theme_proposer"], file=not args.dry_run, benchmark=benchmark)
+                                    models["theme_proposer"], file=not args.dry_run, benchmark=benchmark,
+                                    auto=auto)
 
         mapping, modules["M7"] = _module(
             "M7", map_themes, timeouts["M7"], raw_dir / "themes.json",
             lambda m: "DEGRADED" if m.excluded or not m.listing_checked or not m.rule_ko else "SUCCEEDED",
         )
-        if mapping and mapping.proposals:  # for human review only, see docs/orchestration_spec.md §8
+        if mapping:
+            auto_path.write_text(json.dumps([a.model_dump(mode="json") for a in mapping.auto], ensure_ascii=False,
+                                            indent=2), encoding="utf-8")
+        if mapping and mapping.proposals:  # daily record of what the model decided
             path = data_dir / "proposals" / f"{run_date}.json"
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(json.dumps([p.model_dump() for p in mapping.proposals], ensure_ascii=False, indent=2),

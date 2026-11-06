@@ -18,11 +18,12 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["name", "code", "link_type", "rationale_ko", "confidence"],
+              "required": ["name", "code", "link_type", "relation_ko", "rationale_ko", "confidence"],
               "properties": {
                 "name": {"type": "string"},
                 "code": {"type": "string"},
                 "link_type": {"type": "string", "enum": ["supplier", "same_theme", "competitor"]},
+                "relation_ko": {"type": "string"},
                 "rationale_ko": {"type": "string"},
                 "confidence": {"type": "string", "enum": ["low", "medium", "high"]}
               }

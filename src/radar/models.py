@@ -187,13 +187,15 @@ class Theme(BaseModel):
     momentum_ko: str = ""
     related_news_ids: list[str] = []
     kr_stocks: list[KrStock] = []
-    mapping_source: str = "theme_map.yaml"
+    mapping_source: Literal["theme_map.yaml", "auto"] = "theme_map.yaml"
+    mapping_reviewed: date | None = None  # auto mappings: last day the model confirmed the links
 
 
 class KrCandidate(BaseModel):
     name: str
     code: str
     link_type: Literal["supplier", "same_theme", "competitor"]
+    relation_ko: str = ""  # chip label, 8 chars or less
     rationale_ko: str
     confidence: Literal["low", "medium", "high"]
 
@@ -209,10 +211,23 @@ class ThemeProposal(BaseModel):
     news_ids: list[str] = []
 
 
+class AutoMapping(BaseModel):
+    """Model-made mapping, applied without human review (data/theme_auto.json).
+    A theme_map.yaml entry for the same ticker always wins, verified or not.
+    """
+    us_ticker: str
+    name: str
+    theme: str
+    kr_stocks: list[KrStock]
+    reviewed: date
+    news_ids: list[str] = []
+
+
 class ThemeMapping(BaseModel):
     """M7 output (data/raw/<date>/themes.json)."""
     themes: list[Theme]
     proposals: list[ThemeProposal] = []
+    auto: list[AutoMapping] = []  # the whole store after this run; the orchestrator saves it
     listing_checked: bool = False
     rule_ko: str = ""  # display rule, e.g. "S&P 500(−4.52%)보다 1%p 이상 오른 종목만"; empty without a benchmark
     excluded: list[str] = []  # theme_map entries hidden because the KRX listing disagrees

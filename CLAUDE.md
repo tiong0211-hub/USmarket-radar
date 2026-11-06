@@ -31,7 +31,7 @@
 | M4 | Movers | `collectors/movers.py` | 감시 종목·섹터 ETF 등락률 | 테마 해석 |
 | M5 | Sentiment | `analytics/sentiment.py` | VIX → 0~100 점수(규칙) | 뉴스 반영, LLM |
 | M6 | News Analyst | `llm/news_analyst.py` | 분류·중요도·3줄 요약·국장 영향·티커 추출·캘린더 실제치 보완 | 시세 숫자 생성, 국내 수혜주 지정 |
-| M7 | Theme Mapper | `llm/theme_mapper.py` | YAML 기반 매핑, 미매핑 종목 제안 → GitHub Issue | **YAML 직접 수정**, 미승인 매핑 화면 표시 |
+| M7 | Theme Mapper | `llm/theme_mapper.py` | YAML(사람) + 자동 매핑(`data/theme_auto.json`, LLM, 검토 없이 표시·`auto_review_days` 후 재판단), 결정 기록 → GitHub Issue | **YAML 직접 수정**, KRX 목록에 없는 종목·확신도 low 후보 표시 |
 | M8 | Briefing Writer | `llm/briefing_writer.py` | 입력 JSON 근거 종합 코멘트 | 입력에 없는 숫자, **갭 % 수치 예측**, 매수/매도 권유 |
 | M9 | Validator/Assembler | `assemble/` | 6종 체크·스키마 검증·숫자 근거 검증·병합 | 값 수정/보간, 실패 은폐 |
 | M10 | Renderer | `render/` | JSON → 모바일 HTML, 아카이브 | 데이터 가공, 외부 호출 |
@@ -99,6 +99,7 @@
 
 ## 8. 금지 사항
 - 지어낸 데이터·플레이스홀더 숫자를 실제 화면에 게시하지 말 것(시연용 시뮬레이션 기능 넣지 않음).
-- `config/theme_map.yaml`을 파이프라인이 자동 수정하지 말 것(사람 승인 전용).
+- `config/theme_map.yaml`을 파이프라인이 자동 수정하지 말 것(사람 전용, 같은 티커면 자동 매핑보다 항상 우선. `verified: false`로 넣으면 그 티커를 숨김).
+  자동 매핑은 2026-11-07 사용자 결정으로 검토 없이 표시하되 화면에 "자동 매핑 · 판단일" 라벨을 붙인다.
 - 인베스팅닷컴 등 자동수집을 약관으로 금지한 사이트 스크래핑을 기본 경로로 넣지 말 것.
 - 실패를 숨기기 위해 전일 데이터를 오늘 데이터처럼 표시하지 말 것(전일 페이지 유지 시 경고 배너 필수).

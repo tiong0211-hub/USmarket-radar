@@ -173,7 +173,7 @@
               <summary><span class="stock-logo" aria-hidden="true">{{ t.us_ticker[:2] }}</span><div class="stock-name"><strong>{{ t.us_ticker }}</strong><small>{{ t.name }}</small><p>{{ t.theme }}</p></div><div class="stock-return {{ t.change_pct | direction }}">{{ t.change_pct | arrow }} {{ t.change_pct | signed }}%</div><span class="news-chevron" aria-hidden="true">⌄</span></summary>
               <div class="theme-details">
                 {% if t.momentum_ko %}<p>{{ t.momentum_ko }}</p>{% endif %}
-                <div class="mapping-heading">↳ 국내 연결 포인트</div>
+                <div class="mapping-heading">↳ 국내 연결 포인트{% if t.mapping_source == "auto" %}<span>자동 매핑 · {{ t.mapping_reviewed.strftime("%m/%d") }} 판단</span>{% endif %}</div>
                 <div class="mapping-chips">{% for s in t.kr_stocks %}<span class="mapping-chip">{{ s.name }}<span>{{ s.relation_ko }}</span></span>{% endfor %}</div>
               </div>
             </details>

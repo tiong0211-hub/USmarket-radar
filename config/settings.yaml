@@ -43,7 +43,8 @@ movers:
 themes:
   benchmark_key: SPX          # symbols.yaml 지표 key. 이 지수보다 강하게 오른 종목만 표시·제안
   min_excess_pct: 1.0         # 상승률 − 지수 등락률 ≥ 이 값(%p), 그리고 상승률 > 0
-  proposal_min_change_pct: 3.0  # 미매핑 종목이 이만큼 오르고 뉴스에 나와야 제안
+  proposal_min_change_pct: 3.0  # 미매핑 종목이 이만큼 오르고 뉴스에 나와야 자동 매핑 생성
+  auto_review_days: 30        # 자동 매핑(data/theme_auto.json)은 이 기간이 지나면 다시 주도주가 됐을 때 최신 뉴스로 재판단
   proposal_max_tickers: 3
   issue_label: theme-proposal
 news:
