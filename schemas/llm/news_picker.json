@@ -1,8 +1,20 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["ids"],
+  "required": ["picks"],
   "properties": {
-    "ids": {"type": "array", "items": {"type": "string"}}
+    "picks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "move_keys", "same_event_ids"],
+        "properties": {
+          "id": {"type": "string"},
+          "move_keys": {"type": "array", "items": {"type": "string"}},
+          "same_event_ids": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
   }
 }

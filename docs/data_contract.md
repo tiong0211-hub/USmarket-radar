@@ -88,7 +88,9 @@ v1.1 변경: Codex UI 시안 반영 — `change_bp`, `spark`, `contract`, `requi
       "published_at": "2026-11-04T10:40:00Z", "source": "CNBC", "url": "https://...",
       "summary_ko": ["...", "...", "..."],
       "kr_impact": {"direction": "positive", "text": "국내 반도체 밸류체인 개장 후 동반 반응 관찰"},
-      "us_tickers": ["NVDA", "TSM"]
+      "us_tickers": ["NVDA", "TSM"],
+      "moves_ko": ["나스닥100 −5.12%"],
+      "coverage": 4
     }
   ],
 
@@ -151,3 +153,4 @@ v1.1 변경: Codex UI 시안 반영 — `change_bp`, `spark`, `contract`, `requi
 - `briefing.headline_emphasis`는 `headline_ko` 안에 실제로 포함된 단어여야 한다(M9 검증).
 - `calendar.upcoming`: run_date 당일 KST 18:00 ~ 익일 06:00에 발표되는 USD High/Medium 지표.
 - 원본(`data/raw/`)에는 기사 제목·링크·RSS 요약(≤300자)만 저장.
+- `news[]` 선별·순서(M6 picker): gpt-5.5가 같은 사건 기사를 묶고(`coverage` = 묶인 기사의 매체 수) 어젯밤 실제 움직임(M1 지표 + M4 등락률 상위, 선물 제외)과 연결한다(`moves_ko`, 문구는 코드가 M1/M4 숫자로 생성). 순위는 코드: 움직임 연결 여부 → `coverage` → `importance`. picker 실패 시 `importance` 순, `moves_ko=[]`, `coverage=0`.

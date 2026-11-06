@@ -13,7 +13,8 @@ from pydantic import BaseModel
 
 from radar.llm.client import LLMClient, LLMFatal, LLMRetryExhausted, load_prompt
 from radar.models import (
-    CalendarActual, CalendarSnapshot, KrImpact, NewsAnalysis, NewsCollection, NewsItem, RawArticle,
+    CalendarActual, CalendarSnapshot, KrImpact, MarketSnapshot, MoversSnapshot, NewsAnalysis, NewsCollection,
+    NewsItem, RawArticle,
 )
 
 log = logging.getLogger(__name__)
@@ -37,30 +38,77 @@ class _Output(BaseModel):
     calendar_actuals: list[CalendarActual]
 
 
-class _Picks(BaseModel):
-    ids: list[str]
+MINUS = "\u2212"
 
 
-def pick(news: list[NewsItem], cfg: dict, settings: dict, client: LLMClient) -> tuple[list[str], str | None]:
-    """One event per card: batches rate the same story independently, so dedupe across them.
-    Returns ([], note) when picking is unnecessary or fails; M9 then sorts by importance.
+def market_moves(market: MarketSnapshot | None, movers: MoversSnapshot | None, max_movers: int) -> dict[str, str]:
+    """Overnight moves the picker may link stories to: key -> display text from M1/M4 numbers.
+    Futures are left out: they repeat the index and trade after the close.
     """
-    top_n = settings["news"]["top_n_display"]
-    candidates = [n for n in news if n.summary_ko and n.importance >= settings["news"]["min_importance_display"]]
-    if len(candidates) <= top_n:
-        return [], None
-    user = json.dumps({"top_n": top_n, "articles": [
-        {"id": n.id, "title_ko": n.title_ko, "preview_ko": n.preview_ko, "category": n.category,
-         "importance": n.importance, "us_tickers": n.us_tickers}
-        for n in candidates
-    ]}, ensure_ascii=False)
+    moves: dict[str, str] = {}
+    for i in market.indicators if market else []:
+        if i.missing or i.group == "futures":
+            continue
+        change = f"{i.change_bp:+d}bp" if i.change_bp is not None else f"{i.change_pct:+.2f}%"
+        moves[i.key] = f"{i.label} {change}".replace("-", MINUS)
+    biggest = sorted(movers.movers if movers else [], key=lambda m: abs(m.change_pct), reverse=True)[:max_movers]
+    for m in biggest:
+        name = f"{m.name} ETF" if m.kind == "etf" else m.symbol
+        moves[m.symbol] = f"{name} {m.change_pct:+.2f}%".replace("-", MINUS)
+    return moves
+
+
+class _Pick(BaseModel):
+    id: str
+    move_keys: list[str]
+    same_event_ids: list[str]
+
+
+class _Picks(BaseModel):
+    picks: list[_Pick]
+
+
+def pick(
+    news: list[NewsItem], cfg: dict, settings: dict, client: LLMClient, moves: dict[str, str],
+) -> tuple[list[NewsItem], list[str], str | None]:
+    """One card per event, ranked by evidence rather than by the analyst's importance alone:
+    stories that explain an actual overnight move first, then wider coverage, then importance.
+    The model only links stories to moves and groups same-event articles; the ranking is code.
+    Returns (news with moves_ko/coverage set, picked ids, note). Picked is empty on failure;
+    M9 then sorts by importance.
+    """
+    rules = settings["news"]
+    analyzed = [n for n in news if n.summary_ko]
+    eligible = {n.id for n in analyzed if n.importance >= rules["min_importance_display"]}
+    if not eligible:
+        return news, [], None
+    user = json.dumps({
+        "top_n": rules["top_n_display"],
+        "moves": [{"key": k, "text": t} for k, t in moves.items()],
+        "articles": [
+            {"id": n.id, "eligible": n.id in eligible, "title_ko": n.title_ko, "preview_ko": n.preview_ko,
+             "category": n.category, "importance": n.importance, "us_tickers": n.us_tickers, "source": n.source}
+            for n in analyzed
+        ],
+    }, ensure_ascii=False)
     try:
-        ids = client.structured(cfg, "news_picker", load_prompt("news_picker"), user, _Picks.model_validate).ids
+        output = client.structured(cfg, "news_picker", load_prompt("news_picker"), user, _Picks.model_validate)
     except (LLMFatal, LLMRetryExhausted) as exc:
-        return [], f"picker failed: {exc}"
-    known = {n.id for n in candidates}
-    picked = list(dict.fromkeys(i for i in ids if i in known))[:top_n]
-    return picked, None if picked else "picker returned no known ids"
+        return news, [], f"picker failed: {exc}"
+    source_of = {n.id: n.source for n in analyzed}
+    updates: dict[str, dict] = {}
+    for p in output.picks:
+        if p.id not in eligible or p.id in updates:
+            continue
+        group = {p.id, *(i for i in p.same_event_ids if i in source_of)}
+        keys = list(dict.fromkeys(k for k in p.move_keys if k in moves))[:2]
+        updates[p.id] = {"moves_ko": [moves[k] for k in keys], "coverage": len({source_of[i] for i in group})}
+    importance = {n.id: n.importance for n in news}
+    ranked = sorted(updates, key=lambda i: (bool(updates[i]["moves_ko"]), updates[i]["coverage"], importance[i]),
+                    reverse=True)
+    picked = ranked[: rules["top_n_display"]]
+    news = [n.model_copy(update=updates[n.id]) if n.id in updates else n for n in news]
+    return news, picked, None if picked else "picker returned no known ids"
 
 
 def numbers_in(text: str) -> set[str]:
@@ -101,6 +149,7 @@ def skipped(collection: NewsCollection, note: str) -> NewsAnalysis:
 def analyze(
     collection: NewsCollection, calendar: CalendarSnapshot | None, us_session: date,
     cfg: dict, settings: dict, client: LLMClient, picker_cfg: dict | None = None,
+    moves: dict[str, str] | None = None,
 ) -> NewsAnalysis:
     articles = collection.articles
     size = cfg["batch_size"]
@@ -168,7 +217,7 @@ def analyze(
         notes.append(f"{dropped} summaries replaced by titles: numbers not in article")
     picked: list[str] = []
     if picker_cfg and not fatal:
-        picked, note = pick(news, picker_cfg, settings, client)
+        news, picked, note = pick(news, picker_cfg, settings, client, moves or {})
         notes += [note] if note else []
     return NewsAnalysis(
         news=news, calendar_actuals=list(actuals.values()), total_batches=len(batches), picked=picked,

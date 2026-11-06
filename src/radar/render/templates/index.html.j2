@@ -33,7 +33,7 @@
     <section id="overview" class="overview section-anchor" aria-labelledby="page-heading">
       <div class="page-heading">
         <div>
-          <p class="eyebrow">YOUR DAILY MARKET COMPASS · {{ r.run_date.year }}</p>
+          <p class="eyebrow">YOUR DAILY MARKET COMPASS</p>
           <h1 id="page-heading">{{ date_ko }}</h1>
           <p class="intro">미국장 기준일 {{ r.us_session.isoformat() }}</p>
           <div class="heading-links">
@@ -42,7 +42,7 @@
             <a href="{{ prefix }}archive/index.html">아카이브</a>
           </div>
         </div>
-        <div class="edition"><span class="edition-dot"></span> MORNING EDITION<strong>{{ r.generated_at | kst("%H:%M") }} <small>KST</small></strong><span>{{ r.generated_at | kst("%m/%d") }} 생성</span></div>
+        <div class="edition"><span class="edition-dot"></span> 생성 시각<strong>{{ r.generated_at | kst("%H:%M") }} <small>KST</small></strong><span>{{ r.generated_at | kst("%m/%d") }} 생성</span></div>
       </div>
       <div class="top-grid">
         <article class="hero">
@@ -142,6 +142,9 @@
                 <div class="news-meta"><span class="news-category {{ style }}">{{ settings.news.filter_labels.get(n.category, "기타") }}</span><span class="news-impact">{{ n.importance_label_ko }}</span><span class="sample-time">{{ n.published_at | kst("%m/%d %H:%M") }} KST ({{ n.published_at | et }} ET)</span></div>
                 <div class="news-title"><h3>{{ n.title_ko }}</h3><span class="news-chevron" aria-hidden="true">⌄</span></div>
                 {% if n.preview_ko %}<p class="news-preview">{{ n.preview_ko }}</p>{% endif %}
+                {% set why = [(n.moves_ko | join(" · ")) ~ " 관련"] if n.moves_ko else [] %}
+                {% if n.coverage > 1 %}{% set why = why + [n.coverage ~ "개 매체 보도"] %}{% endif %}
+                {% if why %}<p class="news-why">{{ why | join(" · ") }}</p>{% endif %}
               </summary>
               <div class="news-detail">
                 {% if n.summary_ko %}
@@ -247,7 +250,10 @@ const navLinks=[...document.querySelectorAll('.desktop-nav a,.mobile-nav a')];
 const sections=[...document.querySelectorAll('section.section-anchor')];
 let queued=false;
 function updateNavigation(){let current=sections[0].id;for(const section of sections){if(innerWidth>760&&section.id==='calendar')continue;if(section.getBoundingClientRect().top<=160)current=section.id;}navLinks.forEach(link=>{const active=link.hash===`#${current}`;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');});queued=false;}
-addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(updateNavigation);}},{passive:true});
+const mobileNav=document.querySelector('.mobile-nav');
+let lastY=scrollY;
+function toggleMobileNav(){const y=scrollY,atEnd=innerHeight+y>=document.documentElement.scrollHeight-4;if(Math.abs(y-lastY)<8&&!atEnd)return;mobileNav.classList.toggle('nav-hidden',y>lastY&&y>120&&!atEnd);lastY=y;}
+addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(()=>{updateNavigation();toggleMobileNav();});}},{passive:true});
 addEventListener('resize',updateNavigation);
 updateNavigation();
 </script>

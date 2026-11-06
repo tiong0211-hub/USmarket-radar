@@ -55,12 +55,16 @@ def good_item(article_id, title="연준 동결", **overrides):
     }
 
 
+def picked(id, moves=(), same=()):
+    return {"id": id, "move_keys": list(moves), "same_event_ids": list(same)}
+
+
 class FakeAPI:
     """Stands in for openai.OpenAI. `script` maps the call index to an exception or a raw string."""
 
     def __init__(self, respond=None, script=None, pick=None, propose=None):
         self.respond = respond or (lambda articles: {"items": [good_item(a["id"]) for a in articles], "calendar_actuals": []})
-        self.pick = pick or (lambda articles: {"ids": [a["id"] for a in articles]})
+        self.pick = pick or (lambda articles: {"picks": [picked(a["id"]) for a in articles if a["eligible"]]})
         self.propose = propose or (lambda payload: {"proposals": []})
         self.script = script or {}
         self.calls = 0
@@ -812,17 +816,41 @@ def test_calendar_actual_requires_known_event_and_number_in_evidence():
     assert [a.actual for a in good.calendar_actuals] == ["197K"]
 
 
-def test_picker_keeps_known_unique_ids_and_m9_shows_them_in_order():
-    api = FakeAPI(pick=lambda articles: {"ids": ["n_5", "n_404", "n_5", "n_2"]})
+def test_picker_ranks_by_move_then_coverage_and_m9_shows_that_order(tmp_path):
+    """n_5 explains a move; n_2 has wider coverage than n_7. Unknown ids, keys and repeats are dropped."""
+    seen = []
+
+    def pick(articles):
+        seen.append(articles)
+        return {"picks": [picked("n_7"), picked("n_2", same=["n_3", "n_404"]), picked("n_404"),
+                          picked("n_5", moves=["NDX", "BOGUS"]), picked("n_5")]}
+
+    api = FakeAPI(pick=pick)
     client = llm_client.LLMClient(llm_client.TokenBudget(SETTINGS["llm_budget"]), api=api)
-    result = news_analyst.analyze(collection(12), None, SESSION, {**MODELS["news_analyst"], "max_concurrency": 1},
-                                  SETTINGS, client, MODELS["news_picker"])
-    assert result.picked == ["n_5", "n_2"]
+    articles = collection(12)
+    articles = articles.model_copy(update={"articles": [
+        a.model_copy(update={"source": f"S{i}"}) for i, a in enumerate(articles.articles)]})
+    result = news_analyst.analyze(articles, None, SESSION, {**MODELS["news_analyst"], "max_concurrency": 1},
+                                  SETTINGS, client, MODELS["news_picker"], {"NDX": "나스닥100 −5.12%"})
+    assert result.picked == ["n_5", "n_2", "n_7"]
+    by_id = {n.id: n for n in result.news}
+    assert by_id["n_5"].moves_ko == ["나스닥100 −5.12%"] and by_id["n_2"].coverage == 2 and by_id["n_7"].coverage == 1
+    assert all("source" in a and "eligible" in a for a in seen[0])
     picker_request = api.requests[-1]
     assert picker_request["messages"][0]["content"] == (config.ROOT / "prompts/news_picker.md").read_text(encoding="utf-8")
+    assert json.loads(picker_request["messages"][1]["content"])["moves"] == [{"key": "NDX", "text": "나스닥100 −5.12%"}]
     report = assemble(SYMBOLS, RUN_DATE, SESSION, False, MarketSnapshot(indicators=report_ok().indicators),
                       {"M1": ModuleRun(status="SUCCEEDED")}, analysis=result)
-    assert [n.id for n in report.news] == ["n_5", "n_2"]
+    assert [n.id for n in report.news] == ["n_5", "n_2", "n_7"]
+    html = rendered(tmp_path, report)
+    assert "나스닥100 −5.12% 관련" in html and "2개 매체 보도" in html
+
+
+def test_market_moves_skip_futures_and_format_from_data():
+    snap = MarketSnapshot(indicators=report_ok().indicators)
+    moves = news_analyst.market_moves(snap, MoversSnapshot(movers=[mover("NVDA", -9.26), mover("AAPL", 0.5)]), 1)
+    assert "NQ" not in moves and "ES" not in moves and moves["NVDA"] == "NVDA −9.26%"
+    assert "AAPL" not in moves and moves["US10Y"].endswith("bp")
 
 
 def test_picker_failure_falls_back_to_importance_order():

@@ -49,6 +49,7 @@ themes:
 news:
   top_n_display: 8
   min_importance_display: 3
+  picker_movers_max: 6        # 뉴스 선별 근거로 넘길 등락률 상위 종목·ETF 수(지수·금리·환율·VIX는 항상 포함)
   importance_labels: {5: 관찰 중요도 높음, 4: 관찰 중요도 높음, 3: 업종 확산 관찰}
   filter_labels: {macro_rates: 매크로, theme_earnings: 테마·실적, geopolitics_commodities: 원자재·리스크}
 calendar:

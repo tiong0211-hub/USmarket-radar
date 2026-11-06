@@ -183,8 +183,9 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             except LLMFatal as exc:
                 failed = news_analyst.skipped(collection, str(exc))
                 return failed.model_copy(update={"total_batches": 1, "failed_batches": 1})
+            moves = news_analyst.market_moves(snapshot, movers, settings["news"]["picker_movers_max"])
             return news_analyst.analyze(
-                collection, calendar, us_session, models["news_analyst"], settings, client, models["news_picker"]
+                collection, calendar, us_session, models["news_analyst"], settings, client, models["news_picker"], moves
             )
 
         def analysis_status(a: NewsAnalysis) -> str:

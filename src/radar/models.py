@@ -133,6 +133,8 @@ class NewsItem(BaseModel):
     summary_ko: list[str] = []
     kr_impact: KrImpact | None = None
     us_tickers: list[str] = []
+    moves_ko: list[str] = []  # market moves this story explains, e.g. "나스닥100 −5.12%"; text built from M1/M4 data
+    coverage: int = 0  # outlets that covered the same event; 0 = not counted (picker skipped)
 
 
 class RawArticle(BaseModel):
