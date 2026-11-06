@@ -1086,3 +1086,41 @@ def test_number_guard_alone_does_not_degrade_the_run(tmp_path, monkeypatch, fast
     assert run_daily.run(args(), tmp_path) == ("OK", 0)
     log = json.loads((tmp_path / "data/logs/2026-11-05.run.json").read_text(encoding="utf-8"))
     assert any("numbers not in article" in note for note in log["modules"]["M6"]["notes"])
+
+
+# --- M13 Kakao -------------------------------------------------------------
+
+def test_kakao_refreshes_token_and_sends_briefing_link():
+    from urllib.parse import parse_qs
+    from radar.notify import kakao
+    seen = []
+
+    def handler(request):
+        form = {k: v[0] for k, v in parse_qs(request.content.decode()).items()}
+        seen.append((request.url.host, request.headers.get("authorization"), form))
+        if request.url.host == "kauth.kakao.com":
+            return httpx.Response(200, json={"access_token": "AT", "refresh_token": "RT2",
+                                             "refresh_token_expires_in": 10 * 86400})
+        return httpx.Response(200, json={"result_code": 0})
+
+    report = report_ok().model_copy(update={"briefing": Briefing(
+        direction="gap_down", direction_ko="갭하락 우세", confidence="low", headline_ko=["나스닥 급락,", "반도체부터 확인."],
+        headline_emphasis="반도체", points=[], source="m")})
+    env = {"KAKAO_REST_API_KEY": "K ", "KAKAO_REFRESH_TOKEN": "RT", "KAKAO_CLIENT_SECRET": "S"}
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        kakao.send(report, RUN_DATE, "https://x.test/", env, client)
+    token_form = seen[0][2]
+    assert token_form == {"grant_type": "refresh_token", "client_id": "K", "refresh_token": "RT", "client_secret": "S"}
+    assert seen[1][1] == "Bearer AT"
+    template = json.loads(seen[1][2]["template_object"])
+    assert "나스닥 급락, 반도체부터 확인." in template["text"] and "갭하락 우세" in template["text"]
+    assert "10일 후 만료" in template["text"] and template["link"]["mobile_web_url"] == "https://x.test/"
+
+
+def test_kakao_error_keeps_only_status_and_code():
+    from radar.notify import kakao
+    handler = lambda request: httpx.Response(401, json={"error": "invalid_grant", "error_code": "KOE322",
+                                                      "error_description": "secret detail"})
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client, pytest.raises(kakao.KakaoError) as err:
+        kakao.send(None, RUN_DATE, "https://x.test/", {"KAKAO_REST_API_KEY": "K", "KAKAO_REFRESH_TOKEN": "RT"}, client)
+    assert str(err.value) == "HTTP 401 KOE322"

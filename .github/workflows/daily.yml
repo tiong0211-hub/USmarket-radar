@@ -29,6 +29,7 @@ jobs:
     timeout-minutes: 15
     outputs:
       run_status: ${{ steps.run.outputs.run_status }}
+      run_date: ${{ steps.run.outputs.run_date }}
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
@@ -64,6 +65,21 @@ jobs:
     environment: {name: github-pages}
     steps:
       - uses: actions/deploy-pages@v4
+
+  notify:   # M13: KakaoTalk "나에게 보내기". Its failure never affects the page.
+    needs: [build, deploy]
+    if: ${{ !startsWith(needs.build.outputs.run_status, 'SKIPPED') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}   # includes the data commit made by build
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+        run: uv run python -m radar.notify.kakao --date "${{ needs.build.outputs.run_date }}"
 
   flag-failure:
     needs: [build, deploy]
