@@ -1,0 +1,24 @@
+name: check-secrets-pat
+# Manual check that SECRETS_PAT can write secrets (needed to save rotated Kakao tokens)
+# and whether it expires. Writes and deletes a throwaway secret PAT_CHECK. Prints no secret values.
+
+on: workflow_dispatch
+
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+    steps:
+      - name: Expiration
+        run: |
+          expiry=$(gh api -i "repos/$GITHUB_REPOSITORY/actions/secrets/public-key" \
+            | grep -i '^github-authentication-token-expiration:' | cut -d' ' -f2- || true)
+          echo "token expiration: ${expiry:-none (no expiration)}"
+      - name: Write and delete a throwaway secret
+        run: |
+          gh secret set PAT_CHECK -R "$GITHUB_REPOSITORY" --body ok
+          gh secret delete PAT_CHECK -R "$GITHUB_REPOSITORY"
+          echo "secrets write: OK"
