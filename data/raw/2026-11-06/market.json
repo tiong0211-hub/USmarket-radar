@@ -163,10 +163,10 @@
       "symbol": "KRW=X",
       "group": "fx",
       "required": true,
-      "value": 1357.88,
+      "value": 1357.86,
       "unit": "원",
-      "change": 14.98,
-      "change_pct": 1.12,
+      "change": 14.96,
+      "change_pct": 1.11,
       "change_bp": null,
       "contract": null,
       "spark": [
@@ -174,9 +174,9 @@
         1325.52,
         1344.81,
         1342.9,
-        1357.88
+        1357.86
       ],
-      "as_of": "2026-11-05T22:00:00Z",
+      "as_of": "2026-11-05T21:55:00Z",
       "source": "yfinance",
       "stale": false,
       "missing": false,

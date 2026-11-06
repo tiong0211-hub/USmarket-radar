@@ -1,27 +1,6 @@
 {
   "news": [
     {
-      "id": "n_7a8949ac",
-      "category": "macro_rates",
-      "importance": 1,
-      "importance_label_ko": "",
-      "title_ko": "IRS, 2027년 자본 이득세 인상 발표",
-      "preview_ko": "IRS가 2027년 자본 이득세 인상을 발표했다.",
-      "published_at": "2026-11-05T21:46:23Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html",
-      "summary_ko": [
-        "IRS가 2027년 장기 자본 이득세 구간을 인상한다고 발표했다.",
-        "이는 투자자들에게 중요한 정보가 될 수 있다.",
-        "세금 정책 변화가 투자 전략에 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
       "id": "n_6e38a863",
       "category": "other",
       "importance": 3,
@@ -36,113 +15,27 @@
       "us_tickers": []
     },
     {
-      "id": "n_6297ef8c",
-      "category": "macro_rates",
-      "importance": 1,
-      "importance_label_ko": "",
-      "title_ko": "IRS, 2027년 유산 및 증여세 면세 한도 인상",
-      "preview_ko": "IRS가 2027년 유산 및 증여세 면세 한도를 인상했다.",
-      "published_at": "2026-11-05T20:51:57Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/2027-estate-and-gift-tax-exemption-irs-raises-limit.html",
-      "summary_ko": [
-        "IRS가 2027년 유산 및 증여세 면세 한도를 인상한다고 발표했다.",
-        "이는 투자자들에게 중요한 정보가 될 수 있다.",
-        "세금 정책 변화가 투자 전략에 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_97a4eb0c",
-      "category": "macro_rates",
-      "importance": 1,
-      "importance_label_ko": "",
-      "title_ko": "IRS, 2027년 소득세 구간 인상 발표",
-      "preview_ko": "IRS가 2027년 소득세 구간을 인상한다고 발표했다.",
-      "published_at": "2026-11-05T20:37:22Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html",
-      "summary_ko": [
-        "IRS가 2027년 소득세 구간과 표준 공제를 인상한다고 발표했다.",
-        "이는 납세자들에게 중요한 정보가 될 수 있다.",
-        "세금 정책 변화가 투자 전략에 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_0aebc190",
-      "category": "geopolitics_commodities",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "민주당, AI 및 데이터 센터 규제 촉구",
-      "preview_ko": "민주당이 AI 및 데이터 센터에 대한 규제를 요구하고 있다.",
-      "published_at": "2026-11-05T20:17:16Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
-      "summary_ko": [
-        "민주당 승리 후 AI 및 데이터 센터에 대한 규제를 촉구하고 있다.",
-        "이는 기술 산업에 영향을 미칠 수 있다.",
-        "국가 데이터 센터 모라토리엄이 요구되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
       "id": "n_40de2937",
       "category": "theme_earnings",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "중간선거 후 소비자 주식 상승세",
-      "preview_ko": "소비자 주식이 중간선거 이후 상승세를 보이고 있다.",
+      "title_ko": "중간 선거 이후 소비자 주식 상승세",
+      "preview_ko": "소비자 선택 주식들이 중간 선거 이후 상승세를 보이고 있다.",
       "published_at": "2026-11-05T19:37:28Z",
       "source": "CNBC Top News",
       "url": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html",
       "summary_ko": [
-        "소비자 재량주가 중간선거 이후 상승세를 보이고 있다.",
-        "Lennar, SharkNinja, Amazon이 시장 회전의 혜택을 받을 것으로 예상된다.",
-        "이는 소비자 신뢰 회복을 반영한다."
+        "소비자 선택 주식들이 중간 선거 이후 상승세를 보이고 있다.",
+        "Lennar, SharkNinja, Amazon이 시장 회전의 혜택을 받을 것으로 예상된다."
       ],
       "kr_impact": {
         "direction": "positive",
-        "text": "국내 소비재 업종의 반응 여부 확인"
+        "text": "국내 소비재 업종의 동반 상승 여부 관찰."
       },
       "us_tickers": [
         "LEN",
-        "SHARK",
         "AMZN"
       ]
-    },
-    {
-      "id": "n_f3e570bc",
-      "category": "geopolitics_commodities",
-      "importance": 1,
-      "importance_label_ko": "",
-      "title_ko": "미국, 산업 냉장 시스템에 대한 사이버 위협 경고",
-      "preview_ko": "미국이 산업 냉장 시스템에 대한 사이버 위협을 경고했다.",
-      "published_at": "2026-11-05T19:26:35Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/us-warns-of-ongoing-cyber-threat-to-industrial-refrigeration-systems.html",
-      "summary_ko": [
-        "미국이 산업 냉장 시스템에 대한 사이버 위협을 경고했다.",
-        "최근 몇 달 동안 상업용 냉장고와 냉동고에 대한 해킹이 발생했다.",
-        "이는 산업 안전에 대한 우려를 불러일으킨다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
     },
     {
       "id": "n_91ba4ca0",
@@ -159,44 +52,22 @@
       "us_tickers": []
     },
     {
-      "id": "n_7d6ab8f6",
-      "category": "geopolitics_commodities",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "트럼프 에너지 거래, 민주당 조사 예고",
-      "preview_ko": "민주당이 트럼프의 에너지 거래를 조사할 예정이다.",
-      "published_at": "2026-11-05T19:13:06Z",
-      "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html",
-      "summary_ko": [
-        "민주당이 트럼프의 에너지 거래에 대한 조사를 예고했다.",
-        "베네수엘라 개입과 광물 거래가 주요 조사 대상이다.",
-        "이는 에너지 시장에 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
       "id": "n_8adf6a25",
       "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "민주당 승리로 태양광 주식 상승",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "민주당 승리 후 태양광 주식 상승",
       "preview_ko": "민주당의 승리로 태양광 주식이 상승했다.",
       "published_at": "2026-11-05T19:12:12Z",
       "source": "CNBC Top News",
       "url": "https://www.cnbc.com/2026/11/05/solar-stocks-democrats-congress.html",
       "summary_ko": [
-        "민주당이 의회를 장악하면서 태양광 주식이 상승했다.",
-        "하지만 정책, 자금 조달, 데이터 센터 수요는 여전히 위험 요소로 남아 있다.",
-        "First Solar, Sunrun, Enphase가 포함된다."
+        "민주당의 의회 승리 이후 태양광 주식이 상승세를 보이고 있다.",
+        "First Solar, Sunrun, Enphase가 주요 기업으로 언급된다."
       ],
       "kr_impact": {
         "direction": "positive",
-        "text": "국내 태양광 업종의 동반 강세 여부 관찰"
+        "text": "국내 태양광 업종의 동반 강세 여부 관찰."
       },
       "us_tickers": [
         "FSLR",
@@ -205,44 +76,142 @@
       ]
     },
     {
-      "id": "n_bb158f4d",
+      "id": "n_18af17dc",
       "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "바킨, 금리 인상 필요성 언급",
-      "preview_ko": "바킨은 인플레이션 우려를 표명했다.",
-      "published_at": "2026-11-05T16:34:33Z",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "유권자들이 경제 문제를 최우선으로 꼽다",
+      "preview_ko": "유권자들은 경제가 가장 중요한 문제라고 응답했다.",
+      "published_at": "2026-11-05T16:07:59Z",
       "source": "CNBC Top News",
-      "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
       "summary_ko": [
-        "바킨은 CNBC 인터뷰에서 금리 인상 필요성을 언급했다.",
-        "그는 인플레이션에 대한 우려를 표명하며 통화 정책 조정이 필요하다고 말했다.",
-        "금리 인상은 점진적으로 이루어질 것이라고 덧붙였다."
+        "CNBC 유권자 조사에서 경제가 가장 중요한 문제로 꼽혔다.",
+        "민주주의와 이민 문제보다 경제가 우선시되었다.",
+        "유권자들은 트럼프를 경제 문제의 원인으로 지목했다."
       ],
       "kr_impact": {
-        "direction": "negative",
-        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
+        "direction": "neutral",
+        "text": "국내 경제 지표에 대한 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_4d9c1716",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "민주당의 선거 승리가 경제에 미칠 영향은?",
+      "preview_ko": "정권 교체에도 경제의 큰 힘은 변하지 않을 것.",
+      "published_at": "2026-11-05T14:33:32Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
+      "summary_ko": [
+        "민주당의 선거 승리가 미국 경제에 미치는 영향에 대한 분석이다.",
+        "정권이 바뀌어도 경제를 형성하는 큰 힘은 변하지 않을 것이라는 주장이다.",
+        "경제의 기본적인 요소들은 여전히 중요한 역할을 할 것이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 경제 관련 지표의 변동성을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_eeed6c67",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "억만장자들이 민주당의 중간 선거 승리에 대해 언급하다",
+      "preview_ko": "억만장자들의 정치적 지출에 대한 비판이 제기되었다.",
+      "published_at": "2026-11-05T13:44:27Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+      "summary_ko": [
+        "민주당의 중간 선거 승리에 대한 억만장자들의 반응을 다룬 기사이다.",
+        "정치적 지출에 대한 비판이 이어지고 있다.",
+        "선거 결과가 경제에 미치는 영향에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 정치적 상황과 경제 지표의 상관관계를 살펴볼 필요가 있다."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_66fec0a8",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "From tanks to drones: South Korea’s defense firms face a new battlefield test",
+      "preview_ko": "",
+      "published_at": "2026-11-05T08:07:43Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/05/south-korea-defense-weapon-war-stocks-fall.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_3d86b3d1",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "반도체 인재 전쟁: 무역 비밀과 중국 경쟁자들",
+      "preview_ko": "반도체 인재를 둘러싼 경쟁이 치열해지고 있다.",
+      "published_at": "2026-11-05T03:53:18Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html",
+      "summary_ko": [
+        "반도체 인재를 둘러싼 경쟁이 심화되고 있다.",
+        "중국 반도체 제조업체들이 시장에서 입지를 넓히고 있다.",
+        "무역 비밀을 둘러싼 갈등이 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종의 인재 확보 경쟁 상황을 주목해야 한다."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_18a58991",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "에너지 수요 증가, 투자 기회는?",
+      "preview_ko": "에너지 수요 증가가 투자 기회를 제공할 것이라는 전망이다.",
+      "published_at": "2026-11-04T23:23:03Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/05/energy-leaders-investment-outlook.html",
+      "summary_ko": [
+        "에너지 수요 증가가 투자 기회를 제공할 것이라는 분석이 나왔다.",
+        "지정학적 위험과 유가 불확실성이 전망을 흐리고 있다.",
+        "BP와 Baker Hughes CEO의 의견이 담겨 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 에너지 관련 업종의 반응을 살펴볼 필요가 있다."
       },
       "us_tickers": []
     },
     {
       "id": "n_5303a784",
       "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "영국, 이란 전쟁 이후 첫 금리 인상",
-      "preview_ko": "영국 중앙은행이 금리를 인상했다는 소식이다.",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "영국, 금리 인상과 인플레이션 경고",
+      "preview_ko": "영국 중앙은행이 금리를 인상했다.",
       "published_at": "2026-11-05T16:01:47Z",
       "source": "CNBC Markets",
       "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
       "summary_ko": [
         "영국 중앙은행이 금리를 4.25%로 인상했다.",
-        "이는 이란 전쟁 이후 첫 금리 인상이다.",
-        "인플레이션이 5%에 근접할 것이라는 경고가 포함되었다."
+        "인플레이션이 5%에 근접할 것이라는 경고가 나왔다.",
+        "금리 인상이 경제에 미치는 영향이 주목받고 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금리와의 직접적인 연결 고리 약함."
+        "text": "국내 금리 동향에 대한 반응을 확인할 필요가 있다."
       },
       "us_tickers": []
     },
@@ -251,40 +220,40 @@
       "category": "macro_rates",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "미국, 트럼프와의 협상 기회가 시장에 미칠 영향",
-      "preview_ko": "트럼프와의 협상에서 시장 변동성이 우려된다.",
+      "title_ko": "민주당, 트럼프와의 협상 기회가 있을까?",
+      "preview_ko": "다음 부채 한도 대결이 시장에 미칠 영향이 우려된다.",
       "published_at": "2026-11-04T22:46:43Z",
       "source": "CNBC Markets",
       "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
       "summary_ko": [
-        "미국의 다음 부채 한도 협상이 시장에 부정적 영향을 미칠 수 있다.",
-        "정치적 역할 변화가 지출 양보 가능성을 높이고 있다.",
-        "시장 변동성과 디폴트 우려가 커질 수 있다."
+        "민주당이 트럼프와의 협상에서 양보를 이끌어낼 기회가 있을 것이라는 분석이다.",
+        "부채 한도 대결이 시장의 변동성을 초래할 수 있다는 우려가 제기되었다.",
+        "시장 불안정성이 커질 가능성이 있다."
       ],
       "kr_impact": {
-        "direction": "negative",
-        "text": "국내 증시의 변동성 확대 여부를 확인할 필요가 있다."
+        "direction": "neutral",
+        "text": "국내 경제 지표의 변동성을 주의 깊게 살펴봐야 한다."
       },
       "us_tickers": []
     },
     {
       "id": "n_9aac7e00",
       "category": "theme_earnings",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "소매주 매도 증가, 젊은 투자자 반응은?",
-      "preview_ko": "소매주 매도가 급증하고 있다.",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "소매 주식 매도 급증, 젊은 투자자들의 반응은?",
+      "preview_ko": "소매 주식 매도가 COVID 이후 최고 수준에 도달했다.",
       "published_at": "2026-11-05T21:44:00Z",
       "source": "MarketWatch Top Stories",
       "url": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
       "summary_ko": [
-        "소매주 매도가 COVID 이후 최고 수준에 도달했다.",
-        "젊은 투자자들은 매수 기회와 추가 하락 우려로 나뉘고 있다.",
-        "시장이 급락하면서 투자 심리가 시험대에 올랐다."
+        "소매 주식 매도가 COVID 이후 가장 높은 수준에 도달했다.",
+        "젊은 투자자들이 매수 기회를 찾고 있지만, 불안감도 커지고 있다.",
+        "시장 하락이 세대의 투자 본능을 시험하고 있다."
       ],
       "kr_impact": {
-        "direction": "negative",
-        "text": "국내 소매업종의 투자 심리 확인이 필요하다."
+        "direction": "neutral",
+        "text": "국내 소매업종의 주가 반응을 확인해야 한다."
       },
       "us_tickers": []
     },
@@ -318,47 +287,97 @@
     },
     {
       "id": "n_3f14a414",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "주식 시장, 기술주 급락 후 큰 위기인가?",
-      "preview_ko": "기술주 급락이 시장에 미치는 영향이 크다.",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "기술주 급락, 월스트리트의 우려 커져",
+      "preview_ko": "기술주 급락이 주식 시장에 큰 타격을 주고 있다.",
       "published_at": "2026-11-05T21:37:00Z",
       "source": "MarketWatch Top Stories",
       "url": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
       "summary_ko": [
-        "기술주에서의 매도세가 시장에 큰 타격을 주고 있다.",
-        "민주당의 중간 선거 승리 이후 큰 반등이 있었으나, 그 후 급락했다.",
-        "투자자들은 현재 상황을 '큰 위기'로 보고 있다."
+        "기술주에서의 급락이 주식 시장에 큰 피해를 주고 있다.",
+        "이번 주 초 민주당의 중간 선거 승리 이후 주식 시장이 반등했으나, 다시 하락세로 돌아섰다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 미국 시장의 영향을 받는지 확인해야 한다."
+        "text": "국내 기술주가 미국 시장의 영향을 받아 약세로 출발할 가능성을 확인해야 한다."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_bca7b3a8",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff",
+      "preview_ko": "",
+      "published_at": "2026-11-05T22:09:02Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQUFpaGFJZkRGZjdIRGlrOGQ5N2pnY0VxYWtQQ2hKaTNybkRlLWw0WGxkb01sVlhlOTBhX282OEZMSExXQTE2MnhiNmdPRm40STd5LVVBVGJUWk8xSlFZejFTRi0zeGgyQkFoNFNVa2ZaaGpqRzA4OWdLNzRXb0d6VzQzTlM5V1ZSb2JtVjZRd2dpcTZEaE4wU0J6OUQ4N2taWnJpN2xLcU5weG5RNjYtLVdzbzdVZ19peFFDWWF5ak03cjFRWVkwemhSVnRVcENuTlhtUnF5ekdZcUpYYVRFdUN2OFVFdTg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_62eaf02a",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "골드만삭스, 월스트리트의 역사적 폭락 분석",
+      "preview_ko": "골드만삭스가 최근 폭락을 분석했다.",
+      "published_at": "2026-11-05T22:05:59Z",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQejdPQkNLTnFMN2I2VjIxbWQ1RzUwS3FvNWFWdHdjZE93aUpEWWhUVmowRWstVWNaMTZ3WkllSXhyWU1kX3h3TWpNYkpibjNMX0VqdW4tQTM2bzgzR29kU1dabldPdXBabHBiYUhyM2VYQ2syajZuWDgxSmd4Rm9xaS1HMzlYUTJwQzVxU2dhV3NiNzR0Q21ZbXNrQnlCdjFrRDNSLXE5RDVRRm9haXkzX2JtWXdpeVY2U0dFU05DUWJLU1ZTM1dLTjZpOA?oc=5",
+      "summary_ko": [
+        "골드만삭스가 최근의 역사적인 월스트리트 폭락을 분석했다.",
+        "이 분석은 투자자들에게 중요한 통찰을 제공할 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_15fc82a9",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "중간선거 후 주식 시장 하락 원인 분석",
+      "preview_ko": "중간선거 이후 주식 시장의 하락 원인을 분석하고 있다.",
+      "published_at": "2026-11-05T22:05:00Z",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYWFTRUU1VkZtZWV1emczdzJrNDBXWUt4OC1mVm00YUNOY2xReHIwMlNoZF9xbDNTQmJtcUM0aHhsMm01S051UFl5M2Q5U1d6bDUzdDhvQ2hMMl9MdS1ObkhscXhrcWM5aGpWNkhsN1ZuZlltWXVrRkRzTk1SOXVfd2RGVGZnNmZfNVpn?oc=5",
+      "summary_ko": [
+        "중간선거 이후 주식 시장의 하락 원인을 분석하는 기사가 나왔다.",
+        "정치적 불확실성이 시장에 미치는 영향이 주된 내용이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
       },
       "us_tickers": []
     },
     {
       "id": "n_4d8b28b4",
       "category": "theme_earnings",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
       "title_ko": "AI 주식 급락, S&P 500 4.4% 하락",
-      "preview_ko": "AI 주식의 대규모 매도에 월가가 충격을 받았다.",
+      "preview_ko": "AI 주식의 급락이 시장에 큰 영향을 미쳤다.",
       "published_at": "2026-11-05T22:04:00Z",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE43QWpUdHk2WE5qUmd4Z0hjYlBqQ3FGLUVoRlBTbmN4c1JJbWZpeUJmTXhpalZzaTNGMzVweE5wNDRJdnRSMzRENURHaGRIejdqbnVObV9KNEp6R0p0ZnAzT3Y5WGVYejV6VWc0dGZheFVWdG9IVDljNjMxVmVDVGpYZlpwN19nVzBibDdqVmRJOXV3Vk9YdFRiSQ?oc=5",
       "summary_ko": [
-        "AI 주식의 대규모 매도로 S&P 500이 4.4% 하락했다.",
-        "이로 인해 월가가 큰 충격을 받았다.",
-        "AI 관련 주식들이 특히 큰 타격을 입었다."
+        "AI 주식의 급락으로 S&P 500이 4.4% 하락했다.",
+        "이번 하락은 기술주 전반에 부정적인 영향을 미칠 것으로 예상된다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 AI 관련 주식의 시초가 하락 여부를 확인해야 한다."
+        "text": "국내 AI 관련 업종의 반응을 확인할 필요가 있다."
       },
-      "us_tickers": [
-        "NVDA"
-      ]
+      "us_tickers": []
     },
     {
       "id": "n_e7d05f6a",
@@ -366,62 +385,39 @@
       "importance": 3,
       "importance_label_ko": "업종 확산 관찰",
       "title_ko": "인텔 주가 폭락, 2000년 붕괴와 유사",
-      "preview_ko": "인텔 주가가 2000년과 유사한 폭락을 겪고 있다.",
+      "preview_ko": "인텔의 주가 폭락이 과거와 유사하다는 분석이 있다.",
       "published_at": "2026-11-05T21:59:41Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbUtPSFBjWUV3SXZNWmo2UWdfcXBOdlJZYlpaUUZBWUpZNVBIX1VDSEs1aDdvZklUeDJTcWxmMGZhVUY2NVdmd1l2ZTVXUHF3cXp0RWtNWkg4NDc0TjRkdnZnX2NudXg4MEx6WTg0d3N1NXBVMl9FamJWMzVzUE45TzVITVVJU0pOOWU2Qlp5MHlSemNrbUZ0THhWaWJibmhUdlFMbE91ZFBuM1N0dVdJeTcwb1FTSVBxY2dHT28taG8yX3o1R2syRg?oc=5",
       "summary_ko": [
-        "인텔의 주가 폭락이 2000년의 붕괴와 유사하다는 분석이 나왔다.",
-        "이로 인해 투자자들의 우려가 커지고 있다.",
-        "주가 하락이 지속될 가능성에 대한 경고가 제기되고 있다."
+        "인텔의 주가 폭락이 2000년의 붕괴와 유사하다는 분석이 제기되었다.",
+        "이러한 유사성은 투자자들에게 경각심을 불러일으킬 수 있다."
       ],
       "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 반도체 업종에 대한 직접적인 연결 고리가 약하다."
+        "direction": "negative",
+        "text": "국내 반도체 업종의 반응을 확인할 필요가 있다."
       },
       "us_tickers": [
         "INTC"
       ]
     },
     {
-      "id": "n_d8e84bb2",
-      "category": "theme_earnings",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "AI 주식 매도 확산, 투자 전략은?",
-      "preview_ko": "AI 주식 매도가 확산되고 있다.",
-      "published_at": "2026-11-05T21:58:00Z",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
-      "summary_ko": [
-        "AI 주식의 매도가 확산되면서 시장이 불안정해지고 있다.",
-        "투자자들은 새로운 전략을 모색해야 할 시점이다.",
-        "이런 상황에서 어떤 대응이 필요할지 논의되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 AI 관련 주식의 시초가 하락 여부를 확인해야 한다."
-      },
-      "us_tickers": []
-    },
-    {
       "id": "n_ae5207c0",
       "category": "theme_earnings",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥, AI 거래로 최악의 하루 기록",
-      "preview_ko": "나스닥이 AI 거래로 최악의 하루를 기록했다.",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "나스닥, 18개월 만에 최악의 날 기록",
+      "preview_ko": "AI 거래가 큰 타격을 주고 있다.",
       "published_at": "2026-11-05T21:55:00Z",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYjFhMXc4eER6ZHJ0QUFOTFRNT1ltUmpXLWFqdzh5Z1JlZnN0M1ZPVFN1SmdudlE4bGdNVndQUjhvTmRqaGJreWdiUGRCLWVLRjJReWZrR0tWN3E1VWJmR0k0bmM5blQ0M0k5TFdJRl9yWS1Ud2htX0tpSE1pZVdXQUhaRzJCMmFRQnJjdXFuLTZXQkRmYnVzTEtuc2JtekFPNTFucHlzUFBOb0ZvTF9vVGhHWEo3OEdqWWw4aFRtVTRKcHYydkozVmtRMzZSa1NCVGdueHc0RWVGU2daa2pibWxUYUdxa1U?oc=5",
       "summary_ko": [
-        "나스닥이 AI 거래로 인해 18개월 만에 최악의 하루를 맞았다.",
-        "AI 관련 주식의 급락이 주요 원인으로 지목되고 있다.",
-        "이로 인해 시장 전반에 부정적인 영향이 우려된다."
+        "나스닥이 18개월 만에 최악의 날을 기록했다.",
+        "AI 거래가 큰 타격을 주며 시장에 부정적인 영향을 미쳤다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 IT 업종의 시초가 하락 여부를 확인해야 한다."
+        "text": "국내 기술주가 나스닥의 하락을 따라 약세로 출발하는지 확인해야 한다."
       },
       "us_tickers": []
     },
@@ -430,172 +426,125 @@
       "category": "macro_rates",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "주식시장 조정 지속, 전문가 경고",
-      "preview_ko": "전문가가 주식시장 조정이 계속될 것이라고 경고했다.",
+      "title_ko": "주식 시장 조정, 아직 끝나지 않았다",
+      "preview_ko": "전문가가 주식 시장 조정이 계속될 것이라고 경고하고 있다.",
       "published_at": "2026-11-05T21:52:33Z",
       "source": "WDAY Radio",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWmdZRDJ2dC0wdlExc21SUXFBTVJpcUpkQUdacE1jbUdzVEl6N1hnYUhzWHVEMFEzMnBiV2JZVERTV2tCX0FOTkVYU2xjMmJ5NENpcllCeHZfRkk0aUFTUlVObWdJNEktSFNqODk4Rzg4SzlLSm9KdkZ6ZWF1WjdoVnYwY0dZeHczcUZXNDFET1Y4UWVocERmMjlBV3pYVGxDRk82b3RwOEU1Unpac3dzcGp6XzM2NHhURzJ6UkVwenZ1bGVBSUg5VzJDS0JQZlZwb1hRWXYta2ttZEZv?oc=5",
       "summary_ko": [
-        "전문가가 주식시장의 조정이 계속될 것이라고 경고하고 있다.",
-        "선거 이후 잠깐의 반등에도 불구하고 조정이 지속될 가능성이 크다.",
-        "투자자들은 신중한 접근이 필요하다고 강조하고 있다."
+        "전문가가 주식 시장 조정이 아직 끝나지 않았다고 경고하고 있다.",
+        "이번 조정은 투자자들에게 추가적인 불안 요소가 될 수 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 시장에 대한 직접적인 연결 고리가 약하다."
+        "text": "국내 직접 연결 고리 약함."
       },
       "us_tickers": []
     },
     {
-      "id": "n_e7ee8b0d",
-      "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "메이시스, 시장보다 더 큰 하락세",
-      "preview_ko": "메이시스 주가가 시장보다 더 큰 하락세를 보이고 있다.",
-      "published_at": "2026-11-05T21:50:01Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWHNzcXlzY0lVRWE1WjZNVXNHVm5Td3lST0phYVVVYkphWk5CdmJ2bWt6NFd2R0t0SS1iMWRHRlhNejlUTW5Hck1XcTNxY01oUWl4dzM3dmtXTTkzMEx2czNpZ1cteWw1WUtzRGVmbFBrWXVtVm5XVFJQcDF3SkxxN0h6S2xENUhkQ0pXQS1MMjVEb1ctdjN0LXFn?oc=5",
-      "summary_ko": [
-        "메이시스의 주가가 시장보다 더 큰 하락세를 보이고 있다.",
-        "이는 소비자 신뢰도와 관련이 있을 수 있다.",
-        "소매업체들의 실적에 대한 우려가 커지고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 소매업체에 대한 직접적인 연결 고리가 약하다."
-      },
-      "us_tickers": [
-        "M"
-      ]
-    },
-    {
       "id": "n_5559914b",
       "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "엔비디아, AI 칩 매도에 하락",
-      "preview_ko": "엔비디아 주가가 AI 칩 매도로 하락하고 있다.",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아, AI 칩 매각으로 하락",
+      "preview_ko": "선거 불확실성이 시장에 영향을 미치고 있다.",
       "published_at": "2026-11-05T21:49:00Z",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT1pnTjFIckVzNEFtOWRac1FSNC15TktITmxRVlJpTzdFMVdYN2xBOFRhNlRxMEd1dE1lRVptemo2TGFkU1E5VW4wZTFDQlJuVkJxMjNoaHR3Y2FTZ3ZRLWE4NUZxUy1PWlJBZkREeFhlOGdmNllzeXAyVks0eEtKZ0xlQnh3aE43VTdMd2sxM3NSU2d2QmRpQ1dvd3Z0Q1l5Z2FrYndlOFNtYnlNdEthN3V5RHZ6QlpORThnQXdoVDlORGpqMGhKb3BsQmMybHlpcU9NOS1kSUZlSnhkbF9tcnFUNA?oc=5",
       "summary_ko": [
-        "엔비디아의 주가가 AI 칩 매도로 인해 하락하고 있다.",
-        "AI 관련 주식의 전반적인 하락세가 영향을 미치고 있다.",
-        "투자자들은 향후 전망에 대한 우려를 나타내고 있다."
+        "엔비디아가 AI 칩 매각으로 하락세를 보이고 있다.",
+        "미국 증시는 선거 불확실성으로 압박을 받고 있다.",
+        "기술주 전반에 걸쳐 매도세가 확산되고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인."
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
       },
       "us_tickers": [
         "NVDA"
       ]
     },
     {
-      "id": "n_fce975bb",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "중간선거 블루웨이브, 월가에 레드웨이브 촉발",
-      "preview_ko": "중간선거 블루웨이브가 월가에 레드웨이브를 촉발했다.",
-      "published_at": "2026-11-05T21:46:00Z",
-      "source": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDNYbkU1OXF5YUtrZ2NoNWFoQ0huM1ExbGIxdzNnU2RtQ3B3bmQyTUk3bUdMWEZKcjBFQkY3MFlTSGFXcl9xT2VDSnZBQlplNHhZNk01bWdNSUhiQkQ1RlpoMkJ4cmhyeDF2MkNHcmI0NUhrdEJuSFE4MTcwOFkwOXVwdkFIdC1MazY0OTVUVDlnMjZIUEQyQUhVNmhoMnNkSGxldmItWDczVWxZNGJ0T293MjFYQmc?oc=5",
-      "summary_ko": [
-        "중간선거에서 블루웨이브가 발생하면서 월가에 레드웨이브가 촉발됐다.",
-        "정치적 불확실성이 시장에 영향을 미치고 있다.",
-        "투자자들은 향후 정책 변화에 대한 우려를 나타내고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 시장에 대한 직접적인 연결 고리가 약하다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_96b68688",
-      "category": "theme_earnings",
-      "importance": 1,
-      "importance_label_ko": "",
-      "title_ko": "NIO 주가 -3.03% 변동",
-      "preview_ko": "NIO 주가가 -3.03% 변동했다.",
-      "published_at": "2026-11-05T21:45:04Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLWhGQU1kd1I1UDVkZDU3VFBoWGE1ZHdVal9zMkd6RkFLeDZtTGdjb0gwVmJUY0NiOHVpV3JxcmM3U1RJOUhrZVNjbXJvV2tacUNDMnl4bU9tQ2szWGF0MmNBTDhuMzliN3laTThlN3N5RC1Uc3ROcDd0SWhWZHplem5MWWxQd0JKeGdHY3EwZWs1QQ?oc=5",
-      "summary_ko": [
-        "NIO의 주가가 -3.03% 하락했다.",
-        "전반적인 시장 하락세와 관련이 있을 수 있다.",
-        "투자자들은 향후 전망에 대한 우려를 나타내고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 전기차 업종에 대한 직접적인 연결 고리가 약하다."
-      },
-      "us_tickers": [
-        "NIO"
-      ]
-    },
-    {
-      "id": "n_e8c9c263",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "월가, 중간선거 후 최대 시가총액 감소",
-      "preview_ko": "중간선거 후 월가에서 최대 시가총액 감소가 발생했다.",
-      "published_at": "2026-11-05T21:45:00Z",
-      "source": "New York Post",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUG54OFlCVFdLZVBNVWQ5SU5jejFTQ3ozRVpwX2c4Y0FROGpiZmwxNkpJeUltUFVPUmJTbWU4eDNHTEU1RnFRb0thMHFKTEYzZk1VNXRaZXNYRVB2TEU5cVQzRzJVWlNVcjVSdGtmdkNfMnJGcTc0VDlNUmNzVE9yY1U4RE82c2h2S050TkdpTnhiVGpodkg2VkRDa1hzMmJnZTE2V0c1MnRvOG0xcS1MV3VYUjEwU2k0VVM1ak8xYWNxQmkxcEkxUDAyNzJzd0FVZk5yejVtaEI?oc=5",
-      "summary_ko": [
-        "중간선거 후 월가에서 최대 시가총액 감소가 발생했다.",
-        "정치적 불확실성이 시장에 큰 영향을 미치고 있다.",
-        "투자자들은 향후 정책 변화에 대한 우려를 나타내고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 시장에 대한 직접적인 연결 고리가 약하다."
-      },
-      "us_tickers": []
-    },
-    {
       "id": "n_fef30ad3",
-      "category": "macro_rates",
+      "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "미국 증시, 2025년 이후 최악의 하루 기록",
-      "preview_ko": "미국 증시가 2025년 이후 최악의 하루를 기록했다.",
+      "title_ko": "미국 증시, 2025년 이후 최악의 날 기록",
+      "preview_ko": "기술주 매도세가 시장을 강타하고 있다.",
       "published_at": "2026-11-05T21:41:42Z",
       "source": "Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWpXOEpSbWNpWDRRLWNJRTlWNFRPX25idkI3alNPX21vNVduUC1mTjlXbF9hbmctM25kTUppNmdIRFhrazE3VXFTblVYV09TcnFDNDZmVkQwTldpYnVRZmdaaXQ1RmExdExMMTZMd0IxSUpxdlJLc3IwU2J5czkwLW1kLWs?oc=5",
       "summary_ko": [
-        "미국 증시가 2025년 이후 최악의 하루를 기록했다.",
-        "기술주 중심의 매도세가 심화되며 큰 하락폭을 보였다.",
-        "투자자들은 안전 자산으로 이동하고 있다."
+        "미국 증시는 2025년 이후 최악의 날을 기록했다.",
+        "기술주가 큰 폭으로 하락하며 시장에 부정적인 영향을 미쳤다.",
+        "투자자들은 불확실한 정치적 상황에 우려를 표하고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 미국 증시 하락에 따라 약세로 출발하는지 확인"
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_27f0f88a",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "기술주 대폭락, 2.5조 달러 손실",
+      "preview_ko": "기술주가 역사적인 하락세를 보이고 있다.",
+      "published_at": "2026-11-05T21:41:00Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVjhNSkxWaHNDNkkxUE51NVdvLXhyVzJ5ZGRmUHNrSUlNcG05TXRBZ2JVV3RPWk45RUxySTlZME9BRklSTFBTTzJUX294eHF5MXRkeGRMejl4SmY2MFJCckxRcmZnWXVoYnV5ang4VDZmenBqbU1Ld0NKSWIyMGdDOUxZaVhUWFVfRzg1eHlwbnk3OENMVFVybkVxc3k0b1ExMlY0WVdoSGFSdGFPclpsdWFTUHdfaVN6cnJaRUo4WFVEUQ?oc=5",
+      "summary_ko": [
+        "미국 기술주가 역사적인 하락세를 기록하며 2.5조 달러의 손실을 입었다.",
+        "투자자들은 AI 관련 주식의 급락에 충격을 받고 있다.",
+        "시장 전반에 걸쳐 매도세가 확산되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
       "id": "n_54c0dcff",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "나스닥 조정: 역사적으로 다음에 일어나는 일",
-      "preview_ko": "나스닥 조정이 역사적으로 어떤 결과를 가져오는지 분석.",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "나스닥 조정, 다음에 일어날 일은?",
+      "preview_ko": "역사적으로 조정 후의 패턴을 분석한다.",
       "published_at": "2026-11-05T21:39:01Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdTk3NXpmbE1wWUNkNmFyUUtpeUhBYVNjT2tOY1hhRHJBTG1kOUlpRy16UGRRV1hDM25pX2ItSlJMWl9wZXlLbEhTMUFoZnEzcFdSamJjeGlrZElqZUpmM2R1U1VoWFlCRkxDRzNzcGN6ODJIcEZGSDJxWmoxNl9sX2ktRU9EQjNMWEJRZUhLdDhRME04RVd4SFRMRDB3SHJYOUxqazFB?oc=5",
       "summary_ko": [
-        "나스닥 조정에 대한 역사적 분석이 이루어졌다.",
-        "과거 조정 이후의 시장 반응에 대한 논의가 포함되어 있다.",
-        "투자자들은 향후 시장 회복 가능성을 주목하고 있다."
+        "나스닥이 조정 국면에 접어들었다.",
+        "역사적으로 조정 후의 시장 패턴을 분석하는 기사가 나왔다.",
+        "투자자들은 향후 시장 회복 여부에 주목하고 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
+        "text": "국내 증시의 조정 여부를 관찰"
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_55aa096e",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "나스닥, 대형 기술주 매도에 타격",
+      "preview_ko": "대형 기술주가 나스닥을 강타하고 있다.",
+      "published_at": "2026-11-05T21:34:00Z",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWxmSXZZZ3ZDSUdqS21kaTIzNmhjeW5qSjVSSFdHOE5kdW1uaFVMbXBSTFN4czlYOWFGSmx2UjZ0ZVpLbmZ5LUtUU3NkZWpQX04zOXZWZ2E3SG4tdVowenp6ZUhMTTZNZUhfS3VCQ2xiUmU5cWRfbTZyOU9DbWRIdVJBOVBSZV9CN0ZwS1dKVGtaQzhFamVmZDBBWXNOcEFaVXlnUlI0RlZYMG9ObWd4dUp3?oc=5",
+      "summary_ko": [
+        "나스닥이 대형 기술주 매도에 큰 타격을 입었다.",
+        "투자자들은 시장의 불확실성에 우려하고 있다.",
+        "기술주 전반에 걸쳐 하락세가 지속되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 나스닥 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
@@ -604,357 +553,128 @@
       "category": "theme_earnings",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "반도체 주식, 월가에서 최악의 날 기록",
-      "preview_ko": "반도체 주식이 월가에서 최악의 날을 맞았다.",
+      "title_ko": "칩주, 역사적 하락세 기록",
+      "preview_ko": "월스트리트가 최악의 날을 맞이했다.",
       "published_at": "2026-11-05T21:32:04Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSnFhNFdIOTE3LXJ6YXVzS2xaQTY2NGNQT2Q2dGJBTDlkdFZIRjVkNFcwcU5KNkdNWUY2YW1oc3RYM1BLWUxOZG01bkdNeVhzNUFCeUxXc2paamRRUHMtRV9keGs0ZnNYSVpiWU52eV9YSUpSRkJpUlVXM1Y1d2pmYlZIWXZ3NWdIUmlYdjJfWmhNM19MdDF3SWNKb3RhVHhLdUl1Vjh6aGJVU3ZfR0U5eDVGbXpZZnd0WklGczFXUmRtQlNSMXphMkZ6OHZJbW9wYzNB?oc=5",
       "summary_ko": [
-        "반도체 주식이 큰 폭으로 하락하며 월가에서 최악의 날을 기록했다.",
-        "투자자들은 반도체 업종의 향후 전망에 우려를 표하고 있다.",
-        "이로 인해 관련 주식의 하락세가 예상된다."
+        "칩주가 월스트리트에서 역사적인 하락세를 기록했다.",
+        "투자자들은 기술주 매도에 따른 충격을 받고 있다.",
+        "시장 전반에 걸쳐 불안감이 확산되고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 반도체 대형주가 미국 반도체 주식 하락을 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_cc6f429e",
-      "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "엔비디아 주식, 약세장 진입: 매수 기회로 여겨져",
-      "preview_ko": "엔비디아 주식이 약세장에 진입하며 매수 기회로 여겨진다.",
-      "published_at": "2026-11-05T21:31:00Z",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXZ1U0FxTEdtZUJON2Rzczd0WkFWU05vYUIxd1lqdUxILWFQOEFhV1BzaDVGd01MMERHSHIzMGRhTlJ1QW8tWV9tZElvUkFjN3dydVgzekU2Ymc5ZklLRzJaRTF3THZSU183RmlqMDVtNmk2X0h1M1ktZWM4T0pRVFBqcTFua2R5X0VHdG9aTExacW5nV0ZLR0w2VTJJVi0wUWZLS1RDQmtINklMYWFBYy16cWRyOXU3OERQbjlUQ0Z6WmR4d0l6MGVpdw?oc=5",
-      "summary_ko": [
-        "엔비디아 주식이 약세장에 진입했다.",
-        "일부 투자자들은 이를 매수 기회로 보고 있다.",
-        "향후 주가 회복 여부가 주목받고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": [
-        "NVDA"
-      ]
-    },
-    {
-      "id": "n_41b9ede2",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥, AI 규제 우려로 19개월 만에 최대 하락",
-      "preview_ko": "AI 규제 우려로 나스닥이 19개월 만에 최대 하락폭을 기록했다.",
-      "published_at": "2026-11-05T21:30:09Z",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-      "summary_ko": [
-        "AI 규제 우려가 나스닥에 큰 영향을 미쳤다.",
-        "19개월 만에 최대 하락폭을 기록하며 투자자들의 우려가 커졌다.",
-        "이로 인해 기술주 전반에 부정적인 영향을 미칠 것으로 예상된다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 IT 업종이 미국 나스닥 하락을 따라 약세로 출발하는지 확인"
+        "text": "국내 반도체 업종이 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
       "id": "n_76f8c762",
-      "category": "macro_rates",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "소매 투자자, 코로나 이후 가장 많은 주식 매도",
-      "preview_ko": "소매 투자자들이 코로나 이후 가장 많은 주식을 매도했다.",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "소매 투자자, 주식 대량 매도",
+      "preview_ko": "코로나 이후 가장 큰 매도세를 기록했다.",
       "published_at": "2026-11-05T21:20:03Z",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXRrZWVpTXNZUEo1bC1FcktER1pUWWhHWi15b2QyeDd5aDZLR3RzYUNiY2hMNEtuamczaUI1OTZDNlZWY1ppZldQRTJVVkV2TXVQZlF5VF9iMVQ5cjdIdTZHVlN4VzRROXdoVWFscXJVSEtnN0NHWjQ5NUttZ28xZGRKMWRTeS1uS3pOblJ6NG44cTM0eUZGUE1DYU8tUS1Jend3VnRJLUJFWjDSAbABQVVfeXFMUHVGVWhzTUxabDdwS2RKRVdoUU9EclBnLUZpeXpVdFdabjNHUDRWM0p4ZGJLR3Q1VWUyeGF1VWZXVjBlS2RwcmZNTVB2V3FYaGRLdU05aTJHVnJOaTgzdU1QcHRPaTRkUHFrTHZhcUtjYjExT2FUQkdfczFwSXN6bFFqQkt6YzhnLUE3SW9EdUVMS0pNeGkyci1waG5qcnB4aFJ1MDF4czR6OWNfY1RlcEU?oc=5",
       "summary_ko": [
-        "소매 투자자들이 코로나 이후 가장 많은 주식을 매도했다.",
-        "이로 인해 시장의 불안감이 더욱 커지고 있다.",
-        "투자자들은 향후 시장 회복 가능성에 대해 우려하고 있다."
+        "소매 투자자들이 하루에 가장 많은 주식을 매도했다.",
+        "코로나 이후 가장 큰 매도세로 시장에 충격을 주고 있다.",
+        "투자자들은 불확실한 시장 상황에 우려하고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 소형주가 미국 소매 투자자 매도 영향을 받아 약세로 출발하는지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_e0a7a7b5",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "안전자산으로 이동하는 트레이더들",
-      "preview_ko": "트레이더들이 안전 자산으로 이동하고 있다.",
-      "published_at": "2026-11-05T21:19:00Z",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMElhUGVBRThETlplSjM2LTdKWFdqWlRwUDEtTmQxLTFldTU3QW5CeEV4QzJQUHZsbmU2SEVpVm1YV1ZGNGM3MlNGc0wzMGQ0S3FyX3hrSTlfRmJEZHpsVXhTUWNwZXZ4N0djR0kyU3BKM1NiYlNnMnRCWVlyZkJ3dnN0YTd5M1RYb2huZGtfOVpHbkFHandrbnljVnE2WlZwcUM2WlNsVF9vMmRNa3lSNWoxWGs1VXFZWFRJcQ?oc=5",
-      "summary_ko": [
-        "트레이더들이 기술주 매도세 심화로 안전 자산으로 이동하고 있다.",
-        "국채 시장으로의 자금 이동이 두드러진다.",
-        "이로 인해 금리가 영향을 받을 가능성이 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
+        "text": "국내 소매 투자자들의 매도세가 시장에 미치는 영향을 확인"
       },
       "us_tickers": []
     },
     {
       "id": "n_25b8d06b",
-      "category": "macro_rates",
+      "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥, 1,421 포인트 급락: 오늘의 주식 시장",
-      "preview_ko": "나스닥이 1,421 포인트 급락하며 큰 하락폭을 기록했다.",
+      "title_ko": "나스닥 1,421포인트 하락, 다우 1,833포인트 하락",
+      "preview_ko": "기술주 매도세가 시장을 강타하고 있다.",
       "published_at": "2026-11-05T21:15:03Z",
       "source": "Kiplinger",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc200UW9CZmxpNUo0R3hjV0FYak0tX2Itazl1VjJEMVkwS2gwMTR4S0hMZVpQc292SWVMNlZFdmh6bzNObFh4LUVxX2VhSThIOVUzX3IxTFo3X2Y1REpkTXlyRXpIdEYzd3lvdmZESk9tWEIzUk1sV1RJcTRUSkRUOFNlQWVaaFRRM3IxRmFLMXlGUGRFb2RYOXlZU2dmN1JQZVkwOTVUTVF3bmZlOTBF?oc=5",
       "summary_ko": [
-        "나스닥이 1,421 포인트 급락하며 큰 하락폭을 기록했다.",
-        "다우지수도 1,833 포인트 하락했다.",
-        "기술주 중심의 매도세가 심화되고 있다."
+        "나스닥이 1,421포인트, 다우가 1,833포인트 하락했다.",
+        "기술주 매도세가 시장에 큰 영향을 미쳤다.",
+        "투자자들은 불확실한 정치적 상황에 우려하고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 미국 나스닥 하락을 따라 약세로 출발하는지 확인"
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
-      "id": "n_39b4b763",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "다우지수 1,800포인트 급락",
-      "preview_ko": "다우지수가 1,800포인트 하락하며 마감했다.",
-      "published_at": "2026-11-05T21:13:43Z",
-      "source": "6abc Philadelphia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjQyeEFvNkNJcjRrM0N3R1M0ckxXVUtpZmRxLU5tZ0UzX1Y2dlJwRk9iY3JFcG1leTA5aWVEZ3owVzJaTlRjSE1pVmtKZURqTWh4X3AyeE81cnRWcldoOTFieEFjYXAxbnhOYmNCcVdrUWhLVnFHTVlBQ2xIZGszVVpzWFVmUzhSbmdHT3M2S1pwTkZMaWtMeGVwQkU2Mk4zbUZ1Rzlmd2pVc0JjVk9tNlJ3?oc=5",
-      "summary_ko": [
-        "다우지수가 1,800포인트 하락하며 마감했다.",
-        "나스닥은 조정 구간에 진입했다.",
-        "중간선거 결과 반등분이 모두 사라졌다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 증시가 다우지수 급락에 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": [
-        "DOW"
-      ]
-    },
-    {
       "id": "n_467f3966",
       "category": "theme_earnings",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "반도체 주식 급락, 퀄컴·마이크론 등 하락",
-      "preview_ko": "반도체 주식들이 급락하며 시장을 이끌었다.",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "퀄컴, 마이크론, AMD 주가 하락",
+      "preview_ko": "반도체 주식이 하락세를 보이고 있다.",
       "published_at": "2026-11-05T21:07:41Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
       "summary_ko": [
-        "퀄컴, 마이크론, 샌디스크, AMD 주식이 급락했다.",
-        "반도체 섹터가 전반적으로 하락세를 보였다.",
-        "투자자들이 우려를 표명하고 있다."
+        "퀄컴, 마이크론, 샌디스크, AMD 주식이 하락했다.",
+        "반도체 섹터 전체가 부진한 모습을 보이고 있다.",
+        "투자자들의 우려가 커지고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 반도체 대형주가 미국 반도체 주식 급락을 따라 약세로 출발하는지 확인"
+        "text": "국내 반도체 대형주가 미국 반도체 주가 하락을 따라 약세로 출발하는지 확인"
       },
       "us_tickers": [
         "QCOM",
         "MU",
-        "SNDK",
         "AMD"
       ]
     },
     {
       "id": "n_2feebb94",
       "category": "theme_earnings",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
       "title_ko": "AI 주식 급락, 데이터 센터 둔화 우려",
-      "preview_ko": "AI 주식들이 급락하며 투자자들이 패닉에 빠졌다.",
+      "preview_ko": "AI 관련 주식이 급락하고 있다.",
       "published_at": "2026-11-05T21:06:00Z",
       "source": "Business Insider",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWEMycnVBc3MxVDFJNlJrNXpCakVwWTE2WjJBekgzb2F5ejNHb3c0eGZ0bld3aG1BVkR1ejJZTk1ZNnd4d2JXdGZfNTl1VUFqeVR4ek53ODhXdEpENjdrM1NscUNIbi1YdG9IaHR5YTZmaVB3SEtHcU9UMUt2YTBJRk9NTDRGaks0bXlVdi1WUnhqanFzR0QzNGQzVDYxRlpCdlhCMWlMaG0?oc=5",
       "summary_ko": [
-        "AI 주식들이 데이터 센터 둔화 우려로 급락했다.",
+        "AI 주식들이 데이터 센터 둔화 우려로 급락하고 있다.",
         "투자자들이 패닉 상태에 빠졌다.",
-        "AI 관련 주식들이 전반적으로 하락세를 보였다."
+        "AI 섹터에 대한 신뢰가 흔들리고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 AI 관련 주식이 미국 AI 주식 급락을 따라 약세로 출발하는지 확인"
+        "text": "국내 AI 관련 주식이 미국 시장의 영향을 받아 하락하는지 확인"
       },
       "us_tickers": []
-    },
-    {
-      "id": "n_322e28ca",
-      "category": "macro_rates",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "AI 우려 속 주식 급락",
-      "preview_ko": "AI 우려로 주식 시장이 급락했다.",
-      "published_at": "2026-11-05T21:04:00Z",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfZWtJek5qTVdtSVBZVExRdFlrbDlSNVI0ZXl3N2hMQmFKc2pES0JTYTVWNXBCOU9qSS1rQS1jZnF1SmNIbnBfVFgxa1hvNkhaYWE4T2QtQ3VHSC1XaGlBRThYQVUwbk5aUWJ0YnFR?oc=5",
-      "summary_ko": [
-        "AI 우려로 인해 주식 시장이 급락했다.",
-        "중간선거 이후 투자 심리가 악화되었다.",
-        "전반적인 시장 하락세가 지속되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 증시가 미국 주식 시장의 급락을 반영해 약세로 출발하는지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_878457d1",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "스페이스X·테슬라 주식 하락, 민주당 승리 우려",
-      "preview_ko": "민주당의 승리로 스페이스X와 테슬라 주식이 하락했다.",
-      "published_at": "2026-11-05T21:03:24Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ3FPNFVNS29WSDJ6eFFqa3kwc0p0ZUZUbm5rbUp6M3poX3ZYNjFwMVR3bXJ6Tko4c0Y2ZUpGZ202LU1pQlc0cEVvQS01Z0RUMVVxemNzcGlIcmdaTkdIWjlrYlpaUFRxYXA5aTBPVWRCRkdSR3VsVjkwREJxLUt0elduNmdESVFQbWphX1RTQ3p1YkdsV1pneXAtYmlCcVgzZUFobGhZMmZxTl9CV1FVSEY0Z1k5dEk5M2U3d0hFQXI3RktJS1FKT2pYdjBFei1maGpjTEFNdjRmWTRIUGxLaVRmN2YtTlE?oc=5",
-      "summary_ko": [
-        "민주당의 승리로 스페이스X와 테슬라 주식이 하락했다.",
-        "합병 가능성에 대한 우려가 커지고 있다.",
-        "AI 구축에 대한 불확실성이 증가하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 전기차 및 우주항공 관련 주식이 미국 주식 급락을 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": [
-        "TSLA"
-      ]
     },
     {
       "id": "n_e7d42075",
-      "category": "other",
-      "importance": 3,
-      "importance_label_ko": "요약 없음",
-      "title_ko": "Retail traders dump $358 million in stocks in biggest selling day since 2020",
-      "preview_ko": "",
-      "published_at": "2026-11-05T20:59:24Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3NWN3NZWlBmeDk4UEk4UlhfSF9ZZWZIcXZPV1RyZ0Z3Zms2eGlraEhTVnljWVJsZGk1RlpxajB4Rkw5N3FJTXF0a1Bub0NxVk9YLXk3eXdFdFBQWEw3a0dmdHFKX2ZfZl9pS2RqUHNuY3FLa05GWjMzOFk3bE9hYlVXaTdXN0MwdWJOR1NtZHg5RmZEdC1tZ1l0MXFOS2VFZmV1cXRhZE1lT0FDLU1TRTNwYm5BOGlEWEs4VUpvZlVISE4zV1hOYUh0Qjc?oc=5",
-      "summary_ko": [],
-      "kr_impact": null,
-      "us_tickers": []
-    },
-    {
-      "id": "n_10c48546",
-      "category": "other",
-      "importance": 3,
-      "importance_label_ko": "요약 없음",
-      "title_ko": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap",
-      "preview_ko": "",
-      "published_at": "2026-11-05T20:53:39Z",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
-      "summary_ko": [],
-      "kr_impact": null,
-      "us_tickers": []
-    },
-    {
-      "id": "n_de40eb6d",
-      "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "선거 후 AI 거래에 대한 불안감",
-      "preview_ko": "선거 후 AI 거래에 대한 불안감이 커졌다.",
-      "published_at": "2026-11-05T20:33:35Z",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2VjNILVhoeXUta3B0TVVTTkl2RTJ6OFBzbnZrSTJGQmFSd29PMFRmUzk0RTU0ei1wUEozRnlCNHlrbXBYTzQ3ZXg1NWtLYy1Bcnd2YUc4VG5mNWxIcGpxemNzcG1MWnUwUzc0?oc=5",
-      "summary_ko": [
-        "선거 후 AI 거래에 대한 불안감이 커졌다.",
-        "기술주가 전반적으로 하락세를 보이고 있다.",
-        "투자자들이 우려를 표명하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 기술주가 미국 기술주 급락을 따라 약세로 출발하는지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_1b9e397b",
-      "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "AI 급락으로 헤지펀드 대규모 정리",
-      "preview_ko": "AI 관련 주식이 급락하며 헤지펀드가 흔들리고 있다.",
-      "published_at": "2026-11-05T20:01:08Z",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU29ZRlYxWU1pYVlhaG96WWpHZmtkTkRReTZnRWVMbG5JWVllVlAyREstb3Q0WWdPR3d4aUI1d3JyS0xWOVFlVHJSV3haN1ZUdU4tTUdaS3Z6dVgxOV93UnE3WTNBM285aW00ODhoWnh4TmVJeHJzWUwxaWd2UjVFYm8tQzRteE84TlZBZ3dGZHpXS3ZHRk1ta09jcEFPVHR5UkczOWRLMHl4TlpMcXlzcw?oc=5",
-      "summary_ko": [
-        "AI 기술 관련 주식이 급락하고 있다.",
-        "이로 인해 여러 헤지펀드가 큰 타격을 받고 있다.",
-        "시장 전반에 불안감이 커지고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 AI 관련 주식의 반응을 확인할 필요가 있다."
-      },
-      "us_tickers": [
-        "NVDA",
-        "AMD"
-      ]
-    },
-    {
-      "id": "n_e97241c4",
-      "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "AMD 주가 하락 원인 분석",
-      "preview_ko": "AMD 주가가 하락하는 이유를 분석하고 있다.",
-      "published_at": "2026-11-05T20:00:01Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNXZ4VnRfcjRYcWczOE4wbHBNMFF5ckJKa3J4WlBnM3Q1NkxxZlVITUVld0hVRU0zMmpscTBuSHlNLW5tNm40NUduQThTT1VvRV9HaEotNnhXRnJnQ3dyOGEtSVpweXNmOXNjQlcxcktOR0h1ZWVKVGxfVjBBcE5ZTUNraDkwa0JHc0pHNHQ0cnVrU1E?oc=5",
-      "summary_ko": [
-        "AMD 주가가 하락세를 보이고 있다.",
-        "시장 전반의 불안감이 영향을 미친 것으로 보인다.",
-        "AI 관련 주식의 부진이 주요 원인으로 지목된다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 반도체 업종의 동향을 주의 깊게 살펴야 한다."
-      },
-      "us_tickers": [
-        "AMD"
-      ]
-    },
-    {
-      "id": "n_d4d506a7",
       "category": "macro_rates",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "주식 시장, 선거 이후 급락",
-      "preview_ko": "선거 이후 주식 시장이 급락하고 있다.",
-      "published_at": "2026-11-05T19:08:01Z",
-      "source": "TheStreet",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT1hPVjc3MUJ3RFR4M1J1T3BEZ01KYmRzVzlpNHIxZEZMcVdaNHlwelMxdU9EejZoakdEU2JZNFVOS2ZrT3hCV1p0dXljVDB6VXBQdTlCYlFJbUhBR19MM3ZCal80dHg1Ykg4YmdKTTgzNUpaaWhhdm5LNGpJRVVhV1BDblFQUQ?oc=5",
+      "title_ko": "소매 투자자, 358억 달러 규모 주식 매도",
+      "preview_ko": "소매 투자자들이 대규모 매도를 단행했다.",
+      "published_at": "2026-11-05T20:59:24Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3NWN3NZWlBmeDk4UEk4UlhfSF9ZZWZIcXZPV1RyZ0Z3Zms2eGlraEhTVnljWVJsZGk1RlpxajB4Rkw5N3FJTXF0a1Bub0NxVk9YLXk3eXdFdFBQWEw3a0dmdHFKX2ZfZl9pS2RqUHNuY3FLa05GWjMzOFk3bE9hYlVXaTdXN0MwdWJOR1NtZHg5RmZEdC1tZ1l0MXFOS2VFZmV1cXRhZE1lT0FDLU1TRTNwYm5BOGlEWEs4VUpvZlVISE4zV1hOYUh0Qjc?oc=5",
       "summary_ko": [
-        "주식 시장이 선거 이후 급락세를 보이고 있다.",
-        "투자자들의 불안감이 커지고 있는 상황이다.",
-        "AI 관련 주식의 하락이 주요 원인으로 지목된다."
+        "소매 투자자들이 358억 달러 규모의 주식을 매도했다.",
+        "2020년 이후 가장 큰 매도 규모다.",
+        "시장에 대한 불안감이 커지고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 증시가 미국 시장의 영향을 받을 가능성을 확인해야 한다."
+        "text": "국내 투자자들의 심리가 위축되는지 확인"
       },
       "us_tickers": []
     },
@@ -963,19 +683,19 @@
       "category": "macro_rates",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "중간선거 랠리 소멸, 주식 시장 하락",
-      "preview_ko": "중간선거 랠리가 사라지며 주식 시장이 하락하고 있다.",
+      "title_ko": "주식 시장 폭락, 역사적 데이터 분석",
+      "preview_ko": "주식 시장 폭락에 대한 역사적 분석이 담겼다.",
       "published_at": "2026-11-05T19:04:00Z",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVkROX2F0c1ZhelpwSkNJWW5nanF2Y1ZVSG1yM3lWSDZadmlQOGxMUTRIZGZjTzJuZUFfMEJybHBlSkpxQ0FKdldiWXNwWlBCYVlCS3V2cXJhZFpTTk94UC14QnNYZHZkanFBdVFjVlIxTExsRS0tUzVqX3l4UTFpNlpB?oc=5",
       "summary_ko": [
-        "중간선거 랠리가 사라지며 주식 시장이 하락세를 보이고 있다.",
-        "투자자들의 심리가 위축되고 있다.",
-        "AI 관련 주식의 부진이 영향을 미친 것으로 보인다."
+        "주식 시장이 폭락하면서 역사적으로 어떤 일이 있었는지 분석했다.",
+        "투자자들에게 중요한 시사점을 제공한다.",
+        "향후 시장 전망에 대한 논의가 필요하다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 증시가 미국 시장의 영향을 받을 가능성을 확인해야 한다."
+        "text": "국내 시장의 반응을 주의 깊게 살펴봐야 한다."
       },
       "us_tickers": []
     },
@@ -984,19 +704,19 @@
       "category": "theme_earnings",
       "importance": 3,
       "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "AI 급락에 투자자들 답변 요청",
-      "preview_ko": "AI 급락으로 투자자들이 답변을 요청하고 있다.",
+      "title_ko": "골드만, AI 주식 하락에 대한 투자자 문의 폭주",
+      "preview_ko": "AI 주식 하락에 대한 문의가 급증하고 있다.",
       "published_at": "2026-11-05T18:40:06Z",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV3pSdmg2clJsX0tiZEZUTURFbnJMc29YWmxqU203Wkk3TFQ4TGp0a0JaUGlwbXQyNE5rZnpKNTl5c0U0bjV1d1JHdGZFZjZmeUZCN0gyWml2Z1Zua3gxSWstTGhQbGluZmh4V0FKTlRXUHU0ZVRHMU1LUy1TX3AzSzB5SzJFbzFHal9OdGRweWwwLWZncG5MN3pJQ08zUlVzZmo4SnVWRzh4enFzRmVsb2oydw?oc=5",
       "summary_ko": [
-        "AI 관련 주식의 급락으로 투자자들이 불안해하고 있다.",
-        "금융 시장에서의 반응이 주목받고 있다.",
-        "헤지펀드와 투자자들 간의 소통이 필요해 보인다."
+        "골드만삭스의 트레이더들이 AI 주식 하락에 대한 문의를 받고 있다.",
+        "투자자들이 불안감을 느끼고 있다.",
+        "AI 섹터에 대한 관심이 높아지고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 AI 관련 주식의 반응을 확인할 필요가 있다."
+        "text": "국내 AI 관련 주식의 하락세를 확인해야 한다."
       },
       "us_tickers": []
     },
@@ -1005,40 +725,40 @@
       "category": "macro_rates",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "AI 기술 급락, VIX 39% 급등",
-      "preview_ko": "AI 기술 급락으로 VIX가 39% 급등했다.",
+      "title_ko": "VIX 39% 급등, AI 기술 하락으로 2.2조 달러 손실",
+      "preview_ko": "VIX가 급등하며 시장 불안이 커지고 있다.",
       "published_at": "2026-11-05T18:13:10Z",
       "source": "Benzinga",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSExLTTdRNzVJeFp0eTV0ZUlrSy1fbERoSzdkWkN0STBSend4OHhIZ3RpQzUwS0ZZdlVKb0lNYmZyd0FrTUNubXltczB6SXQ0OGVKenFYbHc1NWhlM1RLRHNDVk8tb3ZuNDhSSGZvVktqVWQweWJaYk9yZ04tQ0JObWtJaHdheHJDbnFZS1lpakdaTHZCbFpvVEhWemJoQVVHY3ZFQnZMSUgzN2piM3FHeUIyMXR1c2k5Z3A4VmNKQ2plbjNiNS1jVlQxNA?oc=5",
       "summary_ko": [
-        "AI 기술의 급락으로 VIX 지수가 39% 상승했다.",
-        "시장 불안정성이 커지고 있다.",
+        "AI 기술 주식의 하락으로 VIX가 39% 급등했다.",
+        "시장 불안이 커지며 2.2조 달러의 손실이 발생했다.",
         "투자자들의 심리가 위축되고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 증시가 미국 시장의 영향을 받을 가능성을 확인해야 한다."
+        "text": "국내 시장의 변동성을 주의 깊게 살펴봐야 한다."
       },
       "us_tickers": []
     },
     {
       "id": "n_9e922716",
       "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "주식 시장 하락, Nvidia와 AMD가 주도",
-      "preview_ko": "Nvidia와 AMD가 주식 시장 하락을 주도하고 있다.",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아, AMD 주도 나스닥 급락",
+      "preview_ko": "기술주가 급락하며 나스닥이 하락세를 보였다.",
       "published_at": "2026-11-05T18:03:00Z",
       "source": "Benzinga",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVU94cVpOQVZ4dlJRRGJvMXR5bnVmekpZYy1BRHhxTEZxLVFsaXgtQjFVTUk0dWlxajFneXBJd3FDczlIMllrNFRFcVE0REpUcEpsUXptUmczTlo1S2F0empXREwxYTZnUGJ6cG1WUFEyS3lzalJYeU5HdTBiZ2lmZDZQZUh0SGIwN1U1LVRLdmFKbjJaZWJrZmc0S0Q?oc=5",
       "summary_ko": [
-        "Nvidia와 AMD가 주식 시장 하락을 이끌고 있다.",
-        "AI 관련 주식의 부진이 주요 원인으로 지목된다.",
-        "투자자들의 불안감이 커지고 있다."
+        "미국 증시가 기술주 하락으로 큰 폭으로 하락했다.",
+        "엔비디아와 AMD가 나스닥 하락을 주도했다.",
+        "투자자들이 기술주에 대한 우려로 매도에 나섰다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 반도체 업종의 동향을 주의 깊게 살펴야 한다."
+        "text": "국내 반도체 대형주가 미국 기술주 하락을 따라 약세로 출발하는지 확인"
       },
       "us_tickers": [
         "NVDA",
@@ -1050,40 +770,40 @@
       "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "투자자들이 기술주에서 이탈하며 주식 폭락",
-      "preview_ko": "기술주에 대한 투자자들의 불안감이 커졌다.",
+      "title_ko": "투자자, 기술주에 대한 우려로 매도",
+      "preview_ko": "투자자들이 기술주에 대한 우려로 매도에 나섰다.",
       "published_at": "2026-11-05T18:02:24Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcFU0M203aVJxc3FQSS1USXc3RXczSDEweUhzWm1ySmRCT2xTSGtLS3cyMjMyc1FhWGtYaFhGeE9uYlNaaWJuRm1iVmpoMk14SDRzVXdqV2FHejAxajZPeTFWTE1xcC0tUlltR3pfNXdVejY4RVVnVURZNDB0dGd1Vk5CclFzS1hyZGhnZFkzV1VLMGF3MnZwTWZOanB1ZnZEV1E?oc=5",
       "summary_ko": [
-        "미국 주식 시장이 기술주에 대한 투자자들의 불안감으로 폭락했다.",
-        "특히 나스닥 지수가 큰 하락폭을 기록했다.",
-        "이로 인해 투자자들이 기술주에서 이탈하는 현상이 나타났다."
+        "미국 증시가 기술주에 대한 투자자들의 우려로 급락했다.",
+        "투자자들이 기술주에서 손을 떼고 있다.",
+        "기술주가 하락하면서 전체 시장이 영향을 받았다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
+        "text": "국내 기술주가 미국 시장 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
       "id": "n_88f3be61",
-      "category": "macro_rates",
+      "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "다우지수 1,800포인트 이상 하락, 기술주 이탈 가속화",
-      "preview_ko": "중간선거 결과로 기술주에서 투자자들이 이탈하고 있다.",
+      "title_ko": "다우지수 1,800포인트 이상 하락",
+      "preview_ko": "다우지수가 1,800포인트 이상 하락하며 투자자들이 이탈했다.",
       "published_at": "2026-11-05T18:02:00Z",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnJFc2xjNFJEdElrOU1HcTR4S1VRWWdiTVFMUHFVNHl0YUtyUlhYZHhOV0hkS1dkSmFJODFKa2Iya2Z2UkpmckVlMFN6V1FsM25Zd1djUGhYX2NMNFlKTWs5dHhLQWNUX0hBU3k5UFZGMlNBLWlySTB6YlhZQjJpTXA4dHc1TWRkdDdvVUxB?oc=5",
       "summary_ko": [
-        "다우지수가 1,800포인트 이상 하락하며 큰 폭의 조정을 겪고 있다.",
-        "중간선거 결과로 인해 기술주에서 투자자들이 대거 이탈하고 있다.",
-        "이러한 현상은 시장 전반에 부정적인 영향을 미치고 있다."
+        "다우지수가 1,800포인트 이상 하락했다.",
+        "중간 선거 결과로 인해 투자자들이 기술주에서 이탈하고 있다.",
+        "AI 관련 주식에 대한 우려가 커지고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 대형 기술주가 미국 시장의 하락을 따라 약세로 출발하는지 확인"
+        "text": "국내 대형주가 미국 시장의 급락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
@@ -1092,36 +812,15 @@
       "category": "theme_earnings",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "엘-에리안 \"AI 우려로 주식 시장이 과도하게 반응하고 있다\"",
-      "preview_ko": "AI에 대한 우려가 주식 시장에 영향을 미치고 있다.",
+      "title_ko": "AI 우려로 주식 시장 과도 반응",
+      "preview_ko": "AI 우려로 주식 시장이 과도하게 반응하고 있다.",
       "published_at": "2026-11-05T17:48:18Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVS1HeFZ2OUI3cmVvNGlfSnYySldYeWZ1N21NdXhTTkJfOGl4c3lvWFprUWVIVDdEdGpIVlRLYkJOWUVyRjBmU1V3M2lLdnE2NF85QkNvTkl0VGNCWlBfYjI0RlBROXBXNWxaWmtXN0ZvZXJsSll3ZGhQbUpVbXBGamh6YVBBbXJCQWF1U2xzUjVDZ3EydGc?oc=5",
       "summary_ko": [
-        "엘-에리안은 AI에 대한 우려가 주식 시장의 과도한 반응을 초래하고 있다고 언급했다.",
+        "주식 시장이 AI에 대한 우려로 과도하게 반응하고 있다.",
         "나스닥이 조정 국면에 접어들었다.",
-        "이러한 발언은 투자자들에게 주목받고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 AI 관련 업종의 반응을 지켜볼 필요가 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_7f005a31",
-      "category": "macro_rates",
-      "importance": 5,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥, 민주당의 선거 승리로 AI 둔화 우려에 최악의 날 기록",
-      "preview_ko": "민주당의 선거 승리가 시장에 부정적인 영향을 미쳤다.",
-      "published_at": "2026-11-05T17:31:00Z",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMWdpd3MxX005Y1RwQUo5WkxPVzlNRGpxMGJPcWV4WHd6TWh4a1Y5YUdrLXhYTEplalpXSE03S0NqX0xLcHIwbzBOdjI1VEJGdVdmSDlhejNMd2lnb3lJQTBtT21yVkxSTGh3RFFGUXZ5UTRPa0tQSUZZRjJhbFBFTkJxWjkzaTFhanpScXU1Y0lYdElWNVJzMDB2UHVjSEZUZUJUdHpQSWd0c2IzX2ZhMGQ0dlluRU1OekpvOVVWN2g1aUxmTVZhUEVWLVA?oc=5",
-      "summary_ko": [
-        "나스닥이 민주당의 선거 승리로 AI 둔화 우려가 커지며 최악의 날을 기록했다.",
-        "투자자들은 AI 관련 주식에서 대규모 매도를 단행했다.",
-        "이로 인해 나스닥 지수가 큰 폭으로 하락했다."
+        "투자자들이 AI 관련 주식에 대한 불안감을 느끼고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
@@ -1130,120 +829,44 @@
       "us_tickers": []
     },
     {
+      "id": "n_7f005a31",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "나스닥, 18개월 만에 최악의 날",
+      "preview_ko": "나스닥이 18개월 만에 최악의 날을 기록했다.",
+      "published_at": "2026-11-05T17:31:00Z",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMWdpd3MxX005Y1RwQUo5WkxPVzlNRGpxMGJPcWV4WHd6TWh4a1Y5YUdrLXhYTEplalpXSE03S0NqX0xLcHIwbzBOdjI1VEJGdVdmSDlhejNMd2lnb3lJQTBtT21yVkxSTGh3RFFGUXZ5UTRPa0tQSUZZRjJhbFBFTkJxWjkzaTFhanpScXU1Y0lYdElWNVJzMDB2UHVjSEZUZUJUdHpQSWd0c2IzX2ZhMGQ0dlluRU1OekpvOVVWN2g1aUxmTVZhUEVWLVA?oc=5",
+      "summary_ko": [
+        "나스닥이 18개월 만에 최악의 날을 기록했다.",
+        "투자자들이 민주당의 선거 승리 이후 AI 둔화에 베팅하고 있다.",
+        "기술주에 대한 매도가 급증하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 나스닥의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": []
+    },
+    {
       "id": "n_45bb9fe5",
-      "category": "macro_rates",
+      "category": "theme_earnings",
       "importance": 4,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "나스닥 100, 민주당 승리로 AI 지연 우려로 1.8조 달러 손실 예상",
-      "preview_ko": "민주당의 승리가 시장에 큰 영향을 미치고 있다.",
+      "title_ko": "나스닥 1.8조 달러 손실 예상",
+      "preview_ko": "민주당 승리로 AI 지연 우려가 커지고 있다.",
       "published_at": "2026-11-05T17:02:52Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMTRQMGM0NU13VXI2ZTlIS2pYOE16cUo4dTc4eW5ONldtNzB1T1d3MHpjTlFKM1hzMl9pT0p3U1dEaEhvSGZTbW1zSGJRWjBkLTcwUFhGVG1fVnl4SEViUHpQQUxZOXBpWWNnSEsyRWRGWEpjem5LcVBTNFMyUlBCa1NIYXJ5d1JRbkFRcVlNa0NqcS1V?oc=5",
       "summary_ko": [
-        "민주당의 승리로 나스닥 100이 1.8조 달러 손실을 예상하고 있다.",
-        "AI 지연 우려가 커지며 투자자들이 불안해하고 있다.",
-        "이러한 상황은 시장 전반에 부정적인 영향을 미치고 있다."
+        "민주당의 승리로 AI 관련 주식에 대한 지연 우려가 커지고 있다.",
+        "나스닥 100이 1.8조 달러 손실을 예상하고 있다.",
+        "투자자들이 기술주에서 이탈하고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_8c012675",
-      "category": "other",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "오늘 주식 시장이 폭락한 이유와 반등 가능성은?",
-      "preview_ko": "주식 시장의 폭락 원인과 반등 가능성을 분석하고 있다.",
-      "published_at": "2026-11-05T17:01:51Z",
-      "source": "MARCA",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcGtQUW1WQW1yeXE0WHlYbGdqNUJjaTBVOUdURHF4NGJFM3NXS2dubzg4R1dhcklmOGxycFJOT3VsVGlGUy1fRjN5Uk0xbmROUVNuNk9CNFBabldVUWF2V3JlRDQ0b0NuU3JnU3N6RDB2NmNGdTRJekxVcExuUTdHSUt0REFieURVNzlEYjE5WW1oN1BEeUIyZFhWZnhsaUtJQlh6TlFxQWMxN1RTSF9OcnRzeERGMU10bjlLR3hoNWpmN1hOV256SVp2RnZyX0dqX0HSAdIBQVVfeXFMUEUxcDVlME04YVNOb0hlUk5VcnVGa0xQa0RPY1pLLTBJTXN5SGl1R1lZclNDVjZvdFlhdUJsRERMU0U3TkFIR3U4SmNKWG9samRYMWpTOHhPOFpmOFJkZUJXSE5sMTFLM0c0SXNYLUdvTnNrOEVBVDNiS1Vjb2I4RC05OG9TRGNSVHFodm9PckVZdF9mejZaejFucW5jSWlwSk53c0FvVXhybnVvQUp0SzA3SG5ldTFaUk5iVEJBaVkyaVJwV3JReEt6bnN1djUwaHpn?oc=5",
-      "summary_ko": [
-        "주식 시장의 폭락 원인과 반등 가능성에 대한 분석이 이루어지고 있다.",
-        "투자자들은 향후 시장 회복 여부에 관심을 두고 있다.",
-        "이러한 분석은 시장의 심리에 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 시장의 반응을 지켜볼 필요가 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_9f262f2a",
-      "category": "other",
-      "importance": 3,
-      "importance_label_ko": "요약 없음",
-      "title_ko": "Nvidia has lost nearly $1.4 trillion since its October record",
-      "preview_ko": "",
-      "published_at": "2026-11-05T16:59:12Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc2NrRkNsOE94M2lLbzNWdWkwZWdyZmVNd2ZsTW0zcTNSWW4ySjBFeVJyaktrS0dtaWcxVC1keV9SLURsMkRKTnk1cklBUmxSRUM5TEFKci1TQlBWS01fNzFhUFR6LXdxVmRBdGduNzUtZi11dlE0alphdjRyQjEtdmFwR0Q2OWdMODFjdld3aTRzWmlDcGpVNHdEX0Zra2NFc09oc09Oamh3R3hlQ0Q1aHl1dGFVWk0?oc=5",
-      "summary_ko": [],
-      "kr_impact": null,
-      "us_tickers": []
-    },
-    {
-      "id": "n_ee53160d",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "올해 가장 성공적인 주식 거래가 무너지고 있다",
-      "preview_ko": "올해 성공적인 거래들이 무너지고 있다.",
-      "published_at": "2026-11-05T16:23:00Z",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcjVHaTVZUGZPdHEwc0VxRzluQmx6dEFfMW5uMzJFa0d0am5zWGVOS3pESTNGc1BmSkFxOXphd2dQNE5tQ0ZuV1FhY0dQRzVsZVo3Ykt6SE80YWQ1NzBJZ1YtS3ZOVzNQcmRmVXdCSU02T1BBRTY3d1BWTlpwbEgzdkplc2pmc2d1WG1aV20xVWF2NUJnblBRaUVhYmNNQlhQN1FhWmJHbUV6UnhpbmVqWW9LTTV6MkVTaGpxaw?oc=5",
-      "summary_ko": [
-        "올해 가장 성공적인 주식 거래들이 무너지고 있는 상황이다.",
-        "투자자들은 이러한 변화에 주목하고 있다.",
-        "시장 전반에 부정적인 영향을 미치고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 주식 시장의 반응을 지켜볼 필요가 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_ed3ec89b",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "분열된 의회가 주식 시장과 채권 수익률에 미치는 영향",
-      "preview_ko": "분열된 의회가 시장에 미치는 영향을 분석하고 있다.",
-      "published_at": "2026-11-05T16:03:27Z",
-      "source": "StoneX",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFg5VzFWSGpzVG1iV1dkWkxFTWE4TW5RblN3V0lsT2pQYkF3VHlmOElacENLeERrbFIzT1NPQ294bzRCMTJ3N3pBTzQ4OWw1UEtDa0R3cmVib3RLaXpNekFuXzkzZFVjdC05N0xoaV9WMVhVR3ZRWHZjdVNUZF93N3Q4QTJ0c190c0JSY09RemJEbWdZbk5LSW9LWWRaYk51?oc=5",
-      "summary_ko": [
-        "분열된 의회가 주식 시장과 채권 수익률에 미치는 영향을 분석하고 있다.",
-        "투자자들은 이러한 정치적 상황에 주목하고 있다.",
-        "시장에 미치는 영향은 불확실하다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_0b413d8b",
-      "category": "macro_rates",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "S&P 500, 경기 침체 신호 포착",
-      "preview_ko": "S&P 500이 경기 침체 신호를 보이고 있다.",
-      "published_at": "2026-11-05T15:49:00Z",
-      "source": "Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3djTEdjZGllLS1INXBfWlg5Nm1JX0VfU0JaYWMxT1p6STlNd015MUNleWowVmVLOExLSkdZTVpzSE5ZLW9qZ0NaTE9wYXlpNjk5ckZBeXlFMS1MNnA5d1JLRmxiRkh2MTFuMFdsbUVoaFBOVXFCbWRqN01LeW5lWDZ3SG5tdTBUV2QtT3pKLUxKMmpqUzc4?oc=5",
-      "summary_ko": [
-        "S&P 500 지수가 경기 침체와 급락을 예고하는 신호를 보이고 있다.",
-        "이 신호는 투자자들에게 우려를 불러일으키고 있다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 증시가 S&P 500의 하락세를 따라 약세로 출발하는지 확인."
+        "text": "국내 AI 관련 주식이 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
@@ -1252,72 +875,194 @@
       "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "기술주 대규모 매도, 2.5조 달러 손실",
-      "preview_ko": "기술주 매도로 2.5조 달러가 증발했다.",
+      "title_ko": "기술주 매도, 2.5조 달러 손실",
+      "preview_ko": "기술주 매도로 2.5조 달러가 증시에서 사라졌다.",
       "published_at": "2026-11-05T15:47:51Z",
       "source": "CNN",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNUYxQ2c5VUJvNkd2RExjdVJ1YU5UNmpYYzh2dzgzT2FOZFFaNmlpd0ZUSVViTzZkRG91RmRad3MxNXdncmt4aFFuR2U5di11dmlYSG9hODllU2RNZXFTUHR1UlhpYzhESlpfMS15OVdETTNP?oc=5",
       "summary_ko": [
-        "기술주 매도로 인해 주식 시장에서 2.5조 달러가 사라졌다.",
-        "이는 투자자들에게 큰 충격을 주고 있다."
+        "기술주 매도로 인해 2.5조 달러가 증시에서 사라졌다.",
+        "투자자들이 기술주에 대한 우려로 매도에 나섰다.",
+        "전체 시장이 큰 영향을 받고 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 기술주가 미국 시장의 급락을 따라 약세로 출발하는지 확인."
+        "text": "국내 기술주가 미국 시장의 급락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
-      "id": "n_b61d4852",
-      "category": "other",
-      "importance": 3,
-      "importance_label_ko": "요약 없음",
-      "title_ko": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-      "preview_ko": "",
-      "published_at": "2026-11-05T14:26:43Z",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmkxLUNpek1zS296NTdXbFIxa2tiMFpjOWFpNDN4ajl0WTRjRlJ4bUh6OWlLX3RRNkh1ekkyUFZpUUtNME96U29kMl93NjEwR0tKZGNLR1A4SElBYTlEdmNZdlp6YnViWWJUV0xRYzZBcWYtSENvQ3FodjdfOXhnNzlJWUlBN09KdnpjXzdhZ01keVUydWZYdmpWWVdlTDVMeXlfcUVBUmNvWllBWkNxQ3ZlWDA?oc=5",
-      "summary_ko": [],
-      "kr_impact": null,
+      "id": "n_5d0ff015",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "AI 거래 우려로 반도체 주식 하락",
+      "preview_ko": "AI 거래에 대한 우려가 반도체 주식에 영향을 미치고 있다.",
+      "published_at": "2026-11-05T15:31:17Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWXhpS3pHOUtRckZzVEhDZ1ZZZ29uMHE0N3RSWHZsZ2IzZTJ5ZjBaYURBRWxiNjRsVkFXbExXT2c0a1d4VUx6T2otWDJZanpJVlMtc0g2QjZhaW5uYVRZdGNVT2NOd2RjTERhbE9KbU9lblpDR0FUOEZDbXFWRlNEd0JYWWtORGE3cEt1REdkZ0R5N2dfYW1fSFphX2Z0RkxhWThRRzZsMy1wMS1EZ2x2LW52Yzk?oc=5",
+      "summary_ko": [
+        "AI 거래에 대한 우려가 반도체 주식에 부정적인 영향을 미치고 있다.",
+        "투자자들이 반도체 주식에서 손을 떼고 있다.",
+        "전체 시장이 하락세를 보이고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
+      },
       "us_tickers": []
     },
     {
       "id": "n_673377eb",
       "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
       "title_ko": "AI 주식에서 자금 이동 증가",
       "preview_ko": "AI 주식에서 자금 이동이 증가하고 있다.",
       "published_at": "2026-11-05T14:06:48Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSDliUnk4cTZCM1JVenh6R3ZZV3hZNldGSHlNQ0VPek1kalQ5enRvMHVCNjk1TVdwbUU1NUhLTmE2bGthaXRGX1A4MU9wM1Y0bnhhWm42M1J3REx5RW5jQ3djcXZrSmRiNm85bFJIbThXU3hOZUxTbG4xMWhTX3lYS0tQWmtUbkQ3eFFJczZUVVB0X2RFLUQ4NXZQN3Rldw?oc=5",
       "summary_ko": [
-        "AI 주식에서 자금이 이동하고 있으며, AI 관련 부동산으로 흐르고 있다.",
-        "이는 시장의 흐름을 변화시키고 있다."
+        "AI 주식에서 자금 이동이 증가하고 있다.",
+        "투자자들이 AI 관련 주식에서 손을 떼고 있다.",
+        "전체 시장이 영향을 받고 있다."
       ],
       "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 AI 관련 업종의 자금 흐름을 관찰."
+        "direction": "negative",
+        "text": "국내 AI 관련 주식이 미국 시장의 하락을 반영해 약세로 출발하는지 확인"
       },
       "us_tickers": []
     },
     {
+      "id": "n_715d9bb9",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market News for Nov 5, 2026",
+      "preview_ko": "",
+      "published_at": "2026-11-05T13:25:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYWFqemcyWm1fMTVnR1REOGdlc3VtM09WZmQyaG14S0ZwNEl4NnZvbUNXZXdHNFNKT0dOc0ZDN1h3SjNnblI5VThwQkpLeGw0MUNzMlVkZDNnVXkzT19COE9EMi1yc0hwdEJoYmljRDd6M09EQV9hMXBQc0JiSE0xZGVwb0NLWmVoV0RQbjhtTTRNQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
       "id": "n_80f366b0",
-      "category": "macro_rates",
+      "category": "theme_earnings",
       "importance": 5,
       "importance_label_ko": "관찰 중요도 높음",
       "title_ko": "나스닥 5% 급락, 다우 1,600포인트 하락",
-      "preview_ko": "나스닥이 5% 급락했다.",
+      "preview_ko": "나스닥과 다우 지수가 급락하며 시장이 흔들리고 있다.",
       "published_at": "2026-11-05T13:09:52Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLWljZkY3WGlrek9nbEdBUVNtUTlXZ0w1MU9JSHBEU2J3WUwtN1ROQXg3cXNqal82a2ZvOUgwdEpWZEUwcEloMVUwSEpjdEVuS1lTRzVqbkxCRlhHeDFxWHJteVE0b25Uc2tIQ3hoUXVtR1J3YnNIbUVuVGZmSVdOSXpaYmtwU1RtMXhKaEwzck1BVnJ6akZQQUxJM0FFZw?oc=5",
       "summary_ko": [
         "나스닥이 5% 급락하고 다우가 1,600포인트 하락했다.",
-        "이는 선거 이후의 상승세를 모두 지워버렸다."
+        "이는 반도체 주식의 급락으로 인한 것이다.",
+        "선거 이후의 상승폭을 모두 상실했다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 증시가 미국 지수 하락을 따라 약세로 출발하는지 확인."
+        "text": "국내 반도체 대형주가 나스닥 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": "n_3f259f1f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market Crash Or Rally? Plan For Both",
+      "preview_ko": "",
+      "published_at": "2026-11-05T12:53:21Z",
+      "source": "Trefis",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd0pPRVZjcVF2QUo3eEpVRDUxNDRnSkh1SEs4dW1oQjY0R29zUE83dXNFMlBlVEQ0Yzh2Vm9GVTJ0c2RXWGpXMlpuVXdQNEhlZUlXZF8zUnVORVBpMC1TZGQ0TzhvNE5CUnB4cVNUM0ZPUGk5VXJjX3ZHUU9GbUdONl95aEkwbU1PUm5aMDNWMXFpeEtubnpUQVNkd2NtVWhWeVJr?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_98859972",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "AI 우려로 나스닥에서 2.5조 달러 손실 발생",
+      "preview_ko": "AI 규제 우려가 나스닥에 큰 타격을 주고 있다.",
+      "published_at": "2026-11-05T11:23:00Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+      "summary_ko": [
+        "AI 우려로 나스닥에서 2.5조 달러가 손실됐다.",
+        "블루 쓰나미가 투자자들에게 불안을 안겼다.",
+        "기술주에 대한 매도세가 심화되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 나스닥의 급락을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "AAPL",
+        "GOOGL"
+      ]
+    },
+    {
+      "id": "n_1d807388",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Are Investors Expecting Too Much from the Stock Market?",
+      "preview_ko": "",
+      "published_at": "2026-11-05T11:14:27Z",
+      "source": "Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTTVqbUgyWFNLOGRlc1VnRjh5d0diSVpqS1dSUE4zZTkwUFRQQjFWT29RZzVOU2txMWFhZzYyc2dudjBzVTRNS3BDZEpNd3FWMkV4dVowRFU1OHN1TGZVX2hmWXk1WkV3Y184aklpaUM3bTZMblEtZFlrMDVwR0dxN2VNY3I3YTRB?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_41b9ede2",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "나스닥, AI 규제 우려로 19개월 만에 최대 하락",
+      "preview_ko": "AI 규제 우려가 나스닥에 큰 영향을 미쳤다.",
+      "published_at": "2026-11-05T10:54:00Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
+      "summary_ko": [
+        "나스닥이 AI 규제 우려로 19개월 만에 최대 하락폭을 기록했다.",
+        "투자자들은 향후 규제에 대한 불확실성에 직면하고 있다.",
+        "기술주에 대한 신뢰가 흔들리고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 나스닥의 하락세를 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "MSFT"
+      ]
+    },
+    {
+      "id": "n_e0a7a7b5",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "트레저리 시장으로 안전 자산 이동",
+      "preview_ko": "투자자들이 안전 자산으로 이동하고 있다.",
+      "published_at": "2026-11-05T21:19:00Z",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMElhUGVBRThETlplSjM2LTdKWFdqWlRwUDEtTmQxLTFldTU3QW5CeEV4QzJQUHZsbmU2SEVpVm1YV1ZGNGM3MlNGc0wzMGQ0S3FyX3hrSTlfRmJEZHpsVXhTUWNwZXZ4N0djR0kyU3BKM1NiYlNnMnRCWVlyZkJ3dnN0YTd5M1RYb2huZGtfOVpHbkFHandrbnljVnE2WlZwcUM2WlNsVF9vMmRNa3lSNWoxWGs1VXFZWFRJcQ?oc=5",
+      "summary_ko": [
+        "투자자들이 기술주 매도세가 심화되면서 트레저리 시장으로 몰리고 있다.",
+        "안전 자산에 대한 수요가 증가하고 있다.",
+        "금리가 상승할 가능성에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
       },
       "us_tickers": []
     },
@@ -1326,62 +1071,48 @@
       "category": "macro_rates",
       "importance": 3,
       "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "연준 해맥·바킨, 점진적 금리 인상 지지",
-      "preview_ko": "연준의 점진적 금리 인상 지지 발언이 나왔다.",
+      "title_ko": "연준의 해막, 점진적 금리 인상 지지",
+      "preview_ko": "연준 인사들이 금리 인상에 대한 의견을 밝혔다.",
       "published_at": "2026-11-05T20:58:39Z",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDI4cDU1ODdtRUFrTlZiTjZUbUlKNjZicWpjOHp0YnhONENvNEhMemJ3bWNyR1Rpd0d5akp3Yk1FVElzaDlBenRLRkttdjFvOXFZaGt6dm05WWdZZXpqcU5vazJSY2p3UEx6dkFtM18tNU5nVFZEb0dFY3NHUkRGZlAxS2xJVHZPWWFYOWNUd1lsU2VnbEliTXZDYnp1Um5aX2M1a3Fn?oc=5",
       "summary_ko": [
-        "연준의 해맥과 바킨이 점진적 금리 인상 경로를 지지했다.",
-        "이는 인플레이션을 낮추기 위한 조치로 해석된다.",
-        "금리 인상에 대한 우려가 여전히 존재한다."
+        "연준의 해막과 바킨이 점진적 금리 인상 경로를 지지하고 있다.",
+        "인플레이션을 낮추기 위한 조치로 해석된다.",
+        "금리 인상에 대한 시장의 반응이 주목된다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금리 인상 우려가 지속되는지 확인."
+        "text": "국내 직접 연결 고리 약함"
       },
       "us_tickers": []
     },
     {
       "id": "n_a91fcb9c",
-      "category": "macro_rates",
+      "category": "other",
       "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "기술주 매도에 따른 안전 자산 수요 증가",
-      "preview_ko": "기술주 매도에 따라 국채 수익률이 하락했다.",
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand",
+      "preview_ko": "",
       "published_at": "2026-11-05T20:46:03Z",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkloRjhzaFhUVFFUc1hMQWpZVk9IZmNTRE5KYTBhekdoN0xXby1MOUVpaGRmYnJjdW5rc1hfanFVYUNIdXVYbGV1MDhUX1Q5Wk1yTk1DWVFuM1lzMERVRVhnMmhSOW5EcWp3dl94eS1JcHZMNEhiOFNtUVlialFYNS1Vb3dOeENpazN5SmVyUWJKNTJDMXFUUm9TRFZreUlObm40S0lpUmQ3YVFNUUFJ?oc=5",
-      "summary_ko": [
-        "기술주 매도에 따라 국채 수익률이 하락했다.",
-        "안전 자산에 대한 수요가 증가하고 있다.",
-        "이는 시장의 불안감을 반영한다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 시장의 안전 자산 선호 현상 확인."
-      },
+      "summary_ko": [],
+      "kr_impact": null,
       "us_tickers": []
     },
     {
       "id": "n_c2ae7f48",
-      "category": "macro_rates",
+      "category": "other",
       "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "AI 버블 우려가 신용 시장으로 확산",
-      "preview_ko": "AI 버블 우려가 신용 시장에 영향을 미치고 있다.",
+      "importance_label_ko": "요약 없음",
+      "title_ko": "AI bubble concerns spread to credit markets as Treasury yields signal growth worries",
+      "preview_ko": "",
       "published_at": "2026-11-05T20:40:35Z",
       "source": "www.tokenpost.com",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jTTJ4djIzMXd2QTBlRmg3QzNWWVotVWctQVVvajc1VWlDY0VBWjI5NHRXNXA2SkxwdGxoYVRKZmtMOTRtS1ZwOVh5cTRMUFhuZ0l4aDFjVFlUZw?oc=5",
-      "summary_ko": [
-        "AI 버블 우려가 신용 시장으로 확산되고 있다.",
-        "국채 수익률이 성장 우려를 반영하고 있다.",
-        "이는 투자 심리에 부정적인 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 신용 시장의 안정성 확인."
-      },
+      "summary_ko": [],
+      "kr_impact": null,
       "us_tickers": []
     },
     {
@@ -1400,22 +1131,22 @@
     },
     {
       "id": "n_4b645efd",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금, 달러 약세에 상승",
-      "preview_ko": "미국 중간선거 결과 이후 금값이 상승했다.",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 중간선거 결과 후 금값 상승",
+      "preview_ko": "달러와 국채 수익률이 하락하며 금값이 상승했다.",
       "published_at": "2026-11-05T18:32:51Z",
       "source": "ASHARQ AL-AWSAT English",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYTJWNUtORXhZbVRWdnBaLWUzS291M21hamw3MWpreFBBUVQtWUZWSjNWR3pIdkxtR2k5OXpFcXpoYkpKQ2tRVWJfMFB4U1ZORy1teHZEZWFCbUVXR1FmamZmckR4WkJ2VlE5bWV5QTZPbUFueHI5WF9RdUdGblVsbWNlaXBBTk00cGtRVGgzaWxGTHp3ZjBCZHBpMjFUVXh3dHBSWmxXWXhYQVZYbktHNw?oc=5",
       "summary_ko": [
         "미국 중간선거 결과 이후 금값이 상승했다.",
-        "달러와 국채 수익률이 약세를 보였다.",
-        "안전자산 선호가 강화되고 있다."
+        "달러와 국채 수익률이 하락하면서 금이 반등했다.",
+        "원자재 시장의 변동성을 주의 깊게 살펴야 한다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금값의 동향 확인."
+        "text": "국내 금 관련 업종의 반응은 약할 것으로 보인다."
       },
       "us_tickers": []
     },
@@ -1424,61 +1155,61 @@
       "category": "macro_rates",
       "importance": 1,
       "importance_label_ko": "",
-      "title_ko": "TIPS와 명목 금리의 균형 비율 분석",
-      "preview_ko": "TIPS와 명목 금리의 균형 비율에 대한 분석이 진행됐다.",
+      "title_ko": "TIPS와 명목 금리의 균형점 분석",
+      "preview_ko": "현재의 균형점이 무엇을 의미하는지 분석했다.",
       "published_at": "2026-11-05T18:00:39Z",
       "source": "Dividend.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZlhHT2xPVS12QWhfMDk4dEk4RHV5Q3hZaUxxMVZfNXRYZFBhZ2ppVl9xY3htZzJMTFNMRjF1MUdIQzVZdHZoOHVMY3piMTctSkNVX1I4RFplM2w1c3ozNjBOUnBOVXJyNURRQjFRS2cyVVpTX0NXcy0zUllwTl9vWTRpdWIxMnhJUU5FV0wzNDE0dWtUeUFGNWJwZ2daNmc?oc=5",
       "summary_ko": [
-        "TIPS와 명목 금리의 균형 비율에 대한 분석이 진행됐다.",
-        "이는 인플레이션 기대를 반영한다.",
-        "금리 정책에 대한 시장의 반응을 보여준다."
+        "TIPS와 명목 금리의 균형점이 현재 어떤 의미를 가지는지 분석했다.",
+        "금리와 인플레이션에 대한 시장의 기대를 반영한다.",
+        "금리 변동성이 클 것으로 예상된다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 인플레이션 기대치 확인."
+        "text": "국내 금리와 인플레이션 관련 지표를 주의 깊게 살펴야 한다."
       },
       "us_tickers": []
     },
     {
       "id": "n_b9056b43",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금, 달러와 수익률 하락에 반등",
-      "preview_ko": "금값이 달러 약세와 수익률 하락에 반등했다.",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "금값 반등, 달러와 수익률 하락",
+      "preview_ko": "달러와 수익률이 하락하며 금값이 반등했다.",
       "published_at": "2026-11-05T17:38:03Z",
       "source": "Finimize",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZVJEZG9nOE5ySmRGRGdBcXBxV01pUTlKeGVjNFVhMENsd01ERlJEZmZpNFQyTDFFZkx0MGdwaXliUVlDLVVmSV9uRF9ZakwxbnEtWVFYUjh4eGxHZmNvcjF0c2FqTXVLakgwMDljRzJIY1ZiRy1CNVhIVkRKZWN5RTd6b3A?oc=5",
       "summary_ko": [
-        "금값이 달러 약세와 수익률 하락에 반등했다.",
-        "안전자산 선호가 증가하고 있다.",
-        "이는 시장의 불안감을 반영한다."
+        "금값이 달러와 국채 수익률의 하락으로 반등했다.",
+        "금은 안전 자산으로서의 역할을 다시 부각하고 있다.",
+        "원자재 시장의 동향을 주의 깊게 살펴야 한다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금값의 반등 여부 확인."
+        "text": "국내 금 관련 업종의 반응은 약할 것으로 보인다."
       },
       "us_tickers": []
     },
     {
       "id": "n_0d04cd4a",
       "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "달러, 유가 반등에 소폭 상승",
-      "preview_ko": "달러가 유가 반등에 따라 소폭 상승했다.",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "달러 강세, 유가 반등",
+      "preview_ko": "유가가 반등하며 달러가 소폭 상승했다.",
       "published_at": "2026-11-05T16:36:43Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNS1VMnI4YW95M2Qxel8zREV2Zk0xTFJLVUk0X3M2ZFhlSUpHc1dxSHlqRjVQS3RNdFJkYWhRWlNHdDhkUnV1T1hWSl9mTE9xQmgtM0dmTk04MGVQRWU0WHhlWDJ0ODRRNVdsbFFZQ29JWWJtRlF5NkZpWDR5aTdKWWFqZjZQSmwxNG1BQ0Fwc0sxNVltaUd6RWlnSFJBN0RS?oc=5",
       "summary_ko": [
-        "달러가 유가 반등에 따라 소폭 상승했다.",
-        "고용 지표에 대한 관심이 높아지고 있다.",
-        "이는 시장의 변동성을 반영한다."
+        "유가가 반등하면서 달러가 소폭 상승했다.",
+        "달러 강세가 원자재 가격에 미치는 영향을 주의해야 한다.",
+        "환율 변동성을 확인할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 환율의 변동성 확인."
+        "text": "국내 환율과 원자재 가격의 상관관계를 살펴야 한다."
       },
       "us_tickers": []
     },
@@ -1487,537 +1218,307 @@
       "category": "macro_rates",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "연준, 금리에 대한 의견이 분분",
-      "preview_ko": "연준의 금리에 대한 의견이 분분하다는 분석이 나왔다.",
+      "title_ko": "연준의 금리에 대한 의견 분열",
+      "preview_ko": "연준 내 금리에 대한 의견이 분열되고 있다.",
       "published_at": "2026-11-05T16:01:19Z",
       "source": "MarketBeat",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDVaYmxTb29vTVFKSzBRbkpjZG8zUXlQQ1ZOMWhEcFZ2Nlk1TEJMdHNRbk9OalhzRVd1ZUNxRGE2bEEzS3VCZkJXckxNTlFEUTg3Um5mcFJBWTBVRllQendmQVNjSDVsOS1Qby1kUGxWOEhXZHk0VUIyRUR0X2YxdkFGQTNyRm9xbTJjV1lnaUVuMzBRYUs4bjZMZW9DOU0zcDFiRWVVbGE5Zw?oc=5",
       "summary_ko": [
-        "연준의 금리에 대한 의견이 분분하다는 분석이 나왔다.",
-        "이는 시장의 불확실성을 반영한다.",
-        "투자자들은 신중한 접근이 필요하다."
+        "연준 내에서 금리에 대한 의견이 분열되고 있다.",
+        "이로 인해 시장의 변동성이 커질 수 있다.",
+        "금리 정책에 대한 주의가 필요하다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금리 정책에 대한 반응 확인."
+        "text": "국내 금리 정책에 대한 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_e4362d17",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "미국의 특권이 약화되고 있는가?",
+      "preview_ko": "미국의 경제적 특권이 약화되고 있다는 분석이 있다.",
+      "published_at": "2026-11-05T15:54:25Z",
+      "source": "Brookings",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpYzRyV2l0cERMX1FGUzNlel96WUVKSHRnWDN1cnM3dU9zM2pCMDU3OXNaZlJlSmlkNEU3UUQxNU5MUUpYaFhsVHBrZGNnVHZ1RWkyMWtNRHNYTE9GdnQ0MTgwakVPUEJkcE5RamE0M1JvNnhPeHlDMUx2QUphWHc?oc=5",
+      "summary_ko": [
+        "미국의 경제적 특권이 약화되고 있다는 분석이 제기되었다.",
+        "이로 인해 글로벌 경제에 미치는 영향이 우려된다.",
+        "경제 지표의 변동성을 주의 깊게 살펴야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 경제 지표의 변동성을 확인할 필요가 있다."
       },
       "us_tickers": []
     },
     {
       "id": "n_f48d2bd7",
       "category": "macro_rates",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "연준 해막, 물가 안정 위해 금리 인상 필요성 언급",
-      "preview_ko": "연준의 금리 인상 필요성이 강조되고 있다.",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "연준의 금리 인상 필요성 언급",
+      "preview_ko": "연준의 한 인사가 금리 인상이 필요하다고 언급했다.",
       "published_at": "2026-11-05T15:41:26Z",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2c2UERBM24tYnJsM3UxR3pvTG9mYmZNZ0dDN3k4OHp6SUl3aUxKRXZkNlJVeFU4dTFoS1NtSHBZN0xIVG1GRnBNNmxxWU9MWUNWNmhkZXZPT1A5ZHN2RHZRWS1tMmtZV1BzSDJLLWpERnFoZTVLNDFsdWVlaENTdE5UZVZDanpTbTFtNDQ5WHJJYWt1Y0hGNnd5eEhXaVplZWJNcXFXVHpIMXVqa0c5Z2tn?oc=5",
       "summary_ko": [
-        "연준의 해막이 물가 안정을 위해 금리 인상이 필요하다고 언급했다.",
-        "이는 향후 금리 정책에 대한 시장의 우려를 불러일으킬 수 있다.",
-        "금리 인상이 지속될 경우 경제 전반에 미치는 영향이 주목된다."
+        "연준의 한 인사가 가격 안정을 위해 금리 인상이 필요하다고 언급했다.",
+        "금리 인상에 대한 시장의 반응이 주목된다.",
+        "금리 정책에 대한 주의가 필요하다."
       ],
       "kr_impact": {
-        "direction": "negative",
-        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
+        "direction": "neutral",
+        "text": "국내 금리 정책에 대한 영향을 확인할 필요가 있다."
       },
       "us_tickers": []
     },
     {
       "id": "n_f7cce4e4",
-      "category": "macro_rates",
+      "category": "geopolitics_commodities",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "금, 실질 금리 상승으로 압박받아",
-      "preview_ko": "금 가격이 실질 금리 상승으로 압박받고 있다.",
+      "title_ko": "금, 실질 국채 수익률 상승 압박",
+      "preview_ko": "금이 실질 국채 수익률 상승의 압박을 받고 있다.",
       "published_at": "2026-11-05T15:26:35Z",
       "source": "Pluang",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbUVCMWFqTnR1cGpQOEpvUmF3S01WMXlvb1FVUGhHMnJCMldNOWZHUUFvTlY3S254bzBqOHlCUXpGUnVqVFVZb2xabU1IV3RaX1BPUGVtOHo1SmhKQkpWSVlERmRDbVhfSHlCWGdobnBGaEY5NkxhMnlpMGxEOW9Jb0FtVlJGc0JDRVY0Z1l6QlhITThlWm5EdWw3MGQ?oc=5",
       "summary_ko": [
-        "금 가격이 실질 금리 상승으로 인해 압박을 받고 있다.",
-        "이는 금 투자 심리에 부정적인 영향을 미칠 수 있다.",
-        "금리 인상이 지속될 경우 금 가격의 추가 하락 가능성도 있다."
+        "금이 실질 국채 수익률 상승으로 압박을 받고 있다.",
+        "이로 인해 금값의 변동성이 커질 수 있다.",
+        "원자재 시장의 동향을 주의 깊게 살펴야 한다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 금 관련 주식의 영향은 제한적일 것으로 보인다."
+        "text": "국내 금 관련 업종의 반응은 약할 것으로 보인다."
       },
       "us_tickers": []
     },
     {
       "id": "n_2765c7b4",
       "category": "macro_rates",
-      "importance": 2,
+      "importance": 1,
       "importance_label_ko": "",
-      "title_ko": "미국 국채, 3% 인플레이션 함정에 직면",
+      "title_ko": "미국 국채, 3% 인플레이션 함정 직면",
       "preview_ko": "미국 국채가 3% 인플레이션 함정에 직면하고 있다.",
       "published_at": "2026-11-05T15:20:16Z",
       "source": "Equiti Global",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMThCcTJsU2RqZHlYZ0ZEZ3VMeVZJNWxUQ1VYMWhkQ3RQa2VmbGUyeFBNaUFlTUtkUlAyV05feFl2dHRsX0hEenVVY3JleWUtUVg3WkZtWnd0d2JLZFdzNV9fVEFuc0VjZmY4WnFjN2xXMC02YnFlaVBXbGhfdXRJd0ZFb3RTQktQOXR5TklIUzFubnlmZThoT0hLQzZmd0Q1c2Y4bkpaRW1MdTR3cmh5T0FLSQ?oc=5",
       "summary_ko": [
-        "미국 국채가 3% 인플레이션 함정에 직면하고 있다고 보도되었다.",
-        "이는 채권 투자자들에게 우려를 불러일으킬 수 있다.",
-        "금리 인상과 인플레이션 간의 관계가 주목받고 있다."
+        "미국 국채가 3% 인플레이션 함정에 직면하고 있다는 분석이 있다.",
+        "이로 인해 금리와 인플레이션에 대한 우려가 커질 수 있다.",
+        "경제 지표의 변동성을 주의 깊게 살펴야 한다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 채권 시장에 미치는 영향은 제한적일 것으로 보인다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_3b82b7b9",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "연준 금리가 암호화폐에 미치는 영향 분석",
-      "preview_ko": "연준의 금리가 암호화폐에 미치는 영향을 분석하고 있다.",
-      "published_at": "2026-11-05T15:19:21Z",
-      "source": "The Defiant",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmSHBwREJLSWV2X0x1SF9KMmN6WW1laUhpQXF0WjdjdTY0S25NUmRNWkdsODl0bzdDdkFWRVMxSHdRYnhnY0tWakZfazUtQ0owTmp4Z2VhZ2JUSGhyMGFaOUE4b2ZBVVpWcTRNZXFZVl9sczZxM1kxa1hXaw?oc=5",
-      "summary_ko": [
-        "연준의 금리가 암호화폐 시장에 미치는 영향을 분석한 기사이다.",
-        "금리 인상이 암호화폐의 변동성에 영향을 줄 수 있다.",
-        "암호화폐 투자자들은 금리 정책을 주의 깊게 살펴봐야 한다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 암호화폐 시장에 대한 직접적인 연결 고리는 약하다."
+        "text": "국내 경제 지표의 변동성을 확인할 필요가 있다."
       },
       "us_tickers": []
     },
     {
       "id": "n_d334745f",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "채권 시장에 새로운 변화가 나타나고 있다",
-      "preview_ko": "채권 시장에 새로운 변화가 감지되고 있다.",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "There’s A New Kid In Town In The Bond Market",
+      "preview_ko": "",
       "published_at": "2026-11-05T15:12:00Z",
       "source": "Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KcTZMNENFZXFtMGZ6YkZUN0oyR2JwVXhHdnZmZDlkaDhZSHZzLTNDdHM3aUlwclRrRjVHc0oyZ282WXY4dVNLSDBUVGtUS0ktMjk5LWkxNXlvYTY5d1hvbHpfeWx5TWM3MEQ0dFVUVUdERmc?oc=5",
-      "summary_ko": [
-        "채권 시장에서 새로운 변화가 감지되고 있다고 보도되었다.",
-        "이는 투자자들에게 새로운 기회를 제공할 수 있다.",
-        "금리 인상과 관련된 변화가 주목받고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 채권 시장에 대한 직접적인 영향은 제한적일 것으로 보인다."
-      },
+      "summary_ko": [],
+      "kr_impact": null,
       "us_tickers": []
     },
     {
       "id": "n_7a45ab51",
       "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "바킨, 연준 금리 점진적 인상 예상",
-      "preview_ko": "바킨이 연준의 금리 점진적 인상을 예상하고 있다.",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "연준, 점진적 금리 인상 전망",
+      "preview_ko": "연준의 금리 인상 전망이 점진적이라는 분석.",
       "published_at": "2026-11-05T15:08:55Z",
       "source": "Oz Arab Media",
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVUFkeGc1a0tMNlNpdnVWZjY5eTQ3ZHlGRDh1Rzh1Q1RQM1h1V2NKZHlYRVJGbkZ4UFlRVEtmZEM1TGJBemhka0FvRmM1ZlV2VGRKYzduZkZ6eTBNa2FudlpFUThsX3JZUmRwX0dPZ0J5NkRvczJfcjVtbmRfNV9mNW1QaUI3bmtFMjlsUmpmT2toemE0OTNBcVBSUWIxQVlISGloMHl2b2JoR0pZOTVrNVUzU2VyV20zcmJTQmVuendMcWdkT2ZYNExkVUsycFd2Sk1Ecm1CTDBkZko0dUZpcVQ1SnFuMnNsQzRLaHQ5Y21lMUlLaGtaSF9RSGxubkFyLVg0ZXFDeHpDVnpidmMzYmdmaXF0akk?oc=5",
       "summary_ko": [
-        "바킨이 연준의 금리를 점진적으로 인상할 것이라고 예상했다.",
-        "이는 시장의 금리 전망에 영향을 미칠 수 있다.",
-        "금리 인상이 지속될 경우 경제에 미치는 영향이 주목된다."
+        "연준의 금리 인상이 점진적으로 이어질 것이라는 전망이 제기됐다.",
+        "이는 미국 경제의 안정성을 반영하는 것으로 해석된다.",
+        "금리 인상에 대한 우려가 완화될 수 있다."
       ],
       "kr_impact": {
-        "direction": "negative",
-        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
+        "direction": "neutral",
+        "text": "국내 금리에 대한 직접적인 영향은 약함."
       },
       "us_tickers": []
     },
     {
       "id": "n_95e88df4",
       "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "미국 국채, 민주당의 승리로 공급 우려 완화",
-      "preview_ko": "미국 국채가 민주당의 승리로 공급 우려가 완화되었다.",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 국채 수익률 상승 우려 완화",
+      "preview_ko": "민주당의 승리로 국채 공급 우려가 줄어들었다.",
       "published_at": "2026-11-05T15:02:08Z",
       "source": "Luxembourg Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTNYVGZUNEFsYUp0bUIyTXhnd1A2Y0R5dE00a3VXdEhMb29Bc0VTandJYnV0X0Y4SEFwcERzdDdQbU14TEFiYWNRNUxOVGlreWVjUzZGeUZYeVpJcUpJeGd0VFE2aGFwdHNSZWNrejB2clZHQkI4Vkt1Uk5XZzFQNFNhWGE1RjdJZkptUmdzNUtmdHo4STdydDlabHRsdEdudHFzNEMtNFhjRWFWd2Q1T0xWWWZzTU50VTdHM0NkakhIeVo3?oc=5",
       "summary_ko": [
-        "미국 국채가 민주당의 승리로 인해 공급 우려가 완화되었다고 보도되었다.",
-        "이는 채권 시장에 긍정적인 영향을 미칠 수 있다.",
-        "금리 인상과 관련된 우려가 줄어들 가능성이 있다."
+        "민주당의 선거 승리로 미국 국채 수익률이 안정세를 보이고 있다.",
+        "이는 국채 공급에 대한 우려를 줄이는 효과가 있다.",
+        "국채 시장의 안정성이 한국 시장에 긍정적 영향을 미칠 수 있다."
       ],
       "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 채권 시장에 대한 직접적인 영향은 제한적일 것으로 보인다."
+        "direction": "positive",
+        "text": "국내 채권 시장의 안정성 확인 필요."
       },
       "us_tickers": []
     },
     {
       "id": "n_f55b9392",
       "category": "theme_earnings",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "AI 주식, 유가 및 채권 수익률 안정 속 하락",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "AI 주식 하락, 유가 및 채권 수익률 안정",
       "preview_ko": "AI 주식이 하락세를 보이고 있다.",
       "published_at": "2026-11-05T14:46:56Z",
       "source": "Orlando Sentinel",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JNWVaRkk1TDZmSnoxN0tJNndsUEhtNjlzZ0ZqRDUxSGtPZFl2VURnRy1kLWV6Smtwb191bG9tYUNnTGFvSjJBOGl3LTYyVEx4WTRwZlJibG5pVEp2UDF6NG1FTWpKU01YRlFQb2s5c0Nrdw?oc=5",
       "summary_ko": [
-        "AI 주식이 유가 및 채권 수익률이 안정된 가운데 하락세를 보이고 있다.",
-        "이는 기술주에 대한 투자 심리에 부정적인 영향을 미칠 수 있다.",
-        "AI 관련 주식의 향후 전망이 주목받고 있다."
+        "AI 관련 주식이 하락세를 이어가고 있다.",
+        "유가와 채권 수익률이 안정세를 보이며 영향을 미치고 있다.",
+        "이러한 흐름은 한국의 관련 업종에도 영향을 줄 수 있다."
       ],
       "kr_impact": {
         "direction": "negative",
-        "text": "국내 AI 관련 주식의 하락 여부를 확인해야 한다."
+        "text": "국내 AI 관련 주식의 하락 여부 확인 필요."
       },
       "us_tickers": []
     },
     {
       "id": "n_577030e8",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "경제학자, 연방 적자 및 국채 수익률 상승 분석",
-      "preview_ko": "경제학자가 연방 적자와 국채 수익률 상승을 분석하고 있다.",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Economist analyzes federal deficit, rising Treasury yields",
+      "preview_ko": "",
       "published_at": "2026-11-05T14:29:30Z",
       "source": "Fox Business",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4R2ZKclhGczljMXpVVTJsbGhsZmFHRHlJS2xORWxCbTdFV1plQjViUFJ0RWZDV0w2RGlxdlMwdXNVbjFPX3FTN3pHMVpDYnF5anlReFc5U1N6eEE?oc=5",
-      "summary_ko": [
-        "경제학자가 연방 적자와 국채 수익률 상승에 대해 분석하고 있다.",
-        "이는 시장의 금리 전망에 영향을 미칠 수 있다.",
-        "국채 수익률 상승이 경제에 미치는 영향이 주목된다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 채권 시장에 대한 직접적인 영향은 제한적일 것으로 보인다."
-      },
+      "summary_ko": [],
+      "kr_impact": null,
       "us_tickers": []
     },
     {
       "id": "n_8420a048",
-      "category": "macro_rates",
-      "importance": 4,
-      "importance_label_ko": "관찰 중요도 높음",
-      "title_ko": "연준, 인플레이션 목표 초과 시 점진적 금리 인상 지지",
-      "preview_ko": "연준이 인플레이션 목표 초과 시 금리 인상을 지지하고 있다.",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Federal Reserve backs gradual rate increases as inflation stays above target",
+      "preview_ko": "",
       "published_at": "2026-11-05T14:13:34Z",
       "source": "Traders Union",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
-      "summary_ko": [
-        "연준이 인플레이션이 목표를 초과할 경우 점진적인 금리 인상을 지지한다고 밝혔다.",
-        "이는 향후 금리 정책에 대한 시장의 우려를 불러일으킬 수 있다.",
-        "금리 인상이 지속될 경우 경제 전반에 미치는 영향이 주목된다."
-      ],
-      "kr_impact": {
-        "direction": "negative",
-        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
-      },
+      "summary_ko": [],
+      "kr_impact": null,
       "us_tickers": []
     },
     {
       "id": "n_be36163a",
-      "category": "geopolitics_commodities",
+      "category": "macro_rates",
       "importance": 3,
       "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "미국 중간선거 후 금값 2주 최고치 기록",
-      "preview_ko": "금값이 달러와 수익률 하락으로 상승세를 보임.",
+      "title_ko": "금, 2주 최고치 기록",
+      "preview_ko": "금 가격이 2주 최고치를 기록했다.",
       "published_at": "2026-11-05T14:04:21Z",
       "source": "Kitco",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTmJWU0stNzd5S1VxemhoU0E2cW1EUk1HZzlFUGhYRnk5TXJTUjVQR1FOMzFiTEwxYy1qT0VLd0ZYYm1QaXpxLXRyVENUeGM1OHVINlFZdng1RFhzVDFHR1VxX0dZZUZIQnZzeU5fWEFHYTJqQ1lpOGdCQnNObVN5dWMxRGwtY0diY1VfaWdoSFFwUTVXNlN3aHlCdklVSmpoaUlqa2Y5MGYtWlRIN1AwYmVKOA?oc=5",
       "summary_ko": [
-        "금값이 미국 중간선거 이후 2주 최고치를 기록했다.",
-        "달러와 국채 수익률, 유가가 하락하면서 금값이 상승했다.",
-        "이러한 변화는 금 투자자들에게 긍정적인 신호로 작용할 수 있다."
+        "금 가격이 달러와 수익률 하락에 힘입어 상승세를 보이고 있다.",
+        "이는 안전 자산 선호가 증가하고 있음을 나타낸다.",
+        "국내 금 관련 주식의 반응을 확인할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "positive",
-        "text": "국내 금 관련 주식의 반응 여부를 확인할 필요가 있다."
+        "text": "국내 금 관련 주식의 상승 여부 확인 필요."
       },
       "us_tickers": []
     },
     {
       "id": "n_6cbabcf1",
       "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "미국 중간선거 후 10년물 국채 수익률 하락",
-      "preview_ko": "민주당의 중간선거 승리 후 수익률이 하락했다.",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "10년물 국채 수익률 하락",
+      "preview_ko": "10년물 국채 수익률이 하락세를 보이고 있다.",
       "published_at": "2026-11-05T13:59:08Z",
       "source": "Hindustan Times",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTjUwX2hRRlBJRkluckpScWVZZWJVOWl3d1E3RUgyS0QwQ3ZrTTJVRWJlLVVKMzh0aFBHZnRQLUg4YlNDbWJSbW1FSGMwUmlTbkphZmdxMnZ0Y1hUUEE1LVVNS1ZQOG05cEFJNjNudDM0ZU1UMHQ3V1JPRGhwR0k5SzRyR0F2VE5wNlUxdEFrbTFxbGtSUXR4VG1Pc0RiLVVLWnRZNzRtdWJGVkVlT3luWjJkVVhtbDF4bHM4aVdFOVB2cUdwU0xyMUIyaWRQNFFGZWtEYTJhNVNCMzJvZGF1ZmF4SdIB6AFBVV95cUxOSW5xb3RkUm9zQ0ZTclQzUEttU0s3VUUxQUZZNm1VRENtQmxWLWF5NlV5WVRBQmVMUHBQa05PNTRXQ3Atd0M4LUNYVk96UXo2ZzhoRDFmZ3JXMUFVdVAzcXVyX2JMTmdjUG9HekdzRnhqTFJwY0R2TmFnX1lJbWx4QjliSW02OVNwUnRWNlRLNEdwZmpKVVl3TTZ5WU5QN3JIcFRadHFjNWRRZVdERG1UMWFUbGd2UFg5OUJkR2U2akpaTkpDODRobW1VSGJWTl9tRzhvSWRDSHhnamRrN01pVDdRTTYtc2tv?oc=5",
       "summary_ko": [
-        "민주당이 중간선거에서 승리한 후 10년물 국채 수익률이 하락했다.",
-        "이는 금리에 대한 시장의 기대를 반영하는 것으로 보인다.",
-        "향후 고용 데이터에 대한 관심이 집중되고 있다."
+        "민주당의 중간선거 승리 이후 10년물 국채 수익률이 하락하고 있다.",
+        "이는 투자자들의 안전 자산 선호를 반영하는 것으로 해석된다.",
+        "국내 채권 시장의 반응을 주목할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
+        "text": "국내 채권 시장에 대한 직접적인 영향은 약함."
       },
       "us_tickers": []
     },
     {
       "id": "n_e2cafe02",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금값, 하락하는 수익률과 노동비용 완화로 상승",
-      "preview_ko": "금값이 4,100달러를 넘어섰다.",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "금 가격, $4,100 돌파",
+      "preview_ko": "금 가격이 $4,100를 넘었다.",
       "published_at": "2026-11-05T13:53:31Z",
       "source": "Kitco",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQV9YbzIxUFFZcGF6M3U2Q2NBUkNUckVoSHBXbHZEVXVabldjcFpyYW9oQ0tZazZMNnV1V3JWLW1EV0pSSUp5UmVFOFNQY25UdGRRVGZJUWtzNG5KLWlvUDlJcGF4dm5tTE5IV0VaUk9PWWpWcHNpVnlNYXZwRnhhUnhqLTUtSlVuVDBxem1Pbmd1T1BUOVlSbmo3TmdoeEFuTWNlOHh1MWNsTjY2dVpvSHR0eVNXUGhCenc?oc=5",
       "summary_ko": [
-        "금값이 하락하는 수익률과 노동비용 완화로 상승세를 보이고 있다.",
-        "이는 금 투자자들에게 긍정적인 신호로 작용할 수 있다.",
-        "금값 상승은 원자재 시장에 영향을 미칠 수 있다."
+        "금 가격이 하락하는 수익률과 부드러운 노동 비용에 힘입어 상승하고 있다.",
+        "이는 안전 자산으로서 금의 수요 증가를 나타낸다.",
+        "국내 금 관련 주식의 반응을 확인할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "positive",
-        "text": "국내 금 관련 주식의 반응 여부를 확인할 필요가 있다."
+        "text": "국내 금 관련 주식의 상승 여부 확인 필요."
       },
       "us_tickers": []
     },
     {
       "id": "n_5c2aef38",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "미국 중간선거 후 금값 상승",
-      "preview_ko": "금값이 부드러운 달러와 수익률 하락으로 상승했다.",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "금, 달러 약세 속 상승",
+      "preview_ko": "금 가격이 달러 약세 속에서 상승하고 있다.",
       "published_at": "2026-11-05T13:19:07Z",
       "source": "Investing.com Nigeria",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWWZCa2tGX1Q5N1Z5Qk4wMW9BXzd5X2Vsd0RQSVlFbkFGLTF0b0RoX1lSYlBVTTVXMU0xYklqU2tqTkVpX29hemV2aFZMcmtxS2lsdEpqOTljNHM3U0xubWt6bHd2dXdxRVVydk1zcF80LVNNWklYbTh1SXRxd2MxZG1OUThOaUNYYnUyR1ZlRFNURzJPRktmbkZwVmlSQmhMeGJwYy1CM01DeXRSSGZaSGt5VmtsVk5sdGlqWlRpbG5waVdPMnRWVw?oc=5",
       "summary_ko": [
-        "미국 중간선거 이후 금값이 상승하고 있다.",
-        "부드러운 달러와 국채 수익률 하락이 주요 요인으로 작용하고 있다.",
-        "금값 상승은 원자재 시장에 긍정적인 영향을 미칠 수 있다."
+        "금 가격이 미국 중간선거 이후 달러 약세와 수익률 하락에 힘입어 상승하고 있다.",
+        "이는 안전 자산 선호가 증가하고 있음을 나타낸다.",
+        "국내 금 관련 주식의 반응을 확인할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "positive",
-        "text": "국내 금 관련 주식의 반응 여부를 확인할 필요가 있다."
+        "text": "국내 금 관련 주식의 상승 여부 확인 필요."
       },
       "us_tickers": []
     },
     {
-      "id": "n_e7c452bd",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "금값 4,100달러 이상, 연준 청문회 지연",
-      "preview_ko": "금값이 4,100달러를 초과했다.",
-      "published_at": "2026-11-05T12:30:00Z",
-      "source": "Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSUdQNHNEb0dCVy0tNHVDTkN6LWY4d2QxYklXMWs0SEp4ZkxSV0xsd3VFeUR4NFRXaFZCUGN5aEZsTFNyMDdEZGJ5eUcxTHk5UnNSM3NlYUZ4Rk41d2dtVmwxLTY2c2NLVW1mcmNuOFRwY0ZTQ1hIOG82a3Bob3FvSGVCd0lVQURiYVUyVGptMzZxdnZOeWtpRXBqN1dIUG1JU2Z3Snh5aVZHdw?oc=5",
-      "summary_ko": [
-        "금값이 4,100달러를 초과하며 상승세를 보이고 있다.",
-        "연준의 청문회 지연과 국채 경매 변경이 영향을 미쳤다.",
-        "금값 상승은 원자재 시장에 긍정적인 영향을 미칠 수 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주식의 반응 여부를 확인할 필요가 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_134ea08b",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "연준의 금리 동결, 채권 수익률에 영향",
-      "preview_ko": "연준의 금리 동결이 채권 수익률에 영향을 미쳤다.",
-      "published_at": "2026-11-05T11:17:11Z",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaEkwMGl6T29kQlFSbU9EanZNX3VMdG5PcG9tWXh3cUQ0U0R5ZTFuUU1QRl9PWl9nd2l4bFpwWl9OOFFTS0VfSV9UcFR0VEtsRW9ld25admRIbkFQa292VTNWVV9xb2g3ZlQwZ2ZuNlVSQkNTQzhGN0RDSl9wZ0hDWi1fcGFTRnJHUTAzeEhUY1BZeVFJU1ZyaVFPdDkzNm9sVTVmcm9pSkxRWjlTOHRpSjlPNmxUb0pPaHBN?oc=5",
-      "summary_ko": [
-        "연준의 금리 동결이 채권 수익률에 다양한 방향으로 영향을 미쳤다.",
-        "이는 시장의 금리에 대한 기대를 반영하는 것으로 보인다.",
-        "향후 고용 데이터에 대한 관심이 집중되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_183cda5e",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "미국 시장, 중간선거 후 상승세",
-      "preview_ko": "미국 시장이 중간선거 후 상승세를 보이고 있다.",
-      "published_at": "2026-11-05T11:10:10Z",
-      "source": "Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "summary_ko": [
-        "미국 시장이 중간선거 후 상승세를 보이고 있다.",
-        "민주당의 승리가 시장에 긍정적인 영향을 미친 것으로 보인다.",
-        "향후 경제 지표에 대한 관심이 집중되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_b07e3273",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "연준의 금리에 대한 소통 필요성",
-      "preview_ko": "연준의 금리에 대한 소통 방식 개선 필요.",
-      "published_at": "2026-11-05T11:00:21Z",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSncyUnJBc25zajNQclpteVFGV3A0bGZtR3JwMEVnYUdOcXZ4eUkyZGNLdG1DcGlZeUJ2dV9ub3lFZDNjTkY3bjZCNkIxTDhtdTBLQTdOcDRQWFprbFp4aVQ3OU1JMWh5bENiMEk1d05DeG0yLWpSTHBSdUI1OW96UzRsekpIU09LVV9GX0tKWS01bWNicV9DYWhPVkZweWhBZWVETUFHbG9BQQ?oc=5",
-      "summary_ko": [
-        "연준의 금리에 대한 소통 방식에 대한 논의가 필요하다는 주장이 제기되었다.",
-        "이는 시장의 금리에 대한 기대를 반영하는 것으로 보인다.",
-        "향후 고용 데이터에 대한 관심이 집중되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_6d286185",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "미국 국채 수익률 4.87%로 하락",
-      "preview_ko": "미국 국채 수익률이 4.87%로 하락했다.",
-      "published_at": "2026-11-05T10:46:46Z",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS19fOF8zNzF0UUkzUV9YSGJBZk5USUJrYkVTakJ0MThGLUxRWGk0dDZJVktDTXB2UGZTQ3ZrTndNbW9uZUJwOWY2UGo3YWFIbEsySGJXT3M4ZEZ2YnotTjZJdnBNOFhndDdpOEwzb0tpcmVpRGhuWjVwNUtqNjVUYXNkNnBSY0lrSGhCb2xIazlUZw?oc=5",
-      "summary_ko": [
-        "미국 국채 수익률이 4.87%로 하락하며 시장에 영향을 미쳤다.",
-        "이는 금리에 대한 시장의 기대를 반영하는 것으로 보인다.",
-        "향후 고용 데이터에 대한 관심이 집중되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_065e8bb9",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "3개 국채 ETF의 월별 체크",
-      "preview_ko": "국채 ETF의 월별 체크가 금리에 따라 변동한다.",
-      "published_at": "2026-11-05T10:41:00Z",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOU2xpam9qRC02ZDQyS3RodlhjTjktU3FtcE1DOU9oSm9qWm9YdnduYXlyQ0xfdi0tV0VCdzVMeGJYTUR3YTEyOGtVMjhPUG54TW1ucEFaNjQ0OE5QZ2dUNU53WmFGUF9YRmdvUTBKQjRZaFJhU2ZLZ1VRNTE4SlFOc3dtTXNrNXJYQlZ4NlBpRjhUS1hJMm1ZYnFEVklZRWhaTHpCcGNCeWlFYm10a3VabldwSWhzdEFsdlFtdjFBZ2tmNjhSWk53a0oxVDlnWTNBbGV0M2NxaGs2a2pqSGxFUG1qOXNtaWc?oc=5",
-      "summary_ko": [
-        "3개 국채 ETF의 월별 체크가 금리에 따라 변동하는 것으로 나타났다.",
-        "이는 시장의 금리에 대한 기대를 반영하는 것으로 보인다.",
-        "향후 고용 데이터에 대한 관심이 집중되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_580ece88",
+      "id": "n_d645ab74",
       "category": "other",
       "importance": 3,
       "importance_label_ko": "요약 없음",
-      "title_ko": "Gold rises to two-week high as dollar and Treasury yields retreat",
+      "title_ko": "Treasury Yield 30 Years (^TYX) charts, data and news",
       "preview_ko": "",
-      "published_at": "2026-11-05T10:41:00Z",
-      "source": "Economies.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeHdYT1JEcVNPVEpkb21qbGtLVUo4eDZaV2FsWTcxZk9rWkNnWkJKWmxFeHJfLThXbUs1cDFadk51d3ZPWkFydXY2bTJaUlhVU0Q0blN0VzQ0S1dVSkd0REplM2dpSjR6OWxwSTN6T200RmVKb2dnb042LUM0OGdkNXdwbi01ZEhpQi05NURKZ2o3SE9KeVlsVnp0dFVOMzhabVZvd1N1czQwM04wcHFZV0NuX1NKeWZK?oc=5",
+      "published_at": "2026-11-05T09:39:42Z",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42UlpSZnR0MGJKWlRpZy15YXFVYjJtRmpid1ZEdmtpT3dXLV8wTVVPN3JTbFdORFdaT0ttWU1PWW9BMHU2NERja1drZTdSOThXSFItUw?oc=5",
       "summary_ko": [],
       "kr_impact": null,
-      "us_tickers": []
-    },
-    {
-      "id": "n_573ec424",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금값, 4,125달러 넘어서며 상승",
-      "preview_ko": "금값이 4,125달러를 넘어서며 상승했다.",
-      "published_at": "2026-11-05T10:39:00Z",
-      "source": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvS25vcUxqajAxcExwRUJEM1pRSTA1cnpwVmF2T2ZhUkdfMVdZS2V6Z3VtVXNoN0FhdTJ6anN1SUJ4VDdhTHFuYy1PSXZTVmZBcG82TUxlREtOZF92UWY4djBhTVZtWjVYYnNIZTBIZWxYcm5KU1FjVHNFSDdfZDQ?oc=5",
-      "summary_ko": [
-        "금값이 미국 중간선거 결과에 따라 상승세를 보이고 있다.",
-        "달러와 국채 수익률이 하락하면서 금값이 상승했다.",
-        "투자자들은 금값의 추가 상승을 기대하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주식의 반응을 확인할 필요가 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_633c919d",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금값, 달러 약세로 상승",
-      "preview_ko": "금값이 달러 약세로 상승세를 보이고 있다.",
-      "published_at": "2026-11-05T10:37:14Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ1VsMmlYd2lHdm1aOE9HOE52THkxOVBFTGlaZkptTHpqSDVyVzJUcTZqb3BUa3lIUmJmV25XWlh5RFdHaFZpS0lROERkRkdiWWhlOFJpeFNKUXpVTEZvbEYzbGJDUlRoQkJEaTFnWVpYRmRjSzJFMTZ0MUhRcHBSRS1FN2dMMnN6TGROUjVNajRJUnRTc0tnNGwtMGJQZUQ3cEE?oc=5",
-      "summary_ko": [
-        "금값이 미국 중간선거 결과에 따라 상승하고 있다.",
-        "달러와 국채 수익률의 하락이 금값에 긍정적인 영향을 미쳤다.",
-        "투자자들은 금값의 상승세를 주목하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주식의 반응을 확인할 필요가 있다."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_8b5e7729",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "미국 국채 수익률 하락, 중간선거와 고용 데이터 영향",
-      "preview_ko": "미국 국채 수익률이 하락하고 있다.",
-      "published_at": "2026-11-05T09:56:00Z",
-      "source": "Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUk5LY3luaDZWX1B4b3pqQzg2eFplRERYa1VwNWVCV1dvWkRSSWVHYWhMdnB5VUhBSml1N1NuTFNiREk2MU1LcjNrcVY5VWhvTFh4aXJVZFh0anhqbDdxZXNJMlJMeTRqUDZaN2lHR2twT3hPQWlXd3VKSFB1cy1xZmRkYkktNlliLXkxbC1UQndwQUs2UzVaaEU3TQ?oc=5",
-      "summary_ko": [
-        "미국 중간선거와 고용 데이터 발표를 앞두고 국채 수익률이 하락하고 있다.",
-        "투자자들은 향후 경제 지표에 주목하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_e03afeda",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금값, 주요 지지선에서 반등",
-      "preview_ko": "금값이 주요 지지선에서 반등하고 있다.",
-      "published_at": "2026-11-05T09:51:19Z",
-      "source": "Equiti Global",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVRocU9DWWt1TjdfNGhJLUZ5ZkdEclhrOEJsRXgtZDQ2LVpoVFJFcUhoUG9UeFRoS2lyUVhUb09QeFoyRVFyMzBGTlIwOTNrSnlsNEZfY2tZdmg3cHlHajFhLXJoSWY5UkJVX21WWmxYbkZ5dFdmLTAyNFRSTl9wNWdTcXV3RFNMUnQzaldmb3VHRGxaRjFiQjRFT1ZxQmM0ejZOMk9ndGs5UVJMQzlUNHN0OA?oc=5",
-      "summary_ko": [
-        "금값이 급락한 유가 시장 속에서 반등하고 있다.",
-        "투자자들은 금값의 반등을 주목하고 있다.",
-        "달러 약세가 금값에 긍정적인 영향을 미치고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주식의 반응을 확인할 필요가 있다."
-      },
       "us_tickers": []
     },
     {
@@ -2025,14 +1526,15 @@
       "category": "macro_rates",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "미국 국채, 2개월 최저치 근처",
+      "title_ko": "미국 국채 수익률, 2개월 최저치 근처에서 머물러",
       "preview_ko": "미국 국채 수익률이 2개월 최저치에 근접하고 있다.",
       "published_at": "2026-11-05T09:38:09Z",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeTJ4ZG9nOUJVNUpTSHpET3I1VE5NQzZNN0NhZ3ZGX3A5RW5qY1lSQlJEVEtMNkxVX2Rlb2R2U3gwUlpsOGM2dFJWdmdPVktCbGdWeWlUeVJIMW9IbnI3TWtqbHNaZWFmT1BfQXAtN3FCRDh1UEk2dklMTlFubUVpRUg3ZDNxM2M1UWhLWjd3VzhxWFJqQ0Itcg?oc=5",
       "summary_ko": [
-        "미국 중간선거와 유가 급락으로 국채 수익률이 하락하고 있다.",
-        "투자자들은 향후 경제 지표에 주목하고 있다."
+        "미국 국채 수익률이 최근 2개월 최저치 근처에서 움직이고 있다.",
+        "이는 주간 유가 급락과 관련이 있다.",
+        "향후 금리 전망에 영향을 미칠 수 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
@@ -2043,20 +1545,21 @@
     {
       "id": "n_6fe4e80f",
       "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "한국, 대규모 미국 국채 구매 검토",
-      "preview_ko": "한국이 미국 국채 대규모 구매를 검토하고 있다.",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "한국, 외환 보유액 증대를 위한 미 국채 대규모 매입 검토",
+      "preview_ko": "한국이 외환 보유액을 늘리기 위해 미 국채 매입을 검토 중이다.",
       "published_at": "2026-11-05T09:25:00Z",
       "source": "BigGo Finance",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EUDVGOFVDbm9XME96ZU1WVXkzWGtVdms5a0paQkxJOVNJWWFQbjJDOFdydlZKSExrSnJjdU9XV3JCeDNXUWY4MFROLXA5WFdrSnE2RWFicTNBLTNpcHg3N2V0emFvRlh4TDRHYUFYc0hrbnk3OVE?oc=5",
       "summary_ko": [
-        "한국이 외환 보유고를 늘리기 위해 미국 국채 구매를 고려하고 있다.",
-        "무역 압박 완화를 위한 조치로 보인다."
+        "한국이 외환 보유액을 늘리기 위해 대규모 미 국채 매입을 고려하고 있다.",
+        "이 조치는 무역 압박을 완화하기 위한 것으로 보인다.",
+        "국채 매입은 환율 안정에 기여할 수 있다."
       ],
       "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함."
+        "direction": "positive",
+        "text": "국내 외환 보유액 증가 여부와 환율 안정성 확인."
       },
       "us_tickers": []
     },
@@ -2065,14 +1568,15 @@
       "category": "macro_rates",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "미국 국채 수익률 하락, 선거와 유가 영향",
-      "preview_ko": "미국 국채 수익률이 하락하고 있다.",
+      "title_ko": "선거와 유가 변화로 미 국채 수익률 하락",
+      "preview_ko": "선거와 유가 변화로 미 국채 수익률이 하락하고 있다.",
       "published_at": "2026-11-05T09:06:12Z",
       "source": "Serrari Group",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0tMR19FdFJ0Nkt5MUpJaG9mWGVyS3NKcEltRDNVX1BJT0JCbGpWU1lMZVlFa21EbUlzMjlyTUFYbzJHMkZ4QWRoQWU2SnFqR2EzcVo4YlRvNjl4RGFtNjk0amlmb0FNZHFtSFdLYTN1dXM4Z29QZ0xSVUNUdlluMmpDQ0p1SFpIR2VN?oc=5",
       "summary_ko": [
-        "미국 중간선거와 유가 급락이 국채 수익률에 영향을 미치고 있다.",
-        "투자자들은 향후 경제 지표에 주목하고 있다."
+        "미국 국채 수익률이 선거와 유가 변화로 하락하고 있다.",
+        "이는 시장의 금리 전망에 영향을 미칠 수 있다.",
+        "향후 경제 지표 발표에 주목할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
@@ -2096,22 +1600,22 @@
     },
     {
       "id": "n_5bf95667",
-      "category": "geopolitics_commodities",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "민주당의 승리로 유가와 국채 수익률 하락",
-      "preview_ko": "민주당의 승리로 유가와 국채 수익률이 하락했다.",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "민주당의 선거 승리로 유가와 국채 수익률 하락",
+      "preview_ko": "민주당의 선거 승리로 유가와 국채 수익률이 하락하고 있다.",
       "published_at": "2026-11-05T08:55:00Z",
       "source": "Seoul Economic Daily",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMGRUalF4SjJkaTg0TGltTUNUdjRSUW1TVmhtY0p6RWwycXNPS3ZKQzlqWVlHaThIMnduYnFtdTgzY1RCNE5CVWNiU2YydXhNalFRNF9kZnhCa1hyNmE2WEd4OVVyMklaakRUdDRMRzRGWFNFUjBta0R1TjFyYWpoQzVLTExvdmZaS0pveFlzZEZ3UUQtM1cxRzNxWQ?oc=5",
       "summary_ko": [
-        "민주당의 승리로 유가와 국채 수익률이 하락했다.",
-        "이로 인해 달러가 약세를 보이고 있다.",
-        "금과 은 가격이 상승하는 추세를 보인다."
+        "민주당의 선거 승리로 유가와 국채 수익률이 하락하고 있다.",
+        "이는 시장의 금리 전망에 영향을 미칠 수 있다.",
+        "향후 경제 지표 발표에 주목할 필요가 있다."
       ],
       "kr_impact": {
-        "direction": "positive",
-        "text": "국내 원자재 관련 주가가 유가 하락에 따라 영향을 받을지 확인"
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
       },
       "us_tickers": []
     },
@@ -2120,230 +1624,195 @@
       "category": "macro_rates",
       "importance": 2,
       "importance_label_ko": "",
-      "title_ko": "미국 중간선거 이후 국채 전망",
-      "preview_ko": "미국 중간선거 이후 국채에 대한 전망이 제시되었다.",
+      "title_ko": "중간선거 이후 미 국채 전망",
+      "preview_ko": "중간선거 이후 미 국채 전망에 대한 분석이 있다.",
       "published_at": "2026-11-05T08:32:37Z",
       "source": "BusinessToday Malaysia",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUS1Gc29GaDNfenktQUh0YWZ2by1HU1lVdkFOdElaMTB4RnhfMG9WR3JPTEVGSjFqQ2x4dTJ1WlF2UWxWT0lBZFVscndEQUF2RExsTDgtMWVHQ1dUeW1yYjRORXVwV29reHE3ZUtvSEptM2lrWnZMRm5UaGttcUgyOHlKOU1YWTh4bUZlYnZCVTBfUXkxaVRJ?oc=5",
       "summary_ko": [
-        "미국 중간선거 이후 국채에 대한 전망이 제시되었다.",
-        "국채 수익률의 변동성이 예상된다.",
-        "정치적 불확실성이 영향을 미칠 것으로 보인다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_c9cdfb21",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "달러 약세, 유가와 국채 수익률 하락",
-      "preview_ko": "달러가 약세를 보이며 유가와 국채 수익률이 하락했다.",
-      "published_at": "2026-11-05T06:55:55Z",
-      "source": "شبكة تواصل الإخبارية",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3c3Q3N0NfZ2ZnYWp3R1RHU0t2ZkVxWkxpZUNKbFAyQzQ0RlJIeElQeGVDRC03SGU2bThHSmVya3dCX1dLVVRBSFNTTVhLakxKMW5F?oc=5",
-      "summary_ko": [
-        "달러가 약세를 보이며 유가와 국채 수익률이 하락했다.",
-        "영국 파운드가 상승세를 보이고 있다.",
-        "미국 정치 상황이 영향을 미친 것으로 분석된다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 수출 관련 주가가 달러 약세에 따라 영향을 받을지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_df3805d0",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "약세 달러와 하락하는 국채 수익률로 은 가격 상승",
-      "preview_ko": "약세 달러와 하락하는 국채 수익률로 은 가격이 상승했다.",
-      "published_at": "2026-11-05T05:25:46Z",
-      "source": "Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZmFuQUFudnVyWHV2ajdOVy1NM2l4bkVhLWZ5SlBvUDh3Q2sxMGZ1Z253ZmN2VzktMWdzbW1YeW5XYmxVeFhya2RoVEppb2NvN1FmUE5iN2F6ZlVkbHFfRjBoWmVVRlg2MmpwbXY1RldhQmNOd1lYbWwycFJhcnYzSHBoM2UxTFMxS2ktQ3pGWkV6MnBuYzVkTFJGcWduWU9wLU1IUkxhTWFZa1JUdFFpQkMwTWxIT2piOGlwUjdvNVFBakFWdVRfeEFlaEt5VXJQ?oc=5",
-      "summary_ko": [
-        "약세 달러와 하락하는 국채 수익률로 은 가격이 상승했다.",
-        "투자 심리가 개선되고 있다.",
-        "금 가격도 상승세를 보이고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 귀금속 관련 주가가 상승세를 이어갈지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_8a58db71",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금 가격, 달러와 수익률 하락으로 반등",
-      "preview_ko": "금 가격이 달러와 수익률 하락으로 반등했다.",
-      "published_at": "2026-11-05T05:16:14Z",
-      "source": "Energy Connects",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnNUUXgzSjNLTjBDWnMweWFaa01OMzVqQV9MWHNaeVNMSVFqVlNsVW03RzZPOGFaZ1FlVV9fRXVfNzZGVkM2aWhZU2l0Ny1KMFR6eDdkam9TUEI4NXZneEF3YjU3WEJsWVhJd3NMdExBT0Z3QVRlVU85OE5zMEZCalJJc1NROGh0Uk9OamZkSkMwTUFvbW5aY0NDN0xySFJnM0o5YXZwb01uRUhJWDhoSF9OY1R1Ymc?oc=5",
-      "summary_ko": [
-        "금 가격이 달러와 수익률 하락으로 반등하고 있다.",
-        "$4,100를 초과하는 수준으로 상승했다.",
-        "투자자들의 안전 자산 선호가 반영된 것으로 보인다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주가가 상승세를 이어갈지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_8dd4fd2b",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "금, 두 주 최고치로 상승; 달러와 수익률 약세",
-      "preview_ko": "금 가격이 두 주 최고치로 상승했다.",
-      "published_at": "2026-11-05T05:03:03Z",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0lNbWJsNm9BQkZObjdwTWNBbTQwd093S1c1dV9PTjZmNEQxVmtwNTZwQUROOXJTRFJndXVzVUJJMGloUGdsTjhfN3ctWTdrWFFvME1RbU10OU9MRjFsVElxd0djQTh6YzVKRVhURjA2U1haNEE3ZlVsSXo0VUxNS2F6cnNvQ2RVc0psX3dLck1iNklSLTdRLVE1ZWNSZ2x3MVHSAacBQVVfeXFMTUQta0lIa2tjODZlMzc5Y1hWN3Jpb2YzUVByM3dTNWFsNkdSVmVMT0tVck96cER4VW1jckVUX3VKTG9kVllod0VnTy1Vcy13MVoydnU3NWp1aVBEZjVSY3BVQTNOMUw0V0JmX3p0ZWFSVUNGZ3FZWC1ydW9uakQ4S3dUYTVCUkRPZ2pmWWJISzRZbmxRWEI1UXR1LVZtWVVTNVd2R0U5ZjQ?oc=5",
-      "summary_ko": [
-        "금 가격이 두 주 최고치로 상승하고 있다.",
-        "달러와 수익률 약세가 주요 요인으로 작용하고 있다.",
-        "미국 고용 데이터 발표를 앞두고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주가가 상승세를 이어갈지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_619f869e",
-      "category": "macro_rates",
-      "importance": 3,
-      "importance_label_ko": "업종 확산 관찰",
-      "title_ko": "금, 달러와 국채 수익률 하락으로 두 주 최고치 도달",
-      "preview_ko": "금 가격이 달러와 국채 수익률 하락으로 두 주 최고치에 도달했다.",
-      "published_at": "2026-11-05T04:18:00Z",
-      "source": "The Business Times",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXdXOEVNTnQ5a0pVek5DVUxnR2RVZlA2bzYwOGlNZHlsckRGVnQyU1JHUlBlMUxFbUFBZEU5TE5xQzNQckdmS0JDNERVbGktZVN6Q3k5djZaOWw5WUl6bDJQb1BPWTlIdmRMLTRyNE5RRm9XbmFBSlF6N0lrOGZTRTVEbjZ1ZWlSU2Z2d3Y2R3BWMXZpWWRrcWxxcWZmYjdZeUZ6UGpaVThJS3Zaa0p0ZThPMEZDUGQxQU9wSUp6cmdxSjJpSDJXTk9saHE2VGhvTF95MWh2Y2N0eU9CeDVDbDNB?oc=5",
-      "summary_ko": [
-        "금 가격이 달러와 국채 수익률 하락으로 두 주 최고치에 도달했다.",
-        "정치적 불확실성이 금 가격에 긍정적인 영향을 미치고 있다.",
-        "안전자산 선호가 강화되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주가가 상승세를 이어갈지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_075b703a",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "금 가격 상승, 달러 안정세와 국채 수익률 하락",
-      "preview_ko": "금 가격이 상승하고 있다.",
-      "published_at": "2026-11-05T02:45:07Z",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGVmVFZuV1VyZzZSenl0Mnc0TGNGbEFHOTk1dU8xY0N5QXc3T25HWXY2S01uUkZ5UVpSVkl4VXJwazNSS1BjVkJLVmFyLXBDaFBxR3p3c092aGJKSERHenhycUpMd0tIVVFhTDd1UTZLcTduNUY5RWs5dkJaSWFDbktyczVua0ZuZVA3NkxQVVdsbXZ2a0FVa2xhajc?oc=5",
-      "summary_ko": [
-        "금 가격이 상승하고 있으며, 달러 안정세와 국채 수익률 하락이 영향을 미치고 있다.",
-        "미국 중간선거의 여파가 지속되고 있다.",
-        "투자자들이 안전 자산으로 이동하고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주가가 상승세를 이어갈지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_966cb3ef",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "미국 중간선거 결과, 부채 한도 위험 증가",
-      "preview_ko": "미국 중간선거 결과로 부채 한도 위험이 증가했다.",
-      "published_at": "2026-11-05T02:09:21Z",
-      "source": "BusinessToday Malaysia",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU2J2SEY4cFgtU0pWREdQcDlSelpjblh2ZGR3cU14a1RiNXlZcjVwUjhyWWFnQ215VktfdW8wV09MZU1ONUFiUm1wTi1LN1VCNlRpYlNScm04N3ctQ2R5R1FXR1pUMTJiVkVxWGlXdHFHWlhwbkMtLVp3UEJRYkRvOVJQVEdCUDc4cW5pUWJMeW9tdFBadHplM3U5R0d0dTdZUnFjWXl3a2dVNnRXVnVON1RyWHpwX1A4U2FLbnlxVnN0NEczT2NBMUFLVQ?oc=5",
-      "summary_ko": [
-        "미국 중간선거 결과로 부채 한도 위험이 증가하고 있다.",
-        "국채 수익률이 상승할 가능성이 제기되고 있다.",
-        "정치적 불확실성이 지속되고 있다."
-      ],
-      "kr_impact": {
-        "direction": "neutral",
-        "text": "국내 직접 연결 고리 약함"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_7fad8d1d",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "금 가격 상승, 기술주 하락으로 달러 약세",
-      "preview_ko": "금 가격이 상승하고 있다.",
-      "published_at": "2026-11-05T02:05:48Z",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPR1MxRGVnd2pXLXhLV1VsSDhRV3JNUlQycWZBa1BjOUZDRElvcUVTX1VidjFFRXBZMUdGZ2MxdGMwWTd3ZlNfeS13ZXBDTFVjU1FvQnB2QUVCeU03WU1aWnFoZHNxejRUWlhQN1FfYkFfbU1TZ0Q2VU9mOHJRVktsazNjMl9mc3JYUHpuLUJqYk9udUtzRlpPOExtZHRXQVl4Q3g4WkZFQUJnQ1F4VmgyNHJTMmJwYlFvc1p4a0tYcHhKQkItVGdiMmNn?oc=5",
-      "summary_ko": [
-        "금 가격이 상승하고 있으며, 기술주 하락이 달러 약세에 기여하고 있다.",
-        "안전자산 선호가 증가하고 있다.",
-        "미국 경제 지표 발표를 앞두고 있다."
-      ],
-      "kr_impact": {
-        "direction": "positive",
-        "text": "국내 금 관련 주가가 상승세를 이어갈지 확인"
-      },
-      "us_tickers": []
-    },
-    {
-      "id": "n_f6ea9d16",
-      "category": "macro_rates",
-      "importance": 2,
-      "importance_label_ko": "",
-      "title_ko": "달러, 유가 반등 속에 소폭 변화",
-      "preview_ko": "유가 반등과 고용 지표에 주목하는 달러.",
-      "published_at": "2026-11-05T01:06:00Z",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3ZvRzF1aTlTZE9WT0NxYkU4TWFHTi04YnhEVXd1VTJRTXdibGtPdGZtTWkwZEVBLU0xNmtZaEc4R2lWZWVSdGJtY1FSdzhIazR5a2YwdDJoRzFFTHN1Z2FNb2l5b2x5SllyTE9sTTZTNkxFODFJVkhxOGhlblRTXzNiLTZpc3FKcXBqRzZUMjYtY3VXOHlnR0hPOFFYTldZaXpzSGNTbzlPNlhUdHF1amJTcFp1dw?oc=5",
-      "summary_ko": [
-        "달러는 유가가 반등하면서 큰 변화 없이 유지되고 있다.",
-        "투자자들은 고용 지표에 주목하고 있다.",
-        "유가와 고용 지표가 달러에 미치는 영향을 관찰할 필요가 있다."
+        "중간선거 이후 미 국채에 대한 전망이 제시되었다.",
+        "이는 시장의 금리 전망에 영향을 미칠 수 있다.",
+        "향후 경제 지표 발표에 주목할 필요가 있다."
       ],
       "kr_impact": {
         "direction": "neutral",
         "text": "국내 직접 연결 고리 약함."
       },
       "us_tickers": []
+    },
+    {
+      "id": "n_4d2526d3",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "시장 역학 속에서 5% 국채 수익률 매력적",
+      "preview_ko": "시장 역학 속에서 5% 국채 수익률이 매력적으로 평가되고 있다.",
+      "published_at": "2026-11-05T06:58:46Z",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3gwd0pOVVpLUWpTNm1rZFpSMzRaMElfakVwUmktRUJFSzlpeXhLbVdqZlJoVWxwSTRmX1NpaTN2UTJjUmZaTjdCTmozQTUwS0JrdFVsUVdTczd0dnhQek4ya0t3dU41V210MGNFUVctaEVTS1dlbE5Kd0QybWF4cTRqenBBbVRpc0ZrcmNkNXJzekllaUE?oc=5",
+      "summary_ko": [
+        "시장 역학 속에서 5% 국채 수익률이 매력적으로 평가되고 있다.",
+        "이는 투자자들에게 관심을 끌고 있다.",
+        "향후 금리 전망에 주목할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_5d608891",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "달러 하락, 미 선거로 유가와 국채 수익률 하락",
+      "preview_ko": "미 선거로 달러가 하락하고 있다.",
+      "published_at": "2026-11-05T06:48:11Z",
+      "source": "Investing.com Australia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY080X04wVnJ3WS1Zam41dm1MblRfeXh1a2k3eXZIUU5ZeDBnak5YNWUtUkFPclRLMjNnR1hkRnJZcGNkcGhyRDJVTnpVbmVpWG5DOGY2VVZPZmpKN0o0eGxubElWR2Rfam5ZZE1wNGpxNDhQYUt0bWFwNDVUaG5MZGhPU3NPTWFkQXpIaEVoQ3BZYV8zWmtoQzM5aUFJRUVfTENCRjNoMXpOd1drOVRpa1lxNnFyQ0VxLTg0OWlvYmJORmlNOVBzcg?oc=5",
+      "summary_ko": [
+        "미국 선거 결과로 달러가 하락하고 있다.",
+        "이는 유가와 국채 수익률에도 영향을 미치고 있다.",
+        "시장 반응에 주목할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_8946ce2f",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "금, 달러와 국채 수익률 하락으로 상승",
+      "preview_ko": "금 가격이 달러와 국채 수익률 하락으로 상승하고 있다.",
+      "published_at": "2026-11-05T05:54:08Z",
+      "source": "Investify",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZmFjaEZ1ZE02WTRzekZwbV9XaWlMandPX3VmN3hHNV9KZDRyWHJfOV96alRwZTk0aWt1UEt3V2VpWjRsY19icWFzejQyT3V3T3dPZy1NYXlzUkJ0WjBaeVlnVFZQaGlnMmxZZWcwNFFPMHY1TV9VZTNCMGtDRXpZLXlKZ0NST2VVRlRyTlJPTUpkV1Q4dWlmSXpR?oc=5",
+      "summary_ko": [
+        "금 가격이 달러와 국채 수익률 하락으로 상승하고 있다.",
+        "이는 안전 자산 선호를 반영하고 있다.",
+        "향후 경제 지표 발표에 주목할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_df3805d0",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 달러 약세로 은 가격 상승",
+      "preview_ko": "미국 달러 약세와 금리 하락이 은 가격을 지지.",
+      "published_at": "2026-11-05T05:25:46Z",
+      "source": "Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZmFuQUFudnVyWHV2ajdOVy1NM2l4bkVhLWZ5SlBvUDh3Q2sxMGZ1Z253ZmN2VzktMWdzbW1YeW5XYmxVeFhya2RoVEppb2NvN1FmUE5iN2F6ZlVkbHFfRjBoWmVVRlg2MmpwbXY1RldhQmNOd1lYbWwycFJhcnYzSHBoM2UxTFMxS2ktQ3pGWkV6MnBuYzVkTFJGcWduWU9wLU1IUkxhTWFZa1JUdFFpQkMwTWxIT2piOGlwUjdvNVFBakFWdVRfeEFlaEt5VXJQ?oc=5",
+      "summary_ko": [
+        "미국 달러 약세와 국채 수익률 하락이 은 가격 상승을 지원하고 있다.",
+        "Kedia Advisory에 따르면 이러한 요인이 투자 심리를 개선하고 있다.",
+        "은 가격 상승은 원자재 시장에 긍정적인 신호로 작용할 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 원자재 관련 주가가 은 가격 상승에 따라 영향을 받을지 확인."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_8a58db71",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금 가격, 달러 약세로 4,100달러 돌파",
+      "preview_ko": "금 가격이 달러 약세로 4,100달러를 넘었다.",
+      "published_at": "2026-11-05T05:16:14Z",
+      "source": "Energy Connects",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnNUUXgzSjNLTjBDWnMweWFaa01OMzVqQV9MWHNaeVNMSVFqVlNsVW03RzZPOGFaZ1FlVV9fRXVfNzZGVkM2aWhZU2l0Ny1KMFR6eDdkam9TUEI4NXZneEF3YjU3WEJsWVhJd3NMdExBT0Z3QVRlVU85OE5zMEZCalJJc1NROGh0Uk9OamZkSkMwTUFvbW5aY0NDN0xySFJnM0o5YXZwb01uRUhJWDhoSF9OY1R1Ymc?oc=5",
+      "summary_ko": [
+        "금 가격이 달러 약세와 국채 수익률 하락으로 반등하고 있다.",
+        "현재 금 가격은 4,100달러를 초과하며 상승세를 보이고 있다.",
+        "이러한 금 가격 상승은 원자재 시장에 긍정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 금 관련 주가가 금 가격 상승에 따라 영향을 받을지 확인."
+      },
+      "us_tickers": []
+    },
+    {
+      "id": "n_8dd4fd2b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gold at more than two-week high as dollar, yields weaken; U.S. payrolls data awaited",
+      "preview_ko": "",
+      "published_at": "2026-11-05T05:03:03Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0lNbWJsNm9BQkZObjdwTWNBbTQwd093S1c1dV9PTjZmNEQxVmtwNTZwQUROOXJTRFJndXVzVUJJMGloUGdsTjhfN3ctWTdrWFFvME1RbU10OU9MRjFsVElxd0djQTh6YzVKRVhURjA2U1haNEE3ZlVsSXo0VUxNS2F6cnNvQ2RVc0psX3dLck1iNklSLTdRLVE1ZWNSZ2x3MVHSAacBQVVfeXFMTUQta0lIa2tjODZlMzc5Y1hWN3Jpb2YzUVByM3dTNWFsNkdSVmVMT0tVck96cER4VW1jckVUX3VKTG9kVllod0VnTy1Vcy13MVoydnU3NWp1aVBEZjVSY3BVQTNOMUw0V0JmX3p0ZWFSVUNGZ3FZWC1ydW9uakQ4S3dUYTVCUkRPZ2pmWWJISzRZbmxRWEI1UXR1LVZtWVVTNVd2R0U5ZjQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_619f869e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gold hits a two-week high as dollar, Treasury yields ease after US midterm elections",
+      "preview_ko": "",
+      "published_at": "2026-11-05T04:18:00Z",
+      "source": "The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXdXOEVNTnQ5a0pVek5DVUxnR2RVZlA2bzYwOGlNZHlsckRGVnQyU1JHUlBlMUxFbUFBZEU5TE5xQzNQckdmS0JDNERVbGktZVN6Q3k5djZaOWw5WUl6bDJQb1BPWTlIdmRMLTRyNE5RRm9XbmFBSlF6N0lrOGZTRTVEbjZ1ZWlSU2Z2d3Y2R3BWMXZpWWRrcWxxcWZmYjdZeUZ6UGpaVThJS3Zaa0p0ZThPMEZDUGQxQU9wSUp6cmdxSjJpSDJXTk9saHE2VGhvTF95MWh2Y2N0eU9CeDVDbDNB?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": []
+    },
+    {
+      "id": "n_075b703a",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 미 중간선거 여파로 가격 상승",
+      "preview_ko": "미 중간선거 여파로 금 가격이 상승하고 있다.",
+      "published_at": "2026-11-05T02:45:07Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGVmVFZuV1VyZzZSenl0Mnc0TGNGbEFHOTk1dU8xY0N5QXc3T25HWXY2S01uUkZ5UVpSVkl4VXJwazNSS1BjVkJLVmFyLXBDaFBxR3p3c092aGJKSERHenhycUpMd0tIVVFhTDd1UTZLcTduNUY5RWs5dkJaSWFDbktyczVua0ZuZVA3NkxQVVdsbXZ2a0FVa2xhajc?oc=5",
+      "summary_ko": [
+        "금 가격이 달러 안정세와 국채 수익률 하락으로 상승하고 있다.",
+        "미국 중간선거의 여파가 금 가격에 긍정적인 영향을 미치고 있다.",
+        "이러한 금 가격 상승은 원자재 시장에 긍정적인 신호로 작용할 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 금 관련 주가가 금 가격 상승에 따라 영향을 받을지 확인."
+      },
+      "us_tickers": []
     }
   ],
   "calendar_actuals": [],
-  "total_batches": 15,
+  "total_batches": 12,
   "failed_batches": 0,
   "picked": [
-    "n_d376253b",
-    "n_8420a048",
-    "n_0b413d8b",
-    "n_76f8c762",
-    "n_c2ae7f48",
-    "n_619f869e",
-    "n_8adf6a25",
-    "n_5303a784"
+    "n_25b8d06b",
+    "n_e7d42075",
+    "n_7a45ab51",
+    "n_95e88df4",
+    "n_8a58db71",
+    "n_df3805d0",
+    "n_6fe4e80f",
+    "n_3d86b3d1"
   ],
   "notes": [
     "10 summaries replaced by titles: numbers not in article"
   ],
   "llm_usage": {
-    "gpt-4o-mini": 58030,
-    "gpt-5.5": 8614
+    "gpt-4o-mini": 46219,
+    "gpt-5.5": 5364
   }
 }
