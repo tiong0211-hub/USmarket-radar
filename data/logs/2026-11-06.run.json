@@ -1,35 +1,35 @@
 {
   "run_date": "2026-11-06",
   "us_session": "2026-11-05",
-  "started_at": "2026-11-06T09:34:32Z",
-  "finished_at": "2026-11-06T09:35:32Z",
+  "started_at": "2026-11-06T13:45:03Z",
+  "finished_at": "2026-11-06T13:45:50Z",
   "run_status": "OK",
   "modules": {
     "M1": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 1.5,
+      "duration_s": 0.9,
       "error": null,
       "notes": []
     },
     "M2": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 1.0,
+      "duration_s": 0.5,
       "error": null,
       "notes": []
     },
     "M3": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 0.3,
+      "duration_s": 0.2,
       "error": null,
       "notes": []
     },
     "M4": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 2.0,
+      "duration_s": 1.2,
       "error": null,
       "notes": []
     },
@@ -43,20 +43,18 @@
     "M6": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 51.6,
+      "duration_s": 42.9,
       "error": null,
       "notes": [
-        "5 summaries replaced by titles: numbers not in article"
+        "3 summaries replaced by titles: numbers not in article"
       ]
     },
     "M7": {
       "status": "SUCCEEDED",
       "attempts": 1,
-      "duration_s": 4.8,
+      "duration_s": 1.7,
       "error": null,
-      "notes": [
-        "MSFT: opened #2"
-      ]
+      "notes": []
     },
     "M9": {
       "status": "SUCCEEDED",
@@ -75,7 +73,7 @@
   },
   "indicators_missing": [],
   "llm_usage": {
-    "gpt-4o-mini": 35644,
-    "gpt-5.5": 3708
+    "gpt-4o-mini": 14547,
+    "gpt-5.5": 2704
   }
 }

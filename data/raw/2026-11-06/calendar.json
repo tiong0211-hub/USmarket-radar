@@ -39,24 +39,6 @@
       "forecast": "4.2%",
       "previous": "4.2%",
       "tag_ko": "고용"
-    },
-    {
-      "time_utc": "2026-11-06T15:00:00Z",
-      "event": "Prelim UoM Consumer Sentiment",
-      "event_ko": "미시간대 소비자심리(예비)",
-      "importance": "medium",
-      "forecast": "48.1",
-      "previous": "46.3",
-      "tag_ko": "소비"
-    },
-    {
-      "time_utc": "2026-11-06T15:00:00Z",
-      "event": "Prelim UoM Inflation Expectations",
-      "event_ko": "미시간대 기대인플레이션(예비)",
-      "importance": "medium",
-      "forecast": null,
-      "previous": "4.7%",
-      "tag_ko": "물가"
     }
   ],
   "status": "ok",
