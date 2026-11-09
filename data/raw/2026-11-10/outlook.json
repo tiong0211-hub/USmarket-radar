@@ -1,0 +1,10 @@
+{
+  "direction": "gap_up",
+  "strong": true,
+  "basis_ko": "반도체(SOX) +6.85% · 한국 ETF(EWY) +3.72% · VIX −22.11%",
+  "hit_rate": 0.833,
+  "test_days": 30,
+  "calibrated": "2026-11-09",
+  "method": "sox_ewy_vix_ols_v1",
+  "note_ko": "시가 이후 장중 흐름은 밤사이 지표로 예측하기 어렵습니다."
+}

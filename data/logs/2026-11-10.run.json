@@ -1,0 +1,96 @@
+{
+  "run_date": "2026-11-10",
+  "us_session": "2026-11-09",
+  "started_at": "2026-11-09T21:20:30Z",
+  "finished_at": "2026-11-09T21:22:41Z",
+  "run_status": "OK",
+  "modules": {
+    "M1": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 1.1,
+      "error": null,
+      "notes": []
+    },
+    "M2": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 3.2,
+      "error": null,
+      "notes": []
+    },
+    "M3": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.2,
+      "error": null,
+      "notes": []
+    },
+    "M4": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 2.2,
+      "error": null,
+      "notes": []
+    },
+    "M5": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    },
+    "M12": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    },
+    "M6": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 107.3,
+      "error": null,
+      "notes": [
+        "6 summaries replaced by titles: numbers not in article"
+      ]
+    },
+    "M7": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 15.4,
+      "error": null,
+      "notes": [
+        "AVGO: opened #3",
+        "META: opened #4"
+      ]
+    },
+    "M8": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 2.6,
+      "error": null,
+      "notes": []
+    },
+    "M9": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    },
+    "M10": {
+      "status": "SUCCEEDED",
+      "attempts": 1,
+      "duration_s": 0.0,
+      "error": null,
+      "notes": []
+    }
+  },
+  "indicators_missing": [],
+  "llm_usage": {
+    "gpt-4o-mini": 56147,
+    "gpt-5.5": 16162
+  }
+}

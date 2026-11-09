@@ -1,5 +1,28 @@
 [
   {
+    "us_ticker": "AVGO",
+    "name": "Broadcom",
+    "theme": "AI 반도체 · HBM",
+    "kr_stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "link": "same_theme",
+        "relation_ko": "AI수요"
+      },
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "link": "same_theme",
+        "relation_ko": "AI수요"
+      }
+    ],
+    "reviewed": "2026-11-10",
+    "news_ids": [
+      "n_62176b38"
+    ]
+  },
+  {
     "us_ticker": "INTC",
     "name": "Intel",
     "theme": "파운드리 · 첨단 공정",
@@ -14,6 +37,29 @@
     "reviewed": "2026-11-09",
     "news_ids": [
       "n_910067d6"
+    ]
+  },
+  {
+    "us_ticker": "META",
+    "name": "Meta Platforms",
+    "theme": "디지털 광고 · 플랫폼",
+    "kr_stocks": [
+      {
+        "code": "035420",
+        "name": "NAVER",
+        "link": "same_theme",
+        "relation_ko": "광고플랫폼"
+      },
+      {
+        "code": "035720",
+        "name": "카카오",
+        "link": "same_theme",
+        "relation_ko": "광고플랫폼"
+      }
+    ],
+    "reviewed": "2026-11-10",
+    "news_ids": [
+      "n_acf96c12"
     ]
   }
 ]

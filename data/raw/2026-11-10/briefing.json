@@ -1,0 +1,39 @@
+{
+  "direction": "gap_up",
+  "direction_ko": "갭상승 우세",
+  "confidence": "high",
+  "headline_ko": [
+    "미 기술주 반등,",
+    "반도체 먼저 확인."
+  ],
+  "headline_emphasis": "반도체",
+  "points": [
+    {
+      "title_ko": "위험선호",
+      "text_ko": "나스닥100 +3.40%, VIX −22.11%로 완화 관찰."
+    },
+    {
+      "title_ko": "금리환율",
+      "text_ko": "미국 10년물은 4.86%, 원 / 달러는 −1.19%."
+    },
+    {
+      "title_ko": "국내연결",
+      "text_ko": "필라델피아 반도체 +6.85%가 반도체 출발점."
+    }
+  ],
+  "focus_chips": [
+    {
+      "label": "반도체",
+      "anchor": "#news"
+    },
+    {
+      "label": "AI 반도체 · HBM",
+      "anchor": "#themes"
+    }
+  ],
+  "risks_ko": [
+    "오늘 밤 22:30 소비자물가(전월비)를 확인."
+  ],
+  "source": "gpt-5.5",
+  "label": "참고용"
+}

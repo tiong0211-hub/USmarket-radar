@@ -1,0 +1,276 @@
+{
+  "themes": [
+    {
+      "us_ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 13.26,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "AMD와 브로드컴 주가가 큰 상승세를 보였다.",
+      "related_news_ids": [
+        "n_62176b38"
+      ],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "supplier",
+          "relation_ko": "HBM 공급"
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "HBM 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "AMAT",
+      "name": "Applied Materials",
+      "change_pct": 11.37,
+      "theme": "반도체 장비",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "240810",
+          "name": "원익IPS",
+          "link": "same_theme",
+          "relation_ko": "증착 장비"
+        },
+        {
+          "code": "036930",
+          "name": "주성엔지니어링",
+          "link": "same_theme",
+          "relation_ko": "증착 장비"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "CEG",
+      "name": "Constellation Energy",
+      "change_pct": 10.46,
+      "theme": "원전 · 전력",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "034020",
+          "name": "두산에너빌리티",
+          "link": "same_theme",
+          "relation_ko": "원전 기자재"
+        },
+        {
+          "code": "052690",
+          "name": "한전기술",
+          "link": "same_theme",
+          "relation_ko": "원전 설계"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "VRT",
+      "name": "Vertiv",
+      "change_pct": 9.63,
+      "theme": "데이터센터 · 전력 인프라",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "010120",
+          "name": "LS ELECTRIC",
+          "link": "same_theme",
+          "relation_ko": "전력기기"
+        },
+        {
+          "code": "267260",
+          "name": "HD현대일렉트릭",
+          "link": "same_theme",
+          "relation_ko": "전력기기"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "change_pct": 8.78,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "AMD와 브로드컴 주가가 큰 상승세를 보였다.",
+      "related_news_ids": [
+        "n_62176b38"
+      ],
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "mapping_source": "auto",
+      "mapping_reviewed": "2026-11-10"
+    },
+    {
+      "us_ticker": "VST",
+      "name": "Vistra",
+      "change_pct": 7.31,
+      "theme": "원전 · 전력",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "034020",
+          "name": "두산에너빌리티",
+          "link": "same_theme",
+          "relation_ko": "원전 기자재"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    }
+  ],
+  "proposals": [
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "change_pct": 8.78,
+      "theme": "AI 반도체 · HBM",
+      "is_new_theme": false,
+      "kr_candidates": [
+        {
+          "name": "SK하이닉스",
+          "code": "000660",
+          "link_type": "same_theme",
+          "relation_ko": "AI수요",
+          "rationale_ko": "브로드컴은 AI 가속기용 맞춤형 ASIC·네트워킹 칩을 공급하고, SK하이닉스는 AI 서버에 쓰이는 HBM을 공급해 AI 데이터센터 투자 수요를 공유한다.",
+          "confidence": "medium"
+        },
+        {
+          "name": "삼성전자",
+          "code": "005930",
+          "link_type": "same_theme",
+          "relation_ko": "AI수요",
+          "rationale_ko": "브로드컴의 AI ASIC·네트워킹 반도체와 삼성전자의 HBM·첨단 반도체는 모두 AI 서버 증설 수요에 영향을 받는 반도체 제품군이다.",
+          "confidence": "medium"
+        }
+      ],
+      "news_ids": [
+        "n_62176b38"
+      ]
+    },
+    {
+      "us_ticker": "META",
+      "name": "Meta Platforms",
+      "change_pct": 5.12,
+      "theme": "디지털 광고 · 플랫폼",
+      "is_new_theme": true,
+      "kr_candidates": [
+        {
+          "name": "NAVER",
+          "code": "035420",
+          "link_type": "same_theme",
+          "relation_ko": "광고플랫폼",
+          "rationale_ko": "메타는 페이스북·인스타그램 기반 디지털 광고 플랫폼을 운영하고, NAVER도 검색·콘텐츠 기반 온라인 광고 매출을 주요 사업으로 둔다.",
+          "confidence": "medium"
+        },
+        {
+          "name": "카카오",
+          "code": "035720",
+          "link_type": "same_theme",
+          "relation_ko": "광고플랫폼",
+          "rationale_ko": "메타의 소셜 플랫폼 광고 사업과 카카오의 메신저·콘텐츠 기반 광고 사업은 디지털 광고 경기와 플랫폼 이용자 지표를 공통 수요 동인으로 가진다.",
+          "confidence": "medium"
+        }
+      ],
+      "news_ids": [
+        "n_acf96c12"
+      ]
+    }
+  ],
+  "auto": [
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "theme": "AI 반도체 · HBM",
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_62176b38"
+      ]
+    },
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "theme": "파운드리 · 첨단 공정",
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "reviewed": "2026-11-09",
+      "news_ids": [
+        "n_910067d6"
+      ]
+    },
+    {
+      "us_ticker": "META",
+      "name": "Meta Platforms",
+      "theme": "디지털 광고 · 플랫폼",
+      "kr_stocks": [
+        {
+          "code": "035420",
+          "name": "NAVER",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        },
+        {
+          "code": "035720",
+          "name": "카카오",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_acf96c12"
+      ]
+    }
+  ],
+  "listing_checked": true,
+  "rule_ko": "S&P 500(+2.35%)보다 1%p 이상 오른 종목만",
+  "excluded": [],
+  "notes": [
+    "AVGO: opened #3",
+    "META: opened #4"
+  ]
+}
