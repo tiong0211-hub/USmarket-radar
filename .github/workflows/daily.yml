@@ -2,13 +2,15 @@ name: daily-radar
 
 on:
   schedule:
-    # GitHub schedule can start hours late (2026-11-06: the 07:10 slot ran at 11:21 KST).
-    # Three slots; once one publishes, the later ones skip (--skip-if-done).
-    - cron: "40 21 * * 0-4"   # 06:40 KST, 월~금 (UTC 일~목)
-    - cron: "10 22 * * 0-4"   # 07:10 KST
-    - cron: "40 22 * * 0-4"   # 07:40 KST
+    # Backup only. GitHub schedule starts hours late (2026-11-09: the 06:40 slot ran at 10:12 KST),
+    # so the on-time trigger is an external scheduler calling workflow_dispatch with skip_if_done
+    # (docs/orchestration_spec.md). US regular close is 06:00 KST (05:00 in US summer time).
+    - cron: "20 21 * * 0-4"   # 06:20 KST, 월~금 (UTC 일~목)
+    - cron: "50 21 * * 0-4"   # 06:50 KST
+    - cron: "20 22 * * 0-4"   # 07:20 KST
   workflow_dispatch:
     inputs:
+      skip_if_done: {description: "오늘 이미 게시됐으면 건너뜀 (외부 예약 트리거용)", type: boolean, default: false}
       run_date: {description: "KST 날짜 YYYY-MM-DD (비우면 오늘)", required: false}
       skip_llm: {type: boolean, default: false}
       force: {description: "휴장일 무시", type: boolean, default: false}
@@ -44,7 +46,7 @@ jobs:
             ${RUN_DATE:+--date "$RUN_DATE"} \
             ${{ inputs.skip_llm && '--no-llm' || '' }} \
             ${{ inputs.force && '--force' || '' }} \
-            ${{ github.event_name == 'schedule' && '--skip-if-done' || '' }} \
+            ${{ (github.event_name == 'schedule' || inputs.skip_if_done) && '--skip-if-done' || '' }} \
             --github-output "$GITHUB_OUTPUT"
       - name: Commit data
         if: ${{ !startsWith(steps.run.outputs.run_status, 'SKIPPED') }}

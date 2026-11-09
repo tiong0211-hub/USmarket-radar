@@ -8,7 +8,7 @@
 | 항목 | 결정 |
 |---|---|
 | 개발/실행 | GitHub(공개 repo 1개) + Claude Code로 신규 구축, GitHub Actions cron |
-| 실행 시각 | 07:10 KST 시작(cron `10 22 * * 0-4` UTC), 07:30 전 게시 목표, 재갱신 없음 |
+| 실행 시각 | 06:20 KST부터 30분 간격 외부 예약 → `workflow_dispatch(skip_if_done)`, 08:30 전 게시 목표. GitHub cron 06:20/06:50/07:20은 백업(수 시간 지연 사례 있음) |
 | 지표 6종 (7값) | NDX 현물, SPX 현물, 지수선물(NQ·ES), VIX, 미10년물, 원/달러 — 하나라도 누락 시 실패 기록 |
 | 나스닥 기준 | 나스닥100으로 통일(^NDX, NQ=F) |
 | 데이터 소스 | 무료: yfinance(주), FRED(금리 폴백), 영어 뉴스 RSS, Forex Factory 캘린더 JSON |
@@ -46,7 +46,7 @@ flowchart LR
         F2[theme_map.yaml]
         F3[symbols.yaml]
     end
-    CRON[GitHub Actions cron 07:10 KST] --> OR[Orchestrator]
+    CRON[외부 예약 06:20~ KST → workflow_dispatch / cron 백업] --> OR[Orchestrator]
     OR --> M1[M1 Market]
     OR --> M2[M2 News]
     OR --> M3[M3 Calendar]

@@ -1,8 +1,8 @@
 timezone_display: Asia/Seoul
 site_url: "https://tiong0211-hub.github.io/USmarket-radar/"   # OG 이미지 등 절대 URL용
 schedule:
-  start_kst: "07:10"
-  deadline_kst: "07:28"      # 초과 시 비필수 단계(M7 제안, M8) 건너뜀
+  start_kst: "06:20"          # 뉴스·선물 기준 시각(나중에 재실행해도 이 시각까지만 반영). 미장 마감 06:00 KST 이후
+  publish_by_kst: "08:30"     # 목표 게시 시각. 외부 예약이 06:20부터 30분 간격으로 workflow_dispatch
 calendars:
   kr: XKRX
   us: XNYS
