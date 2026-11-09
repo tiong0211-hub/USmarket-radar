@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "us_ticker": "INTC",
+    "name": "Intel",
+    "theme": "파운드리 · 첨단 공정",
+    "kr_stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "link": "competitor",
+        "relation_ko": "파운드리"
+      }
+    ],
+    "reviewed": "2026-11-09",
+    "news_ids": [
+      "n_910067d6"
+    ]
+  }
+]

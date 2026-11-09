@@ -1,0 +1,191 @@
+{
+  "themes": [
+    {
+      "us_ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 11.04,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "supplier",
+          "relation_ko": "HBM 공급"
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "HBM 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "VST",
+      "name": "Vistra",
+      "change_pct": 10.55,
+      "theme": "원전 · 전력",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "034020",
+          "name": "두산에너빌리티",
+          "link": "same_theme",
+          "relation_ko": "원전 기자재"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 7.71,
+      "theme": "파운드리 · 첨단 공정",
+      "momentum_ko": "인텔 주식의 장기적인 정체와 향후 전망",
+      "related_news_ids": [
+        "n_910067d6"
+      ],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "mapping_source": "auto",
+      "mapping_reviewed": "2026-11-09"
+    },
+    {
+      "us_ticker": "TSM",
+      "name": "TSMC ADR",
+      "change_pct": 6.33,
+      "theme": "파운드리 · 첨단 공정",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "399720",
+          "name": "가온칩스",
+          "link": "same_theme",
+          "relation_ko": "설계 생태계"
+        },
+        {
+          "code": "200710",
+          "name": "에이디테크놀로지",
+          "link": "same_theme",
+          "relation_ko": "설계 생태계"
+        },
+        {
+          "code": "058470",
+          "name": "리노공업",
+          "link": "same_theme",
+          "relation_ko": "테스트 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "MU",
+      "name": "Micron",
+      "change_pct": 5.12,
+      "theme": "메모리 반도체",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "competitor",
+          "relation_ko": "메모리 경쟁"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "메모리 경쟁"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "ASML",
+      "name": "ASML ADR",
+      "change_pct": 5.02,
+      "theme": "EUV 노광",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "101490",
+          "name": "에스앤에스텍",
+          "link": "same_theme",
+          "relation_ko": "블랭크마스크"
+        },
+        {
+          "code": "036810",
+          "name": "에프에스티",
+          "link": "same_theme",
+          "relation_ko": "펠리클"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    }
+  ],
+  "proposals": [
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 7.71,
+      "theme": "파운드리 · 첨단 공정",
+      "is_new_theme": false,
+      "kr_candidates": [
+        {
+          "name": "삼성전자",
+          "code": "005930",
+          "link_type": "competitor",
+          "relation_ko": "파운드리",
+          "rationale_ko": "인텔 파운드리와 삼성전자 파운드리는 첨단 공정 기반 반도체 위탁생산 시장에서 경쟁한다.",
+          "confidence": "high"
+        }
+      ],
+      "news_ids": [
+        "n_910067d6"
+      ]
+    }
+  ],
+  "auto": [
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "theme": "파운드리 · 첨단 공정",
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "reviewed": "2026-11-09",
+      "news_ids": [
+        "n_910067d6"
+      ]
+    }
+  ],
+  "listing_checked": true,
+  "rule_ko": "S&P 500(+0.31%)보다 1%p 이상 오른 종목만",
+  "excluded": [],
+  "notes": [
+    "INTC: commented on #1"
+  ]
+}

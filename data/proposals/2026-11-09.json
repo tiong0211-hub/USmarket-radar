@@ -1,0 +1,22 @@
+[
+  {
+    "us_ticker": "INTC",
+    "name": "Intel",
+    "change_pct": 7.71,
+    "theme": "파운드리 · 첨단 공정",
+    "is_new_theme": false,
+    "kr_candidates": [
+      {
+        "name": "삼성전자",
+        "code": "005930",
+        "link_type": "competitor",
+        "relation_ko": "파운드리",
+        "rationale_ko": "인텔 파운드리와 삼성전자 파운드리는 첨단 공정 기반 반도체 위탁생산 시장에서 경쟁한다.",
+        "confidence": "high"
+      }
+    ],
+    "news_ids": [
+      "n_910067d6"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "direction": "gap_up",
+  "direction_ko": "갭상승 우세",
+  "confidence": "medium",
+  "headline_ko": [
+    "미 기술주 상승,",
+    "AI 반도체 · HBM 확인"
+  ],
+  "headline_emphasis": "AI 반도체 · HBM",
+  "points": [
+    {
+      "title_ko": "위험선호",
+      "text_ko": "나스닥100·반도체 상승, VIX는 하락."
+    },
+    {
+      "title_ko": "금리·환율",
+      "text_ko": "미국 10년물 +2bp, 원 / 달러도 상승."
+    },
+    {
+      "title_ko": "국내연결",
+      "text_ko": "AI 반도체 · HBM과 파운드리 관찰."
+    }
+  ],
+  "focus_chips": [
+    {
+      "label": "AI 반도체 · HBM",
+      "anchor": "#themes"
+    },
+    {
+      "label": "파운드리 · 첨단 공정",
+      "anchor": "#themes"
+    }
+  ],
+  "risks_ko": [
+    "원 / 달러 상승과 극도의 공포 심리를 함께 확인."
+  ],
+  "source": "gpt-5.5",
+  "label": "참고용"
+}
