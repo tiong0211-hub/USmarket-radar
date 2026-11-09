@@ -60,7 +60,16 @@ def digest(draft: DailyReport) -> dict:
         ],
         "themes": [{"us_ticker": t.us_ticker, "change_pct": round(t.change_pct, 2), "theme": t.theme}
                    for t in draft.themes],
+        "outlook": draft.outlook and {"direction": draft.outlook.direction, "strong": draft.outlook.strong},
     }
+
+
+def _direction(draft: DailyReport, settings: dict) -> dict:
+    """M12's rule decides the direction whenever it ran; the model only writes words around it."""
+    if draft.outlook is None:
+        return {}
+    labels = settings["briefing"]["direction_ko"]
+    return {"direction": draft.outlook.direction, "direction_ko": labels[draft.outlook.direction]}
 
 
 def _minus(text: str) -> str:
@@ -92,7 +101,7 @@ def write(draft: DailyReport, digest_: dict, settings: dict, client: LLMClient, 
             points=[BriefingPoint(title_ko=_minus(p.title_ko), text_ko=_minus(p.text_ko)) for p in out.points],
             focus_chips=_chips([out.headline_emphasis, *(c for c in out.focus_chips if c != out.headline_emphasis)],
                                draft), risks_ko=[_minus(t) for t in out.risks_ko], source=cfg["model"],
-        )
+        ).model_copy(update=_direction(draft, settings))
     raise error
 
 
@@ -101,7 +110,7 @@ def _pct(value: float) -> str:
 
 
 def template(draft: DailyReport, settings: dict) -> Briefing:
-    """No model: facts from collected data only, no direction call."""
+    """No model: facts from collected data only. Direction only from M12, never guessed here."""
     by_key = {i.key: i for i in draft.indicators if not i.missing}
     focus = draft.themes[0].theme if draft.themes else "시장 지표"
     if draft.us_market_closed:
@@ -134,4 +143,4 @@ def template(draft: DailyReport, settings: dict) -> Briefing:
     return Briefing(
         direction="flat", direction_ko=settings["briefing"]["template_direction_ko"], confidence="low",
         headline_ko=headline, headline_emphasis=emphasis, points=points, focus_chips=chips, source="template",
-    )
+    ).model_copy(update=_direction(draft, settings))

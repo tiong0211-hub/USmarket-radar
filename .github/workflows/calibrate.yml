@@ -1,0 +1,31 @@
+name: calibrate-outlook
+# M12 monthly recalibration: refit the "오늘 국장은?" gap-direction coefficients and hit rates
+# on recent history and commit data/outlook_model.json. Logic: docs/outlook_scoring.md.
+
+on:
+  schedule:
+    - cron: "0 18 1 * *"   # 매달 2일 03:00 KST (daily run 전)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-radar   # never pushes at the same time as the daily data commit
+  cancel-in-progress: false
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - run: uv run python -m radar.analytics.outlook   # on failure last month's file stays and this job fails (mail)
+      - run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/outlook_model.json
+          git commit -m "data(m12): monthly recalibration $(date -u +%F)" || echo "no changes"
+          git push

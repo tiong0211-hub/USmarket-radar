@@ -5,7 +5,7 @@ from radar import config
 from radar.assemble.validator import check_report, run_status
 from radar.models import (
     Banner, Briefing, Calendar, CalendarSnapshot, DailyReport, Indicator, MarketSnapshot, ModuleRun,
-    NewsAnalysis, NewsCollection, NewsItem, Sentiment, SourceInfo, ThemeMapping,
+    NewsAnalysis, NewsCollection, NewsItem, Outlook, Sentiment, SourceInfo, ThemeMapping,
 )
 
 WEEKDAYS_KO = "월화수목금토일"
@@ -19,6 +19,7 @@ MODULE_WARNINGS = {
     "M6": "뉴스 요약 일부 없음(제목만 표시)",
     "M7": "국내 연결 종목 검증 일부 실패",
     "M8": "요약 자동 작성 실패(기본 요약 표시)",
+    "M12": "국장 방향 점수 산출 불가",
 }
 
 
@@ -81,6 +82,7 @@ def assemble(
     sentiment: Sentiment | None = None,
     themes: ThemeMapping | None = None,
     briefing: Briefing | None = None,
+    outlook: Outlook | None = None,
 ) -> DailyReport:
     indicators = _complete(symbols, market)
     warnings = [f"{i.label} {i.kind} 데이터 없음" for i in indicators if i.missing]
@@ -114,6 +116,7 @@ def assemble(
         banner=_banner(status, us_market_closed, warnings),
         indicators=indicators,
         sentiment=sentiment,
+        outlook=outlook,
         briefing=briefing,
         themes=themes.themes if themes else [],
         themes_rule_ko=themes.rule_ko if themes else "",

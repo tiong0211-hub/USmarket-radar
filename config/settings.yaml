@@ -19,7 +19,7 @@ market:
   retry_backoff_s: [2, 4, 8]
   retry_jitter_s: 1
   intraday_max_age_days: 55   # Yahoo 5분봉 제공 범위 안에서만 요청
-module_timeouts_s: {M2: 120, M3: 120, M4: 120, M5: 30, M6: 300, M7: 120, M8: 180}
+module_timeouts_s: {M2: 120, M3: 120, M4: 120, M5: 30, M6: 300, M7: 120, M8: 180, M12: 30}
 briefing:
   direction_ko: {gap_up: 갭상승 우세, flat: 보합 우세, gap_down: 갭하락 우세}
   template_direction_ko: "판단 보류 · 자동 요약"   # LLM 요약이 없거나 숫자 검증에 실패한 날
@@ -37,6 +37,20 @@ sentiment:
     - {max: 55, label: 중립, label_en: NEUTRAL}
     - {max: 75, label: 탐욕, label_en: GREED}
     - {max: 100, label: 극도의 탐욕, label_en: EXTREME GREED}
+outlook:                      # M12 "오늘 국장은?" 코스피 시가 갭 방향. 로직: docs/outlook_scoring.md
+  method: sox_ewy_vix_ols_v1
+  features: [SOX, EWY, VIX]   # 밤사이 등락률(%). 지표 key(M1) 또는 감시 종목 symbol(M4)
+  labels: {SOX: 반도체(SOX), EWY: 한국 ETF(EWY), VIX: VIX}
+  flat_band_pct: 0.3          # |점수| < 이 값이면 보합 우세
+  strong_pct: 1.0             # |점수| ≥ 이 값이면 강한 신호
+  note_ko: "시가 이후 장중 흐름은 밤사이 지표로 예측하기 어렵습니다."
+  # 매달 재보정(.github/workflows/calibrate.yml → data/outlook_model.json)
+  window_years: 3             # 최근 3년으로 계수 추정
+  test_months: 12             # 그중 최근 12개월은 계수 추정에서 빼고 적중률 채점에만 사용
+  min_train_days: 250
+  min_test_days: 150
+  kospi_symbol: KS11          # FinanceDataReader
+  history_symbols: {SOX: "^SOX", EWY: EWY, VIX: "^VIX"}   # yfinance
 movers:
   workers: 6
   retry_backoff_s: [2, 2]

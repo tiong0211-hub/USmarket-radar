@@ -7,7 +7,7 @@
 
 - 성공 기준: (1) 정해진 루틴대로 자동 생성 (2) **핵심 지표 6종(7개 값) 누락 없이 표시**
 - 사용자: 본인 + 소수 지인(링크 공유). 투자 권유 아님 문구를 항상 노출한다.
-- 범위 밖(이번 버전): 국장 전망 정량 알고리즘(M12), 카카오톡 푸시(M13), 키움 API.
+- 범위 밖(이번 버전): 키움 API, 야간선물·외국인 수급(2026-11-09 결정: 예측용 대시보드 아님).
 
 상세 설계: `docs/architecture.md`, 실행 명세: `docs/orchestration_spec.md`, 데이터 계약: `docs/data_contract.md`.
 
@@ -30,6 +30,7 @@
 | M3 | Calendar | `collectors/calendar.py` | 경제 캘린더(Forex Factory JSON) 수집 — 어젯밤 발표(`released`) + 오늘 밤 예정(`upcoming`) | 실제치 추정 |
 | M4 | Movers | `collectors/movers.py` | 감시 종목·섹터 ETF 등락률 | 테마 해석 |
 | M5 | Sentiment | `analytics/sentiment.py` | VIX → 0~100 점수(규칙) | 뉴스 반영, LLM |
+| M12 | Outlook | `analytics/outlook.py` | SOX·EWY·VIX → 코스피 시가 갭 방향(규칙, 매달 자동 재보정 → `data/outlook_model.json`). 로직: `docs/outlook_scoring.md` | 장중 흐름 예측, 갭 % 표시, LLM |
 | M6 | News Analyst | `llm/news_analyst.py` | 분류·중요도·3줄 요약·국장 영향·티커 추출·캘린더 실제치 보완 | 시세 숫자 생성, 국내 수혜주 지정 |
 | M7 | Theme Mapper | `llm/theme_mapper.py` | YAML(사람) + 자동 매핑(`data/theme_auto.json`, LLM, 검토 없이 표시·`auto_review_days` 후 재판단), 결정 기록 → GitHub Issue | **YAML 직접 수정**, KRX 목록에 없는 종목·확신도 low 후보 표시 |
 | M8 | Briefing Writer | `llm/briefing_writer.py` | 입력 JSON 근거 종합 코멘트 | 입력에 없는 숫자, **갭 % 수치 예측**, 매수/매도 권유 |
@@ -62,7 +63,7 @@
 | Header | **날짜·요일(KST) 크게** + 실제 생성 시각 + "어제 / 아카이브" 링크 | `run_date`, `generated_at` |
 | 상태 배너 | 평소 숨김. 미장 휴장 / DEGRADED 누락 항목 / 전일 페이지 유지 경고일 때만 표시 | `banner`, `warnings` |
 | Hero (OVERNIGHT BRIEF) | 헤드라인 2줄(강조 단어 1개) + 포인트 3개 + "먼저 볼 것" 칩 2개 | `briefing` |
-| 시장 심리 | VIX 기반 자체 점수 게이지 + VIX 값 + "VIX 기반 자체 산출" 주석 / "오늘 국장은?" 방향성 + `참고용` 라벨 | `sentiment`, `briefing.direction` |
+| 시장 심리 | VIX 기반 자체 점수 게이지 + VIX 값 + "VIX 기반 자체 산출" 주석 / "오늘 국장은?" M12 갭 방향 + 근거 지표 + 적중률·보정일 + 장중 예측 불가 문구 + `참고용` 라벨 | `sentiment`, `outlook`, `briefing.direction` |
 | 시장 지표 (8카드) | 필수 7값 + 참고 SOX. 카드 탭 → dialog(설명·출처·기준 시각) | `indicators` |
 | 흐름을 만든 뉴스 | 필터(전체/매크로/테마·실적/원자재·리스크, 건수 동적), 카드 펼침 → 3줄 요약 + 국내장 관찰 포인트 + 출처·원문 링크·KST 시각 | `news` |
 | 미국 주도주, 국내 연결 | **S&P 500보다 1%p 이상 오른 상승 종목만**(하락 종목 제외, 없으면 "없음" 문구), 국내 종목 칩에 관계 라벨(`relation_ko`) | `themes`, `themes_rule_ko` |

@@ -83,6 +83,7 @@ sector_etfs:
   - {symbol: XBI, label: 바이오}
   - {symbol: URA, label: 우라늄/원전}
   - {symbol: LIT, label: 2차전지}
+  - {symbol: EWY, label: 한국}       # M12 입력
 
 # M4 추가 감시 종목: theme_map.yaml에 없는 대형주. 뉴스에 언급되고 크게 움직이면 M7이 매핑 제안 Issue를 만든다.
 watchlist:

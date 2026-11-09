@@ -15,7 +15,8 @@
   "calendar_upcoming": [{"event_ko": "신규 실업수당 청구건수", "time_kst": "22:30"}],
   "top_news": [{"title_ko": "...", "category": "...", "importance": 5, "moves_ko": ["나스닥100 −5.12%"],
                 "kr_impact": {"direction": "positive", "text": "..."}}],
-  "themes": [{"us_ticker": "GEV", "change_pct": 3.8, "theme": "데이터센터 · 전력 인프라"}]
+  "themes": [{"us_ticker": "GEV", "change_pct": 3.8, "theme": "데이터센터 · 전력 인프라"}],
+  "outlook": {"direction": "gap_up", "strong": true}
 }
 ```
 
@@ -37,7 +38,9 @@
 ```
 
 ## 작성 기준
-- `direction`은 정성 판단: 나스닥100·S&P500 선물/현물 방향, VIX 변화, 원/달러 방향, 상위 뉴스의 kr_impact를 종합.
+- `outlook`이 있으면 `direction`은 **반드시 `outlook.direction`과 같게** 쓴다(반도체·EWY·VIX 규칙 점수, 코드가 강제로 맞춘다).
+  `outlook.strong: false`이면 `confidence`는 `medium` 이하.
+- `outlook`이 null이면 `direction`은 정성 판단: 나스닥100·S&P500 선물/현물 방향, VIX 변화, 원/달러 방향, 상위 뉴스의 kr_impact를 종합.
   신호가 엇갈리면 `flat` + `confidence: low`.
 - `headline_ko`: 두 줄. 1행 = 밤사이 미국에서 **일어난 일**(사실), 2행 = 오늘 아침 국장에서 **먼저 볼 업종·지표**.
   - 좋은 예: ["미 기술주 급락,", "아침의 초점은 반도체."], ["금리 하락에 성장주 반등,", "국장은 2차전지부터 확인."]

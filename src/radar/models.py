@@ -82,6 +82,18 @@ class Sentiment(BaseModel):
     note_ko: str
 
 
+class Outlook(BaseModel):
+    """M12: KOSPI opening-gap direction from overnight US moves (docs/outlook_scoring.md)."""
+    direction: Literal["gap_up", "flat", "gap_down"]
+    strong: bool
+    basis_ko: str               # the inputs as shown, e.g. "반도체(SOX) +2.10% · EWY +1.50% · VIX −6.00%"
+    hit_rate: float | None      # test-period hit rate for this kind of call; None for flat
+    test_days: int              # days behind hit_rate
+    calibrated: date
+    method: str
+    note_ko: str
+
+
 class ReleasedEvent(BaseModel):
     time_utc: AwareDatetime
     event: str
@@ -273,6 +285,7 @@ class DailyReport(BaseModel):
     banner: Banner | None = None
     indicators: list[Indicator]
     sentiment: Sentiment | None = None
+    outlook: Outlook | None = None
     calendar: Calendar = Calendar()
     news: list[NewsItem] = []
     themes: list[Theme] = []

@@ -1,0 +1,24 @@
+{
+  "method": "sox_ewy_vix_ols_v1",
+  "calibrated": "2026-11-09",
+  "window": [
+    "2023-11-10",
+    "2026-11-09"
+  ],
+  "n": 724,
+  "intercept": 0.116,
+  "coef": {
+    "SOX": 0.2166,
+    "EWY": 0.0923,
+    "VIX": -0.0101
+  },
+  "test": {
+    "from": "2025-11-14",
+    "to": "2026-11-09",
+    "days": 155,
+    "hit_rate": 0.826,
+    "strong_days": 30,
+    "strong_hit_rate": 0.833,
+    "flat_days": 81
+  }
+}

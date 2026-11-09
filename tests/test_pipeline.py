@@ -15,7 +15,7 @@ from radar import config, market_calendar, run_daily
 from radar.assemble.assembler import assemble
 from radar.assemble.validator import briefing_problems, run_status
 from radar.collectors import calendar as calendar_collector
-from radar.analytics import sentiment
+from radar.analytics import outlook as outlook_module, sentiment
 from radar.collectors import market, movers, news
 from radar.llm import client as llm_client
 from radar.llm import briefing_writer, news_analyst, theme_mapper
@@ -126,7 +126,9 @@ def fake_fetch(symbol, interval, start, end):
 
 
 @pytest.fixture
-def fast(monkeypatch):
+def fast(monkeypatch, tmp_path):
+    (tmp_path / "data").mkdir(exist_ok=True)  # M12 coefficients ship with the repo
+    (tmp_path / "data" / "outlook_model.json").write_bytes((config.ROOT / "data" / "outlook_model.json").read_bytes())
     monkeypatch.setitem(SETTINGS["market"], "retry_backoff_s", [0, 0, 0])
     monkeypatch.setitem(SETTINGS["market"], "retry_jitter_s", 0)
     monkeypatch.setitem(SETTINGS["movers"], "retry_backoff_s", [0, 0])
@@ -412,13 +414,61 @@ def run_with_briefing(tmp_path, monkeypatch, **api):
 def test_briefing_from_model_is_shown(tmp_path, monkeypatch, fast):
     result, report, log, fake = run_with_briefing(tmp_path, monkeypatch)
     assert result == ("OK", 0) and log["modules"]["M8"]["status"] == "SUCCEEDED"
-    assert report.briefing.source == MODELS["briefing_writer"]["model"] and report.briefing.direction_ko == "갭하락 우세"
+    assert report.briefing.source == MODELS["briefing_writer"]["model"] and report.outlook and report.briefing.direction == report.outlook.direction  # M12 rule wins over the model
     html = (tmp_path / "site/index.html").read_text(encoding="utf-8")
     assert "<em>반도체</em>" in html and "아직 없습니다" not in html
     assert "주의할 변수" in html and "오늘 밤 고용 지표 확인." in html
+    assert report.outlook.basis_ko in html and SETTINGS["outlook"]["note_ko"] in html
     assert [c.label for c in report.briefing.focus_chips] == ["반도체"]  # emphasis first, no duplicate
     digest = json.loads((tmp_path / "data/raw/2026-11-05/briefing_digest.json").read_text(encoding="utf-8"))
     assert {i["key"] for i in digest["indicators"]} >= {"NDX", "SPX", "VIX"}
+
+
+# --- M12 outlook -----------------------------------------------------------
+
+def outlook_inputs(sox, ewy, vix):
+    snap = MarketSnapshot(indicators=[i.model_copy(update={"change_pct": {"SOX": sox, "VIX": vix}[i.key]})
+                                      if i.key in ("SOX", "VIX") else i for i in report_ok().indicators])
+    return snap, MoversSnapshot(movers=[mover("EWY", ewy)])
+
+
+OUTLOOK_MODEL = {"method": "m", "calibrated": "2026-11-02", "intercept": 0.0, "coef": {"SOX": 0.2, "EWY": 0.1, "VIX": -0.01},
+                 "test": {"days": 150, "hit_rate": 0.8, "strong_days": 30, "strong_hit_rate": 0.9}}
+
+
+def test_outlook_direction_strength_and_hit_rate():
+    cfg = SETTINGS["outlook"]
+    up = outlook_module.compute(*outlook_inputs(6.0, 2.0, -5.0), OUTLOOK_MODEL, cfg)  # 1.2 + 0.2 + 0.05
+    assert (up.direction, up.strong, up.hit_rate, up.test_days) == ("gap_up", True, 0.9, 30)
+    assert up.basis_ko == "반도체(SOX) +6.00% · 한국 ETF(EWY) +2.00% · VIX −5.00%"
+    down = outlook_module.compute(*outlook_inputs(-2.0, -1.0, 10.0), OUTLOOK_MODEL, cfg)  # −0.4 −0.1 −0.1
+    assert (down.direction, down.strong, down.hit_rate) == ("gap_down", False, 0.8)
+    flat = outlook_module.compute(*outlook_inputs(0.5, 0.0, 0.0), OUTLOOK_MODEL, cfg)
+    assert (flat.direction, flat.hit_rate) == ("flat", None)
+    with pytest.raises(ValueError):
+        outlook_module.compute(outlook_inputs(1, 1, 1)[0], None, OUTLOOK_MODEL, cfg)  # no EWY: no call
+
+
+def test_outlook_calibration_scores_only_held_out_days():
+    import numpy as np
+    import pandas as pd
+    cfg = {**SETTINGS["outlook"], "min_train_days": 50, "min_test_days": 50}
+    rng = np.random.default_rng(0)
+    days = pd.bdate_range("2024-01-01", "2026-11-06")
+    x = rng.normal(0, 2, (len(days), 3))
+    df = pd.DataFrame(x, index=days, columns=["SOX", "EWY", "VIX"])
+    df["gap"] = 0.25 * df["SOX"] + 0.1 * df["EWY"] + rng.normal(0, 0.2, len(days))
+    model = outlook_module.calibrate(df, cfg, date(2026, 11, 9))
+    assert abs(model["coef"]["SOX"] - 0.25) < 0.03 and model["test"]["from"] >= "2025-11-14"
+    assert model["test"]["hit_rate"] > 0.9 and model["test"]["days"] + model["test"]["flat_days"] < model["n"]
+
+
+def test_template_briefing_takes_direction_from_outlook_only():
+    draft = report_ok()
+    assert briefing_writer.template(draft, SETTINGS).direction_ko == SETTINGS["briefing"]["template_direction_ko"]
+    snap, movers_ = outlook_inputs(6.0, 2.0, -5.0)
+    draft = draft.model_copy(update={"outlook": outlook_module.compute(snap, movers_, OUTLOOK_MODEL, SETTINGS["outlook"])})
+    assert briefing_writer.template(draft, SETTINGS).direction_ko == "갭상승 우세"
 
 
 def test_briefing_with_invented_number_falls_back_to_template(tmp_path, monkeypatch, fast):

@@ -72,7 +72,11 @@
           <p class="no-data small" style="margin-top:14px">산출 불가 · 데이터 없음</p>
           {% endif %}
           <div class="outlook"><div><span class="outlook-icon" aria-hidden="true">↗</span><h3>오늘 국장은?</h3><span class="pending">참고용</span></div>
-            {% if b %}<p>{{ b.direction_ko }}</p>{% else %}<p class="no-data">데이터 없음</p>{% endif %}
+            {% set o = r.outlook %}
+            {% if b %}<p class="outlook-call">{{ b.direction_ko }}{% if o and o.strong %} · 강한 신호{% endif %}</p>{% else %}<p class="no-data">데이터 없음</p>{% endif %}
+            {% if o %}<p class="outlook-basis">{{ o.basis_ko }} 기준</p>
+            <p class="outlook-basis">{% if o.hit_rate is not none %}최근 1년 같은 신호 적중률 {{ (o.hit_rate * 100) | round | int }}%({{ o.test_days }}일) · {% endif %}{{ o.calibrated.strftime("%m/%d") }} 보정</p>
+            <p class="outlook-basis">{{ o.note_ko }}</p>{% endif %}
             {% if b and b.risks_ko %}<p class="outlook-risk"><strong>주의할 변수</strong>{% for risk in b.risks_ko %}<span>{{ risk }}</span>{% endfor %}</p>{% endif %}
           </div>
         </aside>

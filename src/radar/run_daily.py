@@ -15,7 +15,7 @@ from pydantic import BaseModel
 
 from radar import config, market_calendar
 from radar.assemble.assembler import assemble
-from radar.analytics import sentiment as sentiment_module
+from radar.analytics import outlook as outlook_module, sentiment as sentiment_module
 from radar.assemble.validator import briefing_problems, missing_required
 from radar.collectors import calendar as calendar_collector
 from radar.collectors import market, movers as movers_collector, news
@@ -169,6 +169,20 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
             timeouts["M5"], raw_dir / "sentiment.json", lambda _: "SUCCEEDED",
         )
 
+    # M12: gap direction rule on M1/M4 data with this month's coefficients (data/outlook_model.json).
+    outlook = None
+    model_path = root / "data" / "outlook_model.json"
+    if closed:
+        modules["M12"] = ModuleRun(status="SUCCEEDED", notes=["US market closed: no call"])
+    elif snapshot is None or not model_path.exists():
+        modules["M12"] = ModuleRun(status="SKIPPED", notes=["no M1 output" if snapshot is None else "no model file"])
+    else:
+        model = json.loads(model_path.read_text(encoding="utf-8"))
+        outlook, modules["M12"] = _module(
+            "M12", lambda: outlook_module.compute(snapshot, movers, model, settings["outlook"]),
+            timeouts["M12"], raw_dir / "outlook.json", lambda _: "SUCCEEDED",
+        )
+
     budget = TokenBudget(settings["llm_budget"])  # one daily budget across M6, M7 and M8
 
     # News analysis. Without M2 there is nothing to analyze.
@@ -262,8 +276,8 @@ def run(args: argparse.Namespace, root: Path = config.ROOT) -> tuple[str, int]:
         parts = (symbols, run_date, us_session, closed, snapshot, modules, collection, calendar, analysis,
                  sentiment, mapping)
         raw_dir.mkdir(parents=True, exist_ok=True)
-        briefing, modules["M8"] = brief(assemble(*parts))
-        report = assemble(*parts, briefing=briefing)
+        briefing, modules["M8"] = brief(assemble(*parts, outlook=outlook))
+        report = assemble(*parts, briefing=briefing, outlook=outlook)
         missing = missing_required(report.indicators)
         daily = data_dir / "daily" / f"{run_date}.json"
         daily.parent.mkdir(parents=True, exist_ok=True)
