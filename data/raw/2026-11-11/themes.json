@@ -1,0 +1,182 @@
+{
+  "themes": [
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "change_pct": 3.91,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "mapping_source": "auto",
+      "mapping_reviewed": "2026-11-10"
+    },
+    {
+      "us_ticker": "TSM",
+      "name": "TSMC ADR",
+      "change_pct": 2.02,
+      "theme": "파운드리 · 첨단 공정",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "399720",
+          "name": "가온칩스",
+          "link": "same_theme",
+          "relation_ko": "설계 생태계"
+        },
+        {
+          "code": "200710",
+          "name": "에이디테크놀로지",
+          "link": "same_theme",
+          "relation_ko": "설계 생태계"
+        },
+        {
+          "code": "058470",
+          "name": "리노공업",
+          "link": "same_theme",
+          "relation_ko": "테스트 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "LLY",
+      "name": "Eli Lilly",
+      "change_pct": 1.44,
+      "theme": "바이오 · 비만치료제",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "207940",
+          "name": "삼성바이오로직스",
+          "link": "same_theme",
+          "relation_ko": "바이오 업종"
+        },
+        {
+          "code": "068270",
+          "name": "셀트리온",
+          "link": "same_theme",
+          "relation_ko": "바이오 업종"
+        },
+        {
+          "code": "087010",
+          "name": "펩트론",
+          "link": "same_theme",
+          "relation_ko": "비만치료제 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 1.3,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "supplier",
+          "relation_ko": "HBM 공급"
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "HBM 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    }
+  ],
+  "proposals": [],
+  "auto": [
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "theme": "AI 반도체 · HBM",
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_62176b38"
+      ]
+    },
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "theme": "파운드리 · 첨단 공정",
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "reviewed": "2026-11-09",
+      "news_ids": [
+        "n_910067d6"
+      ]
+    },
+    {
+      "us_ticker": "META",
+      "name": "Meta Platforms",
+      "theme": "디지털 광고 · 플랫폼",
+      "kr_stocks": [
+        {
+          "code": "035420",
+          "name": "NAVER",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        },
+        {
+          "code": "035720",
+          "name": "카카오",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_acf96c12"
+      ]
+    }
+  ],
+  "listing_checked": true,
+  "rule_ko": "S&P 500(−0.38%)보다 1%p 이상 오른 종목만",
+  "excluded": [],
+  "notes": []
+}

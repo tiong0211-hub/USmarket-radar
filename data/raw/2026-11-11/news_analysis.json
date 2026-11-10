@@ -1,0 +1,1782 @@
+{
+  "news": [
+    {
+      "id": "n_028fe8b3",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "트럼프, 엔비디아 CEO 보호 논란",
+      "preview_ko": "트럼프가 엔비디아 CEO를 보호하고 있다는 논란이 일고 있다.",
+      "published_at": "2026-11-10T21:11:36Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "summary_ko": [
+        "트럼프가 엔비디아 CEO를 국가 안보를 희생하면서까지 보호하고 있다는 비난을 받고 있다.",
+        "공화당 의원은 황의 중국과의 관계에 대한 답변을 요구하고 있다.",
+        "이 사건은 엔비디아와 관련된 정치적 논란을 더욱 부각시키고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a6eb50e5",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준 금리 인상 확률 상승 배경 분석",
+      "preview_ko": "연준의 금리 인상 확률이 높아지고 있다는 분석이 나왔다.",
+      "published_at": "2026-11-10T20:33:58Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
+      "summary_ko": [
+        "연준의 금리 인상 확률이 급등하고 있다는 분석이 제기되었다.",
+        "이는 투자자들에게 중요한 시장 신호로 작용할 수 있다.",
+        "금리 인상 전망은 향후 경제에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 경제 지표와 금리 동향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4d81acf9",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "백악관, 관세 유지 의지 표명",
+      "preview_ko": "백악관이 관세를 계속 유지하겠다고 밝혔다.",
+      "published_at": "2026-11-10T20:28:02Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+      "summary_ko": [
+        "백악관은 중간선거 여파에도 불구하고 관세를 계속 유지하겠다고 밝혔다.",
+        "기업들은 상승하는 비용과 공급망 변화에 대해 경고하고 있다.",
+        "이로 인해 가격 상승에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 수출업체의 원자재 가격 변동을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_2cb5ccf3",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "항공 우주 공급업체 주식 매수 추천",
+      "preview_ko": "항공 우주 공급업체의 주식 매수 시점이 도래했다는 분석이 나왔다.",
+      "published_at": "2026-11-10T20:26:52Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/its-time-to-buy-the-dip-on-this-key-aerospace-supplier-why-im-buying.html",
+      "summary_ko": [
+        "항공 우주 공급업체의 주식이 반등할 가능성이 제기되었다.",
+        "이 회사는 제트 엔진과 전력 터빈의 중요한 부품을 생산하고 있다.",
+        "투자자들은 이 주식의 향후 성과에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 항공 우주 관련 업종의 동향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b6b86d12",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Jim Jordan elected House GOP leader",
+      "preview_ko": "",
+      "published_at": "2026-11-10T20:24:45Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cfd647cb",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아, 황 CEO 사건 조사 착수",
+      "preview_ko": "엔비디아가 황 CEO의 사건 조사를 위해 법률 회사를 고용했다.",
+      "published_at": "2026-11-10T20:01:18Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+      "summary_ko": [
+        "엔비디아는 황 CEO의 개인적 사건에 대한 조사를 위해 법률 회사를 고용했다.",
+        "이 사건은 중국 정보기관과의 연관성으로 논란이 되고 있다.",
+        "회사의 이미지와 주가에 미치는 영향이 우려된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종의 주가에 미치는 영향을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d8530ee6",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 IPO 기대감 고조",
+      "preview_ko": "앤트로픽의 IPO에 대한 기대감이 커지고 있다.",
+      "published_at": "2026-11-10T19:51:18Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+      "summary_ko": [
+        "앤트로픽의 IPO에 대한 기대감이 높아지고 있다.",
+        "트레이더들은 이 기업의 주가 상승을 예상하고 있다.",
+        "시장에서는 앤트로픽의 성공적인 상장을 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 IPO 시장의 동향을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_2f6d039f",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "아마존, 드론과 로봇 공개",
+      "preview_ko": "아마존이 새로운 드론과 로봇을 공개했다.",
+      "published_at": "2026-11-10T19:43:59Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+      "summary_ko": [
+        "아마존이 자사의 드론과 로봇을 공개하며 주목받고 있다.",
+        "이 제품들은 가정과 사업체를 순찰하는 기능을 갖추고 있다.",
+        "기술 혁신이 시장에 미치는 영향이 기대된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 IT 및 로봇 관련 업종의 반응을 살펴봐야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_413ad236",
+      "category": "geopolitics_commodities",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 CEO 스캔들에 대한 비판",
+      "preview_ko": "엔비디아 CEO의 스캔들에 대한 비판이 이어지고 있다.",
+      "published_at": "2026-11-10T19:40:41Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
+      "summary_ko": [
+        "엔비디아 CEO의 스캔들이 경제 경쟁력에 미치는 영향이 우려되고 있다.",
+        "이 사건은 군사적 능력과 정보 우위를 위협할 수 있다는 분석이 있다.",
+        "의회는 이에 대한 조치를 취해야 한다는 목소리가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종에 대한 정치적 리스크를 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e406afff",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "HELOC 잔액, 2005년 이후 최대 증가",
+      "preview_ko": "HELOC 잔액이 2005년 이후 최대 증가폭을 기록했다.",
+      "published_at": "2026-11-10T19:30:12Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
+      "summary_ko": [
+        "HELOC 잔액이 2005년 이후 가장 큰 증가폭을 보였다.",
+        "이는 18분기 연속 증가한 수치이다.",
+        "소비자 신용과 관련된 경제 지표로 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 소비자 신용 동향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1b251dbb",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "마이크로소프트, 앤트로픽 위협에 급락",
+      "preview_ko": "마이크로소프트 주가가 앤트로픽의 위협으로 급락했다.",
+      "published_at": "2026-11-10T18:29:16Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html",
+      "summary_ko": [
+        "마이크로소프트 주가가 앤트로픽의 위협으로 급락했다.",
+        "주식 시장의 주요 움직임을 다룬 기사다.",
+        "앤트로픽의 IPO가 시장에 미치는 영향이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 대형주가 마이크로소프트의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "MSFT"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_964c15c7",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "토큰화: 주식 시장의 다음 진화",
+      "preview_ko": "토큰화가 주식 시장 접근 방식을 변화시키고 있다.",
+      "published_at": "2026-11-10T18:28:16Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/tokenization-market-evolution.html",
+      "summary_ko": [
+        "토큰화가 투자자들이 주식에 접근하고 활용하는 방식을 변화시키고 있다.",
+        "기존 시장 인프라를 대체하지 않고도 변화가 이루어지고 있다.",
+        "주식 시장의 진화에 대한 논의가 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_753d7131",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "크레이머, 앤트로픽 IPO 가치에 대한 분석",
+      "preview_ko": "크레이머가 앤트로픽 IPO 가치에 대해 언급했다.",
+      "published_at": "2026-11-10T18:22:16Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/the-stock-market-dodged-a-real-bullet-cramer-on-anthropics-new-ipo-valuation.html",
+      "summary_ko": [
+        "크레이머는 앤트로픽의 IPO가 시장에 긍정적인 영향을 미칠 것이라고 말했다.",
+        "이러한 결과가 시장의 안정성을 높일 것이라고 덧붙였다.",
+        "IPO가 시장에 미치는 영향에 대한 분석이 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_486fe382",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "알파벳 주가 바닥 신호, 반등 전략은?",
+      "preview_ko": "알파벳 주가가 바닥을 다지는 신호를 보이고 있다.",
+      "published_at": "2026-11-10T18:15:24Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html",
+      "summary_ko": [
+        "알파벳 주가가 급락 후 바닥을 다지는 신호를 보이고 있다.",
+        "옵션 거래를 통한 반등 전략이 논의되고 있다.",
+        "주가 반등 여부에 대한 관심이 집중되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "GOOGL"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7868890a",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "신용카드 부채, 사상 최고치 1.29조 달러 도달",
+      "preview_ko": "신용카드 부채가 사상 최고치에 도달했다.",
+      "published_at": "2026-11-10T18:08:40Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/credit-card-debt-record.html",
+      "summary_ko": [
+        "신용카드 부채가 1.29조 달러로 증가했다.",
+        "높은 물가가 가계 예산에 부담을 주고 있다.",
+        "소비자들이 신용카드를 통해 생계를 유지하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 소비 관련 업종의 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_cd5dd68d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Boeing jet deliveries drop 14% in October",
+      "preview_ko": "",
+      "published_at": "2026-11-10T17:21:53Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/boeing-jet-deliveries-drop-14percent-in-october.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a1db6cbc",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+      "preview_ko": "",
+      "published_at": "2026-11-10T16:30:23Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8149be24",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "U.S. gas prices fall below $4 for the first time since July",
+      "preview_ko": "",
+      "published_at": "2026-11-10T16:29:09Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fc17e326",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 CEO, 중국 문제 복잡해져",
+      "preview_ko": "엔비디아 CEO의 스파이와의 관계가 논란이 되고 있다.",
+      "published_at": "2026-11-10T15:04:23Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+      "summary_ko": [
+        "엔비디아 CEO의 스파이와의 관계가 새로운 논란이 되고 있다.",
+        "이 사건은 미국의 반도체 판매 정책에 영향을 미칠 수 있다.",
+        "중국과의 관계가 더욱 복잡해질 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_395e7b74",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "칩 주식, 엔비디아 스캔들 속 반등",
+      "preview_ko": "칩 주식이 엔비디아 스캔들 속에서 반등했다.",
+      "published_at": "2026-11-10T13:19:13Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
+      "summary_ko": [
+        "칩 주식이 엔비디아 스캔들에도 불구하고 반등했다.",
+        "'나쁜 뉴스에 시장이 바닥을 친다'는 격언이 다시 한번 입증됐다.",
+        "시장 심리가 긍정적으로 작용하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 반등하는지 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d5d03f82",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "preview_ko": "",
+      "published_at": "2026-11-10T16:47:05Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_35f61d97",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "중국 무역 흑자 1조 달러 초과, 불만 증가",
+      "preview_ko": "중국의 무역 흑자가 1조 달러를 초과했다.",
+      "published_at": "2026-11-10T10:24:13Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+      "summary_ko": [
+        "중국의 무역 흑자가 1조 달러를 초과했다.",
+        "이는 무역 파트너국들의 불만을 증가시킬 수 있다.",
+        "저렴한 중국 제품의 공급 과잉에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_594993e6",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "3 unexpected reasons the October jobs report was so strong",
+      "preview_ko": "",
+      "published_at": "2026-11-09T22:23:56Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5b022f42",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "preview_ko": "",
+      "published_at": "2026-11-09T21:03:55Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d3765f46",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "반도체 주식의 변동성, 기술적 저항선 주목",
+      "preview_ko": "반도체 주식의 기술적 저항선에 주목해야 한다.",
+      "published_at": "2026-11-10T20:53:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
+      "summary_ko": [
+        "반도체 주식의 변동성이 크지만, 주요 기술적 저항선에 도달할 때까지 주의가 필요하다.",
+        "투자자들은 현재 수준에서의 거래에 주의해야 한다.",
+        "기술적 지표가 중요한 역할을 할 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c655f067",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아, 중국에 대한 수출 규제 강화 가능성",
+      "preview_ko": "엔비디아가 중국에 대한 수출 규제를 받을 수 있다.",
+      "published_at": "2026-11-10T20:37:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8?mod=mw_rss_topstories",
+      "summary_ko": [
+        "엔비디아가 중국에 대한 수출 규제를 받을 가능성이 커지고 있다.",
+        "이는 반도체 산업에 큰 영향을 미칠 수 있다.",
+        "스파이 스캔들로 인해 이러한 규제가 강화될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1fb3ee79",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준의 공격적인 금리 인상, 주식에 큰 위험",
+      "preview_ko": "연준의 금리 인상이 주식에 큰 위험이 되고 있다.",
+      "published_at": "2026-11-10T20:27:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories",
+      "summary_ko": [
+        "연준의 금리 인상이 주식 시장에 큰 위험이 되고 있다는 경고가 나왔다.",
+        "시장 참여자들이 지나치게 안일하게 대응하고 있다는 분석이 있다.",
+        "이는 향후 금리 정책에 대한 우려를 불러일으킬 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9f181d60",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽, 1조 달러 가치의 IPO 준비",
+      "preview_ko": "앤트로픽이 1조 달러 이상의 가치를 지닌 IPO를 준비 중이다.",
+      "published_at": "2026-11-10T19:47:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+      "summary_ko": [
+        "앤트로픽이 1조 달러 이상의 가치를 지닌 IPO를 준비하고 있다.",
+        "이는 시장에서 큰 관심을 받고 있다.",
+        "IPO는 다음 주에 진행될 예정이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d4285298",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:17:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5bf43928",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_89ded08b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T18:45:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8d33fc13",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Americans are more concerned about retirement than ever. Politicians should pay attention.",
+      "preview_ko": "",
+      "published_at": "2026-11-10T18:41:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_862b188f",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "CoreWeave, Q3 매출 예상 초과",
+      "preview_ko": "CoreWeave의 Q3 매출이 예상보다 좋았다.",
+      "published_at": "2026-11-10T21:15:33Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQUlzUVY2WTVjSmsxVU1kRFdxa0tqaXRKbDh3NXFvVmNJSjZPREtXNjIzU3ZPYldpWGc5Y3A3TnQ0R2RaSmlZejdtQktLT0k3UHB1cVh5ZndKa3F4S3E0RE9RM3FKUWN1TjJfcU1Qd0pZOUVmQzVVV2RnX0NjS0VqbS1PNjYyOFRNTjVwV0FqSW5mNndvcmtEQk4teC1xaWZKTXcwUURFTU1rWDd5QkhZbHhUSDJxNXg5eC00S1pkTEFFZFFtbjQ3bGpIRXpjUFpwdmFyVzVtQ2JYd2xseEVrTw?oc=5",
+      "summary_ko": [
+        "CoreWeave의 Q3 매출이 예상치를 초과했다.",
+        "회사는 연간 전망을 상향 조정했다.",
+        "투자자들의 긍정적인 반응이 예상된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "CW"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_8aee741c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "137th Common Stock Monthly Dividend Increase Declared by Realty Income",
+      "preview_ko": "",
+      "published_at": "2026-11-10T21:05:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUm5fbFhuTFVidVFvdWdmajdhQWFMS2lTMEpoZWFRTDNOWDRmczhwS0JMOWJtUTViMTZqMnJJV296WUJxSmhkem1xNnR4dV9ZbGxtakFsQV9rVUtITEVINThFaFc4LWdkZjg2ZmNSNGRGRVdScjgzell1MUFPc3hlSkZ0b3U0NVo2amlwSFozcXZfSlE1Z19lZkNnd3NfZw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c80c79fe",
+      "category": "macro_rates",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "핫 CPI 발표로 미국 증시 급락",
+      "preview_ko": "미국의 CPI 발표가 증시에 큰 영향을 미쳤다.",
+      "published_at": "2026-11-10T21:00:24Z",
+      "source": "investingLive",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDRKSGVTQ1MxVTR5bF8wTzNGQ3Njb1F3RU9CSnZmYUVIQ19HS0Uzc2RZZHgzaVBBS0tkM2xEMnU3dTNlaFFYZk9mRnFrblNyUllYVEtRMGs2S1BhUXEtcUJidWtFaTNiNFJITC1hRklKdDVOUkVhY1ZhV0w3YWF2TzgyNjRPTDVWSFowT1VVSWFuN3RwNGl1QzNXRQ?oc=5",
+      "summary_ko": [
+        "미국의 CPI 발표가 시장에 부정적인 영향을 미쳤다.",
+        "핫 CPI로 인해 미국 증시가 급락했다.",
+        "투자자들은 인플레이션 우려로 매도세를 보였다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 급락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "SPY"
+      ],
+      "moves_ko": [
+        "나스닥100 −0.60%",
+        "미국 10년물 +12bp"
+      ],
+      "coverage": 17
+    },
+    {
+      "id": "n_09525596",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 증시, 인플레이션 업데이트로 하락",
+      "preview_ko": "인플레이션 업데이트가 미국 증시에 부정적 영향을 미쳤다.",
+      "published_at": "2026-11-10T20:57:34Z",
+      "source": "Pittsburgh Post-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQi15c01YQlJLa2huR0hWV0VCbHpKenpwRDdqQnFYMWwyYWRuQ1ZHNjNHZzVYLVA5OTFOSmlPdmJfR3hVX2dFN3JuMUhTYlMzM3cxUzgxV21WTUI5eC1YMWRZYlZrY2VONG5VRmxhSVA4WEs2Y2ROQ0c2RUpybjhORGpsQXNkNVFSQXlCVHd5X204WktaZzBfbjg0YzNWWWNya0wtbVQ4eFBuWTNURHdtRQ?oc=5",
+      "summary_ko": [
+        "미국 증시는 인플레이션 업데이트로 하락세를 보였다.",
+        "투자자들은 경제 지표에 민감하게 반응하고 있다.",
+        "향후 경제 전망에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락에 따라 영향을 받을 가능성 확인"
+      },
+      "us_tickers": [
+        "SPY"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6bd1c8b2",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Fixed Indexed Annuities Promise Market Gains Without Losses. Here’s the Catch Most Buyers Miss",
+      "preview_ko": "",
+      "published_at": "2026-11-10T20:55:20Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZDY4cGtLYmFSUEV2dEQtYWFuYTdwem54ZXUwS0ZndlhUS3g4Y0laN2JPcm12alNTN2NwU0FUclUxbnNjZlNoYVAzQkNzNXo0aVZWSkp3b0dqak5Jb3hGQmNwMGN1Tmhfa01rUkJma2xhTnZRbG9jQmpteGh0VzdENnRLZ2NBbXlpd3BDZ3A1R3IzUFJkbTRwMlprdEhJV0VpWURPaGVPMA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_815d6d67",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "National Fuel Gas Has Paid a Dividend for 124 Straight Years. Can It Keep Going?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T20:47:12Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPamxpbDJ5YzgtZ0pGZ2RpMUFFRThybmt1VUxmQ0piTU9yUVV2a1pOLURMRlRGRmcyWGNVUVRiNGJOYTBUX0VQcnQ4UkVYaHJxMGZGY0ItdlJQOTlvUF9ZUWNjWk9IS0ptVGRtUnM4OVYxRVRNMDJYY1l2YTBSUVl4a1puem5HdW1vdTFEQkN3Y3NnbHZ5M0ttUHQ4eFA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5206c5aa",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 투자 실패 시 주식 조정 경고",
+      "preview_ko": "AI 관련 투자에 대한 경고 기사.",
+      "published_at": "2026-11-10T20:30:00Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnFNTUx0RzRjMFpzM1FBRlh5TVFiT1dBSm0ybWx1cngzVW9UVllIOHl5OFNKckRDdGZybDRMYjh5dWZiQ3JTYlFsaGZsaFdYTURmdUZ5MldUa2ZDMmlBbEZWMk9KV2ZoSU1sOUx1UnV4d0JZMjJpa2ZybHJmSzlYT3hXenhYelM0ZmNrV2NEMjM3T055UF9iSUJsa2xKQ0Q5S2M2SWlSeW5ZMUpfN1BoekJvbGI?oc=5",
+      "summary_ko": [
+        "연준의 보우먼이 AI 투자 실패 시 주식 조정 가능성을 경고했다.",
+        "AI 관련 주식의 변동성이 커질 수 있음을 시사한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식의 변동성 확인 필요."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_3acad1b3",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "높은 CPI로 10년물 금리 5% 도달",
+      "preview_ko": "CPI 상승으로 인해 금리가 급등하고 있다.",
+      "published_at": "2026-11-10T20:00:07Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWEpRX0ZXeW82S2llNDRDY1haT0MyWFFNRUdxd0RZZE5fRmNQQndoQnFyRndKSEsyS0JJbFhQQjRENFR2VDFKUl9nMHhkY0JjdE9XVE5pQVBzUkVHMHpySWhGUkpweW5tRGpfajhpYjFES0V4X2k5MjYwTWVtbUt3MmhHQm1DTWNMUUQ5WWpUcG5iMFU0bXlhNHRXVlZSSjR5ektkTTgtN04tall2WWsyTTdudTlBbnk1Y0ZOR21EeC0?oc=5",
+      "summary_ko": [
+        "미국의 CPI 상승이 10년물 국채 금리를 5%로 끌어올렸다.",
+        "엔비디아 주가는 6% 하락했다.",
+        "주식 시장은 높은 금리에 덜 동요하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리가 상승세를 이어가는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_257e0c4d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Golden Minerals Announces Completion of Offering for C$5,000,000",
+      "preview_ko": "",
+      "published_at": "2026-11-10T20:00:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdWQzaGZ2SXo2WkhTaHVRN3pCQkFOOGVRU2kxQk1mY1lrRFRkazBQVk1hT2QybjcwNTlLTjRnbW5IajRGZWVkSUFjSkV4OEZlTkxQMjdMamdvVmV6ZWlwLXc3WDUxS1QxXzJMMTV5SFdyQXB3OFllNUcycXA2ZXQzZzMwWEdUWm1ZT01tclRXMklXbHN2SC01Nk9pcTR4RHRpakRCYnprUzYzZG9Gd21F?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_389f52a7",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "poLight ASA Capital Markets Day Highlights Accelerating Momentum in AR|MR, Industrial Imaging and Wearable Applications",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:55:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY2pKQmxiN2owZjN1Mi1RQXduVURuRmRqU1E3QlBabl9SMTVTSWRuTjhVcm1aRXBmN3p4SkF2VUxBQzZzblZkYzRDTW1vSjlEZC05R0JxSUlsVldnU3QzanU5cklGbGN4N0JzMEgyUndxVmg4Y0xEYjZhclZOa2JQa2JxSTgwUmpWcTljZXcxUzY1aEFxWmV4ZXFkTQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5a154a1e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Why the stock market isn’t more rattled by higher interest rates 💪",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:42:42Z",
+      "source": "TKer by Sam Ro",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwaW5Rb09RRHZNUElod0FPVXItMGVwU29JTF9LLXpPNlFHMk0tQUlQbl9jbkRSbjQ2NzhuWktFWEJHVjhBOGxlQi1XTXRGdDZIdXZUS2JNbTBtT2VNMmlfd05XYjlBZGEyb2JSdQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8410af54",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "CBOE Global (CBOE) is a Great Momentum Stock: Should You Buy?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:41:04Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmV5S1ZiSm1US245dWstam5RdmF5dU51T1REa3BJVW1aR2VpUHpjRTNsWi1mbUNaeHlXRlNYOVdwNTlXOERNQTgtTXpQMmFSaXlLVDVXLWRmVWstUjlvSWEtZFBzU2ctV1BWS3FFZVN0bGVRVzA2cGluc096ZmtNcDJoNUFHRnNWT3hmdW5RU19xVGVFMnZrNTJUNFQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5ce19275",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Arch Capital Group (ACGL) Is Up 0.86% in One Week: What You Should Know",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:41:03Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2doX0Rmamc0QlAzWFBkSm5nTlh4b2lvMUdtSDlvZlRVNVZvMWtyOVliTHBtS1NWNm9lcklEcTBQcEQ1TTBMOXhkTlpLMnlieTNBQi1hZ1dROHIxYXZwMDdXU3BKYU1qOW5yS3FDT0FxNGxVOHo2Vmo5eDBGb3dtRFN2Y1dXNVlhN1QtZ3B4VUlQZmNa?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a813c088",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "EGHT vs. TMSNY: Which Stock Is the Better Value Option?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:38:10Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVzFSUVJGemNiMjhRdHBZUkMwOXFwY3RjaU9NQUZUSTBfN3BSOHlZdHdmbUlrQTVoVEc5VFQ5UV9CaTR0OTFLY2pFTjZndEppVUk2UVhiTFFINkI5UHozcGYzNTk4eW5obFp2QlMwaElqVDY5YkVsQ1VwdWxmVHJCV2cyLWdrZmhicEx4cUhEdEdTOFhFVkE?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4d17ef0a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "ASO or AS: Which Is the Better Value Stock Right Now?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:38:10Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLVhGenVkN1hfZHBFNV91S3A1S2d3QXQ3YXZTbmNqNHNkTFRRVkhTeGhoLU5iLVlqV3prcEFNNlZnakZzcjFBNndFa3NQR3NkblhZV2hIUzdWRUx6R1R1cmlreExpcFZ6Wk9NLThsNGJnSVhneUtNd0I4RGM3ZXN0cGo3TFNtSjQ5Tkw1ZHowSW1xdHB5X0E?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c3efd06d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "FJTSY vs. NOW: Which Stock Should Value Investors Buy Now?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:38:09Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWDVYODNCZS14eDhoWVd4QTJHRG53VGtFTWpuQ3IzdUJjczEtR3o2ajlqWlh5NldhQWlhdU9neWdmcWxsb1NfOHoxU2Q1QWZIaU01YXpsZzdSTXBWT2hfSzhHX1BkcjlKS3FldDhBaU9Lelg4c2FDV0M2dnNRSHBlSjgtVldHa192bE9EaE93c2lCOE0?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5d9b9646",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "SHO vs. EGP: Which Stock Is the Better Value Option?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:38:09Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZWczSHlmM0EzT255MTNYWjU4am1oeXlSb3pCaGNsQzJIcmxMNURZTWdlUmRrdEQwQlRWXzR3Y2t0OXMyVWxFWnFKRGhIN1JkZTF1T1FBRExtbFVYLVJWdjNqOGtrUDdOeG1zSjVHLU12WGZITllaM0pmLWdUWGFtTm85QzU5ancwV1ZiYjZkNW52UQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_eb30f4c2",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Grab Holdings Stocks Fall 3.20% After $750 Million Bet on Malaysian AI Data Centers",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:35:26Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVp4MDZUNENnaG9KYmNPbDgwY3ZUSWJBeXhFU1VRUVVFZVR1NEtQMmZZXzV5czRfS1IyZDBYdXpvVVlIQXNHU1Jlblg4d09HOEVKX05KWXhsbWlWT1dWcG1IRWtaV2pyeUlTS1lDdTV2VllCbExiNXdGRGlnZTZQMVlwVFZOSWF0dUkzZnVtdUpmX3VLT0ZZ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a4865569",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "마이크로소프트, 엔비디아 시가총액 초과",
+      "preview_ko": "마이크로소프트가 엔비디아를 초과하는 시가총액 기록.",
+      "published_at": "2026-11-10T19:31:14Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2J4OFUxZmZsMVJhV1JUSUs5bjFoSWhGaTFnSkxibUprWlNhUFBEM0tLd0VTRHNKWE5zc0szc3lCcWpWUzdtb1dlTmpTRTZmQXVMeHI0azlDb3hYS0I0Y005Q0ZUOXYxa2ZCa25RV2UyR2V5aDh4dkVJdHFtTUt3UkhXcm9ad0lQOElfZGhzRG1wRS1kUHl1aVVGdE5SUQ?oc=5",
+      "summary_ko": [
+        "마이크로소프트가 엔비디아의 시가총액을 초과했다.",
+        "엔비디아 주가는 6% 이상 하락했다.",
+        "이로 인해 반도체 업종에 대한 우려가 커질 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "MSFT",
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_52b64c14",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Paraguay Bank Collapse Tests LatAm’s Credibility",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:24:23Z",
+      "source": "Global Finance Magazine",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUXFyZGpscUg0NjZpWWd1dDJCSGptZG1seVJ6WjNBVXhNckg2MWd3UFNnVWZ1Nzl3Rm5uUWJBVUt1VEd5SlBaQ1JkRWs1ZnYxNlFvd0JtSmkzeGNsanJjc1RCdVA2aTRmVzc5TnVQTkl5NVFuZmg0cmFzSGlPLXBFekIwQllhZHlYXzVfUENBa29iS1pOSHhyMnRB?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5f2e5552",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "반도체 주식, 5조 달러 하락 근접",
+      "preview_ko": "반도체 주식이 5조 달러 하락에 근접하고 있다.",
+      "published_at": "2026-11-10T19:15:32Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeGhUMWhtSk5Kdm9GOHhVaFlETXR3clBfSEI0VnRtTHNtWEFNWkIxelY4R2NyUjQzMjg5SF9JZ0xOZldPSGR3WlBhejJjNTdmM21HdFQzaGpwMEFrVGxMMFB1RHQ0MkVvOUtCeklOMFJmemRmUDRIRS1sS2VheW5UUDc4anhmQU5ZUV9HY09lTEpUWmFfLWZOOXhUcVZFeTRVQXZVeGE0TzhxdVVnaDRPTzdVWXY2TmQ1UEgyNGJHMFhFS241ZkJGa1o2NHphdmdSV0xCRjh0Q0k0MHdF?oc=5",
+      "summary_ko": [
+        "반도체 주식의 하락이 5조 달러에 근접하고 있다.",
+        "엔비디아는 2019년 이후 가장 극단적인 매도 수준에 도달했다.",
+        "이로 인해 반도체 업종에 대한 우려가 커질 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 미국 반도체 주식 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [
+        "필라델피아 반도체 −0.35%"
+      ],
+      "coverage": 1
+    },
+    {
+      "id": "n_44ade4cf",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "ACHR Stock In Spotlight After Price Target Cuts – Analysts Weigh FAA Progress, Acquisition-Related Revenue Recognition",
+      "preview_ko": "",
+      "published_at": "2026-11-10T17:58:26Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYmhDUTdYSmwyY0tUcGpVQmNEcEE2NkRPNFFGZm9YYlZqQmJSZ1NCQTZfQVY1UTMwcTIxdU1oXzVpa1NsX01iRlM4em1wMURJVVpPM3lTdXhKbkRLVFI3c1ZPN3M2aTBpd3lvYW1kUklLQWxxOWFTWGNKbGJ6Nlk4cVZMUVdoMFU4T0NOaFhLX1M4YWd6WlVxMzFQMGxBV2M?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8b1c4d22",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "NVIDIA 주가 4.43% 하락, 중국으로 칩 수출 보도",
+      "preview_ko": "NVIDIA 주가가 4.43% 하락했다는 보도가 나왔다.",
+      "published_at": "2026-11-10T17:58:09Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZVl2ZFFBek9qU2Q4a29xd1BPVzdMS2VWaXBFdkVMRmRBRC1IOGVaRU1ISktjbkZ5d0xJNlpUNUhTeHFIUFE2ZHpldFVFZW15MnV1amhId1V1NmFzX3d2VmhVZEhnQ2lZREFkNzVpVHVzbVo1ejd3QXFzcVJ6N2plYVNJaDc5VFNrTy1KMjlNaFMtWFk?oc=5",
+      "summary_ko": [
+        "NVIDIA 주가가 4.43% 하락했다.",
+        "이는 $7.5억 규모의 칩이 중국으로 수출되었다는 보도와 관련이 있다.",
+        "투자자들은 이 소식에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 NVIDIA 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a5930617",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "FINTECH.TV Terminal Integrates Abu Dhabi Securities Exchange (ADX) Market Data, Expanding Access to Middle Eastern Capital Markets",
+      "preview_ko": "",
+      "published_at": "2026-11-10T17:57:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV05ZcWtmd3R1TVRwdkhGXy1IOHBad2kxMUJfS2dRd3RGS3phMmpKVVF3TnBlYTFObWZXRm1Nb0JaM2d2QjlaVnFMdTFoOTNJUDFGTFRSVmJZRTFSU0otQnMyQzloR2RWRHVRU3FyVlRZZmx4ZWttSFJ6RHZxN3M2LUk1aFM0V2QzNTh5U0VaeHV5aGFvV0FUV0JVQllSOVZoNlFuRURuLVhQZw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_11e9956d",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "인플레이션 데이터에 따른 주식 하락",
+      "preview_ko": "주식 시장이 뜨거운 인플레이션 데이터로 하락세를 보임.",
+      "published_at": "2026-11-10T17:20:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDRBdGFZaTF1ejNzcml1SG5qMzhTQzExSzF2X21lMUlMSmhQaUYyZGFKSzh4OUZtYVZkTFd3UWVCdFlCNWNqS0pfcE5mYXJLS1BrTjFudUtvOU92STdfS2tlY0xmT3ptNVJFNjU5amcyMjEyRFRzUnZSV2VocjdJZEM3UWpjendVcVQ2R2UzZkF3Z3h3WkltMjY2YW50ZTM4NDJMb2tORWNJd3pRTU5UR08zbnJzcG9LVnhHcGhYQQ?oc=5",
+      "summary_ko": [
+        "주식 시장이 인플레이션 데이터 발표 후 하락세를 보이고 있다.",
+        "특히, CPI 상승 우려가 시장에 영향을 미치고 있다.",
+        "투자자들은 향후 금리 인상 가능성을 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국의 인플레이션 우려로 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7760368b",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장 뉴스 및 분석",
+      "preview_ko": "주식 시장에 대한 최신 뉴스와 분석 제공.",
+      "published_at": "2026-11-10T17:12:00Z",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+      "summary_ko": [
+        "주식 시장에 대한 다양한 뉴스와 분석이 제공되고 있다.",
+        "투자자들은 시장의 방향성을 주의 깊게 살펴보고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 대한 직접적인 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5acba3ae",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "마이크로소프트, 엔비디아 시가총액 초과",
+      "preview_ko": "마이크로소프트가 엔비디아의 시가총액을 초과함.",
+      "published_at": "2026-11-10T17:05:03Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcWRFb1lzN25ON2FrOFFkTm5Va214ZTV5bGxNODBiZDJJU3ZOT0h5YlM0VHNVLXhTZEJxOUtQYmh3OWk3NHdQSGRRNVptNzZCQmU5dDlzZndfeGVQZ0ZaNXF2NkdpZFViNHhuQW1YUWVDTzUwSXN2ZlRWX3dvM1h3QXB2Y3NDMWg5MmdjbTJoQ2ZrVVFlN1I1TUYtN3BuQQ?oc=5",
+      "summary_ko": [
+        "마이크로소프트가 엔비디아의 시가총액을 처음으로 초과했다.",
+        "이는 반도체 업계의 경쟁 구도를 변화시킬 수 있다.",
+        "투자자들은 두 기업의 실적에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종의 경쟁 구도 변화 여부를 관찰"
+      },
+      "us_tickers": [
+        "MSFT",
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4f945046",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "‘그랜드 테프트 오토 VI’ 사전 주문 급증으로 주가 상승",
+      "preview_ko": "‘그랜드 테프트 오토 VI’의 사전 주문이 급증했다.",
+      "published_at": "2026-11-10T16:06:44Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFI4WnpaUkk0NkNUdldPY2pOX3M2eXBoNkZzaXRGSEZuSFpqTzR5ZjVabE9ncng1QXd4RXR6VDRpa294UFFSU21fMUpwcmtVYWxaMmR1Ql9vYmtCRTNITm8taWVSTUhETE5wN2xBT0FVYTBTTkFHTTJCTmh6VVZtYm1hTkNaSnJHdVNTN3lNVFk1ZDQ3Y1BfVXZUOWlYekNDcDNVWDdkODJIcEpRWnJ2TXFDSUpGTkMzc0tuMnNxNUxkT0kwZUtBMVhZbnpvUlVM?oc=5",
+      "summary_ko": [
+        "Take-Two의 주가가 '그랜드 테프트 오토 VI'의 전례 없는 사전 주문으로 상승했다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 게임 관련 주가의 반응 여부를 확인."
+      },
+      "us_tickers": [
+        "TTWO"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_aa2f2fbd",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "Hims & Hers, 3분기 실적 부진으로 주가 하락",
+      "preview_ko": "Hims & Hers의 3분기 실적이 실망스러웠다.",
+      "published_at": "2026-11-10T15:45:47Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWGZaX2RtdzQ5N080MWZuS0Nzb1Bsd19aQ255bUp6dTU1dGJWOGNCR0dBV0ZsQmdkRy1Qa3RhRGdNRV9JMks2MDZvcHQ3LUotM3hxa1FEOElfUXFabndUckJvVGJidF9jQWtpVUtIZkdUcjlXMEpJMWpiejBZUkFWME9GSnNGVjNqNkpuZnFGMXJDMXB0dHE4S0I4TzFVOEFNRm1pZGVBVmY0T0NyRHNQQVEyTlVoYVc4WTQ5NER3TTM?oc=5",
+      "summary_ko": [
+        "Hims & Hers의 주가는 3분기 실적과 전망이 실망스럽다는 소식에 하락했다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [
+        "HIMS"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8689cb62",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "Nvidia 주가 3% 하락, CEO와 관련된 스파이 보도 영향",
+      "preview_ko": "Nvidia 주가가 3% 하락했다.",
+      "published_at": "2026-11-10T15:26:54Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaTMzXy1sdW5VeFphNTFTbjYzWUZmdHJLNmhXMTE3cVBybWQ1NFhBUU5lUEZqcWUzNnBMN0J2RmdoYWtidXBQc1pPbFNhZV8zcGVJX2VxX3pzU01JZTV1cFpKanZVWHhSVE5IbWUyaVo5bXoxaUdkQ2Jwd0poWXNrX1VrOGI4SlBNOVExdUMyT0NDeS15dHY3N3FRZ1YyMHpZWmRtOC1MTXFhVEFvMm1xREZmb0xBSWpJTUt1aHdMVTl4NHY5TFY3QjZPSWFqNDNCM2xfeFJDM1FLN18zbmZfMG5OeS1lQ25jWUs1R3hIVkc5amVmMHBIS3kyQl8wS3B3T0d5bjFqM2lYQkt1UDk5Rm9kdlMtZw?oc=5",
+      "summary_ko": [
+        "Nvidia의 주가는 CEO와 관련된 스파이 보도에 따라 3% 하락했다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 Nvidia 하락을 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [
+        "NVDA −5.47%"
+      ],
+      "coverage": 3
+    },
+    {
+      "id": "n_ce7adf57",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "CPI 데이터 발표 후 다우와 S&P 500 하락",
+      "preview_ko": "CPI 데이터가 연준 금리 인상 우려를 높였다.",
+      "published_at": "2026-11-10T15:12:26Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
+      "summary_ko": [
+        "CPI 데이터 발표 후 다우와 S&P 500 지수가 하락했다.",
+        "CPI 데이터가 연준의 금리 인상 가능성을 높였다는 분석이 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영하는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b6cb1e67",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "CPI 보고서 발표 후 나스닥 하락",
+      "preview_ko": "CPI 보고서 발표 후 나스닥이 하락했다.",
+      "published_at": "2026-11-10T14:44:34Z",
+      "source": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QcDh5ODdiSUxvaWlWajZhaHdUdFNBN2pCanlnNXVnVDNqSlhuSVhOaXROaFdBcDUzVGNoZXdZWHVkbjlndWVieGtjb3RGVlhjeXdSb0lpamJuYWFRMVA5NnpQTUV2OFRMYTJ3aW9vN2FCZDZLMkFDX1BESWpPWTQ?oc=5",
+      "summary_ko": [
+        "CPI 보고서 발표 후 나스닥 지수가 하락했다.",
+        "핫한 CPI 수치가 주식 시장에 부정적인 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영하는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d512cdd5",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "CPI 수치 상승에도 주식 상승세 지속",
+      "preview_ko": "CPI 수치가 상승했지만 주식은 상승세를 유지했다.",
+      "published_at": "2026-11-10T14:24:00Z",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdmdNMmM4d3hMRjhTMGl2NXBJQ3NDb3FSWEg0TDFsNnhLQmpYWmVRRExmSkRqVjVOZGhPaG5yUkZsWFphYUJSR2tjMEF2WGtBTjBuZkNTUVFPOXk2c3ZRWXVrUlhabUs2c0FESmE0SU1CeE1EMy0ydWt5VGY5Z2RhQmEtaWVqWGgxV0x0TlhJekJZbkp1aFB5eldkcTVlcmtKQ3NZTjVaRmpjRkp0NmM1YWtmSGhBZw?oc=5",
+      "summary_ko": [
+        "CPI 수치가 상승했음에도 불구하고 주식 시장은 상승세를 유지하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bdfd7732",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Is the stock market open on Veterans Day?",
+      "preview_ko": "",
+      "published_at": "2026-11-10T13:11:39Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWmw1Y1BTZHdPT1BpakVXMnhWN005Mlo3NHhsblZ4a2FlUUdId2I0NTQtN05RZkZwMjlnUHp1S2F3UTFPZ2NaUV9jUktNZEdwNU5tS3BTOFo4amhhSExiTU5aNHl4alZzTF95Vm94eWJTSktyLUc5SXFSUmQwcl9LbC1CSlJ6cVdSNnFWeFZ6OC0xVF9VWEZKVFJYYkFfZk9IcTA0cXlFUUZSXzJlelkyeW5lRXJHU0E?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_54af1514",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market Today: Futures Mixed After Yesterday’s Massive Gains as Investors Await Key Inflation Report",
+      "preview_ko": "",
+      "published_at": "2026-11-10T13:10:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSWEwaVFHVnlaUmxKSjN4aTh5MDd4Q0NST3N0UWx4N0d3RTNSWHJyNWxwSUJDbmctdkcxdk5XNDRWQjdsRXFxei1GMGV3bHRLOEsxcHFmVVFRckF3UWJYclhydFpMNmREYnM0RnhuYktIMnlndzRQLVhacDVWcXJyX21Eb2JoZHFCb1FYM3ItZndmOUcxTVVVc01vYk1MQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bd3d3b1f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.",
+      "preview_ko": "",
+      "published_at": "2026-11-10T12:33:00Z",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQkkxNUxhQ1RaeW5GcGJJZGdvbTVFUnhHS09oenBkRjR0eGNlekljM0czYm9Id19kY3NTTHlLaFRaTXJBUExEd1dSdVJ3ZlpvSVBjLWsySHdnVm8ycXRlNEluUHdNaTh2SHVHRVBhOHRBMHFicjJVRVFOT2VkT1IzUmFMcm5MWlUwbnA4bzJacTI4RGxWWTFHZzlfaFh3WjMxdWdrOFJFQ3VZcFFn?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6a82cdbb",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Indonesia bourse removes market cap threshold for shareholding structure screening",
+      "preview_ko": "",
+      "published_at": "2026-11-10T11:59:45Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcndQTlp4eHBYX01Tc2NhVDF5THFZek1Eb01GbG1mVi15cklRVTNjTm1HTVc0SkwwTUlmdExHaE5IT2F3a2JXS3VIcjNVUG44OWRfRFNkUDFmb0ZUTm5iYWVaaTc2YjJkekoySV8xSm5yai03Z0Y4ZkVhZG9vTjRGWmpWRUJaWGZxMFllWWVVZk5MMjdtb0hVRkFLR3M2OFBXR0Fua2NQN0VOSF9sNFloSnpQaGNZUGNKOFRvTUZZTTRYc3BFNHNodC1XQk53UQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3cf8d023",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market News for Nov 10, 2026",
+      "preview_ko": "",
+      "published_at": "2026-11-10T09:48:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ3RwdVg5QllySktmMExudERZdzl5MDI4WmExbER0Y19WSFM5R1E0dW1TcUFuQzFOaU02RkhOWDR0Rk1sUnJPUlU0c3dFX2tTYU5iaGR5RXpEVGVxWUdyVFpzbWZzb0hFUVQ1Q1Axd0QzSHpCZmZxSkhPd2ViY0F4b2NybXFSSDJMS3lkVXJOQXpaVGM?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_884a3e34",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 인플레이션 예상 초과, 금리 인상 우려 커져",
+      "preview_ko": "미국 인플레이션이 예상치를 초과하며 금리 인상 우려가 커졌다.",
+      "published_at": "2026-11-10T21:12:32Z",
+      "source": "SBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aNjFLVFJqS1lUbF9BcUp4WHN0STJvSl8zRUtMZkdOcWV5UWVZT19kOURKd3ZNWTV4MGd4VHdTTW0zSVczWU9YbkszQTNEcDhuYzJCaEZGZWhIX0F1Zld6STE2OEhFd0M5VmZ5U2tB0gFmQVVfeXFMUG5NcUY1aGlYN1hNSDVncWxiTU52dVl4X3BvT3Q5ZkQ2R3ZWMWkzeVBHWVoyVWY2Z1JrZXdyZFRJY3hMYXphZXNxTElXNXRCcmdpbng1QlF0ejhmRW5TMzhjcXZRRzl3?oc=5",
+      "summary_ko": [
+        "미국 인플레이션이 예상치를 초과했다.",
+        "이에 따라 금리 인상 우려가 커지고 있다.",
+        "시장에 미치는 영향이 클 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리 인상 우려가 커지는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6515c080",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "월가, 금리 우려로 하락 마감",
+      "preview_ko": "월가가 금리 우려로 하락세로 마감했다.",
+      "published_at": "2026-11-10T21:07:27Z",
+      "source": "Newsmax",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS2RpdmFubjlsUDh2eWZOZVRudGZjdzAyNzZHZV9oRkxHZ0dJRE9ya0dtbThwYWs1djFzaVcyMExGS0M3V0t6Nk1LYThDYVRfY0EtbmdwYWpwUHJxUUV5RF94S1MwRUJBUlFZRGU2R01Cb3hTMWFNejFHSS1BbDNJa25PTW1qdmxPdEMxWmVuX2YzZUFVc0ZR?oc=5",
+      "summary_ko": [
+        "월가가 금리 우려로 하락세로 마감했다.",
+        "투자자들은 금리 인상 가능성을 주목하고 있다.",
+        "이로 인해 한국 시장에도 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 금리 우려에 따라 하락 출발하는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e55f436c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Fed’s Waller opens door to half-point rate hike in December",
+      "preview_ko": "",
+      "published_at": "2026-11-10T20:55:00Z",
+      "source": "The Hill",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00OGhHMHZ3Ykhhc295bHlRcGxIR3VxNDk4SUVqMGlyRUNMeHFfVVBueS0wbmhuYndTREtibEFaWG5pS081dFpTZG10NkVUbmU4a3JQSzkwZ1BjMF84WXhwMkNLMTQ2ZEFmUnpxT2JoUdIBdEFVX3lxTE0tZFFPSmY3NFNwX0xMV3JRUzFydVNhT3ZXNkFwTko2c3ZmXzZjMzZZZnlRTXh5ci1mRUpQRExHdFVLNEs4NTBleklIZDFWOTlJOEVKOUhSbzVzcXFzMDRTR2NieTVyMVRHbTVLVjdwcE1sSjRG?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d052a0b2",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "10년물 국채 수익률 5% 돌파, 금리 인상 기대감 고조",
+      "preview_ko": "10년물 국채 수익률이 5%를 돌파하며 금리 인상 기대감이 커졌다.",
+      "published_at": "2026-11-10T20:55:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aNlJuQlVFWm5XeXdrQXpvWlp0TW5rd0ZfbU1YdDViQ1RwYjFWQ0d0UWk2YXpELUI5MkJTMUdvd19CRWxvMHdjSkJrckdYOGlwX2pHNkFQZzNneXloOWd5TzAtei1yZ0EtUkVkWGpYbFVpY3RBSEE?oc=5",
+      "summary_ko": [
+        "10년물 국채 수익률이 5%를 돌파했다.",
+        "이는 금리 인상 기대감을 높이고 있다.",
+        "시장에 미치는 영향이 클 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리 인상 우려가 커지는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_81106a77",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Interest-Rate Hike Debate Sparked by Fed's Waller, Logan After Hot Inflation",
+      "preview_ko": "",
+      "published_at": "2026-11-10T20:54:25Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkZoTlZOa05oRHYwaUNCM1pDVHdhNnF3ajlxMzBBd1R0Z3plbEVKbm4xemxmbm1penlwS1hrY09URU4zbDZoZFlWV213ZnZkWVlseUE1U0JyeE8zQWpqcU9YVUlKbUJldG9NT21UVkpmN2F6eFlWZWtiZlhrZUZGLUFpUTRlcmdWYnduUDB5MTNOY0xFQW5TSDZfaDNac0N5VVpuUE43WTJYeEZIZTBDbFRKdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b87cc54d",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 국채 수익률 급등, 연준 긴축 우려 재부각",
+      "preview_ko": "미국 국채 수익률이 급등하며 긴축 우려가 커졌다.",
+      "published_at": "2026-11-10T20:43:32Z",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWWJuRWlmNFR2TDdoVDFNWmd5Mng3Q2dtLW8ySlM5ekxFdHlXOWhJQXg3aDA3SjF4S2RJX3BEYUJCSXZwbTJoQzM4T0llOS04X0JjS0FjaW9mWm9Nbkh4TS1kR1B1RHVCSDB0Uk5CSlBLVXdpbUY4NmpPUG5wRV9TMEtyOVRmY3M4Slp5TUpaUnBRUWpTWnpWeDdjY0FwdGRNRzJRNnhfSWhHOHdocEdXclhjNDNGRFNPMWdabw?oc=5",
+      "summary_ko": [
+        "미국 국채 수익률이 급등하며 연준의 긴축 우려가 재부각됐다.",
+        "CPI 발표 이후 금리 인상 가능성이 높아지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "TLT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_75a7fd3f",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "연준 관계자, 인플레이션 악화로 금리 인상 가능성 열어",
+      "preview_ko": "연준 관계자들이 금리 인상 가능성을 열어두었다.",
+      "published_at": "2026-11-10T20:42:14Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
+      "summary_ko": [
+        "연준 관계자들이 인플레이션 악화로 금리 인상 가능성을 열어두었다.",
+        "시장에서는 반응이 즉각적으로 나타나고 있다.",
+        "금리 인상에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금융주가 금리 인상 우려에 따라 영향을 받을 수 있다."
+      },
+      "us_tickers": [
+        "FED"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5fc40077",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 고물가 보고서, 연준 금리 인상 확정 지어",
+      "preview_ko": "고물가 보고서가 연준의 금리 인상을 확정 지었다.",
+      "published_at": "2026-11-10T20:04:24Z",
+      "source": "www.thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNazZzN0dQYXRQSWlRcGF4a1lRSUhmRFNZd191WV9fZzIxZk5Rd0JrZkdjd2tnbWV1MzVuSy1WVFI4Vm5SNUJaR24wekdyQm50RTJuNVRyMTl2RjRDZjNFQVpfTXdtNTd1am00YndjbU5IQkh1WnJzSnF4aEpHRXdqTXhkUTkwTmxuNm9kSFdRdHd2alRYR3Z5Yy0wQXhfOGNncHhPT0c3ZThfeWRoa21R?oc=5",
+      "summary_ko": [
+        "미국의 고물가 보고서가 연준의 금리 인상을 확정 지었다.",
+        "시장에서는 금리 인상에 대한 우려가 커지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "FED"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7b25fb2b",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 고물가, 더 큰 연준 금리 인상 논의 재점화",
+      "preview_ko": "고물가가 더 큰 금리 인상 논의를 재점화했다.",
+      "published_at": "2026-11-10T20:00:45Z",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONkNGTlZRWDFpcEJ6NWRPdXpMOXZBMENsSm9ROHo0enNkRzBwTnhqR0lNOWFuQ09FaFNiSlhvNTFHektURFJFS1EtMGJmUlFhNk01MjZReUxUU3gwa1FhMUpxNmxVVlhlY3M4Qy1iZDF0UG02QkhSVnY5VHhQZHhaUGxnd2pvVldWTkdWYg?oc=5",
+      "summary_ko": [
+        "미국의 고물가가 더 큰 연준 금리 인상 논의를 재점화했다.",
+        "시장에서는 금리 인상에 대한 우려가 커지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "FED"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4ab668d8",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 주식, 10년물 수익률 5% 근처에서 하락",
+      "preview_ko": "미국 주식이 10년물 수익률 5% 근처에서 하락했다.",
+      "published_at": "2026-11-10T19:26:00Z",
+      "source": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU05RalNuUDhCOEhCS1N2YjV1QWdrRk9vSWxQeVVyc09uOEkxOUxzY2ZWQUlEWnQ2alNael84QktSazQyc1JjTl9FQjFEeXkwU0xmcFRidmRrM0N5Q0hDZTY4UXV3TlE0djZtdVBKVENhMGszaXNJeHFFakIwVFI1ckV4b0xGUXA3RnZUYWpabXhRa3MwOWhPYnNB?oc=5",
+      "summary_ko": [
+        "미국 주식이 10년물 수익률이 5% 근처에서 하락했다.",
+        "CPI 발표 이후 금리 인상 우려가 커지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "SPY"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ea9319da",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Treasury yields jump after hot October CPI, with a December Fed hike now priced in",
+      "preview_ko": "",
+      "published_at": "2026-11-10T19:22:02Z",
+      "source": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLVd1VEo5NENVVmVnT3BzYzFCbG4waTFoX2lZRlJDelg3YlFsejVtTFdDQmNCanRJU3lCSEdEakpsVkVxaEFVS1RsbVA1SV9PcnhjaTVJdUktNmJFNTBNWS1FejBUQU5FQVp3QnBjR1Y4T2tkZXNQWVkyZXJhY2ZoU1FIYjlUWHpCc0hFb3V0c09TUVlraHoyeEZhc1RQRUJvQ19GQ3pqQmRNU2lVV0E?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b549e644",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 고물가, 달러 상승 및 원자재 압박",
+      "preview_ko": "고물가가 달러를 상승시키고 원자재에 압박을 가하고 있다.",
+      "published_at": "2026-11-10T18:45:36Z",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3dlTlpjVS1tMnVBMnJYa2FlMTVWV0hzRndZYkxvOVFnSktiYmFkM0VmZU1OMGNRVFNFX1N5XzF1bm5aamtrRHNPZ2ZtZWlXWVExQXRBVXh3WmxkaTlFNUZRbXRXd25VVmNtVF9haGRiYTl2dTMyVk1XOXF3Skk1N09aNmxiQ0tQaDRNNkc1VUdxRFZJbk1r?oc=5",
+      "summary_ko": [
+        "고물가가 달러를 상승시키고 원자재에 압박을 가하고 있다.",
+        "CPI 발표 이후 금리 인상 가능성이 높아지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 원자재 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "DXY"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_2c21d1d5",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "채권 급락, 고물가가 더 많은 연준 금리 인상에 대한 베팅 촉발",
+      "preview_ko": "채권이 급락하며 고물가가 더 많은 금리 인상에 대한 베팅을 촉발했다.",
+      "published_at": "2026-11-10T18:39:43Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakFPZlVwd2pvZDUwU0IzS3I3bHNNTlJOV3JRUXpyTEstS0FRN2JHeDE1R2J6cWxBU3o4SWI2SWhLNTdmdDZzTl9Na3lSLVdqcDd1c0RtSHllU3dSRk04aGNqWmZnbVQxdVVDRmhzcmlJU2tHUnJWQ1JNNzhmNXZITHJmdFpOZWdrWWdvam95YWpvd1ZxWDlROG5Za185MW1fWjFqb05QYmhzRDhpY0NHT3dMeWQ?oc=5",
+      "summary_ko": [
+        "채권이 급락하며 고물가가 더 많은 금리 인상에 대한 베팅을 촉발했다.",
+        "CPI 발표 이후 금리 인상 가능성이 높아지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "TLT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1c32e3fd",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "U.S. October CPI Tops Forecasts, Igniting Rate-Hike Bets; Dow Falls Nearly 250 Points, Gold Plunges Over 2%",
+      "preview_ko": "",
+      "published_at": "2026-11-10T18:25:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VYVdIMjRIVEs3V3hxc3FwS2pkYjdBU3hMZVRMTzhXOG93a2ZXRFgyVTNRYjRfdE1Hc25rV3pwZ1NmMnNDWGQzZ0d4QzFPS2U3dk50NzlISU5EX3l5dU03NlhrSVpvMVB4SVd6MEFVVmdYTUlPMlE?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ea642290",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금값, 고물가로 4,000달러로 급락",
+      "preview_ko": "금값이 고물가로 4,000달러로 급락했다.",
+      "published_at": "2026-11-10T18:24:00Z",
+      "source": "شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jTlRVb3RJb0hlcFA3Q1Itd3NQb3l6M0hjMG9Nc0JIR3pfbk5JeTBtUHF6Q3JjVVVNNmZIMGNlWUQtWlVwNnQyWjdTUGIybVE5aTlB?oc=5",
+      "summary_ko": [
+        "금값이 고물가로 4,000달러로 급락했다.",
+        "CPI 발표 이후 금리 인상 가능성이 높아지고 있다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금속 시장의 반응을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "GOLD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    }
+  ],
+  "calendar_actuals": [
+    {
+      "event": "CPI m/m",
+      "actual": "0.4%",
+      "evidence_id": "n_d5d03f82"
+    }
+  ],
+  "total_batches": 15,
+  "failed_batches": 0,
+  "picked": [
+    "n_c80c79fe",
+    "n_8689cb62",
+    "n_5f2e5552",
+    "n_a4865569",
+    "n_1b251dbb",
+    "n_7868890a",
+    "n_862b188f",
+    "n_5206c5aa"
+  ],
+  "notes": [
+    "10 summaries replaced by titles: numbers not in article"
+  ],
+  "llm_usage": {
+    "gpt-4o-mini": 57180,
+    "gpt-5.5": 14076
+  }
+}

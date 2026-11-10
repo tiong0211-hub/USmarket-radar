@@ -1,0 +1,213 @@
+{
+  "run_date": "2026-11-11",
+  "us_market_closed": false,
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "value": 27740.79,
+      "unit": null,
+      "change_pct": -0.6,
+      "change_bp": null
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "value": 27859.75,
+      "unit": null,
+      "change_pct": -0.55,
+      "change_bp": null
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "value": 7520.93,
+      "unit": null,
+      "change_pct": -0.38,
+      "change_bp": null
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "value": 7549.25,
+      "unit": null,
+      "change_pct": -0.33,
+      "change_bp": null
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "value": 19.48,
+      "unit": null,
+      "change_pct": -2.21,
+      "change_bp": null
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "value": 4.98,
+      "unit": "%",
+      "change_pct": null,
+      "change_bp": 12
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "value": 1342.85,
+      "unit": "원",
+      "change_pct": -1.46,
+      "change_bp": null
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "value": 9998.33,
+      "unit": null,
+      "change_pct": -0.35,
+      "change_bp": null
+    }
+  ],
+  "sentiment": {
+    "score": 23,
+    "label": "극도의 공포",
+    "vix": 19.48
+  },
+  "calendar_released": [
+    {
+      "event_ko": "소비자물가(전월비)",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "previous": "0.6%"
+    },
+    {
+      "event_ko": "근원 소비자물가(전월비)",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "0.3%"
+    }
+  ],
+  "calendar_upcoming": [],
+  "top_news": [
+    {
+      "title_ko": "핫 CPI 발표로 미국 증시 급락",
+      "category": "macro_rates",
+      "importance": 5,
+      "moves_ko": [
+        "나스닥100 −0.60%",
+        "미국 10년물 +12bp"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 급락에 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "Nvidia 주가 3% 하락, CEO와 관련된 스파이 보도 영향",
+      "category": "macro_rates",
+      "importance": 4,
+      "moves_ko": [
+        "NVDA −5.47%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 Nvidia 하락을 따라 약세로 출발하는지 확인."
+      }
+    },
+    {
+      "title_ko": "반도체 주식, 5조 달러 하락 근접",
+      "category": "theme_earnings",
+      "importance": 4,
+      "moves_ko": [
+        "필라델피아 반도체 −0.35%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 미국 반도체 주식 하락에 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "마이크로소프트, 엔비디아 시가총액 초과",
+      "category": "theme_earnings",
+      "importance": 4,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락에 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "마이크로소프트, 앤트로픽 위협에 급락",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 대형주가 마이크로소프트의 급락을 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "신용카드 부채, 사상 최고치 1.29조 달러 도달",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 소비 관련 업종의 영향을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "CoreWeave, Q3 매출 예상 초과",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 관련 업종의 반응을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "AI 투자 실패 시 주식 조정 경고",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식의 변동성 확인 필요."
+      }
+    }
+  ],
+  "themes": [
+    {
+      "us_ticker": "AVGO",
+      "change_pct": 3.91,
+      "theme": "AI 반도체 · HBM"
+    },
+    {
+      "us_ticker": "TSM",
+      "change_pct": 2.02,
+      "theme": "파운드리 · 첨단 공정"
+    },
+    {
+      "us_ticker": "LLY",
+      "change_pct": 1.44,
+      "theme": "바이오 · 비만치료제"
+    },
+    {
+      "us_ticker": "AMD",
+      "change_pct": 1.3,
+      "theme": "AI 반도체 · HBM"
+    }
+  ],
+  "outlook": {
+    "direction": "flat",
+    "strong": false
+  }
+}
