@@ -1,0 +1,1401 @@
+{
+  "news": [
+    {
+      "id": "n_16dadfeb",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+      "preview_ko": "",
+      "published_at": "2026-11-11T21:11:26Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7befb337",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주가 반등, CEO 스캔들 우려",
+      "preview_ko": "엔비디아 주가가 반등했지만 우려가 남아있습니다.",
+      "published_at": "2026-11-11T21:04:36Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "summary_ko": [
+        "엔비디아 주가가 반등하고 있다.",
+        "CEO 젠슨 황의 개인적 문제가 비즈니스에 미칠 영향이 평가되고 있다.",
+        "투자자들은 이 스캔들이 기업에 미칠 영향을 우려하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종의 투자 심리에 영향을 미칠 수 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_776bc905",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "코스트코, 특별 배당 발표",
+      "preview_ko": "코스트코가 특별 배당을 발표했습니다.",
+      "published_at": "2026-11-11T20:59:32Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/investingclub/2026/11/11/costco-is-giving-shareholders-a-big-early-holiday-gift-how-to-make-sure-you-get-it.html",
+      "summary_ko": [
+        "코스트코가 주주를 위한 특별 배당을 발표했다.",
+        "투자자들은 이 배당을 받을 기회를 놓치지 않도록 주의해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유통업체의 배당 정책에 대한 관심이 필요하다."
+      },
+      "us_tickers": [
+        "COST"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4adcecd3",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아, 경제적 영향 우려 커져",
+      "preview_ko": "엔비디아의 경제적 영향 우려가 커지고 있습니다.",
+      "published_at": "2026-11-11T20:59:14Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "summary_ko": [
+        "엔비디아의 다른 기업들과의 관계가 경제적 피해를 초래할 가능성이 제기되고 있다.",
+        "이러한 우려는 투자자들에게 큰 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 IT 업종의 전반적인 투자 심리에 주목해야 한다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3a7234e8",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "캐나다 대사, 트럼프 관세 경고",
+      "preview_ko": "트럼프의 관세가 투자에 위협이 되고 있습니다.",
+      "published_at": "2026-11-11T20:30:23Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+      "summary_ko": [
+        "캐나다 대사가 트럼프의 관세가 비용을 증가시키고 있다고 경고했다.",
+        "이로 인해 미국 내 투자에 위협이 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 기업의 대미 수출에 미치는 영향을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1b381d91",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "유나이티드 항공, AI 에이전트 차단",
+      "preview_ko": "유나이티드 항공이 AI 에이전트를 차단합니다.",
+      "published_at": "2026-11-11T20:02:20Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html",
+      "summary_ko": [
+        "유나이티드 항공이 보안 문제로 AI 에이전트를 차단하기로 했다.",
+        "업계 전반에서 AI 에이전트에 대한 접근 방식이 다양해지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 항공사들의 AI 도입 여부에 대한 논의가 필요하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f854ddcf",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "모건스탠리, AI 채권 투자 권장",
+      "preview_ko": "모건스탠리가 AI 채권에 대한 투자 매력을 강조했습니다.",
+      "published_at": "2026-11-11T19:59:09Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/morgan-stanley-ai-bonds-hyperscalers-credit.html",
+      "summary_ko": [
+        "모건스탠리가 고품질 AI 채권에 대한 투자 매력을 강조했다.",
+        "투자자들은 AI 관련 채권에 대한 관심을 가져야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장의 동향을 주의 깊게 살펴봐야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4482bc3c",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "닛산, 판매 전망 하향 조정",
+      "preview_ko": "닛산이 판매 전망을 다시 하향 조정했습니다.",
+      "published_at": "2026-11-11T13:18:48Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/nissan-sales-forecast-earnings-china.html",
+      "summary_ko": [
+        "닛산이 중국 시장의 경쟁 심화로 판매 전망을 하향 조정했습니다.",
+        "이는 두 번째 하향 조정입니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 자동차 업종의 판매 전망에 미치는 영향 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b5bf9a9a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
+      "preview_ko": "",
+      "published_at": "2026-11-11T12:27:47Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d5d03f82",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "preview_ko": "",
+      "published_at": "2026-11-10T23:53:58Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fd1338ef",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "블룸 에너지 주가 상승, 데이터 센터 우려 완화",
+      "preview_ko": "블룸 에너지가 긍정적인 전망으로 주가가 상승하고 있다.",
+      "published_at": "2026-11-11T21:14:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-soaring-as-data-center-jitters-subside-5fda5689?mod=mw_rss_topstories",
+      "summary_ko": [
+        "블룸 에너지의 주가가 상승세를 보이고 있다.",
+        "CoreWeave의 긍정적인 전망이 우려를 완화시켰다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [
+        "BE"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_27b573b7",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "샌디스크 주가 급등, 메모리 산업 변화가 긍정적",
+      "preview_ko": "샌디스크 주가가 급등하며 긍정적인 전망이 제시되었다.",
+      "published_at": "2026-11-11T20:25:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec?mod=mw_rss_topstories",
+      "summary_ko": [
+        "샌디스크의 주가가 급등하고 있다.",
+        "메모리 산업의 구조적 변화가 긍정적인 영향을 미칠 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 메모리 반도체 업종의 동반 강세 여부 관찰."
+      },
+      "us_tickers": [
+        "SNDK"
+      ],
+      "moves_ko": [],
+      "coverage": 2
+    },
+    {
+      "id": "n_1633bd85",
+      "category": "geopolitics_commodities",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아, 중국 반도체 판매 제한에 대한 로비 활동 강화",
+      "preview_ko": "엔비디아가 중국 반도체 판매 제한에 대한 로비를 강화하고 있다.",
+      "published_at": "2026-11-11T18:48:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
+      "summary_ko": [
+        "엔비디아가 워싱턴에서 로비 활동을 강화하고 있다.",
+        "전직 대사에 따르면, 의회는 중국에 대한 반도체 판매 금지를 추진할 것이라고 한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 불확실성 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_34cd832a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "오라클, AI 투자에 적합하다는 분석",
+      "preview_ko": "오라클이 AI 투자에 적합하다는 분석이 나왔다.",
+      "published_at": "2026-11-11T18:13:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/oracles-stock-is-totally-misunderstood-and-should-be-a-go-to-ai-play-says-this-analyst-2a87e80d?mod=mw_rss_topstories",
+      "summary_ko": [
+        "오라클의 주가가 저평가되어 있다는 분석이 제기되었다.",
+        "두 가지 주요 투자자 우려가 곧 해소될 것이라는 전망이다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 IT 업종의 동반 강세 여부 관찰."
+      },
+      "us_tickers": [
+        "ORCL"
+      ],
+      "moves_ko": [
+        "ORCL +8.82%"
+      ],
+      "coverage": 1
+    },
+    {
+      "id": "n_579c837d",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아, 문제로 인해 매수 추천 중단",
+      "preview_ko": "Baird 애널리스트가 엔비디아 매수 추천을 중단했다.",
+      "published_at": "2026-11-11T17:13:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/has-nvidia-flown-too-close-to-the-sun-one-analyst-warns-of-major-scrutiny-ahead-a323c4dd?mod=mw_rss_topstories",
+      "summary_ko": [
+        "Baird 애널리스트가 엔비디아의 주식 매수를 더 이상 추천하지 않는다.",
+        "문제가 증가하고 있다는 경고가 나왔다.",
+        "엔비디아의 향후 전망에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 부정적 전망을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e1b61e07",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "코어위브 실적 발표로 AI 투자 회복",
+      "preview_ko": "코어위브의 실적이 AI 투자에 긍정적인 영향을 미쳤다.",
+      "published_at": "2026-11-11T21:06:06Z",
+      "source": "Kiplinger",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeG85WHNtOHEtTER3NGdVeXJfSkRwa2lMNDJ6YU8ySTJuZ096NVpoOGZCTHhJQTZSUVE0VWQxRGJuWjZzdW5jbWJ6WU10d1NneldNMllaZkFWZGxvTTk1WWotd3ZxYUZ5cFFSQnh3NWZiaF96aWxlc3VQekZtREdGQnhsai11RkJWWGQ1czJ5M1R6NUZJM3F6eEZzd1c5VVhPTDJlR0lTdzdXTDFIbVE?oc=5",
+      "summary_ko": [
+        "코어위브의 실적 발표로 나스닥이 400포인트 상승했다.",
+        "AI 관련 주식에 대한 투자 심리가 회복되고 있다.",
+        "AI 관련 업종의 긍정적인 흐름이 이어질 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 업종의 강세 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_48f83e9a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "주식 시장, 코어위브 실적에 힘입어 상승",
+      "preview_ko": "코어위브 실적이 주식 시장에 긍정적인 영향을 미쳤다.",
+      "published_at": "2026-11-11T21:05:09Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
+      "summary_ko": [
+        "주식 시장이 코어위브의 실적 발표로 상승세를 보였다.",
+        "AI 지출 우려가 해소되면서 투자 심리가 개선되었다.",
+        "AI 관련 주식의 반등이 예상된다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 업종의 반등 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a923b759",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Amazon and Google Are Sitting on a $411 Billion Anthropic Windfall",
+      "preview_ko": "",
+      "published_at": "2026-11-11T20:47:45Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObXF1R3pVM3NETS10eWxGWE5ZT24xTnpPb2lHeGRKbG8zSUpDQ2NRSHNiRUN5SmJiSVJPS0k1WVNKR3dOTzZ0dlh0ZmxDb2RTMnJKWTdOVWFOb1RjY3RJZGZsS1B1OG56eTFGeHBsZVdPUW5MVVZxMVM1MTh5WlhXZWFnOU5CbGlIa0Y2TlB5Q0JvQ0tZVnhxNFhWMXUwdzg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_070dee8b",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 붐을 타고 배당금을 지급하는 4개 산업 기술 주식",
+      "preview_ko": "AI 붐을 타고 있는 산업 기술 주식에 대한 기사입니다.",
+      "published_at": "2026-11-11T20:47:24Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjdQWjQyYjViTWNYaGo0elpBNW0za2thUXBsdWhfdEttMXEwZzgzOHk1THlnZTBQeXZfbV9rZnB4SEVCelE4NnhsRUU5RlZuY3M1QzVsZFQ4a1l0eVBJZ1l4RHpySTFrNms2Wm5QdzV5S0xfaW1leU1zN1lmVDN0OGlGQVBQM2xPRTktWThuclVWYXQ2aVd2eEZQWm0?oc=5",
+      "summary_ko": [
+        "AI 붐을 타고 있는 4개 산업 기술 주식과 배당금 지급에 대한 내용입니다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 산업 기술 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f53187af",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "모건 스탠리, 엔비디아를 추천 목록에서 제외",
+      "preview_ko": "모건 스탠리가 엔비디아를 추천 목록에서 제외했습니다.",
+      "published_at": "2026-11-11T20:45:16Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWHFXX3puZWJ6UUhEQ3ZITi12UFdMc096bnJfZ2RJdnhIT19Uc3FtR2RqR1ExSmxtU2VLTnA3SU54YUVfczRvZUZuZUNPVU9IVHMzeVdpcGlYbXJGdXBzYWNISkN0TnpBejBTWGVhaG11b0tNS0c5a09YWDJGQTRQbTAtdGRQNHBhUFFkYUM0bjJGYUtyNHZNZnNhOA?oc=5",
+      "summary_ko": [
+        "모건 스탠리가 엔비디아를 추천 목록에서 제외한 이유에 대한 기사입니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 영향을 받아 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_c968a0f8",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "S&P 500, 기록 최고치에서 2.5% 하락",
+      "preview_ko": "S&P 500이 기록 최고치에서 2.5% 하락했다.",
+      "published_at": "2026-11-11T20:35:24Z",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EaGNHa19KdHV1VHhpWjItSnhRaktuVVh2bkZiMU9KUFZYZ2xrU2kxYXZMZ0JuSUU4T1ZDMzd1Mi05aTN0XzM4UWVYQS1WVHFyLUQ4WXBvUzlLQ0FLc1ZXNnRzS0pKWUU3R0h4dXBRMUdDV3JIeVRpdGN1YjV4dGM?oc=5",
+      "summary_ko": [
+        "S&P 500 지수가 기록 최고치에서 2.5% 하락했다.",
+        "주식 시장의 급락에도 불구하고 S&P 500은 여전히 높은 수준을 유지하고 있다.",
+        "이러한 상황은 투자자들에게 불안감을 줄 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장이 미국 증시의 하락 영향을 받을 가능성 확인"
+      },
+      "us_tickers": [
+        "SPY"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_647d6f6c",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "기술주 상승, 채권 하락: 시장 요약",
+      "preview_ko": "기술주가 상승하며 시장이 긍정적인 흐름을 보였다.",
+      "published_at": "2026-11-11T20:27:28Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFpBLVFiSmhuZGxNdjZ4WUE1eEZZVzlpcElqQ3FpX2hfRVVkaVdncm5Ic3J4TFdMVTVPODFqV1dYWTJORmx5c3lTMHg1ZUtiZml2ZUVOZm1WQnlCa2lKcUt3M0tjQUsyVVNxQlVySk5TbHRqZHczYVFDTnU0OGZjMjBBWUFqZ2JpNFNhb05nX01EU3dX?oc=5",
+      "summary_ko": [
+        "기술주가 상승하면서 주식 시장이 긍정적인 흐름을 보였다.",
+        "채권 시장은 연준의 금리 인상 기대감으로 하락했다.",
+        "이러한 변화는 투자자들에게 중요한 신호가 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 미국 기술주 상승에 따라 긍정적인 출발을 할지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_283ccbd6",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "주식 시장, 11월 11일 상승: 다우, 나스닥, S&P 500",
+      "preview_ko": "주식 시장이 상승세를 보였다.",
+      "published_at": "2026-11-11T20:15:07Z",
+      "source": "Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBDd1BMekwxVkZzbWVvMGpCRE5oZUFmTnRVZU1hOTRVdDVyT3p4VnZuc1BEUHhnVHpOMUNBWEN3RUEwN2xPRjUtZ1J4SzBzYkIzdUI4MEpJTlRUMmczS2x6bzNZOUhYZnlDU0RtMXJCU3c1RnBrU1V1eEU3VnhEM3Q2Mk9uZzhNUk05RFpZT1pyNXMyb3hxbVFfYWpGaUhuY2g3Q2FxbU10Sm9jdFY4dEtTbzlvajczb05aVm40N0hwZ3ZoYkM3a2xSS21FZw?oc=5",
+      "summary_ko": [
+        "11월 11일 주식 시장이 상승세를 보였다.",
+        "다우, 나스닥, S&P 500 모두 상승하며 긍정적인 흐름을 나타냈다.",
+        "이러한 상승은 투자자들에게 희망적인 신호가 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 주식 시장이 미국 증시 상승에 따라 긍정적인 출발을 할지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_be0d68c4",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금리 인상으로 혜택 볼 수 있는 미국 금융주 3종목",
+      "preview_ko": "금리 인상으로 혜택을 볼 수 있는 금융주가 소개되었다.",
+      "published_at": "2026-11-11T20:08:58Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS1ZGbGJRUHNheWt3bGNrSzlGQnFvUWRmUVp1cUItY2x6VHY0TmpYdksyUDFaOTBMSDVaOURjT2VuVnp3MGhJOWtzdHhqVTh3dk4xQUp5R2UxYUZiUjBVVUNrZHVhYmc1LW1VSHI3UUNXZUNheVhaanNjWkJRRm9STVBhaW1ONUUyZk1OSFgtOUtpUGZ2ZS1v?oc=5",
+      "summary_ko": [
+        "금리 인상으로 혜택을 볼 수 있는 미국 금융주 3종목이 소개되었다.",
+        "이러한 주식들은 투자자들에게 관심을 받을 가능성이 있다.",
+        "금리 인상이 금융주에 미치는 영향은 주목할 만하다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 금융주가 미국 금융주 상승에 따라 긍정적인 영향을 받을지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fc99b9ca",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아, 2022년 이후 최악의 5일을 기록",
+      "preview_ko": "엔비디아 주식이 큰 하락세를 보였다.",
+      "published_at": "2026-11-11T19:27:37Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGdRMmFFcVRvRWM4UFdEMFdlZEJGSFVlZDQ5Mm5DQXkwcHBrMllRcF9MS29rSXhlTG44bTRCV011Q3VkZ0lsdHNrNm9sbFA4Tm5PWHN0Y3MtVDBEdS1hMkNRMGtTRFQ1RVdUUHlxRkx6Ti1TcW9Xbk95RjhQRlFMZzdTNEVZdUlqWTR5cXFrLWtVZw?oc=5",
+      "summary_ko": [
+        "엔비디아가 2022년 이후 최악의 5일을 기록했다.",
+        "이는 DeepSeek 충돌보다 더 나쁜 성과이다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5849db55",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Intel Stocks Climb 5.23% as SoftBank Reveals $7.4 Billion Raised Against Intel Shares",
+      "preview_ko": "",
+      "published_at": "2026-11-11T19:10:18Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMW81R3RPUXo3a2g4V1Q4OXNQVFdSXzFhYVlwRjNaOGVBN1djTENTcko5VFREOWNmclVuQXVDbVVUQ2k4b3NIRFRGazliQ3FPQzBkcjN0c1hfQUFjR1o1dHBmdTdnanVZdGNtQXMwRFZoZzNZdkxHZC1KT3ptUUFpU1B6NXl6aXZRcDU5WVBYLXJ5dw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_acb6db8a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "아마존과 마이크로소프트, 클라우드 시장 주도",
+      "preview_ko": "아마존과 마이크로소프트의 클라우드 시장 점유율 분석.",
+      "published_at": "2026-11-11T19:05:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX0RNcUVIOXZGOHBnbXRvY2VJaDN3cVpIanlaQjQyNXFCTm95T210NVRiZjc2bTYydEtQWEkza001cmlSd0RBQTVNbWxKTG1GSDl0MjZnX2tXNy1xSXdBQm9aV2R6VmtDcVF4T0kwRWNxNXRsNTN4QnZyaWt3ZWFhYWF6VlBoVThkMUxaNGwyN2tnTDFibl9NbmNfcGt4aFBM?oc=5",
+      "summary_ko": [
+        "아마존과 마이크로소프트가 클라우드 시장을 주도하고 있다.",
+        "이 중 한 기업이 더 큰 성장 가능성을 지닌 것으로 평가된다.",
+        "클라우드 서비스의 경쟁이 심화되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 클라우드 관련 업종의 동향을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "AMZN",
+        "MSFT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3846ea8d",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "AI는 주가가 아닌 사용량으로 평가해야 한다는 분석",
+      "preview_ko": "AI 기술의 가치를 주가가 아닌 사용량으로 판단해야 한다.",
+      "published_at": "2026-11-11T19:02:30Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd21vUDgwaVR5cmYyV0x1Rmo5YU9ZY0pjY3JaY2xsQnA4Tks1bVgtbzF1RGFDQ1JXLWoyWUs3WktQXzNZOGtEb2xGcWREZW9pbEJRZDQ5b2xPbmkzbFpBanU2Q1hfVjV6RGdnOUlvR2VfVk9LZDZBckl2NVJZNUVITU5yNjVKZ3pWQ3dadVBiNFozT2pSZUQ4NVl0SzF3ekE4QkxlZ3h2T19qR3d5V3BiN1UxVkNfRVFoQ2swRzBGeW8wNUxuWldPVDhldHFCZzZSVTRqM1pPMA?oc=5",
+      "summary_ko": [
+        "억만장자 벤처 자본가가 AI 평가 기준에 대해 언급했다.",
+        "주가 변동이 아닌 실제 사용량을 기준으로 삼아야 한다.",
+        "AI 기술의 실제 활용도가 중요하다는 주장을 하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "AI 관련 기술의 실제 사용량 증가 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_619bc271",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "블룸 에너지가 급등, AI 우려 해소에 기여",
+      "preview_ko": "블룸 에너지가 급등하며 AI 관련 우려를 완화했다.",
+      "published_at": "2026-11-11T18:53:58Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYV9JSHBxRWFLR01KRTlFTnIxeDJReXctS25HRHBpS0Nid1RXWGotMWh0MkxncHlhWGwtb1JxV0Z6YnZwU0JiaThaMjJscGRTN2lGLTNxQUFsNGd2RUllaVUwaWVsNWRsVjNPeHN6Z1IyZzJHSWJGcWEwS2JXVWpKVFJBTFluUUFPWkVDUFlTZmtCVkM3UGhPSnJDenhIUXZvRExfc0NySW5yRmtIS3dBLTZ4aXVZbXV1RGItcXA2QlFMczhFV01DWEtxZDFSbThUdTBuZQ?oc=5",
+      "summary_ko": [
+        "블룸 에너지가 주가 급등으로 AI 관련 우려를 해소했다.",
+        "AI 관련 주식의 변동성이 줄어드는 모습을 보였다.",
+        "에너지 기업의 성장이 긍정적인 신호로 작용하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 에너지 관련 주식의 반응을 살펴볼 필요가 있다."
+      },
+      "us_tickers": [
+        "BE"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_96439d6a",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "스페이스X 주식, 현재 매수할 시점인가?",
+      "preview_ko": "스페이스X 주식의 매수 여부에 대한 분석이 진행 중이다.",
+      "published_at": "2026-11-11T18:46:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMzdUU1YyT1R1d3JVWUIzdVpGZVV3S1BKLWNjcUJOUF9oTk11RnRXSWd6U1k1dDNlZkdYejVfUkdvU09zMHFyZ0pqdkhQVG9VQkdhZ2tTcnE3NGhHSkZ2dk8zQlB2VXBRQ1JqNHQ5QklCNWtueVJwV1RBRFR5QzBWSER0UjNHRFhNVGxTdHNR?oc=5",
+      "summary_ko": [
+        "스페이스X 주식의 매수 시점에 대한 논의가 이루어지고 있다.",
+        "투자자들 사이에서 관심이 집중되고 있다.",
+        "주식의 향후 전망에 대한 의견이 다양하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 우주 산업 관련 주식의 동향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bb48b588",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Costco Stocks Rise 1.62% After Record $30 Special Dividend Worth $13.3 Billion",
+      "preview_ko": "",
+      "published_at": "2026-11-11T18:43:03Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNDhKRGlWaVlleFYxdl9yZTJBTGc5Z0plWEp0Zy1sOTdiNGNneDd6bWkxOEtWRUtBN250aU1Ta2FZcEg3WFRNMXl5b1ZDN1NTLU03R3ZSckgxb1BFelRFUGtLMlFrVThxeFRFNUQxdDRNTkJGdFNuSi11WEdiNjh4QWxWbEwzOF9fZXliazd0RXh2Zw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e2a63b12",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "아처 주식, 282% 상승 예상하지만 목표가 하향",
+      "preview_ko": "아처 주식의 상승 가능성에 대한 분석이 진행 중이다.",
+      "published_at": "2026-11-11T18:41:22Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQblZsNEwyc3ZwVzBhN1hucks1aTcxOWxoaWUzV2V6eDlJTjdkcmN0YzVuQnpUS2pWZUJiV3p3YW1MU1N3WWNIZnJSdnZqRlJmUUZVZmJVWjh2dWhqRW9Xa3RrVUNGZXpkOTdaa3otNlJZWGlFUklIY191QnpsaUhFOHRISl9Cb2QzNWtMVExIclJvcTdsR1hj?oc=5",
+      "summary_ko": [
+        "아처 주식이 282% 상승할 것으로 예상되고 있다.",
+        "그러나 목표가는 하향 조정되었다.",
+        "주식의 향후 전망에 대한 논의가 이어지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 관련 업종의 주식 반응을 살펴볼 필요가 있다."
+      },
+      "us_tickers": [
+        "ARCH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_69a3be14",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "5년 후 아마존보다 가치 있는 주식 2종 예측",
+      "preview_ko": "5년 후 아마존보다 더 가치 있는 주식에 대한 예측이 나왔다.",
+      "published_at": "2026-11-11T18:36:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON181d1V6eDRvRVVPMk9RaFVNbENaeTMxSmFoNEh1THNXRU04TmNDMHVlbUVqdmpzcEVabVh1UVA3dlJUdG9mUXVsSjNnMm1UNG12VUNEajYxWEpMelNMZnFkSlN6c1pXSFNtMzN3d1NpOTlmLTBfVGJWUWhwVXFrSzNiY3pUdEpTRDN2RVp0cFY3QzlhOHp0TjRtVQ?oc=5",
+      "summary_ko": [
+        "5년 후 아마존보다 더 높은 가치를 지닐 주식이 예측되었다.",
+        "투자자들 사이에서 관심이 집중되고 있다.",
+        "주식의 향후 전망에 대한 의견이 다양하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 주식 시장의 장기 투자 방향성을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0ef15020",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over Yet",
+      "preview_ko": "",
+      "published_at": "2026-11-11T18:33:58Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbGtudWlSQ3hmb0xIWlRJY3g0bEFlRzlXWlV6b0JqY3VnTnZxeDItUFRkMFBXc0tUdEtwOG5GTG5xSHFkOTFZdWZ5Qm93bjJ0VEVzbVV1d25qcHJSVV9lT1h3WUVSdk82WTk3NG9xM2k3bFdtckdZWHh0NEpJN0hGM2U0MFdKVWNsN2s2T01ocnhZNlNNMEtrcENOUUxndFZqcHRTekpnZE1YcHJFVld1aE1Qbw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4fb8aaa5",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Fox Stock Faces New Risk From $22 Billion Deal",
+      "preview_ko": "",
+      "published_at": "2026-11-11T18:32:34Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjBzdEgyOFNzc292c2djT002eUZpc1R1cERuTmY1N3FqSmNHb1I0MWZlQnE5UnAzV01kV3dCU0xIcFVidjVPd2pBN1lHcVhpQ1lETlNlMzNWNHR1VkZBZUpFRzFiMmtSTms5UlZISTc1ZW9RMWd6c2Z3ajNwOTRldkJCNDlsVXpZdlNVQmw2U3Nsdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0a885e4e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "SNDK Stock Set For Best Day In Nearly Four Months: Evercore ISI Forecasts Stable Demand For NAND Storage Amid AI Spending",
+      "preview_ko": "",
+      "published_at": "2026-11-11T18:18:38Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdy1PMC1lVU1yVi1YOTVWc0ttWWJRTk1XVmJQQXFiSHlMek11RDlBV0RmSmhzNWNnVXBuSDAxelZqNjZtTnZ4RnpWeGItTjRLMzlQbVpCWDEzSElpQXFYNXNCU3gzR3U5SmFvc3d1R2FSQ0JqUmxiZDBKZ3F1X2FoZk1Bb2Rhb01weGlLMXppUy03Zw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8e5199c4",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "유럽 주식, 지멘스와 코어위브의 AI 낙관론으로 사상 최고치 기록",
+      "preview_ko": "유럽 주식이 지멘스와 코어위브의 AI 낙관론으로 사상 최고치를 기록했다.",
+      "published_at": "2026-11-11T17:53:08Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVlRWM1JkZFR6Qy1vb0dDbkhqTHRsd2FIaGV4SUdSWkxITF9ndW1UNExHR2IyZk1uV2JjMU5XVndQRUxMVXI0d1QzV3ZfZkNYQVhHOEZueDEzb3ZWaDVwYjNyV3BvZnJpbGVQeFl0ZjBxNUxzdzdORWFodTBDSGtlQXBHaXAwc1pUMEMyeEtOdHhZdkMyYkVxLWYwR0FlTC0wWDNGck9HNG11b0NMN3NMbHVWcFlsTUlUSXc?oc=5",
+      "summary_ko": [
+        "유럽 주식이 지멘스와 코어위브의 AI 낙관론으로 사상 최고치를 기록했다.",
+        "AI 관련 주식이 긍정적인 반응을 얻고 있다.",
+        "이러한 흐름이 한국 시장에 미칠 영향을 주목할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 업종의 긍정적인 흐름을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cc82ce7b",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "나스닥 100, 코어위브와 AI 반등으로 2.8% 상승",
+      "preview_ko": "나스닥 100이 코어위브와 AI 반등으로 2.8% 상승했다.",
+      "published_at": "2026-11-11T17:53:02Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzAxY21SaWZwbWt5Smo5U2xndHVZbUQ2aVQ0ZlRLWmx1b21MMGktbUJpdnJkbmZSNnMxOWVWMVVQU1RCS3owWjhkaDNtWGUyRlllX1NKaW9PSVhPLWcyRWNHRlBYVlR0azZQY2stcVNrZjNPSEJROGZYczVmM2dnbmU1b3NKNFZzYmE3OHNYdnA4UVY4N0w2Z25uVFA1d1RscHI1SUg4c2JycWVhZTRfVGZIMk8?oc=5",
+      "summary_ko": [
+        "나스닥 100이 코어위브와 AI 반등으로 2.8% 상승했다.",
+        "AI 관련 주식의 반등이 주요 요인으로 작용했다.",
+        "한국 시장에서도 AI 관련 주식의 반응을 주목해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 주식의 반응 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "QQQ"
+      ],
+      "moves_ko": [
+        "나스닥100 +2.28%",
+        "S&P 500 +1.31%"
+      ],
+      "coverage": 10
+    },
+    {
+      "id": "n_3e7bc976",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Is Nvidia Stock a Buy After Hitting a Seven-Month Low? (Hint: Yes.)",
+      "preview_ko": "",
+      "published_at": "2026-11-11T17:41:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRndXeDlNTWhHV2xYeGlZM1ZDc3ltaVdJdEliSnJNX2FlMDlIczF2Rjk1T0U5T1hScVhhYnNHai1pVVQyajgzZl80eTNCa08zdjVlRWNvYVREbFNwYnM2bUJmWVlpRzRteTJjcV84SFdENDFWQW8xZHpyRzI2T0NIVHRQREtEOW5jNGZ6R09xREgydktGQzFMZG1rbw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_eaf33547",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 시장의 불안정성, 최악은 아직 아니다",
+      "preview_ko": "미국 시장의 불안정성이 지속되고 있다는 분석.",
+      "published_at": "2026-11-11T17:02:14Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbktYR0VCX3VrLTd4VmJhWEJSbXpjN1hiQTVLbzZsb085WWVUUnVmODdiOG5TdUcwWElQbU9ITUExRDNOWlFtZno4d2RaTk5KdlRPSXJQWE1rdUd2dkd6V09GT0p3N0NaMkdpTjV4WndzMkNXUU5KdHh1bmJnZkNTSTlmcGtFOGlhb3lkTXJMbDFYYUtZOVptb1Z3?oc=5",
+      "summary_ko": [
+        "미국 시장의 불안정성이 계속되고 있다는 신호가 나타나고 있다.",
+        "최악의 상황이 지나갔다고 단정하기에는 이르다는 분석이 제기되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장의 불안정성 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7cd77c22",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "루멘텀 주가 급등 이유는?",
+      "preview_ko": "루멘텀 주가가 급등한 이유에 대한 분석.",
+      "published_at": "2026-11-11T16:58:21Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWNMM3Q4WGtmUHpOc0dCODdQclg3RU8tdXNrVS03NDFFWnNzZXBkdHNUQVVKS195UkZfczlMSm9jYTI4eUJ2RG9VRUpHQkVRYUhBaGdHME10TW1LVnVxZWFiQ1NpSTItWW5fc2xCbGVUVFBVUEtGZHZFLTZvQVBnTnp1WURQYUgtdHdEMlVTUmJhdGo0LUllTTl5WHdOZw?oc=5",
+      "summary_ko": [
+        "루멘텀 주가가 급등하고 있는 이유에 대한 분석이 진행되고 있다.",
+        "주가 상승의 배경과 관련된 정보가 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유사 업종의 주가 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "LITE"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ba4a9a19",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "블룸 에너지 주가 급등 이유는?",
+      "preview_ko": "블룸 에너지 주가가 급등한 이유에 대한 분석.",
+      "published_at": "2026-11-11T16:52:52Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnJQVVBfYzE3Y09KcnZaS3Y4bGM0LXV0UjdkYlJGeUJ2QkhUNHdVWlpNYzZ3OEZTbE96RlExbTFmbFEyY0ZqTW1yU1hFeFZyY2NzNF9TVFpiS0VQbHNIUXhQd2ZkaFdaM1J2dVU4N0N3bmF2eWFwRE9yaHBBVkc4alhxSG1qLWxpWjRCd0JOVlZuNEZ2NHBzSQ?oc=5",
+      "summary_ko": [
+        "블룸 에너지의 주가가 급등한 이유에 대한 분석이 이루어지고 있다.",
+        "주가 상승의 배경이 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유사 업종의 주가 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "BE"
+      ],
+      "moves_ko": [],
+      "coverage": 2
+    },
+    {
+      "id": "n_29c659ee",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "코어위브 주가 급등, 그러나 부채 문제 여전",
+      "preview_ko": "코어위브 주가가 급등했지만 부채 문제는 여전하다.",
+      "published_at": "2026-11-11T16:43:59Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOUhJcDF4VUtCU1poTU5IeTY0a2wyRk5EQjh4b1NnR2hubFVOY0xVTUJQZkpjYXR0LXJ0bU1YZFQxbW9kbktVWkhkZ1VWUE4yRFB1b2dvVG45Ulg2bHF5THYxZTV0UTJ4MHMyck5PTHRBT1NvcHVORWxCLXpaYXFOSHhUd045VGRGTjE2b0NkMVhfUGxBSjNLUnVhdzc3YnduS18wSFFqV2xuRnJFaW5pWGRXOFNXblE2VVE0?oc=5",
+      "summary_ko": [
+        "코어위브의 주가가 급등했지만, 여전히 부채 문제가 남아있다는 분석이 있다.",
+        "주가 상승에도 불구하고 재무 건전성에 대한 우려가 지속되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유사 업종의 재무 건전성 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "CW"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_862a29e9",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "아마존 주가, 새로운 고점으로 향할 주요 촉매",
+      "preview_ko": "아마존 주가가 새로운 고점으로 향할 가능성에 대한 분석.",
+      "published_at": "2026-11-11T16:35:56Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcm96Q1V5X3IzTG9IVll6VGNFSGhqTVYwVUVzTWI3OVNMTTZPTHJleUVwNnBvWEdXeVhRZTl3QVdET0VpSGUwbXpRRnY4bE9Ncld6R0hzck9VQXVxODB1REtlaXcyT2xZS3MwZC1iaUt6cW1pRDd2WXpWY3kzbF96YlFGOHo1SWtKYW1tZVN2RFVxUmpNWmdaVjBBRmRFZw?oc=5",
+      "summary_ko": [
+        "아마존 주가가 새로운 고점으로 향할 수 있는 주요 촉매가 제시되었다.",
+        "주가 상승의 가능성에 대한 기대가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유사 업종의 주가 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "AMZN"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3c264cfe",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "샌디스크 주가 급등 이유는?",
+      "preview_ko": "샌디스크 주가가 급등한 이유에 대한 분석.",
+      "published_at": "2026-11-11T15:51:53Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaGcyQklBRU44RWVBV0k1aVo1OWdweW15ODhlX1l6UXJFRXItcHpUWGU2VzU0dk9CTlRFYzd1UFNqNU15Wng3dmtTUmsxSkdvSEl5RDV4QXlMRWJ0dVB1Tl96R2JmTXEtU2xlVlRjMkNIT1V4OExQTVhRcVM1d2RzUXNtQnY3M3hoOEh3RC1KakZ2V2VabThlNzFkOA?oc=5",
+      "summary_ko": [
+        "샌디스크의 주가가 급등한 이유에 대한 분석이 이루어지고 있다.",
+        "주가 상승의 배경이 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유사 업종의 주가 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "SNDK"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_06bbe033",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "AI의 영웅적 변신, 그러나 주식 시장 혼란은 계속될 것",
+      "preview_ko": "AI 관련 주식 시장의 혼란이 계속될 것이라는 분석.",
+      "published_at": "2026-11-11T15:05:00Z",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcEQ4V2dRd1cwaWlHY2dCcjlBUXk3cHdybkI5X09idEN6MkZuMUFFQkpaU25IdUNUUEhURVZMM2plVGVZRmlzb0RQU2hsS1hXZGloMlJRTWx4cHhWQW41dkhlTXF2S3dJVjI4NjFBY3owLUxiblRweklvMVJNUnFOZ3BCRVRkSUpNQWs1Zy1ycGgxdw?oc=5",
+      "summary_ko": [
+        "AI 관련 주식 시장의 혼란이 계속될 것이라는 전망이 제기되었다.",
+        "AI 기술의 발전에도 불구하고 시장의 불안정성이 지속될 것이라는 분석이 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 업종의 시장 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b409b6d8",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "기술주 반등으로 주식 시장 활기",
+      "preview_ko": "기술주 반등이 주식 시장에 긍정적 영향을 미침.",
+      "published_at": "2026-11-11T15:02:25Z",
+      "source": "AFP.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jYnh1dVRaWFZKcDM3b3JudDZmNzEzNjJSeDcwckdjdmdoVzdoeUx6NU9fdG5ReFhjQnRwaFlYZjJsTHRJMVg0amNudUFuMXZXeXRtZ2pnLW4tTVJta3RsYUloM3o1eUFPS0pEcg?oc=5",
+      "summary_ko": [
+        "기술주 반등이 주식 시장에 활기를 불어넣고 있다.",
+        "투자자들은 기술주 상승에 주목하고 있다.",
+        "이러한 흐름은 한국 시장에도 긍정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 미국 기술주 반등을 따라 상승하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e12b27a9",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "짐 크레이머의 수요일 주식 시장 주목 사항",
+      "preview_ko": "짐 크레이머가 주식 시장의 주요 사항을 언급.",
+      "published_at": "2026-11-11T14:10:21Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRGdGSHoxdUN5RDcxMWZ4d1ZVYUZOVm8tTl85RURWSV9GMFFSdTA5T29qa0hHb2NOcnZ1MjZKeXQ3UmpkVnpqbzZPQkRYUTdicE94bEpscWxGbFZ2VldNdFVNY1E1M2c3ZDhzWlF5SWt1dWxVazc4dW0wQXh0b0pOU3FEbE1ZbFZpYlQ4Z01UallxLUp5WGpWMGh2ZnhoTVlHNWUwZ1VmeFY0S19UUFNOcDRkcy1WQQ?oc=5",
+      "summary_ko": [
+        "짐 크레이머가 주식 시장에서 주목해야 할 10가지를 소개했다.",
+        "이 내용은 투자자들에게 유용할 수 있다.",
+        "특별한 시장 영향은 없지만 참고할 만하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_2070f2c6",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 주식 반등이 월스트리트를 끌어올려",
+      "preview_ko": "AI 주식의 반등이 월스트리트를 상승시킴.",
+      "published_at": "2026-11-11T14:00:25Z",
+      "source": "LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPanlLVm5yQ1ZHb1hsTXhtMVctMzc2OUs0RjMyY0ZSWU1TVzA3QmpXY3F6aURqVDU5XzhhVGNNR2tHTzRwZzNjWjY3MThtUkdBTVVsQ2tNOTVWWGh3alNHS2RxVUdiMHBxS2xtenp4by1seWpkdjJjaVNkSTU0ejFPTDZvc2tkMmVvcjJVU3dqVHc4Y3BUS2ZzUlBmYTlEaUgyNHEtMldjb2lHMTdWN1NXai11RXlEcE1LaEIyOTV6NWN4cmY1ZnktRElUOFZRbzBXMGtxSzBleUFRdmZIdWswckpHRERIRXJNUFJmY1NzaDdtUnpyblBZeUtOaG1LY2Ntbm9BX0ZkMHlUU1N5RUNLVDFVeG51MGJ0U1VibQ?oc=5",
+      "summary_ko": [
+        "AI 주식의 반등이 월스트리트를 끌어올리고 있다.",
+        "투자자들은 AI 관련 주식에 주목하고 있다.",
+        "이 흐름은 한국 시장에도 긍정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 주식이 미국 주식 반등을 따라 상승하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9c8a2234",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "S&P 500 선물, 고물가 지속 우려 속 반등",
+      "preview_ko": "S&P 500 선물이 고물가 우려 속에서 반등.",
+      "published_at": "2026-11-11T13:14:16Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2ZpM3pDVHJuV2lZTVhHR0RQcjk4NWI1UVdrWWpJa0FyVXlPTEZaY1ZtZ2lxLWM0MnlMdWpCNkIxY0lHcUdGWkJ2WHk1Q0I2TFlZcnZoYWlxa2hZeHg3WC1GZ0U1TkJ0R1hiYUl6alRiWlc3b051TC1yZU1OelZtdTNIV0pvc0RSQThEMmQxWlpqUQ?oc=5",
+      "summary_ko": [
+        "S&P 500 선물이 고물가 지속 우려 속에서 반등하고 있다.",
+        "이는 시장에 긍정적인 신호로 작용할 수 있다.",
+        "한국 시장에도 영향을 미칠 가능성이 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장의 반응을 관찰할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bb103856",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "나스닥 선물, 엔비디아 주식 반등으로 상승",
+      "preview_ko": "엔비디아 주식 반등이 나스닥 선물에 긍정적 영향을 미침.",
+      "published_at": "2026-11-11T13:12:47Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
+      "summary_ko": [
+        "나스닥 선물이 엔비디아 주식 반등으로 상승하고 있다.",
+        "이는 기술주 전반에 긍정적인 영향을 미칠 수 있다.",
+        "한국 시장에서도 기술주 관련 주식의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 엔비디아 반등을 따라 상승하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b06ac7a6",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "다우 선물 상승, 기술주 반등으로 긍정적 신호",
+      "preview_ko": "기술주 반등이 다우 선물에 긍정적 영향을 미침.",
+      "published_at": "2026-11-11T13:04:00Z",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
+      "summary_ko": [
+        "다우 선물이 기술주 반등으로 상승하고 있다.",
+        "이는 미국 시장에 긍정적인 신호로 작용할 수 있다.",
+        "한국 시장에서도 기술주 관련 주식의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 다우 선물 상승을 따라 상승하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_71e0cc3d",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "기술주 반등으로 증시 상승",
+      "preview_ko": "기술주가 반등하며 주식 시장이 상승세를 보였다.",
+      "published_at": "2026-11-11T12:40:01Z",
+      "source": "AFP.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ed2dRd0o2a3RLTjVFR2JIOEEzS1kzeExQV1BjUVJzcGw0V1MtODA4czQ2V09keElEd0UxRmFfcHk4enhXOTJTZ2ZBa1JzYll5b0pHWWlseDdkWkZEeXdHcWd2WkI?oc=5",
+      "summary_ko": [
+        "기술주가 반등하면서 주식 시장이 상승했다.",
+        "투자자들은 기술주 회복에 긍정적인 반응을 보이고 있다.",
+        "이러한 상승세는 향후 시장 전망에 긍정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 미국 기술주 반등에 따라 상승 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fd01a3df",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "2년물 국채 수익률, 19개월 만에 최대 상승",
+      "preview_ko": "2년물 국채 수익률이 19개월 만에 최대 상승폭을 기록했다.",
+      "published_at": "2026-11-11T20:24:00Z",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOEpGdVYyLUdqMzlaSTlyZ2hQUDN0Y2FOcVlLc2t1NEIteHNnTmtYWF9CSU9NTmhramFoTjRzRXZKaWh6WVFNWDVmWE9ldDU3SjZzbjhuS3Z3MW5NU3VqZWozYnNieFdXYlVZOExzbGdESjNhaTQxMG1BR3d3SEExeGxFTVl6bE5aNi1fNkZSQmxLN2dzMG44YllWNkMzcmRIVF9mLWNQeVM4ZXNB?oc=5",
+      "summary_ko": [
+        "2년물 국채 수익률이 19개월 만에 최대 상승폭을 기록했다.",
+        "이는 금리 인상 우려를 반영한 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 금리 상승 여부 확인 필요."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1075c9ea",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 4,000달러 아래로 하락",
+      "preview_ko": "금 가격이 4,000달러 아래로 하락했다.",
+      "published_at": "2026-11-11T18:56:59Z",
+      "source": "شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTM1dSLVg1RUhwWjYyejBQMExTeDhPUUdGdFFyb2E1b2s1V2V0RWVFSGlwUTk3eGMyMnNCSWgydHZBZGs5V245cThLb3NsSVF4U25R?oc=5",
+      "summary_ko": [
+        "금 가격이 4,000달러 아래로 하락했다.",
+        "이는 미국의 높은 국채 수익률이 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 주식의 출발을 확인해야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a118ed05",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "비트코인 전망, 매파적 연준 발언과 수익률 상승으로 불확실",
+      "preview_ko": "비트코인 가격 전망이 불확실해졌다.",
+      "published_at": "2026-11-11T18:00:03Z",
+      "source": "The Market Periodical",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWXhrVVNHVXo5SlBySXBaQ1N5Y3IzQ2hOeFN5M0ZqZ2FNQS1Mb2ZQWml3VjFTbDdySHdPcmlPZk5rTWxLQ0hpSm9tQXU2UzhKVlF0WUxPc2Y2OTFjM2dYYkRVUk4yVTlVNWN2cUJMeUVQQWt5a05zSk5zcFlIVjFweHN5Z1pvUHdMMngxQmVpX1h6NHRJdHpIdlVuaWRXN2NVSXkwZUFjVjRRTTlNU1JMYmUxaHJGU0tISGpjVElQNFZEUQ?oc=5",
+      "summary_ko": [
+        "비트코인 가격 전망이 매파적 연준 발언과 수익률 상승으로 불확실해졌다.",
+        "이는 암호화폐 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 암호화폐 시장의 반응을 주목해야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_179b9234",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 달러와 국채 수익률 하락으로 상승",
+      "preview_ko": "금 가격이 달러와 국채 수익률 하락으로 상승했다.",
+      "published_at": "2026-11-11T16:51:21Z",
+      "source": "VT Markets",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcjVoZjFjUm8ybFppbkVxYlVPb0RXOXZuXzltV0FsUm94RjVjZmo2ZDhZNTBkbGFnWFFRcVJueUoyRzlOVG9TYTY0YnZGNkpRenMtUHFOaDdscXhUQkNiVnRCWXFrYmlxNTRsem9FSjJlSTlUbmNmY1BuTnY0NWtmQ2NreC1LWVd6dWZmWXBteEl2ZEhuR1lXc0IyNVFvZ2huOHlOd2tXdTZqVE1fMTM4bzlUcFpJRnUyZ08xd1c1LUFYRzF3N2F4VFlPMjhFaXprYVhsSm5R?oc=5",
+      "summary_ko": [
+        "금 가격이 달러와 국채 수익률 하락으로 상승했다.",
+        "이는 인플레이션 데이터 발표를 앞둔 상황에서 나타났다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 금 관련 주식의 반응을 확인해야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a221b949",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 미국 달러와 국채 수익률 상승으로 상승폭 축소",
+      "preview_ko": "금 가격이 상승폭을 축소했다.",
+      "published_at": "2026-11-11T16:43:37Z",
+      "source": "VT Markets",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVXJualVuRGdfeGExTmRjNWJuZE02VE5YWEtDV201U0hYeFRDemkwbU43dmZnYU5HYXVCQmJOYTQ4aTVPejByb09CVjY4ZElvdXpMaXJjSk1hWUZ1T2U5X0JqMlRxWHh1RUxkQ3Z4dnRwRzRQN2VRcWpTM3p4UVAxak5WbS1mV0VFM1ZGNlp4YjNMMFZ3ZEFxWWZSR29KcWtUYkgyanBYU00ybkpJZWptTkx3bHF6NmZ5d3VCRkstX2s4TGJBd0JJQkJR?oc=5",
+      "summary_ko": [
+        "금 가격이 미국 달러와 국채 수익률 상승으로 상승폭을 축소했다.",
+        "이는 최근의 인플레이션 수치에 따른 반응으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 주식의 출발을 확인해야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_eae0cef4",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 CPI 및 PPI 전망, 금 가격에 미칠 영향",
+      "preview_ko": "미국 CPI 및 PPI 발표가 금 가격에 미칠 영향을 분석했다.",
+      "published_at": "2026-11-11T16:43:13Z",
+      "source": "VT Markets",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLWkxVzZvSkFmQ1NlUEQ3Q1VGbTNIdlJFUVVXTXhZX2NkSjR4NHpiajdWRENzNHVjR1dBc0FCM0lsZldMbmxDSWE0b05US1RZQTF1R3RfX3RlT2l4dmlHRWYtT3FFbi14YkN5Wk9HWFJUVU1QUUFRMWNNT0hiV3ZINDBrcnNibHdvLVlLTUxyaFZwNXlhYmJRYmwyYVJoclk?oc=5",
+      "summary_ko": [
+        "미국 CPI 및 PPI 발표가 금 가격에 미칠 영향을 분석했다.",
+        "이는 금 시장에 중요한 변수가 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금 관련 주식과의 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_07973908",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "중간선거 결과가 금리에 미치는 영향 분석",
+      "preview_ko": "중간선거 결과가 금리에 미치는 영향을 분석했다.",
+      "published_at": "2026-11-11T16:40:00Z",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUEo3R1BrcjZPdjlNZ25zcl81aVpHdlZDbVZRRnE2YVJDSkpGMEdPVTh1SXVKZmdVQ1A5b3N4S05fczlTUWhKdEJodDNvRXliSVdfVXVvVTJlQk50VWFsVzdmZmI0aVVqU3NDQlA0ZTFrQXlSbkNuWjMyb0NqdUFWYklHYzZSUQ?oc=5",
+      "summary_ko": [
+        "중간선거 결과가 금리에 미치는 영향을 분석했다.",
+        "이는 향후 금리 정책에 중요한 요소가 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장과의 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a5aa8d13",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 국채 선물, 연준 금리 인상 전망에 하락",
+      "preview_ko": "미국 국채 선물이 연준 금리 인상 전망에 하락했다.",
+      "published_at": "2026-11-11T16:31:45Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa2hXVmxBejZuMktqMDMzbUNTcDA3ajBFdlE0MlpZc3AyU0ZPeHl0ZjJ3b3BhT2REdlRDVmRYWS05aFVhemtkZmVacFBnWFNXQlg5QjlmREo0VEdHRFFyTXNYR1FqV1VKUlhtVlNsT1ppUDRVQ0FVUTdGTW9FTXdVWWRVN0ZZMXpMNFo1dFBtMzJ4SzNRWHJkWnBlaGZId0x6dXJXSmU0ZW5tczhnc2pUM2Rn?oc=5",
+      "summary_ko": [
+        "미국 국채 선물이 연준의 금리 인상 전망에 따라 하락했다.",
+        "이는 시장의 금리 인상 우려를 반영한 것이다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 금리 상승 여부 확인 필요."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 +2bp"
+      ],
+      "coverage": 2
+    },
+    {
+      "id": "n_1a179b02",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "고령 미국인들, 상승하는 수익률 속에 기업 채권 수요 증가",
+      "preview_ko": "고령 미국인들이 기업 채권 수요를 증가시키고 있다.",
+      "published_at": "2026-11-11T16:29:07Z",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOERjcDdySmIxdzc3WmI0VDBUS0Z2ZzhueENYTGY0dUtjN2dxRGNWR3NLZENlU2ZWeU9pdjdMaENVdDllcTAxUlNza0FUeW93NDJFTmhDMnlYTkttenN2R0VUWjl4d00xUEVUNXNwUkFkeU9JYlJEOGFFeC1CUHlWdnVZb1NNUGFJLUFIX3NwSEVNaVFJaUVLeDhEQmlOVDg?oc=5",
+      "summary_ko": [
+        "고령 미국인들이 상승하는 수익률 속에 기업 채권 수요를 증가시키고 있다.",
+        "이는 미국 채권 시장의 변화와 관련이 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장과의 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    }
+  ],
+  "calendar_actuals": [],
+  "total_batches": 15,
+  "failed_batches": 0,
+  "picked": [
+    "n_cc82ce7b",
+    "n_a5aa8d13",
+    "n_34cd832a",
+    "n_27b573b7",
+    "n_ba4a9a19",
+    "n_1633bd85",
+    "n_f53187af",
+    "n_29c659ee"
+  ],
+  "notes": [
+    "10 summaries replaced by titles: numbers not in article"
+  ],
+  "llm_usage": {
+    "gpt-4o-mini": 57914,
+    "gpt-5.5": 11349
+  }
+}

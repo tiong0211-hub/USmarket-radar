@@ -1,0 +1,39 @@
+{
+  "direction": "gap_up",
+  "direction_ko": "갭상승 우세",
+  "confidence": "high",
+  "headline_ko": [
+    "미 기술주 반등,",
+    "반도체 먼저 확인"
+  ],
+  "headline_emphasis": "반도체",
+  "points": [
+    {
+      "title_ko": "위험선호",
+      "text_ko": "나스닥100 +2.28%, VIX −10.07%로 완화 관찰."
+    },
+    {
+      "title_ko": "금리환율",
+      "text_ko": "미국 10년물 +2bp, 원 / 달러 −0.37% 확인."
+    },
+    {
+      "title_ko": "국내연결",
+      "text_ko": "AI와 메모리 반도체 동반 반응을 관찰."
+    }
+  ],
+  "focus_chips": [
+    {
+      "label": "반도체",
+      "anchor": "#news"
+    },
+    {
+      "label": "클라우드 · 기업용 소프트웨어",
+      "anchor": "#themes"
+    }
+  ],
+  "risks_ko": [
+    "금리 상승과 엔비디아 관련 불확실성은 주의 변수."
+  ],
+  "source": "gpt-5.5",
+  "label": "참고용"
+}

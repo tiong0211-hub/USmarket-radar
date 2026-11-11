@@ -61,5 +61,28 @@
     "news_ids": [
       "n_acf96c12"
     ]
+  },
+  {
+    "us_ticker": "ORCL",
+    "name": "Oracle",
+    "theme": "클라우드 · 기업용 소프트웨어",
+    "kr_stocks": [
+      {
+        "code": "018260",
+        "name": "삼성에스디에스",
+        "link": "same_theme",
+        "relation_ko": "클라우드"
+      },
+      {
+        "code": "035420",
+        "name": "NAVER",
+        "link": "same_theme",
+        "relation_ko": "클라우드"
+      }
+    ],
+    "reviewed": "2026-11-12",
+    "news_ids": [
+      "n_34cd832a"
+    ]
   }
 ]
