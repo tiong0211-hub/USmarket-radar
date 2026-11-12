@@ -1,0 +1,39 @@
+{
+  "direction": "flat",
+  "direction_ko": "보합 우세",
+  "confidence": "low",
+  "headline_ko": [
+    "미 기술주 약세,",
+    "반도체 먼저 확인"
+  ],
+  "headline_emphasis": "반도체",
+  "points": [
+    {
+      "title_ko": "위험회피",
+      "text_ko": "나스닥100과 S&P 500이 동반 약세였습니다."
+    },
+    {
+      "title_ko": "금리부담",
+      "text_ko": "미국 10년물 +10bp, VIX도 올랐습니다."
+    },
+    {
+      "title_ko": "국내연결",
+      "text_ko": "AI 반도체 · HBM은 엇갈린 흐름을 관찰합니다."
+    }
+  ],
+  "focus_chips": [
+    {
+      "label": "반도체",
+      "anchor": "#news"
+    },
+    {
+      "label": "AI 반도체 · HBM",
+      "anchor": "#themes"
+    }
+  ],
+  "risks_ko": [
+    "오늘 밤 근원 생산자물가와 생산자물가 발표를 확인합니다."
+  ],
+  "source": "gpt-5.5",
+  "label": "참고용"
+}

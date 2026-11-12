@@ -1,0 +1,2053 @@
+{
+  "news": [
+    {
+      "id": "n_d29d43d9",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "마이크로소프트 아웃AGE, AWS와 구글도 문제 발생",
+      "preview_ko": "마이크로소프트와 AWS, 구글에서 아웃AGE 발생.",
+      "published_at": "2026-11-12T21:19:47Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "summary_ko": [
+        "마이크로소프트의 아웃AGE가 Outlook에 영향을 미쳤습니다.",
+        "AWS와 구글 사용자들도 아웃AGE를 보고했습니다.",
+        "이로 인해 기술주에 부정적인 영향이 우려됩니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 업종이 미국 기술주 약세를 반영해 하락 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_99fc1b16",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "시스코, 실적 호조로 주가 5% 상승",
+      "preview_ko": "시스코가 실적과 매출에서 기대를 초과했습니다.",
+      "published_at": "2026-11-12T21:18:06Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "summary_ko": [
+        "시스코가 실적과 매출에서 기대를 초과했습니다.",
+        "AI 분야에서 더 큰 역할을 하려는 노력을 하고 있습니다.",
+        "이로 인해 관련 기술주에 긍정적인 영향을 미칠 수 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 IT 관련 주식이 시스코의 실적 호조에 따라 상승 여부 확인"
+      },
+      "us_tickers": [
+        "CSCO"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_37130803",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주가 4% 하락, CEO 사임 발표",
+      "preview_ko": "엔비디아 CEO의 사임 소식에 주가가 하락했습니다.",
+      "published_at": "2026-11-12T21:17:21Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "summary_ko": [
+        "엔비디아 주가가 CEO 사임 발표 후 4% 하락했습니다.",
+        "재무 담당 이사가 임시 CEO로 임명되었습니다.",
+        "AI 산업에 미치는 영향이 우려됩니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c0228f20",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "나스닥, 엔비디아 주가 하락으로 하락세",
+      "preview_ko": "나스닥 지수가 엔비디아 주가 하락으로 하락했습니다.",
+      "published_at": "2026-11-12T21:11:11Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+      "summary_ko": [
+        "나스닥 지수가 엔비디아 CEO 사임 소식에 하락했습니다.",
+        "투자자들이 엔비디아의 미래에 대해 우려하고 있습니다.",
+        "기술주 전반에 부정적인 영향을 미칠 수 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 업종이 나스닥 하락을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NDX"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c2024d27",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준 금리 인상 우려, 주식 시장에 영향 미칠 수 있어",
+      "preview_ko": "연준의 금리 인상 우려가 커지고 있습니다.",
+      "published_at": "2026-11-12T21:00:10Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/stocks-could-be-in-for-a-rude-awakening-if-the-fed-hikes-rates-more-than-expected.html",
+      "summary_ko": [
+        "연준의 금리 인상 우려가 커지고 있습니다.",
+        "전문가는 중기적으로 리스크가 있다고 경고했습니다.",
+        "이로 인해 주식 시장에 부정적인 영향을 미칠 수 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 대한 직접적인 연결 고리가 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_299426b5",
+      "category": "geopolitics_commodities",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "젠슨 황, 엔비디아의 최대 중국 경쟁자와 연관",
+      "preview_ko": "젠슨 황이 중국 경쟁자와 연관되어 있습니다.",
+      "published_at": "2026-11-12T20:34:54Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+      "summary_ko": [
+        "젠슨 황이 중국의 최대 경쟁자와 연관되어 있다는 보도가 있었습니다.",
+        "그녀는 화웨이에 컴퓨팅 파워를 제공하는 회사의 지분도 보유하고 있습니다.",
+        "이로 인해 엔비디아의 경쟁력이 우려됩니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 경쟁력에 미치는 영향 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dfc7b8fa",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "젠슨 황의 사임, AI 미래에 대한 질문 제기",
+      "preview_ko": "젠슨 황의 사임이 AI 산업에 질문을 제기하고 있습니다.",
+      "published_at": "2026-11-12T20:32:21Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
+      "summary_ko": [
+        "젠슨 황의 사임이 AI 산업의 미래에 대한 질문을 제기하고 있습니다.",
+        "그는 AI 산업 발전에 중요한 인물이었습니다.",
+        "이로 인해 AI 관련 주식에 부정적인 영향을 미칠 수 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식이 엔비디아 사임 소식에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b1db15f3",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 CEO 이탈, 주가 5% 하락",
+      "preview_ko": "CEO의 이탈로 엔비디아 주가가 하락했다.",
+      "published_at": "2026-11-12T20:01:29Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+      "summary_ko": [
+        "엔비디아 주가는 CEO 젠슨 황의 이탈로 5% 하락했다.",
+        "일부 전문가들은 이를 매도 신호로, 다른 이들은 매수 기회로 보고 있다.",
+        "리더십 위기가 AI 금융 시장에 미칠 영향이 우려된다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8d83ad07",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 후임 CEO 후보에 대한 초기 의견",
+      "preview_ko": "엔비디아의 차기 CEO 후보에 대한 의견이 나왔다.",
+      "published_at": "2026-11-12T20:00:42Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html",
+      "summary_ko": [
+        "엔비디아의 차기 CEO 후보에 대한 초기 의견이 제시되었다.",
+        "투자 클럽은 매일 오후 업데이트를 제공하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_564a7b5e",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 조사에 대한 법률 firm's 참여",
+      "preview_ko": "엔비디아 조사를 위한 법률 firm's 참여 소식.",
+      "published_at": "2026-11-12T19:58:11Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+      "summary_ko": [
+        "엔비디아 조사를 위해 Wachtell, Lipton이 참여했다.",
+        "이 법률 firm은 NBA의 로스앤젤레스 클리퍼스 조사도 맡았다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_177664ea",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아, 젠슨 황 이탈에 대한 분석",
+      "preview_ko": "분석가들이 젠슨 황의 이탈에 대해 논의하고 있다.",
+      "published_at": "2026-11-12T19:47:57Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html",
+      "summary_ko": [
+        "엔비디아의 이사회는 젠슨 황의 이탈에 대해 논의했다.",
+        "황은 직원과의 불륜 의혹으로 사임했다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3c479565",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "나스닥-100 차트 분석",
+      "preview_ko": "나스닥-100의 차트 분석이 진행되고 있다.",
+      "published_at": "2026-11-12T19:43:17Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/watch-these-levels-to-know-if-nasdaq-100-is-set-to-break-out.html",
+      "summary_ko": [
+        "투자 전문가가 혼란스러운 시장에서 차트를 분석하고 있다.",
+        "나스닥-100의 breakout 여부를 확인할 수 있는 수준을 제시하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ca82d66d",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 임시 CEO의 직원 메시지",
+      "preview_ko": "임시 CEO가 직원들에게 감사 메시지를 보냈다.",
+      "published_at": "2026-11-12T19:42:41Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+      "summary_ko": [
+        "임시 CEO 코렛 크레스가 직원들에게 감사의 메시지를 보냈다.",
+        "전문성과 헌신에 대한 감사를 표했다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6c63d66c",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장 주요 움직임",
+      "preview_ko": "주식 시장에서 주요 움직임이 있었다.",
+      "published_at": "2026-11-12T19:35:49Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html",
+      "summary_ko": [
+        "CNBC가 이날 주식 시장의 주요 움직임을 강조하고 있다.",
+        "여러 종목의 주가 변동이 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a4da00f3",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
+      "preview_ko": "",
+      "published_at": "2026-11-12T19:33:50Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1ba52ba6",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "preview_ko": "",
+      "published_at": "2026-11-12T19:05:25Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6e0a9a61",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "유가, 트럼프 발언 후 혼조세",
+      "preview_ko": "트럼프의 발언 이후 유가가 혼조세를 보이고 있다.",
+      "published_at": "2026-11-12T19:04:21Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+      "summary_ko": [
+        "트럼프가 이란과의 협상 필요성을 언급하며 유가가 혼조세를 보였다.",
+        "미국-이란 전쟁의 종식이 멀어질 것이라는 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b2082106",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 창립자 지분 구조 복잡성 증가",
+      "preview_ko": "지분 구조가 복잡해져 재정적 불확실성이 커졌다.",
+      "published_at": "2026-11-12T19:00:12Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/inside-jensen-and-lori-huangs-jointly-controlled-nvidia-fortune.html",
+      "summary_ko": [
+        "엔비디아 창립자 젠슨 황의 지분이 복잡한 구조로 되어 있다.",
+        "그의 지분은 아내와 공동 소유된 신탁에 의해 관리된다.",
+        "이로 인해 그의 재정적 미래에 불확실성이 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8865be63",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
+      "preview_ko": "",
+      "published_at": "2026-11-12T17:49:47Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4adcecd3",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 리더십 위기, AI 중심 역할 시험대",
+      "preview_ko": "엔비디아의 리더십 위기가 경제에 미치는 영향이 우려된다.",
+      "published_at": "2026-11-12T17:39:54Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "summary_ko": [
+        "엔비디아의 리더십 위기가 경제에 미치는 영향이 우려된다.",
+        "회사의 다른 기업들과의 관계가 경제적 손실을 초래할 가능성이 제기되고 있다.",
+        "이로 인해 엔비디아의 시장 위치가 시험대에 오르게 된다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 불확실성에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_27e707a7",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
+      "preview_ko": "",
+      "published_at": "2026-11-12T17:23:25Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d74ef299",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "S&P 500, 엔비디아 급락에도 시장 방어",
+      "preview_ko": "투자자들이 다른 주식에 주목하고 있다.",
+      "published_at": "2026-11-12T21:08:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
+      "summary_ko": [
+        "S&P 500이 엔비디아의 급락에도 불구하고 안정세를 보이고 있다.",
+        "투자자들은 인공지능 관련 주식 외에도 다른 주식에 관심을 두고 있다.",
+        "이는 시장의 전반적인 안정성을 나타낸다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장의 반도체 관련 주식이 엔비디아의 영향을 받는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b66f4c01",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "채권 시장, 금리 인상 우려로 변동성 증가",
+      "preview_ko": "기술주 급락이 국채 매력을 높였다.",
+      "published_at": "2026-11-12T20:44:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
+      "summary_ko": [
+        "기술주 급락으로 국채가 더 매력적으로 보인다.",
+        "하지만 연준의 금리 인상 우려가 금리를 높이고 있다.",
+        "이는 채권 시장의 변동성을 증가시키고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장의 금리 변동성을 관찰."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b5fe8055",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주가 하락, 변동성 지속 전망",
+      "preview_ko": "엔비디아 주가가 추가 하락할 가능성이 있다.",
+      "published_at": "2026-11-12T19:15:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
+      "summary_ko": [
+        "엔비디아의 주가가 30% 하락한 상황이다.",
+        "월가 애널리스트들은 추가 변동성을 예상하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 대형주가 엔비디아의 영향을 받는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ded57551",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 인플레이션, 더 악화될 가능성",
+      "preview_ko": "인플레이션이 더 나빠질 수 있다는 우려가 있다.",
+      "published_at": "2026-11-12T18:39:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/u-s-inflation-is-already-bad-enough-it-might-get-worse-bae54da9?mod=mw_rss_topstories",
+      "summary_ko": [
+        "미국의 인플레이션 상황이 심각하다는 내용이다.",
+        "연준 의장은 인플레이션을 억제하겠다고 밝혔다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 물가 상승 압력 확인 필요."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 2
+    },
+    {
+      "id": "n_c407fdbc",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 CEO 위기로 주가 하락",
+      "preview_ko": "엔비디아 CEO 위기로 주가가 하락세를 보였다.",
+      "published_at": "2026-11-12T21:09:01Z",
+      "source": "Kiplinger",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS1FJbUNVNTUyZzVzYzhfLW1yRV9CSzc4ZThINm1PSVNOSnJJQ01CZl9DTERhb0Z6ZGlYQ2w0T08tVGtLc2dIQ2szY3JXNGRYXzc2TXhDSzhrMUhPMUYzbHBwN0FrbHBPSHlEUW5ab1dKSmFxVjhTeHFydk5ZZ09LeVFwMUp4cjFOSUdiRkhMbmVLSGZLdENNZUE5VDVINkNjSUNoM0Jha0NQaXlIbExjSjVfemg?oc=5",
+      "summary_ko": [
+        "엔비디아의 CEO 위기로 인해 주가가 하락했다.",
+        "월스트리트는 엔비디아의 상황을 주의 깊게 살펴보고 있다.",
+        "주식 시장은 초기 손실을 대부분 회복했다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 주가 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_62ad4264",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 CEO 황의 사임은 주식 시장의 '일회성 정리 이벤트'라는 분석",
+      "preview_ko": "엔비디아 CEO 사임에 대한 분석 기사가 나왔습니다.",
+      "published_at": "2026-11-12T20:48:45Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU05HLVFKUVNhOE52eEFZMExGQTZTSG9VVFI0cXhhV0tWNzU3aF9KM0FUOG9aTnpqVWVrV3lVazhJZEpuYXJFU29mNmZGYUN1SkRsT1VXUEhtVmF1WDVRUFJtMFgxV19DSF8wY2FQVVh0Q1NyaENBYURsXzR4TXo4QmpYaFBrSFFrYnI0enN5OGYyemZyR0RPN0JsTDNFRlY2SFhfMHFR?oc=5",
+      "summary_ko": [
+        "엔비디아 CEO 황의 사임이 주식 시장에 미치는 영향에 대한 분석입니다.",
+        "이 사건이 주식 시장의 일회성 정리 이벤트로 평가되고 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 영향으로 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dd270fcf",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "NVDA 주가 예측 — CEO 젠슨 황 사태로 다수 하향 조정",
+      "preview_ko": "엔비디아 주가 예측에 대한 기사입니다.",
+      "published_at": "2026-11-12T20:45:43Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTzU2YmpfQXpJMHVJel9uQWFUc1NVa2tySzllZUdfbUVSeFFFcmQwZkNLNFFVQTNtQkc0QS1LQzVTcEd6N21qNjZqVzc1Y3BRcFFOWW5hX3hMeENBTG1pUFV5UDZ5RjR1ZUtZa29mNlRmRlVUMVNUNVZVTFZDS01xaVhBMzUtdlVIVHVObEZlOXcwaFZuWExrUTlR?oc=5",
+      "summary_ko": [
+        "엔비디아의 CEO 사태로 인해 주가 예측이 하향 조정되고 있습니다.",
+        "이와 관련된 여러 애널리스트의 의견이 담겨 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 하향 조정에 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ed5a3c79",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주식, 창립자 퇴사 후 하향 조정",
+      "preview_ko": "엔비디아 주식이 하향 조정된 이유는 무엇인가?",
+      "published_at": "2026-11-12T20:26:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOU93dVdhWGJWMVU4Q09jeUxPSEZHd2pKREZlSzliNWNrazBJSFloRUJ2WVkzNE1zd3ZQQzRrTE9NejQtNUZlYTZDVzBsUkhaT25NT1RBaTZLdmNhZ2NmMW10ZEY1cGpYc3BjOC1Td3FHeUFkdnJOTzRvTzNRcGFTa2FrWXJ3enRiSWJYUm11cTUyeHhfQTZoS1ZDSjNjajhIeDdoRzFjck5vLTV5RVdSTVNMMjQzbC1Q?oc=5",
+      "summary_ko": [
+        "엔비디아 주식이 창립자 젠슨 황의 퇴사 이후 하향 조정됐다.",
+        "투자자들은 주식을 매도해야 할지 고민하고 있다.",
+        "이 사건은 엔비디아의 향후 전망에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하향 조정에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c154f9af",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "누스케일 파워 주가, 실적 발표 후 상승 지속할까?",
+      "preview_ko": "누스케일 파워 주가의 상승 지속 여부에 주목.",
+      "published_at": "2026-11-12T20:21:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdU1ZZklyUTNVa01yZFNMdGlFTFo1emg3X1psbXAzWTFtRXlRN3l4MF9XaVJwb2JoRk84U2NhUE53M2tVdHpfZ3lOTlhyOTdoQ0x0QXdzOVZGelV4TDNkcXIyTXh5SnpJSlpaM2dZQmRjTTN3SDlXMXhoVXlZWEgxaURVaURqR0hNdnI4cUYyMFQ2YklUWTBhZGdBVXJSdHR5?oc=5",
+      "summary_ko": [
+        "누스케일 파워 주가가 실적 발표 후 상승세를 보이고 있다.",
+        "투자자들은 이 상승세가 지속될지 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NUScale"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_75625791",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "자나두 양자 기술: 장기 투자자를 위한 3가지 주요 포인트",
+      "preview_ko": "자나두 양자 기술에 대한 장기 투자 포인트를 정리했다.",
+      "published_at": "2026-11-12T20:20:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZGpQclY3SzUtTXFYelo0aHZVVmFyRjJPeDAwTDhZZDVFMXk3dW1Kb1g3ZXpBNzg2OWJHVWZHeWs2N0pMS3NZd2pycTBTd1p5cEpteGtBZU4wdWZLVXNCckVycTdwVWgyRER4UzdFclhoVDFaSUJfU3VIa1VRUHd1Z3gtYjhGMnhXS2Z5cTVhckJHRmhwbXJSUE01VmlFYms?oc=5",
+      "summary_ko": [
+        "자나두 양자 기술에 대한 장기 투자자들을 위한 3가지 주요 포인트가 소개됐다.",
+        "이 정보는 투자자들에게 유용할 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6dd3dce1",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "누코르 주식에 투자할 이유가 있을까?",
+      "preview_ko": "누코르 주식에 대한 투자 여부를 고민하는 투자자들.",
+      "published_at": "2026-11-12T20:16:03Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdU8tSlFITDNMT1o0QmhkYW5RbGRuRlVCeUJsMURzd1htbHNoODAxekdNVmdaeDl6T2lkOF9zcVpRaFhHMUVwU2F4MVF0Uml1T0czMlZMS3BabkxtYXVOc2RKZlNzbDhOY0xiYjdxMENUbmhFLTRoVDRibkV6TXVYLTFTazMwYml0Sl9IcEo1VW1JMWVq?oc=5",
+      "summary_ko": [
+        "누코르 주식에 대한 투자 이유가 논의되고 있다.",
+        "투자자들은 이 주식의 매력에 대해 고민하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NUE"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3afb674f",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "아메리칸 워터 웍스 주식, 합병 승인에도 31% 과대평가될 수 있다",
+      "preview_ko": "아메리칸 워터 웍스 주식의 과대평가 우려가 제기됐다.",
+      "published_at": "2026-11-12T20:15:08Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGZDWE9ST2thUzlnTXlXSHh1TldHSDNLclNTaVcxQmlrdTEzcTkzbUVEeXlydkdqNkw5MnZFVXJxLWNwb01Xb3RMWmZNS0pMOFJ2bnJCR21TRHVXNjNfYndnNEZwTHY2YlRNekZsZWlHZVd6aGlBamZKRVRNWjcwYkc2OEV4aVc2RVpVQzZidHFrZVd5Y05nOHF1Zw?oc=5",
+      "summary_ko": [
+        "아메리칸 워터 웍스 주식이 합병 승인에도 불구하고 과대평가될 수 있다는 분석이 나왔다.",
+        "투자자들은 이 주식의 가치를 재평가할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "AWK"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d729da0d",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "브로드컴 주식, 목요일 아침 급등 이유는?",
+      "preview_ko": "브로드컴 주식의 급등 원인에 대한 분석.",
+      "published_at": "2026-11-12T20:07:32Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOFZWQmJnUkNJZ2I2SWZuR0VEZlRwMTR1dHl5N2hkSEpXSFJFMkc0QTZHOHJtSjVnMTVlNjJMY0pZbGZaaXJIajlZRGQ2RlB5eFR1VEF6RWlXX2ZPTVJxVUtveEpNR044Vm1qVm4xaXdWYkZPck85YVFJMXVGTG1nZnRFNm56cVEtcDVRVnhoa2VJcFJIMkZsaDBadEp5MU05cWc?oc=5",
+      "summary_ko": [
+        "브로드컴 주식이 급등한 이유에 대한 분석이 진행되고 있다.",
+        "투자자들은 이 주식의 향후 전망에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "AVGO"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_78274e31",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "버크셔 해서웨이 주식, 기록적인 수준에서 거래 중",
+      "preview_ko": "버크셔 해서웨이 주식의 거래 상황에 대한 정보.",
+      "published_at": "2026-11-12T20:05:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVNpQWloWHRILTZOZlJKU2p0Y3FkNDZzQ0JZVzdHR2JuTmlrc3VEelNqRDNiWXpPWXBFWFlrUmtiQmlWNDBESTRfdVR0b2ZpRjdqNEtoc2dhOE0xT0NIVnlVS1BCUVpxWEs3azdGWDFnUVBSYmJvVW5RalBHeTFfOEREczlhYW5OSUpBei1iaXB6Q2NyT1NqV2VpbkpNM2dmWm5wTzRB?oc=5",
+      "summary_ko": [
+        "버크셔 해서웨이 주식이 기록적인 수준에서 거래되고 있다.",
+        "CEO 그렉 아벨은 더 높은 상승 여력이 있다고 보고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "BRK.A",
+        "BRK.B"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b6c0374a",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "오라클, 2026년 34% 하락: 주식 반등 가능성은?",
+      "preview_ko": "오라클 주식의 하락 원인과 반등 가능성에 대한 논의.",
+      "published_at": "2026-11-12T20:04:05Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTi1hWXk4ZmFxenFKS2d1aHV4RDJMVnhENTVSc1dPdHlCdHRZcmVwYzl1Z05xOF9jNkc5Qlc3QXplN05ZTDNZQmV5amdxaGJPUGJlRzBscVRmbHp5ZUstVm9ZWEFpNTRLM1NVVmt4WnhLSU5HTjZwc0NqVHBZOXdDRk91YW96WUZ0ckx3VjE4NHNadFU?oc=5",
+      "summary_ko": [
+        "오라클 주식이 2026년에 34% 하락했다.",
+        "투자자들은 이 주식의 반등 가능성에 대해 논의하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "ORCL"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ec3480de",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장, 엔비디아 하락으로 에너지 주식 상승 상쇄",
+      "preview_ko": "주식 시장의 변동성에 대한 분석이 필요하다.",
+      "published_at": "2026-11-12T19:55:07Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+      "summary_ko": [
+        "주식 시장이 엔비디아의 하락으로 인해 에너지 주식의 상승을 상쇄하고 있다.",
+        "투자자들은 시장의 전반적인 흐름을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a591e033",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "로빈후드의 예측 시장 베팅, 주식 매수할 때인가?",
+      "preview_ko": "로빈후드 주식에 대한 투자 여부를 고민하는 투자자들.",
+      "published_at": "2026-11-12T19:55:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkR5SURaN2dEU3NCby1RTEFSZlB0N2lvLVJjb1hzUE1EcjEwM2dzZ1NRN29sMWRfZERjTGV2dHhpV1BxS0dWTThFX0hQQ295TTJROFA0bzNzLWRKdEFHUTJmZEo1dzUtWU9CRnA3a1o5cDIzWlZVU1JXMFV5cEZ1U0pjRFdtRV8wcTJna0VBMjJvWXRhUlktYWpScWFCQjRva0pUVm1EaV8tTXh3T1E?oc=5",
+      "summary_ko": [
+        "로빈후드의 예측 시장 베팅이 성과를 내고 있다.",
+        "투자자들은 이 주식의 매수 여부를 고민하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "HOOD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ed47b59b",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "소액 투자자, 엔비디아 주가 급락에 매수",
+      "preview_ko": "소액 투자자들이 엔비디아 주식에 매수세를 보이고 있다.",
+      "published_at": "2026-11-12T19:48:08Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdlRYZU5hQlFBOFpaU25UaEN4NGg5aGVNcXE2SkdhN0JZajBfd25paFhOcGExckxEYzR5MmkxMmVhWjdqLTVHQTd5bnZqb20ybzhoNE1KWFUteXJIQnRPd2d1X2Vpc1pWLWFOMmJEcVFuTnIxTGtOQ1Y3X1ZXTkZiempmbHpwSDdORzl2TjVuTGFQZWdSZ2NjZVRJQVR6cDJhUjVYMUtLQjd2ZjBXZ0c2ckFXRWlrS2ZTRmUtRWk1WUhZbkZhUVlNTHBJcWNya1hUVXRpNmJFNHBvbjM5Wkl3?oc=5",
+      "summary_ko": [
+        "소액 투자자들이 엔비디아의 주가 급락을 기회로 삼아 매수하고 있다.",
+        "역사적으로 인내심을 가지라는 조언이 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6330721b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Elon Musk gives SpaceX stock investors something new to consider",
+      "preview_ko": "",
+      "published_at": "2026-11-12T19:47:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcElCWDZRdWJ5U2RRbFMwMXVQTE5NNkhKd29aQ3lFN0ZleG9LbVhUbTVxNHNtME9SUjQ0NHVpV0dqa0FCaHlEZDdWczlwM1N6ZXdNdXVYZTdzVjR6V2xFMVJ5NUN3ZldQcFktR2g2ekRmM3JJV0tjSzAxSGo4VFlkckNCbXc1RV9qOGRRZFhydGwybkctREJFSg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a66aef8f",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "삼성 주식, 외국인 매수에 상승",
+      "preview_ko": "삼성 주식이 외국인 매수로 상승세를 보였다.",
+      "published_at": "2026-11-12T19:45:45Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVzdFajZ5UFpYOU5OTlFBckJUR212SGI3T0llWVU2YmhIVk5XTF9yaXhMRm9VbjdTLU85ZUNCOU1IMFJVR2o1RXRVbE1pQlRrR0Q0QlNnZmZ1c1cyZ284R1RheF9ZWE0xOGsyRFFCQ0JlbUlNaTlQdkxNREt4eWdPbnpxYnh0akUwUmpaQXRzWlFNRnk0bkd0MF9BNk5wbkNR?oc=5",
+      "summary_ko": [
+        "삼성 주식이 외국인 투자자들의 매수로 상승했다.",
+        "NVIDIA의 혼란에도 불구하고 외국인들이 삼성 주식에 관심을 보이고 있다.",
+        "이는 한국 반도체 업종에 긍정적인 신호로 해석될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 외국인 매수에 따라 강세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ef0dfd2f",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "뱅크오브아메리카, AMD 목표 주가 조정",
+      "preview_ko": "뱅크오브아메리카가 AMD 목표 주가를 조정했다.",
+      "published_at": "2026-11-12T19:44:41Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRkZzVEozcEQxdGtkbEw1TEZsZl9OVVZuWUFrOWdLdkNwWWl4cDAzWVhEcU1fNUkwQ2NOX3doX1Q3aDNZaTl4UXNhTWJtOUdCTUdYNEVFajR6LU5wVUJ6REt4UklNbGljNFk0T2J0S19Ob0huUndxd0I1SXpWUFI4Qmd1SExCWEd3ZnNQWlZqQWNWZklTcVJDdWdDYw?oc=5",
+      "summary_ko": [
+        "뱅크오브아메리카가 AMD의 목표 주가를 조정했다.",
+        "이는 반도체 업종에 대한 전망을 반영하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "AMD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e5881418",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "SK 하이닉스 주가 1.8% 하락, NVIDIA 리스크 부각",
+      "preview_ko": "SK 하이닉스 주가가 NVIDIA 리스크로 하락했다.",
+      "published_at": "2026-11-12T19:44:35Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMGZ1MzVhU2w0Q1JIYzV1ckFtLVNYZDhoZ3I0YWZZSU1EV2Z3OVlnLU9lSHdOQ2dULThDcUg4ZS1PNlZFR0I2NTN5eURURVpLTVBkS0dSV3lydkpkN1dFc2tGR0cyVDJ1bk1BTFlncXVnU0hDamlMWFQ4bEM1QUNLcGN3ZkJ5Q1p3SzFyalJQSng?oc=5",
+      "summary_ko": [
+        "SK 하이닉스 주가가 NVIDIA의 영향으로 1.8% 하락했다.",
+        "NVIDIA의 리스크가 SK 하이닉스에 부정적인 영향을 미치고 있다.",
+        "이는 한국 반도체 업종에 부정적인 신호로 해석될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 SK 하이닉스의 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b162f4e5",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "D-Wave 주가 목표치 55% 하락",
+      "preview_ko": "D-Wave 주가 목표치가 55% 하락했다.",
+      "published_at": "2026-11-12T19:44:30Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdU5raDY1cmFaMGdWeXRvdFhDYkE5LTdyMEZ3QnZuenFUWmJhQXl5MXEyYjdUY1ZreTBzV09OMkdPdGVzNDdxZUhzb1M1VmFiWm16TzN3TXJJSVNGQndMZXFtdFd6eEJJcGlvWlVCVlJGV05rczN5VU9uZ0gtNU9fMGlhLUZ4VlhQTURGWGRFS2FVVG92OUE?oc=5",
+      "summary_ko": [
+        "D-Wave의 주가 목표치가 55% 하락했다.",
+        "이는 기술주에 대한 부정적인 전망을 나타낸다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_acc573fd",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "샌디스크 주가 7.83% 하락, NVIDIA 영향",
+      "preview_ko": "샌디스크 주가가 NVIDIA의 영향으로 하락했다.",
+      "published_at": "2026-11-12T19:44:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaXVQUFdTbWFiaURUVVhfVmh5bXNXSWstaDJJU1hvUXY0SE1tdlpPczFKMGJWSERDcE9GRVlaNjlMZGpaTjY2RkVmeHRiSjJNUzNNUHc4amtwS1pBWkNYMmExd0ZXSnV5aTJ3QUtIc21JNndUMzFJOFk1c2NDd25vWGdXQ2RVVlFNQ01TUU5MVGRNTE1T?oc=5",
+      "summary_ko": [
+        "샌디스크 주가가 NVIDIA의 퇴사로 인해 7.83% 하락했다.",
+        "이는 메모리 반도체 업종에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 메모리 반도체 대형주가 샌디스크 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4d118f46",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "인텔 주가 3.49% 하락, NVIDIA CEO 퇴사 영향",
+      "preview_ko": "인텔 주가가 NVIDIA CEO 퇴사로 하락했다.",
+      "published_at": "2026-11-12T19:43:40Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZV9rQ1pWUWhrTWVQZmxEZTFjT2N3QnB0TWhZS3ozcXJZWEg2Y2JmWHprdTZsaFkwVHlzUlNoRS1QX2h3UUhqTWt2NzFqWW12T0REdV9jakJiallCNDh6VHlTb2V5blIySUFmeFpTUy1wemtXVWxuSFpJWVZIanFxZl81Zm5GdEM2a0x6R1M2d0M?oc=5",
+      "summary_ko": [
+        "인텔 주가가 NVIDIA CEO의 퇴사로 인해 3.49% 하락했다.",
+        "NVIDIA와의 파트너십에 대한 불확실성이 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "INTC"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_87c68b83",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Bank of America Drops Shock Take on Victoria's Secret Stock After Rally",
+      "preview_ko": "",
+      "published_at": "2026-11-12T19:42:58Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUJPb1dDR3RIVGtpZmtuV0E4R0V3UmhxMDgxcjFndkNoTkVoeWtsVGNldmw4LVk3cjRtVlFCaXljNllfWWVpVHpVbDZGUjJVLWMxYXN6UzNuVi1mYVZESEdackdoUkVobGptOU9qSUd0MDQtNGkxMmlvdUk3TTRUclJjNlhyUzBPUlEtSThlakJ4dHFOdXBkc3hNT0s2MEJ1?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_22ade55e",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "NVIDIA 문제로 주식 시장 하락, 유가 소폭 하락",
+      "preview_ko": "NVIDIA 문제로 주식 시장이 하락세를 보였다.",
+      "published_at": "2026-11-12T19:39:17Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
+      "summary_ko": [
+        "NVIDIA의 문제로 인해 주식 시장이 하락하고 유가도 소폭 하락했다.",
+        "이는 투자자들에게 불안감을 주고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 시장 하락을 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9e440079",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주가 급락, 주식시장 폭락의 시작?",
+      "preview_ko": "엔비디아 주가 급락이 시장에 미치는 영향을 분석한 기사.",
+      "published_at": "2026-11-12T19:00:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNeVFEQTZ0V1pLR2M5Qm1LbFJQNEZwUnp3TmFSUEdsZWVtZkg2cEl3bURDdXA1NHg2M2YyUkttVWI3RktaTUNfTmQxR2h2cDg3MTFTRVRMSGY0eWNlck12N2NGUlgzX3FLempZVzl0X3JMWWNZX2tnN09HM1EtTXROUWwzM01qbU1Ud25HSUVjakhnSEpFNkhycE1xbTVVXzM0Wlg5ZHU1WUgtQU84TGNhdDBIeGNsb0F5emRqcm44aWtJcGNkeGF0N0c1YXY2eXhxWG1LOG5ZVS1BNHJoZXlxM05nWExkenNZMFg3NmZkNDkwcFVpTDZNY1ZQY3dSWUJ2UWJ3?oc=5",
+      "summary_ko": [
+        "엔비디아 주가 급락이 시장 폭락의 신호라는 분석이 제기됐다.",
+        "워렌 버핏의 대응 방안도 언급됐다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d5be6039",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AMD와 브로드컴 주가 급등",
+      "preview_ko": "Nvidia CEO의 사임 소식에 AMD 주가가 급등했다.",
+      "published_at": "2026-11-12T18:32:13Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkIxWkJDaHpKZmg4emJ3RW9FVWRleFBqSU9fckJzb1JCN3FBY25PblRkTmg4UG53VWRJSERhMHp5eUlqNmphQkh5cXRJcE1oWjVxUUNuVkZIOWpGLWw2YS1JQ0JGV0FYS3JwWHVKcU9CeHFLX3JJelVIZXI3cWRNcWhOZ2Z0TkRZYk0yX281dVlPX2d5b2hnblIxdnRwdjRSZDhYZ3FHMFg0UTJpMXhvdUFYWFZPbmM?oc=5",
+      "summary_ko": [
+        "Nvidia CEO 젠슨 황이 사임하면서 AMD와 브로드컴 주가가 급등했다.",
+        "이로 인해 반도체 업종에 긍정적인 영향을 미칠 것으로 보인다.",
+        "투자자들은 AMD의 주가 상승에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 AMD의 주가 상승을 따라 강세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "AMD",
+        "AVGO",
+        "NVDA"
+      ],
+      "moves_ko": [
+        "AMD +5.86%",
+        "AVGO +5.54%"
+      ],
+      "coverage": 1
+    },
+    {
+      "id": "n_fc9efbff",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "S&P 500에 숨겨진 위험이 있다",
+      "preview_ko": "투자자들이 변동성에 대비해야 한다는 분석이다.",
+      "published_at": "2026-11-12T18:30:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQU5DQlMyMjlfaUxLU0Q2SFM0YnU1MWhDTUtfMmp3OEtDVzFiRVBKZDRFV3YzQ0ttRURzTlprbFdEdVIxcXJ4a1JSdnVmcjd0MG1qNXFvYWhoYXF5Uk5CV3U5Wmt3QVNWdDYyNkFHMVdzYUZFYl8wUTd3RVMwWm9zX0lCWWxPNlNLOU9jNVdIVXZVVm1a?oc=5",
+      "summary_ko": [
+        "S&P 500 지수에 숨겨진 위험이 있다는 분석이 나왔다.",
+        "투자자들은 잠재적인 변동성에 대비해야 한다고 경고하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_53c406c3",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AMD 주가 급등 이유와 투자 가치",
+      "preview_ko": "AMD 주가가 급등하며 향후 투자 가치에 대한 분석이 나왔다.",
+      "published_at": "2026-11-12T18:24:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUNkTl9ZNndkTTVPOTRJUm5ZdFhqU01FOG92ZzRzdWtRdkw1WENXNFNUbWZJa0ljY2JscGVsUUl6aWN1amQzbTVBb3d3cmw2dVl2MjhIejJrTUdLRTBFOHVNVzBaOEp0VW0zV0tvNTVPaVpscGttTzRZbmZMS0F1SndpdTZPVUNHNnV0dUt3d0h1VUw0?oc=5",
+      "summary_ko": [
+        "AMD 주가가 급등하는 이유와 향후 투자 가치에 대한 분석이 진행되고 있다.",
+        "특히 3년 후 $10,000 투자 시 예상 수익에 대한 전망이 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 AMD의 주가 상승을 따라 강세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "AMD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_283eae33",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "Nvidia 주가 급락, CEO 사임 영향",
+      "preview_ko": "젠슨 황 CEO의 사임으로 Nvidia 주가가 급락했다.",
+      "published_at": "2026-11-12T18:09:11Z",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZGZPN0R3U3EyaUN6MEpaNXlrd2pJbnJJTG1BZXo4WWRKSW9oMW0xQkE2VjlyeU42TldBVW1kcDdxNEFJSVFtdEg5VjdfdmtGRW1VRzlhWFlNSGdQdjFwMXkxYkl0OVl4el9XcFptT1hxekxPNFBvLVRHQXFlaGhJdThQRmFMWWVXZHJYUzY2SUFWTEpqS0E?oc=5",
+      "summary_ko": [
+        "젠슨 황 Nvidia CEO의 사임으로 Nvidia 주가가 급락했다.",
+        "이로 인해 AI 관련 주식에 부정적인 영향이 우려되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식이 Nvidia의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [
+        "NVDA −4.34%"
+      ],
+      "coverage": 9
+    },
+    {
+      "id": "n_8d883681",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "Super Micro 주가 5% 하락",
+      "preview_ko": "Super Micro가 $19.9억 분기 실적에도 불구하고 주가가 하락했다.",
+      "published_at": "2026-11-12T18:07:25Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRlI3VFpwRWJ4TTM5Y29SSURVcG9sOUY4MVc2SGRTekowMEctTDU5bWlESk83aFRCWXhVTnVFYUhiWUx4NFFjTWZjcnhQOG04V25lRl95eEhPaDNydnhRMDVSam52S1lLa1g2XzdpdkFRZVNJbS1INHlLNVFFZVRUaVhKcU9IMXZlX3h1Y0czWjE1Uzdn?oc=5",
+      "summary_ko": [
+        "Super Micro의 분기 실적이 $19.9억에 달했지만 주가는 5% 하락했다.",
+        "투자자들은 실적 발표에 대한 반응을 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 서버 및 데이터센터 관련 주식이 Super Micro의 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "SMCI"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_df394d17",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "Nvidia CEO 사임, AMD 주가 상승",
+      "preview_ko": "Nvidia CEO의 사임 소식에 AMD 주가가 상승했다.",
+      "published_at": "2026-11-12T18:05:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZXFBRGFoc2N0cm9TUS1mb1EzdHJXMnU4eWYzVFczUUw2ZXlYZHpBU1YzZjRfNXhwaHJ0VUkyRy1NZ0FNdDJYQThsRERtLWtqbWZMU2lTZGk3YWZlSURvQTk4MmRQOGgxTGFsN1dITE51UUlwd3lGZXdKRWtsNXoxamNzNUN0NFRzc0R1ZDg3RnRiM3JtOHc?oc=5",
+      "summary_ko": [
+        "Nvidia CEO 젠슨 황의 사임 소식이 전해지며 AMD 주가가 상승했다.",
+        "이로 인해 반도체 업종에 긍정적인 영향을 미칠 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 AMD의 주가 상승을 따라 강세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_61b0e982",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "CoreWeave 주가 하락, CEO 사임 영향",
+      "preview_ko": "Nvidia CEO 사임이 CoreWeave 주가에 영향을 미쳤다.",
+      "published_at": "2026-11-12T18:03:19Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc3g4Ti1XTGN3NmZfTjFYZ3RtR2lhWTlTcnhuaFRIQXUxeWp2SmN1OXZQcHlzbWJwQ3EtT0ltc0hfaS00QjZKYWRnS3FmZDBwMG1wR3JvVDNXYnpaQ2NPTEdKZ2dyRlhCYWhJZ1NTWDl4amgzOFppaHlOWlFTY2p4Q2lGaDY5bGdLY0t5NWpqanhNLWZRNkhaVGx3UWozZzNlTmdybTFrSWY3eXFURC1pWkY0RXpyaUhDdE9ZUHI0UVBtckFFUWJCZUZseE1sRGZnYkU1elpYYmY?oc=5",
+      "summary_ko": [
+        "Nvidia CEO의 사임 소식이 CoreWeave 주가에 부정적인 영향을 미쳤다.",
+        "AI 관련 기업들의 주가에 미치는 영향이 우려되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식이 Nvidia의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "CORE"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1953c34c",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 주식, 황젠슨 퇴임 후 매수 가치 분석",
+      "preview_ko": "전문가들이 엔비디아 주식 매수 여부를 분석하고 있다.",
+      "published_at": "2026-11-12T16:41:35Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlpfaHRfNTJJRFNoQ0c4TFMwckZ6ekkwa2hpZTh2UEtmVjQ2SlZsX2RSS2ZfSU9XOUVEaDNQaEVCYWpCcFhJUXNibVlzVDBPY3FDS1pmQ09WalFHd2pEN0VFV1dWbm0wNGsyZFd5ZFFGckh6eWlnQzZELVhWazFpMjUwU0FCQjQwUjBPUy1HbHJEaXpPYy0yS1pMNjNYVzUzUkE?oc=5",
+      "summary_ko": [
+        "전문가들이 황젠슨의 퇴임 이후 엔비디아 주식의 매수 가치를 논의하고 있다.",
+        "주가 급락에 따른 투자 심리가 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_28a98c39",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 주가 급락, 황젠슨 CEO 퇴임 영향",
+      "preview_ko": "엔비디아 주가가 급락하며 시장에 충격을 주었다.",
+      "published_at": "2026-11-12T16:21:26Z",
+      "source": "The San Francisco Standard",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMUlVTjloTzFXTWRDaGszd3ZrTGFWb1BXd3l0NDZqVWJ5V00xSEtQNnFrMU9VcHNkTFJsNDMzVjdaaWw0dXNEZDIyS0RIcUlhTDZJMHJkVW9Sa1VjbnNMRTVoUDdBcllaaWVLS19kbHBzU0swOEJWVzBnRnA0dFNTQkk4Ry1aaUhMOWxnbnRKLUpZWVpu?oc=5",
+      "summary_ko": [
+        "엔비디아의 주가가 황젠슨 CEO의 퇴임 소식에 급락했다.",
+        "월가에서는 이 사태에 대한 우려가 커지고 있다.",
+        "AI 주식 시장에 리더십 충격이 발생했다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_02925a47",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Prediction: This Will Be Micron's Stock Price by the End of 2027",
+      "preview_ko": "",
+      "published_at": "2026-11-12T16:20:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdExhLTYyT2s0OGJycElyRmxOTE1sWjRVRUhRajhPMld4VGNzZlpvSHJzWi1GYTdSZDROdEJZUmJHNU9CaXl6aFY0dTdtZHgtd243Z0M3WnNEemdwWHZUX3d2YjVHZXpaSG95aExpaEV0Ri1henl5akpqRzVRUi1QWG9sVVJ0UFl1OTZndlhPWEczTUhYbEp1Q3MwWjNtWmVp?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_70a24824",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "월가, 엔비디아 주가 급락 후 초기 손실 회복",
+      "preview_ko": "월가가 엔비디아 주가 급락 후 초기 손실을 회복했다.",
+      "published_at": "2026-11-12T16:02:00Z",
+      "source": "localmemphis.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPclUtWTVNLTc1QzhxR3dpT25IRzg0aktCbFgwZk1RSlhUWVgxSWFMNjV0QXF0OU9lT1lPLUZjVWZ5dDhUTnRNR290YmRjZGZqd1BILVdMdnJITnVmRXNxSmFRWmduSUlFUVo2eXBESHFwNkpBQnRKbDE4VjRDM2szSUdEUkNBcEJfOF9YNzU0TFRjTnVGM0RZQ0RuODFCMFlhVFlCQ0ROSHg1aE41aXAxblFmekg5bWJtcVlLdnhWZWhQUHFZanUzM2RrdVEzRXl2RGQzcXFuY3k?oc=5",
+      "summary_ko": [
+        "월가가 엔비디아 주가 급락 후 초기 손실을 회복했다.",
+        "유가와 엔비디아 주가의 변동성이 시장에 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a015ec55",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "How Low Can Alphabet Stock Go?",
+      "preview_ko": "",
+      "published_at": "2026-11-12T16:00:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYWl3N3Z1MmtSXzgyNWxmSDZsaEZydE5UdjZFSkpsU1JxMzZjRmZPc3Q4SGZON2NyVjZvXzNzRU81bWRXR1R2T3cxc193N2pNNHpQUjMzVHJrbEh6WFZ1NW5iNWlaZENQMXZyWm8yeFZUeHp2ODN5ZmxldjVqY09IdUxyMVQ3Mm5iaVR3?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_10b75b4a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market Today, November 12, 2026 : Nvidia Stock Tumbles After Jensen Huang Exit; AI Shares Face Leadership Shock",
+      "preview_ko": "",
+      "published_at": "2026-11-12T15:57:21Z",
+      "source": "Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYy1EdlpSVjJXS0pZQXdGQ0YzRzZlTVRQT1ZZeS1JODVZRDVMQjllQ0VweXdYOFF2SWlYdjlvcXAyQTYwVWVyV3U1R0tnVDQ1ZWxhY0U4ZGVRV1U2RkNwVE5uMUZhY01xMGFjN2xQSGF0M1J0T1ZSMlJHVDhxRTJSVURPMXRJdUExM0tGVkZNc0VoeVk4Q252R01BTTlNWUZhOU1RX0gwdlEwUUVLTFRSMDU1S2NIRzR0WVZNQmYyTTRtcVdpTnhiSHJfelNhS3hPNVNCOTZid2JDMmloRjVIVmtNbFR3REhjQ2xKMg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_aebc84f9",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "SoFi chief market strategist on an Nvidia without Jensen Huang: 'What happens without the visionary?'",
+      "preview_ko": "",
+      "published_at": "2026-11-12T15:40:48Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMG9tQkFlRmxXbGVOaHFIcVhZRkdBSVMwVUZhVWgxSDNITXdLQ3MyVGNoYlE1LTZSZXBVSjRDNERHRDFFYlg0Sk9KeUdsbm42cGE2cExGczFNak83MFpiNmFOZS1jckUtdGdVXzNKMjFzcGpFWVBEeFc3VTZEdGRSWS1paHlVbEpPM05GM2F2c2ZVR1ptSFVKUnlGTlRLR0x2WldNVldDRV90WHdRQjhKdGt0SDdQY1M4T3k5ZDlNWEZVNHZUN3lqalZlcF9PUTktd0swVkI1THAybmhHMHpNT0xENVpvQ2oyRWc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ef892f80",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "PDD or EBAY: Which Is the Better Value Stock Right Now?",
+      "preview_ko": "",
+      "published_at": "2026-11-12T15:40:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR2Y0TVBxR3R3YXNlOTRLQ0hmQTQtNFBlUmN1QWMzRjF6SGxXYXJyX09MbEJMNzNuVjVLVnd0ZUE2N0IxTVVnYnNmTVNnblpSSGtpbE5XQkEyZkVGRFFZLUlDakIxWFR3UllxbUVHcFYtRUZHMi1zRVUtYlFOYVNWWkRDNy1Ubkd3eG5zUWtNTWZYVW80NVNr?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3a8a38b8",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주가 급락 이유 분석",
+      "preview_ko": "엔비디아 주가가 급락한 이유를 분석하고 있다.",
+      "published_at": "2026-11-12T15:35:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Sa25YLUNKczlIMVotcklwM2N5LXp5YW5ickZRc21DU1BRZ0d4cVVRc1N0ZUFzVFZFQldvVzFWNGhKSi1vSjVsMzRpRUsyVWRCNWpRWk5pZ1NSTkxST284UmUtckVMdkdURTB4VDkwNzctYThHb202dTRvUjFxUQ?oc=5",
+      "summary_ko": [
+        "엔비디아 주가가 급락한 이유에 대한 분석이 진행되고 있다.",
+        "황젠슨 CEO의 퇴임이 주요 원인으로 지목되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0637f8f0",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Sharp swings for Nvidia and oil prices weigh on Wall Street",
+      "preview_ko": "",
+      "published_at": "2026-11-12T15:33:45Z",
+      "source": "Scranton Times-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaWNlcklWM2hOQU1jQlRXTlViMk1OeTE0OGpibU1BOERBRnREWTRHVGFhQl9raFlJN01KQUptVFFjMXJ5dUFsRnlPOS1tSVdUOE9hWEotbnBvMHlIRlJvbUlneWxLdWJMQ3F5amQtZmJtYWlqWm9XamZaRnd0cEhJNGZn?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bdbaced8",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장 폭락 후 역사적 패턴 분석",
+      "preview_ko": "주식 시장의 큰 단기 하락 이후 역사적 패턴을 분석하고 있다.",
+      "published_at": "2026-11-12T15:23:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0ZjTUtUb0ctN0k2RlNhbllqVFhvZWw2SHg0OXhuNFY1dGxGVkdVLU51enVrVXV2Ql9SZWJsY0pNWXFodThjZmpfQURzNFpEQUM1Uzh6cVVoSUJRNWRKakFpbkQzcC1TblBFaEI2cWo2dEhhb2Q4aktIb3lndVFrdjRLakd4U0VyUlpPYWdNajBsbUxmNk9kOU4xRVg?oc=5",
+      "summary_ko": [
+        "주식 시장의 큰 단기 하락 이후 역사적 패턴을 분석하는 기사다.",
+        "과거 사례를 통해 향후 시장의 방향성을 예측하고 있다.",
+        "투자자들에게 중요한 참고자료가 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 직접적인 연결 고리가 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a3f252c0",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 CEO 사임 후 주식 시장 반응 주목",
+      "preview_ko": "엔비디아 CEO 사임 후 주식 시장의 반응을 주목해야 한다.",
+      "published_at": "2026-11-12T15:13:46Z",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQnpEX25jaWRVOXBvWjJyUU1qRXpfYXF1a2RaMzRpUnhJUzVfSldKYjdIU2VUa3FQaWZ1ODFXODdnNl8xZk5YVTdFVFhCdkNCUXlvSThSOGNUdjQ2dkdiYVVCVldFdjhuQ1pjSUV6T1lOU19Db2tnLUR6cEp5d2ZRN1ZQbnE4SnozUEV6ZENLOHJiMXU2N2Rac1VHbnZIbXV0UXBxa25ETURUSDFhUUxtUw?oc=5",
+      "summary_ko": [
+        "엔비디아 CEO의 사임 소식이 주식 시장에 미치는 영향을 주목해야 한다.",
+        "특히 AI 관련 주식들이 영향을 받을 것으로 예상된다.",
+        "시장 심리에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식이 엔비디아의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_45902e2c",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 CEO 하우앙 사임, 주가 급락",
+      "preview_ko": "엔비디아 CEO 사임 소식에 주가가 급락하고 있다.",
+      "published_at": "2026-11-12T14:21:16Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVlcxMGw2ZjlXTThMWHdjWmJyRVloWUl4eVEwMWZ2M1NSdThQLUZ4YXd5RUNZdllfSkdaY1dJamE0SEFNLXZjRE0xcHFLQUpzSW0zWlBTYWIyZnBHZnBSenZOeDVWNWEwY2hyR0JOR0JLT1FEaXhzdnpoRk5Xai03Q1hPci03UHdZc3NLbzdWQVlJZkZGclp6Qno5b2lvSFd0bTNVbFpNQQ?oc=5",
+      "summary_ko": [
+        "엔비디아의 CEO 젠슨 하우앙이 사임하면서 주가가 급락했다.",
+        "이로 인해 다른 AI 관련 주식들도 영향을 받고 있다.",
+        "시장 전반에 부정적인 영향을 미칠 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6c0fcdb9",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 주가 급락, 나스닥·S&P 500 하락",
+      "preview_ko": "엔비디아 주가 급락으로 나스닥과 S&P 500이 하락하고 있다.",
+      "published_at": "2026-11-12T13:18:05Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSk9Kd2tuSDBRYnl2SWJyS0dhTUw5UWd4Wkw2RHFTWTNDWDg1bUNwZG90VlVXV3ZRdng3WGkxS0lhYkROekJwQU5LU2g2MHNXY1YxOFJ1dGpZdVdOcXBMa3l4Y2RGVUNPc2cxNkdlZlBxUTJQMl9rbUlBS3JBb0MwSWdMN3I1T284dnhNN2hQejFfSWtZZHRN?oc=5",
+      "summary_ko": [
+        "엔비디아의 주가 급락 소식이 나스닥과 S&P 500에 영향을 미치고 있다.",
+        "CEO 하우앙의 사임이 주요 원인으로 지목되고 있다.",
+        "기술주 전반에 부정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 엔비디아의 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [
+        "나스닥100 −0.30%",
+        "S&P 500 −0.35%"
+      ],
+      "coverage": 6
+    },
+    {
+      "id": "n_54ef3de1",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "하우앙 퇴임 시 주식 시장의 3가지 큰 질문",
+      "preview_ko": "하우앙 퇴임이 주식 시장에 미칠 영향에 대한 질문들이 제기되고 있다.",
+      "published_at": "2026-11-12T12:44:00Z",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcS1jWE1selRhZTFHNHMzREliMUFzbS12OEdsMGNVNDktczVGenVjdUstTEZjR09sYk1fdS1hUGpheF9EeTdpeGRrSlRLT2xERmtoX19SdFd2NXMwX1hCNzlxMkhjaDhtUDIxZnZ5NGstTzY2T285RE1PSTlBanVhTA?oc=5",
+      "summary_ko": [
+        "젠슨 하우앙의 퇴임이 주식 시장에 미칠 영향에 대한 질문들이 제기되고 있다.",
+        "특히 엔비디아와 AI 산업 전반에 대한 우려가 커지고 있다.",
+        "시장 반응을 주의 깊게 살펴봐야 할 시점이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 직접적인 연결 고리가 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b7d02e19",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market News for Nov 12, 2026",
+      "preview_ko": "",
+      "published_at": "2026-11-12T07:11:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZnZEbWhxdFN4eVg5aldSNHFnc294ZXRwcTYzNUJsUkk2QUJnWFJGMklIX2Zpd1lBZmFUM28yRFJHZXQ5eXdscFpsdDZtTW02cTh6WHk5OFl4UnNaVHhQVlYzUUdhWjMzYkZHMUxFMkh6VWJ5OUFmTEp5VDlxWGZSNjN2TU1icEFkc1lCZVQwVEkzcVU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6c7b05e4",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "달러, 매파적 연준 전망에 19개월 최고치 기록",
+      "preview_ko": "달러가 매파적 연준 전망에 따라 강세를 보이고 있다.",
+      "published_at": "2026-11-12T21:11:54Z",
+      "source": "شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DT0tmNVNrZEhSd19FbGVUOGtpMEJLcXJvN3pXVzZCSzRsOWg5NWsxcFVKTGIzM0txTnEzMjVubDJ2UDNIbjE3UmFoeFo4WmhiSmVB?oc=5",
+      "summary_ko": [
+        "달러가 19개월 만에 최고치를 기록했다.",
+        "이는 매파적인 연준의 전망이 금리를 끌어올릴 것이라는 기대에 따른 것이다.",
+        "달러 강세는 글로벌 금융시장에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "원/달러 환율이 달러 강세를 반영해 오르는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ce3214a6",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "연준, 추가 금리 인상 신호를 보이다",
+      "preview_ko": "연준이 추가 금리 인상을 시사하고 있다.",
+      "published_at": "2026-11-12T21:10:29Z",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNjFMeUJTSTdldmV3ekI0Tmd0VmdDX1RSMFpqOEJkQTFmektuQzVmSmJNM28zR2RzOG8tOV96dzdWN1lwZmw2aVNaVlpYUk9Ia3E5eVN3WWRSYnRTX1VITWh2bzFtbzVTS2pMZ3pKS3NIVmRzTXg2ODlSOXUtS0J0T2VGZDExR0NkRUh5Q3lKVQ?oc=5",
+      "summary_ko": [
+        "연준이 추가 금리 인상을 시사했다.",
+        "이는 경제 지표에 따라 조정할 수 있다는 입장을 밝혔다.",
+        "금리 인상 전망은 시장에 큰 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금융주가 금리 인상 우려로 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 +10bp"
+      ],
+      "coverage": 7
+    },
+    {
+      "id": "n_a2c770dd",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "연준, 금리 인상 조정 가능성 언급",
+      "preview_ko": "연준이 금리 인상 조정 가능성을 언급했다.",
+      "published_at": "2026-11-12T21:03:43Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUQyM3Nob1JwMmZBS1JHN1FtZ2h5eTZFWlpZWkJ1Tm9XRlByR2lJWEZkdjJKcVVYbklvMW9GekZ5RDZDQU5KRkVaVHZzN2d6cm5NQTEzWlNtQkNGWmw2dXNJN2hvMFBwenUzdFZDLURfM2JsRVBmckhzY2FZRVJPemM5S0ZIX1BqQzFrbW1wN3lxdw?oc=5",
+      "summary_ko": [
+        "연준의 다리 총재가 금리 인상 조정 가능성을 언급했다.",
+        "이는 향후 금리 정책에 대한 불확실성을 증가시킬 수 있다.",
+        "금리 인상에 대한 시장의 반응이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bfe079f3",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 국채 매도 가속화, 유럽 채권도 동반 하락",
+      "preview_ko": "미국 국채 매도가 가속화되고 있다.",
+      "published_at": "2026-11-12T20:53:00Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0VSTVFyMVRIR1EtM1J2eWU0MW45b3BmWVMwTWRwbmQzcmhvVlBuTEFQNWowTEI2SUd2cngzbmZ3VXMwYTVxc2NaSTg0WnZ4VndDaHVGNWZGcFcxN1NOUWsyMHd2RTJVNjJqZ2JiQy1XRDNpM2VGRFpiX1RVaTBnM01FSTVLUXJOYkFSRnhKaFBhNzZfUUZsZGJTWlBZbjRxV29UR0k5NVJ5U3ZVdXpYZ2NLeVlKb2ZC?oc=5",
+      "summary_ko": [
+        "미국 국채 매도가 가속화되고 있다.",
+        "이는 금리 인상 우려와 관련이 있다.",
+        "유럽 채권 시장도 영향을 받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_83bd6c78",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Euro falls to 19-month low as dollar strengthens on hawkish Fed outlook",
+      "preview_ko": "",
+      "published_at": "2026-11-12T20:36:00Z",
+      "source": "Economies.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQTlDaG02cDZhLUktZFU5M3hseXpObUZuUV9EN3BqdkJmeXVHNVFTRk1vbzBEc1A5RHhsQ1g0NjNYbnd0OXpPQmR6b2JndURoaHNPNi1jV0xGSW8yalRITFJuV3JtY3N1N1BDcktqTmdGbFhCa19nQ1dCMHdrdDlEWTNzaGFnTFNzVHhMal9oRFd3aU1GZnRMODloaGd2QXVMODl5OHRGQWpwWlNhTlduaXZsdWdVaFVOc3lnV2ZVdi0?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_779fdd76",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Fed Likely to Raise Rates Again, SF Fed President Says, Citing Sticky Services Prices",
+      "preview_ko": "",
+      "published_at": "2026-11-12T20:05:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1naTFJVVlpXy1VX2YyaEFmanY5YVR2TTYzc1dIZldDT1NkZ2s1YjNIR1F3TWtBMU8zSFdveWo3ZXFmVWxvSDZTbnM2MXJEQlh1TVMxWlFaUE45U1FQTWFJbmVZM1NNd05zTTYzNnNFNlRhaGhXNWc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f01068ca",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Goldman Sachs Makes Stark Fed Rate Call for 2027",
+      "preview_ko": "",
+      "published_at": "2026-11-12T19:44:32Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOekZ0ZzRoNy14SDd3YXRaLUV1ajE0bVpMbnk2MGdnT0ZjcGNLUkZXSWJ2OUdBRS1EdGtMUGpoLTN4UmNLcExQM0tSTENsX09SM0R5aGhMSGhaeGd6YmlKMTlmZFAxaDZIVk9Tc0FWV1JTeWtERmZ4S3lLY1ZEeU9lZ0pvbWVNMU13Z282T0w1TWxydEtiR0hURXdoZWJYUWZwQm5sVEFlZnZINTlw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_19836d26",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "모기지 금리 7.5%로 급등, 미국 주택 판매 16년 최저",
+      "preview_ko": "모기지 금리가 급등하며 주택 판매가 감소하고 있다.",
+      "published_at": "2026-11-12T18:49:55Z",
+      "source": "파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RMEhNV2NFa0FLeF9IaWlDM0htMEdqaElFbU93emIxN1JKNVVMUy10cFd5SHIwSnRXZGJvVW5VTHduNXFzX3pMbzFjNGhtQnc3aWJJd3NpRGM?oc=5",
+      "summary_ko": [
+        "모기지 금리가 7.5%로 급등했다.",
+        "이로 인해 미국의 주택 판매가 16년 만에 최저치를 기록했다.",
+        "주택 시장의 위축이 우려된다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 부동산 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_faddc04c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Federal Reserve to Forgo Rate Decision at October 2027 Meeting",
+      "preview_ko": "",
+      "published_at": "2026-11-12T18:33:00Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkZiVk1uU2k5a1RQRGUxdFBJMEcxSVhtWEJfR0s3Q3E3T185OXRrZHRZMDVsQlhTdVpIbVlfQnNPem4zbGlTMDR6elFDRlM3RzhETUhCVzlTTDJvWmtfQzctcUFhRXZsVmxpVjBQUXpXTkRUTThQNVJwQV9YX19qaTZGVGswRGF1N2d0dktsZW5DVHlFWVNENmtQaERZYm5ZTmREdm8tMzVjX3ZCQUdqbTFCbWktdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7d50c061",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "연준 금리 인상과 시장 영향 분석",
+      "preview_ko": "연준의 금리 인상과 시장에 미치는 영향 분석.",
+      "published_at": "2026-11-12T18:17:14Z",
+      "source": "GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUnJUc1cxbHYyNjBqdFpiU0hrNW14WTNHQ2QtYWhsRk9veUp1Y3A0WmcxU0tZbzNENFRUamdkaVl2QmVvZXNtWW9ET3Ricl9FV2VpRXo0V0pOWGFGSUExT3QtWUtPcjVWWjZTa201VGZIME13czFyUTBHLXJBcTB0cmJOWk1QNWRFM3JTNk9tcVByaWp3bG5GQm1fZG45alNXYVpPNmVBRlhMTDRJV2EtM1c0QzRldGQzS245WHRrekZSWVhxWktjVGxB?oc=5",
+      "summary_ko": [
+        "연준의 금리 인상에 대한 시장 반응을 분석한 기사이다.",
+        "금리 인상이 시장에 미치는 영향에 대한 통찰을 제공한다.",
+        "투자자들에게 중요한 시사점을 제시한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 미치는 직접적인 영향은 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cddc76c6",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준, 2027년 금리 결정 회의 축소",
+      "preview_ko": "연준이 2027년 금리 결정 회의를 축소한다.",
+      "published_at": "2026-11-12T18:13:12Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXdsS0JxeG5ib1B5VXJoMXQtYUktZVVTWnUwQTlITkkwTjI5VWFBR0Q1RHhWN2tUZGlDVklTOGRTejA2YVhiWDUwcWYySVdwR0tiakQ0dHBfUENJSnFnZHJvSjBoVTh1ZHN6ZzlHZ0dtamRxcllkODRZMzRTVU5mVlZZVVQ0UnVKbjdWQ0ViRWNHUUFvb1JiRHVNOEI?oc=5",
+      "summary_ko": [
+        "연준이 금리 결정 회의를 줄이기로 결정했다.",
+        "이는 향후 통화 정책에 영향을 미칠 수 있다.",
+        "시장 반응이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 미치는 직접적인 영향은 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b166378e",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "고수익 채권, 수익률을 고려하면 비싸지 않다",
+      "preview_ko": "고수익 채권의 가격이 수익률을 고려할 때 비싸지 않다는 분석.",
+      "published_at": "2026-11-12T18:02:22Z",
+      "source": "Penn Mutual Asset Management",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYU1aaG1DREhUbVNqb2REYzlSVE1sMnlUQWdwUlFJaTM0U2QzVFVmTkNvdVpiZnhSclloNzdLdUI2S1N4eElsQXBwTTlMSVI1U1dGRmNYNlhjeE1OT3ZKSVRsTUdLWGN5T2VqbmVEajhJYloxdGtvRzZra1hKdUhnZFV1WWxQR2tObzdBNnlGQktIU2tqOE90ZkxoeXh6ODR3TUxEaFIwSzU2a0xtb1NObUFxb2VSSWkyWDhBcVhpVExidEVjUUptbmZlUjc0dEpWRmhNaA?oc=5",
+      "summary_ko": [
+        "고수익 채권의 현재 가격이 수익률을 감안할 때 비싸지 않다는 분석이다.",
+        "투자자들에게 유용한 정보가 될 수 있다.",
+        "채권 시장의 동향을 반영한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장에 미치는 영향은 제한적."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_df7fcd35",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Mortgage rates hit seven-week low as Fed hike threat grows",
+      "preview_ko": "",
+      "published_at": "2026-11-12T17:50:25Z",
+      "source": "Mortgage Professional America",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSGRKM1JxbE9MQlVubDkyaERVemEwR2M0bkxOMTV6NnAyUU1LWEFGUVQ0SThVODZFbzNIMjUxbU9OdExYRnVaenFGT0VnVTRfbnYwOFJDeGs2SmozRjBhYVJMM0NaRG1kcjZldnc1aXNGbHRNUVNFYThZR182czRfWnYySGJOSHRua2xRMWFOTmZ4QVFPcXc0b2hTdFNyZlRCOHh1VkQ3R01TMUpxaFR4NzVOaHdQTHM0UmhVV0dGaXZndw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_18e5807f",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 국채 수익률 상승, 금리 인상 전망 반영",
+      "preview_ko": "미국 국채 수익률이 상승하며 금리 인상 전망을 반영하고 있다.",
+      "published_at": "2026-11-12T17:48:00Z",
+      "source": "Breakingthenews.net",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOWdNbWd3cG9OS2EtRUpMLXoyZW1jU0kwMUswRVh3cE1DTHZDYWJJcWhyLVI2TzFYRGRNT3NzTVowMWRxeFI1U0otS09zMUo2SUhKWVJ4SVJ1bDhWZTFtUkFVeG5VWXNlSUJ4NjVuVU1lWnd5ZllhWDQwLUlZTVZHLTNWVTlPRmE2Nm96QW5rVmhDTlhrQ3Qw?oc=5",
+      "summary_ko": [
+        "미국 국채 수익률이 상승하고 있다.",
+        "이는 금리 인상 전망을 반영하는 것으로 해석된다.",
+        "투자자들의 관심이 집중되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장에 미치는 영향은 제한적."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_82b67a0c",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "부채에 시달리는 미국 소비자, 금리 인상 감당할 수 있을까?",
+      "preview_ko": "부채에 시달리는 미국 소비자들이 금리 인상을 감당할 수 있을지에 대한 우려.",
+      "published_at": "2026-11-12T17:45:00Z",
+      "source": "Howl.Link",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE03Z0JvWUh0blpmX092X2xzb3BZZ2NRRkhXMmxDVzNZcU1BYW9Cb0xMcGpMUllQTk9Gc01B?oc=5",
+      "summary_ko": [
+        "부채에 시달리는 미국 소비자들이 금리 인상을 감당할 수 있을지에 대한 우려가 제기되고 있다.",
+        "소비자 신뢰에 영향을 미칠 수 있는 요소이다.",
+        "경제 전반에 미치는 영향이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 소비 관련 업종에 미치는 영향은 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_40f1d626",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 30년 모기지 금리, 7.11%로 하락",
+      "preview_ko": "미국 30년 모기지 금리가 7.11%로 하락했다.",
+      "published_at": "2026-11-12T17:37:42Z",
+      "source": "Boston Herald",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zNjRSTW5WX2RoM2VWSWhnbG1hU1VFekszcW14SHB4RkREZjAzU2tJYXBEclBDN1M5cmdzbHRYb0ZmRlVqWDhqZl9qdlVWRktvZEhDNF9fcjU2bEREc3k2Uk9jcExEZXhNLUUyRktmaw?oc=5",
+      "summary_ko": [
+        "미국 30년 모기지 금리가 7.11%로 하락했다.",
+        "이는 주택 시장에 긍정적인 신호로 해석될 수 있다.",
+        "모기지 시장의 동향을 반영한다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 주택 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_23bb1d45",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "강한 고용 데이터로 국채 수익률 상승",
+      "preview_ko": "강한 고용 데이터가 국채 수익률 상승을 이끌고 있다.",
+      "published_at": "2026-11-12T17:14:45Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTjNsSlBvQ2VnWnZFM1RMRHEyUjM0RnlaRnByUDlZajM3VWFvSjMzeU1QYXktM0llSmtNRTQ4aGNkWFdYVnR1S2w5TXhiM1dlbWxaZk5UVy1tcFd0TnVUOXh6N1FfdlcxTDZxaWN1TWVYNE9GOTcydWJ2RmpkUnpkdmNxcGF5ZUVnR0RiT09lYklIUU1DbklyQzM5cUZHZFNJSVEzVTNKZkE?oc=5",
+      "summary_ko": [
+        "강한 고용 데이터가 발표되며 국채 수익률이 상승하고 있다.",
+        "이는 금리 인상 전망을 강화하는 요소로 작용한다.",
+        "시장 반응이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장에 미치는 영향은 제한적."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 +10bp"
+      ],
+      "coverage": 1
+    },
+    {
+      "id": "n_488c3d82",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "연준, 인플레이션 대응에 어려움 직면",
+      "preview_ko": "연준이 인플레이션 대응에 어려움을 겪고 있다.",
+      "published_at": "2026-11-12T17:14:35Z",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDR2FBVnZjdTZUR1ZQSjRQLXBkamFfVVZiQjFxb016UE1oWS1qTl9Ha0ZPeEpaMGs3TXJMbV9sRGtickN1YkxzSTc0QVR2X2NnWGRMSXNrVG0wSWEyMktzVWRkWmhidzZMNXZzZkZNN3dXTms?oc=5",
+      "summary_ko": [
+        "연준이 인플레이션 대응에 어려움을 겪고 있다는 분석이다.",
+        "이는 금리 인상 가능성을 높이는 요소로 작용할 수 있다.",
+        "시장 반응이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 미치는 직접적인 영향은 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d4409037",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "달러, 금리 인상 기대감으로 19개월 최고치 기록",
+      "preview_ko": "달러가 금리 인상 기대감으로 19개월 최고치를 기록했다.",
+      "published_at": "2026-11-12T17:12:53Z",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjRlelR1UzlGQUdPWFRNZS1uTVc2aEs0MkV4a1h4MFRsYnZGd3EzazRadi1CLXNUMURkVlVvUUtkS2QtYTRTMVFBUFpWSV9RbmFIV2RrWkNZVFlIblBqMFczc0tzRDM2NEtGYlVraVVnM3BscGJ3RUNrR25Ud3A5TmdpNXZULUVXd0E?oc=5",
+      "summary_ko": [
+        "달러가 금리 인상 기대감으로 19개월 최고치를 기록했다.",
+        "이는 글로벌 시장에 영향을 미칠 수 있다.",
+        "환율 변동에 주목할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 환율 시장에 미치는 영향은 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    }
+  ],
+  "calendar_actuals": [],
+  "total_batches": 15,
+  "failed_batches": 0,
+  "picked": [
+    "n_283eae33",
+    "n_ce3214a6",
+    "n_6c0fcdb9",
+    "n_23bb1d45",
+    "n_d5be6039",
+    "n_ded57551",
+    "n_99fc1b16",
+    "n_8d883681"
+  ],
+  "notes": [
+    "5 summaries replaced by titles: numbers not in article"
+  ],
+  "llm_usage": {
+    "gpt-4o-mini": 57733,
+    "gpt-5.5": 12188
+  }
+}

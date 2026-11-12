@@ -1,0 +1,254 @@
+{
+  "themes": [
+    {
+      "us_ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 5.86,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "Nvidia CEO의 사임 소식에 AMD 주가가 급등했다.",
+      "related_news_ids": [
+        "n_d5be6039",
+        "n_53c406c3",
+        "n_ef0dfd2f"
+      ],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "supplier",
+          "relation_ko": "HBM 공급"
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "HBM 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "change_pct": 5.54,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "Nvidia CEO의 사임 소식에 AMD 주가가 급등했다.",
+      "related_news_ids": [
+        "n_d5be6039",
+        "n_d729da0d"
+      ],
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "mapping_source": "auto",
+      "mapping_reviewed": "2026-11-10"
+    },
+    {
+      "us_ticker": "CEG",
+      "name": "Constellation Energy",
+      "change_pct": 2.79,
+      "theme": "원전 · 전력",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "034020",
+          "name": "두산에너빌리티",
+          "link": "same_theme",
+          "relation_ko": "원전 기자재"
+        },
+        {
+          "code": "052690",
+          "name": "한전기술",
+          "link": "same_theme",
+          "relation_ko": "원전 설계"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": 1.69,
+      "theme": "전기차 · 2차전지",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "373220",
+          "name": "LG에너지솔루션",
+          "link": "supplier",
+          "relation_ko": "배터리 공급"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "link": "same_theme",
+          "relation_ko": "양극재 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "VRT",
+      "name": "Vertiv",
+      "change_pct": 1.52,
+      "theme": "데이터센터 · 전력 인프라",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "010120",
+          "name": "LS ELECTRIC",
+          "link": "same_theme",
+          "relation_ko": "전력기기"
+        },
+        {
+          "code": "267260",
+          "name": "HD현대일렉트릭",
+          "link": "same_theme",
+          "relation_ko": "전력기기"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "GEV",
+      "name": "GE Vernova",
+      "change_pct": 1.27,
+      "theme": "데이터센터 · 전력 인프라",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "267260",
+          "name": "HD현대일렉트릭",
+          "link": "same_theme",
+          "relation_ko": "동일 업종"
+        },
+        {
+          "code": "298040",
+          "name": "효성중공업",
+          "link": "same_theme",
+          "relation_ko": "동일 업종"
+        },
+        {
+          "code": "010120",
+          "name": "LS ELECTRIC",
+          "link": "same_theme",
+          "relation_ko": "동일 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    }
+  ],
+  "proposals": [],
+  "auto": [
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "theme": "AI 반도체 · HBM",
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_62176b38"
+      ]
+    },
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "theme": "파운드리 · 첨단 공정",
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "reviewed": "2026-11-09",
+      "news_ids": [
+        "n_910067d6"
+      ]
+    },
+    {
+      "us_ticker": "META",
+      "name": "Meta Platforms",
+      "theme": "디지털 광고 · 플랫폼",
+      "kr_stocks": [
+        {
+          "code": "035420",
+          "name": "NAVER",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        },
+        {
+          "code": "035720",
+          "name": "카카오",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_acf96c12"
+      ]
+    },
+    {
+      "us_ticker": "ORCL",
+      "name": "Oracle",
+      "theme": "클라우드 · 기업용 소프트웨어",
+      "kr_stocks": [
+        {
+          "code": "018260",
+          "name": "삼성에스디에스",
+          "link": "same_theme",
+          "relation_ko": "클라우드"
+        },
+        {
+          "code": "035420",
+          "name": "NAVER",
+          "link": "same_theme",
+          "relation_ko": "클라우드"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "news_ids": [
+        "n_34cd832a"
+      ]
+    }
+  ],
+  "listing_checked": true,
+  "rule_ko": "S&P 500(−0.35%)보다 1%p 이상 오른 종목만",
+  "excluded": [],
+  "notes": []
+}
