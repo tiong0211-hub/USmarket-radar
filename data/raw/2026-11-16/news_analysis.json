@@ -1,0 +1,1816 @@
+{
+  "news": [
+    {
+      "id": "n_b72b37f4",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "이란, 바레인 공격으로 미군 기지 압박",
+      "preview_ko": "이란의 바레인 공격이 미군 기지에 압박을 가하고 있다.",
+      "published_at": "2026-11-15T19:11:23Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html",
+      "summary_ko": [
+        "이란의 바레인 공격이 미국의 군사적 긴장을 높이고 있다.",
+        "이는 미국 내 정치적 압박을 증가시킬 가능성이 있다.",
+        "전반적인 지정학적 리스크가 커질 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4cc22cf1",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "캔자스시티 연은, 인플레이션 우려 표명",
+      "preview_ko": "캔자스시티 연은 총재가 인플레이션 우려를 언급했다.",
+      "published_at": "2026-11-15T19:04:06Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/fed-has-some-work-to-do-on-inflation-kansas-city-fed-chief-says.html",
+      "summary_ko": [
+        "캔자스시티 연은 총재가 인플레이션이 2% 목표를 초과하고 있다고 언급했다.",
+        "추가 금리 인상은 언급하지 않았지만, 인플레이션이 잘못된 방향으로 움직이고 있다고 경고했다.",
+        "이는 미국 경제에 대한 우려를 반영하는 발언이다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리 인상 우려가 커지는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 2
+    },
+    {
+      "id": "n_389a713d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "'We slept here': Flight delays linger but schedule is back on track for Monday",
+      "preview_ko": "",
+      "published_at": "2026-11-15T18:22:23Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_90efe7ab",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
+      "preview_ko": "",
+      "published_at": "2026-11-15T18:15:14Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_818dc1b6",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+      "preview_ko": "",
+      "published_at": "2026-11-15T18:10:18Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fede03bc",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+      "preview_ko": "",
+      "published_at": "2026-11-15T16:56:40Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_921b12fc",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "AI 관련 주, 이번 주 주목할 만한 주식",
+      "preview_ko": "이번 주 AI 관련 주식에 주목해야 한다.",
+      "published_at": "2026-11-15T15:26:20Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "summary_ko": [
+        "엔비디아와 앤트로픽이 AI 관련 주식에서 주목받고 있다.",
+        "이번 주는 AI 거래에 중요한 주가 변동이 예상된다.",
+        "투자자들은 이들 기업의 실적 발표에 주목할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 업종의 반응을 확인."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_abbe9133",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "preview_ko": "",
+      "published_at": "2026-11-15T14:30:01Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e72f9af7",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+      "preview_ko": "",
+      "published_at": "2026-11-15T13:58:06Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/15/judge-temporarily-blocks-trumps-dc-public-golf-course-redevelopment.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_27f1bc5e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "I'm a psychologist who studies couples—5 signs you've fallen into a common rut: 'It builds through small habits that each look harmless'",
+      "preview_ko": "",
+      "published_at": "2026-11-15T13:48:01Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/make-it/2026/11/15/couples-coexisting-without-connecting.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9a2034b6",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 리더십 혼란이 AI 수요에 미칠 영향 분석",
+      "preview_ko": "엔비디아의 리더십 혼란이 AI 수요에 영향을 미칠 것으로 보인다.",
+      "published_at": "2026-11-14T17:46:06Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "summary_ko": [
+        "엔비디아의 리더십 혼란과 민주당의 의회 통제가 AI 수요에 영향을 미칠 수 있다.",
+        "ETF 전문가들은 이로 인해 다른 빅테크 주식과 경쟁 칩 제조업체에 유리할 것이라고 분석하고 있다.",
+        "AI 산업의 변화가 예상되며, 이에 따른 국내 관련 업종의 반응이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 및 AI 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_90e0a44e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "preview_ko": "",
+      "published_at": "2026-11-14T15:50:43Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cafdcfb9",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "난방유 가격, 지난해 겨울보다 59% 상승",
+      "preview_ko": "난방유 가격 상승이 가계에 큰 부담이 되고 있다.",
+      "published_at": "2026-11-14T14:30:01Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "summary_ko": [
+        "난방유 가격이 지난해 겨울보다 59% 상승했다.",
+        "지속적인 인플레이션으로 가계 예산이 압박받고 있다.",
+        "주민들이 난방유 요금 지원을 요청하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 에너지 관련 업종의 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_4445b1a5",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "뱅크오브아메리카, 상승 잠재력 큰 주식 발표",
+      "preview_ko": "불확실한 시장 속에서도 상승 가능성이 있는 주식들.",
+      "published_at": "2026-11-14T14:13:51Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/stocks-with-upside-potential-in-an-uncertain-market.html",
+      "summary_ko": [
+        "뱅크오브아메리카가 상승 잠재력이 큰 주식들을 발표했다.",
+        "시장 불안 속에서도 여전히 상승 여력이 있다고 전했다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_38c78f2b",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 중간선거, 캐나다 주식에 긍정적 영향",
+      "preview_ko": "캐나다 주식이 중간선거 이후 1% 이상 상승했다.",
+      "published_at": "2026-11-14T14:11:48Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/canada-stocks-us-midterms-tariffs.html",
+      "summary_ko": [
+        "미국 중간선거 이후 캐나다 주식이 1% 이상 상승했다.",
+        "S&P 500은 같은 기간 0.5% 하락했다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c3b558a2",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+      "preview_ko": "",
+      "published_at": "2026-11-14T14:02:39Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_544569cd",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "소매업체, 고객 유치를 위해 엔터테인먼트 투자",
+      "preview_ko": "소매업체들이 고객의 관심을 끌기 위해 투자하고 있다.",
+      "published_at": "2026-11-14T13:00:01Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "summary_ko": [
+        "소매업체들이 고객의 관심을 끌기 위해 엔터테인먼트 스튜디오에 투자하고 있다.",
+        "관심을 끌기 위한 경쟁이 치열해지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f8e3a267",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 리스크가 금융 시스템 최대 위협으로 지목",
+      "preview_ko": "AI 관련 리스크가 금융 시스템에 미치는 영향 주목.",
+      "published_at": "2026-11-13T21:18:30Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+      "summary_ko": [
+        "AI 리스크가 금융 시스템에 가장 큰 위협으로 지목됐다.",
+        "월가가 AI 관련 기업의 급등에 긴장하고 있다.",
+        "데이터 센터의 급속한 확산에 대한 경계가 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 업종의 리스크 요인 확인 필요."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_56336ba5",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 CEO 사임, 중국과의 관계 논란",
+      "preview_ko": "엔비디아 CEO의 사임이 업계에 미치는 영향 주목.",
+      "published_at": "2026-11-13T17:06:57Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+      "summary_ko": [
+        "엔비디아 CEO가 사임하며 중국과의 관계가 논란이 되고 있다.",
+        "그의 사임은 회사의 이미지에 부정적인 영향을 미칠 수 있다.",
+        "중국과의 기술 유출 문제도 제기되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 엔비디아 관련 주가 영향을 확인할 필요."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_22fe4633",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+      "preview_ko": "",
+      "published_at": "2026-11-13T15:44:16Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4adcecd3",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 리더십 위기, 경제적 영향 우려",
+      "preview_ko": "엔비디아의 리더십 위기가 경제에 미치는 영향 주목.",
+      "published_at": "2026-11-12T23:08:50Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "summary_ko": [
+        "엔비디아의 리더십 위기가 경제와 금융에 광범위한 피해를 줄 수 있다는 우려가 제기됐다.",
+        "회사의 다른 기업들과의 관계가 중요한 변수로 작용할 수 있다.",
+        "AI 중심의 경제에서 엔비디아의 역할이 시험대에 올랐다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 및 AI 관련 기업의 주가 영향을 확인할 필요."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_05b92b8d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:30:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_26186779",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:01:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3c435550",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f2483a4f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T16:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8956f4d4",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+      "preview_ko": "",
+      "published_at": "2026-11-15T15:22:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_93f92bb5",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T15:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d842a4d0",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 실적 발표, 역사적 중요성 강조",
+      "preview_ko": "젠슨 황의 사임으로 실적 발표의 중요성이 커졌다.",
+      "published_at": "2026-11-15T15:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "summary_ko": [
+        "젠슨 황의 갑작스러운 사임으로 엔비디아의 실적 발표가 역사적으로 중요해졌다.",
+        "투자자들은 이번 발표에 큰 관심을 기울이고 있다.",
+        "회사의 미래 방향성에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 실적 발표에 대한 시장 반응을 주목할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_96ecadd8",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 IPO, 시장에 미칠 영향은?",
+      "preview_ko": "앤트로픽 IPO가 시장에 미칠 영향에 대한 논의가 있다.",
+      "published_at": "2026-11-15T14:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
+      "summary_ko": [
+        "앤트로픽의 IPO가 미국 주식 시장에 미칠 영향에 대한 우려가 제기되고 있다.",
+        "과거 스페이스X의 IPO와 유사한 상황이 반복될 수 있다는 분석이 있다.",
+        "시장 전반에 미치는 영향에 대한 논의가 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장과의 직접적인 연결 고리는 약하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_70ab06b9",
+      "category": "theme_earnings",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 CEO 젠슨 황 사임, 주가 급락",
+      "preview_ko": "젠슨 황의 사임으로 엔비디아 주가가 급락했다.",
+      "published_at": "2026-11-15T21:00:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaFpwMHBHOFV1MGlTNjNSTDdpcFplOWZZTS12a25wak1qTHJwNEZWX2w3WkxPUFpLMlJYNUkwajlWZ1pPWFVaODFjTDJval9PT3QyTmRqN0FyeTZ6U29VanRSTUtxdVE2bVplTFF6N0FfMU43dzhwRURIOWVDNGl4MjdNX3FtZ0dGV0ljMGJzenFmM19TeHRiQ2FPOWM3QnRVV0poOXBFVnFXMHBycGpxakJtbkwtczBONXNKekxsdTNUclBMUlE?oc=5",
+      "summary_ko": [
+        "젠슨 황의 갑작스러운 사임으로 엔비디아의 주가가 급락했다.",
+        "이번 사건은 회사 역사상 가장 중요한 실적 발표를 앞두고 발생했다.",
+        "투자자들은 향후 대응 방안을 고민해야 할 시점이다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 주가 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 5
+    },
+    {
+      "id": "n_be199d69",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "젠슨 황, 엔비디아 복귀 고려 중",
+      "preview_ko": "젠슨 황이 엔비디아 복귀를 고려하고 있다는 보도가 있다.",
+      "published_at": "2026-11-15T20:59:12Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZVdZcFBSMGkxLVlwRWhHVDNnSkxsLThrQlBNYUJWbVpoWlg3a0w3amZPZ1RwQUVPVkUxemVxSVdXdVRIUkRHcy13enFGM3NiU1ZXOU5YaVA0M2g2amk0T0NSSW1QREc5bUhzbEJMOURZMXhoR3ZIVHFzaWQtMHVQT3lOSkpDTFhHb1NLMU8zR0xvMjRJbmRGZzhEbHE5WUY5N0l1MnFfWQ?oc=5",
+      "summary_ko": [
+        "젠슨 황이 엔비디아 복귀를 고려하고 있다는 보도가 나왔다.",
+        "그의 복귀가 회사에 미칠 영향에 대한 논의가 필요하다.",
+        "투자자들은 이 소식에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 불확실성에 따라 영향을 받을 수 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_67957470",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "주택 판매, 16년 만에 최저치 기록",
+      "preview_ko": "주택 판매가 16년 만에 최저치를 기록했다.",
+      "published_at": "2026-11-15T20:45:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1FUMkpGRlY3YlhkNk9uZUFEMjB2MUNLaERsR2N6RTBHVm1IOHYyaVRGRmhuUzJUdDE2STE3LWZGN00tODhwUXJITmJZc2VaMkx1dTlnNldSbGMxSGxOaFhZbVE3TTJJNTZFUnlwcWFQNnlpeU5pYTZRN0tyak5kcDd0dnlQRHg0eldJN0JzSnd1WlAxSnRUVkxROXlSVVNhNTd2NU5MNVdSRF9W?oc=5",
+      "summary_ko": [
+        "주택 판매가 16년 만에 최저치를 기록했다.",
+        "이로 인해 홈디포와 로우스 투자자들에게 영향이 있을 것으로 보인다.",
+        "주택 시장의 변화가 주식 시장에 미칠 영향에 대한 논의가 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 건설업체의 주가에 미치는 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_d0fd3e11",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:30:08Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHcxUGNoYnF1dFlaNkd4cEdtYWxxbEhDbE9EcmJyUTg3NFJsREZTY0JxZS1CUmJRZEhteS03UHBEU1pQZEY2bUZXLTZyaXFseDlBdU40MmtiMC1tX2h3Yjl3Q3VfWi1maEU0TWpUM1luS0p1c0puUmRqaXc2OEpPOUg1bmhTNmZUQkhaNGRwMk1GNmJ4MDVJNE1mc3JLenJ6TWg0eEpIUGZPdW1tSmYybXdzNDdncV9mQ1lNb2Ewd0tVRmRwc0hTeA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_78ffd56f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Prediction: This Will Be Micron's Stock Price by Late 2027 (Hint: Wall Street Expects 106% Upside)",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:30:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWjFuRWlHczk3YnFyaEhaRVU2bEw3dnpQMUhCZllBNjlQQzk1RENNM0dNeFU3WTdsYXVYX3pqYWI5RVo1YWdadmtDbkRCZmxWdVc2VlNVcW1ndm1NTE1XQVZPQmoyQlQtYWJSYjA3Q1Fnc2lMQlN6M2pEU0FQdmNIbjdzd0l4WGJXeU1STF9B?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_294a2b8a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Why It’s Time to Load Up on CoreWeave Stock",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:29:39Z",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlZpUGE3cTV0N2ZfdjBwRFhlbDFGMmpIeVZTNTZvazgzSVJRS3d5czlSSHF0Q2hqdGhEcGVYZ3BCQnlLdElwdHlacmI2X1cxd3Jnd19rWjFsLVFRVXhRQ3VrVFZzZXMwdGtoeU9aRVNiNUNKWGdsNER5X0laRHlEeXU4TXFEU1Q2Q0ZmZ2owRQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0838f761",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "XRP vs Stellar (XLM): Which Could Double First in 2027?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:19:36Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVFRGMzU4aXVlLU5mTjdMd0hpbElUaGk2NVpvYUhrT3d6SmJobERESEZWaERWRE9tSDhkWHV4b0FRT0d0ZW5FWlBzc2UxQnBETnpnVkVGNzZoc3VGOGQ1OTNnbXhtUEx4YmhzdF80b0RKSUJGOWVlN3hWNlNZS185VXozQV83bk1uUTZDOUpUUXhjdFU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_37c02060",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Goldman Sachs’ calm 2027 forecast comes with a catch",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:13:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTk40UDNlOS14bFJYX1puWGwtUG1JeHRuUTJtaDJJUUdIOEthcXBRbXZJcGpoRElDangtMkFTeWEtdS1fUFlqWURoU1BLVHJLNTBxeWRZR1dDLTRmc0ZsNF9EUUxTUWtuZ0UtcUZjZGpIWlRwczdSVzN5WFg4Rzlpai1zaXZyU3NPVFRQNHVMUktxcV9P?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_98d0d61a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "What TSMC Doubters Got Wrong",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:05:27Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3Q0OUdTRGNaR1RLZUFMZDQ0V3BtYk9JUU14RHFQMXRJY0ZubHdhczlRbkJXbzctNlByTVdUOTI3OUpFS1QtNUdncVBmcXVoLTBzY1N0Q1hDWEs5dE82N0l5Nk1DY09rdWJESS1iZ0dDcFdTQ0V1QVhJbGRrcTFYYmJmT2ZZZnYwODVZeVNCYVF3Zw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fe631987",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "DT Midstream (DTM) Stock Trades Above Fair Value After Its 212% Run",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:05:19Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNW1fYV9lT0JXakp3X2xxeFdNc1ZaVTFQTE9kZHNZLUlYRkxzOU5rcVJiTTd1Y0RPQkhMd3dKcGJ6Y1d0NXhwdk12SHRlYXAxdUl3WUtMRjd5akZoM3VXY2JpbDNwWDNlRVIyLUdPQzhUTXhOVHFiTGpIaTV2emRGbGJnSnlneDJPeS1qd1RzSFk2THVtaWZZejdB?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7ee86466",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "3 Magnificent Stocks to Buy Before 2027 and Hold for a Decade",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:05:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdmN0RTViRzgwei1NeVItSjFWenBNdW5xVVZjQWZzX0UxNkFJcDFqN29WWVhsa3FjTEtHX0s4RzAwMWZiNktvM2dWd2tINzlHMVhHZHVkelBMOHVQVEl1dFpra0xERzdJNGNhYkk4QzhoNUdpdGZ5dUptV1dHYkVURWRxRlplQUtCYVRrcDAwcWdubkFNckstYnRn?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0259970b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:00:30Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaEN2WGV2eGN2N09WTklpX0V2SXpjSm1faWtJV29FRGFyamxWdmo0MzBVQ00zSUYzTE1WVHcyZGFDMFctZ21aeDZIQWpOeDFrNUZHZjJCYW9VVU9VdjNScnQyT1YwUldFY190Y1lBVFQ3NEk1YUtlYng4NEVFMkRybF95QXFLQzktQnQxNVpxRVFCXy12eVp1RVItc01ZNXRFSjA2T0RwY1RiUEtQa1dDZXc4SzRuaTNpOVo0bFlsakItTDNvalR2V2VmT29ZWU1WaHJHLUxhcUFLbW1sWkRXUXhoNmU4YnJudWJ6UWtQRDcySDlFWkx5X29XOVBFRmM?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5c0cde92",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Boeing Is Handing 3 Businesses to Archer Aviation and Closing a $131 Billion F-15 Order. Here’s Which Stock Gets the Better Deal.",
+      "preview_ko": "",
+      "published_at": "2026-11-15T20:00:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQUlA0Ti1sUnR4ckZOZDFLS1R2OHpPRVdNVUxjcWlEbEtvUEdxSlR1MWM4Slp2VnRTMW5QVFhybWUtSVdDTzVFeVJUZ0JiajBBaUZuWXpYMVZjQVV0VDdNWkR0TFpCaGppVGFnQmRlNjlsdE1FQmVSX0IxSVNNSzBiS1BSa19wZU1oZUQwOTNRdERBZlhOaGdiU2wwazc0SDByTU80N1drd29RUEd1WXlSbDhUZUk1ejhoQ05Wc21kZHJ2RDJuTTR3N1lXakhiaEhfbDIzM3dpRTlkWVg3VVRBWFRiWGhVLXM1QUNObVg2WjBLY3JxbVlYckpXTWU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_73410659",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "인플레이션이 생각보다 나쁘지 않다는 분석",
+      "preview_ko": "인플레이션이 주식에 긍정적일 수 있다는 분석이 나왔다.",
+      "published_at": "2026-11-15T18:15:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQamg2THpISE12Mjd2MXVidXFTVGlGRFphODdHT2M4SXIyWVdJT3BycDRfRUlrbmxlb2ExSVJZRVdTZU1TOTI3NGExaDlRN0w5MW15ZWd6ZHJpR3RnMTdZSlFLdkc2UUlfNHIzVVVtZTRmOGZfU2FqZzJ2eml0U013c3U5Wi02QWtaODJBVy1uNVNPMWhjSjlxT0N3eUt5YmgxMzUwRVVvUG5JWnZWeHdnWVVubTlHN0JpVGxST3g4SEpoMEp5WWMyNlpXYTZyei1IcC1JTUg2VklNVzdsa2c?oc=5",
+      "summary_ko": [
+        "Vanguard 경제학자들이 인플레이션이 생각보다 나쁘지 않다고 분석했다.",
+        "이들은 이러한 전망이 주식 시장에 긍정적인 영향을 미칠 것이라고 주장했다.",
+        "인플레이션에 대한 우려가 완화될 경우 주식 투자 심리가 개선될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 주식 시장의 투자 심리 개선 여부 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e4a5fcba",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "TKO: 3 Key Takeaways for Long-Term Investors",
+      "preview_ko": "",
+      "published_at": "2026-11-15T18:00:29Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUjNNV3RUV1ZEMDk5MHA1WjN3T0RZbWtub1VLUnFBR3RXWTdVSFIwaE5LOHh4ZjBGcGRvaXk3dFplWGZYN3lPRXZodDFJREVMYkR2bVpxa1RrSnRKa0twOEtuMFNQckZobHEydTQ1YkczQ0UtOVVGWGNXSC1CeTQ0WWNlREhqakNsTmV4bnAwLU93aGM?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bbd565aa",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "BillionToOne: 3 Key Takeaways for Long-Term Investors",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:57:32Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQenRBbzdMZ192U21sY2JpTUpCWVVoTEhwcEU1QlNXd1o2aTdxbnFWcm5mSk5iQkNOMmxrdXJQdVpXUmNicmctUkQ0M0dGNGdsUmpqYXZJeU9HV1pGeHBFVGNEZUhJSnBTWVN6MVRJMHpFQ201VnNCUmk4dVQwd055QXNiMHNFWFV1MTJlNkdrS0hWb0w1cFpNNWRUbVM3N3c?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_237faf9c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Opinion | Rational Investing and Stock-Market Bubbles",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:55:00Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdGRaNkVGX1pVRUpIZlU2SGNDQVJkRE9JbVRFc3pVS1VpOXNPM1dwNGFpWFVrWXZBLXV4Skd6RkIxTTNwZEJFdFB5ck1xNzhwdHV5TFpvcm90U3I4RDRIV1pndmltRmFPdEljZ2xYNlVHOE84aGNlV0l5ZUlCNWN5bko2MmpZYXM?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_38a4685b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Expedia: 3 Key Takeaways for Long-Term Investors",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:51:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNenJiTXpSNW9pQjJaZ0Nsc3hOY3hPcFZyRzdRMEYxdnd6WjVkbkp2TmxVZHRsSXZpbDRsTnBPVWJhMUVVSG1mZ1RMb1lYYnZ6T096VkIydy1xQnRxN19YTGlkZlc5Mk9mRmFKSTJ4OGF0WTVTcHJEXzJKaE1TbkoyNnd1cDFvX3FzbXR6aW1Jdk1MSXh5OVpiclJrVUhJci1p?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8db5a32b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nvidia Reports Earnings on Nov. 17. Here's What Investors Should Be Watching.",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:50:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX21BUzJKcno4QV9IY3F5QVlpNTVYaUVlbmpUeVlzQmdjcUVrQU5ucUNTdEFBaXF2VnBRaWxDcHIzSlJKNGpDdmlNdHJweGJpN1p1cWN3TFVPZmp3Z1BQb29uQjJqSm9ENGZzTEF3a0d1V3NkOWMyMjFhdjQ1UHlBanhhN0gwSU80T19IWEpQWmN4OTk3MkRvY2F6dw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dd13c030",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:28:50Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXBIME9PRGtMQi16RUV2Vk5hRVl4YzZVTmpkWTNKR2JRcV9laXM0cl9fN0k4UWNQTXBqLUxVOTlTODlRN0tQMnAxUFR4YVhjWWp3WE0zM250b05QRHJlZVJUbk12X1RPTUtfQWduTFBCZnRJWm10UXowSGFhNkMwNHBCZ0RYYXoxejg4RzY0bHhGeERqUWdHMHpQcUhOR1E?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_05731fcc",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "3 Beaten-Down Stocks Under $10 to Buy in November",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:20:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR1dTa2F1TlI1UjVFakNoMWRBbHdtMks4ZnJLbkZoQm80NmhmLWwtTkIzWmJldlAwSW1kNHN5eHp3Y3Q4ZkdGWktrRWhHNU04cjljVlNiN0lQM3FQVDU4Rzd3a2NtN0dUTGpuN2YySDEzNHdSeWhCYTR0bVp2NXNtT1dUd2k3N1ZhWmZFNWhSQlhKZnVFWnc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_29e13657",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘Bond King’ Jeffrey Gundlach Is “Not Interested in Buying Stocks.” His Warning Points to 10 Years of Losses",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:12:51Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeTEzLTNZbm9NekZneTdaSFVhQ0ctajRKaFZTWjdLeURCQkwyeFJFQkU2eWRnakJGUHlWdkcxMUIxYS1sOHZxTWtKbkoxdXZhdVVvc2NYMElWb1JmUGpkdzRtSDl6WkxnNFNxMF9Xd281RklZQ1JMaThId2lPWF9qRkVwczFyaHUtaXh4MkRITmNhd08wWTBDdThxUQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f8b6997c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Rubicon Research And 2 Indian Growth Stocks To Own",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:09:57Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0Q1T1hoTnhOV1Y1QTQyZVp6QjVFQkVEVG5lbnFLamV1UjdYSXp3bFZxd3RFYUZkXzNwdkp4RjFoQXVTMTMyd0t6bzFOazBWY3kyczQxaVF3eXVBY0Rvc3FleURaMnFBZkV4dVZYaVN4dDJBNF9lZlZlZEN4RnJqQWJ3WHBFdWhKNzFPN1ZiVDlWdWgzNlNlQmpwVFV5Zw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7c347696",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Eli Lilly Stock: What Its 23% Weight-Loss Combo and 27% Dropout Rate Mean",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:07:22Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSHhMU0VwNldtdHp3VENyYXZxUkZUclA3REdhWEhpMHJhT3lsRDZkc0JGMlBPN2REbGFObnRpZ19heWN0bHc0N1R0VEp4anNLVzRfNVlxZ1NWYURBN3V6V3l3d1VFak0yS2FrOERJc2cwM2RjcEFmam1XLU5FaGxiTDU2WEpOQ0ZMYWtjYzFXNA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_19128391",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Where are the opportunities in the UK stock market?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:06:00Z",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZm11aHZKVWQtM1d2Y2NUcEladklaREctQ1hXcG5PNTBWQjVNRzJsc1VoOHhRQjFnLTdUeDRBTGd6NHNrTjBmYWtOTHVVelduRnBCbmE4WkJWNHdJZTZIZWFGQkxORDE1MFdTSWp0OGUwendaZE1ucDZXOVRfdmNTMkwwTmV1aDN0aEpoRA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e63cc70b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:05:36Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOenV5VVdxS2p1VWNqYW1vVmRrTHZneHBjMHY1emdONWFJSjUyMkk2OVl5cUZpR2xwNEVBQjVsRGhWamV1cjA3MllSX2NVMTZQdjFZS0d3cWp6SDRLdnJBX2pvaE85NHhKeV9uVHdLd2Vsa3BmeUtQeS1UTG1ERl9Qd0hJa0p4VnZwdXU0QnQwc0ppX0t6Y3AtMUZ0ZFM?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c87c43fc",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "1 Reason to Buy Williams-Sonoma Stock",
+      "preview_ko": "",
+      "published_at": "2026-11-15T17:05:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRXRrQnoyaDAtbjdveW1LSVNMT2dFUTl5ak01ZENLb2t4TmpjdENsTVd2UFE2SHg3ZEJwUWJsLWRvYzc5NTNoZUFpN0dBMXhPa0w4a2NiUkRtRW1CTE5ySzBtREE2aVNqWWdpbEJxcXZzSjh0cWZ3bEltc0lXNl9YTXlVUVZHZy00NU82WU9UZTh2QXNURFE2Vw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4e9ab741",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "📈 My Investing Journey: Learning to Look Beyond Stock Prices 🚀",
+      "preview_ko": "",
+      "published_at": "2026-11-15T16:36:00Z",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNkhJTFBlU1VpTHlacmxHOS1MLWlOWHNpQjZHdkVERDE2cjN1YUkzVTRXekNJN2RxaW9IQVJFZjN4aWQ1RUxINjUwcERfSkJCcGF3d3FpdEJnXzZuSzlyM3EyeTk3cEphVEI1Y3dldXRXZTBzOVFidlAzd0pvVU1MeVZmM2R1RHdhNFdMbURfVGpTMXV2U2lPUlUyZ1N4NFQ1MTVQU2Y2R255aG12S091OA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e27a9317",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
+      "preview_ko": "",
+      "published_at": "2026-11-15T16:32:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY3ZvNEVCWU04NnZhRFF0S3h6Z2ZSYUl2cHAwT1gtR0ZRQ0lfdC1GQ1N0ek5iaFM0eDRLVWVJcThwUUNHczRXVzBsb2s0eU5mdVF0QzhHOGxSMndzRlhpQTNwUklabVBSbDFZeHh6ZWRGdWVMM25hTlhIVDJFa0NQcmpOSlc0SlJIUkRabjE3RGhCN1BLY2ZGX1JXeGROdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_86d7c4f1",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "MacKenzie Scott gave Jeff Bezos 75% of their Amazon shares, Blue Origin, and the Washington Post in 2019 divorce",
+      "preview_ko": "",
+      "published_at": "2026-11-15T16:30:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR2R1V2tkdmZwb1NhOHZaMC04YTY3QWkzU0x4d1pKYzl4UWhUenpjdnZITVhtcWpnSXA5S2xmcGdfR01LT2RpUk9sWU1lbUNhY3ZkeTVOZG9JaTIxZXAtMFcxamZ5b0puY3BFRmVWbW13M2pBZ09IdV9PaEwzRER0N1pCSEFGdlJVY1drbG8wZDhsbExJeFV4R2pHTnc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b81061e2",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주가 하락 후 중국 노출 낮은 AI 반도체 주식",
+      "preview_ko": "중국 노출이 적은 AI 반도체 주식에 대한 분석.",
+      "published_at": "2026-11-15T16:09:07Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVFYyR3dpbVo5S3VYRE9DamI3UDRHWGpJaE9zSm9qUzR6aUJUVzNWRDIza2hXeXJkTVlkdmw3MWgxTkU0WTZlX2dRa2MxMHFub1FFUEtRN2NlWDBTYUFxUGtRTjlsdDQ0LWRkcDFvVVZDbVBBblhfd2UySkV2MTlZV094ckVrMDlWMDY0bXhtWQ?oc=5",
+      "summary_ko": [
+        "엔비디아 주가가 28% 하락한 가운데,",
+        "중국 시장에 대한 노출이 적은 AI 반도체 주식들이 주목받고 있다.",
+        "이러한 주식들은 투자자들에게 대안으로 제시되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종의 동향을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c0749708",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "If I Could Only Buy 1 Nuclear Stock for the Next Decade, It Would Be This One",
+      "preview_ko": "",
+      "published_at": "2026-11-15T16:00:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG9nbTlTcHFKY0I4VjNvT08xVlBZUFgyTTFNM0ZweGg0dE5LRU1NR0JrSFQwWnc4MjdKSHFWdmw5cU9rWUxpcXVyX09tZDczR1ZsOXZKVV9Bb3pYdUdDRmtVVUptaXFZZHh0ZXQ2NXdTUVdSOXhfUlhrZDByVGlhWVNMYWF1SUFSamlFUnVLTG9IMEhVYlVvWVVWYnE4U1luVGJnYldxZ0pUVldGOTdidU1QLS1BSTdLSkN3?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_07a6e142",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "2 Growth Stocks Down Over 20% to Hold for 10 Years",
+      "preview_ko": "",
+      "published_at": "2026-11-15T15:50:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS2pZbkpFYjJGV1lBNW9ENTAxNlRIeFJwV0dlVmp5NWM0QktvMEM3RmozYVFRRlByc2xQc2h0aFVPaTNqWk1KNTRMRlVRaEJTYnlWNXllaG5nMmxHcV9zS1hxM0tXNVhrXzAyd1RHWWFtRkh3VWNEZS1MYVBCZ25mR1hHZUFBdEdiWHFOdUFoLXUzWGZT?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c50cf83b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nvidia's Troubles Are a Stark Reminder of This Investing Lesson",
+      "preview_ko": "",
+      "published_at": "2026-11-15T15:45:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOODdHYXM1c0MzeTlFX1ZINExDMjNIb25nNXdkWkMyckFITjA1cE1RX2MzSXMwZE8tUlZ2dlZzLWJRcFZXaXRfRWY4TWpwLTZPSDRsQVdvMElSeGVjNDdZaWF2WWl1d2dJYnhSMUF2YjFOelpseFlQMHk5WDRzT2x2c3Z2NDZLOUgzNEppekdXRWJTZGRXaG16U3F0dkN1eUpNN1VkZFZST3c?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e4d75171",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stanley Black And Decker (SWK) Stock Looks Reasonably Priced On Cash Flow",
+      "preview_ko": "",
+      "published_at": "2026-11-15T14:08:57Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFRsMHpxZTVuVmFmWklzSUY5Sm9Hd2J4TWtVWGFFNEVLMDhDaDFwS3lfTjRmZ2VrQl81bGk3TkY5czZ0Q3BGZ3JKSDhadl9Jc0JBelp2dFRHRmN0S3Nrd1FzMGVqSm5lc1hTZ0g2NklOQmtVaHNPNzJtRy1ESl9aTWVWN1p2UTUxbW53b0l0dkxuVzdRVTZqMnA4UQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6540bd02",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "5 Best Restaurant Stocks with Highest Upside",
+      "preview_ko": "",
+      "published_at": "2026-11-15T13:52:16Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdm5kRHVyU0lxMnBpZlo5VHNkR21KbUNyYVcyRTFXemltV1FtcHd0Z043YVR5azJHMlVHSTlTMkcySjJSRmlvbzRvRzh3aTROTWVlVWM3QzFIdWEtMTJHWlJzb01WNXZvWklPZ1JMWG9KbWp5WmZyOUJrSmJCbDliRk9INmMwWlREUzJxU2RwbjQtNElzTTNSXzZYY1hzQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5b8cc499",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 주식에 대한 월가의 부정적 전망",
+      "preview_ko": "엔비디아 주식에 대한 부정적인 시각이 확산되고 있다.",
+      "published_at": "2026-11-15T13:18:54Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUhad2VoUnU5VjNDX3N6UW5WX1FFaFA1eUU2V1kxX3BTQlpVX2twdVVaUHEtTWozYWZBRzRwbHZ6NE1OdHpQWXV2cml5b2R5bGY0bVk1Y19qM0pFcjk1V1NWUFNuX2lHOUlVLXVpeVRJam9mSjdiMTI2OG1KS3FvcmVQVGV0Uzh0TldXa2NLUmhNeTQtZS1oS3dydFJHTWNDcHdDLUtpakNCcV85eDdKTG15M3hqNnZOUko5RVB3aHhvbEJuVVE?oc=5",
+      "summary_ko": [
+        "엔비디아의 CEO인 젠슨 황의 퇴임 소식이 전해졌다.",
+        "이에 따라 월가에서 엔비디아 주식에 대한 부정적인 전망이 나오고 있다.",
+        "투자자들은 향후 주가 변동에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 부정적 전망에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8832330c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Jensen Huang leaves Nvidia with a $132 billion stake — here's when he can sell and why investors may not know when he does: Chart of the Day",
+      "preview_ko": "",
+      "published_at": "2026-11-15T13:07:32Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNVjJKRThIRnJiTkxmT2NTMlJKbjhMWXhOSlhVcWRDUFNwYXRwUUlwRzJYZ1lJWFpqOVk0RUFqTFRtdmY3cVNscUxMRDVyVFFnLUxfdFoxX29KeW1iODB1d0cwVlVObjlIU3RvaUdDMFpJUzd5OXhfZUZCWkhKZkFRMEl6M3o2S2tIbkVVdngzVE5wcDR2d0Q4eWFqVXZScGlPQmFTTTNsdExXNWNDZXlXdF9UQ3ZfX3lweU1aMU9FOWthV1pYNEJabUNvb0Fna2dnM000dUdJbEFTOWU4UHhtZTExU1VqSi00V2EzUWwyemk3R3FlN3pEeWo1Uy1nU0V5ODhSMlh0SG1pMXpZS2FYLUJ1V1FtLTZDSnFOS3RB?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_eee4dbef",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "How Will the Market React to a Potential Fed Rate Hike in December? Here's What History Suggests.",
+      "preview_ko": "",
+      "published_at": "2026-11-15T12:22:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3daeDNPVnBBam5nRFZiZEltR3lUUU1iUGFLakhvVmJoLVBEbWhiUHRRcnlLcnFjMGtqWEdoOWVEd21QNlpfdzdGc0dhczNQcENxbnNpeHNyMTZtR1FkaEx6aG1RYVNuWGhKSHpFa0Z0R2RYbVNxWlhjbzNmN1RNNDE4d2hCS1h2YWtuWFhrRTJiSzhlNWUtMXZLVGg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bb79b1e3",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "선거일 랠리가 투자자에게 중요한 교훈을 주었다",
+      "preview_ko": "선거일 랠리에서 투자자들이 배운 중요한 교훈이 있다.",
+      "published_at": "2026-11-15T12:15:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUJBV0thU1hNWF95QndMaVVSV1JLbTUwVkpVeDdIZi1KcTlrMEVjWWE2c3VuR08weS1hYjJONmtYV2hsamNaVmlib3VwRGZQNVVDRWluR3ZHYjZ2bnBRREE5a3VpTU4zX0hMUWdxOWpEYmZSaDJYaENXMkFvYkszLWdUSXh3UlJHNUo4ZXZpTmM4bWItbUhQZw?oc=5",
+      "summary_ko": [
+        "선거일에 주식 시장이 랠리를 보였다.",
+        "이러한 현상이 투자자들에게 중요한 교훈을 주었다.",
+        "향후 시장 전망에 대한 시사점이 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dba732f3",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장의 역사적 패턴 분석",
+      "preview_ko": "주식 시장이 역사적으로 보여준 패턴에 대한 분석이 진행되고 있다.",
+      "published_at": "2026-11-15T11:36:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORDk0M3pBZFVxN2dFRjVfakVoM3FOeXI2YXY0ODFqbmtkbXZGdVEyaEs5dV8xWnhNd1V0WWZpOG5rc054aFZOR2RNUXpIVV9aUGprbzBjSUNuQXNpdzBtQlFJd2RGZDFUcDNrc3llMkVpcFl4Q1lTbFQ3YzJBbUN2dmFaWTJheVpha0pDcXRQaTJIb0oyZHQ0Z0pzZEdZemg1ME01dVd0TzY3SGlxTER6MnRNVFpSZ1R2M3NKT2h6TGJIM3BGYk5kTzBCYU5kWEtSUk1DeQ?oc=5",
+      "summary_ko": [
+        "주식 시장이 156년 동안 6번째로 나타나는 패턴을 보이고 있다.",
+        "이러한 패턴이 향후 주식 시장에 미치는 영향에 대한 분석이 이루어지고 있다.",
+        "투자자들은 이 패턴을 통해 향후 시장을 예측할 수 있을 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_76a10d02",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "AI 주식 하락이 미국 주식 시장에 미치는 영향",
+      "preview_ko": "AI 주식의 하락이 시장의 주요 동력으로 작용하고 있다.",
+      "published_at": "2026-11-15T11:15:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTDlSdUFwT1BPM19HSDU1VkpxNzV3bjF6NGJ5MzdPUmhINTFzdnVmeUh0OUtFdUVCNXZkbmhOb0J1S2VnTnJURTN4YzJOVmszYVIxek1lOEpNRkdpZjA0R2FWWFRWM1FEZV94cVpVVXJfOUowNFg4a0Z1T0NtdFZqbTdNZ0s5UnRuZE45UU45TDF5bnRjc0FBcXVJYmdaN0xj?oc=5",
+      "summary_ko": [
+        "AI 주식의 하락이 미국 주식 시장에 큰 영향을 미치고 있다.",
+        "기술 섹터가 시장의 주요 동력으로 작용하지 못하고 있다.",
+        "투자자들은 이로 인해 시장의 방향성을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b42e2885",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Should you buy Nvidia stock right now?",
+      "preview_ko": "",
+      "published_at": "2026-11-15T11:00:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOWk5b2U5UXB0UncwYlJpQWRFZXFLMjZVSE9JS0JtUEVpQ2E3SjBVRS1EdzkwUW9RTWRHbVpEMzhtQldCTXJJZ180aVVUVGg0Q01XN3FhdFMyMGN3TGJoSk1CY1J1Vm9BWEN6dmVpbVotR3NKT3RJNWJJWkY1UllFSUQ1VGtQa0JKV0N4V1J6eHZNc1FwZmk2VmdpbXRJX3BtTWhF?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6ae5f5f8",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장의 폭락과 호황 중 무엇이 먼저 올까?",
+      "preview_ko": "주식 시장의 향후 방향성에 대한 질문이 제기되고 있다.",
+      "published_at": "2026-11-15T08:32:27Z",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVHAwekVlNkp6SklQTmx2UkpLaloybWRTaHpueUl2VldnWWFiZ1MwcElfSVlxRXl4M3lSWFJjQVpSemVYR3VoRWdQd3dnYlZoRGhRY0FSZkExcjFGd0ZIUWRoYTVXNzJpNmVFU0JfTVNMb1FLYlRmLUxadTAwTVBVbGZMWU0?oc=5",
+      "summary_ko": [
+        "주식 시장의 폭락과 호황 중 무엇이 먼저 올 것인지에 대한 논의가 이루어지고 있다.",
+        "투자자들은 이러한 질문에 대한 답을 찾기 위해 시장을 주의 깊게 살펴봐야 한다.",
+        "향후 시장의 방향성에 대한 불확실성이 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b6d46fe0",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "State Street, Pictet Call Time on Europe’s Stock Market Rally",
+      "preview_ko": "",
+      "published_at": "2026-11-15T08:00:00Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMV9OTzctbzluVS1TekxzVnM1UlRVYmFzV0l6aWt5NW1xcDRoQzRvNW4xTGxzTWZLeF9rVDkzbWJITUJNU2Q2SHJ4ZHZHdG1UNEw0X25GN0c0VEhQVllvVDk3bXZvSENDVnYyeUhXSWZlSlE2YXJ3d0dKeG5CajY3RHRDcE02bnM5RVBRTXJ4dXZfWnNjR1N0azdsT2ZtV1RnV3Q2UWZMTVBDVEVyVy1ZZA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_08a44960",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 인플레이션, 금리에 대한 기대감 강화",
+      "preview_ko": "미국 인플레이션이 금리에 대한 기대감을 강화하고 있다.",
+      "published_at": "2026-11-15T21:07:07Z",
+      "source": "getthewordout.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQbVlFT0p4MGd5Q3VXR0hRUFpNMkdxR3ZvMkpDM3gzX3ItM21md21aTF9UcEwzUlZjbDlEVFFvdXdSdTEyZnZJc21SYnpWNklWODBTNkdFRGdzTVNLeGlVVjhkWEU1VVJsMkN0M1RwNW43UjN6eVVnb056VE8wcXVCV2g2Z3kzMWxlbTdkT3dhbk1OeS1KaUxndHNFLXU3c01vWlpnZE5oSTZfUDR1TmtlcE9PRGVWbklqcE9nTHNCQ3VOX0pTcm5kYkRZMU5kWTdxZVFWZnAwTnVfR3Z6WWQxN2pLSTVlTkJqTk11Rm1WcThTS3ZfSG5tLUQ4cG1Cdzg?oc=5",
+      "summary_ko": [
+        "미국 인플레이션이 금리에 대한 기대감을 강화하고 있다.",
+        "이는 금값에 압박을 가하고 있다.",
+        "국내 금 관련 주식의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 주식의 반응 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_511d8060",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "ING, 장기 금리 상승 전망",
+      "preview_ko": "ING는 장기 금리 상승을 전망하고 있다.",
+      "published_at": "2026-11-15T20:23:37Z",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnFJNG81YjZzQmZtX0xyLWNrendrYlBTNXpHUmJETXB4blp3NW55T3NkY2J2enJiaWNfX1RxRnBhYlRFeHhkZDdSTktJNTVvSWRIdE5UZVBSNzhvZnJKVjN2N2NsdUFJeFozRGVnYUlSbnNDaHZxMVlLdnYwTTlxbTN5WEUzUjhlWndnUzBtQVRsZGYwWGpqYUdDakQ3eUp2WGp2UzRR?oc=5",
+      "summary_ko": [
+        "ING는 2027년 초까지 장기 금리가 상승할 것이라고 전망하고 있다.",
+        "이는 금리에 대한 시장의 기대를 반영한다.",
+        "국내 채권 시장의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 +5bp"
+      ],
+      "coverage": 1
+    },
+    {
+      "id": "n_2ecaba57",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "아시아 채권 수익률 상승, 연준 금리 인상 기대감 반영",
+      "preview_ko": "아시아 채권 수익률이 상승하고 있다.",
+      "published_at": "2026-11-15T19:07:30Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
+      "summary_ko": [
+        "아시아 채권 수익률이 상승하고 있다.",
+        "이는 연준의 금리 인상 기대감이 커지고 있음을 나타낸다.",
+        "금리 인상 우려가 아시아 시장에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응과 금리 인상 우려 여부 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_d35c0bfe",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "단기 채권 ETF 비교 분석",
+      "preview_ko": "단기 채권 ETF에 대한 비교 분석이 진행되고 있다.",
+      "published_at": "2026-11-15T18:50:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRDJpTG9LRDZOQmFwaU5oY0JwTFhqc2xkc185d2NQQzBudnF3bWU1eXQ2ZTgxZlpTU3FoblRIUTB5ZDZReVVoQVB5VlRkYkM5eTk4aHVOQjJiVF9VancyTXNlX3N3TDV5LVJyNFN4eG9fX1l0cGZreHdFRnpwWjFCa1oxOUw3bVdyMnIxUlllR3hRWkU1NG53MUpnOTM2RU1UNVh0UEctTDBsNWNNU1lwb0UyRG1wUWxvTXFSbmZTM013WXk0LWdMcTNvRVNORW5mekVv?oc=5",
+      "summary_ko": [
+        "Vanguard의 단기 채권 ETF와 다른 채권 ETF의 비교 분석이 이루어지고 있다.",
+        "투자자들에게 유용한 정보가 될 수 있다.",
+        "국내 채권 투자자들의 관심을 끌 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "VGSH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_43d58e32",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 은 가격 변동성 예상",
+      "preview_ko": "금과 은 가격의 변동성이 예상된다.",
+      "published_at": "2026-11-15T15:11:50Z",
+      "source": "NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQeG5TemhWTm11cmF6TmRpdmxtQ1NneFFJRVlORl9hU3ZpT3ViZWRqcldvalZJSlA2SGJLZVRCR29XaTlYZFlsR01JNy1WNUk5a0JpQlhFaWJuTjFKUmQxODB2eDdlWUFQZHJMR19hTk1aZVZva1F2UmhPTGdhejdZMXFlVGF5WG9Fcm5nd3UwOEU0NjM1TDVuMVp4SG5tSjA1WnExdUtJb2JTOTlYbU5CTDg0eHZwa2htekFSTUJkZXFQSkRwTDc0SFliSWxoWHFXUHFkRTZZXzZXcEZad3I4SFZBcDZpS0llWXhHcG9Tc3RWQk85dlRQVG9UNzlYZ3PSAYcCQVVfeXFMT0psVTJkS213cFRoVFA4S1hKSFVDa2ljYTNubWFQeUxyYllwMllaczM3NWFIekxpcEVmV2ZLcGdvQ3E4V2JBLXJCOFgxWUVxN0JwdjRTdlNsMlJyOC00V0Z3WndPRHExUVRhTE95OUR0UHozOS1vVEJkWHI0Y3FxaHZWdG14Y3piXzVxVUMxdzJMQ3NrRTh0dnVDTVRwOGJqTFZiQjNlaDFzeTVVd0V2bWkyUjVRaVM5dmZHdVNNMGJqckMyTG1GQTZGOEU2dGVnSGNFc3ZRRVRwbHd5MUFkaWVvN3ZBcVRXcUZjYXpDMk5PcnhmcHpVYUpBeU96cjFOMDE4SVpXVlE?oc=5",
+      "summary_ko": [
+        "금과 은 가격이 인플레이션 데이터와 서아시아 긴장으로 인해 변동성이 클 것으로 보인다.",
+        "이는 금값에 영향을 미칠 수 있다.",
+        "국내 금 관련 주식의 출발세 확인 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 주식의 출발세 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_79b71f75",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "America Is Too Big to Bail",
+      "preview_ko": "",
+      "published_at": "2026-11-15T14:47:47Z",
+      "source": "City Journal",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMXzJYeGVUWkg4aFN5elFuSUZHWWJabmRucjRGZ2VZYTlyNU9FTGFPcjZ5aDhHWU9lUGRuYVpKdlhSV29ZZHdXN21vZW5Ga2s0NDkwLUNvamF2SkdteklKUmN4V3B3cDJ4WUFEMl92dEdMNnJDa2s0MDdJWQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dbd40e79",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gold prices drop 4.1% to Rs 1.36 lakh, silver slides nearly 5% to Rs 1.76 lakh on MCX; inflation data, Fe",
+      "preview_ko": "",
+      "published_at": "2026-11-15T13:34:00Z",
+      "source": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxObm1CaXhjRzFVN0tFVVljWURZem96bXo4MDJlVi1TNHU3WU1rWFhZb2ZqLW5hN2FkSTIzcE9qRVA1Wm14ZzdSaFZFWF9rVFNCNzJVNVpfMVBENkl1SGZ5bms0YlJvaFhBR2o2WlhjbmNlS0k0VktmYkxvQ0QtM3NzaUl5c1Z2OWNNX0o3YkRDUVB4ZFg5S1Z3S2hibHhiOHJWQzZUb2tzSE1FTS1vSk1XVjNaS0Vyc3B4VU9QRW5oWVpZdTBHZllMY1FPcjZYakxSaTU2NnFfd1JQcGtpcml3SW5hbG1KWVZNRk1oU2VEWDJmNllZYU52MEZVQ1JPR3BmUXNOWmxvcUctQVFCUVQ2ZTN1ekNXRGFSamRBaVU4VTJzLVFNOVp6bmplc3V2bEVLdWM5eDdBNWJPdnpERkRUMXN6VTJtdFhXd1RPSzZzT21SRk1TY2l3RHNJREdBa1pheXJUNDlhUHhORm_SAfACQVVfeXFMTi10ZVNUb0N4Y2tOeERWalV6OWFXTlpxUmt1U0l0ZlBnSWU3Zy1VX1g0Yy1fUE5lal96Q0t6RUlyWnV6d0c3WE9qdjZPakVubmVYNHdCamtVNy0zTkxxOGd4Yk9MVnFXU003WEliQS1GNjBYVkdLWk5kUUh1SjJIbnlfR056d2dwYVhJd3ljRjZxMWpxMFEzYmJhMGdwNV9aeWlIN0RPeWxoNVJTc1RKc0puc2Z2NHVqRUtlZTJWMGVocnBQS1pNa0d5SFJvYmhkLTI1VVhEQnNhd2pQb0s3VURmTHY5S1hWZDg0YlV2WThXTUZCUWFCZVpUMERLeEVjMDdLa2gwWkVrUUFuV3lWSWZSUU8yYkdtZ2ZIN1BKUFhoOXNLNmlYUkFJLU52UElkVi16UldNTmpDaERJWnhDS29ZNTBSdDZROUdzc3VQdTFXYy1ydnlBUUJCeXRJRzdtdGQ0VXBtcExZdFA2Z3I0TG4?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_00568e46",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gold & Silver Volatility Ahead: Inflation, Fed, West Asia",
+      "preview_ko": "",
+      "published_at": "2026-11-15T13:29:49Z",
+      "source": "Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU1kwY0FBVGM1UHRXOVdsdl93Z0pfbmgxZ2lLczBLR1BsNGNKZGIwUHhDU1pEWHZ2eDNHYV9yZXVQLU45V2JVZTNSRERwT1A5X3VFZERVZkhfVHNDdjduTV9nUGxMVmpSVk5XVUd0WVA0U1JCTm1IbnVmRHRnRmFONFZreDlrWVp3SklaM2Fjc3JJNERVd1dCTFVZTUlFUDZ0S3M4S1NnWdIBrAFBVV95cUxNM3Z6eS03V09pTTFoOVhaQWh0WVpUYXdoSExibGNGY2poNi1DTlk3THY2enpRX294UmM1TkJCd0NjUTF1UXdtdDZnRWNwQ2U4Wk5oVURVcmNFSzhMRV91azFpdzkxbTUyYURGRE1OVHQ2andHUG9CZHd2eThqUURPTmxDVy1iUklDY0QzM09vSzhKREtfVjFWYXljQlg5RFFLYS1BT3EwM0hrNkh5?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fd066028",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금값 4.5% 하락, 달러 및 채권 수익률 상승",
+      "preview_ko": "금값이 4.5% 하락했다.",
+      "published_at": "2026-11-15T12:56:15Z",
+      "source": "Kuwait Times",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeTItcjV1cGxpQVQyQzVFejB6cjJJUXQyUzN2SnBUQVQ4cWRSRGpfS1V2V2k3aHFPZGQ0TUx0TkptdURtNkZRVF9LWTgwRzVTS2NTRkU0a2VsRmQyNUl1UVRoQ1JJQW1EOXk5UEEwYV9WWTJYRUtQNFFxR09iT1lUVGktMkJDNkU4dzFZSzBvQi11SllFTW9NQ21MdljSAaABQVVfeXFMTnBjNHNaYlp5dW8yMDBUdmItUjNqckd4M29vS2tvTnZRXzZ6YTRNclhwbGRaYmVhM2lnYXE1allqbU9URmhuNTNyTTlqWmpKSE41cDUwRWhRbWktSFQ1aDFiNmE4c0x1U1lfdUp5U0dnclJPRXd0ellPeWQza1p2dWpsdEU2WjZ2c3F3OTE4TkJJX0dadDN3YjI4eEItTFlyRw?oc=5",
+      "summary_ko": [
+        "금값이 4.5% 하락하며 $3,883에 거래되고 있다.",
+        "달러 강세와 채권 수익률 상승이 원인으로 지목된다.",
+        "금값 하락이 국내 금 관련 주식에 미치는 영향 확인 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 주식의 출발세 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 +5bp"
+      ],
+      "coverage": 2
+    },
+    {
+      "id": "n_61a855f8",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준, 금리 인상 속도 조절 중",
+      "preview_ko": "연준의 금리 인상 속도가 중요하다는 분석.",
+      "published_at": "2026-11-15T11:56:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPemRLQW1CSmhlTDBXdzR6elNfeEsyNFl1bDBYanp6TkY5YklZTldqTFRfQUUzZzlnUXFFcUNoRjBkbmRCMVlzcy1XbUhpc2VQTVBZNzZ3TWtKLTRhdm9GcllpeVdDakFyX2hsTE1BR3lFd0VaUDJQVlZ5bkJxSUJDd3JIRE5PT3k4VG1tby0zRDV4MDdBTGN4cEpvckdqbko0RTBXMkJxaUp4c0xhWWNPRmtBTQ?oc=5",
+      "summary_ko": [
+        "연준이 금리를 천천히 인상하고 있다는 내용이다.",
+        "역사적으로 금리 인상 속도가 더 중요하다는 주장을 담고 있다.",
+        "금리 인상 속도가 시장에 미치는 영향에 대한 논의가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금리 인상 여부에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_938e2fc7",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준의 지속적인 발언 이유는?",
+      "preview_ko": "연준의 발언이 계속되는 이유에 대한 분석.",
+      "published_at": "2026-11-15T11:33:36Z",
+      "source": "Liberty Nation News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45a0xWQ3hVbTY2aWMwdFA3aXdQMUdhRkxDa1dEQlpzZWM5RFdBaVk3QWFvblZWdmlJU1dnVGpPSG5MT216MEpyeVFtRGlYZUhnU3R6RGNNU3NVQUlLQnFUdktiNi0zY2Q1UWUxTFp1V3hPQjF3TXg1b1VKOA?oc=5",
+      "summary_ko": [
+        "연준이 여전히 발언을 이어가고 있다는 내용을 다룬다.",
+        "연준의 발언이 시장에 미치는 영향에 대한 질문을 제기한다.",
+        "금리 정책에 대한 불확실성이 반영된 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금리 정책에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_57586406",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주간 주식 시장 전망: 인플레이션과 원유",
+      "preview_ko": "인플레이션과 원유가 주식 시장에 미칠 영향 분석.",
+      "published_at": "2026-11-15T11:29:40Z",
+      "source": "NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM1JkS0pxeVVQZmZPaEEtNm03dmJ4QS1HWVhKc0tzMkhJelhrM1hibjVGZjhYd2I5X3BFUElaNXVnSGRrQWw5LTI1T3l1NkhtQ1oxS2Vod1JDbF9QT2VJWmxVMDRfWVdpR3NhT1pEZ2xEOHJhLUw0OWRJMmJOWnc3YW5WMnlkOS0xbkprRGtobHhjTldqZmZtR2ZINk9pdjZsdmRnT2dvS0ctb2pZTG05cWlYTHJfaUNTZGJ6Y2lDaXFHNFNXS1dVdFBOZmJZTEp2RzZmQ0lkbkFPNnfSAeMBQVVfeXFMTVRnQ29iempFTkRuRXNCN1RPOVItc2NiT20tZ3FuVXdGeHYxUDVKVlhEcGNCNndoVFA3a0o2ZFhreVBDMTRkdlM0SWI0b1c5eEV6WHEweHdZTnJ5c2g3Rm44XzVzTWpyUTBVYlZPblNuczh1T1I3RkFTM3oxSEprc29LT2JKMEZGUFBhdUdpNVdnR1pHM3JTbVNTM0ZhQmZsSWpXNGdhOUF3QUxmRVpnZmJrWWNPemdCTWxmOVpFV0QzVEpsXzBQQzE5TlVWVk1VYkEyTkJxaXkxYVhpTkZTYmtrQ2M?oc=5",
+      "summary_ko": [
+        "WPI 인플레이션과 원유 가격이 주식 시장에 영향을 미칠 것이라는 분석이다.",
+        "FII 거래 활동도 시장 움직임에 중요한 요소로 언급된다.",
+        "주식 시장의 방향성을 결정할 주요 요소들에 대한 논의가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 주식 시장에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a5917b3f",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "이번 주 주목할 주식: 엔비디아와 월마트",
+      "preview_ko": "엔비디아와 월마트의 주가에 대한 분석.",
+      "published_at": "2026-11-15T11:13:16Z",
+      "source": "JournalArta",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaElTeEZjUmVOS0hIRWppY3cweEtTc1F1dzhCOWVncElMUlNtVFF6LUN3TXRJbXc0TVRDSWZqZVRWWVR6c25XS2g2UVBmWTlFejJKcmctT244cGpkRVB6SjQwS0hSR2Ftc0FhSWxjdy0tZE9HZUxralpCNXlKSnVpNHRPRG92dGRUZ3puVmVSRm16MlFjWGcycF9ia2w?oc=5",
+      "summary_ko": [
+        "이번 주 주목할 주식으로 엔비디아와 월마트가 언급되었다.",
+        "소매 판매 데이터도 시장에 영향을 미칠 것으로 보인다.",
+        "주식 시장의 주요 동향을 파악하는 데 도움이 될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 관련 업종의 주가 흐름을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_13901696",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "다음 주 주식 시장 전망: 인플레이션과 원유",
+      "preview_ko": "인플레이션과 원유가 주식 시장에 미칠 영향 분석.",
+      "published_at": "2026-11-15T11:12:45Z",
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdzljNDRQQmlyTUhaamFwZVFqZ3R5MUROSk1hSnJSTXNWZFpKSVZ2MnRyYUJIemxLOHZKSDEySHVyTGYza1BmZ1B5Q3dtOGFVY1VWeVBidVdKNmdGcXpjVTZab3hsYVJ0VmpoTFBYQ2NvLWF3LWR1VGFLNGZjNWJudml5a092ckNEMkZTa2dmMnpUSXMwM2ZLRm1HSE1GcXotSUh1cjh4M2tWZEk2VU5jNzZkM2Z2YmxULUY1TW5DV3J1cFA5VEdYVnlhWkFVRTRIUXRNUzZJMlA0UdIB3wFBVV95cUxQei1iNUNWc1huZS10Vk91X1FldGlZb0YxYXAyMklBZXdVMkVjT0FXUzJBbWUxd0I1T1lTbGdFOW52bHdqX0llVmU1dzRqWnRfa3VzYUpEMUc2YlMzeFEzamg5RTRGSEFCZkRRNWlwNHEtMktWenBYb2N1ZmIxeExORmZfM3hZSC1nd3VFSmtEeUJXTUVYZnJRWmVrR2F5S0tHdzEtcWtwSG5BM1M5RmcwRnpRUXpZblFIUjVVRDdGY0FZdElqLUNlYVV2ZGo5THNZNWtEXzg3T0Mtengwck8w?oc=5",
+      "summary_ko": [
+        "WPI 인플레이션과 원유 가격이 주식 시장에 중요한 요소로 언급된다.",
+        "10가지 주요 요소가 시장 움직임에 영향을 미칠 것으로 보인다.",
+        "주식 시장의 방향성을 결정할 주요 요소들에 대한 논의가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 주식 시장에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a1540a23",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "이더리움, 연준 금리 인상 우려로 하락",
+      "preview_ko": "연준 금리 인상 우려가 이더리움에 미치는 영향.",
+      "published_at": "2026-11-15T10:51:07Z",
+      "source": "MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1hiLS15amtGVVYtdUpRTDZtZjFqM0dNNkFhN1otMHlBUFJFMUNfNlZZdXdCaXRBY3BiTFVCaEM0SUowdlZtYVVHNXBMdXp1X0ExV2NvWXZkdDdwdnA5cndNWlRYOGR1T2U5UHlSN0l5VVZ4Ti1zSlNpWWZlWXZJTW9EY3VXZXJWTGFITDF1a1VGalp4dHhiWkRtQQ?oc=5",
+      "summary_ko": [
+        "연준의 금리 인상 가능성이 이더리움 하락을 초래했다.",
+        "암호화폐 시장에서의 매도세가 강화되고 있다는 내용이다.",
+        "금리 인상이 암호화폐 시장에 미치는 영향에 대한 분석이 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 암호화폐 시장에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4c86a3fe",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "필리핀 국채 수익률, 연준과 BSP 긴축 전망에 따라 혼조세",
+      "preview_ko": "연준과 BSP 긴축 전망이 필리핀 국채 수익률에 미치는 영향.",
+      "published_at": "2026-11-15T10:25:23Z",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVXdxVThnS1lnRHFTTUtIRm1Oallsb1AwVlp4UVdQSVV3YUV4TGNicWF3aHc4eVI3U2NUaTFkSTNEV0UzS2FGenJZOW9mQXc0N0VEVDNWWU1aaUowek9tTUJzQ3pMc0N4cWdpd2x2dGhCZ1dtM0NmRlF4T2JGMTVlSUtxRWdMUTBNc2lFSTBvVDZlTXZJZWJZLXBJN05zSkU?oc=5",
+      "summary_ko": [
+        "연준과 BSP의 긴축 전망이 필리핀 국채 수익률에 영향을 미칠 것으로 보인다.",
+        "국채 경매에서의 반응이 주목받고 있다.",
+        "금리 정책 변화가 시장에 미치는 영향에 대한 논의가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금리 정책에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1795eee3",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "글로벌 기술 불안과 미국 금리 상승",
+      "preview_ko": "글로벌 기술 불안과 미국 금리 상승의 관계 분석.",
+      "published_at": "2026-11-15T08:20:02Z",
+      "source": "Thailand Business News",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQb2FfaXBpOUdkOUNEOVV0SkdJMGE1eERpRVJyWFNlYnd6eElINVZZVnBtbFBadmVGbFFqNTBrZUMyQW5kMzJkQnV3YmxzRG12MUtlNmdlYkx2d1MxVDVXV0w0ek1pRFpHWEs3U0VrWVFSSXpha2xSVUFYRkNEUzhUb0ppdmUtUFM1S3RUbnFtZjVJSHRLUWoxd2o3VHJFeS16S0t6NmE5Q2pIR3YzZk1GS016NGdlQjIwN2hSQ2JZOU1DNzRPTnRPcDg4XzRxeE1WWnZJenBaX3RZX3d6Qng3QnBPNjRNZzU3RFIwWERn?oc=5",
+      "summary_ko": [
+        "글로벌 기술 불안과 미국 금리 상승이 시장에 미치는 영향을 다룬다.",
+        "엔비디아의 변화가 태국 시장에 미치는 영향도 언급된다.",
+        "금리 상승이 기술주에 미치는 영향에 대한 논의가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 기술주에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_267bfcf2",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준 금리 인상이 부유층의 자산 구매를 촉진할 것이라는 전망",
+      "preview_ko": "연준 금리 인상이 부유층의 자산 구매에 미치는 영향 분석.",
+      "published_at": "2026-11-15T06:15:00Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbE5ZbG42Zkl6RHR6Z29IS3RxSjQtdFJTRDdMd3FtalhvZXpRMUdiY2x5Y0pxTFF1Q0xsZHVJV2xKbk5nR0ZZNkdiQWlHcUdNR2YzT0docEQydEFsZDFiVkh2QXlfM19iaU9sVENtcTBGd1dUVUt5cEg0SndqWGt3eDlDRVEwd2tnSlFGR3k4dXhHMjRyWmRaV05xUTBlTGJaZG5DX1hDVEVEXzBIMTlIWVdORVF5WExIMlFWYjNvVnQwMmJzczUxNm42YnVnV0t4elVBQ3lGU3duenBHcGhHbVpqU2ZaWHlocDR1MVpQZWtZNEVYSkt3b1pfUWVYMGhab2c?oc=5",
+      "summary_ko": [
+        "연준의 금리 인상이 부유층의 자산 구매를 촉진할 것이라는 전망이다.",
+        "비트코인, 부동산, 고급 시계 및 와인 구매가 증가할 것이라는 내용이다.",
+        "금리 인상이 자산 시장에 미치는 영향에 대한 논의가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 자산 시장에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cd7addbf",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 달러 환율 안정세",
+      "preview_ko": "미국 달러 환율의 안정세에 대한 분석.",
+      "published_at": "2026-11-15T05:26:50Z",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcG1wd2c0bnB1UGlLS1pCd1ZMMXNqNF95VGJRZTY3Q0JnWkoyRE9UcDNSeWF5TXpmdUFtSGljTThHNWYzTS1RNTVCX2VpOUlKelIzbk0yZE5KdHN2T0hMNVg0a0taTUtSSmxZeldaUC1fQ0xyYWVmM1BvLVpqYnBQYkFhMWd6T1ZQQ2lnSExYUi1RVk1NdjRLTGoxMVZHM1dlOWlRQWZaSW5mNFF3cGY5V3RIQQ?oc=5",
+      "summary_ko": [
+        "미국 달러가 급등 이후 안정세를 보이고 있다는 내용이다.",
+        "환율 변동성이 시장에 미치는 영향에 대한 논의가 포함되어 있다.",
+        "달러 구매 시 유의해야 할 점에 대한 언급이 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 환율 시장에 대한 직접적인 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    }
+  ],
+  "calendar_actuals": [
+    {
+      "event": "PPI m/m",
+      "actual": "0.3%",
+      "evidence_id": "n_22fe4633"
+    }
+  ],
+  "total_batches": 15,
+  "failed_batches": 0,
+  "picked": [
+    "n_fd066028",
+    "n_511d8060",
+    "n_70ab06b9",
+    "n_4cc22cf1",
+    "n_2ecaba57",
+    "n_67957470",
+    "n_f8e3a267",
+    "n_cafdcfb9"
+  ],
+  "notes": [
+    "5 summaries replaced by titles: numbers not in article"
+  ],
+  "llm_usage": {
+    "gpt-4o-mini": 53466,
+    "gpt-5.5": 5889
+  }
+}
