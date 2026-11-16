@@ -1,0 +1,202 @@
+{
+  "run_date": "2026-11-17",
+  "us_market_closed": false,
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "value": 27197.15,
+      "unit": null,
+      "change_pct": -2.67,
+      "change_bp": null
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "value": 27301.75,
+      "unit": null,
+      "change_pct": -2.61,
+      "change_bp": null
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "value": 7416.59,
+      "unit": null,
+      "change_pct": -1.92,
+      "change_bp": null
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "value": 7439.0,
+      "unit": null,
+      "change_pct": -1.9,
+      "change_bp": null
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "value": 23.12,
+      "unit": null,
+      "change_pct": 19.79,
+      "change_bp": null
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "value": 5.12,
+      "unit": "%",
+      "change_pct": null,
+      "change_bp": -3
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "value": 1335.39,
+      "unit": "원",
+      "change_pct": 0.12,
+      "change_bp": null
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "value": 9610.65,
+      "unit": null,
+      "change_pct": -5.28,
+      "change_bp": null
+    }
+  ],
+  "sentiment": {
+    "score": 12,
+    "label": "극도의 공포",
+    "vix": 23.12
+  },
+  "calendar_released": [
+    {
+      "event_ko": "Fed Chairman Warsh Speaks",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    }
+  ],
+  "calendar_upcoming": [
+    {
+      "event_ko": "근원 소매판매(전월비)",
+      "time_kst": "22:30",
+      "forecast": "0.4%",
+      "previous": "0.9%"
+    },
+    {
+      "event_ko": "소매판매(전월비)",
+      "time_kst": "22:30",
+      "forecast": "0.2%",
+      "previous": "0.8%"
+    }
+  ],
+  "top_news": [
+    {
+      "title_ko": "S&P 500과 나스닥, 엔비디아 급락으로 하락",
+      "category": "theme_earnings",
+      "importance": 4,
+      "moves_ko": [
+        "나스닥100 −2.67%",
+        "S&P 500 −1.92%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인."
+      }
+    },
+    {
+      "title_ko": "AI 관련 주식, 반도체 섹터 하락 심화",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [
+        "필라델피아 반도체 −5.28%",
+        "MU −7.62%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 미국 반도체 주식 하락을 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "골드만삭스, 10년 만기 국채 수익률 하락 전망",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [
+        "미국 10년물 −3bp"
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금리 동향을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "미국 달러, 19개월 최고치 기록",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [
+        "원 / 달러 +0.12%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "원/달러 환율이 달러 강세를 반영해 오르는지 확인"
+      }
+    },
+    {
+      "title_ko": "엔비디아, 첫 실적 발표 앞두고 주가 하락",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 실적 발표를 앞두고 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "금값, 1년 최저치로 하락",
+      "category": "macro_rates",
+      "importance": 4,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금속 관련 주가가 하락세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "미국 대형은행 온라인 뱅킹 장애 발생",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금융주가 미국 금융주 하락을 따라 약세로 출발하는지 확인."
+      }
+    },
+    {
+      "title_ko": "AI 위험이 금융 시스템 최대 위협으로 지목",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 금융 시스템에 대한 AI 위험 인식이 어떻게 변화하는지 확인"
+      }
+    }
+  ],
+  "themes": [],
+  "outlook": {
+    "direction": "gap_down",
+    "strong": true
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "released": [
+    {
+      "time_utc": "2026-11-16T17:00:00Z",
+      "event": "Fed Chairman Warsh Speaks",
+      "event_ko": "Fed Chairman Warsh Speaks",
+      "importance": "high",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "actual_source": null,
+      "tag_ko": null
+    }
+  ],
+  "upcoming": [
+    {
+      "time_utc": "2026-11-17T13:30:00Z",
+      "event": "Core Retail Sales m/m",
+      "event_ko": "근원 소매판매(전월비)",
+      "importance": "high",
+      "forecast": "0.4%",
+      "previous": "0.9%",
+      "tag_ko": "소비"
+    },
+    {
+      "time_utc": "2026-11-17T13:30:00Z",
+      "event": "Retail Sales m/m",
+      "event_ko": "소매판매(전월비)",
+      "importance": "high",
+      "forecast": "0.2%",
+      "previous": "0.8%",
+      "tag_ko": "소비"
+    }
+  ],
+  "status": "ok",
+  "events": [
+    {
+      "time_utc": "2026-11-02T15:00:00Z",
+      "event": "ISM Manufacturing PMI",
+      "event_ko": "ISM 제조업 PMI",
+      "importance": "medium",
+      "forecast": "54.5",
+      "previous": "54.5",
+      "tag_ko": "경기"
+    },
+    {
+      "time_utc": "2026-11-03T15:00:00Z",
+      "event": "JOLTS Job Openings",
+      "event_ko": "JOLTS 구인건수",
+      "importance": "medium",
+      "forecast": "7.15M",
+      "previous": "7.08M",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-03T15:16:00Z",
+      "event": "Congressional Elections",
+      "event_ko": "미국 의회 선거",
+      "importance": "high",
+      "forecast": null,
+      "previous": null,
+      "tag_ko": "정치"
+    },
+    {
+      "time_utc": "2026-11-04T15:00:00Z",
+      "event": "ISM Services PMI",
+      "event_ko": "ISM 서비스업 PMI",
+      "importance": "medium",
+      "forecast": "54.8",
+      "previous": "54.9",
+      "tag_ko": "경기"
+    },
+    {
+      "time_utc": "2026-11-05T13:30:00Z",
+      "event": "Unemployment Claims",
+      "event_ko": "신규 실업수당 청구건수",
+      "importance": "medium",
+      "forecast": "197K",
+      "previous": "194K",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-06T13:30:00Z",
+      "event": "Average Hourly Earnings m/m",
+      "event_ko": "평균 시간당 임금(전월비)",
+      "importance": "high",
+      "forecast": "0.3%",
+      "previous": "0.1%",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-06T13:30:00Z",
+      "event": "Non-Farm Employment Change",
+      "event_ko": "비농업 고용 변화",
+      "importance": "high",
+      "forecast": "65K",
+      "previous": "29K",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-06T13:30:00Z",
+      "event": "Unemployment Rate",
+      "event_ko": "실업률",
+      "importance": "high",
+      "forecast": "4.2%",
+      "previous": "4.2%",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-06T15:00:00Z",
+      "event": "Prelim UoM Consumer Sentiment",
+      "event_ko": "미시간대 소비자심리(예비)",
+      "importance": "medium",
+      "forecast": "48.1",
+      "previous": "46.3",
+      "tag_ko": "소비"
+    },
+    {
+      "time_utc": "2026-11-06T15:00:00Z",
+      "event": "Prelim UoM Inflation Expectations",
+      "event_ko": "미시간대 기대인플레이션(예비)",
+      "importance": "medium",
+      "forecast": null,
+      "previous": "4.7%",
+      "tag_ko": "물가"
+    },
+    {
+      "time_utc": "2026-11-10T09:00:00Z",
+      "event": "FOMC Member Waller Speaks",
+      "event_ko": "FOMC Member Waller Speaks",
+      "importance": "medium",
+      "forecast": null,
+      "previous": null,
+      "tag_ko": null
+    },
+    {
+      "time_utc": "2026-11-10T13:30:00Z",
+      "event": "CPI m/m",
+      "event_ko": "소비자물가(전월비)",
+      "importance": "high",
+      "forecast": "0.3%",
+      "previous": "0.6%",
+      "tag_ko": "물가"
+    },
+    {
+      "time_utc": "2026-11-10T13:30:00Z",
+      "event": "Core CPI m/m",
+      "event_ko": "근원 소비자물가(전월비)",
+      "importance": "high",
+      "forecast": "0.2%",
+      "previous": "0.3%",
+      "tag_ko": "물가"
+    },
+    {
+      "time_utc": "2026-11-12T13:30:00Z",
+      "event": "Unemployment Claims",
+      "event_ko": "신규 실업수당 청구건수",
+      "importance": "medium",
+      "forecast": "194K",
+      "previous": "189K",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-13T13:30:00Z",
+      "event": "Core PPI m/m",
+      "event_ko": "근원 생산자물가(전월비)",
+      "importance": "high",
+      "forecast": "0.3%",
+      "previous": "0.7%",
+      "tag_ko": "물가"
+    },
+    {
+      "time_utc": "2026-11-13T13:30:00Z",
+      "event": "PPI m/m",
+      "event_ko": "생산자물가(전월비)",
+      "importance": "high",
+      "forecast": "0.4%",
+      "previous": "1.3%",
+      "tag_ko": "물가"
+    },
+    {
+      "time_utc": "2026-11-16T17:00:00Z",
+      "event": "Fed Chairman Warsh Speaks",
+      "event_ko": "Fed Chairman Warsh Speaks",
+      "importance": "high",
+      "forecast": null,
+      "previous": null,
+      "tag_ko": null
+    },
+    {
+      "time_utc": "2026-11-17T13:30:00Z",
+      "event": "Core Retail Sales m/m",
+      "event_ko": "근원 소매판매(전월비)",
+      "importance": "high",
+      "forecast": "0.4%",
+      "previous": "0.9%",
+      "tag_ko": "소비"
+    },
+    {
+      "time_utc": "2026-11-17T13:30:00Z",
+      "event": "Retail Sales m/m",
+      "event_ko": "소매판매(전월비)",
+      "importance": "high",
+      "forecast": "0.2%",
+      "previous": "0.8%",
+      "tag_ko": "소비"
+    },
+    {
+      "time_utc": "2026-11-18T19:00:00Z",
+      "event": "FOMC Meeting Minutes",
+      "event_ko": "FOMC 의사록",
+      "importance": "high",
+      "forecast": null,
+      "previous": null,
+      "tag_ko": "금리"
+    },
+    {
+      "time_utc": "2026-11-19T13:30:00Z",
+      "event": "Philly Fed Manufacturing Index",
+      "event_ko": "필라델피아 연은 제조업지수",
+      "importance": "medium",
+      "forecast": "19.2",
+      "previous": "20.9",
+      "tag_ko": "경기"
+    },
+    {
+      "time_utc": "2026-11-19T13:30:00Z",
+      "event": "Unemployment Claims",
+      "event_ko": "신규 실업수당 청구건수",
+      "importance": "medium",
+      "forecast": "199K",
+      "previous": "200K",
+      "tag_ko": "고용"
+    },
+    {
+      "time_utc": "2026-11-20T13:25:00Z",
+      "event": "FOMC Member Waller Speaks",
+      "event_ko": "FOMC Member Waller Speaks",
+      "importance": "medium",
+      "forecast": null,
+      "previous": null,
+      "tag_ko": null
+    },
+    {
+      "time_utc": "2026-11-20T15:00:00Z",
+      "event": "Revised UoM Consumer Sentiment",
+      "event_ko": "미시간대 소비자심리(확정)",
+      "importance": "medium",
+      "forecast": "52.1",
+      "previous": "51.0",
+      "tag_ko": "소비"
+    },
+    {
+      "time_utc": "2026-11-20T15:00:00Z",
+      "event": "Revised UoM Inflation Expectations",
+      "event_ko": "Revised UoM Inflation Expectations",
+      "importance": "medium",
+      "forecast": null,
+      "previous": "4.3%",
+      "tag_ko": null
+    }
+  ]
+}
