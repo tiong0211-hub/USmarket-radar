@@ -1,0 +1,243 @@
+{
+  "movers": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "kind": "stock",
+      "close": 155.46,
+      "change_pct": -0.44
+    },
+    {
+      "symbol": "TSM",
+      "name": "TSMC ADR",
+      "kind": "stock",
+      "close": 359.69,
+      "change_pct": -3.68
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "kind": "stock",
+      "close": 779.91,
+      "change_pct": 2.14
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly",
+      "kind": "stock",
+      "close": 1415.55,
+      "change_pct": -1.13
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "kind": "stock",
+      "close": 351.91,
+      "change_pct": -0.25
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "kind": "stock",
+      "close": 380.11,
+      "change_pct": 0.1
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron",
+      "kind": "stock",
+      "close": 712.42,
+      "change_pct": -0.92
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "kind": "stock",
+      "close": 503.41,
+      "change_pct": -0.17
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "kind": "stock",
+      "close": 349.23,
+      "change_pct": -0.29
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML ADR",
+      "kind": "stock",
+      "close": 1383.11,
+      "change_pct": -1.68
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "kind": "stock",
+      "close": 190.37,
+      "change_pct": 0.9
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton",
+      "kind": "stock",
+      "close": 337.11,
+      "change_pct": 0.07
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "kind": "stock",
+      "close": 268.07,
+      "change_pct": -3.51
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra",
+      "kind": "stock",
+      "close": 127.15,
+      "change_pct": -2.31
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk ADR",
+      "kind": "stock",
+      "close": 40.7,
+      "change_pct": -2.16
+    },
+    {
+      "symbol": "ALB",
+      "name": "Albemarle",
+      "kind": "stock",
+      "close": 87.67,
+      "change_pct": -0.56
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "kind": "stock",
+      "close": 163.91,
+      "change_pct": -0.79
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "kind": "stock",
+      "close": 506.24,
+      "change_pct": -2.27
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "kind": "stock",
+      "close": 257.89,
+      "change_pct": 0.05
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "kind": "stock",
+      "close": 280.2,
+      "change_pct": -1.24
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "kind": "stock",
+      "close": 618.87,
+      "change_pct": -1.2
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "kind": "stock",
+      "close": 341.6,
+      "change_pct": 2.46
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "kind": "stock",
+      "close": 115.0,
+      "change_pct": -3.43
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "kind": "stock",
+      "close": 156.56,
+      "change_pct": -2.39
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "kind": "stock",
+      "close": 55.17,
+      "change_pct": -0.54
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "kind": "stock",
+      "close": 166.67,
+      "change_pct": -1.1
+    },
+    {
+      "symbol": "SOXX",
+      "name": "반도체",
+      "kind": "etf",
+      "close": 141.46,
+      "change_pct": 0.17
+    },
+    {
+      "symbol": "XLK",
+      "name": "기술",
+      "kind": "etf",
+      "close": 163.26,
+      "change_pct": -0.91
+    },
+    {
+      "symbol": "XLU",
+      "name": "유틸리티",
+      "kind": "etf",
+      "close": 43.42,
+      "change_pct": -1.59
+    },
+    {
+      "symbol": "XLE",
+      "name": "에너지",
+      "kind": "etf",
+      "close": 63.36,
+      "change_pct": -0.52
+    },
+    {
+      "symbol": "XBI",
+      "name": "바이오",
+      "kind": "etf",
+      "close": 145.28,
+      "change_pct": -0.41
+    },
+    {
+      "symbol": "URA",
+      "name": "우라늄/원전",
+      "kind": "etf",
+      "close": 30.04,
+      "change_pct": -1.31
+    },
+    {
+      "symbol": "LIT",
+      "name": "2차전지",
+      "kind": "etf",
+      "close": 56.42,
+      "change_pct": -0.74
+    },
+    {
+      "symbol": "EWY",
+      "name": "한국",
+      "kind": "etf",
+      "close": 135.32,
+      "change_pct": -0.9
+    }
+  ],
+  "notes": []
+}

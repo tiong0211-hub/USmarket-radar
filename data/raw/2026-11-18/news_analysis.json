@@ -1,0 +1,1824 @@
+{
+  "news": [
+    {
+      "id": "n_6d0c63fb",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아, CEO 사임 후 주가 하락",
+      "preview_ko": "엔비디아가 CEO 사임 소식에 주가가 하락했다.",
+      "published_at": "2026-11-17T21:05:24Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
+      "summary_ko": [
+        "엔비디아는 전 CEO 젠슨 황의 사임 이후 주가가 하락했다.",
+        "투자자들은 이 사임의 여파를 주의 깊게 살펴보고 있다.",
+        "회사의 실적 발표를 앞두고 불안감이 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아의 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_437b927d",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "홈디포, 리처드 맥파일 신임 CEO 임명",
+      "preview_ko": "홈디포가 리처드 맥파일을 신임 CEO로 임명했다.",
+      "published_at": "2026-11-17T20:01:12Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+      "summary_ko": [
+        "홈디포가 리처드 맥파일을 신임 CEO로 임명했다.",
+        "그는 다음 주부터 공식적으로 취임할 예정이다.",
+        "이번 인사는 홈디포의 실적 기대치를 초과 달성한 가운데 이루어졌다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 유통업체의 실적 발표에 주목할 필요가 있다."
+      },
+      "us_tickers": [
+        "HD"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_bbce1fc4",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "채권 수익률 상승, 투자 전략 조정 필요",
+      "preview_ko": "채권 수익률 상승으로 투자 환경이 어려워지고 있다.",
+      "published_at": "2026-11-17T19:01:14Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/bond-yields-where-to-invest.html",
+      "summary_ko": [
+        "채권 수익률 상승과 연준의 금리 인상이 투자자들에게 어려움을 주고 있다.",
+        "투자자들은 새로운 전략을 모색해야 할 시점이다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_65047d2b",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "나이키, 9년 만의 투자자 행사 개최",
+      "preview_ko": "나이키가 9년 만에 투자자 행사를 개최했다.",
+      "published_at": "2026-11-17T17:02:34Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
+      "summary_ko": [
+        "나이키가 오리건 본사에서 투자자 행사를 개최했다.",
+        "회사는 투자자들에게 회복이 진행되고 있음을 증명하려 하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 스포츠 용품 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NKE"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c076b92e",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 CEO 사임, 거버넌스 리스크 노출",
+      "preview_ko": "엔비디아 CEO의 사임이 거버넌스 리스크를 드러냈다.",
+      "published_at": "2026-11-17T17:00:01Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-succession-board-lessons.html",
+      "summary_ko": [
+        "엔비디아 CEO의 사임이 회사의 거버넌스 리스크를 드러냈다.",
+        "강력한 리더십에 의존하는 기업의 위험성을 강조하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f94a31d2",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "주택 건설업체 신뢰도 14년 만에 최저",
+      "preview_ko": "주택 건설업체 신뢰도가 급락하며 가격 인하가 이어지고 있다.",
+      "published_at": "2026-11-17T15:36:43Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/homebuilder-sentiment-plunges-to-14-year-low-leading-more-builders-to-drop-prices.html",
+      "summary_ko": [
+        "주택 건설업체 신뢰도가 14년 만에 최저 수준으로 떨어졌다.",
+        "높은 모기지 금리와 에너지, 노동, 자재 가격 상승이 원인이다.",
+        "이에 따라 더 많은 건설업체들이 가격을 인하하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 건설업체의 수익성에 미치는 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_02400a9a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 주식, 엔비디아 여파로 어려움 겪을 것이라는 분석",
+      "preview_ko": "AI 관련 주식들이 엔비디아의 여파로 어려움을 겪을 것이라는 분석이 나왔다.",
+      "published_at": "2026-11-17T15:22:45Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/big-short-investor-steve-eisman-to-discuss-nvidia-anthropic-and-ai-bull-on-cnbc.html",
+      "summary_ko": [
+        "투자자 스티브 아이즈먼이 AI 네오클라우드 주식들이 엔비디아의 여파로 어려움을 겪을 것이라고 언급했다.",
+        "AI 주식에 대한 투자자들의 우려가 커질 것으로 보인다.",
+        "특히 엔비디아와의 연관성이 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 2
+    },
+    {
+      "id": "n_72b4f422",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "preview_ko": "",
+      "published_at": "2026-11-17T14:34:48Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_81371a81",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Republicans outspent Democrats for first time in over a decade in record 2026 midterm election political ad blitz",
+      "preview_ko": "",
+      "published_at": "2026-11-17T14:00:02Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/2026-election-political-ad-spending.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ba8bd9e9",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "preview_ko": "",
+      "published_at": "2026-11-17T13:40:54Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f5b40b49",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+      "preview_ko": "",
+      "published_at": "2026-11-17T10:08:32Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e0912a6c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "preview_ko": "",
+      "published_at": "2026-11-17T07:07:35Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_155fd66b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024",
+      "preview_ko": "",
+      "published_at": "2026-11-17T06:59:42Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_87fab3b1",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "헤지펀드, AI 주식에 다시 투자",
+      "preview_ko": "헤지펀드가 AI 주식에 다시 투자한 것으로 나타났다.",
+      "published_at": "2026-11-16T23:05:12Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+      "summary_ko": [
+        "레오폴드 아셴브레너의 헤지펀드가 AI 주식에 다시 투자했다.",
+        "이 펀드는 여름에 거의 파산할 뻔한 경험이 있다.",
+        "AI 주식에 대한 투자 심리가 회복되고 있는 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 주식에 대한 투자 심리를 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c1e5edac",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 혁명에 대한 연준 의장의 분석",
+      "preview_ko": "AI의 전환점에 대한 연준 의장의 의견.",
+      "published_at": "2026-11-17T15:35:13Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+      "summary_ko": [
+        "연준 의장이 AI 혁명에 대한 분석을 제시했다.",
+        "그는 일자리와 금리에 대한 어려운 질문에 직면하고 있다.",
+        "AI의 발전이 경제에 미칠 영향에 대한 논의가 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 경제 지표와 AI 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_009c9e3a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "세일즈포스 주가, 기술 불안 속 하락",
+      "preview_ko": "기술 장애로 소프트웨어 기업에 대한 우려가 커졌다.",
+      "published_at": "2026-11-17T21:12:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf?mod=mw_rss_topstories",
+      "summary_ko": [
+        "세일즈포스 주가가 기술 불안 속에서 하락하고 있다.",
+        "소프트웨어 기업들이 AI 오용에 특히 취약할 수 있다는 우려가 제기되었다.",
+        "투자자들은 기술 장애에 대한 우려로 불안해하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 및 소프트웨어 관련 주식의 하락 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "CRM"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7fd9d943",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘Can I pick your brain?’ and other terrible things to say in a networking email",
+      "preview_ko": "",
+      "published_at": "2026-11-17T21:11:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_26186779",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T21:00:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a83a8f9a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "FDA, 폐암 치료제에 대한 새로운 시험 권고",
+      "preview_ko": "Summit Therapeutics의 주가가 다시 하락하고 있다.",
+      "published_at": "2026-11-17T20:58:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/summit-therapeutics-stock-tumbles-again-as-fda-recommends-new-trial-for-lung-cancer-drug-dcb8ff55?mod=mw_rss_topstories",
+      "summary_ko": [
+        "Summit Therapeutics의 주가가 FDA의 새로운 시험 권고로 하락하고 있다.",
+        "미국 규제 당국의 발표가 회사의 이전 발표보다 더 광범위했다.",
+        "이로 인해 투자자들의 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 바이오 및 제약 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "SMMT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_677d1c2c",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국의 기밀 통신 네트워크 기술 장애 발생",
+      "preview_ko": "기밀 통신 네트워크의 장애가 보도되었다.",
+      "published_at": "2026-11-17T20:45:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-latest-tech-failure-u-s-classified-national-security-communications-network-ad271899?mod=mw_rss_topstories",
+      "summary_ko": [
+        "미국의 기밀 통신 네트워크에서 기술 장애가 발생했다.",
+        "이는 소비자, 기업 및 정부에 영향을 미치는 기술 중단의 연속이다.",
+        "기술 장애가 경제에 미치는 영향에 대한 논의가 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 통신 및 기술 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b15959b8",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Private equity has been buying up hospice centers — with striking consequences",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:40:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_2bb55bda",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "금, 디지털 세계에서 안전한 자산으로 주목",
+      "preview_ko": "금이 디지털 세계에서 안전한 자산으로 평가받고 있다.",
+      "published_at": "2026-11-17T20:24:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/gold-is-in-a-bear-market-and-hackproof-in-an-increasingly-digital-world-is-this-a-good-time-to-buy-fabfd528?mod=mw_rss_topstories",
+      "summary_ko": [
+        "금이 디지털 세계에서 안전한 자산으로 주목받고 있다.",
+        "최근의 대규모 암호화폐 해킹 사건과 기술 장애가 영향을 미쳤다.",
+        "물리적 금이 디지털 자산의 대안으로 부각되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 금 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_75fe601b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Only two ‘Magnificent Seven’ stocks have managed to beat the S&P 500 since the start of 2025",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:16:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/only-two-magnificent-seven-stocks-have-managed-to-beat-the-s-p-500-since-the-start-of-2025-a3daa0f8?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_05b92b8d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:15:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_af80f847",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "S&P 500, 주요 기술적 지지선 테스트 중",
+      "preview_ko": "S&P 500이 200일 이동평균선 아래에서 거래 중이다.",
+      "published_at": "2026-11-17T20:13:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-is-testing-a-key-technical-floor-is-it-time-to-buy-or-brace-for-a-bear-market-c432b192?mod=mw_rss_topstories",
+      "summary_ko": [
+        "S&P 500이 200일 이동평균선 아래에서 거래되고 있다.",
+        "인공지능 관련 주식이 어려움을 겪고 있다.",
+        "하락세가 지속되면 약세장 진입 우려가 커질 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 S&P 500의 하락세를 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_47bf153a",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "다우지수, NSA 장애로 848포인트 하락",
+      "preview_ko": "다우지수가 큰 폭으로 하락했다.",
+      "published_at": "2026-11-17T21:09:23Z",
+      "source": "Kiplinger",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQXFOZXgwcW9UaFBmbmlvQnMyc3BCd2dDX3pIc2hiX3BoOGVqZlplNVVOVWIwV01NSXJ2RThkeFpDclBtUEdsdlAtSFRhMUpZYzB4QXBTMHpMcjRxd1kwSXFfUTYxbmFELUt4LWVYY1NYcE5NbXMyZTNWVDg2TmRjR3ZCQ3U5YWd1T0JnUG9JVHZoSV9wUk5BczlJOU4zSzRoMmJZdWtqc0JocURB?oc=5",
+      "summary_ko": [
+        "다우지수가 848포인트 하락했다.",
+        "NSA 장애로 기술주가 큰 타격을 받았다.",
+        "미국 증시 전반에 부정적인 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 다우지수 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "나스닥100 −0.72%",
+        "S&P 500 −1.03%"
+      ],
+      "coverage": 6
+    },
+    {
+      "id": "n_72b67a2d",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 실적 발표 앞두고 다우와 나스닥 하락",
+      "preview_ko": "엔비디아 실적 발표가 다가오고 있다.",
+      "published_at": "2026-11-17T21:09:17Z",
+      "source": "Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTkRNRnNwb2otWVg5VFNDVm5Xd29iNUdHeEE3M2hFbF9PbUpBU01yY3JvVGlXallxTTVhZXhiSFdLNHlBbGgtMUZXVVRTM3JMZHM0cW1nY3RIS3VmUUtWYTMxUDd3ZVBsWEtpaE12dWVtVzZjc0l5Y0c2MnJGUGp0NnctSDhCVE0zbDRZc1NXb0lOUjVtRTRSQkQ0SThZYzFYdDByYmN2a2RMOElkSWtfdzVNWDIxRlRSYW16X2p5MkswYWNTdUNNX0tpUWpyOURsR3ZYa2oyREM2aHc5NUNSUUQyazRRRVZ2ZFVLeVhoMHdTY0JUR2NwQjVOUzdpcGJoY0FSRDRYYw?oc=5",
+      "summary_ko": [
+        "엔비디아의 실적 발표가 임박했다.",
+        "다우와 나스닥 지수가 하락세를 보이고 있다.",
+        "투자자들이 실적에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 실적 발표를 앞두고 하락세를 보이는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_16d11ef2",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 등 AI 주식, 하락세 지속",
+      "preview_ko": "AI 관련 주식이 하락세를 보이고 있다.",
+      "published_at": "2026-11-17T21:05:20Z",
+      "source": "LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZ1VoUzBfSVpRMi1DS2RxR1RPc2xHRXBpY2FzcER6Uk9PUGFOMjAxcWxVaTFrUXJVTGo1a1h1eHpybnhqMHAzckp1aVV0REJRaXJPa255RUxmaTMxcmNwY3JXS0ljSy1uOVQteGduYUxKWF9ZVGZBVFYwUmhPTGp0enVyOGlOWTYyU1Q4dkhMd2dJTW5hNDlLb1BXaWptVTdaQW5zb0ZqWWNyLW1UeFdLbVBOdTdzTnZwYl8yaURxc3c5eU5LR21rMk5OVktfMW12LVRsazlsZlZQVk9ZWHMybVRCa0pXS1R5Y1FaYTN2RDNSQkM3dGctZTFCZ2xlRnY5ampEZw?oc=5",
+      "summary_ko": [
+        "엔비디아와 기타 AI 관련 주식이 하락하고 있다.",
+        "투자자들이 불안감을 느끼고 있다.",
+        "시장 전반에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식이 미국 시장의 하락세를 반영해 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8aa6591c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Ken Fisher Portfolio Review: 5 Highest-Conviction Technology Stocks for Long-Term Growth",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:20:07Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMmtUakpoNXVEQkFvd3JWYkdfaXVhXzFlQ1hPZGRFX3otOHRBVElqUjRHeDRSb09TMEw1RVdLaWs3Z3JNSWJvekxUYVJtZUlnc2JLblllVHhrYTc2dklyS0czM2FJN2RGS0hsRzU4V0pKSmlVa2FuNWVQeTd4bjYxX0JpcnBEQzZpRmJDckd4cTdBeVBK?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_47a2c768",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "B3 to Add Brazil Stocks Listed Abroad to Aid Ailing Local Market",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:16:19Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUG1rRURHNlg3dFRKb3VqSW5zeWo5blBTeU1qcjRnaW1wUmxSSmhKRW5VNE5lVXAtb21scEI5UDVoQ01BX3dkMGNtZVZRSi1yRERLUnJmdHBnWHZ6TW96Rk9VSVBNMWw5ckFkUHQ0RDBTdnN0dHI3VW5Odm9pNV9mcUMxU054d2cwLUN6UUJ6Q3RBdGRIMGRIdUNhRWdmR1gweExyLWhocjd3a2MxWVYxZ1A5bVM1UQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_16b0c37a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 실적 발표를 앞두고 주가 하락",
+      "preview_ko": "엔비디아 실적 발표를 앞두고 주가가 하락하고 있다.",
+      "published_at": "2026-11-17T20:15:59Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5",
+      "summary_ko": [
+        "엔비디아의 실적 발표를 앞두고 주식 시장이 하락세를 보이고 있다.",
+        "투자자들은 엔비디아의 실적을 주의 깊게 지켜보고 있다.",
+        "이는 기술주 전반에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 엔비디아 실적 발표에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_797e3e05",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "5 Highest Short Interest Large-Cap Tech Stocks Right Now",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:15:42Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdk9hYWlHSUxTNUFUdWJhblFvRjlHYUJqa3NPclliOENwT1R0NmJDaHVwZ1dvNVpwS0hTcUZMUi1rUXQ5RU9qaFFkVlZyZ3E2MzZCNUhOU2tKYXNtTi00cjFRclFJdUg4TFFLVWZHU3JsRV9FbDhxaGhqanJiS3ZBenZVd1VyNjNfU2hiMU1iOVZyUFl2dktqd3JRdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4ef11afd",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nike Stock Just Plunged Despite the Company's New Turnaround Plan. Here's What Spooked Investors",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:15:09Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbl9XbEV4ZC1HVi1Cb1RjaTlaTjFDQ05INmZ4NEFNNFA4UUp6NGpBZWxrSXdGVWwtemFVM0gyT0NZNGdWVjE4Mkl1NTVuR0xEY0VlZnNCQ3RRYXpSWm5HUll1TEM3aGl5eWZ2cjQ1YkgtWk5aZ2RnWVA4enlfdFNJUm5qX2hJaEpkakVET1ItMjJyb1Rkb1h0Y0NKMU8?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1ceecd6c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Is Arista Networks (ANET) Fully Priced For Its AI Cash Flow?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:12:21Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRV9EU0NLYno0Ql8wV0dqNEVEU3JlbVZSN2tNMGdSOEVNdmlTYUVIUFFNeE83S09sYTNDaWVWSnUteGVtekFNY1dXbTc0Yjc4MFo2WEJPOFVDS1RLellURzNzdUJjZzhPS0NHa2tXRHdMaGxYN2tHaW9rOF9xeC1ObDNoWF83dFZxWUg0QUJzT2tFXzJIVUwyenN1UDlHM0U?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_72c85c1c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Dividend Raise Might Change The Case For Investing In Ally Financial Stock (ALLY)",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:10:47Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU3VKc2dyWW9GX3YtcTdPUUJsbHJQR1NkUXg0bHFLWXpVTjNacnN2OEFSQTJmTEtxR01rVUJXNzZXWlF1dDNxeEYwSkhxYzU2OF8wUHlOODRoU2J2SnhRNW5ySFhIeHBrOGdzd2ktaEhSRkE4MjBZOUctUVJSLWlNbE1wOHVRS1lPR3p2WWlld2kyZTF1ZC1EYzRLWlZDQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5fc5052a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gartner (IT) Posts Q3 Earnings And Lifts 2026 Guidance, Is The Stock Still Cheap?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:09:27Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObW9lR05ESGZDQmVSWVFiMU9ETHBPa3lJS1p3ZjUyandzWXd1VHFWWWhiVjhRenRXOEg0TjNweGFhZzQ1ZlE2Rk5EVjc0M2VCWHoxeDR6S2ZMYmNER0xRdnBDVXRSMHhxZzV3LXJGME9GeDBqZTJpWEdVN1VhMjhRTGU2OVdDVHozVEJNd0lUS1JJdlFoQy1ZUjhIT2w?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_877b1bca",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "IBM Is Down 21% This Year. What Will It Take to Get IBM Stock Back to $250?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:08:54Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYWtoREZfT2JHUlk2bUtSbzZjckVib2xPVVByMUJqekpvWjk0ZEtwOFI3RGFRTGdiYi0xaENzeDZsQXJyM0hEQUJKV1NnNjJIejBKVjF3NXpmYUdDa1Racm9fVTNaNU5icDhMS0VHZFNNMEFoeUV1YVV2amk0R3VtQnNRZERSTlJjYjlTVUxJSQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1e591f52",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Berkshire Hathaway Is Up 18% in Its First Year Without Buffett as CEO. Can BRK.B Stock Hit $700 by 2027?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:07:36Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM1dENGVxMWdITEZQTWNILUFtSGRGaUVmWF9tOEhzRXVncFJvLTAtSzFFdGlGVjNobUxzSTZhZUYyYVl0VFJTOTFNa1VjdnpJeHRRX2dUamk3QzN5VXZzaE5kQmM5MmY4dWdia3NPZG93TDY2WWE2MDBzOHY5bXdfc0ZvNHV0dE5uSUY3SU5Md0k2RzlzUHpMTXdXZk5HX05OSHc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f6920a2f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "These Charts Show Investor Fears Run Even Deeper Than the Stock Market's Decline Suggests",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:34:06Z",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORUd6TENWaEUtLWQ1dTBtSzF0ODA2WEcyTTN3SUh2RTNqVlhybElMejBWZG94OV9URDVSdU54b0FVLW10YU9UNXpkUmw0WTQxR1l4MC1obHV2aFdXU0pRc3pyUEE5SFd3am55N1puaVdGZENkaXd3VzVJdnlPVlE5ZkNzWkFhbE1yOFNsNmsxSHlZdXVMZHhxaDFUbVY3aFlJZS1r?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1addfb57",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "How Risky Is USA Rare Earth Stock?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:28:47Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdU55QUM2cmc2VDR3VkE1dktONE9rM1hsN05qLUxiUlM3MjVQZzNTQnhnNUpXaUZOaU1fcXMyQkNMekxxYWJveWRrWnI3TkYyR1ZHR0w5M2ZYUzYtSENVRjFweUpMelRKRy1lZF9vMzF4WF9pVVBCRGNFcGdSZHExWnRibDlYOXpjTGdSQlk1ekNzLVFQM3c?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_818b047a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 실적 발표를 앞두고 주가 하락",
+      "preview_ko": "엔비디아 실적 발표를 앞두고 주가가 하락하고 있다.",
+      "published_at": "2026-11-17T19:27:00Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLWFVMlBnemRzMmd1Y3hHMzBtWFVDU3RmdTFpLVpUZUJ1aXdhZGVYNm5TclkwTlpQd1didkwyWXhDdHFQYUlwTDBDZ2hUeUx0dExHNjRvUlplUjlQNDItcXVmYmZ6eGJ5Tk9fTE12LWFuY3J1b1ZId2hEUVFSVDNuWlBRSENtZ29zTkRLZUhHWUFUS2VqcmE0MEc5Wk85TGlXblE?oc=5",
+      "summary_ko": [
+        "엔비디아의 실적 발표를 앞두고 주가가 하락세를 보이고 있다.",
+        "투자자들은 실적에 대한 우려로 매도세를 보이고 있다.",
+        "이는 반도체 업종 전반에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 실적 발표를 앞두고 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dc86d77f",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "월마트, 실적 발표 앞두고 매수 포인트 도달",
+      "preview_ko": "월마트가 실적 발표를 앞두고 매수 포인트에 도달했다.",
+      "published_at": "2026-11-17T19:26:00Z",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcTB5LTJraHl5aHd4NUpDTWJRd3lpQmhCNDRGb0tfNnhITkhkNV9veHE3MUt0MExDWmg0NG45Qm1JYnNWWDFpQ0w2czh6ZnBrWVdGSi0waHZlU3AwOFNuV0hVaUVTclNEaWRzSzBCSFZHQ1FiVlpMUjlITkZucGtLWTVNZkZGakgzZlc5dGJMRHplU0E3MlpwUmU3bElzNmJIemQydg?oc=5",
+      "summary_ko": [
+        "월마트가 실적 발표를 앞두고 매수 포인트에 도달했다.",
+        "투자자들은 실적 발표에 주목하고 있다.",
+        "소매업종에 긍정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 소매업체의 주가가 월마트 실적 발표에 따라 영향을 받을지 확인"
+      },
+      "us_tickers": [
+        "WMT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b638d245",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Here’s How Much Traders Expect Walmart Stock to Move After Earnings Thursday",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:18:49Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUMwR0NfalZMcWExMmpvdmV3Mkxnd3huWEhRQUFQd3BUZFVxelpHWnB4V1NqQVhBdWdOZk5NdG80WkF2aDJId2JlblhTY2ROaFkyRl9kWVNkQnk1M2xoNEE5UHdYX0ZULWI2N2x4OExOa1kwY2xONjBGaFJsaV9MTU9UWWFyLW8xZnljcGY4YnYtbjZhRVQ0TUdMXzNuaDQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e2243ab3",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "$300,000 in These 3 Dividend Stocks Could Pay $7,177 a Year",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:17:53Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjVmaE9KbUMyZ05tWHFpZW45RDBCT2tjU0tiWUlmWWhSbk9mRUNOcWJnVkdUMzlkdmZEblBJQXV3bk1NVTlQR3FmMW5pMnd3UktnZEhYRGJBdDBlTEZ4emlIb0laVXh1cktEMS1CUWFwbzM5ekhzQUh4RVU4cG92VnoyQWJlS0h1R1ZYemgyRFlOVFJZ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1f13cf2b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "We’re watching Cramer’s favorite market indicator for a signal to buy stocks",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:15:27Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUG9XYUdFeTJEMjMxN01Dc1o2VEhqZ0ZDRERnOWhrVHd5YlBvV2JHaEFZbTdjN2YxemROd0dDN2lVdV9UeXNScUdjVUNaeGZLczgwQklNNHZjT01VNFA5azhoSUNFbkhIbVV1Y3MzN09TSnFJeTdvR3A1QkdXRDZpY25GMEtJY1lsTE9RYXhrd1RGbzRfcGtKeXFPb1pkS183NXJ3WHRIMEpaRXJSeWpZWmp2dF9makl2Wnc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bc7af1a1",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Smucker (SJM) Stock Could Be Overvalued As Earnings Face A 40% Rally",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:14:55Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZFBCX1YxXzFJU3RZVUtmc0UwMjdmb2FXRWpEb0dJRzF1MnFHeWRPVDZ5dmlHd21qWjBkb2E5SGw1WHBibmloOEZYSk1hR3FHd3RVMFZNRDlvZHZ6WVJNWG8wdGl0azhaQlVuOEhjRTZVR1JqYnVWSHU1NEo4UG9naVRqU0l1dnFpYzJTZDlfTWtWQ0ltQ0NTRDhBZHAydlRw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b0fdda43",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nitori Holdings (TSE:9843) Stock Looks Stretched Following Its 42% Run",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:14:52Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeV9pdUVHZVFLNGJsYUN3c3QzcDFieTlQbFNyMjVTaGI2b21yajUxRzJ1ajFXY3cwd3FIbUV0LXpEWmRRSGpTUVpPQUQ1b0pIZVpkRl91ajBFeXhhbEo3SFlaa1pmNXJaTWhVemY4ZG04RXQ4bXZERldPWVpoYUE4N0Y1bFFLeFg1YnR2MncxSFFBUXlaTHBsMVZpZw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bd282ec9",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Marriott Vacations Worldwide (VAC) Returned To Profit, Is The Stock Still Trading At A Discount?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:14:48Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2Rrdndnd0hLQnF5Yk9hbEVIajBYLUd0UjBBa3dLZFdPeFdlZFNWVkktak5nYmN3YTRCZGFfdkpwWTlzMnFMMkZKRGZtNU1xNjRYcHBPOHQ4YktNUHY5SGtZTHFhNm1rRXRCYldpUjdDZ1NjLWNqdGZDZlpVWHZmUW0xbzVxcTBTeUVBUFg0TUVUd0czSXhZaTRMdDNodXRKdDhaNjR3V05JQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_39ef8095",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Is Avalanche’s New Deal With the New York Stock Exchange a Threat to Hyperliquid?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T18:37:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNamdpSjFKSVFCemFYWW8tSDY4TjNCY1I0YU1hcDR2aE9BUWJhcy04LUdQdWI5NGNpSkxtN0NzNFl6clR5aVh4MlRYckhlZ0x5Y1hBcjZwUXpyOUpsYkQ3Xy1GRm9SenlZcTRDek1feks1TG5ud1FlVGVvZ09fZFhPYVpPRTdtcnBkckhSZjQ1UXFwX2ZxaFFSR0ZQVkxlT1c0alpjTzFNc1J5VlotQzFxQnB0UXRmaDRBRU53V0NjbzU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f15eb8ff",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Berkshire’s CFO Just Paid $888,869 a Share for Berkshire Stock",
+      "preview_ko": "",
+      "published_at": "2026-11-17T18:32:28Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUmp6Qk5nRGxqeDdZWHVvMnRJUFBfMmVoSWE2eWloNzJtOF9vSXlDWjVHS0xhVkYtN3BXQUlEOV8wQWl0NmhMR2VNYzRBWnBCbDVyT2pHMFZyX3lEdVI5dU8wX29DUVBNOXRYUHV5dkhtaG5PRUhVd21oLUJzYlp5MUdRaWpRUHJvN1ZEZ2ZLMFBSTjNLTHo4?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1ac578aa",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "What Needs To Be True To Buy Dell Stock?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T18:30:16Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVpDNmxRTl82Z2RycjlYc0lJd0RDN1A3UHZ2ell6czFIb2haX3c5THQ5a05DZ0VXeW1pUVlyaFc2Y081eWdnNlNFU1AtTWZEYjFlbzNNZ0hWWEdrS1dYdWZvbW1BT0lSaVB3SHduejM5WmRocGU0VHJUWHlTdTlaOGVIbWtKcm1ac21RUGZJTkVBTE1i?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_49aedb1d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stocks are sliding again, and it's not just AI — the dollar wrecking ball has already leveled the debasement trade",
+      "preview_ko": "",
+      "published_at": "2026-11-17T18:21:33Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdFJrYmNfS2x4QjJsX2dRMUpKSUFTSjFFbF9aNVhwQ2I3WGt0ei10Z29yLXc4NkhnUk51cWV5eDRNelo0S2NoZHlleWplTmNMLUxwYkZ5Z3dFS1Q4R1lPXzV2aUlKTFZnM1NpRTBaZVpaNjZKZWtRSnJDdlh5NmtWWEdwdEp6dmZsVndYTmtLWGExZ3FURGZnc1B2VmJYdTY3MUVJY2RhNzMwZEd2Q2V4c3htd0dyWkdEY0ZPekYxdHFwa3A4NFB2czF1aTNpRG1YekhPR3h5TzZEdG94Z1F6LTVteW04QkxHbnRGcDJBY0JMOFk5dEdrOXBvdGU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5a0ab680",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Abbott (ABT) Stock May Be 28% Undervalued Despite AI Testing Expansion",
+      "preview_ko": "",
+      "published_at": "2026-11-17T18:08:42Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0hNV3Y0bWJRTXlRTmRuMXBvU19YV29HRkZESkd1anktM3ptdmd0ZGxmbVZjcUxvTlc5OU1MbWl2bVhia01wTHkwZWVaRW1yRndVeTZGZWJNSEZqZDVmUUNFVW81Y2xxUmhVMGtOSTEtejJJSmtySmttbnhzRWxTY19ISGo1TUF6UXItVExlVmN3Zw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1766de7f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "SPCX Stock In Focus: SpaceX To Reportedly Launch $4B Bond Sale This Week",
+      "preview_ko": "",
+      "published_at": "2026-11-17T18:07:04Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTDhCTnBDb1BBTWh3cGNMeERZajBFRDFLNFBqVWdPZGlRUGxZZWtxN3hhaFJBVzRLSG02bEowUi15eXhfa0lINWVLMzRBb2h0V2hwbHgtUzRWNlVLT25JeVdNLWVyYS1YTWJmUzM3NjdDcFVZMHkwLXViNGhHWWJtYk9lMTlmTHo2T0NKY1U2RW14MXF2bF8tRU9ZXzQ1WWtF?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_082518df",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "This Scorching-Hot Tech Stock Has Soared Over 70% Since the Start of November",
+      "preview_ko": "",
+      "published_at": "2026-11-17T17:59:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVklEWFNIRlJodWEzWEc1Rlc4dHRIOEdsbXpJMlVmM2NiVlpvbGQwTTRiczE5b3o4cmVCOFpvdjVHTHY2Y2MxZlF3SE1LcmJHcGZSY2JSTlI5NjdDN0RLQXVIQWNON2xodnVlbzdLY3hhelVsa1ZqWThGUm8tOWpuUkVqM1J0ZVo4NV9DMC1ZRXB5UmJJWHdvMkJodmI?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3cde223a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stan Druckenmiller Says He’s Short Copper, Neutral on Stocks",
+      "preview_ko": "",
+      "published_at": "2026-11-17T17:58:27Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEFaTjVOeG9aNi0tTHp5RDQ1UXZUNnItQUZTWnBnLUNSM0VYMUlQSWREa05nUndVUGpXZC1lWHA2SzBubUdvSndSWUJONDRxVHlSQWNwMm4xR1Z2UzJGNkM4YXAxOW5hNkVzSWM2MDVPTXlqOVh6emdsMHplMTMtS0xZQ284bVp2ODVuQmIyQ01SaGtpOF8yNkY2bkcwRGdUdkVNODh2SklpaVcyY3hVMG1R?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f9d7fa1f",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "세일즈포스, IPO 앞두고 소프트웨어 주식 하락 주도",
+      "preview_ko": "다우지수가 1.4% 하락하며 소프트웨어 주식이 약세를 보였다.",
+      "published_at": "2026-11-17T17:56:03Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSDM3d2NTNjFVSTNaSkJCT1g3SVpxZVF2NFdIUlVSWGpBYmotUndveUNWRTNVQ2RfNFZxZTJOUDUyQkdzSURSZ0N1YXZITFBhNVlMZXpnaVM3SnFQUUhuUkIyMHZLY2ZsM0pYS3VNMWRHMTJNb2VNcXZSUG1Lb0JrMXFjaUhmY2RLYkh6eVR2dW5sek9xVUpxZjZzSzdva05lOUV5WGpTMHd5QjRKYkFfclJRLURDSVVqRUEzc2l6dkxxQW1aQXQwSjZ1YmdKQUdZbEE?oc=5",
+      "summary_ko": [
+        "다우지수가 1.4% 하락했다.",
+        "세일즈포스가 소프트웨어 주식 하락을 주도했다.",
+        "앤소프틱 IPO를 앞두고 시장이 불안정하다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 소프트웨어 업종의 출발이 약세인지 확인"
+      },
+      "us_tickers": [
+        "CRM"
+      ],
+      "moves_ko": [],
+      "coverage": 3
+    },
+    {
+      "id": "n_52d49a19",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Is IonQ Stock a Buy After Revenue Hit $173.8 Million in a Single Quarter?",
+      "preview_ko": "",
+      "published_at": "2026-11-17T17:49:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOXpxODhoLVpITWlkUE9CSS1IcHpXU2lrc2F1cXRWYWkwMjg3c1Z3LTkwaFBZSWQ4LU1KSTJWWGRxLUFkNnNLTXNCRm5veDI3RjhaRGFETGV0ejJBMGR1YzhtSkYyUS0zcHdKNjNoRV9jY3pfX0hiZ25Zb0RTM2ozNUk4a1ZQc282ZFpFS2w4Si0xcVhibnc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8da55f77",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "코나그라, 배당금 50% 삭감",
+      "preview_ko": "코나그라가 배당금을 대폭 삭감했다.",
+      "published_at": "2026-11-17T17:47:59Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb0RrZFd2Z0l0MzVZeGpGeEN3NkpyM2l5S2RPRU9sUkJWZTVZMTlwQklwU2RDeHdwYWt2NDY1M0tmUENzZnZrVUZueUdiMHdIaXpXMDAySDJBM3RENER5eUNpQm9vTG1UVUpNTEtiSHVudGJlWkR1VVEyYkZBZ2dQV3dZQVBFT2Y3YTdEVXU0bkNaSm43Skd1TDd3?oc=5",
+      "summary_ko": [
+        "코나그라가 배당금을 50% 삭감했다.",
+        "이 결정은 투자자들에게 경고 신호로 해석되고 있다.",
+        "국내 식품 업종에 미치는 영향 확인 필요."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "CAG"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9a53339a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "인텔 주가 급락, 주주들 기만당했다 주장",
+      "preview_ko": "인텔 주가가 급락하며 주주들의 불만이 커지고 있다.",
+      "published_at": "2026-11-17T17:47:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc0tiVFBiNDBkWXFGcGozMV94VXQzQldvQ2tLZUZzUWNTay1PTHEyX0p0QWltX3RQNVpwMGZ0X0FJRVJidGNOcjZnUHJXYVR0eU04NUlGaEM2TzROeWtqT1RsWkx2c2QzSWJWb1QxbF9CVHZIUEtjbFlCWW5mcVF2Q20tWjhGNlN3eUVaaE1rb1c4MDFNV095VXdSSkpCLVZ3Rm5oT0ZLOA?oc=5",
+      "summary_ko": [
+        "인텔의 주가가 급락했다.",
+        "주주들은 회사가 자신들을 기만했다고 주장하고 있다.",
+        "이 사건은 기술주 전반에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 인텔 급락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "INTC"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_3415ab63",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Not Nvidia. Not Alphabet. This Is the AI Stock I’d Buy With the Next Dollar I Invest.",
+      "preview_ko": "",
+      "published_at": "2026-11-17T17:45:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQW5lQnV2c09Xb1A2X2tWbC11X0JYYXpkb1lmc3czdnpjMFNjZG9oYVpVSS1mWnB6UVdlZHlRaUNGaDl0RU1ad1U0OFdWQy1IdjdzT0JXdURDX0lRVUtGSThXYXZtWk1lOFpYb1dNa1Q5clM2cXdaZ1pKWHIwNUpfM1ZjZFFFUzlXdVA2OFIwMVRDVUxGaHRkSy1XbG9yc3hyeWxyVnhCOTRpTmd3R1FYd3FCLXUzZXFQZkRJV2hfaXNfZw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d003e7e5",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "소비재 주식, 기술주 하락 속에서 강세",
+      "preview_ko": "소비재 주식이 강세를 보이고 있다.",
+      "published_at": "2026-11-17T17:39:29Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbUJVUExGREJUamRKTnlPNWJQREpkaTcwc2NtRTREcnBFang0RkI1N2NENV9ESnpCXzluZ09uQ1pNZFp2Mi05T3VQOHZMSEhZbHJqeG9ocllIOHdFS0VjMlJIbnIzVWV4VUtQc2dLZGtwdk1Jd3ZhalpPWVRsZlNDdUdoV29rdk91X0FoTlBUbktrSjF6QjRvTjRjeDdqWTFFeWhHTVpIRG40SnVZaGIzejJpMWVzVlNQOGVqbDhibTdfQm9kR2pmQllub3N0NGZMN0hr?oc=5",
+      "summary_ko": [
+        "소비재 주식들이 기술주 하락 속에서 강세를 보이고 있다.",
+        "소비자 선호의 변화가 반영된 결과로 보인다.",
+        "이 현상은 국내 소비재 업종에도 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 소비재 업종의 동반 강세 여부 관찰"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d76e473e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "UK's FTSE 100 logs worst day in eight months on nerves ahead of Nvidia results",
+      "preview_ko": "",
+      "published_at": "2026-11-17T17:31:23Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYlctZUJBbkJVek5qZEV4aFlDcm92RjZBd0ZQZU9LUnh4bkhDZWxabjh0QjNFMUowRE44RExiZmZLMnMtanZlSW1tbHN0THVrN1hQc3NPQjhKdnd0eEh5cGpfYjh6V284dW9ZZ3JVd0JSYU45cElUN01IMEl5SC1wNkRYT3hDVEhicXVhQTRoTUpPNzE2RjZuX1dBVUZDYmZ1ZnNUQU5kRkFmZnREU0w5SUQ1azJUV2lvaEZuTmU3Yw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_22c2424c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Prediction: Here’s What Anthropic Stock Will Do After Its Nov. 19 Debut",
+      "preview_ko": "",
+      "published_at": "2026-11-17T17:27:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORHA3N3R2VnRnWVE4Qks0dmQxQmVuRGd1dDVFZnZmQ3RQZ20yYTFHTVVHVDJtSXRrUXVObHpfTG5SQ2toeU96Q2xZdHVNdTljUjl1MkxOVW4wNUxyOFBmbzdSUXU4RXN0R0dHaUNXanJaY1RqclZFVmJMQU1MWFFsS2FQTXZuWFZMWS1xbmlYcWxfcy1XcmxjRzQyWjVvZ0E?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_60f679c4",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Bear Market Watch: What the Charts Say About the S&P 500",
+      "preview_ko": "",
+      "published_at": "2026-11-17T16:58:00Z",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qd21ycndkaG05TzBPNTVNYzBoVExjUXdjZm5SUG4xa2JRbjhFLWxsSkpERnlsT0xoZnlUU3RRRUVGYnZady1OWXlsLWZGaV9CYnY5RG9BaE45bFNobVJiallpdC1MZXBYVW5IYVF2Q3VKNllrc1d0ZQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f59c4b79",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "마이클 버리, 알파벳 주식 기부 후 소프트웨어 주식 매입",
+      "preview_ko": "마이클 버리가 알파벳 주식을 기부했다.",
+      "published_at": "2026-11-17T16:53:23Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSzBKa0Rrbi1IVUJPN2d1dnpFX3NKcEF5eXprNGNHV0E3eDYyU3J2UlBmMGFDam1qRVAzODE4bzJ1NHJwSEc0Z2luSHdxR1RPb2h2RTZfM2R4Z2gxUVEwc0piZXF6bDR2UEN6a1VjUlJGaHg4TEhTUExiQjkyQ3ZDc01EczFqSks1dGhXZlJuaFh2RDlMV2lhVjhfdVVuaXJyOW9GSQ?oc=5",
+      "summary_ko": [
+        "마이클 버리가 알파벳 주식을 기부한 후 소프트웨어 주식을 매입했다.",
+        "이러한 움직임은 시장의 불안감을 반영하는 것으로 해석된다.",
+        "국내 IT 업종에 미치는 영향 확인 필요."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "GOOGL"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d5ac4bd3",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "If a Stock Market Crash Is Coming, Here’s the Most Important Move Warren Buffett Would Make Right Now",
+      "preview_ko": "",
+      "published_at": "2026-11-17T16:35:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWldGbXBzSDZrVkRrVDVLYXVTb2FrRjVwRzVKejRVOUV1UzNuRWVkeXhOT0hyNFJZMTJuWWp6THZSbU84Z3VnZDhvWEdPWndMUmtmb09sUEFiU1RaeFNFSUtrTVJpMU44UGdtWVpuTk5RaHo4Z2pXTm9YMm5QWEwwWVlXWWJ5MS05bUczNG0xZjdGcGVmLWdOVkduTQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6fac7cc8",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "QB Stock Market Week 11: Joe Burrow Is Even Better Than His Big Numbers",
+      "preview_ko": "",
+      "published_at": "2026-11-17T16:32:18Z",
+      "source": "FOX Sports",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVV9RbWlYSlpnTWtXNFMxbEdjX1daSWkya3RKVDZRWG8xLW1wQXVqTjVOaTBUcDZBSVItc1pHX0NoNmlNclBycm9ERGVlTW51cFlYWWw4bW1FdWhLNVhFMW5sNFJKQTJVeHUwbzh6MEhPZFlRckMtMlRzdlZPZUtIbF9BOWhqelR2MFNta0Z1R3RuWDM1eGxydmUxUzNuZ3R2SFBUbXVaMFTSAagBQVVfeXFMTWFvdXpnSzdZeHhZVXM3R19rQjZBTnVlZ1NwZ0YwWURDRWFFNU5QanAwUjVCVVJaU3ZOZHpFQktmYW1yVFlFbGc3b1dlWk5fQ2pKRVJnN1JHSFVUd3lYbGNpYTM4dFR1NTBMTG1oRE9lUzgtQk1YSFhIOEdHZUNMVnN4TnpqYWlaMzQ2Sl9JVWZIQkE5b083SkQ1N2ZoT3k5b2ZQOUs3d21x?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_71bc6330",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "엔비디아 26% 급락, 월가 긴장",
+      "preview_ko": "엔비디아의 급락이 월가에 긴장을 주고 있다.",
+      "published_at": "2026-11-17T14:28:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSWczNzRqWXp4OUliMzZZVWZjbHdLX2lYMjJEaVozUERuaHU1QVhmYzZoSWQ1ZDBhVXRhc2UyeS1UWS02RWFaMDhZdlpPNWZ1a3pRQVFPczBBQW5fWFkxX3d6SDZkNVNSUnloalNieE5OZVVndHd6aERtelEwWmhZcFViX2dZSEh5ak9jLW1aeW9MbmhRSU9DSA?oc=5",
+      "summary_ko": [
+        "엔비디아 주가가 26% 급락했다.",
+        "이번 급락은 오늘 발표될 실적에 대한 우려를 반영한 것이다.",
+        "투자자들은 향후 실적 발표에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 4
+    },
+    {
+      "id": "n_daf4fb62",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "하락하는 주식 시장이 소비자 지출에 미칠 영향",
+      "preview_ko": "하락하는 주식 시장이 소비자 지출에 영향을 줄 수 있다.",
+      "published_at": "2026-11-17T13:55:00Z",
+      "source": "Marketplace.org",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUDh1d05UR1c3dUtjOUVTLWxaWjJfN1RyVjBoSnk5V0p6YTdWMzN0UDBVVmdfY3JrRm82eXNYNWNMd3RMV1RUWGY1cWkwdi05R1BjY2VyUVhyQWEzMG1HcXE4OFpIVDN0V2J3Y0dQR3Z4T212OXhuaVlYUlNuLXBnVXI1VGxWZk5WZFNiWGtoNEpkNXNvMk9XWjJUSVkxSnRxUEE?oc=5",
+      "summary_ko": [
+        "주식 시장의 하락이 소비자 지출에 부정적인 영향을 미칠 수 있다는 분석이 있다.",
+        "소비자 신뢰와 지출이 주식 시장에 따라 변동할 가능성이 제기되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 소비자 신뢰 지표가 하락하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dc7719ff",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "S&P 500 전망: 주식 시장의 조정 가능성",
+      "preview_ko": "S&P 500의 조정 가능성에 대한 분석이 있다.",
+      "published_at": "2026-11-17T13:36:42Z",
+      "source": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT211blRHRDhRdERHczZlcXJSZExwQ25qZVc4RlN3RXFRcXc3bTdpcVE5TXRJZHJrWHhEUkdUS1FteExONlN2blk4ZUd5ZjlaNkxIYUltZ0x0VUxLZjVuLUotcmlrdFVKWUxXWUIzS2xhYUh3YWg0RVROS3pJbnJIMVVvV3BhYTNjU3QxRkRxVmVueUU3YUVrd2VjajhjeWh3bUo5WF9IdFVZYXVFUF82dkFBXy04VFR5S1ZtLUJKTjZBaDA2Mjl5OFMza1hLektHdFBPTG8wbTBEZUotNXFmaUVFdnhMVUJxVUE4?oc=5",
+      "summary_ko": [
+        "S&P 500이 조정될 가능성에 대한 분석이 제기되고 있다.",
+        "주식 시장이 현재의 상승세를 유지할 수 있을지에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_2d263b85",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장이 폭발적인 한 주를 준비 중이라는 분석",
+      "preview_ko": "주식 시장이 폭발적인 한 주를 준비 중이라는 분석이 있다.",
+      "published_at": "2026-11-17T10:32:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQkZqOHlrNk03N1dKOXVicFlfT29XdDZ1UGJiT280Y0pHSm9IUkNkR2xHWktBamJvblpMUGd4aVhsbkNHSkhfWmJOa1dqQUdzVkVaaHpiUGNobEFaSFpfeU1UVUtDT2lpREJYbWo2MWJWenVFaUl1RHJ3LXExYlg5MzlSS0ZyT3daLW43TTgtRlMzWjJpTEFiMkxsSUFHMDNj?oc=5",
+      "summary_ko": [
+        "주식 시장이 폭발적인 주를 맞이할 준비가 되어 있다는 전망이 있다.",
+        "엔비디아와 연준의 결정이 향후 시장에 큰 영향을 미칠 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8f9a6f1e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Prediction: The Stock Market Will Make a Big Move on Nov. 18 (Hint: Nvidia Will Be the Catalyst)",
+      "preview_ko": "",
+      "published_at": "2026-11-17T10:08:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSE9NWUhoUFFKcm0wbzBUNi1MMmlkNmNFVU80UmFkYVFOOHVuRlByem91azAxZW1LTUJtWU55czVCQjZHd2JzcnlvQ0E4S0dXSFREbE1fY01YS3RETW45YzNwSV9xSTlLNTVzbzVFSmxxX19sWFd5aTltQUVLMTh4WVcxVV9URC1oS1VrMk9HdXVkRXRJWVVDclRCVDd5dw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_10497f81",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "VIX 숏 커버링 급증, 리스크 재평가",
+      "preview_ko": "VIX 숏 커버링이 급증하며 리스크가 재평가되고 있다.",
+      "published_at": "2026-11-17T09:11:47Z",
+      "source": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZsV3ZlVFFXbnFzdldudTNBdW9KZl95aFNldTk5ZTFUcTlmekdhdGtNWlpMcU9GWWZOcHJWLVhxdUktZWlILTczOGFvc3pOSllRaDBYTXdiTlpna1llQWpHWFdDN0hENEREaHY1TDFqN0cyMTlDelFqcS1PdmdURFpzUDh1UGhTX0RsSVgzUXZncE5TVmZQQTl3NXhkUEVLOFZ1a0lxU0k3cmNjcWx2RnpiYlhnTldoZUlXUnVpOA?oc=5",
+      "summary_ko": [
+        "VIX 숏 커버링이 급증하고 있다.",
+        "트레이더들이 주식 시장 리스크를 재평가하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장의 직접적인 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fc860f0b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "I asked ChatGPT if the stock market will crash before Christmas and it said…",
+      "preview_ko": "",
+      "published_at": "2026-11-17T08:15:00Z",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNXBOQ1NpRmh3M0ZDb2V0VEo5dEJpYzdqQ3hhREVVRDlJZ09KQVZzSkoxb2NtenlnYlluankxay1hVUtMMXBSTFZKZDJaVHhMS0d4X1JZcWw0bVp2TS1HcWkwR3pkMXVpa0xWSEpDY2NKSmNHU0hBMzM4ZFFjb205Rm5PSEV1ekNi?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e5dede01",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 여파로 미국 증시 하락",
+      "preview_ko": "엔비디아의 영향으로 미국 증시가 하락했다.",
+      "published_at": "2026-11-17T06:26:19Z",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMEFFWkM0QU81aEJfWUszZ083R0l0MVEwOGJDTmF5MzJRRnI2eDhLd2RhaUoxVHRzSzRud3JKVEtsNmJmZWxrZkg0R3NpaVQ4QTJGZnZXZGstZy1OMl9TYXotOG41blRaTUVFd21xT2NLUlI1aTE0TThlb0tyX2lJbDE2MGczejYwcmU0UHNwbFd5UXZCYnRISGJXOEh4dXBNMnc?oc=5",
+      "summary_ko": [
+        "엔비디아의 여파로 미국 증시가 하락세를 보였다.",
+        "투자자들은 엔비디아의 실적 부진을 우려하고 있다.",
+        "이로 인해 시장 전반에 부정적인 영향을 미치고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e95c24f0",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "S&P 500 오늘 상승할까 하락할까?",
+      "preview_ko": "S&P 500의 오늘 시초가에 대한 질문이 있다.",
+      "published_at": "2026-11-17T06:14:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbi13dnBkZHc2MEpyT1BrMEVhUHhhYTg5cEJ3b3U3ZGdLYzdqYXZUcmhhUndIbVVfc3BRSVZZYWRMZGQ1Z3BHU3VES2NBZFVQbHFIcno1VC05LWZVUXRCMlY0VXFQeS1HRkVMWEJveGNrYjd3U3pxdlVteEU5blNwNDhSRmFmSHZLS2lrNmt1TG5GQQ?oc=5",
+      "summary_ko": [
+        "S&P 500의 오늘 시초가에 대한 질문이 제기되고 있다.",
+        "시장 분위기가 불확실한 상황이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장의 직접적인 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_93e250ba",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 10년물 수익률 5% 돌파",
+      "preview_ko": "미국 10년물 수익률이 5%를 넘었다.",
+      "published_at": "2026-11-17T20:55:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZM0d2X0FqU3J2ZlpPNVAzN2lLZk5UME1wa1Z0aER6OTdHVG10ckJhYlRFQnF2X2NwcWlvSEdJa1MyeVlsTDB6Qk56emZ0RlJVdF9WSGNyUUxBcmQxSElvejhmck9FX1d4dF84UmFBZG9GNjh3c2c?oc=5",
+      "summary_ko": [
+        "미국 10년물 수익률이 5%를 넘어서며 27일째 지속되고 있다.",
+        "이로 인해 금리에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 채권 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 −2bp"
+      ],
+      "coverage": 4
+    },
+    {
+      "id": "n_8eec0ccf",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:43:51Z",
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVms4bDNVY0tjZklvMXNfdjZpQ2RTM2JCYXRkek9Ba1ZNaFc4VlVmNlZEZTZGRlJuUEh4dFBidlVSajJWRDZrWmVHZElaTW5MbWZqcE9Jb2hvemUtWXNCcEIwYjdjZ1k4aDZXQ2h6QWpGVFZ1SjVBTEhNc3h4WDZVYWVUbWxXZ25HVV8tbUgwd1E5OEgybGxzZVdRZkZHUUpTOVVlejFjZEVKZXk2YVRr0gG0AUFVX3lxTE1fQWRYYXpoSzdvZ1loZV96RHJ6dldFZlpEOURDNmJuZmN1SFpuWnpnYmdTa09oZDJrMjdwTWo5Q3ZfTzZoNzZYd0phY3hld3E0QVBMYkhfUnFpLVZXZnlkY2RXWTRmVU9lWENQbmtaTlNFSF96WlZxMV9MbVR0eXVDV2FoNGpZak03Y1NuWVFBX2tMcG1EajREWmxPWFFOM2ZEZlJXWXZEdS0tenNNNVRTU3VwVQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a37312fe",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "5 High-Yield Muni ETFs to Load Up on Now for 2027 for Tax-Free Income",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:30:00Z",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdUw4MVJsNzdNSXNGaGstUi1iX2xTMnFuWlo2R3B5VGpPRTNySzdsdmNBckRBa3ZMcGZQRkVOYVpzVlhJdC1vQWViUFZCU25fekdxZnpmMGxleFNiSjJhT01mTHZlbXJJYS05amRnaVdfd016Y2JVbk9HSmJJUEttRXczc2lEeUt1T0xBRldEdXdiWjFuMTlnekxXQVJYTXl3bk5zZ3FlOEozUXZ6Y1pHZnRTS3AxdXlf?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_3bf50b14",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Navan, Netskope, Vertex, Liftoff Mobile, and Oracle stocks trade down, what you need to know",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:00:49Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZGtPb2FYcXBqZ0U2RHFmVGdKUnJrSjBfb05kcGxfSlNJdDBYZDVBcWtWNmdoZVlabVBVbDJ0LWRYZnZnQUhLX3pyOTRGOXRncjhmWm9iM1dWbkxzcGFFT0Ntekc2elJZX2xZR3dhWXJ2dGpvWWlSYUhoN0hHdlR3cm9GQW9HcDBUNkVXOTFjOVVITlRZZ2FvVmMtUk01eWs4LVE3RUJKSUtzbnVJVEE3aXJFLVpOb3JhcnpxUy1zZzR4ZEM4b2lXYVZlMEllM2lnbVd3VVdURmY2U3ppRXVPMmRn?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_56067254",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "UiPath, Zeta Global, Guidewire Software, Figma, and Rubrik shares are falling, what you need to know",
+      "preview_ko": "",
+      "published_at": "2026-11-17T20:00:49Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRzgxb2RCTlk5bS02UThZdC1xeHRuU0pYWVQ2TWxRMG55Z3NKZWJKZkNaZm1jNlRNNnlsYTVzbXk4MjJYbGlqU3B5MEFoaU9hUEt2WFlJOGhxaWlxUkdlb0xIeENTNGVucF9RVG9IeE96MUZ4V091cGVhMHVpeENZMFNDbVE4MXF6Y3RJNnFqTy1pdVdqb3cwUHNPd21DMjFiOURrVFB5WGctMjNrMzhENEk5ak40WkxZQ0JVSHp5UFpjbWlXVnpJWlE4MjZKWlFpQURlT24taFBBRURKMk9Ma2IyT21xWWg3MWhlZQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b1f1f6a0",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "다양한 기술주 주가 하락",
+      "preview_ko": "다양한 기술주가 하락세를 보이고 있다.",
+      "published_at": "2026-11-17T20:00:49Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNk5OQU1Gck0xRXRjX0YtVUcxaVV5bzRncFJrTEFtWWhBd2R1WW02aWY3a2FNbUpsMnk4WFB4QXFZV1YxbDdibTFkUWRMQWNfWEhnb2ltVTBweGVVcENsQzNjN3VKNUhWcDF4M0NYOWhzVksyb0tRR2Z1U1VFbjVQa2hZY2lwdXFZSFBBWmg2RUZjSWRxMUFRNzBuaHhzcW11VGc1X3lZby1yQ0pBcFpsUDVxLUhnXzhnMUJoQU9icmo2RzVvNHN0c3FXdDc1NHBpbHRGSlRiRDVNQQ?oc=5",
+      "summary_ko": [
+        "다양한 기술주가 하락세를 보이고 있다.",
+        "Datadog, JFrog, Zoom, Atlassian, Commerce 주식이 포함된다.",
+        "이러한 하락은 투자자들의 우려를 반영한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 기술주가 미국 기술주 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f8d34410",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "Adobe 등 주가 하락 소식",
+      "preview_ko": "Adobe와 관련된 주식들이 하락하고 있다.",
+      "published_at": "2026-11-17T20:00:43Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa0o2bTBLU1ozeXNfRjdWVy1yOElFX2JyMlVJSHFRS2hCQjdJcVJMdTY5YzJ0VjZpNmx6X3UxYXBiRHhwekt0Y1J3aDFiR09pMnZYNnZuMGl3eEhaZjlWa3d0cVlBdXBSVDRuZE1TMEpSQi03c1NQa0RsMjNRWG1rRmdVWWc2SVVFLWpVZUdlWE8tb0xOOVBWaXhrOTNkTlkyUlZEXzZQS1pUNzNOWi12UFlGMHNoRFNSVmgxZTQwWXVpRXNQRHM1Q3V5cnJJSUZUcm5iQ28zQWJMdzA?oc=5",
+      "summary_ko": [
+        "Adobe, DocuSign, Intuit, MongoDB, Workday 주식이 하락하고 있다.",
+        "이들 주식은 최근 실적 부진으로 영향을 받고 있다.",
+        "투자자들의 우려가 반영된 결과로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 소프트웨어 관련 주식이 미국 주식 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a2eaf1af",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "monday.com 등 주가 하락 소식",
+      "preview_ko": "monday.com과 관련된 주식들이 하락하고 있다.",
+      "published_at": "2026-11-17T20:00:43Z",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMmpyM3FFdVlvZEZtaU9BWjl6ejB6dGxZU3RBYXB2dmFOdGhQZjNxX3NYd0tCUnFxamFsOV9NSWw5c3RlUjdYRHhzQVVqMG5sbHp4c1dNRlJBY0FNVmdUY1pvTTFrSWxpNjNvNVRPdE53VHFlZDJMS2lQS1lxTWNkODZ1cFphak11WElIQ01GWFpfMkxSTy1wZlpmcUF5bFdtMWxaaDZidkNSYjhpbFRRNFZtM2lfUzV1ZHlIb01NU2xDUkhSRnk5LVRVRHl0cDlpakRaTVU4c0ktQzFtSmVuX0VUOTBoUQ?oc=5",
+      "summary_ko": [
+        "monday.com, GitLab, Commvault, Pegasystems, Alkami 주식이 하락하고 있다.",
+        "이들 주식은 최근 시장 불안정성에 영향을 받고 있다.",
+        "투자자들의 우려가 반영된 결과로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 관련 주식이 미국 주식 하락에 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_03f76fbf",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "비트코인과 미국 국채 수익률 비교",
+      "preview_ko": "비트코인이 미국 국채 수익률과 경쟁하고 있다.",
+      "published_at": "2026-11-17T19:43:03Z",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PWjBqd2FsWDJrc2FsNjd0aWQ2OGhWTm1TX3djanhDRlJkQ1dSQzlzTWY1MFZ1dHRIazVsM1lMNGY5dnFFNU15enNCU2dFVDJpUUFBTjVsWUI?oc=5",
+      "summary_ko": [
+        "비트코인이 2.92%의 국채 수익률과 경쟁하고 있다.",
+        "이는 인플레이션 이후에도 여전히 비트코인의 매력을 시사한다.",
+        "투자자들은 비트코인의 향후 전망에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 암호화폐 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fc3f387b",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "비트코인 가격 전망 하락",
+      "preview_ko": "비트코인 가격이 하락할 것이라는 전망이 있다.",
+      "published_at": "2026-11-17T19:25:11Z",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaTRZRG5sRHMzZTVKcWZrNVFZc0p1VHpFcXg3YTd1X2FraWsxVGRrNDlYWnNzVTY0R0I4MmZtZEV0WEFLQUZFQ1ExaUdDVURhT0xIQXFLbHVFaXVFNlk4d2kwSE5HaFBiWkc0RGVfbV9ieVlValV6Ymd2OWFudk9admd3UlM2Y2pqR0MzVzE0LWtPT1E?oc=5",
+      "summary_ko": [
+        "Galaxy Digital CEO Novogratz는 비트코인이 2026년 $90,000에 도달하기 어려울 것이라고 밝혔다.",
+        "이는 연준의 금리 인상과 관련이 있다.",
+        "투자자들은 비트코인 시장의 변동성을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 암호화폐 관련 주식의 하락 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6b5c9830",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gold struggles to rebound from one-year low as US dollar, yields advance",
+      "preview_ko": "",
+      "published_at": "2026-11-17T19:16:03Z",
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWW9pX1YxWjhUTVJzeVVSSERoTXJOdFlFUklJQUFjWld0WlVLOFRFVmF0bnBNeGJCQnpiNzY1ZXA5UHNvako1WGJkaUNoN0RSc2JxSjJZTG5SUGZhRVgyYk13WldQc3lBdV93NXNMRE02SDg2eUkyTDM3eTF0NDYzOVJvZmR0czJHblQyQ3pzOGE5Y3R6cGdTZGF1aWhuWmVGT3Z6ZTd4SHBYdWI3Q1pXZ09mQlJqTDl6Wm1HWmY5dk7SAcYBQVVfeXFMTzQ4bHVIM0IzSEVLN3NsVXgwcVJmNmNZOGdBdmJWazFKZ0E2UU1ueGd5aHpyTTBNYi1ZUERMdXZaVVp3a0h4Uzg4bFU3R2luaFQ1SE53bVpTdEx3NktfNm1jYmYxWmZGLXJBTkJubGc4b1cxZkk2RnoxZ2JFUGw2ZWNWeUtJMmpqLUVVZmtiWVNRMjhRTHI3QmlQNnJtRXZxMFkydERDamJ3RnRTZEE2SHIzWVdQLUNLRFdiUXQyRVFrZUxWRFZ3?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5a79b107",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "달러-엔 환율 변동성",
+      "preview_ko": "달러-엔 환율이 변동성을 보이고 있다.",
+      "published_at": "2026-11-17T18:25:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBibU5HOE9YbzZfSHdFUU85aEdFZDhCZzZtdlJxaHRyQkk4NVBLdWtZOHB3bzJjVEhodjJlSGFZU3Vjd3plUlZpaGJDaVAycUpXTkRGSUNod1NpaUVzeDJaTjBlZk82SENtWlpZcVNtaGpuR2Fjdmc?oc=5",
+      "summary_ko": [
+        "달러-엔 환율이 159 수준에서 어려움을 겪고 있다.",
+        "미국 수익률 하락과 주식 매도세가 엔화 매수로 이어지고 있다.",
+        "투자자들은 환율 변동성을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 환율 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_69a894de",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "10년물 국채 수익률 영향",
+      "preview_ko": "10년물 국채 수익률이 영향을 미치고 있다.",
+      "published_at": "2026-11-17T18:21:00Z",
+      "source": "kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPV3dXSm11S0k5RDlJUkxkeHNtdENxa21ZRXM1Qy1kU2NrYW9XcU94R2dva2U2U3dTOFd0VW4xNF81Zkl0MVNDai1UQTlIcVA3OXlKX25pVzZMc3RiWk14U1dSa0NsaHA2cU1nek1VZ0JWc3B5ODhWSDM1SFM0ZXJJVzdfRk5pVXVELUtWeE5TTm5UeXUtOFJISmpxWU1wcHBQOWtUQkRlbnZRd0xMM2VPZTdZcGVLQ3pxSzVvWW1nM2EtMy1ITkV5cjZOa3NJeURPRG5BMS1kd1ZYWFJZYjJQRFdoQkxpM1lmdkNOTXY4LVlLY1hsalE?oc=5",
+      "summary_ko": [
+        "10년물 국채 수익률이 5.1%를 초과하며 시장에 영향을 미치고 있다.",
+        "이는 투자자들에게 중요한 지표로 작용하고 있다.",
+        "투자자들은 국채 시장의 변동성을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "TLT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6edf2973",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "모기지 금리 급등",
+      "preview_ko": "모기지 금리가 급등하고 있다.",
+      "published_at": "2026-11-17T18:10:16Z",
+      "source": "HousingWire",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yU3NJTHdfM3V0Z3YwVUl2U3Z0bWw0N1FjOHVEZFlNQlhFdEtWQ3N2Y1hFRFJXWGNGekN5eGpaTmpQTzQydkVXTWlNTXhWWjRMXzJoekNqTEM5Q1prX1NJUXBSUWtlckV2UlBYYWFn?oc=5",
+      "summary_ko": [
+        "모기지 금리가 지난주 급등했다.",
+        "이는 여러 요인에 의해 영향을 받고 있다.",
+        "투자자들은 주택 시장의 변동성을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 주택 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_87cee7a5",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "미국 국채 및 유로존 채권 수익률 하락",
+      "preview_ko": "미국 국채와 유로존 채권 수익률이 하락하고 있다.",
+      "published_at": "2026-11-17T17:56:00Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWhaSXdja0FJbTdibG5fb3BEQWpTMzNmbTVUNkhtN2haanZFaWxtd3EzNVJUa2tkcW12NUhHMVRiUkhydS02b1JEeWphTEdRRHVUVjZZdzJnLVo5RE84d3B1NmJIYTZfWmpwMXVHSUlzSm9ra05ILTg3dUE1bHo3dUNCWU5Fbm1PSHJhek93N0JxMURmdUc5c3JwbUwyTG93TGJNbFJhX0R4UzctRVpiaTcxek16MnFRX09ocjhQWDJqNE0?oc=5",
+      "summary_ko": [
+        "미국 국채와 유로존 채권 수익률이 소폭 하락하고 있다.",
+        "이는 시장의 불확실성과 관련이 있다.",
+        "투자자들은 채권 시장의 향후 방향성을 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    }
+  ],
+  "calendar_actuals": [],
+  "total_batches": 15,
+  "failed_batches": 0,
+  "picked": [
+    "n_47bf153a",
+    "n_93e250ba",
+    "n_71bc6330",
+    "n_f9d7fa1f",
+    "n_02400a9a",
+    "n_9a53339a",
+    "n_f94a31d2",
+    "n_437b927d"
+  ],
+  "notes": [
+    "6 summaries replaced by titles: numbers not in article"
+  ],
+  "llm_usage": {
+    "gpt-4o-mini": 53324,
+    "gpt-5.5": 10363
+  }
+}
