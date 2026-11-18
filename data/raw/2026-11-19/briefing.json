@@ -1,0 +1,39 @@
+{
+  "direction": "flat",
+  "direction_ko": "보합 우세",
+  "confidence": "medium",
+  "headline_ko": [
+    "미 증시 혼조,",
+    "AI 반도체 · HBM"
+  ],
+  "headline_emphasis": "AI 반도체 · HBM",
+  "points": [
+    {
+      "title_ko": "시장 혼조",
+      "text_ko": "나스닥100 +0.42%, S&P 500 −0.23%로 혼조."
+    },
+    {
+      "title_ko": "금리 변수",
+      "text_ko": "미국 10년물 −4bp에도 금리 우려를 확인."
+    },
+    {
+      "title_ko": "국내 연결",
+      "text_ko": "AI 반도체와 데이터센터 반응을 관찰."
+    }
+  ],
+  "focus_chips": [
+    {
+      "label": "AI 반도체 · HBM",
+      "anchor": "#themes"
+    },
+    {
+      "label": "데이터센터 · 전력 인프라",
+      "anchor": "#themes"
+    }
+  ],
+  "risks_ko": [
+    "FOMC 의사록 이후 금리 인상 우려를 확인."
+  ],
+  "source": "gpt-5.5",
+  "label": "참고용"
+}

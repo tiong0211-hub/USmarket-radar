@@ -1,0 +1,217 @@
+{
+  "run_date": "2026-11-19",
+  "us_market_closed": false,
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "value": 27116.26,
+      "unit": null,
+      "change_pct": 0.42,
+      "change_bp": null
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "value": 27190.5,
+      "unit": null,
+      "change_pct": 0.42,
+      "change_bp": null
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "value": 7323.63,
+      "unit": null,
+      "change_pct": -0.23,
+      "change_bp": null
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "value": 7339.0,
+      "unit": null,
+      "change_pct": -0.27,
+      "change_bp": null
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "value": 24.54,
+      "unit": null,
+      "change_pct": -3.61,
+      "change_bp": null
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "value": 5.07,
+      "unit": "%",
+      "change_pct": null,
+      "change_bp": -4
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "value": 1332.22,
+      "unit": "원",
+      "change_pct": -0.26,
+      "change_bp": null
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "value": 9652.8,
+      "unit": null,
+      "change_pct": 0.1,
+      "change_bp": null
+    }
+  ],
+  "sentiment": {
+    "score": 8,
+    "label": "극도의 공포",
+    "vix": 24.54
+  },
+  "calendar_released": [
+    {
+      "event_ko": "FOMC 의사록",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    }
+  ],
+  "calendar_upcoming": [],
+  "top_news": [
+    {
+      "title_ko": "선물 시장 혼조세; Nvidia 실적과 연준의 경고",
+      "category": "macro_rates",
+      "importance": 4,
+      "moves_ko": [
+        "나스닥100 +0.42%",
+        "S&P 500 −0.23%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 시장의 금리 인상 우려 여부 확인 필요."
+      }
+    },
+    {
+      "title_ko": "미국 국채 수익률 5% 초과, 인플레이션 우려",
+      "category": "macro_rates",
+      "importance": 4,
+      "moves_ko": [
+        "미국 10년물 −4bp"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금융주가 미국 금리 인상 우려에 따라 약세로 출발하는지 확인."
+      }
+    },
+    {
+      "title_ko": "기술주 상승, 앤트로픽 IPO 주목",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [
+        "나스닥100 +0.42%"
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 IT 업종의 반응을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "연준 회의록: 대부분의 위원들이 금리 인상 필요성 인식",
+      "category": "macro_rates",
+      "importance": 5,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
+      }
+    },
+    {
+      "title_ko": "엔비디아, 실적 상승 후 주가 하락",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "금, 14개월 최저치로 하락",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 원자재 관련 주가에 미치는 영향을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "IREN, 코어위브, 네비우스 주가 60% 이상 하락",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 업종의 반응을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "미국의 새로운 규제로 데이터 센터에 위험",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 데이터 센터 관련 업종의 영향을 확인"
+      }
+    }
+  ],
+  "themes": [
+    {
+      "us_ticker": "AMD",
+      "change_pct": 5.31,
+      "theme": "AI 반도체 · HBM"
+    },
+    {
+      "us_ticker": "AVGO",
+      "change_pct": 3.64,
+      "theme": "AI 반도체 · HBM"
+    },
+    {
+      "us_ticker": "VRT",
+      "change_pct": 2.16,
+      "theme": "데이터센터 · 전력 인프라"
+    },
+    {
+      "us_ticker": "TSLA",
+      "change_pct": 0.95,
+      "theme": "전기차 · 2차전지"
+    },
+    {
+      "us_ticker": "AMAT",
+      "change_pct": 0.88,
+      "theme": "반도체 장비"
+    },
+    {
+      "us_ticker": "ASML",
+      "change_pct": 0.88,
+      "theme": "EUV 노광"
+    }
+  ],
+  "outlook": {
+    "direction": "flat",
+    "strong": false
+  }
+}

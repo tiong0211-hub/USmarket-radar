@@ -1,0 +1,696 @@
+{
+  "schema_version": "1.1",
+  "run_date": "2026-11-19",
+  "weekday_ko": "목",
+  "us_session": "2026-11-18",
+  "us_market_closed": false,
+  "generated_at": "2026-11-18T21:23:16Z",
+  "run_status": "OK",
+  "banner": null,
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "symbol": "^NDX",
+      "group": "index",
+      "required": true,
+      "value": 27116.26,
+      "unit": null,
+      "change": 114.48,
+      "change_pct": 0.42,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        28289.19,
+        27943.74,
+        27197.15,
+        27001.78,
+        27116.26
+      ],
+      "as_of": "2026-11-18T21:00:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 대형 비금융 기업 100개의 흐름을 보는 지수입니다. 국내 기술주와의 연결을 살펴보는 관찰 지표입니다."
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "symbol": "NQ=F",
+      "group": "futures",
+      "required": true,
+      "value": 27190.5,
+      "unit": null,
+      "change": 115.0,
+      "change_pct": 0.42,
+      "change_bp": null,
+      "contract": "2026-12",
+      "spark": [
+        28384.5,
+        28034.75,
+        27284.25,
+        27075.5,
+        27190.5
+      ],
+      "as_of": "2026-11-18T21:10:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "나스닥100 근월물 선물입니다. 미국장 마감 이후 분위기 변화를 보여주며, 현물과 기준 시각이 다를 수 있습니다."
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "symbol": "^GSPC",
+      "group": "index",
+      "required": true,
+      "value": 7323.63,
+      "unit": null,
+      "change": -16.9,
+      "change_pct": -0.23,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        7592.4,
+        7561.67,
+        7416.59,
+        7340.53,
+        7323.63
+      ],
+      "as_of": "2026-11-18T21:00:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 대형주 시장 전반의 흐름을 확인하는 지수입니다."
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "symbol": "ES=F",
+      "group": "futures",
+      "required": true,
+      "value": 7339.0,
+      "unit": null,
+      "change": -20.0,
+      "change_pct": -0.27,
+      "change_bp": null,
+      "contract": "2026-12",
+      "spark": [
+        7615.25,
+        7583.0,
+        7439.0,
+        7359.0,
+        7339.0
+      ],
+      "as_of": "2026-11-18T21:10:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "S&P 500 근월물 선물입니다. 미국장 마감 이후에도 달라지는 시장 분위기를 볼 수 있습니다."
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "symbol": "^VIX",
+      "group": "volatility",
+      "required": true,
+      "value": 24.54,
+      "unit": null,
+      "change": -0.92,
+      "change_pct": -3.61,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        18.7,
+        19.3,
+        22.91,
+        25.46,
+        24.54
+      ],
+      "as_of": "2026-11-18T21:00:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "S&P 500 옵션 가격으로 계산한 시장의 예상 변동성입니다. 하락이 국내장 상승을 보장하지는 않습니다."
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "symbol": "^TNX",
+      "group": "rates",
+      "required": true,
+      "value": 5.07,
+      "unit": "%",
+      "change": -0.037,
+      "change_pct": null,
+      "change_bp": -4,
+      "contract": null,
+      "spark": [
+        5.1,
+        5.15,
+        5.12,
+        5.1,
+        5.07
+      ],
+      "as_of": "2026-11-18T21:00:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 10년 만기 국채 수익률입니다. 변화는 bp로 표시하며, 3bp는 0.03%포인트입니다."
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "symbol": "KRW=X",
+      "group": "fx",
+      "required": true,
+      "value": 1332.22,
+      "unit": "원",
+      "change": -3.45,
+      "change_pct": -0.26,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        1336.26,
+        1333.78,
+        1333.25,
+        1335.67,
+        1332.22
+      ],
+      "as_of": "2026-11-18T21:20:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "1달러당 원화 가격입니다. 값이 오르면 원화 약세를 뜻합니다. 역외 시세 기준이며 기준 시각을 함께 표시합니다."
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "symbol": "^SOX",
+      "group": "sector",
+      "required": false,
+      "value": 9652.8,
+      "unit": null,
+      "change": 9.92,
+      "change_pct": 0.1,
+      "change_bp": null,
+      "contract": null,
+      "spark": [
+        10506.67,
+        10146.32,
+        9610.65,
+        9642.88,
+        9652.8
+      ],
+      "as_of": "2026-11-18T21:00:00Z",
+      "source": "yfinance",
+      "stale": false,
+      "missing": false,
+      "description_ko": "미국 반도체 업종 지수입니다. 국내 반도체 업종과의 연결을 관찰하는 데 초점을 둡니다."
+    }
+  ],
+  "sentiment": {
+    "source": "VIX",
+    "vix": 24.54,
+    "score": 8,
+    "label": "극도의 공포",
+    "label_en": "EXTREME FEAR",
+    "method": "vix_percentile_252d_v0",
+    "note_ko": "VIX 기반 자체 산출 · CNN Fear & Greed 아님"
+  },
+  "outlook": {
+    "direction": "flat",
+    "strong": false,
+    "basis_ko": "반도체(SOX) +0.10% · 한국 ETF(EWY) +1.04% · VIX −3.61%",
+    "hit_rate": null,
+    "test_days": 0,
+    "calibrated": "2026-11-09",
+    "method": "sox_ewy_vix_ols_v1",
+    "note_ko": "시가 이후 장중 흐름은 밤사이 지표로 예측하기 어렵습니다."
+  },
+  "calendar": {
+    "released": [
+      {
+        "time_utc": "2026-11-18T19:00:00Z",
+        "event": "FOMC Meeting Minutes",
+        "event_ko": "FOMC 의사록",
+        "importance": "high",
+        "forecast": null,
+        "previous": null,
+        "actual": null,
+        "actual_source": null,
+        "tag_ko": "금리"
+      }
+    ],
+    "upcoming": [],
+    "status": "ok"
+  },
+  "news": [
+    {
+      "id": "n_2658adcd",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "선물 시장 혼조세; Nvidia 실적과 연준의 경고",
+      "preview_ko": "선물 시장이 혼조세를 보이고 있으며 Nvidia 실적과 연준의 경고가 주효하고 있다.",
+      "published_at": "2026-11-18T13:15:00Z",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM2s3XzVKLXc1azMwV2VhVlhPalU1a2UxbDY5aW9XejYxRDlwbHhvdkc2aVhYd1ZLaGx2ZU5nVm1KWWhXd2FXeTMyZDQycXU4Z0RPMEZ6MUo2Z0p1dHV5anBMZmNIQ0M3WExTbUJzd08wRVAxdzNmMGgyU1ZWRXlQYWpudmhDREhneU9BVkt2WDZHaWtmZldHQmx6N3QzQlh1UTBSYnoxR28tZTlBeDR5WnB0Zw?oc=5",
+      "summary_ko": [
+        "선물 시장이 혼조세를 보이고 있다.",
+        "Nvidia의 실적과 연준의 금리 인상 경고가 시장에 영향을 미치고 있다.",
+        "투자자들은 향후 금리 인상 가능성을 주의 깊게 살펴보고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 시장의 금리 인상 우려 여부 확인 필요."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "나스닥100 +0.42%",
+        "S&P 500 −0.23%"
+      ],
+      "coverage": 4
+    },
+    {
+      "id": "n_26d96ec9",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "미국 국채 수익률 5% 초과, 인플레이션 우려",
+      "preview_ko": "미국 국채 수익률이 5%를 초과하며 인플레이션 우려가 커지고 있다.",
+      "published_at": "2026-11-18T20:19:22Z",
+      "source": "NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamFfQWZjNFd2amJVVWFJVThZamxCajZoTGdKeTVDRFVtSExfR2gzR1JMZmI4VW5ma1FMam1sQnBSWFN1NmY2SXJBYUVQWjR0cmk1SkVFVmx1UlppSnBFemJEMGwxNFFsVWNnTWI3WGV2UC1lN2tNM2s0NzJGOG9qZ0kxaFpqUjJ5enZvVVRwYzZxclUwc2hJck5vcG1ZSnRqUkZJYg?oc=5",
+      "summary_ko": [
+        "미국 국채 수익률이 5%를 초과했다.",
+        "이는 인플레이션 우려가 커지고 있음을 나타낸다.",
+        "금리 인상 가능성이 높아질 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금융주가 미국 금리 인상 우려에 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "미국 10년물 −4bp"
+      ],
+      "coverage": 2
+    },
+    {
+      "id": "n_661b360a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "기술주 상승, 앤트로픽 IPO 주목",
+      "preview_ko": "기술주가 앤트로픽 IPO에 주목하며 상승했다.",
+      "published_at": "2026-11-18T15:15:37Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa3NmZ3VzTFpycDBHaTF3WHhYWXlpMUNZeUpqM3Bud1F1Wkl0alk4dlZYQl9RR2ZBVkl6eXZFc0pCRTFYQU9PY1NpLVp0R0FRb0tSSGlWNmEwQU04STNIazJaVUVLOExCWjJpa0k3TTBkS2VCSnNIRkNWRG83YjhMQkdqYWtEVktGR2FmWHBMdTlRQVVTLVh4Z2pQcUNMdE5NZGY4cGdVOUlwY2RwTURXQmpWRV9GTmJJNnhWR3ZlTzZkZGZHQ3Zvcg?oc=5",
+      "summary_ko": [
+        "기술주가 앤트로픽 IPO에 주목하며 상승세를 보였다.",
+        "투자자들의 관심이 집중되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 IT 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "나스닥100 +0.42%"
+      ],
+      "coverage": 2
+    },
+    {
+      "id": "n_1159a7ff",
+      "category": "macro_rates",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "연준 회의록: 대부분의 위원들이 금리 인상 필요성 인식",
+      "preview_ko": "연준 회의록에서 금리 인상 필요성이 강조됐다.",
+      "published_at": "2026-11-18T20:12:41Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQWhFMmF1LUwyY1o5dmFya2M0MW5zcHRfMk9uWFNqME9OX1pqd3NlZHVlTnNPcWVRbkdBT2xyUWd3bS1kSmRKamVfYmg2aHJwSW9XNkdmLWdKSWhWM0pveVpmalZNbzNUa0RCamFWTEkxMF9NRVZqMER5d3p5a0l5alJvM1JXSGlkaEg0RllZV1pWWkF6cFRzRnpTajZ1UGY2ZHV2MEZQN3d3UElCWGdFUlBwTQ?oc=5",
+      "summary_ko": [
+        "연준 회의록에 따르면 거의 모든 위원들이 금리 인상이 필요하다고 봤다.",
+        "이는 향후 금리 인상 가능성을 시사한다.",
+        "금리 인상은 경제 전반에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금리가 상승할 가능성을 확인해야 한다."
+      },
+      "us_tickers": [
+        "TLT"
+      ],
+      "moves_ko": [],
+      "coverage": 5
+    },
+    {
+      "id": "n_a7c41cbf",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아, 실적 상승 후 주가 하락",
+      "preview_ko": "엔비디아 주가가 실적 상승에도 하락했다.",
+      "published_at": "2026-11-18T17:35:47Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUzhvYkxzRld1VG11TlpOSE5wWjE5WE94RkMwVkJJWnRReDFRTUZ1X1FQWU55Rnh5b1hqU0VvTzBCay10WE5iVzJYWHdtVWJ0dlU5aFhhX2Yxa09Ub0otUkVUQ0hCTC1OUHBhRTU5UDBlRVZfNEx4cUtoVXRRanEwazFaQTBwYmpBREc2MVlsaVlDNWptenNNZkpDNzd2blFtS3pJX0oxWDl2RlcyMFNucDRILTRlRF9iUWFPRTA3VFo5NGRVZUJTaDkyTmpYcF9xcGJtMw?oc=5",
+      "summary_ko": [
+        "엔비디아 주가가 실적 상승에도 불구하고 하락세를 보였다.",
+        "투자자들이 젠슨 황 이후의 상황을 우려하고 있다.",
+        "엔비디아의 향후 전망에 대한 불확실성이 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 엔비디아 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 3
+    },
+    {
+      "id": "n_b2217c4b",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, 14개월 최저치로 하락",
+      "preview_ko": "금 가격이 14개월 최저치로 하락했다.",
+      "published_at": "2026-11-18T20:14:08Z",
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQTJlZlc3RFMtMzdSUm1sT1QxRkhkZzRmSTdVU3hzd3ZmT0ZfUnhueU5UamRPQ2NNMW9ESnlObFd6MjJyUDU1RVR2am1fTm5MV2lMcTlBZ250YkZieGxEU0JjX0gzendjdzRCbDBkZDFLMmQyc014eDRxNkpHd19MMFFwbElIcXRRXzgtNmVaemszaExTZnNRUy1uNng5ek1DSTktdnh5YUdpLVZPYjNTQ3J5YUxxeDhOekptM3B0QWZQRFJxVm1tUG43RmxLNllQSEFLcV9DQWfSAd4BQVVfeXFMTTFhTEprenpZNkZuNi1QRkt3d3VpT3VWZzN4aTE1d2hBeThlaVI2dzVjUFNtSTZlajZfWWxncnBRdzdYMUdLbGJTcmlkajM2Zk0teVRXMmlZYlluSVZzUkZVRnhZMm9xdE1QMnR4RnExQXR3ZGZOa29oUFRheFBGZHV0MEVQbjNxR0FNWnlScjk5akNmbFBDTTIyWDE5cWJsWTg3ZzJaQk5MTEFCV3dLRXpCZGZXRmU5bzVZMU5ZVGk0SFRlWTFNS1NoSGY0WUlZcnVmX2VaQ0pEVV9oU013?oc=5",
+      "summary_ko": [
+        "금 가격이 14개월 최저치로 하락했다.",
+        "달러 강세와 금리 인상 우려가 원인으로 작용하고 있다.",
+        "이는 원자재 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 원자재 관련 주가에 미치는 영향을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 2
+    },
+    {
+      "id": "n_2fff622e",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "IREN, 코어위브, 네비우스 주가 60% 이상 하락",
+      "preview_ko": "AI 투자자들에게 미치는 영향 분석.",
+      "published_at": "2026-11-18T20:25:47Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLWxDTjgtU2JOWnlVUzVOSUpYQWRoU1VBNjNLcUNOUkJuT2EycmdXY2xodVBXQlZpVEFuMmxCTmVVM0VUQ19vdjA1NUZYY3ZZaFV1ekkxcUYxTWpEeEEyQkZNQ0dyUDd0SzVpNjhRcW1mUzBzWjZPVWJjNVhZbU5PdVZnQk5WbndHRllrNlluWEJSaUZsUkFuRHM2d2VTMkE?oc=5",
+      "summary_ko": [
+        "IREN, 코어위브, 네비우스의 주가가 60% 이상 하락했다.",
+        "이 하락이 AI 투자자들에게 미치는 영향에 대한 분석이 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_dc8e46ad",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국의 새로운 규제로 데이터 센터에 위험",
+      "preview_ko": "미국의 새로운 규제가 데이터 센터에 위험을 초래하고 있다.",
+      "published_at": "2026-11-18T14:09:26Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "summary_ko": [
+        "미국의 새로운 규제가 동남아시아 데이터 센터에 영향을 미칠 것으로 보인다.",
+        "AI 칩 구매에 대한 미국 승인 요구가 도입되었다.",
+        "중국 수요에 의존하는 데이터 센터의 구축이 지연될 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 데이터 센터 관련 업종의 영향을 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    }
+  ],
+  "themes": [
+    {
+      "us_ticker": "AMD",
+      "name": "AMD",
+      "change_pct": 5.31,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "supplier",
+          "relation_ko": "HBM 공급"
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "HBM 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "change_pct": 3.64,
+      "theme": "AI 반도체 · HBM",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "mapping_source": "auto",
+      "mapping_reviewed": "2026-11-10"
+    },
+    {
+      "us_ticker": "VRT",
+      "name": "Vertiv",
+      "change_pct": 2.16,
+      "theme": "데이터센터 · 전력 인프라",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "010120",
+          "name": "LS ELECTRIC",
+          "link": "same_theme",
+          "relation_ko": "전력기기"
+        },
+        {
+          "code": "267260",
+          "name": "HD현대일렉트릭",
+          "link": "same_theme",
+          "relation_ko": "전력기기"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "TSLA",
+      "name": "Tesla",
+      "change_pct": 0.95,
+      "theme": "전기차 · 2차전지",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "373220",
+          "name": "LG에너지솔루션",
+          "link": "supplier",
+          "relation_ko": "배터리 공급"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "link": "same_theme",
+          "relation_ko": "양극재 테마"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "AMAT",
+      "name": "Applied Materials",
+      "change_pct": 0.88,
+      "theme": "반도체 장비",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "240810",
+          "name": "원익IPS",
+          "link": "same_theme",
+          "relation_ko": "증착 장비"
+        },
+        {
+          "code": "036930",
+          "name": "주성엔지니어링",
+          "link": "same_theme",
+          "relation_ko": "증착 장비"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    },
+    {
+      "us_ticker": "ASML",
+      "name": "ASML ADR",
+      "change_pct": 0.88,
+      "theme": "EUV 노광",
+      "momentum_ko": "",
+      "related_news_ids": [],
+      "kr_stocks": [
+        {
+          "code": "101490",
+          "name": "에스앤에스텍",
+          "link": "same_theme",
+          "relation_ko": "블랭크마스크"
+        },
+        {
+          "code": "036810",
+          "name": "에프에스티",
+          "link": "same_theme",
+          "relation_ko": "펠리클"
+        }
+      ],
+      "mapping_source": "theme_map.yaml",
+      "mapping_reviewed": null
+    }
+  ],
+  "themes_rule_ko": "S&P 500(−0.23%)보다 1%p 이상 오른 종목만",
+  "briefing": {
+    "direction": "flat",
+    "direction_ko": "보합 우세",
+    "confidence": "medium",
+    "headline_ko": [
+      "미 증시 혼조,",
+      "AI 반도체 · HBM"
+    ],
+    "headline_emphasis": "AI 반도체 · HBM",
+    "points": [
+      {
+        "title_ko": "시장 혼조",
+        "text_ko": "나스닥100 +0.42%, S&P 500 −0.23%로 혼조."
+      },
+      {
+        "title_ko": "금리 변수",
+        "text_ko": "미국 10년물 −4bp에도 금리 우려를 확인."
+      },
+      {
+        "title_ko": "국내 연결",
+        "text_ko": "AI 반도체와 데이터센터 반응을 관찰."
+      }
+    ],
+    "focus_chips": [
+      {
+        "label": "AI 반도체 · HBM",
+        "anchor": "#themes"
+      },
+      {
+        "label": "데이터센터 · 전력 인프라",
+        "anchor": "#themes"
+      }
+    ],
+    "risks_ko": [
+      "FOMC 의사록 이후 금리 인상 우려를 확인."
+    ],
+    "source": "gpt-5.5",
+    "label": "참고용"
+  },
+  "sources": [
+    {
+      "name": "yfinance",
+      "items": [
+        "NDX",
+        "NQ",
+        "SPX",
+        "ES",
+        "VIX",
+        "US10Y",
+        "USDKRW",
+        "SOX",
+        "themes"
+      ]
+    },
+    {
+      "name": "KRX 상장 목록(FinanceDataReader)",
+      "items": [
+        "themes"
+      ]
+    },
+    {
+      "name": "Forex Factory",
+      "items": [
+        "calendar"
+      ]
+    },
+    {
+      "name": "CNBC Top News RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "CNBC Markets RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "MarketWatch Top Stories RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "Google News - US stocks RSS",
+      "items": [
+        "news"
+      ]
+    },
+    {
+      "name": "Google News - Fed / rates RSS",
+      "items": [
+        "news"
+      ]
+    }
+  ],
+  "warnings": []
+}
