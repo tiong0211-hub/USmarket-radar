@@ -1,0 +1,2260 @@
+{
+  "news": [
+    {
+      "id": "n_e7f95ee9",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade: Live updates",
+      "preview_ko": "",
+      "published_at": "2026-11-19T21:19:49Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f5a616b2",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 IPO, 주식 조기 매도 시 벌금 가능성",
+      "preview_ko": "앤트로픽 주식을 너무 빨리 팔면 벌금이 부과될 수 있다.",
+      "published_at": "2026-11-19T21:16:41Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+      "summary_ko": [
+        "앤트로픽 IPO에 대한 조기 매도 시 벌금이 부과될 수 있다.",
+        "브로커리지 회사들이 향후 IPO 제한을 두는 방안을 검토 중이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "ANT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4524fd3f",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AMD, 중국 노출 주장에 7% 하락",
+      "preview_ko": "AMD가 단기 매도자 보고서로 7% 이상 하락했다.",
+      "published_at": "2026-11-19T21:14:46Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "summary_ko": [
+        "AMD가 단기 매도자의 주장으로 7% 이상 하락했다.",
+        "해당 보고서는 AMD의 펌웨어가 블랙리스트에 오른 중국 회사에 나타났다고 주장했다.",
+        "AMD는 미국 법을 준수하고 있다고 반박했다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 AMD의 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "AMD"
+      ],
+      "moves_ko": [
+        "AMD −7.72%"
+      ],
+      "coverage": 2
+    },
+    {
+      "id": "n_8ecd020a",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽, 첫날 주가 97.17달러로 마감",
+      "preview_ko": "앤트로픽 IPO 첫날 주가는 97.17달러로 마감했다.",
+      "published_at": "2026-11-19T21:14:27Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "summary_ko": [
+        "앤트로픽이 나스닥에서 첫날 97.17달러로 마감했다.",
+        "투자자들은 앤트로픽의 주가에 주목하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "ANT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0911d83e",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미 상무부, 중국 기업에 AI 칩 판매 승인",
+      "preview_ko": "미국이 879,000개의 AI 칩을 중국 기업에 판매 승인했다.",
+      "published_at": "2026-11-19T21:08:45Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+      "summary_ko": [
+        "미국 상무부가 879,000개의 AI 칩을 중국 기업에 판매하는 것을 승인했다.",
+        "이 결정은 중국에 대한 수출 통제를 강화하려는 움직임과 관련이 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1d814fe0",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "preview_ko": "",
+      "published_at": "2026-11-19T21:00:57Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_88ad1820",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "아마존, 뉴욕 배송 법안에 반대",
+      "preview_ko": "아마존이 뉴욕의 배송 법안에 반대하고 있다.",
+      "published_at": "2026-11-19T20:46:23Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
+      "summary_ko": [
+        "아마존이 뉴욕의 배송 법안에 대해 강력히 로비하고 있다.",
+        "뉴욕 시장이 이 법안을 지지하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fec47987",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "의회, 노인 투자자 보호 법안 통과",
+      "preview_ko": "의회가 노인 투자자 보호 법안을 통과시켰다.",
+      "published_at": "2026-11-19T20:36:48Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html",
+      "summary_ko": [
+        "의회가 노인 투자자를 보호하기 위한 법안을 통과시켰다.",
+        "이 법안은 금융 사기로부터 취약한 투자자를 보호하는 데 초점을 맞추고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_79d7d82c",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "론 존슨, 사회보장 제도 비판",
+      "preview_ko": "론 존슨이 사회보장 제도를 비판하고 있다.",
+      "published_at": "2026-11-19T20:34:35Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/social-security-ponzi-scheme-ron-johnson.html",
+      "summary_ko": [
+        "론 존슨 상원의원이 사회보장 제도를 비판하고 있다.",
+        "전문가들은 그의 주장이 부정확하다고 반박하고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_09fd1aa5",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "크라켄, 트라이브 캐피탈 인수",
+      "preview_ko": "크라켄이 트라이브 캐피탈을 인수했다.",
+      "published_at": "2026-11-19T20:33:05Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
+      "summary_ko": [
+        "크라켄의 모회사인 페이워드가 트라이브 캐피탈을 인수했다.",
+        "이는 암호화폐 거래소의 새로운 진화를 의미한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d813cd6d",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "3-step method to influence people and win them over, from a Stanford expert: ‘Your voice is like a muscle’",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:17:36Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/make-it/2026/11/19/matt-abrahams-persuasive-speaking-tips.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1b8854af",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "S&P 500, 6일 연속 하락 중",
+      "preview_ko": "S&P 500이 6일 연속 하락세를 보이고 있다.",
+      "published_at": "2026-11-19T20:10:21Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html",
+      "summary_ko": [
+        "S&P 500 지수가 6일 연속 하락하고 있다.",
+        "이와 함께 J&J가 두 가지 주요 제품을 발전시키고 있다.",
+        "투자자들은 시장의 방향성을 주의 깊게 살펴봐야 한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 S&P 500의 하락세를 반영해 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "SPY"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_51c5886a",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+      "preview_ko": "",
+      "published_at": "2026-11-19T19:58:30Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_73b84a66",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "트럼프, 엔비디아 및 스페이스X 주식 구매",
+      "preview_ko": "트럼프가 엔비디아와 스페이스X 주식을 구매했다.",
+      "published_at": "2026-11-19T19:43:08Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+      "summary_ko": [
+        "트럼프가 엔비디아 주식과 스페이스X 부채를 구매했다고 밝혔다.",
+        "이와 함께 테슬라 주식도 포함되어 있다.",
+        "이러한 투자 결정이 시장에 미치는 영향을 주목해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 및 우주항공 업종의 반응을 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "NVDA",
+        "TSLA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5661d725",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "사노피, 폼페병 치료제 부족 문제",
+      "preview_ko": "사노피의 폼페병 치료제 부족 문제가 심각하다.",
+      "published_at": "2026-11-19T19:38:33Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/as-pompe-drug-shortage-drags-on-patients-struggle-to-get-treatments.html",
+      "summary_ko": [
+        "사노피의 폼페병 치료제 부족으로 환자들이 치료를 받지 못하고 있다.",
+        "환자들은 건강에 위험을 느끼고 있다.",
+        "제약업계의 공급망 문제를 주목해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 제약업체의 공급망 안정성을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "SNY"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_34f58741",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앱러빈, 매출 성장 가속화",
+      "preview_ko": "앱러빈의 매출 성장 가속화가 주목받고 있다.",
+      "published_at": "2026-11-19T19:08:20Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/applovin-app-paul-meeks-buying.html",
+      "summary_ko": [
+        "앱러빈이 매출 성장과 전자상거래 확장을 강조하고 있다.",
+        "분석가는 이를 매력적인 투자 기회로 보고 있다.",
+        "기술주에 대한 투자 심리를 주목해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 기술주에 대한 투자 심리를 살펴봐야 한다."
+      },
+      "us_tickers": [
+        "APP"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_51334697",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Amid recent banking outages, should you start carrying cash again? Top advisors weigh in",
+      "preview_ko": "",
+      "published_at": "2026-11-19T19:06:56Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/banking-outages-emergency-cash.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e12d48cb",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "엔비디아 법적 위험 증가",
+      "preview_ko": "엔비디아의 법적 위험이 증가하고 있다.",
+      "published_at": "2026-11-19T18:44:34Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+      "summary_ko": [
+        "엔비디아의 CEO가 법적 위험에 직면하고 있다.",
+        "전문가는 상황이 더욱 악화될 것이라고 경고하고 있다.",
+        "이러한 법적 문제의 시장 영향력을 주목해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 업종의 법적 리스크를 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_afa57ff4",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out",
+      "preview_ko": "",
+      "published_at": "2026-11-19T18:30:51Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/netflix-amazon-fox-bid-for-2030-mens-world-cup-rights-disney-out.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c4efd596",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stocks making the biggest moves Thursday: Anthropic, CoreWeave, Coherent, AMD & more",
+      "preview_ko": "",
+      "published_at": "2026-11-19T17:59:39Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/stocks-moving-the-most-today-live-updates.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_79540770",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국, 중국, 러시아, 석유 생산 증대 계획",
+      "preview_ko": "세 나라의 정상들이 석유 생산 증대를 논의했다.",
+      "published_at": "2026-11-19T17:01:41Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
+      "summary_ko": [
+        "미국, 중국, 러시아 정상들이 석유 생산 증대 계획을 논의했다.",
+        "이들은 중국 선전에서 열린 삼국 정상 회담에서 만났다.",
+        "석유 생산 증대는 원자재 시장에 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 원자재 시장에 미치는 영향은 제한적일 것으로 보임."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_3d43a7a8",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Gold's bad year is getting worse. Why its price keeps falling",
+      "preview_ko": "",
+      "published_at": "2026-11-19T16:29:52Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fb9b219e",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "덴마크, 그린란드 안보 협정 비준",
+      "preview_ko": "덴마크가 그린란드 안보 협정을 비준했다.",
+      "published_at": "2026-11-19T12:02:08Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/greenland-denmark-trump-security-military-bases.html",
+      "summary_ko": [
+        "덴마크가 트럼프의 그린란드 안보 협정을 비준했다.",
+        "이 협정은 몇 달 간의 외교적 긴장 이후 체결되었다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f40c4520",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "일본 총리, 중국 방문에 차가운 반응",
+      "preview_ko": "일본 총리가 중국을 방문했으나 반응이 차가웠다.",
+      "published_at": "2026-11-19T07:38:29Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
+      "summary_ko": [
+        "일본 총리가 APEC 정상 회담 참석을 위해 중국을 방문했다.",
+        "대만 문제로 인해 양국 관계가 긴장된 상태이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_20f0b9e9",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "인텔, 18A 칩 외부 고객과 계약 체결",
+      "preview_ko": "인텔이 18A 칩의 첫 외부 고객과 계약을 체결했다.",
+      "published_at": "2026-11-19T01:05:25Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
+      "summary_ko": [
+        "인텔이 18A 칩의 첫 외부 고객과 계약을 체결했다.",
+        "이 계약은 인텔의 기술력 향상을 나타낸다.",
+        "반도체 업계에 긍정적인 신호로 작용할 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 인텔 계약 소식에 긍정적 반응을 보일지 확인."
+      },
+      "us_tickers": [
+        "INTC"
+      ],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_f5cb1663",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Microsoft CEO Satya Nadella calls Outlook outage a 'perfect storm.' Here's what went wrong",
+      "preview_ko": "",
+      "published_at": "2026-11-19T00:18:28Z",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/11/18/microsoft-put-the-ai-threat-to-software-behind-it-then-came-the-outage.html",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4adcecd3",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "엔비디아 리더십 위기, 경제적 영향 우려",
+      "preview_ko": "엔비디아의 리더십 위기가 경제적 피해를 초래할 가능성.",
+      "published_at": "2026-11-19T20:21:10Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "summary_ko": [
+        "엔비디아의 리더십 위기가 경제적 피해를 초래할 수 있다는 우려가 제기되고 있다.",
+        "회사의 다른 기업들과의 관계가 경제적 영향을 미칠 가능성이 있다.",
+        "AI 중심의 반도체 기업으로서의 역할에 대한 시험대에 서 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c1e5edac",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "연준 의장, AI 혁명에 대한 질문 직면",
+      "preview_ko": "AI의 전환점에 대해 연준 의장이 질문을 받고 있다.",
+      "published_at": "2026-11-19T20:18:47Z",
+      "source": "CNBC Markets",
+      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+      "summary_ko": [
+        "연준 의장이 AI 혁명에 대한 질문을 받고 있다.",
+        "AI가 일자리와 금리에 미치는 영향에 대한 논의가 필요하다.",
+        "AI의 발전이 경제에 미치는 영향에 대한 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c74256ff",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nvidia’s stock falls further. It has lost $611 billion in six trading days.",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:33:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a566f1d6",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 주식, 상승폭 반납",
+      "preview_ko": "AI 관련 주식들이 상승폭을 반납하고 있다.",
+      "published_at": "2026-11-19T19:43:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+      "summary_ko": [
+        "Micron, Broadcom 등 AI 관련 주식들이 상승폭을 반납하고 있다.",
+        "AI에 대한 기대감이 줄어들고 중국 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 AI 주식의 하락세를 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "MU",
+        "AVGO"
+      ],
+      "moves_ko": [
+        "필라델피아 반도체 −2.41%"
+      ],
+      "coverage": 2
+    },
+    {
+      "id": "n_b3f470b8",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 경제 성장 속도 증가 이유",
+      "preview_ko": "미국 경제 성장의 주요 엔진이 가동 중입니다.",
+      "published_at": "2026-11-19T19:13:00Z",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-surprising-reason-the-u-s-economy-is-speeding-up-and-might-have-more-room-to-run-9016c8db?mod=mw_rss_topstories",
+      "summary_ko": [
+        "미국 경제가 가속화되고 있다는 분석이 나왔다.",
+        "주요 성장 동력이 가동 중이라는 내용이다.",
+        "향후 경제 성장에 대한 기대감이 커질 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 경제 지표와의 연결 고리가 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_774852d4",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "다우지수 1,100포인트 하락",
+      "preview_ko": "다우지수가 1,100포인트 급락했습니다.",
+      "published_at": "2026-11-19T21:11:05Z",
+      "source": "Kiplinger",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR0hCYlI4VHNJMnB5TTBYcjM1TWJiQy1DVENBbjN6aGw4THBzZXJxc3FxV3ZNeUN6LUJuQnp6bVpOVjJrd0YyM3J0RFBlVG9zZUFCOEYzMVFSTTdIUFRFdzZPeVA2U0RXVFJlQTFBOC1YMC05RlN5THZpdjFaTWZULS10a0luWnJ0b0ZvNDNjMjR1RWQ4QUtZV0FOWE0xZmw5b2hXX04yVWxTVWFVLTN6ZW1xQQ?oc=5",
+      "summary_ko": [
+        "다우지수가 1,100포인트 하락하며 마감했다.",
+        "앤트로픽의 주가가 17% 상승했지만 주요 지수는 하락했다.",
+        "AI 관련 주식의 부진이 시장에 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 다우지수 급락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "DOW"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_36f80c98",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Instant view: Anthropic hits $2 trillion market value in debut; major indexes fall",
+      "preview_ko": "",
+      "published_at": "2026-11-19T21:10:24Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlRFLVpVV0l1RXpPXzhUdXlUT1ZHQ0NNeUplSXhERGJybFNNRDBVU1RDRktVeTBFYlhOV1dUbE1ldV92NS1zZDJCYkM1U24tMVI0clN1eFplWHdXQlZmX19zS2V2ZWE1Y0RGT3lLQ1dzUzJVS210N19zZXVZSHlVRUt6c3JhLVJ1bzk3cl9LZ0FPeVhmV3ZSYmdRSHpoc0p6VXB6cHhwX2FfQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c2349998",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "AI 열풍이 식으며 월스트리트 급락",
+      "preview_ko": "AI 열풍이 식으면서 월스트리트가 급락했습니다.",
+      "published_at": "2026-11-19T21:01:02Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "summary_ko": [
+        "앤트로픽의 상장이 AI 열풍을 되살리지 못했다.",
+        "주요 지수들이 크게 하락하며 마감했다.",
+        "투자자들의 우려가 커지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 IT 업종이 월스트리트 하락을 따라 약세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "DOW"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_62a62d57",
+      "category": "macro_rates",
+      "importance": 5,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "다우지수 1,084포인트 급락, 나스닥 2.2% 하락",
+      "preview_ko": "다우지수가 1,084포인트 급락했다.",
+      "published_at": "2026-11-19T20:45:34Z",
+      "source": "Eurasia Business News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3NlZmlxcjdiNGxiaDl6VC1NMTBsWlg3d3FfcDVJU19kZ0VFbW1CZFNLYmllcXYxOTFGbGpfTXY4emdkNUEwUDNpbmgtam9YbnJkQ21idS10eUtyYzYxVDkwNXFFTUlnb1VrdnFtTEZfVzZyQWJ5ZElINGFJSnZaYmo5MHhsVDBUclBIYVJUS1ZHR19iWjk4YVVCMmZ4dGZfajYwLVhWWC1xM3pnanBWelJxdkVDVGQ5ekhiZ24ybW9jN3N0WldLWFdTR3VodHdpdFhTRDJLTQ?oc=5",
+      "summary_ko": [
+        "다우지수가 1,084포인트 급락했다.",
+        "나스닥은 2.2% 하락했다.",
+        "이는 앤트로픽의 상장 이후 발생한 일이다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [
+        "나스닥100 −2.21%",
+        "S&P 500 −2.02%"
+      ],
+      "coverage": 6
+    },
+    {
+      "id": "n_95a2245a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AMD 주식 투자자에게 놀라운 소식, 인텔에는 악재",
+      "preview_ko": "AMD 주식 투자자에게 긍정적인 소식이 전해졌다.",
+      "published_at": "2026-11-19T20:36:02Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUUVsVmwyRDk3QVVfaTRFWlpMRGMzRE9JejA1cUdqdjlkdlJqYnNGMEVvNnBHcks1RExBck80RENibzRRZFRBU0RXcHVFMzVWNG5tRldDZlR2eElMcVdRUmtWYkM4RFd3cngyZ2hsVnMydkRUd0g4djRMNHI1ZVIzamk0dEV5STQycTlqRXZvSlVVZGNIOUpIbERpTFlwRUxWalNQM2xtT0g3SW9tVW1aZnBSb2hpcTdiQmpJ?oc=5",
+      "summary_ko": [
+        "AMD 주식 투자자에게 긍정적인 소식이 전해졌다.",
+        "이는 인텔에게는 부정적인 영향을 미친다.",
+        "AMD와 인텔의 경쟁 상황이 부각되고 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 업종의 AMD 관련 주가 반응을 확인."
+      },
+      "us_tickers": [
+        "AMD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_72200e71",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "리퀴디티 서비스 주가 23% 하락 이유",
+      "preview_ko": "리퀴디티 서비스 주가가 23% 하락했다.",
+      "published_at": "2026-11-19T20:33:02Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUERqcm95b05nQjVTNUpYS0xtWUhpT3AzZXdkWGlRWWdXWE11akpCODladkhmajd2STU2Mmlpczkxd0xLM0ltN3NOQWVhb2o3ZWpWRjJfRGtvbzhtbzZicjk4NXpJWFcxWHhIYW9DeWkwaWlHdmYweHZLRGpLb0lhMHFfb0JOQmEzWnNWS3dR?oc=5",
+      "summary_ko": [
+        "리퀴디티 서비스 주가가 23% 하락했다.",
+        "하락 원인은 기사에 명시되지 않았다.",
+        "주가 하락이 시장에 미치는 영향이 주목된다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 유사 업종의 주가 반응을 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cec0b1da",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "앤트로픽, 주식 시장에 공개 상장",
+      "preview_ko": "앤트로픽이 주식 시장에 공개 상장했다.",
+      "published_at": "2026-11-19T20:33:00Z",
+      "source": "KTTC | Rochester, MN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VRUNDX2xvRzRpMTBRUjhNdkV6ZWdyeEJYNjlOUGJBcGNPZnAxRjZoY1pUenIzTENSMkk3ZU5FMklpdS1aSEZHMkwwU0VvSW00a2RQcFprNG9xNjQwN01vdGQyZS01OWY3MExrRFFIR0k5UTNCTENyTWFFSkpFUXc?oc=5",
+      "summary_ko": [
+        "앤트로픽이 주식 시장에 공개 상장했다.",
+        "상장 이후 주가 변동이 주목된다.",
+        "시장 반응이 향후 주가에 영향을 미칠 것이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8e86d13a",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "앤트로픽 주식, 상장 첫날 급등",
+      "preview_ko": "앤트로픽 주식이 상장 첫날 급등했다.",
+      "published_at": "2026-11-19T20:32:36Z",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3FFS2w1YzZjSk1fZmxUaW1rYktUczg1UWJzVnR0MHlHMzBHVml4NkdkcDB1UDhyZzI1OENvamE2RkdTOTZ4dTd2dndmVlZrWGwwMVc4SG1vNzJzTzZFanJQLXM3T045cFFJVmNnN2NQZGxjUW5CWU9GWVBWeDh3ODR4dDRZQ044clNndFNWcXN1Z29JSzdZMzZZdWVOZTQyQzVzdFdSczl2RlN4dF9weEdHNUp6dw?oc=5",
+      "summary_ko": [
+        "앤트로픽 주식이 상장 첫날 급등했다.",
+        "상장 이후 시장의 반응이 주목된다.",
+        "주가 상승이 향후 투자 심리에 영향을 줄 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e0289d8e",
+      "category": "macro_rates",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "앤트로픽의 성공적인 IPO 이후 주식 시장 하락",
+      "preview_ko": "앤트로픽의 IPO 이후 주식 시장이 하락했다.",
+      "published_at": "2026-11-19T20:19:12Z",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNXFDQjFuLWxNV1h6NTZldmRBOVVFVm1Kc0VvdUxjZzZtYkhHcjFEMG9SWVJXS0RnVmJhd3lReGp4OHhtM1pQOUFxQklCMmlOWlRzaWlEUXBmT1JyQy0zUk5Ya2Vscnp6VGlod1BEUThjWkdJaUlGNl8zWUlhcmZ1bGd6Yw?oc=5",
+      "summary_ko": [
+        "앤트로픽의 IPO 이후 주식 시장이 하락했다.",
+        "이는 투자자들의 우려를 반영한 결과로 보인다.",
+        "시장 심리에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c8f0daa7",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Mivne Real Estate (TASE:MVNE) Stock Looks Fully Valued On Current Earnings",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:15:10Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPU3dKT3Y0ZHdhXzBuVFV2YXVGdXhpd3JMTzkxTGF6V25qSW1mNmJkVkVISlBsU1FCTVd5Uzl2UFI2c2MwZzVlWm1ZYUdOOGlfejgydGFzbHVGQVJ4UHBwWExIZ0M1NnNZUUVONklINmdTSjllV0VadHlYTjRneHZ5V1oyZ1VCSUtSakpzUGZib3lJUVIxODgw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9860690b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Top 3 Rare Earth Stocks With Market Caps Over $369 Million To Watch",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:14:06Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORHoxQ2IzWnZ0MmdDLWlsZE5KeTFHdXVTMVI5WnI2ZHVsUnVibFNQaFBzM2I1a2Z0MlNRYUFxalNnVnlXSW5yajVOSmhqWkVlaE5BNmJzcmtVNDJxNFZmYXkyQmhnY0R3dmJXRnQ1ekpfbWFhamgyX25jaU9RVUxaSzVydHBCMl95bXZiVVIxaXBmZw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c7181b60",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 기술주, Anthropic IPO로 상승 기대",
+      "preview_ko": "AI 관련 기술주들이 상승할 것으로 보인다.",
+      "published_at": "2026-11-19T20:07:43Z",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVVIyNnhmRkZ6eEo2Q2tmb3N1UU9vNkFIWnFveHZfRElvZlQ4c3pMSFJNeVYtMWxYY1ZLWTJCTWFkTVN6QmN2S3luOGVhUURQczU2ZmwwVmw3VlVUS2xYdlIwbUJiVEt3SXZkVXpSZW1DZDBHb01TcF82NWZULTZzMDRMcjJMaDhsOUpCZHZRUzEyVXloUlRZV2RleE5EZUV3RUJJWDFNaV8yLWxsY2tfR19tMFE?oc=5",
+      "summary_ko": [
+        "Anthropic의 IPO가 AI 관련 주식에 긍정적인 영향을 미칠 것으로 예상된다.",
+        "미국 기술주들이 상승세를 보일 가능성이 있다.",
+        "AI 산업의 성장세가 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 미국 기술주 상승에 따라 강세로 출발하는지 확인"
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1f21e59e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:05:15Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORGtVZ0VVbHZlNUpldGYwRW1sNXc4MUhmRzZGY1pOR1psV2FMNXkwbElxMk9NSXJPSlk3bU1OQWl5Y0hjT3RqRmlENjBES3FFbHFtclJackVFX1Z6N1NIUXVDN3B0WE5NVzNyUzlmc1Y1TS1zZnlic2JvaU51RmF6QUpTWlAxN1VOdWQ2VjZNajFSQWFh?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_38894e0c",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:03:00Z",
+      "source": "Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSUhpOHZUTGVFb0xLUTFHUDNJTVlMR0xVSWpiYmhKMHRkOTBwWl9zaFFZbFh0eFVpOHBxNEMwdm1pSU1lMU4zNWNMNnZ6T3Z2VnotT2ZuQWVlYTVDcldLbG95cUt5NEE5bWRUSklNVE8zTXpMaDJ2dTZuaG1LSFU1dkozejlPQXVpLU5tUjBTM3VsekN0eVlVQUxPUW40WFZ0LUNxMlYyTzFBQdIBrwFBVV95cUxObWJraFJQSXdmVUVUVWRDd2xCREdOcGRCSklKeFozeC1ES0h4U1JZaHhnV1FITk9KVGNIMmFZajFBbXhfdzVsZlJITjJfd0E5QlBYaVlGZUtrbzRVWmZ1VEw3a25fR1M2WmR6Y2VSXzdlOTVaRVJIQ09mZHRmU1BJeHRoRGdsWUVEY09HX0twOEg4OHlCSjBpODltUVNXWWNaWUlPZ3JOZGFlbGJnYkFV?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_75840866",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Why Broadcom Stock Took a Wild Ride on Thursday",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:01:23Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdk9uNEJCTDRHWGVmMjQ2ZjRaUUNYVm1FbHNMcm8tRjhsSVhsMlA0cTVuT1pGSFlINzYtM2FrVVZCcEhOcDZpWDlQSWZJSk5iTmFUTUowLTU0cEdQazMzcExMNUtfbU84aFl0NEdOYmlfUEt5TnNoeWVpX0ptME50XzdvbW1WV0hvWVNJbHV1WlN6MUN1dmdFdw?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_79ef8e81",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Times Square protesters arrested as AI giant Anthropic makes trillion-dollar stock market debut",
+      "preview_ko": "",
+      "published_at": "2026-11-19T20:00:01Z",
+      "source": "amNewYork",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0NILWIyLURjQmpLWmFvY3p5ZXVRLUU3UW1XMWhiMXpwN3RfZjVGTF9zNGtHUjFTRU9BRWxVNFN6M0xaZGZ0TVVUNkV3MXRwODZsRW9NZGZyalBGSkt0b0FjOWQwSng1SENIMGJBcllPS3RSMjFWTnQyUXpBSkNOZFNibkZTWl9KaXUzLWl1SzB4OHVreHc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_267cbcbd",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "symbol__ Stock Quote Price and Forecast",
+      "preview_ko": "",
+      "published_at": "2026-11-19T19:59:43Z",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51dnNrREFrZUlCNll5Y3AzWUVEa2JuRXdUak5rTmY3Yms0UHZvcHhqUzZMVm5tMk5tdXJ3cnJjMjBNVHU0V09sb1Z1V21qVnBU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0a6e4c16",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Nebius Stock’s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
+      "preview_ko": "",
+      "published_at": "2026-11-19T19:57:48Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeFpqX2dMTlZjZ2JaSGdjeEhtX0tyY01HVjkyVUo0RXlCclRPeURKMThxaG14cGpsWGExaXlpNjRua3VjZ25KcUlyRmV6NkIyLUVPdGQ1ak5RZnZBcnNkYm5QRFJVdnNfOTNuS2hLYTA2WkhCWElfaEF4djJBcnZVQ3htQzlZR3Qyd090U0VoeWZUMkNU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dec48086",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Why PDD Holdings Stock Jumped Today",
+      "preview_ko": "",
+      "published_at": "2026-11-19T19:53:22Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU3htWE9EV2NLV0VURGd2OUNuTUszSlkzSmFPbEVFN1NLMkVFSUxKWWw0VWc5aFJFVmR4SmxFeWtsS3ZKQzhoTDN5a3VhVnFTRVB6dkh1eXJnblBOQVlNaWFNM3BPV011NVl2QURGX0Q0TjZTaUoyQ2JjZ2hfUkdBcDQ1OXk?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_61fb8449",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AI 거래 낙관론 부활 실패로 월가 하락",
+      "preview_ko": "AI 관련 주식이 하락세를 보였다.",
+      "published_at": "2026-11-19T19:30:54Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcElhd1l5ZlEzOXRDeDlqdWhzSEkzWl8zQ0F0em9WbnNkWVBPSEZQQnFxLWNWRkFna0dGbi1zTTh2aW5CQUZENmRNNFM0UjkzQ2k0cm12WVVRbXRDek53UmlCYkxaQXpVYTJ1cHRGN2JyR29aaWM4VnN0Z3V6UElvd3RydDFIRXY2RjhYVUdpU1VMTW9jWnhjU2FCaWlXaFo4WFdDeA?oc=5",
+      "summary_ko": [
+        "Anthropic의 상장이 AI 거래에 대한 낙관론을 부활시키지 못했다.",
+        "이로 인해 월가의 주식이 하락세를 보였다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 AI 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_068d4b9c",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "주식 시장, 앤트로픽의 기대되는 데뷔 앞두고 하락",
+      "preview_ko": "주식 시장이 앤트로픽의 데뷔를 앞두고 하락세를 보이고 있다.",
+      "published_at": "2026-11-19T18:53:00Z",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNekFhRjc3YUlUa3F0Z0VRamZxejRNUWt5NVNLaHhMRjBRVFZVZWxvc3g2MTk2UG5DN0xoS0VXX1EtUk5MU1hkTnpSc25pQ3RFNzZTQkJ4Q05pVG0yOTloa3VWZXk1bng3akxLZlZfN2ZvQTlKQ0lBenQ1Sm5fUnhCeHBjSmlTSjFsZXg0S3A2Vjd1ai0zaUg5dA?oc=5",
+      "summary_ko": [
+        "주식 시장이 앤트로픽의 기대되는 데뷔를 앞두고 하락하고 있다.",
+        "투자자들은 새로운 상장에 대한 우려로 매도세를 보이고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_0decb59f",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "S&P 500, 경고 신호를 보이고 있다",
+      "preview_ko": "S&P 500이 경고 신호를 보이고 있다는 분석이 있다.",
+      "published_at": "2026-11-19T18:45:02Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYW12WHA4NUJZamhtbzhCTGFsSG9WUmhPZDVZb285OGZrbXN2LS15eWZPTzFEbzVRRVRKbUVSZjgxRHdZdmRDTzRhLU9LcW9TYnMwY3ZMUVRaeC1EcDRNV3E5c0dmUDJsOFE0X3pqWFZ4dmRpUGNCZWxsZ184WEpIZXZrM2E0MFY1c3hrYkZuTG9KekFtcEFqNGR2S1VocC1ZTXV6bENNQ3VIRl8yZ2pXUTE0TVh5ZU9OeTFxZjN4UFZWdFhvbjgxc0R2cnM?oc=5",
+      "summary_ko": [
+        "S&P 500 지수가 경고 신호를 보이고 있다는 분석이 제기되었다.",
+        "장기 투자자들은 현재의 시장 상황에 주의해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장의 방향성을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_86303672",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "게임스톱 주가 상승, GTA VI 열풍",
+      "preview_ko": "게임스톱 주가가 GTA VI 열풍 속에 상승했다.",
+      "published_at": "2026-11-19T18:42:20Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbFFYLXJydXEwQ0xDcnFzMTJSbWJPcS16WmhZVHZsWEIyVThhZWdZU2VHLVRyMlhsWE9Ld1RPY29iZUd3OUg2VWQtbEN4ck56b210YXV0a0t6YXlMRTE4TDlBSHpEODZsMGtCMGRCOEFIRjRwMV9uUWFfQmZhOUNxVWxNSHdiVDJhRDM3Q25pb3dKbldmU2h4aTI5dzZOTUJYS0JOUzNGNThmRXJFekY2aWNzWkZBendPN3kwLWFqLUNmT3JNY3lJQ1p5cUloNGUzX2dHN09DNGtyYk4wZi1oNGtR?oc=5",
+      "summary_ko": [
+        "게임스톱 주가가 GTA VI 관련 트윗으로 상승했다.",
+        "Roaring Kitty의 트윗이 주가에 긍정적인 영향을 미쳤다.",
+        "게임 관련 주식의 변동성이 확인된다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 게임 관련 주식의 반응 여부를 확인"
+      },
+      "us_tickers": [
+        "GME"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d078f92f",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "UK's FTSE 100 hits six-week low in broad risk-off move",
+      "preview_ko": "",
+      "published_at": "2026-11-19T18:31:10Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNC1tMnlsQ3lld2Jqd0w2V2ZFYkhySVJtNjgzMW95SjVVMndhRUVMd2ZvcE9jekNVWk01T213a2VEbTl5V3g5NVhDa2JwMUN4ZFV3cHNTbE1SVXhPbUU3ZThFQWZWN3gzQ2tYY1VOUzYtQkFKTW1XQmpUTTdnblRzS3EyeXl4RkhWOVlMb0F5ckdJNDNYZElia0R3VkFYMlNLT01XN09JT3hXLTdxb2VkOFFRd1AwSWs?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_753ff4d8",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "트럼프 미디어, 시장 불안 속 3% 상승",
+      "preview_ko": "트럼프 미디어가 시장 불안 속에서도 상승했다.",
+      "published_at": "2026-11-19T18:23:43Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSTAtUklRZ0V0Y1ZLMG1GVGxyQmdvY2p3SFNrT0xQWVFVeS1PeWNQaXgzRjNiN2g3czVKeFQ5OVhyWjdtWkh0dGNYbXJfcmVDdzBzSjVpWEJrQkZIYUFPeXNfR0ZPR3Y5d2FfT2RiS0dFQ0ZObnBDNjIxX3BaSGUwOU04ckRFME9HbDNmcjhSU1hkb2xZRl9n?oc=5",
+      "summary_ko": [
+        "트럼프 미디어 주가가 3% 상승했다.",
+        "시장 불안에도 불구하고 긍정적인 흐름을 보였다.",
+        "국내 유사 업종의 반응을 살펴볼 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "TRMP"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_30f6705d",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "알파벳 주가 상승 이유는?",
+      "preview_ko": "알파벳 주가가 상승한 이유를 분석한다.",
+      "published_at": "2026-11-19T18:18:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3R1cDUtT05XY2ttV01jTDF1WFZlZy16UUt5aTVNdXVfdXJRMXJuU3c2SnlNckdqdHRTLWxfUkJCQzktT3hhRElBZHNWM2pQLWlRa081YThFRGcwTjVwdWdXb0ZCU3EybG9JUmhJbnJpVkVXSHFISnplRDZNUWZwUUZlOEQ1dzFOa0x4Z1FSSWtJVDFUeUN1SkphUHQ?oc=5",
+      "summary_ko": [
+        "알파벳 주가가 상승한 이유에 대한 분석이 필요하다.",
+        "시장 반응과 관련된 요소를 살펴봐야 한다.",
+        "국내 IT 업종의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "GOOGL"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_36144ee0",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Sandisk Stock Is Worth a Third of What It Was in June. I'd Buy It Now.",
+      "preview_ko": "",
+      "published_at": "2026-11-19T18:16:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSzVCbzc3RVltNlYyN0ZkN3hMNzNWbHFuMm4tSjhKajFCQm9oOG5ZV0tJQXdPVEdfXzRTaEF3aWd2b1RFVUcyTWd0c09rUlBkVnhCLTh2SEpLanpFTDMwLVhOdXVzT2RoZVVkU3dJS3ltYjloRUhYS3RyOWljZmhzSTZrbWNKTnBUM3pKQXV5dWlCblNQUVo4a1RxMA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_7d20e00b",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "캐터필러, 새로운 비즈니스 모델 제시",
+      "preview_ko": "캐터필러가 새로운 비즈니스 모델을 제시했다.",
+      "published_at": "2026-11-19T18:14:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaVVvWTg4QlFEZzRGb2gxYjJITE5keFgtblZlWVB5ZGVIUm56Y1FoTTMtVTFwU2Juekl0ODVqZE5xMlk4U2d2bXhpemZfQ1hkcGFvb2lTQ0R4QnlvaEhDNUs5Z05fUWZoMmdqYXhpbFNsMENySDNyREZjdmdpc19vYXFYbnM1ci1OSkxwczVxeFVadFVldFE?oc=5",
+      "summary_ko": [
+        "캐터필러가 단순한 중장비 주식이 아님을 강조했다.",
+        "투자자들의 관심이 집중되고 있다.",
+        "국내 건설기계 업종의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [
+        "CAT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_05f23349",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "억만장자 켄 피셔의 추천 주식 5선",
+      "preview_ko": "억만장자 켄 피셔의 추천 주식 5선을 소개한다.",
+      "published_at": "2026-11-19T18:03:54Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObjNHU29lOXRIc05kblZmN0FQbWZadk5rYmlLeEpOcEJOWjQwb3BzR3k3ZDJlcThRRFBVSC1aTzBJM3pOZEpJbTRNRDFvWXBJcVkwVmtJMklhdTVGZXVfSTlEa2N2dTlQN3NvQldUbnQyNVVORndVMUl6NW9FRlJzOHNGUDBuV3ZrcDB4TnQ0cUtxbG5jY3c?oc=5",
+      "summary_ko": [
+        "켄 피셔가 추천하는 주식 목록이 공개되었다.",
+        "투자자들의 관심이 쏠리고 있다.",
+        "국내 유사 업종의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_28577ee2",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "앤트로픽, 2조 달러 기업으로 거래 시작",
+      "preview_ko": "앤트로픽이 2조 달러 기업으로 거래를 시작했다.",
+      "published_at": "2026-11-19T18:03:47Z",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EVDhiOXJnS0M5OG5QUG9nS3BYUTlJQ0hMdlRLSGpzNWsyTUtKZ29kaWEzNWlXZmtjV1ZMQzV4dWxVMEc3bHd0VG12N2pENHdDU0RQdkhqQXRHUFh3Z0dSNUdzb19qTDZVbDRuaGRhRjVSZkRHclNSZGhXMA?oc=5",
+      "summary_ko": [
+        "앤트로픽이 월가에서 거래를 시작했다.",
+        "시장에서 큰 주목을 받고 있다.",
+        "국내 AI 관련 주식의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 주식의 반응 여부를 확인"
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1931e810",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장 하락, 앤트로픽 상장 영향",
+      "preview_ko": "주식 시장이 하락하며 앤트로픽 상장에 영향을 받았다.",
+      "published_at": "2026-11-19T17:55:40Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcWh5RHQ1bW5IMHBlbVU4WVhSWDN1YXNoc1VXY0ktM1d5OTE5bG11T2lkZzhPUEhNNmVWVW11b1pfWkMyRmRzYks0NmgtZkRZTVNVc3dEc3dlZ3k2S1V1Q1kwTmV0LWNFS0M3VXFxVU1DZFdTRzA0VU5MdzNHV3N2OThKQVBQYVlQRTZGcnhYcWgydjRZckRsV0dBSTRkcW8?oc=5",
+      "summary_ko": [
+        "주식 시장이 앤트로픽의 상장으로 하락했다.",
+        "유가 상승도 영향을 미쳤다.",
+        "국내 증시의 반응을 확인할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시의 반응을 확인"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e5187bd0",
+      "category": "other",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "NYSE와 텍사스 증권거래소의 경쟁",
+      "preview_ko": "NYSE와 텍사스 증권거래소 간의 경쟁이 심화되고 있다.",
+      "published_at": "2026-11-19T17:44:00Z",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IWjktQmFxbWh0eVQzSEJqemw2OHdvQzFYM1RiOF9saUJscmx1eXZJRmMyeWl4ZGFwXzV5WEpkN0FCTEtMVHAyQTBvNnNhbU9vSGUxVC0zM3RSNC1ZZmFScXNpSF9HcExCd1h6Z0tZYnhJMjJLMFlyMUNDX20?oc=5",
+      "summary_ko": [
+        "NYSE와 텍사스 증권거래소 간의 경쟁이 심화되고 있다.",
+        "시장 구조 변화가 예상된다.",
+        "국내 증시와의 연관성은 낮다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함"
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e562f47e",
+      "category": "theme_earnings",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "AMD 주가 급락 원인 분석",
+      "preview_ko": "AMD 주가 급락의 원인에 대한 분석이 나왔다.",
+      "published_at": "2026-11-19T17:43:43Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX3QtQTdQeGVTWk5haDNFU010WGQ5aGp6ODFMY2g5NHhRalcyUGF1anNoNUo3c0hxZWxJUTRrOFdGWHhNb0lHU2RHbmdUMFB2emVGM21wOTUxUWtfdGdiTUhYZDcyN0hKRXpBWDZMMVdhNTZRSU9tSTR3eG5JUmFheVZCSUhYUHlicFdKMEwyekg1bXNvUkZsQThFM3Q?oc=5",
+      "summary_ko": [
+        "AMD 주가가 급락한 이유에 대한 분석이 진행되고 있다.",
+        "이는 반도체 업계 전반에 영향을 미칠 수 있다.",
+        "AMD의 주가는 한국 시장에서도 주목받고 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 AMD의 하락을 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "AMD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c9dceefd",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "3 Celebrities Stand to Gain From Anthropic's Stock-Market Debut. 1 Invested After an NBA Dinner",
+      "preview_ko": "",
+      "published_at": "2026-11-19T17:43:01Z",
+      "source": "Inc.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc2FSRXlCc2hLRlJSTEJTLVo4TkFacWVCa3Z5SFplX00zS0RUbVRFZEF6UWRaRlRhUVV1dUlCUUhTR2VsQmduOGV3VGxVNDRjaUhVTTZiTjZ2aE9vdzJYLU01YnNyWDRUdERSZFdoWVZ4WjUyRW9IWUFGNVJqd3NOeWc0ZWU5dkU2MnB4OHQ4WDZrU1Z4cGRNN0Y0QndzUQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f46770c6",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "앤트로픽, 기록적인 상장으로 27% 급등",
+      "preview_ko": "앤트로픽 주식이 기록적인 상장으로 27% 상승했다.",
+      "published_at": "2026-11-19T17:38:32Z",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRmYyQzZBTmhFNWNXSFNjZ0Z2OHRrakdQOWhPeGFKcWVkaHdJdGFuSjJpWFZZalNwUmYwaHFmcTl4WjJPMzVKVVFveUJQZlJveTRnVGRLNXZidTllMVRuOXJWbHZESkxFdUVXUWwyMGc3Z1h1cnV3NU5RTkdnY0M0OUkzbHFaZlY5YV9wOGVpTDVRdTFPVjBwWUk2UkttR2lUZ1VGRFRodUZMbnJncmhFRm9USnk4aEFCaUtNeEE5WmVER3c?oc=5",
+      "summary_ko": [
+        "앤트로픽 주식이 기록적인 상장으로 27% 상승했다.",
+        "S&P 500은 여섯 번째 연속 하락을 기록할 것으로 보인다.",
+        "앤트로픽의 상장은 미국 주식 시장에 일시적인 활력을 주었다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 AI 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "ANT"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e609d11c",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "AI 버블 경고, 앤트로픽 상장 소식",
+      "preview_ko": "AI 버블에 대한 경고가 앤트로픽 상장과 함께 나왔다.",
+      "published_at": "2026-11-19T17:32:29Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlZzQmdaOUFDYWZMT3JwR1JlZHZXLV9vSzNFcVRDa1pKSFhWYURQZThSeHhTSzNBRDQ1XzNRWUxiaXY1WHd1dTZlNU5PMzFtSGZ6THNoWUpaUFczbXYwcERTZjlQbFVFajdsa0xBT3J4NDRObEw1QW44dzFVTzB0Z2FoZmV6dmlGcGJLLW02SGc3X0ZSWEM4?oc=5",
+      "summary_ko": [
+        "AI 버블에 대한 경고가 앤트로픽의 상장과 함께 제기되었다.",
+        "투자자들은 AI 관련 주식의 변동성을 주의해야 한다.",
+        "앤트로픽의 상장은 시장에 일시적인 영향을 미쳤다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 주식의 변동성을 주의 깊게 살펴볼 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_38eae293",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "ANT update: Anthropic stock opens higher in Nasdaq debut",
+      "preview_ko": "",
+      "published_at": "2026-11-19T17:28:06Z",
+      "source": "Fast Company",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOazB0eDVuenVVTXVRNFRNRkxuenQ1T29oVHJ2c1NCNGl2TG4xTEZQWXhmQTlHYW00cW1OYXRVNWw1and4TGMtRVRKNExBV2U5NkNhbWwwdFdKdU9mREwxclNRdEZNbjg0Z3h0ajlRYkp1em1qR3BkZFZ2TVF4WFBCdE9GNGJaNEc1blpYSVYyZDM0VFdaM3JPQ3lpaWlyOEE?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_c978be11",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 주식, IPO 가격보다 34% 상승",
+      "preview_ko": "앤트로픽 주식이 IPO 가격보다 34% 상승했다.",
+      "published_at": "2026-11-19T17:17:21Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWko5TExZSy0yNlBjMXZTTXJzdzNtWV9aWVNCSklIWkVkRFoybmNsdnJwOFpfd2JYZDQ3b3FRMHdjdTFqTXdOLTlsRG5HcWpxQ1AySzNoakdBRUZLdFlndGgxcXBGSHRQSHVBcWFCMks3YjEyb1BKYjRRN192alFadlhpNS1PLTFGXzdIRWt6bzBDSmk3MnJoX1FXSm83WDRmTVlydm5QTURtOHk1eUpLWmhuMndqTkRtUUNvWWVWbk05RTBDZVNsOEln?oc=5",
+      "summary_ko": [
+        "앤트로픽 주식의 첫 거래가 IPO 가격보다 34% 상승했다.",
+        "이는 시장에서 긍정적인 반응을 이끌어냈다.",
+        "앤트로픽의 성공적인 상장은 다른 기업에도 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에서 AI 관련 기업의 IPO 동향을 주목할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b629a0bd",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "AMD 주가, 수출 통제 우려로 하락",
+      "preview_ko": "AMD 주가가 수출 통제 우려로 하락했다.",
+      "published_at": "2026-11-19T17:15:08Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWUg5LTNtMXZ0UXA0a1J0Ukx1U1lEaUhIV3pzS3ZxUVZGNmdack9VOTJiUHhrRnJZd2lDRkFsVS1hbE14eFlxZGtON3ZDMnZ4VVl0REI1MmllX016cFhCSzhxa0NYZHhELTV4Um93OHhTanJXbHRqZ2VDWmRHdUZfZzJTQmtSa0l1ODFIODItcVQxenFDSlozMVcxeGUxQzhReEJERTl6am1EbDdvYkRmV3pkUzdMWWhyM0taWS1DV0lLZGFyZHdPUElB?oc=5",
+      "summary_ko": [
+        "AMD 주가는 헌터브룩 미디어의 수출 통제 우려로 하락했다.",
+        "이로 인해 반도체 업계에 부정적인 영향이 우려된다.",
+        "AMD의 주가는 한국 시장에서도 주목받을 가능성이 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 AMD의 하락을 따라 약세로 출발하는지 확인."
+      },
+      "us_tickers": [
+        "AMD"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_b43da396",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Anthropic IPO gives brief jolt to struggling US stock market as shares top $100",
+      "preview_ko": "",
+      "published_at": "2026-11-19T17:01:36Z",
+      "source": "Citywire",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN1lPTjRkNGpOTm1rZnQ4Yko1blVuS0xfZ3VEc1hBTDJCYTJpT1ViOVRGRFRUczk2bHowdmVtYWlKOTgxX09wQVVXNE95LVljNzBZN1VieFNzeUQwNS1RYmE4RGpySzJ3N1doTGNZdTNWa1IzcmJjRHcySG1SMk1DaVFndmF3TEZuWkFzbXRuNWZmeXNNRzJybWlnM0F4Y19xVV96UzFjU3MzTlBoMllZYzdjZ0ctT0RfNk9CQ0VPdE9ISEFCTTl1NTNaMA?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_e5a18b83",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Why Intel Stock Is Gaining Today",
+      "preview_ko": "",
+      "published_at": "2026-11-19T16:59:01Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMzkyZmJVQUtiUWJvZ1BVSllLQ3lkNXd2LUJDV3dhRlpTVFhIRWlfSklURjFmdThGTWI5ak1Xb0ZDMURLVHhYRTVaSmdpMURjcVBTLW96dzlXbWk5ZjAxVWNuUkJhZkgtQ0R3SnJYeURtUXBaR08wa25SOXVUYzlkQ1dsZFpQcDBHeVpSYjhjQU55eWxKd3JYNkVR?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_319928ac",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Hotel Stocks Marriott, Hilton, Hyatt Holding Up In Tough Stock Market",
+      "preview_ko": "",
+      "published_at": "2026-11-19T16:59:00Z",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3BoYnlDSU5wMk1nbmpySHd4ZDN3eVdkSDFETk1mR3RBWWVSRzBrQVdVTW5NVVlEZXVqT0g4d1Y5TlBxczlrZVh3WFNYaDcyMHlQYVUwN0FDenRUcUFJT2NUck5ycVFBb0tkOVhkdHJlMi1XQkpEck4tZ1QyX3lsRzhVSWtBeXVGR29STldaaEhoM252SW9LSVVhazJ6S1JKTU1GZWU4dE03WnZjak85aTYxSlVDSnVOalY3WmtfY3k5MDg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_66f6221e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Viking Is the Latest Cruise Line Stock to Survive the Market's Wild Waves",
+      "preview_ko": "",
+      "published_at": "2026-11-19T16:57:02Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObGpJNGJHRFVYMVI1Y1JHb1oyUG93Y3ZzR0tVS2EzX2tuNE9WcDg2OHYxTjlYYzRvempwUVNPNXlCaG1zNFF0MUVaVUxUX1RkeVRpVy13cFZEYTl6VTJDbXR3TTBBYVZQSnlUOC01MkMyZUxqN0sxamtiSDJlcTB5bGxBZlRzMDhERkpNZUxpZE9vcmUyQVppc1ZqM2phODFOaTNQenh5VzhMOEVoVjVOaVN3TzJvcUU?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a39d17ba",
+      "category": "geopolitics_commodities",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "Nvidia, 산업 스파이 사건으로 주목받아",
+      "preview_ko": "Nvidia가 산업 스파이 사건으로 주목받고 있다.",
+      "published_at": "2026-11-19T16:54:39Z",
+      "source": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdm1wVlpHSVVWdnBmWkhLS003Q2FqQWdJYWFtSEc2TThOemVSeTMwY2xkUGdkOUUtOEE0VUU4a2M1V3RrZDhVOVplZmdoSEtMamRBeHItdElkN1hPTmJNLW10dDR1Q3RnQzNFNXJqd2RkOHQ4UDI3N2FDVjZPR3Jra0R0OVZVdjlCelMzdGw1N0dKNXlvR0ZKamQwRHowSTZES3Ridk1aSVB6V2xzeWZsZTFRbWM3Y3VTdXhDVUg5TG9qQVpJQUhTcGRnLVJsQWhLY1g5bXFhUzA4RUtx?oc=5",
+      "summary_ko": [
+        "Nvidia가 미국 주식 시장에서 산업 스파이 사건의 중심에 있다.",
+        "이 사건은 시장에 부정적인 영향을 미칠 수 있다.",
+        "투자자들은 이와 관련된 추가 정보를 주시해야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 반도체 업종의 영향 여부를 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "NVDA"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_727b7af2",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 IPO, 시장에 큰 위험 요소로 작용",
+      "preview_ko": "앤트로픽의 IPO가 시장에 위험 요소로 작용하고 있다.",
+      "published_at": "2026-11-19T16:49:00Z",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGp3U3BEQmpkMEZoZko3Vm9BcFpjLUlQN3VTdTJVYU15VXJMV21BX1c2WnZxSWt3MjhHZE5XZkZFc1JOZm5sSFJsbW9abEtYQkh4eGlZdURNMzBTRWlGZXMxaGpfN1k5UG0wYkFGdUlmSldYZWhfM19rQnM0WXpocUVQc3FhQUEzN0dfZjNNQVdwelluZE9HQ0dtQzREdTc0OHhZNEp2UnhmRThLUGpR?oc=5",
+      "summary_ko": [
+        "앤트로픽의 IPO가 불안정한 주식 시장에 위험 요소로 작용하고 있다.",
+        "이로 인해 투자자들의 우려가 커지고 있다.",
+        "시장 반응을 주의 깊게 살펴야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 기업의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_4bd4d3c1",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "앤트로픽, 상장 첫날 34% 상승",
+      "preview_ko": "앤트로픽이 상장 첫날 34% 상승하며 주목받고 있다.",
+      "published_at": "2026-11-19T16:45:28Z",
+      "source": "EL PAÍS English",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmdkejdkWUd3R290RnVVWmtOY18zZU4zWnVET3dnbXVwejNhQnJGS3pjRXg4YTRRcXZuUXpNLWhySnc0VW5kV3k2aHFoam41S0JreTd4RkxIdW5lQktoWW5CckdVZVFoM1JvblJabzJaMno5b3VmNmFNLWRxUnMzQi1qNFV4UjZXeWJPYS04OGljdnJ4WE5QZlpWbS1PazJuV0pwYkFHbFlpU3VMcll2cGVZYlRaYWkxMzdMTXpQUjZTT18yaVHSAdoBQVVfeXFMTmJnaDNoOE45MnZGNHA3V1NUQkJiZkEwS2d6WUNla2RRUThGbzNxQ2hQRS1DM1VGOFdXenpZTVBvUzhsSFdQYWFtZGczcTZGR2hQMXhDNmJUZ184emF6NkRxelYtSnJVZXFtQlc0QkJEa00yYmViTjV3eXNGWDB6R2lxdEF4X1haV05Mc1dWeUVOTnMzQkdlalJUMG9neUpCdk41MHAyd0lEaEF3ekFsMTltN2pCSFV4R3lzNjBPQkZ1MHZNQVV3YlptTWQ5RENXSXZHTi1mOF9pSEE?oc=5",
+      "summary_ko": [
+        "앤트로픽이 주식 시장에 데뷔하며 34% 상승했다.",
+        "회사는 2조 달러에 가까운 가치를 기록하고 있다.",
+        "이로 인해 시장의 변동성이 커질 것으로 예상된다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 업종의 반응을 관찰할 필요가 있다."
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 13
+    },
+    {
+      "id": "n_ceca60ff",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "주식 시장, 역사적 경고 신호 발신",
+      "preview_ko": "주식 시장이 역사적 경고 신호를 보내고 있다.",
+      "published_at": "2026-11-19T16:20:02Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR25Jb3ZpQmkzTlhoMFl6MkJMRkxZRUpobGRSc3VuSEt6TUszNU9qUmN2NWVaMjNuZzBCNENwaTZETHpBNmVrbjA1TFh6YzBaejdCVlkwcmwwSVJFZGZscVN2TzM1eXVMLVk4T2RhRzQ5Y1l1WW5TRlYzX09ld0dfT2RIMzdqVkFDOUVjRFNndktRZ2NIMVFWV0pvbzBuT3pH?oc=5",
+      "summary_ko": [
+        "주식 시장이 156년 만에 6번째 경고 신호를 보냈다.",
+        "이 신호는 향후 주가 방향에 대한 우려를 불러일으킨다.",
+        "투자자들은 시장의 변동성을 주의 깊게 살펴야 한다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주식 시장의 변동성 확대 여부를 확인해야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_32b368dc",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Early rally for Wall Street evaporates as market waits for Anthropic’s stock to begin trading",
+      "preview_ko": "",
+      "published_at": "2026-11-19T16:16:45Z",
+      "source": "Anchorage Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORm1tYnJLM3VPckFBeHJnaTQ1emRyOVNCeWl3dzNBbGdKdHZia19SWWtDd01zeGI0U3J2eV9Nc0JGczFsWjVjcVZSWUcwb19vOXJVa0ZaX3BfeWxfX3o3RElRZDhnaWZpNGR0dk5WdTZ1ZWhrbVpUbVFzREVWRkI1d21uLWlIZzBseDctZjk0N3VOTkJlZ2lQaS11QTNEZEo5V0dkcUp3SHdDcHpWZjZPQmh0QUJ1bmdYLWpSZWd4WHlwLXI4bndhTDVwcUNwWXZhRmtkNXRVdTQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_da83c32e",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Anthropic raises $81bn in record-breaking stock market debut",
+      "preview_ko": "",
+      "published_at": "2026-11-19T15:58:58Z",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15eVFIWE5uZFRSSHFUOTNCZWJySy1leGw3NHYxbVZkZVpFU01maWdFYW5FU1lrY25NSDEwQV9NRXBpaG5LSDB5dEhXcW83X3JTVEF4aGlIM0FrVm8?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_bb2fc937",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Anthropic, PBC Rings the Nasdaq Stock Market Opening Bell",
+      "preview_ko": "",
+      "published_at": "2026-11-19T15:55:06Z",
+      "source": "Nasdaq",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQV9KX1I2NEFoSl94OVJKMUNRRHV2T0VCa0JNUkE4a2FjdGlLMkxZcVEwY0RHVWYzaGpjSEJKVG16SFItdHlHUHVBS2VKZTdzSVFQNUVINXJ4TllPQ0ktUlhLWmJFYkg3c18wOTNXN2FfeXFqNlpMQXljUk9jQ3hUYlBPUG1KOFJqMGc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_a28d746b",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?",
+      "preview_ko": "",
+      "published_at": "2026-11-19T15:51:00Z",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTVPd0FEeTNPYkhXbFg0NV9XUVQ2WFQwelNjVlRmQU1pWW9KX1J1bDdHOXhLVkhPRmRmZmJxbDY1YUtkZWJKUnV3MFdtVkd0RnpQSVdJeGtUajY0NnQwLWhHVzd3T01fMDdOZGJSeVpMZl9tSDZ5eFltSFg5RkNHeGxhZzJXMnBiT2ZoRUduUjB2eFI5WTlLMU1LRXRXelRwbGFkMUk5c0xiZHhJWFN5NEJFby1mQQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_cf147559",
+      "category": "theme_earnings",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽의 상장, AI 거래에 큰 변화 예고",
+      "preview_ko": "앤트로픽의 상장이 AI 거래에 큰 변화를 예고하고 있다.",
+      "published_at": "2026-11-19T15:42:00Z",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS2VHTFc0SF9vdG1Sa3BSOWczMlNYNG5Ld05jdzYwYnhnT2VnREJ6UTVPek1yUzFRdW1FRkprbmw0ZmMxTDFJQXhhMWQ4WmxfbHc1c3FNVEN4UG5DeWM3X3NOd0hKSjIyMFZxelpFQmlOT3R1UWNDLVgxeTRrYnlQTg?oc=5",
+      "summary_ko": [
+        "앤트로픽의 상장이 AI 관련 거래에 큰 변화를 가져올 것으로 예상된다.",
+        "이로 인해 시장의 관심이 집중되고 있다.",
+        "투자자들은 이와 관련된 동향을 주의 깊게 살펴야 한다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_be15cef3",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "앤트로픽, 나스닥 개장 종소리 울려",
+      "preview_ko": "앤트로픽이 나스닥에서 거래를 시작했다.",
+      "published_at": "2026-11-19T15:31:00Z",
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS19oYzA2b2VoZk1ORDJHYml6RC1VZHBkSXp2QWs3cUNKMHpyZlJPZ2FzaUlHVG4tV1kwV3g4dDBfQXAwZTF4N0pmSWpOdzZpZVZGMzdHNmp4SXg3SDFlQUtkV2U4ajZtVHl6dEs0emdaYW1aRkpUVjNoeW9TZUYzZE4xdzRfakE3dnZvYjJWYWZvWnJSLU9wTTNPSTJyd1E4VjUxbG1wcXBtNm9nbVE?oc=5",
+      "summary_ko": [
+        "앤트로픽이 나스닥에서 거래를 시작하며 주목받고 있다.",
+        "이 회사는 기술 분야에서 큰 기대를 모으고 있다.",
+        "IPO 성공이 시장에 긍정적인 영향을 미칠 것으로 보인다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 앤트로픽의 성공적인 IPO에 영향을 받을지 확인."
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_dced94d4",
+      "category": "theme_earnings",
+      "importance": 4,
+      "importance_label_ko": "관찰 중요도 높음",
+      "title_ko": "앤트로픽, 2조 달러 시가총액으로 IPO 성공",
+      "preview_ko": "앤트로픽 주가가 30% 상승하며 시가총액 2조 달러 도달.",
+      "published_at": "2026-11-19T15:28:00Z",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV2Q2TUdiaGdLRjlWTmFIamQwRXRpSW9JOHN4R0s4TDZYaHExbXVRc09JRnVLQk9oNllyOTdJMkszVVVXU2ZHMlV6aW4yVDFaR3UtRTl3TGE5c1VJUUc3R2dna3JWbi1jeVM3aE4yN2FIRlNfNjNTSy1HZ1NQQVJCS3NQTEkxT0ppVkx5dU1iUjU?oc=5",
+      "summary_ko": [
+        "앤트로픽이 IPO를 통해 2조 달러의 시가총액에 도달했다.",
+        "주가는 30% 상승하며 시장의 주목을 받고 있다.",
+        "이 IPO는 기술주에 긍정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 IT 및 AI 관련 주식의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6bb2a354",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "캘리포니아, 예산 편성 시 주식 시장 붕괴 주의",
+      "preview_ko": "캘리포니아가 주식 시장 붕괴에 대비할 것을 권고했다.",
+      "published_at": "2026-11-19T15:19:19Z",
+      "source": "Missoula Current",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TM0xxX1NjNFZVaGFpUGh3VTZleUFQdGsySVV0TjNtNExXQVVYZ3RuZXVKdHNUR1ZzZFZfTnMwWWJPUy1wUVItelp0T180M3hWenNNcWUxNll4Y291VjZYNmNR?oc=5",
+      "summary_ko": [
+        "캘리포니아 주 정부가 예산 편성 시 주식 시장 붕괴를 주의할 것을 권고했다.",
+        "시장 불확실성이 커지고 있다는 신호로 해석될 수 있다.",
+        "투자자들은 이에 대한 경각심을 가져야 할 것이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 시장에 미치는 영향은 제한적일 것으로 보인다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_6eedd08b",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "시장 조정 대비 3단계 전략 제시",
+      "preview_ko": "시장 조정에 대비한 3단계 전략이 제시됐다.",
+      "published_at": "2026-11-19T15:00:02Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRExvM3h3S29Zb3JnMEtRRENDTGRkbG9EckpCRTBGblpVSngxRW9vMmlXOU5aeUZGcjlRT3lPZjRRRXpTSGhTRnpvYzdnNGRqZmhZQlZTSzRUWS1na1UwWmFWRVVUMWk1WWY1cjhwTGJ0R0J3aU1oYkpHem5JMENROHIyRTB1N0g5Z2pEN0JoTVh3TndiX01RZEp5c1JJWWp3dzF4eE5ZWmo4NW5Ca05EdDJCNFFVMkhlY0FUYm5PczJLQnNQWkE?oc=5",
+      "summary_ko": [
+        "시장 조정이 예상되며 이에 대한 3단계 전략이 제시되었다.",
+        "투자자들은 이러한 전략을 참고할 필요가 있다.",
+        "시장 상황에 대한 경각심이 필요하다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 투자자들이 미국 시장의 변동성을 주의 깊게 살펴야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_51486ef8",
+      "category": "theme_earnings",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "앤트로픽, 역대 최대 IPO 완료",
+      "preview_ko": "앤트로픽이 역대 최대 IPO를 완료했다.",
+      "published_at": "2026-11-19T14:54:36Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaUtPVnVrUHpzeXo2bDhMa0F0cHp5SUttQkY5OEMzSERJQ1hrMXQ5X2tLSGM2VkFRblVJREZZNFVIbEZBZ1QwUTN5UTU0ckFwNURzU1gzckZ6UWxhUGltZ040eG43M01mQ3oxdnNVRmRucUkwZkZ4bXdFZEtWbzYwVEMwdndSOTgwVUpSekMtemh6TV9HZVpqWkVnZHB4QUJPZWxXd3RR?oc=5",
+      "summary_ko": [
+        "앤트로픽이 역대 최대 IPO를 완료하고 거래를 시작했다.",
+        "이로 인해 시장의 관심이 집중되고 있다.",
+        "기술주에 긍정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 기술주가 앤트로픽의 IPO 성공에 따른 영향을 받을지 확인."
+      },
+      "us_tickers": [
+        "ANTH"
+      ],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1a9379e5",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장 붕괴 예측, 투자자 대응 전략",
+      "preview_ko": "주식 시장 붕괴에 대비한 투자 전략이 제시됐다.",
+      "published_at": "2026-11-19T14:27:00Z",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1RmTF9pQXZBaEo1T2hQb0tqa2JsdkxvaXN4cGl1cnRhamp1YTA2bW10M0hycW5HNUZvQ1N3emEzOHVGQm5tTldVZUZUTXlGVEI4N2lycDBsVHd6VzFWeml4WnNyQ2YzWEJ1QmpsS3p0bGJhY2ZERVhyOVBydnJZSmdiQ3FfaUpuUF9yZQ?oc=5",
+      "summary_ko": [
+        "주식 시장 붕괴가 예상되며 투자자들에게 대응 전략이 제시되었다.",
+        "역사적 데이터를 바탕으로 한 분석이 포함되어 있다.",
+        "투자자들은 시장 상황을 주의 깊게 살펴야 할 것이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 투자자들이 미국 시장의 변동성을 주의 깊게 살펴야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_d42fcc3e",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "주식 시장 뉴스 요약",
+      "preview_ko": "주식 시장에 대한 최신 뉴스가 요약됐다.",
+      "published_at": "2026-11-19T14:00:11Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTE5KeVlFaVIwVEcydXhsTFdZb0loWGJsREs4X191dHZYMERfNXd4N1lPemJKOFNIQ3lxQS1OeG1JNTJTdm53NWZkRzZPcDFuZnUyMFh0UzA1cUpzeVlRLXpGUHFhM05QdXdjMUxqSXlvckJNLUc0Nlo5YTFXdGZaOUN1TVl0N3dUbVhaU1NONmJTRnVLYTRsb01Mbmg5S0U0NnZEZGl1Q2ZhSkxyOFE0U0w2MS0?oc=5",
+      "summary_ko": [
+        "주식 시장에 대한 최신 뉴스가 요약되어 제공되었다.",
+        "투자자들은 이를 통해 시장 동향을 파악할 수 있다.",
+        "시장 상황에 대한 이해를 돕는 정보가 포함되어 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 투자자들이 미국 시장의 동향을 주의 깊게 살펴야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_932977d9",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 IPO 당일 주식 매도 이유 분석",
+      "preview_ko": "한 애널리스트가 앤트로픽 IPO 당일 매도 이유를 설명했다.",
+      "published_at": "2026-11-19T13:48:31Z",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5zRTg4UnVPclZpb3N2eldCZHF0aXpWQTZpU3JyZVBJOEpkUGthS1ZaY1h0X3ZEdjFXaXJweEVMZk1US2UzbGFKNlY5UlBSVnZqZUtQenNfTFhLZU1xTUxGc0k3ZDVRbEl5Ujd6clpiN0hvcTE1azQ0WDJ2bC1Kdw?oc=5",
+      "summary_ko": [
+        "한 애널리스트가 앤트로픽 IPO 당일 모든 주식을 매도한 이유를 설명했다.",
+        "시장에 대한 불확실성이 커지고 있다는 분석이 포함되어 있다.",
+        "투자자들은 이러한 의견을 참고할 필요가 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 투자자들이 미국 시장의 변동성을 주의 깊게 살펴야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ca34ca46",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Stock Market News for Nov 19, 2026",
+      "preview_ko": "",
+      "published_at": "2026-11-19T13:21:00Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRHdDMGxsdFYyOFpHVTNrZUVrZmVySzZrakVObGlEcmoyU3FkZjZUSGdHLTlzM3JfS2J5a0hFSVZuc1pPWFpSejczUjdiNU9PYlRQamt0dlZmYkZpVTZ4WWxueTZLME9fY1NOS2Iwek95NXJVYjFNSVBxYkxzTl9pQzFPXzNZYVoyZ3kzamlEQnlNeTQ?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f62af7cc",
+      "category": "other",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "앤트로픽 IPO 전 알아야 할 3가지 사실",
+      "preview_ko": "앤트로픽 IPO에 대한 흥미로운 사실들이 소개됐다.",
+      "published_at": "2026-11-19T13:00:27Z",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPek02RWVxSmJXWW1ZdWI0T2lFc3B2a0l5RHZJNG94N29tSEhSX0hYQWFTVU81SHBCOGFNUVpDRzBnZzVyTHpsYlhjQ3lCY3IzUldhY1dicl9mWTdGeElERy1mWkk4RGFPajhwRnFfR0lwekxsUUxINFZPeWd1WmNCX0ZsVHJLMHZhRVBLTEJHVzlvN3RRVXp2bWJnMjI2SElrZkJ1VnF2RGtTX0NSQWg2Vm9ESktTdnMxMU1SVy1ISkZ0dw?oc=5",
+      "summary_ko": [
+        "앤트로픽 IPO에 대한 3가지 흥미로운 사실이 소개되었다.",
+        "투자자들에게 유용한 정보가 될 수 있다.",
+        "IPO에 대한 관심이 높아지고 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 투자자들이 미국 IPO 시장의 동향을 주의 깊게 살펴야 한다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_f176c0c2",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "대만, 시장 하락에 대응해 공매도 규제 강화",
+      "preview_ko": "대만의 공매도 규제 강화 소식입니다.",
+      "published_at": "2026-11-19T07:11:00Z",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHRkNmpfakc3VkVyNVNGckNtRlY4U3VPMzNHQ0kzTWJTeHFyTWdpRmZVTWdJblpxSjFhQnZHUE45QTd2Tlg3MTJZbE9JV0FLZjl6SnBrazh0aHNOYkFFamthUjNZS1ZLc1FjUTVJUlVaWTFaNHFrQW9WVkdaZEs0a3ZoeHBNWS1p?oc=5",
+      "summary_ko": [
+        "대만이 시장 하락에 대응하기 위해 공매도 규제를 강화합니다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 1
+    },
+    {
+      "id": "n_c960a1b1",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "미국 모기지 금리 7% 초과, 인플레이션 우려",
+      "preview_ko": "미국 모기지 금리 상승 소식입니다.",
+      "published_at": "2026-11-19T19:11:00Z",
+      "source": "SuaraGarut.ID",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CSmR0aWRaUXEwZ0JCR0dfc1pEeS1BekZHTmRBRHhDdndYQVQ2aXNRUnFLX2NVVHBqSjk4Y1plUHpYZzQxcXVJVEJPOWlzdG9zbkhwYi05MnA2SEthY0pmLURYdkFoVXkxeXc?oc=5",
+      "summary_ko": [
+        "미국의 모기지 금리가 7%를 초과하며 인플레이션 우려가 커지고 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 부동산 관련 업종의 반응을 확인할 필요가 있습니다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_1d7818c6",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "모기지 금리 7% 초과, 인플레이션 우려 재발",
+      "preview_ko": "모기지 금리 상승과 인플레이션 우려에 대한 기사입니다.",
+      "published_at": "2026-11-19T19:07:00Z",
+      "source": "Demokratis.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zOGVXU1RUUnF6Z21oNTh1NE9wTzF3c2JkSUgwZE90akdFdTMyTlUtTzUwM2JmS2pzWWpBSWplSzRLbHpzTFhuT3kyX09NQkRXbUp5eHNZQW5GbHRiOF9aS2VndHBBeGRDc3c?oc=5",
+      "summary_ko": [
+        "모기지 금리가 7%를 초과하며 인플레이션 우려가 다시 커지고 있습니다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 부동산 관련 업종의 반응을 확인할 필요가 있습니다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_fd488e68",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "US 30-Year Mortgage Rate Jumps to 7.28%, Biggest Weekly Climb Since October",
+      "preview_ko": "",
+      "published_at": "2026-11-19T19:05:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ScW8tZDlzUkt4MEpWNWVGRnlZbFh0WUNlY3Vxa1kza2J2Q1FITU9xbWJSXzY3VXVGdFRyTE9tSUw5NDBUOTVjcUpkMF81b1hQZ1lhd09sandzYm8xMUM5eE5WV3JYY1BhUzdlOGlNdW9LVk9QRnc?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_ed3051b6",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "채권 ETF, 수익성 높지만 월가에서 매도 중",
+      "preview_ko": "채권 ETF가 높은 수익성을 보이고 있다.",
+      "published_at": "2026-11-19T18:41:00Z",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTWNVSEU1d3JickVid2JPWWVGSmpMMFRFWkg2STJCamx5cWE1TldEWHBLcUV6V2hna1RCTVh6NkZUN3RQOTlmZFpTVHFuLUQ2cDVaUGpSVDMzcHRXQm5qZXkwbzdMUy1XbDhUc2VlcDNnWmxza3U4QkJEaHE2MThENlRwVjRWakNxclhpYjhfUXJkRTdMWWpyaHNzbHNTQnl5MlFDLS03NS1MaHY3RmpJa01yazJfUWc2TWh0OEN3X09DZ2RWVUhz?oc=5",
+      "summary_ko": [
+        "채권 ETF가 수익성이 높아지고 있지만 월가에서 매도되고 있다.",
+        "투자자들이 금리 인상 우려로 채권 ETF를 매도하는 모습이다.",
+        "이러한 경향은 채권 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장과의 직접 연결 고리가 약하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5a5e231f",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "10년 만기 국채 수익률, 저항선에서 하락",
+      "preview_ko": "10년 만기 국채 수익률이 하락세를 보이고 있다.",
+      "published_at": "2026-11-19T18:36:54Z",
+      "source": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOE1HdUhEUVFNNzFLTVAtc1VtcVBaXzVSb0c2MVFFZjNNLXlhWmFhN3dPb1dqS1RBclRJdnFmRk1JZnh3THJ0ZURWbUNiX2FNQktqa0pZWkRuT0txZ3hidDVQV2FOOHV3VnM5bTVtU2JDWlNtdEEyTk5HOWZ6OUFRdnNETXp6dHVfcnNnUHloMklSZGdaLUtwTHFwckd1SzNadFVmcktueGw?oc=5",
+      "summary_ko": [
+        "10년 만기 국채 수익률이 저항선에서 하락하고 있다.",
+        "하지만 여전히 상승 추세를 유지하고 있다.",
+        "금리 인상 우려가 지속되고 있는 상황이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장과의 직접 연결 고리가 약하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_5c1579b0",
+      "category": "macro_rates",
+      "importance": 1,
+      "importance_label_ko": "",
+      "title_ko": "연준 H.15: 금리, 공식 및 가이드",
+      "preview_ko": "연준의 금리 관련 공식 및 가이드에 대한 정보.",
+      "published_at": "2026-11-19T18:25:41Z",
+      "source": "CASRAI",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53TVk3b3VUZlRaZWxuckp1YlB0b3REZnFGbEtkQlYxSV9NQ1ZNSS1Kbmh2X1NWZG9WN05wSjNFMkxCYndIRjlFOHlKZ1FvSGd3Ukt6T0ZpLVdEZw?oc=5",
+      "summary_ko": [
+        "연준의 H.15 보고서가 발표되었다.",
+        "이 보고서는 금리에 대한 공식 및 가이드를 포함하고 있다.",
+        "금리 정책에 대한 이해를 돕는 자료이다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리가 약하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9889c298",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "The average US 30-year mortgage rate rises to 7.28% this week, ending a four-week slide",
+      "preview_ko": "",
+      "published_at": "2026-11-19T17:43:37Z",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcjJzSGJkTVU5TWFWbzJWOUppQmU4WlFXOE02UzBkUzJ6NDJzQUlIUXdXRnhFU0stNllYSU9VRk5tenZsc0xiV0NNNFpnczdjVGE5ejhIaHB3M3RLMkxuTWpGRU51NGN6TGpYUUpreHJzM2RCbS11MzgwNFdsQm5lbU9tWW1NT1RsRmUwRGxnSDNPaWJhaVHSAZsBQVVfeXFMUEViVmFTazdHbE5vU1F0VEtmUW1rd3h5VzJhWnpSYTNPa1MxdDhCQ1F4WjVNNWh6ZHN4b2xIUW1acVJqNTh4QWR3ZkY3OW9jcXZjcHBFZ2tXalQ4amFvYnJJT1VIWFNoNURYY05mNGMwZzB6MkNHSDVtYkRGTDhQVWxOQmo4eTY0cjVYOUM1aU9JQ0I2WlNOY0dkcTg?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_acfc70d5",
+      "category": "other",
+      "importance": 3,
+      "importance_label_ko": "요약 없음",
+      "title_ko": "Mortgage rates rise after four weeks of declines",
+      "preview_ko": "",
+      "published_at": "2026-11-19T17:33:56Z",
+      "source": "Mortgage Professional America",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3ZRSFFfWjJQWWY1SGhzZjMybE1uaVEyV2lvUDM0Y3RnTTFDTU5BVzdnbHVNeURPV3JOeVBiLUhoNDZ6NmxlNWVTd0VKQnJJaGRFN1ZUcF9EWlJMZjJ4NVNDMEtNNEFfcFkwbWZpbEI5dHZxalpyNDktLWkwYjZkY05wVjcxbTdwZWhxczFjeW9jVjhBMXczY0xjS3lXaG1ESUQ0MjlDSUU3TW5STlhxX3JqQ2g?oc=5",
+      "summary_ko": [],
+      "kr_impact": null,
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_9405e118",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "이더리움 약세, 연준 금리 기대감 영향",
+      "preview_ko": "이더리움이 약세를 보이고 있다.",
+      "published_at": "2026-11-19T17:33:36Z",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUg2eWVRbXVmOTVwTXZGRnM1ZGRTajJNMkx0YlljYnYtUFJsWE1MMEV0WnZWcnVtNzJva3JYbG5IaDFxQnVURnl0MnAzWGVkNFJTeFN2S3JNMXVISEdrcU5pQ1Q4SkFsZGV4T3JWRy1VajF3QjNNd2RMc0RQREhIaHBYM1ppZjFfeDhVaktac1ktTHc?oc=5",
+      "summary_ko": [
+        "이더리움이 연준의 금리 인상 기대감으로 약세를 보이고 있다.",
+        "비수익 자산에 대한 위험이 커지고 있다.",
+        "암호화폐 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 암호화폐 시장과의 직접 연결 고리가 약하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_66857711",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "모기지 금리 다시 상승, 인플레이션 영향",
+      "preview_ko": "모기지 금리가 다시 상승세를 보이고 있다.",
+      "published_at": "2026-11-19T17:00:00Z",
+      "source": "Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeFZOY0VKaHRrbEFzZkctWHl6Z1hnVzZXSktIdk5tZGRocmFreHppb0dxRTNpWEc4azVOeHlwTDdrZVJZQVgtcWQyT3V6Wl8wYl80a2lwbHhtX01RUXNGdXpGYlplQThsM3RUWmFENjY4MXF5aUswaEh1NU5Ha2ZvMDRhZk4?oc=5",
+      "summary_ko": [
+        "모기지 금리가 다시 상승하며 인플레이션이 영향을 미치고 있다.",
+        "이는 주택 시장에 부정적인 영향을 미칠 수 있다.",
+        "금리 인상이 지속될 가능성이 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주택 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 3
+    },
+    {
+      "id": "n_fded6018",
+      "category": "macro_rates",
+      "importance": 2,
+      "importance_label_ko": "",
+      "title_ko": "미국 국채 수익률 상승, 경제 평가 중",
+      "preview_ko": "미국 국채 수익률이 상승하고 있다.",
+      "published_at": "2026-11-19T17:00:00Z",
+      "source": "Rich Picks Daily",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWG51RGdwa05OV3F4eTdpYVpVWGNodldZUER6MTg5T2QybFJ6TkUxMUE0WUlmQ21ROFNkcFUtSC0tbkgwXy1hMjBBYmRrRGg0LXdKaDh4RUswamV3alZqeVoxMjdFTk5jLVVtSjhReHhGd2pnT1lJbTZYR3Y1bWRKa3hwUjhKdlF0dENxQnYwOG5tQWVudzVqbw?oc=5",
+      "summary_ko": [
+        "미국 국채 수익률이 상승하며 경제를 평가하고 있다.",
+        "투자자들이 금리 인상 우려로 국채를 매도하고 있다.",
+        "이러한 경향은 채권 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 채권 시장과의 직접 연결 고리가 약하다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    },
+    {
+      "id": "n_8a3e34ae",
+      "category": "macro_rates",
+      "importance": 3,
+      "importance_label_ko": "업종 확산 관찰",
+      "title_ko": "금, $3,700 이하로 하락, 금리 인상 우려",
+      "preview_ko": "금 가격이 $3,700 이하로 하락했다.",
+      "published_at": "2026-11-19T16:55:00Z",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RC1tTG5JMVFfZmMteGNWWm9zNjJWanN2ajVxVnRFc3V3NDFrcXgtVDRmYWZXOXZEV05WZk83V0MxUGxicjEwOW1mekhTaGJLWjQxUUFCNl9yT01ZUThkZWEwc1JjemVYUVF2SEp3c1BXc3JVTWc?oc=5",
+      "summary_ko": [
+        "금 가격이 $3,700 이하로 하락하며 금리 인상 우려가 커지고 있다.",
+        "비수익 자산에 대한 부담이 증가하고 있다.",
+        "이는 금 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 금 관련 업종의 반응을 확인할 필요가 있다."
+      },
+      "us_tickers": [],
+      "moves_ko": [],
+      "coverage": 0
+    }
+  ],
+  "calendar_actuals": [],
+  "total_batches": 15,
+  "failed_batches": 0,
+  "picked": [
+    "n_62a62d57",
+    "n_a566f1d6",
+    "n_4524fd3f",
+    "n_4bd4d3c1",
+    "n_66857711",
+    "n_79540770",
+    "n_20f0b9e9",
+    "n_f176c0c2"
+  ],
+  "notes": [
+    "11 summaries replaced by titles: numbers not in article"
+  ],
+  "llm_usage": {
+    "gpt-4o-mini": 57072,
+    "gpt-5.5": 12174
+  }
+}

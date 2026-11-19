@@ -1,0 +1,117 @@
+{
+  "themes": [
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "change_pct": 1.92,
+      "theme": "파운드리 · 첨단 공정",
+      "momentum_ko": "인텔이 18A 칩의 첫 외부 고객과 계약을 체결했다.",
+      "related_news_ids": [
+        "n_20f0b9e9"
+      ],
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "mapping_source": "auto",
+      "mapping_reviewed": "2026-11-09"
+    }
+  ],
+  "proposals": [],
+  "auto": [
+    {
+      "us_ticker": "AVGO",
+      "name": "Broadcom",
+      "theme": "AI 반도체 · HBM",
+      "kr_stocks": [
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        },
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "same_theme",
+          "relation_ko": "AI수요"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_62176b38"
+      ]
+    },
+    {
+      "us_ticker": "INTC",
+      "name": "Intel",
+      "theme": "파운드리 · 첨단 공정",
+      "kr_stocks": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "link": "competitor",
+          "relation_ko": "파운드리"
+        }
+      ],
+      "reviewed": "2026-11-09",
+      "news_ids": [
+        "n_910067d6"
+      ]
+    },
+    {
+      "us_ticker": "META",
+      "name": "Meta Platforms",
+      "theme": "디지털 광고 · 플랫폼",
+      "kr_stocks": [
+        {
+          "code": "035420",
+          "name": "NAVER",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        },
+        {
+          "code": "035720",
+          "name": "카카오",
+          "link": "same_theme",
+          "relation_ko": "광고플랫폼"
+        }
+      ],
+      "reviewed": "2026-11-10",
+      "news_ids": [
+        "n_acf96c12"
+      ]
+    },
+    {
+      "us_ticker": "ORCL",
+      "name": "Oracle",
+      "theme": "클라우드 · 기업용 소프트웨어",
+      "kr_stocks": [
+        {
+          "code": "018260",
+          "name": "삼성에스디에스",
+          "link": "same_theme",
+          "relation_ko": "클라우드"
+        },
+        {
+          "code": "035420",
+          "name": "NAVER",
+          "link": "same_theme",
+          "relation_ko": "클라우드"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "news_ids": [
+        "n_34cd832a"
+      ]
+    }
+  ],
+  "listing_checked": true,
+  "rule_ko": "S&P 500(−2.02%)보다 1%p 이상 오른 종목만",
+  "excluded": [],
+  "notes": []
+}

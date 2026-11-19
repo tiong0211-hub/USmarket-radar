@@ -1,0 +1,185 @@
+{
+  "run_date": "2026-11-20",
+  "us_market_closed": false,
+  "indicators": [
+    {
+      "key": "NDX",
+      "label": "나스닥100",
+      "kind": "현물",
+      "value": 26517.05,
+      "unit": null,
+      "change_pct": -2.21,
+      "change_bp": null
+    },
+    {
+      "key": "NQ",
+      "label": "나스닥100",
+      "kind": "선물",
+      "value": 26569.0,
+      "unit": null,
+      "change_pct": -2.27,
+      "change_bp": null
+    },
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "kind": "현물",
+      "value": 7175.83,
+      "unit": null,
+      "change_pct": -2.02,
+      "change_bp": null
+    },
+    {
+      "key": "ES",
+      "label": "S&P 500",
+      "kind": "선물",
+      "value": 7192.5,
+      "unit": null,
+      "change_pct": -2.02,
+      "change_bp": null
+    },
+    {
+      "key": "VIX",
+      "label": "CBOE VIX",
+      "kind": "변동성",
+      "value": 29.13,
+      "unit": null,
+      "change_pct": 18.61,
+      "change_bp": null
+    },
+    {
+      "key": "US10Y",
+      "label": "미국 10년물",
+      "kind": "금리",
+      "value": 5.05,
+      "unit": "%",
+      "change_pct": null,
+      "change_bp": -1
+    },
+    {
+      "key": "USDKRW",
+      "label": "원 / 달러",
+      "kind": "환율",
+      "value": 1334.16,
+      "unit": "원",
+      "change_pct": 0.09,
+      "change_bp": null
+    },
+    {
+      "key": "SOX",
+      "label": "필라델피아 반도체",
+      "kind": "업종",
+      "value": 9419.72,
+      "unit": null,
+      "change_pct": -2.41,
+      "change_bp": null
+    }
+  ],
+  "sentiment": {
+    "score": 1,
+    "label": "극도의 공포",
+    "vix": 29.13
+  },
+  "calendar_released": [],
+  "calendar_upcoming": [],
+  "top_news": [
+    {
+      "title_ko": "다우지수 1,084포인트 급락, 나스닥 2.2% 하락",
+      "category": "macro_rates",
+      "importance": 5,
+      "moves_ko": [
+        "나스닥100 −2.21%",
+        "S&P 500 −2.02%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 증시가 미국 증시 하락을 반영해 약세로 출발하는지 확인."
+      }
+    },
+    {
+      "title_ko": "AI 주식, 상승폭 반납",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [
+        "필라델피아 반도체 −2.41%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 AI 주식의 하락세를 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "AMD, 중국 노출 주장에 7% 하락",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [
+        "AMD −7.72%"
+      ],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 반도체 대형주가 AMD의 하락을 따라 약세로 출발하는지 확인"
+      }
+    },
+    {
+      "title_ko": "앤트로픽, 상장 첫날 34% 상승",
+      "category": "theme_earnings",
+      "importance": 4,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 AI 관련 업종의 반응을 관찰할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "모기지 금리 다시 상승, 인플레이션 영향",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "negative",
+        "text": "국내 주택 관련 업종의 반응을 확인할 필요가 있다."
+      }
+    },
+    {
+      "title_ko": "미국, 중국, 러시아, 석유 생산 증대 계획",
+      "category": "geopolitics_commodities",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 원자재 시장에 미치는 영향은 제한적일 것으로 보임."
+      }
+    },
+    {
+      "title_ko": "인텔, 18A 칩 외부 고객과 계약 체결",
+      "category": "theme_earnings",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "positive",
+        "text": "국내 반도체 대형주가 인텔 계약 소식에 긍정적 반응을 보일지 확인."
+      }
+    },
+    {
+      "title_ko": "대만, 시장 하락에 대응해 공매도 규제 강화",
+      "category": "macro_rates",
+      "importance": 3,
+      "moves_ko": [],
+      "kr_impact": {
+        "direction": "neutral",
+        "text": "국내 직접 연결 고리 약함."
+      }
+    }
+  ],
+  "themes": [
+    {
+      "us_ticker": "INTC",
+      "change_pct": 1.92,
+      "theme": "파운드리 · 첨단 공정"
+    }
+  ],
+  "outlook": {
+    "direction": "gap_down",
+    "strong": false
+  }
+}
